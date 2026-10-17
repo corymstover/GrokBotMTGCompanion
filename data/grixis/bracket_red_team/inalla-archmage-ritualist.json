@@ -1,0 +1,645 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Ad Nauseam",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Ad Nauseam"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:interaction"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#construction_rules/1",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#engines/eminence-copies",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#identity_core/Apprentice Necromancer"
+      ],
+      "card": "Apprentice Necromancer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Apprentice Necromancer",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#package:wizards"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#key_interactions/finale-timing"
+      ],
+      "card": "Beseech the Mirror",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Beseech the Mirror"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#identity_core/Bloodline Necromancer",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:wizards",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#plan/value"
+      ],
+      "card": "Bloodline Necromancer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Bloodline Necromancer",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:1869-2721-3719",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#win:bloodline-technomancer"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#plan/value",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:sac-reanimate",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+      ],
+      "card": "Burnt Offering",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Burnt Offering",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:500-813-1777",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:813-1777-1893"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:sac-reanimate",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/scholar-loops"
+      ],
+      "card": "Culling the Weak",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Culling the Weak",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:500-813-2081",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:813-1893-2081"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach"
+      ],
+      "card": "Demonic Consultation",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Demonic Consultation",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:742-1295"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#engines/fast-mana-tutors",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets/Scholar of the Ages"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#engines/fast-mana-tutors",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:sac-reanimate",
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets/Scholar of the Ages"
+      ],
+      "card": "Entomb",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Entomb"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Essence Flux",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Essence Flux"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Final Fortune",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Final Fortune"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#key_interactions/finale-timing"
+      ],
+      "card": "Finale of Promise",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Finale of Promise"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:interaction"
+      ],
+      "card": "Flusterstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Flusterstorm"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:interaction"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gamble",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hoarding Broodlord",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Hoarding Broodlord"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#engines/fast-mana-tutors"
+      ],
+      "card": "Imperial Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Imperial Seal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets/Scholar of the Ages"
+      ],
+      "card": "Intuition",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Intuition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:wizards"
+      ],
+      "card": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Kefka, Court Mage // Kefka, Ruler of Ruin",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#package:wizards"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Lim-Dûl's Vault",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Lim-Dûl's Vault"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#win_conditions/oracle-breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:sac-reanimate"
+      ],
+      "card": "Lively Dirge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Lively Dirge"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#engines/fast-mana-tutors"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:interaction"
+      ],
+      "card": "Mental Misstep",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Mental Misstep"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Mystical Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Mystical Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Necropotence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Necropotence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json#packages/pkg:interaction"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/inalla-archmage-ritualist.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic cEDH staples that don't exploit Inalla (e.g. Orcish Bowmasters) were rejected (decisions L77).",
+      "Don't build around casting Inalla routinely; she works from the command zone."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate cuts Scholar loops and Breach.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Bloodline/Technomancer loop",
+       "Oracle + Consultation"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "A Wizard leaving mid-trigger stops the copy.",
+      "evidence_class": "strategic_judgment",
+      "id": "eminence-fizzle",
+      "mitigations": [
+       "Protect key ETBs"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Split second stops Finale/Beseech casts mid-resolution.",
+      "evidence_class": "strategic_judgment",
+      "id": "split-second",
+      "mitigations": [
+       "Alternate tutors"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters and one-mana stack interaction.",
+      "mana": "Fast mana and rituals; {1} spare per Eminence copy.",
+      "protection": "Cavern of Souls, counters."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Inalla, Archmage Ritualist",
+       "Bloodline Necromancer",
+       "Ruthless Technomancer"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Apprentice Necromancer"
+      ],
+      "evidence_class": "fact",
+      "id": "bloodline-technomancer",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Scholar of the Ages",
+       "Sacrifice",
+       "Burnt Offering",
+       "Culling the Weak",
+       "Persist",
+       "Shallow Grave",
+       "Saw in Half"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Spellseeker",
+       "Inalla, Archmage Ritualist"
+      ],
+      "evidence_class": "fact",
+      "id": "scholar-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Thassa's Oracle",
+       "Demonic Consultation",
+       "Tainted Pact",
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Brain Freeze"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "oracle-breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Eminence doubles every Wizard ETB without Inalla being cast; she's needed for the Bloodline + Technomancer loop and her five-Wizard tap closes it.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The deck mostly doesn't cast her (decisions L16). The nine Scholar + sacrifice-ritual loops, Oracle and Breach all win without Inalla, and the one-card Spellseeker line is rated uncertain in M1 (inalla-06).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 9,
+      "combo_commander_independent": 5,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 15
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/inalla-archmage-ritualist.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/inalla-archmage-ritualist.json#test:inalla-archmage-ritualist:stress:first_key_spell_countered:58e2356d718b",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/inalla-archmage-ritualist.json#test:inalla-archmage-ritualist:stress:graveyard_exiled:2b2735107abe",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/inalla-archmage-ritualist.json#test:inalla-archmage-ritualist:stress:commander_removed_twice:48f021a3b7eb",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/inalla-archmage-ritualist.json#test:inalla-archmage-ritualist:stress:key_engine_exiled:a74fa3cf92c2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "inalla-archmage-ritualist",
+ "source_packet": "data/grixis/bracket_stress_packets/inalla-archmage-ritualist.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

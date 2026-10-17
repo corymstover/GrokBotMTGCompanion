@@ -1,0 +1,1969 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "deck_id": "Edward_Kenway",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 97,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/end-step-treasure",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Academy Manufactor",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out"
+      ],
+      "card": "Academy Manufactor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Academy Manufactor",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Adrestia",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Adrestia"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Basim Ibn Ishaq",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Basim Ibn Ishaq"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/end-step-treasure"
+      ],
+      "card": "Black Market Connections",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Breeches, Eager Pillager",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Breeches, Eager Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Captain Lannery Storm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Captain Lannery Storm"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#requirements/value"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/end-step-treasure"
+      ],
+      "card": "Coastal Piracy",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Coastal Piracy"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/vehicle-theft"
+      ],
+      "card": "Don Andres, the Renegade",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Don Andres, the Renegade"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#failure_modes/self-deck",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out"
+      ],
+      "card": "Fateful Discovery",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Fateful Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Fearless Swashbuckler",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Fearless Swashbuckler"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Gemcutter Buccaneer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Gemcutter Buccaneer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#plan/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/malcolm-glint-horn"
+      ],
+      "card": "Glint-Horn Buccaneer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Glint-Horn Buccaneer",
+       "graph:data/grixis/graph/edward-kenway.json#combo:4508-4869"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#plan/value"
+      ],
+      "card": "Hoard Hauler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Hoard Hauler",
+       "graph:data/grixis/graph/edward-kenway.json#combo:451-1558"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/vehicle-theft",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles"
+      ],
+      "card": "Jackdaw",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Jackdaw"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Kitesail Larcenist",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Kitesail Larcenist"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Lotus Petal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Luxurious Locomotive",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles"
+      ],
+      "card": "Luxurious Locomotive",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Luxurious Locomotive",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-6307"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/malcolm-glint-horn"
+      ],
+      "card": "Malcolm, Keen-Eyed Navigator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Malcolm, Keen-Eyed Navigator",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508",
+       "graph:data/grixis/graph/edward-kenway.json#combo:4508-4869"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Mary Read and Anne Bonny",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Mary Read and Anne Bonny"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#requirements/value"
+      ],
+      "card": "Mox Diamond",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Mox Diamond"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#requirements/value"
+      ],
+      "card": "Mox Opal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/titanic",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles"
+      ],
+      "card": "RMS Titanic",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/RMS Titanic"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Ragavan, Nimble Pilferer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Ragavan, Nimble Pilferer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/vehicle-theft",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Ramirez DePietro, Pillager",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/play-lands"
+      ],
+      "card": "Ramirez DePietro, Pillager",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Ramirez DePietro, Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic cEDH staples are justified only where the source found them to beat commander-specific cards (decisions L13).",
+      "Keep the creature/Vehicle balance: Vehicles without crew don't count."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "A wipe takes out the creature/Vehicle board Edward counts.",
+      "evidence_class": "strategic_judgment",
+      "id": "board-wipe",
+      "mitigations": [
+       "Admiral Brass recursion",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Mandatory draws during a loop can deck you.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-deck",
+      "mitigations": [
+       "Watch library size; skip Fateful Discovery mid-loop"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Creatures that crew can't also attack; Vehicles without crew are dead.",
+      "evidence_class": "strategic_judgment",
+      "id": "crew-tension",
+      "mitigations": [
+       "Cheap crew bodies",
+       "Over-crew Locomotive"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free and cheap counters (Force of Will, Fierce Guardianship, Mana Drain, Swan Song) and removal Vehicles.",
+      "mana": "Premium fast mana (Mana Vault, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal) and Edward's Treasures.",
+      "protection": "Deflecting Swat, Fierce Guardianship, Cavern of Souls for Pirates."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Edward Kenway",
+       "Time Sieve"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Academy Manufactor"
+      ],
+      "evidence_class": "fact",
+      "id": "edward-time-sieve",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Sieve",
+       "The Reaver Cleaver",
+       "Luxurious Locomotive",
+       "Hoard Hauler"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "other-time-sieve",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Malcolm, Keen-Eyed Navigator",
+       "Glint-Horn Buccaneer"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "malcolm-glint-horn",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Edward converts every tapped Assassin, Pirate and Vehicle into Treasure and is half of the Edward + Time Sieve extra-turn loop.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Several of the deck's infinite lines (Reaver Cleaver, Luxurious Locomotive, Hoard Hauler + Time Sieve; Malcolm + Glint-Horn) work without Edward, and the ten-Game-Changer card pool does much of the lifting.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 5,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:board_wipe:d39c037e4a08",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:artifacts_wiped:99ce832b4632",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:commander_removed_twice:3530be315821",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:key_engine_exiled:31171de7675a",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:mana_screw:b386831a33b6",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:color_screw:d77c6cc79f54",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:graveyard_exiled:1f15c0ae8fa9",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/end-step-treasure",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Academy Manufactor",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out"
+      ],
+      "card": "Academy Manufactor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Academy Manufactor",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#plan/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/malcolm-glint-horn"
+      ],
+      "card": "Glint-Horn Buccaneer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Glint-Horn Buccaneer",
+       "graph:data/grixis/graph/edward-kenway.json#combo:4508-4869"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#plan/value"
+      ],
+      "card": "Hoard Hauler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Hoard Hauler",
+       "graph:data/grixis/graph/edward-kenway.json#combo:451-1558"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Luxurious Locomotive",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles"
+      ],
+      "card": "Luxurious Locomotive",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Luxurious Locomotive",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-6307"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/malcolm-glint-horn"
+      ],
+      "card": "Malcolm, Keen-Eyed Navigator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Malcolm, Keen-Eyed Navigator",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508",
+       "graph:data/grixis/graph/edward-kenway.json#combo:4508-4869"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/vehicle-theft",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Ramirez DePietro, Pillager",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/play-lands"
+      ],
+      "card": "Ramirez DePietro, Pillager",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Ramirez DePietro, Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Roaming Throne",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles"
+      ],
+      "card": "Skysovereign, Consul Flagship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Skysovereign, Consul Flagship"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/other-time-sieve"
+      ],
+      "card": "The Reaver Cleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/The Reaver Cleaver",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-5039"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Time Sieve",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Time Sieve",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-5039"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Toxic Deluge",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic cEDH staples are justified only where the source found them to beat commander-specific cards (decisions L13).",
+      "Keep the creature/Vehicle balance: Vehicles without crew don't count."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "A wipe takes out the creature/Vehicle board Edward counts.",
+      "evidence_class": "strategic_judgment",
+      "id": "board-wipe",
+      "mitigations": [
+       "Admiral Brass recursion",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Mandatory draws during a loop can deck you.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-deck",
+      "mitigations": [
+       "Watch library size; skip Fateful Discovery mid-loop"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Creatures that crew can't also attack; Vehicles without crew are dead.",
+      "evidence_class": "strategic_judgment",
+      "id": "crew-tension",
+      "mitigations": [
+       "Cheap crew bodies",
+       "Over-crew Locomotive"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free and cheap counters (Force of Will, Fierce Guardianship, Mana Drain, Swan Song) and removal Vehicles.",
+      "mana": "Premium fast mana (Mana Vault, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal) and Edward's Treasures.",
+      "protection": "Deflecting Swat, Fierce Guardianship, Cavern of Souls for Pirates."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Edward Kenway",
+       "Time Sieve"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Academy Manufactor"
+      ],
+      "evidence_class": "fact",
+      "id": "edward-time-sieve",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Sieve",
+       "The Reaver Cleaver",
+       "Luxurious Locomotive",
+       "Hoard Hauler"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "other-time-sieve",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Malcolm, Keen-Eyed Navigator",
+       "Glint-Horn Buccaneer"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "malcolm-glint-horn",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Edward converts every tapped Assassin, Pirate and Vehicle into Treasure and is half of the Edward + Time Sieve extra-turn loop.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Several of the deck's infinite lines (Reaver Cleaver, Luxurious Locomotive, Hoard Hauler + Time Sieve; Malcolm + Glint-Horn) work without Edward, and the ten-Game-Changer card pool does much of the lifting.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 5,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:board_wipe:d39c037e4a08",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:artifacts_wiped:99ce832b4632",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:commander_removed_twice:3530be315821",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:key_engine_exiled:31171de7675a",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:mana_screw:b386831a33b6",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:color_screw:d77c6cc79f54",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:graveyard_exiled:1f15c0ae8fa9",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/end-step-treasure",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Academy Manufactor",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out"
+      ],
+      "card": "Academy Manufactor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Academy Manufactor",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#plan/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/malcolm-glint-horn"
+      ],
+      "card": "Glint-Horn Buccaneer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Glint-Horn Buccaneer",
+       "graph:data/grixis/graph/edward-kenway.json#combo:4508-4869"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#plan/value"
+      ],
+      "card": "Hoard Hauler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Hoard Hauler",
+       "graph:data/grixis/graph/edward-kenway.json#combo:451-1558"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Luxurious Locomotive",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles"
+      ],
+      "card": "Luxurious Locomotive",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Luxurious Locomotive",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-6307"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/malcolm-glint-horn"
+      ],
+      "card": "Malcolm, Keen-Eyed Navigator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Malcolm, Keen-Eyed Navigator",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508",
+       "graph:data/grixis/graph/edward-kenway.json#combo:4508-4869"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/vehicle-theft",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Ramirez DePietro, Pillager",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/play-lands"
+      ],
+      "card": "Ramirez DePietro, Pillager",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Ramirez DePietro, Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Roaming Throne",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles"
+      ],
+      "card": "Skysovereign, Consul Flagship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Skysovereign, Consul Flagship"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/other-time-sieve"
+      ],
+      "card": "The Reaver Cleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/The Reaver Cleaver",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-5039"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Time Sieve",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Time Sieve",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-5039"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Toxic Deluge",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic cEDH staples are justified only where the source found them to beat commander-specific cards (decisions L13).",
+      "Keep the creature/Vehicle balance: Vehicles without crew don't count."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "A wipe takes out the creature/Vehicle board Edward counts.",
+      "evidence_class": "strategic_judgment",
+      "id": "board-wipe",
+      "mitigations": [
+       "Admiral Brass recursion",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Mandatory draws during a loop can deck you.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-deck",
+      "mitigations": [
+       "Watch library size; skip Fateful Discovery mid-loop"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Creatures that crew can't also attack; Vehicles without crew are dead.",
+      "evidence_class": "strategic_judgment",
+      "id": "crew-tension",
+      "mitigations": [
+       "Cheap crew bodies",
+       "Over-crew Locomotive"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free and cheap counters (Force of Will, Fierce Guardianship, Mana Drain, Swan Song) and removal Vehicles.",
+      "mana": "Premium fast mana (Mana Vault, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal) and Edward's Treasures.",
+      "protection": "Deflecting Swat, Fierce Guardianship, Cavern of Souls for Pirates."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Edward Kenway",
+       "Time Sieve"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Academy Manufactor"
+      ],
+      "evidence_class": "fact",
+      "id": "edward-time-sieve",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Sieve",
+       "The Reaver Cleaver",
+       "Luxurious Locomotive",
+       "Hoard Hauler"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "other-time-sieve",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Malcolm, Keen-Eyed Navigator",
+       "Glint-Horn Buccaneer"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "malcolm-glint-horn",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Edward converts every tapped Assassin, Pirate and Vehicle into Treasure and is half of the Edward + Time Sieve extra-turn loop.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Several of the deck's infinite lines (Reaver Cleaver, Luxurious Locomotive, Hoard Hauler + Time Sieve; Malcolm + Glint-Horn) work without Edward, and the ten-Game-Changer card pool does much of the lifting.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 5,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:board_wipe:d39c037e4a08",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:artifacts_wiped:99ce832b4632",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:commander_removed_twice:3530be315821",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:key_engine_exiled:31171de7675a",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:mana_screw:b386831a33b6",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:color_screw:d77c6cc79f54",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:graveyard_exiled:1f15c0ae8fa9",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/end-step-treasure",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Academy Manufactor",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out"
+      ],
+      "card": "Academy Manufactor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Academy Manufactor",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#plan/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/malcolm-glint-horn"
+      ],
+      "card": "Glint-Horn Buccaneer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Glint-Horn Buccaneer",
+       "graph:data/grixis/graph/edward-kenway.json#combo:4508-4869"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#plan/value"
+      ],
+      "card": "Hoard Hauler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Hoard Hauler",
+       "graph:data/grixis/graph/edward-kenway.json#combo:451-1558"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Luxurious Locomotive",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles"
+      ],
+      "card": "Luxurious Locomotive",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Luxurious Locomotive",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-6307"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/malcolm-glint-horn"
+      ],
+      "card": "Malcolm, Keen-Eyed Navigator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Malcolm, Keen-Eyed Navigator",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508",
+       "graph:data/grixis/graph/edward-kenway.json#combo:4508-4869"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#engines/vehicle-theft",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Ramirez DePietro, Pillager",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/play-lands"
+      ],
+      "card": "Ramirez DePietro, Pillager",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Ramirez DePietro, Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Roaming Throne",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:pirates-assassins"
+      ],
+      "card": "Siren Stormtamer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Siren Stormtamer"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#packages/pkg:vehicles"
+      ],
+      "card": "Skysovereign, Consul Flagship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Skysovereign, Consul Flagship"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#win_conditions/other-time-sieve"
+      ],
+      "card": "The Reaver Cleaver",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/The Reaver Cleaver",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-5039"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edward-kenway.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#identity_core/Time Sieve",
+       "blueprint:data/grixis/blueprints/edward-kenway.json#key_interactions/fateful-deck-out"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Time Sieve",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-4231-4508",
+       "graph:data/grixis/graph/edward-kenway.json#combo:1558-5039"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Toxic Deluge",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edward-kenway.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Generic cEDH staples are justified only where the source found them to beat commander-specific cards (decisions L13).",
+      "Keep the creature/Vehicle balance: Vehicles without crew don't count."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "A wipe takes out the creature/Vehicle board Edward counts.",
+      "evidence_class": "strategic_judgment",
+      "id": "board-wipe",
+      "mitigations": [
+       "Admiral Brass recursion",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Mandatory draws during a loop can deck you.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-deck",
+      "mitigations": [
+       "Watch library size; skip Fateful Discovery mid-loop"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Creatures that crew can't also attack; Vehicles without crew are dead.",
+      "evidence_class": "strategic_judgment",
+      "id": "crew-tension",
+      "mitigations": [
+       "Cheap crew bodies",
+       "Over-crew Locomotive"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free and cheap counters (Force of Will, Fierce Guardianship, Mana Drain, Swan Song) and removal Vehicles.",
+      "mana": "Premium fast mana (Mana Vault, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal) and Edward's Treasures.",
+      "protection": "Deflecting Swat, Fierce Guardianship, Cavern of Souls for Pirates."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Edward Kenway",
+       "Time Sieve"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Academy Manufactor"
+      ],
+      "evidence_class": "fact",
+      "id": "edward-time-sieve",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Sieve",
+       "The Reaver Cleaver",
+       "Luxurious Locomotive",
+       "Hoard Hauler"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "other-time-sieve",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Malcolm, Keen-Eyed Navigator",
+       "Glint-Horn Buccaneer"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "malcolm-glint-horn",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Edward converts every tapped Assassin, Pirate and Vehicle into Treasure and is half of the Edward + Time Sieve extra-turn loop.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Several of the deck's infinite lines (Reaver Cleaver, Luxurious Locomotive, Hoard Hauler + Time Sieve; Malcolm + Glint-Horn) work without Edward, and the ten-Game-Changer card pool does much of the lifting.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 5,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:board_wipe:d39c037e4a08",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:artifacts_wiped:99ce832b4632",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:commander_removed_twice:3530be315821",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:key_engine_exiled:31171de7675a",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:mana_screw:b386831a33b6",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:color_screw:d77c6cc79f54",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edward-kenway.json#test:edward-kenway:stress:graveyard_exiled:1f15c0ae8fa9",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "edward-kenway",
+ "source_packet": "data/grixis/bracket_stress_packets/edward-kenway.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

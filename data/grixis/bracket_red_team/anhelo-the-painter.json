@@ -1,0 +1,2588 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "deck_id": "Anhelo__the_Painter",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 93,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Archmage Emeritus",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast"
+      ],
+      "card": "Archmage Emeritus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Archmage Emeritus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:casualty-fodder",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns"
+      ],
+      "card": "Army of the Damned",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Army of the Damned"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Big Score",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Big Score"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cormela, Glamour Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cormela, Glamour Thief",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Crackle with Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Crackle with Power"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cryptic Pursuit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cryptic Pursuit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Ritual",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deekah, Fractal Theorist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Deekah, Fractal Theorist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/dualcaster-twinflame"
+      ],
+      "card": "Dualcaster Mage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Dualcaster Mage",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:147-1235"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Frantic Search",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Ghoulish Procession",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:casualty-fodder"
+      ],
+      "card": "Ghoulish Procession",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Ghoulish Procession"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1878-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/spell-recursion",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/spell-recursion",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#recursion/value"
+      ],
+      "card": "Maestros Ascendancy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Maestros Ascendancy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Mana Geyser",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Mana Geyser",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:2091-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Narset's Reversal",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Twinning Staff",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers"
+      ],
+      "card": "Narset's Reversal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Narset's Reversal",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-2539"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Preordain",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Preordain"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Primal Amulet // Primal Wellspring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Primal Amulet // Primal Wellspring",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/narset-reversal-loop"
+      ],
+      "card": "Reiterate",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Reiterate",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-3368",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sol Ring",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:casualty-fodder"
+      ],
+      "card": "Startle",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Startle"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast"
+      ],
+      "card": "Storm-Kiln Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Storm-Kiln Artist",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't homogenize into generic Grixis storm that ignores casualty fodder.",
+      "Don't cut the power-2+ body count below what casualty needs."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No power-2+ creature when the important spell is cast: no copy.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-fodder",
+      "mitigations": [
+       "Token makers",
+       "Bloodghast recursion"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Sacrificing an engine creature (Talrand, Archmage) to casualty trades away the value engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "fodder-is-engine",
+      "mitigations": [
+       "Prioritize token fodder"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate and stack interaction stop the copy loops.",
+      "evidence_class": "strategic_judgment",
+      "id": "combo-disrupted",
+      "mitigations": [
+       "Multiple distinct infinites",
+       "Free counters"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap instant-speed interaction that doubles as the turn's casualty spell.",
+      "mana": "Rituals, rocks and Storm-Kiln Treasures; 31 lands.",
+      "protection": "Free counters protect combo turns; Anhelo himself is cheap to recast."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Narset's Reversal",
+       "Twinning Staff",
+       "Reiterate"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Archmage Emeritus",
+       "Talrand, Sky Summoner"
+      ],
+      "evidence_class": "fact",
+      "id": "narset-reversal-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dualcaster Mage",
+       "Twinflame"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "dualcaster-twinflame",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Reiterate",
+       "Mana Geyser",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Crackle with Power",
+       "Torment of Hailfire"
+      ],
+      "evidence_class": "fact",
+      "id": "reiterate-mana",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Warp",
+       "Army of the Damned",
+       "Crackle with Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Anhelo, the Painter"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "copied-extra-turns",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Anhelo turns one spell per turn into two and makes token makers double as copy fuel; his deathtouch body also blocks.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The deck's kills are mostly two-card spell-copy infinites that do not need Anhelo; he is a value engine (one casualty per turn), not the win condition. Calling him 'central' would overstate it.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 8,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 8
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:board_wipe:901c7282b715",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:artifacts_wiped:6721a32aa3b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:commander_removed_twice:adeb8c40c8fd",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:key_engine_exiled:666ec94a2be2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:mana_screw:2bc06486e1bf",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:color_screw:909e885acd48",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:graveyard_exiled:60834d69c447",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Archmage Emeritus",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast"
+      ],
+      "card": "Archmage Emeritus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Archmage Emeritus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:casualty-fodder",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns"
+      ],
+      "card": "Army of the Damned",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Army of the Damned"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cormela, Glamour Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cormela, Glamour Thief",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Crackle with Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Crackle with Power"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cryptic Pursuit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cryptic Pursuit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deekah, Fractal Theorist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Deekah, Fractal Theorist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/dualcaster-twinflame"
+      ],
+      "card": "Dualcaster Mage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Dualcaster Mage",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:147-1235"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Frantic Search",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Ghoulish Procession",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:casualty-fodder"
+      ],
+      "card": "Ghoulish Procession",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Ghoulish Procession"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1878-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/spell-recursion",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/spell-recursion",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#recursion/value"
+      ],
+      "card": "Maestros Ascendancy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Maestros Ascendancy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Maestros Charm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Maestros Charm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Mana Geyser",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Mana Geyser",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:2091-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Narset's Reversal",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Twinning Staff",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers"
+      ],
+      "card": "Narset's Reversal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Narset's Reversal",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-2539"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Primal Amulet // Primal Wellspring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Primal Amulet // Primal Wellspring",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/narset-reversal-loop"
+      ],
+      "card": "Reiterate",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Reiterate",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-3368",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast"
+      ],
+      "card": "Storm-Kiln Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Storm-Kiln Artist",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/narset-reversal-loop"
+      ],
+      "card": "Talrand, Sky Summoner",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Talrand, Sky Summoner"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thunderclap Drake",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Thunderclap Drake"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns"
+      ],
+      "card": "Time Warp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Time Warp"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Torment of Hailfire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Torment of Hailfire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#tutor_targets/Twinflame"
+      ],
+      "card": "Twinflame",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Twinflame",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:147-1235"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Twinning Staff",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/twinning-staff",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers"
+      ],
+      "card": "Twinning Staff",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Twinning Staff",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-2539"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't homogenize into generic Grixis storm that ignores casualty fodder.",
+      "Don't cut the power-2+ body count below what casualty needs."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No power-2+ creature when the important spell is cast: no copy.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-fodder",
+      "mitigations": [
+       "Token makers",
+       "Bloodghast recursion"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Sacrificing an engine creature (Talrand, Archmage) to casualty trades away the value engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "fodder-is-engine",
+      "mitigations": [
+       "Prioritize token fodder"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate and stack interaction stop the copy loops.",
+      "evidence_class": "strategic_judgment",
+      "id": "combo-disrupted",
+      "mitigations": [
+       "Multiple distinct infinites",
+       "Free counters"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap instant-speed interaction that doubles as the turn's casualty spell.",
+      "mana": "Rituals, rocks and Storm-Kiln Treasures; 31 lands.",
+      "protection": "Free counters protect combo turns; Anhelo himself is cheap to recast."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Narset's Reversal",
+       "Twinning Staff",
+       "Reiterate"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Archmage Emeritus",
+       "Talrand, Sky Summoner"
+      ],
+      "evidence_class": "fact",
+      "id": "narset-reversal-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dualcaster Mage",
+       "Twinflame"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "dualcaster-twinflame",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Reiterate",
+       "Mana Geyser",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Crackle with Power",
+       "Torment of Hailfire"
+      ],
+      "evidence_class": "fact",
+      "id": "reiterate-mana",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Warp",
+       "Army of the Damned",
+       "Crackle with Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Anhelo, the Painter"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "copied-extra-turns",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Anhelo turns one spell per turn into two and makes token makers double as copy fuel; his deathtouch body also blocks.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The deck's kills are mostly two-card spell-copy infinites that do not need Anhelo; he is a value engine (one casualty per turn), not the win condition. Calling him 'central' would overstate it.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 8,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 8
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:board_wipe:901c7282b715",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:artifacts_wiped:6721a32aa3b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:commander_removed_twice:adeb8c40c8fd",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:key_engine_exiled:666ec94a2be2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:mana_screw:2bc06486e1bf",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:color_screw:909e885acd48",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:graveyard_exiled:60834d69c447",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Archmage Emeritus",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast"
+      ],
+      "card": "Archmage Emeritus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Archmage Emeritus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:casualty-fodder",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns"
+      ],
+      "card": "Army of the Damned",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Army of the Damned"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cormela, Glamour Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cormela, Glamour Thief",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Crackle with Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Crackle with Power"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cryptic Pursuit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cryptic Pursuit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deekah, Fractal Theorist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Deekah, Fractal Theorist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/dualcaster-twinflame"
+      ],
+      "card": "Dualcaster Mage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Dualcaster Mage",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:147-1235"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Frantic Search",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Ghoulish Procession",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:casualty-fodder"
+      ],
+      "card": "Ghoulish Procession",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Ghoulish Procession"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1878-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/spell-recursion",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/spell-recursion",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#recursion/value"
+      ],
+      "card": "Maestros Ascendancy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Maestros Ascendancy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Maestros Charm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Maestros Charm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Mana Geyser",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Mana Geyser",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:2091-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Narset's Reversal",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Twinning Staff",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers"
+      ],
+      "card": "Narset's Reversal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Narset's Reversal",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-2539"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Primal Amulet // Primal Wellspring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Primal Amulet // Primal Wellspring",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/narset-reversal-loop"
+      ],
+      "card": "Reiterate",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Reiterate",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-3368",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast"
+      ],
+      "card": "Storm-Kiln Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Storm-Kiln Artist",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/narset-reversal-loop"
+      ],
+      "card": "Talrand, Sky Summoner",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Talrand, Sky Summoner"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thunderclap Drake",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Thunderclap Drake"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns"
+      ],
+      "card": "Time Warp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Time Warp"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Torment of Hailfire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Torment of Hailfire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#tutor_targets/Twinflame"
+      ],
+      "card": "Twinflame",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Twinflame",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:147-1235"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Twinning Staff",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/twinning-staff",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers"
+      ],
+      "card": "Twinning Staff",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Twinning Staff",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-2539"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't homogenize into generic Grixis storm that ignores casualty fodder.",
+      "Don't cut the power-2+ body count below what casualty needs."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No power-2+ creature when the important spell is cast: no copy.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-fodder",
+      "mitigations": [
+       "Token makers",
+       "Bloodghast recursion"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Sacrificing an engine creature (Talrand, Archmage) to casualty trades away the value engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "fodder-is-engine",
+      "mitigations": [
+       "Prioritize token fodder"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate and stack interaction stop the copy loops.",
+      "evidence_class": "strategic_judgment",
+      "id": "combo-disrupted",
+      "mitigations": [
+       "Multiple distinct infinites",
+       "Free counters"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap instant-speed interaction that doubles as the turn's casualty spell.",
+      "mana": "Rituals, rocks and Storm-Kiln Treasures; 31 lands.",
+      "protection": "Free counters protect combo turns; Anhelo himself is cheap to recast."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Narset's Reversal",
+       "Twinning Staff",
+       "Reiterate"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Archmage Emeritus",
+       "Talrand, Sky Summoner"
+      ],
+      "evidence_class": "fact",
+      "id": "narset-reversal-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dualcaster Mage",
+       "Twinflame"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "dualcaster-twinflame",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Reiterate",
+       "Mana Geyser",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Crackle with Power",
+       "Torment of Hailfire"
+      ],
+      "evidence_class": "fact",
+      "id": "reiterate-mana",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Warp",
+       "Army of the Damned",
+       "Crackle with Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Anhelo, the Painter"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "copied-extra-turns",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Anhelo turns one spell per turn into two and makes token makers double as copy fuel; his deathtouch body also blocks.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The deck's kills are mostly two-card spell-copy infinites that do not need Anhelo; he is a value engine (one casualty per turn), not the win condition. Calling him 'central' would overstate it.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 8,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 8
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:board_wipe:901c7282b715",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:artifacts_wiped:6721a32aa3b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:commander_removed_twice:adeb8c40c8fd",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:key_engine_exiled:666ec94a2be2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:mana_screw:2bc06486e1bf",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:color_screw:909e885acd48",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:graveyard_exiled:60834d69c447",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Archmage Emeritus",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast"
+      ],
+      "card": "Archmage Emeritus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Archmage Emeritus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:casualty-fodder",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns"
+      ],
+      "card": "Army of the Damned",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Army of the Damned"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cormela, Glamour Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cormela, Glamour Thief",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Crackle with Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Crackle with Power"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cryptic Pursuit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cryptic Pursuit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deekah, Fractal Theorist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Deekah, Fractal Theorist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/dualcaster-twinflame"
+      ],
+      "card": "Dualcaster Mage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Dualcaster Mage",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:147-1235"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Frantic Search",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Ghoulish Procession",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:casualty-fodder"
+      ],
+      "card": "Ghoulish Procession",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Ghoulish Procession"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1878-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/spell-recursion",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/spell-recursion",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#recursion/value"
+      ],
+      "card": "Maestros Ascendancy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Maestros Ascendancy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Maestros Charm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Maestros Charm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:interaction"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/reiterate-mana"
+      ],
+      "card": "Mana Geyser",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Mana Geyser",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:2091-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Narset's Reversal",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#identity_core/Twinning Staff",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers"
+      ],
+      "card": "Narset's Reversal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Narset's Reversal",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-2539"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Primal Amulet // Primal Wellspring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Primal Amulet // Primal Wellspring",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-multipliers",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#plan/value",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/narset-reversal-loop"
+      ],
+      "card": "Reiterate",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Reiterate",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:11-3368",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1484-2196-3368"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast"
+      ],
+      "card": "Storm-Kiln Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Storm-Kiln Artist",
+       "graph:data/grixis/graph/anhelo-the-painter.json#combo:1235-4867-5195"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#engines/casualty-copy",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#key_interactions/copy-vs-cast",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/narset-reversal-loop"
+      ],
+      "card": "Talrand, Sky Summoner",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Talrand, Sky Summoner"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thunderclap Drake",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Thunderclap Drake"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#packages/pkg:copy-worthy-spells",
+       "blueprint:data/grixis/blueprints/anhelo-the-painter.json#win_conditions/copied-extra-turns"
+      ],
+      "card": "Time Warp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/anhelo-the-painter.json#metrics/Time Warp"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't homogenize into generic Grixis storm that ignores casualty fodder.",
+      "Don't cut the power-2+ body count below what casualty needs."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No power-2+ creature when the important spell is cast: no copy.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-fodder",
+      "mitigations": [
+       "Token makers",
+       "Bloodghast recursion"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Sacrificing an engine creature (Talrand, Archmage) to casualty trades away the value engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "fodder-is-engine",
+      "mitigations": [
+       "Prioritize token fodder"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate and stack interaction stop the copy loops.",
+      "evidence_class": "strategic_judgment",
+      "id": "combo-disrupted",
+      "mitigations": [
+       "Multiple distinct infinites",
+       "Free counters"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap instant-speed interaction that doubles as the turn's casualty spell.",
+      "mana": "Rituals, rocks and Storm-Kiln Treasures; 31 lands.",
+      "protection": "Free counters protect combo turns; Anhelo himself is cheap to recast."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Narset's Reversal",
+       "Twinning Staff",
+       "Reiterate"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Archmage Emeritus",
+       "Talrand, Sky Summoner"
+      ],
+      "evidence_class": "fact",
+      "id": "narset-reversal-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dualcaster Mage",
+       "Twinflame"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "dualcaster-twinflame",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Reiterate",
+       "Mana Geyser",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Crackle with Power",
+       "Torment of Hailfire"
+      ],
+      "evidence_class": "fact",
+      "id": "reiterate-mana",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Time Warp",
+       "Army of the Damned",
+       "Crackle with Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Anhelo, the Painter"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "copied-extra-turns",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Anhelo turns one spell per turn into two and makes token makers double as copy fuel; his deathtouch body also blocks.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The deck's kills are mostly two-card spell-copy infinites that do not need Anhelo; he is a value engine (one casualty per turn), not the win condition. Calling him 'central' would overstate it.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 8,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 8
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:board_wipe:901c7282b715",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:artifacts_wiped:6721a32aa3b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:commander_removed_twice:adeb8c40c8fd",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:key_engine_exiled:666ec94a2be2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:mana_screw:2bc06486e1bf",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:color_screw:909e885acd48",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/anhelo-the-painter.json#test:anhelo-the-painter:stress:graveyard_exiled:60834d69c447",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "anhelo-the-painter",
+ "source_packet": "data/grixis/bracket_stress_packets/anhelo-the-painter.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

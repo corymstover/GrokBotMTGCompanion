@@ -1,0 +1,2267 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+ "deck_id": "The_Valeyard",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 95,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Arcane Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/auton-myriad"
+      ],
+      "card": "Auton Soldier",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Auton Soldier"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bite of the Black Rose",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Bite of the Black Rose"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brainstorm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Brainstorm"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#plan/value"
+      ],
+      "card": "Capital Punishment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Capital Punishment"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Coercive Portal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Coercive Portal"
+      ],
+      "roles": [
+       "draw",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/villain-beats"
+      ],
+      "card": "Cult of Skaro",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Cult of Skaro"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Damocles Base, Sword of Kang",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Damocles Base, Sword of Kang"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Ritual",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Davros, Dalek Creator",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous"
+      ],
+      "card": "Davros, Dalek Creator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Davros, Dalek Creator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Dr. Eggman",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Dr. Eggman"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Ensnared by the Mara",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Ensnared by the Mara"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous"
+      ],
+      "card": "Great Intelligence's Plan",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Great Intelligence's Plan"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Illusion of Choice",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Illusion of Choice"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kess, Dissident Mage",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Messenger Jays",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Messenger Jays",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Messenger Jays"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous"
+      ],
+      "card": "Missy",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Missy"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Mob Verdict",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Mob Verdict"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Model of Unity",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Model of Unity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Path of the Enigma",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Path of the Enigma"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Path of the Pyromancer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Path of the Pyromancer"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#plan/value"
+      ],
+      "card": "Plea for Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Plea for Power"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:copy"
+      ],
+      "card": "Quantum Misalignment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Quantum Misalignment"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No 'choose' cards that aren't votes (decisions L43, L45).",
+      "No Tempt with Reflections without a legend-rule workaround (L65)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Five mana for two static modifiers; little happens without the cards they modify.",
+      "evidence_class": "strategic_judgment",
+      "id": "five-mana-static",
+      "mitigations": [
+       "Copies",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Villainous Choices and votes let opponents pick the least bad option.",
+      "evidence_class": "strategic_judgment",
+      "id": "opponent-choice",
+      "mitigations": [
+       "Doubled choices",
+       "Extra votes"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Villain threats"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Arcane Denial, Deadly Rollick, Feed the Swarm, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+      "mana": "36 lands; Arid Mesa replaced a dead Windswept Heath.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Valeyard",
+       "Damocles Base, Sword of Kang",
+       "Davros, Dalek Creator",
+       "Dr. Eggman",
+       "Ensnared by the Mara",
+       "Genesis of the Daleks",
+       "Messenger Jays",
+       "Capital Punishment",
+       "Plea for Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Spark Double",
+       "Quantum Misalignment",
+       "Sakashima of a Thousand Faces",
+       "Auton Soldier"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "political-attrition",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Davros, Dalek Creator",
+       "The Dalek Emperor",
+       "Cult of Skaro"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "villain-beats",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Valeyard doubles every Villainous Choice and adds a vote; nonlegendary copies add more.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native but narrow: two static modifiers, no body-based engine, and no Spellbook combos; the source asserts no infinite (decisions L76). Copies stack additively, not exponentially (L74). The source rejected Prisoner's Dilemma and Seize the Spotlight because 'choose' isn't 'vote' (CR 701.38c). The deck's power comes from its staples more than the commander; expect low Bracket 4.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 3,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:board_wipe:f44c5d423fa7",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:artifacts_wiped:0382128eb885",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:commander_removed_twice:a360853623d4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:key_engine_exiled:5ac675668b6e",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:mana_screw:da36751eb2b2",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:color_screw:8f9c6e535524",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:graveyard_exiled:61ffb868ed8e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/auton-myriad"
+      ],
+      "card": "Auton Soldier",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Auton Soldier"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bite of the Black Rose",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Bite of the Black Rose"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#plan/value"
+      ],
+      "card": "Capital Punishment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Capital Punishment"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Coercive Portal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Coercive Portal"
+      ],
+      "roles": [
+       "draw",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/villain-beats"
+      ],
+      "card": "Cult of Skaro",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Cult of Skaro"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Damocles Base, Sword of Kang",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Damocles Base, Sword of Kang"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Davros, Dalek Creator",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous"
+      ],
+      "card": "Davros, Dalek Creator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Davros, Dalek Creator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Dr. Eggman",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Dr. Eggman"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Ensnared by the Mara",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Ensnared by the Mara"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kess, Dissident Mage",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Messenger Jays",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Messenger Jays",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Messenger Jays"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#plan/value"
+      ],
+      "card": "Plea for Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Plea for Power"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:copy"
+      ],
+      "card": "Quantum Misalignment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Quantum Misalignment"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Sakashima of a Thousand Faces",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive"
+      ],
+      "card": "Sakashima of a Thousand Faces",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Sakashima of a Thousand Faces"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Spark Double",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Spark Double"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/villain-beats"
+      ],
+      "card": "The Dalek Emperor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/The Dalek Emperor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No 'choose' cards that aren't votes (decisions L43, L45).",
+      "No Tempt with Reflections without a legend-rule workaround (L65)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Five mana for two static modifiers; little happens without the cards they modify.",
+      "evidence_class": "strategic_judgment",
+      "id": "five-mana-static",
+      "mitigations": [
+       "Copies",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Villainous Choices and votes let opponents pick the least bad option.",
+      "evidence_class": "strategic_judgment",
+      "id": "opponent-choice",
+      "mitigations": [
+       "Doubled choices",
+       "Extra votes"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Villain threats"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Arcane Denial, Deadly Rollick, Feed the Swarm, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+      "mana": "36 lands; Arid Mesa replaced a dead Windswept Heath.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Valeyard",
+       "Damocles Base, Sword of Kang",
+       "Davros, Dalek Creator",
+       "Dr. Eggman",
+       "Ensnared by the Mara",
+       "Genesis of the Daleks",
+       "Messenger Jays",
+       "Capital Punishment",
+       "Plea for Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Spark Double",
+       "Quantum Misalignment",
+       "Sakashima of a Thousand Faces",
+       "Auton Soldier"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "political-attrition",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Davros, Dalek Creator",
+       "The Dalek Emperor",
+       "Cult of Skaro"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "villain-beats",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Valeyard doubles every Villainous Choice and adds a vote; nonlegendary copies add more.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native but narrow: two static modifiers, no body-based engine, and no Spellbook combos; the source asserts no infinite (decisions L76). Copies stack additively, not exponentially (L74). The source rejected Prisoner's Dilemma and Seize the Spotlight because 'choose' isn't 'vote' (CR 701.38c). The deck's power comes from its staples more than the commander; expect low Bracket 4.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 3,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:board_wipe:f44c5d423fa7",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:artifacts_wiped:0382128eb885",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:commander_removed_twice:a360853623d4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:key_engine_exiled:5ac675668b6e",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:mana_screw:da36751eb2b2",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:color_screw:8f9c6e535524",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:graveyard_exiled:61ffb868ed8e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/auton-myriad"
+      ],
+      "card": "Auton Soldier",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Auton Soldier"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bite of the Black Rose",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Bite of the Black Rose"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#plan/value"
+      ],
+      "card": "Capital Punishment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Capital Punishment"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Coercive Portal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Coercive Portal"
+      ],
+      "roles": [
+       "draw",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/villain-beats"
+      ],
+      "card": "Cult of Skaro",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Cult of Skaro"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Damocles Base, Sword of Kang",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Damocles Base, Sword of Kang"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Davros, Dalek Creator",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous"
+      ],
+      "card": "Davros, Dalek Creator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Davros, Dalek Creator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Dr. Eggman",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Dr. Eggman"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Ensnared by the Mara",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Ensnared by the Mara"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kess, Dissident Mage",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Messenger Jays",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Messenger Jays",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Messenger Jays"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#plan/value"
+      ],
+      "card": "Plea for Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Plea for Power"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:copy"
+      ],
+      "card": "Quantum Misalignment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Quantum Misalignment"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Sakashima of a Thousand Faces",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive"
+      ],
+      "card": "Sakashima of a Thousand Faces",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Sakashima of a Thousand Faces"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Spark Double",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Spark Double"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/villain-beats"
+      ],
+      "card": "The Dalek Emperor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/The Dalek Emperor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No 'choose' cards that aren't votes (decisions L43, L45).",
+      "No Tempt with Reflections without a legend-rule workaround (L65)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Five mana for two static modifiers; little happens without the cards they modify.",
+      "evidence_class": "strategic_judgment",
+      "id": "five-mana-static",
+      "mitigations": [
+       "Copies",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Villainous Choices and votes let opponents pick the least bad option.",
+      "evidence_class": "strategic_judgment",
+      "id": "opponent-choice",
+      "mitigations": [
+       "Doubled choices",
+       "Extra votes"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Villain threats"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Arcane Denial, Deadly Rollick, Feed the Swarm, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+      "mana": "36 lands; Arid Mesa replaced a dead Windswept Heath.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Valeyard",
+       "Damocles Base, Sword of Kang",
+       "Davros, Dalek Creator",
+       "Dr. Eggman",
+       "Ensnared by the Mara",
+       "Genesis of the Daleks",
+       "Messenger Jays",
+       "Capital Punishment",
+       "Plea for Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Spark Double",
+       "Quantum Misalignment",
+       "Sakashima of a Thousand Faces",
+       "Auton Soldier"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "political-attrition",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Davros, Dalek Creator",
+       "The Dalek Emperor",
+       "Cult of Skaro"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "villain-beats",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Valeyard doubles every Villainous Choice and adds a vote; nonlegendary copies add more.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native but narrow: two static modifiers, no body-based engine, and no Spellbook combos; the source asserts no infinite (decisions L76). Copies stack additively, not exponentially (L74). The source rejected Prisoner's Dilemma and Seize the Spotlight because 'choose' isn't 'vote' (CR 701.38c). The deck's power comes from its staples more than the commander; expect low Bracket 4.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 3,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:board_wipe:f44c5d423fa7",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:artifacts_wiped:0382128eb885",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:commander_removed_twice:a360853623d4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:key_engine_exiled:5ac675668b6e",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:mana_screw:da36751eb2b2",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:color_screw:8f9c6e535524",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:graveyard_exiled:61ffb868ed8e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Arcane Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/auton-myriad"
+      ],
+      "card": "Auton Soldier",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Auton Soldier"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bite of the Black Rose",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Bite of the Black Rose"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#plan/value"
+      ],
+      "card": "Capital Punishment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Capital Punishment"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Coercive Portal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Coercive Portal"
+      ],
+      "roles": [
+       "draw",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/villain-beats"
+      ],
+      "card": "Cult of Skaro",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Cult of Skaro"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Damocles Base, Sword of Kang",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Damocles Base, Sword of Kang"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Davros, Dalek Creator",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous"
+      ],
+      "card": "Davros, Dalek Creator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Davros, Dalek Creator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Dr. Eggman",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Dr. Eggman"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Ensnared by the Mara",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Ensnared by the Mara"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/political-attrition"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kess, Dissident Mage",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Messenger Jays",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote"
+      ],
+      "card": "Messenger Jays",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Messenger Jays"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/extra-vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:vote",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#plan/value"
+      ],
+      "card": "Plea for Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Plea for Power"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:copy"
+      ],
+      "card": "Quantum Misalignment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Quantum Misalignment"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Sakashima of a Thousand Faces",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive"
+      ],
+      "card": "Sakashima of a Thousand Faces",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Sakashima of a Thousand Faces"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/valeyard-copies",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#identity_core/Spark Double",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#key_interactions/additive"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/Spark Double"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-valeyard.json#engines/double-villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#packages/pkg:villainous",
+       "blueprint:data/grixis/blueprints/the-valeyard.json#win_conditions/villain-beats"
+      ],
+      "card": "The Dalek Emperor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-valeyard.json#metrics/The Dalek Emperor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No 'choose' cards that aren't votes (decisions L43, L45).",
+      "No Tempt with Reflections without a legend-rule workaround (L65)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Five mana for two static modifiers; little happens without the cards they modify.",
+      "evidence_class": "strategic_judgment",
+      "id": "five-mana-static",
+      "mitigations": [
+       "Copies",
+       "Tutors"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Villainous Choices and votes let opponents pick the least bad option.",
+      "evidence_class": "strategic_judgment",
+      "id": "opponent-choice",
+      "mitigations": [
+       "Doubled choices",
+       "Extra votes"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Villain threats"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Arcane Denial, Deadly Rollick, Feed the Swarm, Chaos Warp, Cyclonic Rift, Blasphemous Act.",
+      "mana": "36 lands; Arid Mesa replaced a dead Windswept Heath.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Valeyard",
+       "Damocles Base, Sword of Kang",
+       "Davros, Dalek Creator",
+       "Dr. Eggman",
+       "Ensnared by the Mara",
+       "Genesis of the Daleks",
+       "Messenger Jays",
+       "Capital Punishment",
+       "Plea for Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Spark Double",
+       "Quantum Misalignment",
+       "Sakashima of a Thousand Faces",
+       "Auton Soldier"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "political-attrition",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Davros, Dalek Creator",
+       "The Dalek Emperor",
+       "Cult of Skaro"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "villain-beats",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Valeyard doubles every Villainous Choice and adds a vote; nonlegendary copies add more.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native but narrow: two static modifiers, no body-based engine, and no Spellbook combos; the source asserts no infinite (decisions L76). Copies stack additively, not exponentially (L74). The source rejected Prisoner's Dilemma and Seize the Spotlight because 'choose' isn't 'vote' (CR 701.38c). The deck's power comes from its staples more than the commander; expect low Bracket 4.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 3,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:board_wipe:f44c5d423fa7",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:artifacts_wiped:0382128eb885",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:commander_removed_twice:a360853623d4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:key_engine_exiled:5ac675668b6e",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:mana_screw:da36751eb2b2",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:color_screw:8f9c6e535524",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-valeyard.json#test:the-valeyard:stress:graveyard_exiled:61ffb868ed8e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "the-valeyard",
+ "source_packet": "data/grixis/bracket_stress_packets/the-valeyard.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

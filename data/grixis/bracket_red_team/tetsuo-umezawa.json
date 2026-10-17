@@ -1,0 +1,2429 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "deck_id": "Tetsuo_Umezawa",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 86,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Aphetto Alchemist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Aphetto Alchemist",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#combo:283-4091",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#win:bracers-alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baleful Strix",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Baleful Strix"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Blustersquall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Blustersquall"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:payoffs",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#plan/value"
+      ],
+      "card": "Borrowing 100,000 Arrows",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Borrowing 100,000 Arrows"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bothersome Quasit",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Bothersome Quasit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brainstorm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Brainstorm"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Ritual",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#key_interactions/goad-targets",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Disrupt Decorum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Disrupt Decorum"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:payoffs",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Firkraag, Cunning Instigator",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Firkraag, Cunning Instigator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Flood",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Flood",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Flood"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Frozen Aether",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Frozen Aether"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Geode Rager",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Geode Rager"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hylda's Crown of Winter",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Hylda's Crown of Winter"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/copy-activation",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Illusionist's Bracers"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Illusionist's Bracers",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#combo:283-4091",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#win:bracers-alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:payoffs",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Karazikar, the Eye Tyrant",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Karazikar, the Eye Tyrant"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Kardur, Doomscourge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Minamo, School at Water's Edge",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Minamo, School at Water's Edge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Minamo, School at Water's Edge"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#failure_modes/colored-mana-hungry",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#key_interactions/no-mana-vault"
+      ],
+      "card": "Patriar's Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Patriar's Seal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Propaganda",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Puppeteer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Puppeteer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rathi Trapper",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rathi Trapper"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Red Death, Shipwrecker",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Red Death, Shipwrecker"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic cEDH packages (decisions L68).",
+      "No Mana Vault (L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Each activation costs four colored mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "colored-mana-hungry",
+      "mitigations": [
+       "Patriar's Seal",
+       "Premium duals"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Spell-based combo opponents give no targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "creatureless-opponents",
+      "mitigations": [
+       "Force of Will",
+       "Mana Drain"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Removal on Tetsuo shuts off the deck.",
+      "evidence_class": "strategic_judgment",
+      "id": "removal-on-tetsuo",
+      "mitigations": [
+       "Greaves",
+       "Boots"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Withering Torment, Chaos Warp, Damnation, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+      "mana": "36 land-capable slots with heavy colored sources for {U}{B}{B}{R}.",
+      "protection": "Lightning Greaves, Swiftfoot Boots, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Tetsuo Umezawa",
+       "Kardur, Doomscourge",
+       "Firkraag, Cunning Instigator",
+       "Karazikar, the Eye Tyrant",
+       "Red Death, Shipwrecker"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Flood",
+       "Blustersquall",
+       "Puppeteer",
+       "Disrupt Decorum"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "grind-and-goad",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Illusionist's Bracers",
+       "Aphetto Alchemist"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Tetsuo Umezawa"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "bracers-alchemist",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tetsuo's activation is the deck's repeatable removal, and the untap suite exists to reuse it.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native control. The one Spellbook combo (283-4091, Illusionist's Bracers + Aphetto Alchemist) gives infinite untaps but no mana, so Tetsuo still pays {U}{B}{B}{R} per activation. There is no compact kill; the deck wins by grinding and combat. The source calls Tetsuo mana-intensive and board-dependent (blueprint L43).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:board_wipe:07aea9cb8e53",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:artifacts_wiped:c321d9ddfa59",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:commander_removed_twice:f78ca9b11e56",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:key_engine_exiled:0c2c78713f84",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:mana_screw:f58bfbacb104",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:color_screw:7d1b842a6169",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:graveyard_exiled:efaddf3085b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Aphetto Alchemist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Aphetto Alchemist",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#combo:283-4091",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#win:bracers-alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bedevil",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Bedevil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Blustersquall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Blustersquall"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#key_interactions/goad-targets",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Disrupt Decorum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Disrupt Decorum"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:payoffs",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Firkraag, Cunning Instigator",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Firkraag, Cunning Instigator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Flood",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Flood",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Flood"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Frozen Aether",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Frozen Aether"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Geode Rager",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Geode Rager"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/copy-activation",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Illusionist's Bracers"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Illusionist's Bracers",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#combo:283-4091",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#win:bracers-alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:payoffs",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Karazikar, the Eye Tyrant",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Karazikar, the Eye Tyrant"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Kardur, Doomscourge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Minamo, School at Water's Edge",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Minamo, School at Water's Edge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Minamo, School at Water's Edge"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Propaganda",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Puppeteer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Puppeteer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rathi Trapper",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rathi Trapper"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Red Death, Shipwrecker",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Red Death, Shipwrecker"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/copy-activation",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#plan/value"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rings of Brighthearth"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Royal Assassin",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Royal Assassin"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sink into Stupor // Soporific Springs",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Sink into Stupor // Soporific Springs"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Sting, the Glinting Dagger",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#key_interactions/sting-reset"
+      ],
+      "card": "Sting, the Glinting Dagger",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Sting, the Glinting Dagger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Vandalblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vengeful Ancestor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Vengeful Ancestor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Withering Torment",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic cEDH packages (decisions L68).",
+      "No Mana Vault (L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Each activation costs four colored mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "colored-mana-hungry",
+      "mitigations": [
+       "Patriar's Seal",
+       "Premium duals"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Spell-based combo opponents give no targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "creatureless-opponents",
+      "mitigations": [
+       "Force of Will",
+       "Mana Drain"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Removal on Tetsuo shuts off the deck.",
+      "evidence_class": "strategic_judgment",
+      "id": "removal-on-tetsuo",
+      "mitigations": [
+       "Greaves",
+       "Boots"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Withering Torment, Chaos Warp, Damnation, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+      "mana": "36 land-capable slots with heavy colored sources for {U}{B}{B}{R}.",
+      "protection": "Lightning Greaves, Swiftfoot Boots, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Tetsuo Umezawa",
+       "Kardur, Doomscourge",
+       "Firkraag, Cunning Instigator",
+       "Karazikar, the Eye Tyrant",
+       "Red Death, Shipwrecker"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Flood",
+       "Blustersquall",
+       "Puppeteer",
+       "Disrupt Decorum"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "grind-and-goad",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Illusionist's Bracers",
+       "Aphetto Alchemist"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Tetsuo Umezawa"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "bracers-alchemist",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tetsuo's activation is the deck's repeatable removal, and the untap suite exists to reuse it.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native control. The one Spellbook combo (283-4091, Illusionist's Bracers + Aphetto Alchemist) gives infinite untaps but no mana, so Tetsuo still pays {U}{B}{B}{R} per activation. There is no compact kill; the deck wins by grinding and combat. The source calls Tetsuo mana-intensive and board-dependent (blueprint L43).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:board_wipe:07aea9cb8e53",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:artifacts_wiped:c321d9ddfa59",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:commander_removed_twice:f78ca9b11e56",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:key_engine_exiled:0c2c78713f84",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:mana_screw:f58bfbacb104",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:color_screw:7d1b842a6169",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:graveyard_exiled:efaddf3085b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Aphetto Alchemist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Aphetto Alchemist",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#combo:283-4091",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#win:bracers-alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bedevil",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Bedevil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Blustersquall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Blustersquall"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#key_interactions/goad-targets",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Disrupt Decorum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Disrupt Decorum"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:payoffs",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Firkraag, Cunning Instigator",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Firkraag, Cunning Instigator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Flood",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Flood",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Flood"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Frozen Aether",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Frozen Aether"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Geode Rager",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Geode Rager"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/copy-activation",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Illusionist's Bracers"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Illusionist's Bracers",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#combo:283-4091",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#win:bracers-alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:payoffs",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Karazikar, the Eye Tyrant",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Karazikar, the Eye Tyrant"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Kardur, Doomscourge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Minamo, School at Water's Edge",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Minamo, School at Water's Edge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Minamo, School at Water's Edge"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Propaganda",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Puppeteer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Puppeteer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rathi Trapper",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rathi Trapper"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Red Death, Shipwrecker",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Red Death, Shipwrecker"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/copy-activation",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#plan/value"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rings of Brighthearth"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Royal Assassin",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Royal Assassin"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sink into Stupor // Soporific Springs",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Sink into Stupor // Soporific Springs"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Sting, the Glinting Dagger",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#key_interactions/sting-reset"
+      ],
+      "card": "Sting, the Glinting Dagger",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Sting, the Glinting Dagger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Vandalblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vengeful Ancestor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Vengeful Ancestor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Withering Torment",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Withering Torment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic cEDH packages (decisions L68).",
+      "No Mana Vault (L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Each activation costs four colored mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "colored-mana-hungry",
+      "mitigations": [
+       "Patriar's Seal",
+       "Premium duals"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Spell-based combo opponents give no targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "creatureless-opponents",
+      "mitigations": [
+       "Force of Will",
+       "Mana Drain"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Removal on Tetsuo shuts off the deck.",
+      "evidence_class": "strategic_judgment",
+      "id": "removal-on-tetsuo",
+      "mitigations": [
+       "Greaves",
+       "Boots"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Withering Torment, Chaos Warp, Damnation, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+      "mana": "36 land-capable slots with heavy colored sources for {U}{B}{B}{R}.",
+      "protection": "Lightning Greaves, Swiftfoot Boots, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Tetsuo Umezawa",
+       "Kardur, Doomscourge",
+       "Firkraag, Cunning Instigator",
+       "Karazikar, the Eye Tyrant",
+       "Red Death, Shipwrecker"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Flood",
+       "Blustersquall",
+       "Puppeteer",
+       "Disrupt Decorum"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "grind-and-goad",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Illusionist's Bracers",
+       "Aphetto Alchemist"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Tetsuo Umezawa"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "bracers-alchemist",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tetsuo's activation is the deck's repeatable removal, and the untap suite exists to reuse it.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native control. The one Spellbook combo (283-4091, Illusionist's Bracers + Aphetto Alchemist) gives infinite untaps but no mana, so Tetsuo still pays {U}{B}{B}{R} per activation. There is no compact kill; the deck wins by grinding and combat. The source calls Tetsuo mana-intensive and board-dependent (blueprint L43).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:board_wipe:07aea9cb8e53",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:artifacts_wiped:c321d9ddfa59",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:commander_removed_twice:f78ca9b11e56",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:key_engine_exiled:0c2c78713f84",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:mana_screw:f58bfbacb104",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:color_screw:7d1b842a6169",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:graveyard_exiled:efaddf3085b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Aphetto Alchemist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Aphetto Alchemist",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#combo:283-4091",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#win:bracers-alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bedevil",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Bedevil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Blustersquall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Blustersquall"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bothersome Quasit",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Bothersome Quasit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#key_interactions/goad-targets",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Disrupt Decorum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Disrupt Decorum"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:payoffs",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Firkraag, Cunning Instigator",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Firkraag, Cunning Instigator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Flood",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Flood",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Flood"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#failure_modes/creatureless-opponents",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Frozen Aether",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Frozen Aether"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Geode Rager",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Geode Rager"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/copy-activation",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Illusionist's Bracers"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Illusionist's Bracers",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#combo:283-4091",
+       "graph:data/grixis/graph/tetsuo-umezawa.json#win:bracers-alchemist"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:payoffs",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Karazikar, the Eye Tyrant",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Karazikar, the Eye Tyrant"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Kardur, Doomscourge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#failure_modes/creatureless-opponents",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Minamo, School at Water's Edge",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Minamo, School at Water's Edge",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Minamo, School at Water's Edge"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Propaganda",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Propaganda"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:target-makers",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#packages/pkg:untap"
+      ],
+      "card": "Puppeteer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Puppeteer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rathi Trapper",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rathi Trapper"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#win_conditions/grind-and-goad"
+      ],
+      "card": "Red Death, Shipwrecker",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Red Death, Shipwrecker"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/copy-activation",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#plan/value"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Rings of Brighthearth"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Royal Assassin",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Royal Assassin"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sink into Stupor // Soporific Springs",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Sink into Stupor // Soporific Springs"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#engines/untap-suite",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#identity_core/Sting, the Glinting Dagger",
+       "blueprint:data/grixis/blueprints/tetsuo-umezawa.json#key_interactions/sting-reset"
+      ],
+      "card": "Sting, the Glinting Dagger",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tetsuo-umezawa.json#metrics/Sting, the Glinting Dagger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic cEDH packages (decisions L68).",
+      "No Mana Vault (L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Each activation costs four colored mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "colored-mana-hungry",
+      "mitigations": [
+       "Patriar's Seal",
+       "Premium duals"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Spell-based combo opponents give no targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "creatureless-opponents",
+      "mitigations": [
+       "Force of Will",
+       "Mana Drain"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Removal on Tetsuo shuts off the deck.",
+      "evidence_class": "strategic_judgment",
+      "id": "removal-on-tetsuo",
+      "mitigations": [
+       "Greaves",
+       "Boots"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Terminate, Withering Torment, Chaos Warp, Damnation, Blasphemous Act, Cyclonic Rift, Vandalblast.",
+      "mana": "36 land-capable slots with heavy colored sources for {U}{B}{B}{R}.",
+      "protection": "Lightning Greaves, Swiftfoot Boots, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Tetsuo Umezawa",
+       "Kardur, Doomscourge",
+       "Firkraag, Cunning Instigator",
+       "Karazikar, the Eye Tyrant",
+       "Red Death, Shipwrecker"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Flood",
+       "Blustersquall",
+       "Puppeteer",
+       "Disrupt Decorum"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "grind-and-goad",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Illusionist's Bracers",
+       "Aphetto Alchemist"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Tetsuo Umezawa"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "bracers-alchemist",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tetsuo's activation is the deck's repeatable removal, and the untap suite exists to reuse it.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native control. The one Spellbook combo (283-4091, Illusionist's Bracers + Aphetto Alchemist) gives infinite untaps but no mana, so Tetsuo still pays {U}{B}{B}{R} per activation. There is no compact kill; the deck wins by grinding and combat. The source calls Tetsuo mana-intensive and board-dependent (blueprint L43).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:board_wipe:07aea9cb8e53",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:artifacts_wiped:c321d9ddfa59",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:commander_removed_twice:f78ca9b11e56",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:key_engine_exiled:0c2c78713f84",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:mana_screw:f58bfbacb104",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:color_screw:7d1b842a6169",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tetsuo-umezawa.json#test:tetsuo-umezawa:stress:graveyard_exiled:efaddf3085b3",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "tetsuo-umezawa",
+ "source_packet": "data/grixis/bracket_stress_packets/tetsuo-umezawa.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

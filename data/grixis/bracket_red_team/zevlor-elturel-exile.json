@@ -1,0 +1,2566 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+ "deck_id": "Zevlor__Elturel_Exile",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 96,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Acquire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Acquire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:magecraft"
+      ],
+      "card": "Archmage Emeritus",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Archmage Emeritus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baral, Chief of Compliance",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Baral, Chief of Compliance"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brainstorm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Brainstorm"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Bribery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Bribery"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cormela, Glamour Thief",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Cormela, Glamour Thief"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Cruel Ultimatum",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/copy-keeps-choices",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Cruel Ultimatum",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Cruel Ultimatum"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Ritual",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Exterminator Magmarch",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Exterminator Magmarch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flick a Coin",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Flick a Coin"
+      ],
+      "roles": [
+       "draw",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Frantic Search",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Frantic Search"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gitaxian Probe",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Gitaxian Probe"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Great Intelligence's Plan",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Great Intelligence's Plan"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Hell to Pay",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Hell to Pay"
+      ],
+      "roles": [
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Illusionist's Bracers",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/multiple-delayed"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Illusionist's Bracers"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#recursion/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Leadership Vacuum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Leadership Vacuum"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#failure_modes/sorcery-window"
+      ],
+      "card": "Omen Hawker",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Omen Hawker",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#combo:3525-3772",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#win:hawker-pemmin"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/boots-not-greaves",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:activation"
+      ],
+      "card": "Patriar's Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Patriar's Seal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Peek",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Peek"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Pemmin's Aura"
+      ],
+      "card": "Pemmin's Aura",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Pemmin's Aura",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#combo:3525-3772",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#win:hawker-pemmin"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Pilfered Plans",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Pilfered Plans"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Portent",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Portent"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Praetor's Grasp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Praetor's Grasp"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Oracle/Consultation/Tainted Pact/Breach (decisions L120).",
+      "No Thousand-Year Storm generic copying (L74)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact kill; combo tables outrace it.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Counterspells",
+       "Theft"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Zevlor must activate then cast in the same turn; two pieces of mana each time.",
+      "evidence_class": "strategic_judgment",
+      "id": "sorcery-window",
+      "mitigations": [
+       "Training Grounds",
+       "Omen Hawker"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Multi-target spells don't qualify.",
+      "evidence_class": "strategic_judgment",
+      "id": "target-rules",
+      "mitigations": [
+       "Card selection by exact Oracle"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Counterspell, Swan Song, Deadly Rollick, Terminate, Chaos Warp, Feed the Swarm, Cyclonic Rift, Blasphemous Act.",
+      "mana": "34 lands with fetches and true duals; Sol Ring, Mana Vault, Ancient Tomb.",
+      "protection": "Swiftfoot Boots, Pemmin's Aura shroud, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Zevlor, Elturel Exile",
+       "Cruel Ultimatum",
+       "Praetor's Grasp",
+       "Acquire",
+       "Bribery",
+       "River's Rebuke",
+       "Leadership Vacuum"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Training Grounds",
+       "Omen Hawker",
+       "Illusionist's Bracers",
+       "Pemmin's Aura"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "multiplied-payloads",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Sedgemoor Witch",
+       "Storm-Kiln Artist"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Zevlor, Elturel Exile"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "magecraft-tokens",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Omen Hawker",
+       "Pemmin's Aura"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "hawker-pemmin",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Zevlor turns every single-target spell into one per opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. The only Spellbook combo (3525-3772, Omen Hawker + Pemmin's Aura) doesn't need Zevlor. The deck has no compact kill; it wins on multiplied value and theft. The source says a generic Oracle/Breach shell can hold Zevlor but its wins don't need him, so it was rejected (verification L23; decisions L120).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:board_wipe:8e5493f9121f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:artifacts_wiped:8c7356b1b56b",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:commander_removed_twice:3a68f10c02db",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:key_engine_exiled:e5533f661cff",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:mana_screw:72ef3fdd637b",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:color_screw:4963c692ee53",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:graveyard_exiled:819c639b711f",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Abrade",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Abrade"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Acquire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Acquire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bedevil",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Bedevil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blue Sun's Twilight",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Blue Sun's Twilight"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Bribery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Bribery"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Cruel Ultimatum",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/copy-keeps-choices",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Cruel Ultimatum",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Cruel Ultimatum"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Electrodominance",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Electrodominance"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Exterminator Magmarch",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Exterminator Magmarch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flick a Coin",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Flick a Coin"
+      ],
+      "roles": [
+       "draw",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Hell to Pay",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Hell to Pay"
+      ],
+      "roles": [
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Illusionist's Bracers",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/multiple-delayed"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Illusionist's Bracers"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Leadership Vacuum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Leadership Vacuum"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#failure_modes/sorcery-window"
+      ],
+      "card": "Omen Hawker",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Omen Hawker",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#combo:3525-3772",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#win:hawker-pemmin"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Pemmin's Aura"
+      ],
+      "card": "Pemmin's Aura",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Pemmin's Aura",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#combo:3525-3772",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#win:hawker-pemmin"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Praetor's Grasp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Praetor's Grasp"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "River's Rebuke",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/River's Rebuke"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/copies-not-cast",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:magecraft",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value"
+      ],
+      "card": "Sedgemoor Witch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Sedgemoor Witch"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Snap",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Snap"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#recursion/value"
+      ],
+      "card": "Snapcaster Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Snapcaster Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/copies-not-cast",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:magecraft",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value"
+      ],
+      "card": "Storm-Kiln Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Storm-Kiln Artist"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#failure_modes/sorcery-window",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Training Grounds"
+      ],
+      "card": "Training Grounds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Training Grounds"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Oracle/Consultation/Tainted Pact/Breach (decisions L120).",
+      "No Thousand-Year Storm generic copying (L74)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact kill; combo tables outrace it.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Counterspells",
+       "Theft"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Zevlor must activate then cast in the same turn; two pieces of mana each time.",
+      "evidence_class": "strategic_judgment",
+      "id": "sorcery-window",
+      "mitigations": [
+       "Training Grounds",
+       "Omen Hawker"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Multi-target spells don't qualify.",
+      "evidence_class": "strategic_judgment",
+      "id": "target-rules",
+      "mitigations": [
+       "Card selection by exact Oracle"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Counterspell, Swan Song, Deadly Rollick, Terminate, Chaos Warp, Feed the Swarm, Cyclonic Rift, Blasphemous Act.",
+      "mana": "34 lands with fetches and true duals; Sol Ring, Mana Vault, Ancient Tomb.",
+      "protection": "Swiftfoot Boots, Pemmin's Aura shroud, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Zevlor, Elturel Exile",
+       "Cruel Ultimatum",
+       "Praetor's Grasp",
+       "Acquire",
+       "Bribery",
+       "River's Rebuke",
+       "Leadership Vacuum"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Training Grounds",
+       "Omen Hawker",
+       "Illusionist's Bracers",
+       "Pemmin's Aura"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "multiplied-payloads",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Sedgemoor Witch",
+       "Storm-Kiln Artist"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Zevlor, Elturel Exile"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "magecraft-tokens",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Omen Hawker",
+       "Pemmin's Aura"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "hawker-pemmin",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Zevlor turns every single-target spell into one per opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. The only Spellbook combo (3525-3772, Omen Hawker + Pemmin's Aura) doesn't need Zevlor. The deck has no compact kill; it wins on multiplied value and theft. The source says a generic Oracle/Breach shell can hold Zevlor but its wins don't need him, so it was rejected (verification L23; decisions L120).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:board_wipe:8e5493f9121f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:artifacts_wiped:8c7356b1b56b",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:commander_removed_twice:3a68f10c02db",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:key_engine_exiled:e5533f661cff",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:mana_screw:72ef3fdd637b",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:color_screw:4963c692ee53",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:graveyard_exiled:819c639b711f",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Abrade",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Abrade"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Acquire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Acquire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bedevil",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Bedevil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blue Sun's Twilight",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Blue Sun's Twilight"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Bribery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Bribery"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Cruel Ultimatum",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/copy-keeps-choices",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Cruel Ultimatum",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Cruel Ultimatum"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Electrodominance",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Electrodominance"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Exterminator Magmarch",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Exterminator Magmarch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flick a Coin",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Flick a Coin"
+      ],
+      "roles": [
+       "draw",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Hell to Pay",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Hell to Pay"
+      ],
+      "roles": [
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Illusionist's Bracers",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/multiple-delayed"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Illusionist's Bracers"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Leadership Vacuum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Leadership Vacuum"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#failure_modes/sorcery-window"
+      ],
+      "card": "Omen Hawker",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Omen Hawker",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#combo:3525-3772",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#win:hawker-pemmin"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Pemmin's Aura"
+      ],
+      "card": "Pemmin's Aura",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Pemmin's Aura",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#combo:3525-3772",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#win:hawker-pemmin"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Praetor's Grasp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Praetor's Grasp"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "River's Rebuke",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/River's Rebuke"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/copies-not-cast",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:magecraft",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value"
+      ],
+      "card": "Sedgemoor Witch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Sedgemoor Witch"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Snap",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Snap"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#recursion/value"
+      ],
+      "card": "Snapcaster Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Snapcaster Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/copies-not-cast",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:magecraft",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value"
+      ],
+      "card": "Storm-Kiln Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Storm-Kiln Artist"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Terminate",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Terminate"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#failure_modes/sorcery-window",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Training Grounds"
+      ],
+      "card": "Training Grounds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Training Grounds"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Oracle/Consultation/Tainted Pact/Breach (decisions L120).",
+      "No Thousand-Year Storm generic copying (L74)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact kill; combo tables outrace it.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Counterspells",
+       "Theft"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Zevlor must activate then cast in the same turn; two pieces of mana each time.",
+      "evidence_class": "strategic_judgment",
+      "id": "sorcery-window",
+      "mitigations": [
+       "Training Grounds",
+       "Omen Hawker"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Multi-target spells don't qualify.",
+      "evidence_class": "strategic_judgment",
+      "id": "target-rules",
+      "mitigations": [
+       "Card selection by exact Oracle"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Counterspell, Swan Song, Deadly Rollick, Terminate, Chaos Warp, Feed the Swarm, Cyclonic Rift, Blasphemous Act.",
+      "mana": "34 lands with fetches and true duals; Sol Ring, Mana Vault, Ancient Tomb.",
+      "protection": "Swiftfoot Boots, Pemmin's Aura shroud, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Zevlor, Elturel Exile",
+       "Cruel Ultimatum",
+       "Praetor's Grasp",
+       "Acquire",
+       "Bribery",
+       "River's Rebuke",
+       "Leadership Vacuum"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Training Grounds",
+       "Omen Hawker",
+       "Illusionist's Bracers",
+       "Pemmin's Aura"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "multiplied-payloads",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Sedgemoor Witch",
+       "Storm-Kiln Artist"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Zevlor, Elturel Exile"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "magecraft-tokens",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Omen Hawker",
+       "Pemmin's Aura"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "hawker-pemmin",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Zevlor turns every single-target spell into one per opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. The only Spellbook combo (3525-3772, Omen Hawker + Pemmin's Aura) doesn't need Zevlor. The deck has no compact kill; it wins on multiplied value and theft. The source says a generic Oracle/Breach shell can hold Zevlor but its wins don't need him, so it was rejected (verification L23; decisions L120).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:board_wipe:8e5493f9121f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:artifacts_wiped:8c7356b1b56b",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:commander_removed_twice:3a68f10c02db",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:key_engine_exiled:e5533f661cff",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:mana_screw:72ef3fdd637b",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:color_screw:4963c692ee53",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:graveyard_exiled:819c639b711f",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Abrade",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Abrade"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Acquire",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Acquire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bedevil",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Bedevil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blue Sun's Twilight",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Blue Sun's Twilight"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Bribery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Bribery"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#failure_modes/no-compact-win",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Cruel Ultimatum",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/copy-keeps-choices",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Cruel Ultimatum",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Cruel Ultimatum"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Electrodominance",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Electrodominance"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Exterminator Magmarch",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Exterminator Magmarch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flick a Coin",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Flick a Coin"
+      ],
+      "roles": [
+       "draw",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads"
+      ],
+      "card": "Hell to Pay",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Hell to Pay"
+      ],
+      "roles": [
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Illusionist's Bracers",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/multiple-delayed"
+      ],
+      "card": "Illusionist's Bracers",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Illusionist's Bracers"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Leadership Vacuum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Leadership Vacuum"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#failure_modes/sorcery-window"
+      ],
+      "card": "Omen Hawker",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Omen Hawker",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#combo:3525-3772",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#win:hawker-pemmin"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#engines/activation-support",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#identity_core/Pemmin's Aura"
+      ],
+      "card": "Pemmin's Aura",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Pemmin's Aura",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#combo:3525-3772",
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#win:hawker-pemmin"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "Praetor's Grasp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Praetor's Grasp"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:payloads",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#win_conditions/multiplied-payloads"
+      ],
+      "card": "River's Rebuke",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/River's Rebuke"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#key_interactions/copies-not-cast",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#packages/pkg:magecraft",
+       "blueprint:data/grixis/blueprints/zevlor-elturel-exile.json#plan/value"
+      ],
+      "card": "Sedgemoor Witch",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Sedgemoor Witch"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Snap",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/zevlor-elturel-exile.json#metrics/Snap"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Oracle/Consultation/Tainted Pact/Breach (decisions L120).",
+      "No Thousand-Year Storm generic copying (L74)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact kill; combo tables outrace it.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Counterspells",
+       "Theft"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Zevlor must activate then cast in the same turn; two pieces of mana each time.",
+      "evidence_class": "strategic_judgment",
+      "id": "sorcery-window",
+      "mitigations": [
+       "Training Grounds",
+       "Omen Hawker"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Multi-target spells don't qualify.",
+      "evidence_class": "strategic_judgment",
+      "id": "target-rules",
+      "mitigations": [
+       "Card selection by exact Oracle"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Counterspell, Swan Song, Deadly Rollick, Terminate, Chaos Warp, Feed the Swarm, Cyclonic Rift, Blasphemous Act.",
+      "mana": "34 lands with fetches and true duals; Sol Ring, Mana Vault, Ancient Tomb.",
+      "protection": "Swiftfoot Boots, Pemmin's Aura shroud, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Zevlor, Elturel Exile",
+       "Cruel Ultimatum",
+       "Praetor's Grasp",
+       "Acquire",
+       "Bribery",
+       "River's Rebuke",
+       "Leadership Vacuum"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Training Grounds",
+       "Omen Hawker",
+       "Illusionist's Bracers",
+       "Pemmin's Aura"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "multiplied-payloads",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Sedgemoor Witch",
+       "Storm-Kiln Artist"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Zevlor, Elturel Exile"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "magecraft-tokens",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Omen Hawker",
+       "Pemmin's Aura"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "hawker-pemmin",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Zevlor turns every single-target spell into one per opponent.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native. The only Spellbook combo (3525-3772, Omen Hawker + Pemmin's Aura) doesn't need Zevlor. The deck has no compact kill; it wins on multiplied value and theft. The source says a generic Oracle/Breach shell can hold Zevlor but its wins don't need him, so it was rejected (verification L23; decisions L120).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:board_wipe:8e5493f9121f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:artifacts_wiped:8c7356b1b56b",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:commander_removed_twice:3a68f10c02db",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:key_engine_exiled:e5533f661cff",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:mana_screw:72ef3fdd637b",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:color_screw:4963c692ee53",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/zevlor-elturel-exile.json#test:zevlor-elturel-exile:stress:graveyard_exiled:819c639b711f",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "zevlor-elturel-exile",
+ "source_packet": "data/grixis/bracket_stress_packets/zevlor-elturel-exile.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

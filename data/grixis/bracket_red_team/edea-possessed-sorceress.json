@@ -1,0 +1,2397 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+ "deck_id": "Edea__Possessed_Sorceress",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 93,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Arcane Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Arcane Signet",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Ashnod's Altar"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Braids, Arisen Nightmare",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Braids, Arisen Nightmare"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Chaos Shrine's Black Crystal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#key_interactions/black-crystal-order"
+      ],
+      "card": "Chaos Shrine's Black Crystal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Chaos Shrine's Black Crystal"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Corrupted Conviction",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Corrupted Conviction"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Deadly Dispute",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Deadly Dispute"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Disciple of Bolas",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Disciple of Bolas"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Don Andres, the Renegade",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Don Andres, the Renegade"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Goblin Bombardment",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gogo, Master of Mimicry",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Gogo, Master of Mimicry"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Grave Pact",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grim Haruspex",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Grim Haruspex"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Illuminor Szeras",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Illuminor Szeras"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Impostor Syndrome",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Impostor Syndrome"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Industrial Advancement",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Industrial Advancement"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#tutor_targets/Insurrection"
+      ],
+      "card": "Insurrection",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Insurrection"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kethek, Crucible Goliath",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Kethek, Crucible Goliath"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Mass Mutiny",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Mass Mutiny",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mass Mutiny"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Mob Rule",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mob Rule"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Nightmare Shepherd",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Nightmare Shepherd"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Phyrexian Altar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Pitiless Plunderer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos, the Muscle",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Rakdos, the Muscle"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#failure_modes/no-targets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Seize the Spotlight",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Seize the Spotlight"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into a generic aristocrats deck that only sacrifices its own creatures (source).",
+      "No compact cEDH combo package; the source sets a commander-first B4 shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Creature-light opponents leave nothing worth stealing.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-targets",
+      "mitigations": [
+       "Treasure/token sacrifice still feeds payoffs",
+       "Seize the Spotlight"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Five-mana commander removed: theft and draw stop.",
+      "evidence_class": "strategic_judgment",
+      "id": "edea-removed",
+      "mitigations": [
+       "Ward {2}",
+       "Greaves",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Returning the creature gives its owner its enter triggers again.",
+      "evidence_class": "strategic_judgment",
+      "id": "gift-etb",
+      "mitigations": [
+       "Choose targets without strong ETBs",
+       "Thassa/Black Crystal to keep instead"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Mana Drain, Fierce Guardianship, Swan Song, Arcane Denial) and resets (Toxic Deluge, Blasphemous Act).",
+      "mana": "Five-mana commander: Sol Ring, Ancient Tomb, Talismans, Arcane Signet.",
+      "protection": "Ward {2}, Lightning Greaves, Deflecting Swat, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Goblin Bombardment",
+       "Mayhem Devil",
+       "Grave Pact",
+       "Pitiless Plunderer"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Edea, Possessed Sorceress",
+       "Viscera Seer",
+       "Phyrexian Altar",
+       "Ashnod's Altar"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "sac-drain",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Insurrection",
+       "Mass Mutiny",
+       "Mob Rule",
+       "Seize the Spotlight"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Goblin Bombardment",
+       "Ashnod's Altar"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "mass-theft-swing",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Edea is the only repeatable source of free theft and the card-draw half of every sacrifice.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "She steals at beginning of combat on your turn only, needs a worthwhile target on an opposing board, and her draw clause needs the borrowed creature to die while you control it. Against creature-light tables the engine is weak.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:board_wipe:db99528984a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:artifacts_wiped:139714ea3f6e",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:commander_removed_twice:cf00ade7284f",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:key_engine_exiled:bf194a5d1132",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:mana_screw:aeea6caf0e9d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:color_screw:7cae04a0dba5",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:graveyard_exiled:79a2a9cfe0f6",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Ashnod's Altar"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Chaos Shrine's Black Crystal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#key_interactions/black-crystal-order"
+      ],
+      "card": "Chaos Shrine's Black Crystal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Chaos Shrine's Black Crystal"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Goblin Bombardment",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gogo, Master of Mimicry",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Gogo, Master of Mimicry"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Grave Pact",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Impostor Syndrome",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Impostor Syndrome"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Industrial Advancement",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Industrial Advancement"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#tutor_targets/Insurrection"
+      ],
+      "card": "Insurrection",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Insurrection"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kethek, Crucible Goliath",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Kethek, Crucible Goliath"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Mass Mutiny",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Mass Mutiny",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mass Mutiny"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Mob Rule",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mob Rule"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Nightmare Shepherd",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Nightmare Shepherd"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Phyrexian Altar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Pitiless Plunderer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos, the Muscle",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Rakdos, the Muscle"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Saw in Half",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Saw in Half"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#failure_modes/no-targets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Seize the Spotlight",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Seize the Spotlight"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Thassa, Deep-Dwelling",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#key_interactions/thassa-keep"
+      ],
+      "card": "Thassa, Deep-Dwelling",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Thassa, Deep-Dwelling"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Victimize",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Victimize"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Viscera Seer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Viscera Seer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into a generic aristocrats deck that only sacrifices its own creatures (source).",
+      "No compact cEDH combo package; the source sets a commander-first B4 shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Creature-light opponents leave nothing worth stealing.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-targets",
+      "mitigations": [
+       "Treasure/token sacrifice still feeds payoffs",
+       "Seize the Spotlight"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Five-mana commander removed: theft and draw stop.",
+      "evidence_class": "strategic_judgment",
+      "id": "edea-removed",
+      "mitigations": [
+       "Ward {2}",
+       "Greaves",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Returning the creature gives its owner its enter triggers again.",
+      "evidence_class": "strategic_judgment",
+      "id": "gift-etb",
+      "mitigations": [
+       "Choose targets without strong ETBs",
+       "Thassa/Black Crystal to keep instead"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Mana Drain, Fierce Guardianship, Swan Song, Arcane Denial) and resets (Toxic Deluge, Blasphemous Act).",
+      "mana": "Five-mana commander: Sol Ring, Ancient Tomb, Talismans, Arcane Signet.",
+      "protection": "Ward {2}, Lightning Greaves, Deflecting Swat, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Goblin Bombardment",
+       "Mayhem Devil",
+       "Grave Pact",
+       "Pitiless Plunderer"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Edea, Possessed Sorceress",
+       "Viscera Seer",
+       "Phyrexian Altar",
+       "Ashnod's Altar"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "sac-drain",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Insurrection",
+       "Mass Mutiny",
+       "Mob Rule",
+       "Seize the Spotlight"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Goblin Bombardment",
+       "Ashnod's Altar"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "mass-theft-swing",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Edea is the only repeatable source of free theft and the card-draw half of every sacrifice.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "She steals at beginning of combat on your turn only, needs a worthwhile target on an opposing board, and her draw clause needs the borrowed creature to die while you control it. Against creature-light tables the engine is weak.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:board_wipe:db99528984a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:artifacts_wiped:139714ea3f6e",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:commander_removed_twice:cf00ade7284f",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:key_engine_exiled:bf194a5d1132",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:mana_screw:aeea6caf0e9d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:color_screw:7cae04a0dba5",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:graveyard_exiled:79a2a9cfe0f6",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Ashnod's Altar"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Chaos Shrine's Black Crystal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#key_interactions/black-crystal-order"
+      ],
+      "card": "Chaos Shrine's Black Crystal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Chaos Shrine's Black Crystal"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Goblin Bombardment",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gogo, Master of Mimicry",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Gogo, Master of Mimicry"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Grave Pact",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Impostor Syndrome",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Impostor Syndrome"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Industrial Advancement",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Industrial Advancement"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#tutor_targets/Insurrection"
+      ],
+      "card": "Insurrection",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Insurrection"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kethek, Crucible Goliath",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Kethek, Crucible Goliath"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Mass Mutiny",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Mass Mutiny",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mass Mutiny"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Mob Rule",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mob Rule"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Nightmare Shepherd",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Nightmare Shepherd"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Phyrexian Altar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Pitiless Plunderer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos, the Muscle",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Rakdos, the Muscle"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Saw in Half",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Saw in Half"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#failure_modes/no-targets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Seize the Spotlight",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Seize the Spotlight"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Thassa, Deep-Dwelling",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#key_interactions/thassa-keep"
+      ],
+      "card": "Thassa, Deep-Dwelling",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Thassa, Deep-Dwelling"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Victimize",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Victimize"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Viscera Seer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Viscera Seer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into a generic aristocrats deck that only sacrifices its own creatures (source).",
+      "No compact cEDH combo package; the source sets a commander-first B4 shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Creature-light opponents leave nothing worth stealing.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-targets",
+      "mitigations": [
+       "Treasure/token sacrifice still feeds payoffs",
+       "Seize the Spotlight"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Five-mana commander removed: theft and draw stop.",
+      "evidence_class": "strategic_judgment",
+      "id": "edea-removed",
+      "mitigations": [
+       "Ward {2}",
+       "Greaves",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Returning the creature gives its owner its enter triggers again.",
+      "evidence_class": "strategic_judgment",
+      "id": "gift-etb",
+      "mitigations": [
+       "Choose targets without strong ETBs",
+       "Thassa/Black Crystal to keep instead"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Mana Drain, Fierce Guardianship, Swan Song, Arcane Denial) and resets (Toxic Deluge, Blasphemous Act).",
+      "mana": "Five-mana commander: Sol Ring, Ancient Tomb, Talismans, Arcane Signet.",
+      "protection": "Ward {2}, Lightning Greaves, Deflecting Swat, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Goblin Bombardment",
+       "Mayhem Devil",
+       "Grave Pact",
+       "Pitiless Plunderer"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Edea, Possessed Sorceress",
+       "Viscera Seer",
+       "Phyrexian Altar",
+       "Ashnod's Altar"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "sac-drain",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Insurrection",
+       "Mass Mutiny",
+       "Mob Rule",
+       "Seize the Spotlight"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Goblin Bombardment",
+       "Ashnod's Altar"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "mass-theft-swing",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Edea is the only repeatable source of free theft and the card-draw half of every sacrifice.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "She steals at beginning of combat on your turn only, needs a worthwhile target on an opposing board, and her draw clause needs the borrowed creature to die while you control it. Against creature-light tables the engine is weak.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:board_wipe:db99528984a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:artifacts_wiped:139714ea3f6e",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:commander_removed_twice:cf00ade7284f",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:key_engine_exiled:bf194a5d1132",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:mana_screw:aeea6caf0e9d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:color_screw:7cae04a0dba5",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:graveyard_exiled:79a2a9cfe0f6",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Arcane Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Ashnod's Altar"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Ayara, Widow of the Realm // Ayara, Furnace Queen"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Chaos Shrine's Black Crystal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#key_interactions/black-crystal-order"
+      ],
+      "card": "Chaos Shrine's Black Crystal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Chaos Shrine's Black Crystal"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Goblin Bombardment",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Goblin Bombardment"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gogo, Master of Mimicry",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Gogo, Master of Mimicry"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Grave Pact",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Impostor Syndrome",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Impostor Syndrome"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Industrial Advancement",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Industrial Advancement"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#tutor_targets/Insurrection"
+      ],
+      "card": "Insurrection",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Insurrection"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kethek, Crucible Goliath",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Kethek, Crucible Goliath"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Mass Mutiny",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Mass Mutiny",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mass Mutiny"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Mob Rule",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Mob Rule"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Nightmare Shepherd",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Nightmare Shepherd"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/borrow-and-sacrifice",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:sac-outlets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Phyrexian Altar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/sac-drain"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Pitiless Plunderer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos, the Muscle",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Rakdos, the Muscle"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#plan/value"
+      ],
+      "card": "Saw in Half",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Saw in Half"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#failure_modes/no-targets",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#packages/pkg:extra-theft",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#win_conditions/mass-theft-swing"
+      ],
+      "card": "Seize the Spotlight",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Seize the Spotlight"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#engines/keep-the-steal",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#identity_core/Thassa, Deep-Dwelling",
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#key_interactions/thassa-keep"
+      ],
+      "card": "Thassa, Deep-Dwelling",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Thassa, Deep-Dwelling"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/edea-possessed-sorceress.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/edea-possessed-sorceress.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into a generic aristocrats deck that only sacrifices its own creatures (source).",
+      "No compact cEDH combo package; the source sets a commander-first B4 shell."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Creature-light opponents leave nothing worth stealing.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-targets",
+      "mitigations": [
+       "Treasure/token sacrifice still feeds payoffs",
+       "Seize the Spotlight"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Five-mana commander removed: theft and draw stop.",
+      "evidence_class": "strategic_judgment",
+      "id": "edea-removed",
+      "mitigations": [
+       "Ward {2}",
+       "Greaves",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Returning the creature gives its owner its enter triggers again.",
+      "evidence_class": "strategic_judgment",
+      "id": "gift-etb",
+      "mitigations": [
+       "Choose targets without strong ETBs",
+       "Thassa/Black Crystal to keep instead"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Mana Drain, Fierce Guardianship, Swan Song, Arcane Denial) and resets (Toxic Deluge, Blasphemous Act).",
+      "mana": "Five-mana commander: Sol Ring, Ancient Tomb, Talismans, Arcane Signet.",
+      "protection": "Ward {2}, Lightning Greaves, Deflecting Swat, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Goblin Bombardment",
+       "Mayhem Devil",
+       "Grave Pact",
+       "Pitiless Plunderer"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Edea, Possessed Sorceress",
+       "Viscera Seer",
+       "Phyrexian Altar",
+       "Ashnod's Altar"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "sac-drain",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Insurrection",
+       "Mass Mutiny",
+       "Mob Rule",
+       "Seize the Spotlight"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Goblin Bombardment",
+       "Ashnod's Altar"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "mass-theft-swing",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Edea is the only repeatable source of free theft and the card-draw half of every sacrifice.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "She steals at beginning of combat on your turn only, needs a worthwhile target on an opposing board, and her draw clause needs the borrowed creature to die while you control it. Against creature-light tables the engine is weak.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:board_wipe:db99528984a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:artifacts_wiped:139714ea3f6e",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:commander_removed_twice:cf00ade7284f",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:key_engine_exiled:bf194a5d1132",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:mana_screw:aeea6caf0e9d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:color_screw:7cae04a0dba5",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/edea-possessed-sorceress.json#test:edea-possessed-sorceress:stress:graveyard_exiled:79a2a9cfe0f6",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "edea-possessed-sorceress",
+ "source_packet": "data/grixis/bracket_stress_packets/edea-possessed-sorceress.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

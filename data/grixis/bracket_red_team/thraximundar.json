@@ -1,0 +1,2628 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+ "deck_id": "Thraximundar",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 92,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Accursed Marauder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Accursed Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/thraximundar.json#combo:2452-2577-5256",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4871-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2842-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Braids, Arisen Nightmare",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Braids, Arisen Nightmare"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Cultist of the Absolute",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Cultist of the Absolute",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Cultist of the Absolute"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:commander-mana"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/any-player",
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Dictate of Erebos",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Dictate of Erebos"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Diregraf Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Diregraf Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Fleshbag Marauder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Fleshbag Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/thraximundar.json#combo:2452-2577-5147",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Grave Pact",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Grave Pact",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#failure_modes/graveyard-hate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Gravecrawler"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces"
+      ],
+      "card": "Grimgrin, Corpse-Born",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Grimgrin, Corpse-Born",
+       "graph:data/grixis/graph/thraximundar.json#combo:728-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:728-2577-4871"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Innocent Blood",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Innocent Blood"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#recursion/value"
+      ],
+      "card": "Liliana, Dreadhorde General",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Liliana, Dreadhorde General"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mahadi, Emporium Master",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Mahadi, Emporium Master"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/force-cut",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:commander-mana"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Phyrexian Altar",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-4050-4871",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Plaguecrafter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Plaguecrafter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Thassa's Oracle / Consultation (v1 decisions L68; v2 L78).",
+      "Zombie tribal stays secondary (v2 L77)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Repeated removal taxes a seven-mana commander.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removal",
+      "mitigations": [
+       "Command Beacon",
+       "Swiftfoot Boots"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Few counterspells after Force of Will was cut.",
+      "evidence_class": "strategic_judgment",
+      "id": "thin-counters",
+      "mitigations": [
+       "Mana Drain",
+       "Fierce Guardianship"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate stops Gravecrawler and Skeleton loops.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Edict plan",
+       "Commander damage"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Feed the Swarm, Toxic Deluge, Cyclonic Rift, Vandalblast, edict suite.",
+      "mana": "36 lands with Cabal Coffers, Urborg and Command Beacon.",
+      "protection": "Deflecting Swat, Lightning Greaves, Swiftfoot Boots, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Gravecrawler",
+       "Phyrexian Altar",
+       "Rooftop Storm",
+       "Carrion Feeder",
+       "Pitiless Plunderer",
+       "Reassembling Skeleton",
+       "Ashnod's Altar",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Warren Soultrader"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "zombie-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Thraximundar",
+       "Cultist of the Absolute",
+       "Shizo, Death's Storehouse"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Accursed Marauder",
+       "Fleshbag Marauder",
+       "Innocent Blood",
+       "Plaguecrafter"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Thraximundar's attack is an edict, he grows from every sacrifice by any player, and he is a Zombie that enables Gravecrawler.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. The approval uses the v2 decisions (approvals L14).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 17,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 17
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:board_wipe:851af96bc0d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:artifacts_wiped:af29b0617e71",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:commander_removed_twice:b6e7d4a3f36e",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:key_engine_exiled:8cc254640e71",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:mana_screw:273fde0dcd0f",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:color_screw:d93fbdd225c7",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:graveyard_exiled:44167427ae03",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Accursed Marauder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Accursed Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/thraximundar.json#combo:2452-2577-5256",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4871-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2842-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Cultist of the Absolute",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Cultist of the Absolute",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Cultist of the Absolute"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/any-player",
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Dictate of Erebos",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Dictate of Erebos"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Diregraf Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Diregraf Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Fleshbag Marauder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Fleshbag Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/thraximundar.json#combo:2452-2577-5147",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Grave Pact",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Grave Pact",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#failure_modes/graveyard-hate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Gravecrawler"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces"
+      ],
+      "card": "Grimgrin, Corpse-Born",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Grimgrin, Corpse-Born",
+       "graph:data/grixis/graph/thraximundar.json#combo:728-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:728-2577-4871"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Innocent Blood",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Innocent Blood"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Phyrexian Altar",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-4050-4871",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Plaguecrafter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Plaguecrafter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Reassembling Skeleton",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Reassembling Skeleton",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Rooftop Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Rooftop Storm",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sheoldred, Whispering One",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Sheoldred, Whispering One"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Shizo, Death's Storehouse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Shizo, Death's Storehouse"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Vampiric Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Vampiric Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Thassa's Oracle / Consultation (v1 decisions L68; v2 L78).",
+      "Zombie tribal stays secondary (v2 L77)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Repeated removal taxes a seven-mana commander.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removal",
+      "mitigations": [
+       "Command Beacon",
+       "Swiftfoot Boots"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Few counterspells after Force of Will was cut.",
+      "evidence_class": "strategic_judgment",
+      "id": "thin-counters",
+      "mitigations": [
+       "Mana Drain",
+       "Fierce Guardianship"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate stops Gravecrawler and Skeleton loops.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Edict plan",
+       "Commander damage"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Feed the Swarm, Toxic Deluge, Cyclonic Rift, Vandalblast, edict suite.",
+      "mana": "36 lands with Cabal Coffers, Urborg and Command Beacon.",
+      "protection": "Deflecting Swat, Lightning Greaves, Swiftfoot Boots, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Gravecrawler",
+       "Phyrexian Altar",
+       "Rooftop Storm",
+       "Carrion Feeder",
+       "Pitiless Plunderer",
+       "Reassembling Skeleton",
+       "Ashnod's Altar",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Warren Soultrader"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "zombie-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Thraximundar",
+       "Cultist of the Absolute",
+       "Shizo, Death's Storehouse"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Accursed Marauder",
+       "Fleshbag Marauder",
+       "Innocent Blood",
+       "Plaguecrafter"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Thraximundar's attack is an edict, he grows from every sacrifice by any player, and he is a Zombie that enables Gravecrawler.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. The approval uses the v2 decisions (approvals L14).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 17,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 17
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:board_wipe:851af96bc0d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:artifacts_wiped:af29b0617e71",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:commander_removed_twice:b6e7d4a3f36e",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:key_engine_exiled:8cc254640e71",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:mana_screw:273fde0dcd0f",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:color_screw:d93fbdd225c7",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:graveyard_exiled:44167427ae03",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Accursed Marauder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Accursed Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/thraximundar.json#combo:2452-2577-5256",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4871-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2842-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Cultist of the Absolute",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Cultist of the Absolute",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Cultist of the Absolute"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/any-player",
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Dictate of Erebos",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Dictate of Erebos"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Diregraf Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Diregraf Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Fleshbag Marauder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Fleshbag Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/thraximundar.json#combo:2452-2577-5147",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Grave Pact",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Grave Pact",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#failure_modes/graveyard-hate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Gravecrawler"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces"
+      ],
+      "card": "Grimgrin, Corpse-Born",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Grimgrin, Corpse-Born",
+       "graph:data/grixis/graph/thraximundar.json#combo:728-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:728-2577-4871"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Innocent Blood",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Innocent Blood"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Phyrexian Altar",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-4050-4871",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Plaguecrafter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Plaguecrafter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Reassembling Skeleton",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Reassembling Skeleton",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Rooftop Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Rooftop Storm",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sheoldred, Whispering One",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Sheoldred, Whispering One"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Shizo, Death's Storehouse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Shizo, Death's Storehouse"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Vampiric Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Vampiric Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Thassa's Oracle / Consultation (v1 decisions L68; v2 L78).",
+      "Zombie tribal stays secondary (v2 L77)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Repeated removal taxes a seven-mana commander.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removal",
+      "mitigations": [
+       "Command Beacon",
+       "Swiftfoot Boots"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Few counterspells after Force of Will was cut.",
+      "evidence_class": "strategic_judgment",
+      "id": "thin-counters",
+      "mitigations": [
+       "Mana Drain",
+       "Fierce Guardianship"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate stops Gravecrawler and Skeleton loops.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Edict plan",
+       "Commander damage"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Feed the Swarm, Toxic Deluge, Cyclonic Rift, Vandalblast, edict suite.",
+      "mana": "36 lands with Cabal Coffers, Urborg and Command Beacon.",
+      "protection": "Deflecting Swat, Lightning Greaves, Swiftfoot Boots, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Gravecrawler",
+       "Phyrexian Altar",
+       "Rooftop Storm",
+       "Carrion Feeder",
+       "Pitiless Plunderer",
+       "Reassembling Skeleton",
+       "Ashnod's Altar",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Warren Soultrader"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "zombie-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Thraximundar",
+       "Cultist of the Absolute",
+       "Shizo, Death's Storehouse"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Accursed Marauder",
+       "Fleshbag Marauder",
+       "Innocent Blood",
+       "Plaguecrafter"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Thraximundar's attack is an edict, he grows from every sacrifice by any player, and he is a Zombie that enables Gravecrawler.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. The approval uses the v2 decisions (approvals L14).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 17,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 17
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:board_wipe:851af96bc0d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:artifacts_wiped:af29b0617e71",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:commander_removed_twice:b6e7d4a3f36e",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:key_engine_exiled:8cc254640e71",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:mana_screw:273fde0dcd0f",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:color_screw:d93fbdd225c7",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:graveyard_exiled:44167427ae03",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Accursed Marauder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Accursed Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/thraximundar.json#combo:2452-2577-5256",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4871-5256"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2842-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Cultist of the Absolute",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Cultist of the Absolute",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Cultist of the Absolute"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/any-player",
+       "blueprint:data/grixis/blueprints/thraximundar.json#tutor_targets/Gravecrawler",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Dictate of Erebos",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Dictate of Erebos"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Diregraf Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Diregraf Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#failure_modes/thin-counters",
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Fleshbag Marauder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Fleshbag Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/thraximundar.json#combo:2452-2577-5147",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Grave Pact",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Grave Pact",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#failure_modes/graveyard-hate",
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Gravecrawler"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces"
+      ],
+      "card": "Grimgrin, Corpse-Born",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Grimgrin, Corpse-Born",
+       "graph:data/grixis/graph/thraximundar.json#combo:728-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:728-2577-4871"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Innocent Blood",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Innocent Blood"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#failure_modes/thin-counters",
+       "blueprint:data/grixis/blueprints/thraximundar.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/pact-dictate"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#identity_core/Phyrexian Altar",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-4050-4871",
+       "graph:data/grixis/graph/thraximundar.json#combo:2577-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#engines/any-sacrifice-growth",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:edicts",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Plaguecrafter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Plaguecrafter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#key_interactions/skeleton-ashnod",
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value"
+      ],
+      "card": "Reassembling Skeleton",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Reassembling Skeleton",
+       "graph:data/grixis/graph/thraximundar.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/thraximundar.json#combo:1580-2034-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#packages/pkg:loop-pieces",
+       "blueprint:data/grixis/blueprints/thraximundar.json#plan/value",
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/zombie-loops"
+      ],
+      "card": "Rooftop Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Rooftop Storm",
+       "graph:data/grixis/graph/thraximundar.json#combo:2034-2452-2577",
+       "graph:data/grixis/graph/thraximundar.json#combo:2438-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sheoldred, Whispering One",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Sheoldred, Whispering One"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/thraximundar.json#win_conditions/commander-damage"
+      ],
+      "card": "Shizo, Death's Storehouse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/thraximundar.json#metrics/Shizo, Death's Storehouse"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Thassa's Oracle / Consultation (v1 decisions L68; v2 L78).",
+      "Zombie tribal stays secondary (v2 L77)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Repeated removal taxes a seven-mana commander.",
+      "evidence_class": "strategic_judgment",
+      "id": "commander-removal",
+      "mitigations": [
+       "Command Beacon",
+       "Swiftfoot Boots"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Few counterspells after Force of Will was cut.",
+      "evidence_class": "strategic_judgment",
+      "id": "thin-counters",
+      "mitigations": [
+       "Mana Drain",
+       "Fierce Guardianship"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate stops Gravecrawler and Skeleton loops.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Edict plan",
+       "Commander damage"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Feed the Swarm, Toxic Deluge, Cyclonic Rift, Vandalblast, edict suite.",
+      "mana": "36 lands with Cabal Coffers, Urborg and Command Beacon.",
+      "protection": "Deflecting Swat, Lightning Greaves, Swiftfoot Boots, Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Gravecrawler",
+       "Phyrexian Altar",
+       "Rooftop Storm",
+       "Carrion Feeder",
+       "Pitiless Plunderer",
+       "Reassembling Skeleton",
+       "Ashnod's Altar",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Warren Soultrader"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "zombie-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Thraximundar",
+       "Cultist of the Absolute",
+       "Shizo, Death's Storehouse"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Accursed Marauder",
+       "Fleshbag Marauder",
+       "Innocent Blood",
+       "Plaguecrafter"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Thraximundar's attack is an edict, he grows from every sacrifice by any player, and he is a Zombie that enables Gravecrawler.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Honest call: significant. None of the 17 Spellbook combos names him, though he can be Gravecrawler's 'another Zombie'. Without the loops he is a commander-damage clock. The approval uses the v2 decisions (approvals L14).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 17,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 17
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:board_wipe:851af96bc0d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:artifacts_wiped:af29b0617e71",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:commander_removed_twice:b6e7d4a3f36e",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:key_engine_exiled:8cc254640e71",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:mana_screw:273fde0dcd0f",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:color_screw:d93fbdd225c7",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/thraximundar.json#test:thraximundar:stress:graveyard_exiled:44167427ae03",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "thraximundar",
+ "source_packet": "data/grixis/bracket_stress_packets/thraximundar.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

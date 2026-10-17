@@ -1,0 +1,2229 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 98,
+  "commander_role": "supporting",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:artifact-fodder"
+      ],
+      "card": "Academy Manufactor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Academy Manufactor"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Apex of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Apex of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:draw-engines"
+      ],
+      "card": "Archmage Emeritus",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Archmage Emeritus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:artifact-fodder"
+      ],
+      "card": "Big Score",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Big Score"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blightstep Pathway // Searstep Pathway",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Blightstep Pathway // Searstep Pathway"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brainstorm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Brainstorm"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:artifact-fodder"
+      ],
+      "card": "Brass's Bounty",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Brass's Bounty"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Clearwater Pathway // Murkwater Pathway",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Clearwater Pathway // Murkwater Pathway"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cormela, Glamour Thief",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Cormela, Glamour Thief"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cruel Ultimatum",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Cruel Ultimatum"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Deal",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Dark Deal"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:artifact-fodder"
+      ],
+      "card": "Deadly Dispute",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Deadly Dispute"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:wheels"
+      ],
+      "card": "Echo of Eons",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Echo of Eons"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Frantic Search",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Frantic Search"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#engines/cecily-attack",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#key_interactions/prodigy-doubles",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/wizard-damage"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:artifact-fodder"
+      ],
+      "card": "Ichor Wellspring",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Ichor Wellspring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Mana Geyser",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Mana Geyser"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mnemonic Deluge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Mnemonic Deluge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#engines/hand-size",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:draw-engines"
+      ],
+      "card": "Mystic Remora",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:draw-engines",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/wizard-damage"
+      ],
+      "card": "Niv-Mizzet, Parun",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Niv-Mizzet, Parun"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#engines/hand-size",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:wheels"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Notion Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't homogenize into generic Grixis storm (source guardrail).",
+      "Don't claim the three exception cards are Commander-legal.",
+      "Don't build around the misdescribed source text for Bjorna/Cecily."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Cecily dies in combat or can't attack safely; free casts never happen.",
+      "evidence_class": "strategic_judgment",
+      "id": "cecily-cant-attack",
+      "mitigations": [
+       "Bjorna pings X/1 blockers",
+       "Greaves"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Wheels replace the hand and can drop below eleven.",
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-shrinks-hand",
+      "mitigations": [
+       "Sequence wheels before draw engines"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Outside the project the list is not Commander-legal (three exceptions); the official projection swaps them out and loses power.",
+      "evidence_class": "strategic_judgment",
+      "id": "legality",
+      "mitigations": [
+       "Projection is labeled and never canonical"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters to protect combo turns; Toxic Deluge and Cyclonic Rift as resets.",
+      "mana": "Rituals (Seething Song, Mana Geyser, Jeska's Will) and rocks.",
+      "protection": "Lightning Greaves for Cecily's attack; Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Psychosis Crawler"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Cecily, Haunted Mage"
+      ],
+      "evidence_class": "fact",
+      "id": "peer-crawler",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Teferi's Ageless Insight"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "peer-ageless-insight",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Niv-Mizzet, Parun",
+       "Psychosis Crawler"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Harmonic Prodigy"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "wizard-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Cecily (significant) turns attacks into a card and, with 11+ cards, a free spell. Bjorna (supporting/incidental) is a small repeatable ping/goad that uses artifact tokens: it kills X/1s and redirects attacks on opponents' turns. As a pair they are supporting; the deck wins with draw-and-wheel combos that don't need either commander.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source blueprint misdescribes both commanders (Bjorna does not grant haste on noncreature spells; Cecily triggers on attacking, not combat damage; M1 bjorna-12). On current Oracle Bjorna is close to incidental and Cecily is a significant but combat-exposed engine. The approval dossier calls the pair the 'strategic center'; GrokBot's reading is that the draw/wheel/Peer package is.",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 2,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:board_wipe:d3450ee40592",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:artifacts_wiped:29a607cfbc17",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:commander_removed_twice:74a4a427a599",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:key_engine_exiled:42ed513e528b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:mana_screw:ee87914e8206",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:color_screw:1d40d158ea11",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:graveyard_exiled:b5e6ca83962d",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Apex of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Apex of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#engines/cecily-attack",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#key_interactions/prodigy-doubles",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/wizard-damage"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "In Garruk's Wake",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/In Garruk's Wake"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mnemonic Deluge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Mnemonic Deluge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:draw-engines",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/wizard-damage"
+      ],
+      "card": "Niv-Mizzet, Parun",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Niv-Mizzet, Parun"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oni-Cult Anvil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Oni-Cult Anvil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#identity_core/Peer into the Abyss",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value"
+      ],
+      "card": "Peer into the Abyss",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Peer into the Abyss",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-2384",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-5042"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#tutor_targets/Psychosis Crawler"
+      ],
+      "card": "Psychosis Crawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Psychosis Crawler",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-2384",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:wizard-damage"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/peer-ageless-insight"
+      ],
+      "card": "Teferi's Ageless Insight",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Teferi's Ageless Insight",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-5042"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#engines/hand-size",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#identity_core/The One Ring",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:draw-engines"
+      ],
+      "card": "The One Ring",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/The One Ring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Third Path Iconoclast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Third Path Iconoclast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/breach-wheel"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't homogenize into generic Grixis storm (source guardrail).",
+      "Don't claim the three exception cards are Commander-legal.",
+      "Don't build around the misdescribed source text for Bjorna/Cecily."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Cecily dies in combat or can't attack safely; free casts never happen.",
+      "evidence_class": "strategic_judgment",
+      "id": "cecily-cant-attack",
+      "mitigations": [
+       "Bjorna pings X/1 blockers",
+       "Greaves"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Wheels replace the hand and can drop below eleven.",
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-shrinks-hand",
+      "mitigations": [
+       "Sequence wheels before draw engines"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Outside the project the list is not Commander-legal (three exceptions); the official projection swaps them out and loses power.",
+      "evidence_class": "strategic_judgment",
+      "id": "legality",
+      "mitigations": [
+       "Projection is labeled and never canonical"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters to protect combo turns; Toxic Deluge and Cyclonic Rift as resets.",
+      "mana": "Rituals (Seething Song, Mana Geyser, Jeska's Will) and rocks.",
+      "protection": "Lightning Greaves for Cecily's attack; Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Psychosis Crawler"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Cecily, Haunted Mage"
+      ],
+      "evidence_class": "fact",
+      "id": "peer-crawler",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Teferi's Ageless Insight"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "peer-ageless-insight",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Niv-Mizzet, Parun",
+       "Psychosis Crawler"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Harmonic Prodigy"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "wizard-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Cecily (significant) turns attacks into a card and, with 11+ cards, a free spell. Bjorna (supporting/incidental) is a small repeatable ping/goad that uses artifact tokens: it kills X/1s and redirects attacks on opponents' turns. As a pair they are supporting; the deck wins with draw-and-wheel combos that don't need either commander.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source blueprint misdescribes both commanders (Bjorna does not grant haste on noncreature spells; Cecily triggers on attacking, not combat damage; M1 bjorna-12). On current Oracle Bjorna is close to incidental and Cecily is a significant but combat-exposed engine. The approval dossier calls the pair the 'strategic center'; GrokBot's reading is that the draw/wheel/Peer package is.",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 2,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:board_wipe:d3450ee40592",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:artifacts_wiped:29a607cfbc17",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:commander_removed_twice:74a4a427a599",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:key_engine_exiled:42ed513e528b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:mana_screw:ee87914e8206",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:color_screw:1d40d158ea11",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:graveyard_exiled:b5e6ca83962d",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Apex of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Apex of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#engines/cecily-attack",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#key_interactions/prodigy-doubles",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/wizard-damage"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "In Garruk's Wake",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/In Garruk's Wake"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mnemonic Deluge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Mnemonic Deluge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:draw-engines",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/wizard-damage"
+      ],
+      "card": "Niv-Mizzet, Parun",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Niv-Mizzet, Parun"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oni-Cult Anvil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Oni-Cult Anvil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#identity_core/Peer into the Abyss",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value"
+      ],
+      "card": "Peer into the Abyss",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Peer into the Abyss",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-2384",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-5042"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#tutor_targets/Psychosis Crawler"
+      ],
+      "card": "Psychosis Crawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Psychosis Crawler",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-2384",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:wizard-damage"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/peer-ageless-insight"
+      ],
+      "card": "Teferi's Ageless Insight",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Teferi's Ageless Insight",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-5042"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#engines/hand-size",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#identity_core/The One Ring",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:draw-engines"
+      ],
+      "card": "The One Ring",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/The One Ring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Third Path Iconoclast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Third Path Iconoclast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/breach-wheel"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't homogenize into generic Grixis storm (source guardrail).",
+      "Don't claim the three exception cards are Commander-legal.",
+      "Don't build around the misdescribed source text for Bjorna/Cecily."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Cecily dies in combat or can't attack safely; free casts never happen.",
+      "evidence_class": "strategic_judgment",
+      "id": "cecily-cant-attack",
+      "mitigations": [
+       "Bjorna pings X/1 blockers",
+       "Greaves"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Wheels replace the hand and can drop below eleven.",
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-shrinks-hand",
+      "mitigations": [
+       "Sequence wheels before draw engines"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Outside the project the list is not Commander-legal (three exceptions); the official projection swaps them out and loses power.",
+      "evidence_class": "strategic_judgment",
+      "id": "legality",
+      "mitigations": [
+       "Projection is labeled and never canonical"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters to protect combo turns; Toxic Deluge and Cyclonic Rift as resets.",
+      "mana": "Rituals (Seething Song, Mana Geyser, Jeska's Will) and rocks.",
+      "protection": "Lightning Greaves for Cecily's attack; Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Psychosis Crawler"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Cecily, Haunted Mage"
+      ],
+      "evidence_class": "fact",
+      "id": "peer-crawler",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Teferi's Ageless Insight"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "peer-ageless-insight",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Niv-Mizzet, Parun",
+       "Psychosis Crawler"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Harmonic Prodigy"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "wizard-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Cecily (significant) turns attacks into a card and, with 11+ cards, a free spell. Bjorna (supporting/incidental) is a small repeatable ping/goad that uses artifact tokens: it kills X/1s and redirects attacks on opponents' turns. As a pair they are supporting; the deck wins with draw-and-wheel combos that don't need either commander.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source blueprint misdescribes both commanders (Bjorna does not grant haste on noncreature spells; Cecily triggers on attacking, not combat damage; M1 bjorna-12). On current Oracle Bjorna is close to incidental and Cecily is a significant but combat-exposed engine. The approval dossier calls the pair the 'strategic center'; GrokBot's reading is that the draw/wheel/Peer package is.",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 2,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:board_wipe:d3450ee40592",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:artifacts_wiped:29a607cfbc17",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:commander_removed_twice:74a4a427a599",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:key_engine_exiled:42ed513e528b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:mana_screw:ee87914e8206",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:color_screw:1d40d158ea11",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:graveyard_exiled:b5e6ca83962d",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Apex of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Apex of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Counterspell",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#engines/cecily-attack",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#key_interactions/prodigy-doubles",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/wizard-damage"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "In Garruk's Wake",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/In Garruk's Wake"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Kess, Dissident Mage",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mnemonic Deluge",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Mnemonic Deluge"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:draw-engines",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/wizard-damage"
+      ],
+      "card": "Niv-Mizzet, Parun",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Niv-Mizzet, Parun"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Oni-Cult Anvil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Oni-Cult Anvil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#identity_core/Peer into the Abyss",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value"
+      ],
+      "card": "Peer into the Abyss",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Peer into the Abyss",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-2384",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-5042"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#tutor_targets/Psychosis Crawler"
+      ],
+      "card": "Psychosis Crawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Psychosis Crawler",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-2384",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:wizard-damage"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/peer-ageless-insight"
+      ],
+      "card": "Teferi's Ageless Insight",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Teferi's Ageless Insight",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1561-5042"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#engines/hand-size",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#identity_core/The One Ring",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:draw-engines"
+      ],
+      "card": "The One Ring",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/The One Ring"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Third Path Iconoclast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Third Path Iconoclast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:combo",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#recursion/value"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#plan/value",
+       "blueprint:data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json#win_conditions/breach-wheel"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/bjorna-nightfall-alchemist-cecily.json#win:breach-wheel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't homogenize into generic Grixis storm (source guardrail).",
+      "Don't claim the three exception cards are Commander-legal.",
+      "Don't build around the misdescribed source text for Bjorna/Cecily."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Cecily dies in combat or can't attack safely; free casts never happen.",
+      "evidence_class": "strategic_judgment",
+      "id": "cecily-cant-attack",
+      "mitigations": [
+       "Bjorna pings X/1 blockers",
+       "Greaves"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Wheels replace the hand and can drop below eleven.",
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-shrinks-hand",
+      "mitigations": [
+       "Sequence wheels before draw engines"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Outside the project the list is not Commander-legal (three exceptions); the official projection swaps them out and loses power.",
+      "evidence_class": "strategic_judgment",
+      "id": "legality",
+      "mitigations": [
+       "Projection is labeled and never canonical"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters to protect combo turns; Toxic Deluge and Cyclonic Rift as resets.",
+      "mana": "Rituals (Seething Song, Mana Geyser, Jeska's Will) and rocks.",
+      "protection": "Lightning Greaves for Cecily's attack; Fierce Guardianship."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Psychosis Crawler"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Cecily, Haunted Mage"
+      ],
+      "evidence_class": "fact",
+      "id": "peer-crawler",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Teferi's Ageless Insight"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "peer-ageless-insight",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Niv-Mizzet, Parun",
+       "Psychosis Crawler"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Harmonic Prodigy"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "wizard-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Cecily (significant) turns attacks into a card and, with 11+ cards, a free spell. Bjorna (supporting/incidental) is a small repeatable ping/goad that uses artifact tokens: it kills X/1s and redirects attacks on opponents' turns. As a pair they are supporting; the deck wins with draw-and-wheel combos that don't need either commander.",
+      "confidence": "moderate",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source blueprint misdescribes both commanders (Bjorna does not grant haste on noncreature spells; Cecily triggers on attacking, not combat damage; M1 bjorna-12). On current Oracle Bjorna is close to incidental and Cecily is a significant but combat-exposed engine. The approval dossier calls the pair the 'strategic center'; GrokBot's reading is that the draw/wheel/Peer package is.",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 2,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:board_wipe:d3450ee40592",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:artifacts_wiped:29a607cfbc17",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:commander_removed_twice:74a4a427a599",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:key_engine_exiled:42ed513e528b",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:mana_screw:ee87914e8206",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:color_screw:1d40d158ea11",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/bjorna-nightfall-alchemist-cecily.json#test:bjorna-nightfall-alchemist-cecily:stress:graveyard_exiled:b5e6ca83962d",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "source_packet": "data/grixis/bracket_stress_packets/bjorna-nightfall-alchemist-cecily.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

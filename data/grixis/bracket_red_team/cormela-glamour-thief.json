@@ -1,0 +1,711 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "deck_id": "Cormela__Glamour_Thief",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#failure_modes/self-damage",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#power/grok_estimated_ceiling"
+      ],
+      "card": "Ad Nauseam",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Ad Nauseam"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#engines/death-recursion",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:cormela-loops",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/reanimate-altar"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:147-1893-2034",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:147-2034-3440"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:cormela-loops",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/molten-duplication"
+      ],
+      "card": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:392-4867-5487"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:cedh-failover",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#plan/value",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/saw-in-half"
+      ],
+      "card": "Cabal Ritual",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Cabal Ritual",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:500-4867-4923"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/saw-in-half"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Dark Ritual",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:500-2701-4867"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:stack-interaction"
+      ],
+      "card": "Deflecting Swat",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Deflecting Swat"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:cedh-failover",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#plan/value",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/thoracle"
+      ],
+      "card": "Demonic Consultation",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Demonic Consultation",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:742-1295"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#engines/death-recursion",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:cormela-loops",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#plan/value"
+      ],
+      "card": "Demonic Gifts",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Demonic Gifts",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:147-2034-3440",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:147-3440-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Saw in Half",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Saw in Half"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/molten-duplication"
+      ],
+      "card": "Dualcaster Mage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Dualcaster Mage",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:147-1893-2034",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:147-1893-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#recursion/value",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/reanimate-altar"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Entomb"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:stack-interaction"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:stack-interaction"
+      ],
+      "card": "Flusterstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Flusterstorm"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:stack-interaction"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:stack-interaction"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Saw in Half",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Gamble",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#identity_core/Goryo's Vengeance",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:cormela-loops",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#plan/value"
+      ],
+      "card": "Goryo's Vengeance",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Goryo's Vengeance",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:2034-3599-4867",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:3599-4050-4867"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Thassa's Oracle",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Imperial Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Imperial Seal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Intuition",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Intuition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/saw-in-half"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:500-1878-4867"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:fast-mana",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#win_conditions/breach"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:stack-interaction"
+      ],
+      "card": "Mental Misstep",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Mental Misstep"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#identity_core/Molten Duplication",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:cormela-loops",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#plan/value"
+      ],
+      "card": "Molten Duplication",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Molten Duplication",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:147-5487",
+       "graph:data/grixis/graph/cormela-glamour-thief.json#combo:392-4867-5487"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Saw in Half",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Mystical Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Mystical Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#failure_modes/self-damage",
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#power/grok_estimated_ceiling"
+      ],
+      "card": "Necropotence",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Necropotence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cormela-glamour-thief.json#packages/pkg:stack-interaction"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cormela-glamour-thief.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't let the generic Grixis cEDH failovers replace the Cormela loops as the identity.",
+      "Don't keep slow, exposed cost reducers (Electromancer, Storm-Kiln Artist cut in the ledger)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Losing the counter war on the combo turn.",
+      "evidence_class": "strategic_judgment",
+      "id": "stack-war-lost",
+      "mitigations": [
+       "Free counters",
+       "Multiple distinct lines"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard hate stops reanimation/Breach lines.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Saw in Half and Thassa's Oracle don't use the graveyard"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Ad Nauseam, Necropotence, City of Brass and Mana Confluence cost life.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-damage",
+      "mitigations": [
+       "Fast kill"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "cEDH-level stack interaction (12+ free/cheap counters) plus Bowmasters.",
+      "mana": "14+ fast-mana pieces, ~28 lands, untapped fetch/dual base (Xander's Lounge cut for Flooded Strand).",
+      "protection": "Counters protect the combo; Cormela is cheap to recast and can stay in the graveyard on purpose."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Cormela, Glamour Thief",
+       "Saw in Half",
+       "Dark Ritual",
+       "Cabal Ritual",
+       "Seething Song",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Tendrils of Agony"
+      ],
+      "evidence_class": "fact",
+      "id": "saw-in-half",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Cormela, Glamour Thief",
+       "Goryo's Vengeance",
+       "Shallow Grave",
+       "Ashnod's Altar",
+       "Phyrexian Altar"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Entomb"
+      ],
+      "evidence_class": "fact",
+      "id": "reanimate-altar",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Molten Duplication",
+       "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+       "Dualcaster Mage"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "molten-duplication",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Thassa's Oracle",
+       "Demonic Consultation",
+       "Tainted Pact"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "thoracle",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Cormela is a ritual on a hasty body and the recursion piece of a dozen Spellbook loops; most of the deck's infinites name her.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The compact Thassa's Oracle and Breach wins don't need her, which is correct for cEDH resilience; the ledger keeps them as failovers, not the identity.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 5,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 12,
+      "combo_direct_commander_piece": 11,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 23
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/cormela-glamour-thief.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cormela-glamour-thief.json#test:cormela-glamour-thief:stress:first_key_spell_countered:5294ff3d52cd",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cormela-glamour-thief.json#test:cormela-glamour-thief:stress:graveyard_exiled:ddeccca8ed48",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cormela-glamour-thief.json#test:cormela-glamour-thief:stress:commander_removed_twice:9a6fa1d7b43f",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cormela-glamour-thief.json#test:cormela-glamour-thief:stress:key_engine_exiled:8a4afda69861",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "cormela-glamour-thief",
+ "source_packet": "data/grixis/bracket_stress_packets/cormela-glamour-thief.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

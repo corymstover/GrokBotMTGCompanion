@@ -1,0 +1,2549 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "deck_id": "Lord_Xander__the_Collector",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 96,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Altar of Dementia",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Altar of Dementia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Blade of Selves",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/blade-vs-auton"
+      ],
+      "card": "Blade of Selves",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Blade of Selves"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brainstorm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Brainstorm"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Bruvac the Grandiloquent",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#tutor_targets/Bruvac the Grandiloquent"
+      ],
+      "card": "Bruvac the Grandiloquent",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Bruvac the Grandiloquent",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:95-1022",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:95-5080"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Cruel Calculations",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish"
+      ],
+      "card": "Cruel Calculations",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Cruel Calculations"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Duskmantle Guildmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Duskmantle Guildmage",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5069-5080",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:936-5069"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/xander-mill"
+      ],
+      "card": "Fraying Sanity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Fraying Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Grim Monolith",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Grim Monolith"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value"
+      ],
+      "card": "Hall of Echoes",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Hall of Echoes"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Karlach, Fury of Avernus"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Maddening Cacophony",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Maddening Cacophony",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5069-5080",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5080-6285"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Mindcrank",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Mindcrank",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:936-5069"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Notion Thief",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Notion Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Phantasmal Image",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/legend-rule-deaths"
+      ],
+      "card": "Phantasmal Image",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Phantasmal Image"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rhystic Study",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Riverchurn Monument",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Riverchurn Monument",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1022-6285",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5080-6285"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/xander-mill"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Commander-independent mill (Painter's Servant/Grindstone) cut for Xander copies (decisions).",
+      "No generic Grixis cEDH replacement of the commander-first shell (decisions L17)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops the reanimation route to a seven-mana commander.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Clones",
+       "Fast mana hard-cast"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Rounding down can leave a card in a library.",
+      "evidence_class": "strategic_judgment",
+      "id": "odd-library",
+      "mitigations": [
+       "Bruvac/Monument",
+       "Second mill source"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Removal before attacking costs the mill trigger (though the dies trigger still hurts).",
+      "evidence_class": "strategic_judgment",
+      "id": "xander-removed",
+      "mitigations": [
+       "Copies",
+       "Protection"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters (Force of Will, Force of Negation, Pact of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+      "mana": "Fast mana (Mana Vault, Grim Monolith, Ancient Tomb, Lotus Petal, Dark Ritual) or the reanimation route.",
+      "protection": "Lightning Greaves, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Lord Xander, the Collector",
+       "Bruvac the Grandiloquent",
+       "Riverchurn Monument",
+       "Fraying Sanity"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Hall of Echoes",
+       "Roaming Throne"
+      ],
+      "evidence_class": "fact",
+      "id": "xander-mill",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Duskmantle Guildmage",
+       "Mindcrank",
+       "Maddening Cacophony",
+       "Riverchurn Monument",
+       "Bruvac the Grandiloquent"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mill-combos",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault",
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Brain Freeze",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord Xander, the Collector"
+      ],
+      "evidence_class": "fact",
+      "id": "assault-breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every copy, reanimation and mill-doubler exists to multiply Xander's three triggers, and his attack is half of two Spellbook infinites.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Seven mana, so the deck relies on reanimation and clones to make him realistic. Halving rounds down, so an odd library leaves one card (M1 xander-05). Guildmage + Mindcrank, Monument/Bruvac + Cacophony, Sword + Assault and Breach all win without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 2,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 11
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:board_wipe:6febb76c3595",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:artifacts_wiped:284e02a47125",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:commander_removed_twice:5050a3dc5ab8",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:key_engine_exiled:d14fe41f5157",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:mana_screw:5b72d905e98c",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:color_screw:53f4e9d6c966",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:graveyard_exiled:7b9fc309e851",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Altar of Dementia",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Altar of Dementia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Blade of Selves",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/blade-vs-auton"
+      ],
+      "card": "Blade of Selves",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Blade of Selves"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Bruvac the Grandiloquent",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#tutor_targets/Bruvac the Grandiloquent"
+      ],
+      "card": "Bruvac the Grandiloquent",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Bruvac the Grandiloquent",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:95-1022",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:95-5080"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Cruel Calculations",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish"
+      ],
+      "card": "Cruel Calculations",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Cruel Calculations"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Duskmantle Guildmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Duskmantle Guildmage",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5069-5080",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:936-5069"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/xander-mill"
+      ],
+      "card": "Fraying Sanity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Fraying Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value"
+      ],
+      "card": "Hall of Echoes",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Hall of Echoes"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Karlach, Fury of Avernus"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Maddening Cacophony",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Maddening Cacophony",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5069-5080",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5080-6285"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Mindcrank",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Mindcrank",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:936-5069"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Phantasmal Image",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/legend-rule-deaths"
+      ],
+      "card": "Phantasmal Image",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Phantasmal Image"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Riverchurn Monument",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Riverchurn Monument",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1022-6285",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5080-6285"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/xander-mill"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/legend-rule-deaths",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger"
+      ],
+      "card": "Saw in Half",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Saw in Half"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:900-3750"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/tergrid"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#recursion/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1878-2706"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-2706-3518"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Commander-independent mill (Painter's Servant/Grindstone) cut for Xander copies (decisions).",
+      "No generic Grixis cEDH replacement of the commander-first shell (decisions L17)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops the reanimation route to a seven-mana commander.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Clones",
+       "Fast mana hard-cast"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Rounding down can leave a card in a library.",
+      "evidence_class": "strategic_judgment",
+      "id": "odd-library",
+      "mitigations": [
+       "Bruvac/Monument",
+       "Second mill source"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Removal before attacking costs the mill trigger (though the dies trigger still hurts).",
+      "evidence_class": "strategic_judgment",
+      "id": "xander-removed",
+      "mitigations": [
+       "Copies",
+       "Protection"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters (Force of Will, Force of Negation, Pact of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+      "mana": "Fast mana (Mana Vault, Grim Monolith, Ancient Tomb, Lotus Petal, Dark Ritual) or the reanimation route.",
+      "protection": "Lightning Greaves, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Lord Xander, the Collector",
+       "Bruvac the Grandiloquent",
+       "Riverchurn Monument",
+       "Fraying Sanity"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Hall of Echoes",
+       "Roaming Throne"
+      ],
+      "evidence_class": "fact",
+      "id": "xander-mill",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Duskmantle Guildmage",
+       "Mindcrank",
+       "Maddening Cacophony",
+       "Riverchurn Monument",
+       "Bruvac the Grandiloquent"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mill-combos",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault",
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Brain Freeze",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord Xander, the Collector"
+      ],
+      "evidence_class": "fact",
+      "id": "assault-breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every copy, reanimation and mill-doubler exists to multiply Xander's three triggers, and his attack is half of two Spellbook infinites.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Seven mana, so the deck relies on reanimation and clones to make him realistic. Halving rounds down, so an odd library leaves one card (M1 xander-05). Guildmage + Mindcrank, Monument/Bruvac + Cacophony, Sword + Assault and Breach all win without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 2,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 11
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:board_wipe:6febb76c3595",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:artifacts_wiped:284e02a47125",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:commander_removed_twice:5050a3dc5ab8",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:key_engine_exiled:d14fe41f5157",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:mana_screw:5b72d905e98c",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:color_screw:53f4e9d6c966",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:graveyard_exiled:7b9fc309e851",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Altar of Dementia",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Altar of Dementia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Blade of Selves",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/blade-vs-auton"
+      ],
+      "card": "Blade of Selves",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Blade of Selves"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Bruvac the Grandiloquent",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#tutor_targets/Bruvac the Grandiloquent"
+      ],
+      "card": "Bruvac the Grandiloquent",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Bruvac the Grandiloquent",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:95-1022",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:95-5080"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Cruel Calculations",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish"
+      ],
+      "card": "Cruel Calculations",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Cruel Calculations"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Duskmantle Guildmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Duskmantle Guildmage",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5069-5080",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:936-5069"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/xander-mill"
+      ],
+      "card": "Fraying Sanity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Fraying Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value"
+      ],
+      "card": "Hall of Echoes",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Hall of Echoes"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Karlach, Fury of Avernus"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Maddening Cacophony",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Maddening Cacophony",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5069-5080",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5080-6285"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Mindcrank",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Mindcrank",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:936-5069"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Phantasmal Image",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/legend-rule-deaths"
+      ],
+      "card": "Phantasmal Image",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Phantasmal Image"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Riverchurn Monument",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Riverchurn Monument",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1022-6285",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5080-6285"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/xander-mill"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/legend-rule-deaths",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger"
+      ],
+      "card": "Saw in Half",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Saw in Half"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Sword of Feast and Famine",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:900-3750"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/tergrid"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#recursion/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1878-2706"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-2706-3518"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Commander-independent mill (Painter's Servant/Grindstone) cut for Xander copies (decisions).",
+      "No generic Grixis cEDH replacement of the commander-first shell (decisions L17)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops the reanimation route to a seven-mana commander.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Clones",
+       "Fast mana hard-cast"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Rounding down can leave a card in a library.",
+      "evidence_class": "strategic_judgment",
+      "id": "odd-library",
+      "mitigations": [
+       "Bruvac/Monument",
+       "Second mill source"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Removal before attacking costs the mill trigger (though the dies trigger still hurts).",
+      "evidence_class": "strategic_judgment",
+      "id": "xander-removed",
+      "mitigations": [
+       "Copies",
+       "Protection"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters (Force of Will, Force of Negation, Pact of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+      "mana": "Fast mana (Mana Vault, Grim Monolith, Ancient Tomb, Lotus Petal, Dark Ritual) or the reanimation route.",
+      "protection": "Lightning Greaves, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Lord Xander, the Collector",
+       "Bruvac the Grandiloquent",
+       "Riverchurn Monument",
+       "Fraying Sanity"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Hall of Echoes",
+       "Roaming Throne"
+      ],
+      "evidence_class": "fact",
+      "id": "xander-mill",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Duskmantle Guildmage",
+       "Mindcrank",
+       "Maddening Cacophony",
+       "Riverchurn Monument",
+       "Bruvac the Grandiloquent"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mill-combos",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault",
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Brain Freeze",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord Xander, the Collector"
+      ],
+      "evidence_class": "fact",
+      "id": "assault-breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every copy, reanimation and mill-doubler exists to multiply Xander's three triggers, and his attack is half of two Spellbook infinites.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Seven mana, so the deck relies on reanimation and clones to make him realistic. Halving rounds down, so an odd library leaves one card (M1 xander-05). Guildmage + Mindcrank, Monument/Bruvac + Cacophony, Sword + Assault and Breach all win without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 2,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 11
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:board_wipe:6febb76c3595",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:artifacts_wiped:284e02a47125",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:commander_removed_twice:5050a3dc5ab8",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:key_engine_exiled:d14fe41f5157",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:mana_screw:5b72d905e98c",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:color_screw:53f4e9d6c966",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:graveyard_exiled:7b9fc309e851",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:900-3750"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Altar of Dementia",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Altar of Dementia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Blade of Selves",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/blade-vs-auton"
+      ],
+      "card": "Blade of Selves",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Blade of Selves"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Bruvac the Grandiloquent",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#tutor_targets/Bruvac the Grandiloquent"
+      ],
+      "card": "Bruvac the Grandiloquent",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Bruvac the Grandiloquent",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:95-1022",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:95-5080"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Cruel Calculations",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish"
+      ],
+      "card": "Cruel Calculations",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Cruel Calculations"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Duskmantle Guildmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Duskmantle Guildmage",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5069-5080",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:936-5069"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/xander-mill"
+      ],
+      "card": "Fraying Sanity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Fraying Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value"
+      ],
+      "card": "Hall of Echoes",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Hall of Echoes"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Karlach, Fury of Avernus",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Karlach, Fury of Avernus"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/assault-breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Maddening Cacophony",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Maddening Cacophony",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5069-5080",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5080-6285"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Mindcrank",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Mindcrank",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:936-5069"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#requirements/value"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#identity_core/Phantasmal Image",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#key_interactions/legend-rule-deaths"
+      ],
+      "card": "Phantasmal Image",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Phantasmal Image"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:mill-finish",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/mill-combos"
+      ],
+      "card": "Riverchurn Monument",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Riverchurn Monument",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:1022-6285",
+       "graph:data/grixis/graph/lord-xander-the-collector.json#combo:5080-6285"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#engines/xander-copies",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#packages/pkg:copy-trigger",
+       "blueprint:data/grixis/blueprints/lord-xander-the-collector.json#win_conditions/xander-mill"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-xander-the-collector.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Commander-independent mill (Painter's Servant/Grindstone) cut for Xander copies (decisions).",
+      "No generic Grixis cEDH replacement of the commander-first shell (decisions L17)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard hate stops the reanimation route to a seven-mana commander.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Clones",
+       "Fast mana hard-cast"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Rounding down can leave a card in a library.",
+      "evidence_class": "strategic_judgment",
+      "id": "odd-library",
+      "mitigations": [
+       "Bruvac/Monument",
+       "Second mill source"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Removal before attacking costs the mill trigger (though the dies trigger still hurts).",
+      "evidence_class": "strategic_judgment",
+      "id": "xander-removed",
+      "mitigations": [
+       "Copies",
+       "Protection"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters (Force of Will, Force of Negation, Pact of Negation, Fierce Guardianship), Mana Drain, Toxic Deluge, Cyclonic Rift.",
+      "mana": "Fast mana (Mana Vault, Grim Monolith, Ancient Tomb, Lotus Petal, Dark Ritual) or the reanimation route.",
+      "protection": "Lightning Greaves, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Lord Xander, the Collector",
+       "Bruvac the Grandiloquent",
+       "Riverchurn Monument",
+       "Fraying Sanity"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Hall of Echoes",
+       "Roaming Throne"
+      ],
+      "evidence_class": "fact",
+      "id": "xander-mill",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Duskmantle Guildmage",
+       "Mindcrank",
+       "Maddening Cacophony",
+       "Riverchurn Monument",
+       "Bruvac the Grandiloquent"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "mill-combos",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault",
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Brain Freeze",
+       "Wheel of Fortune"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord Xander, the Collector"
+      ],
+      "evidence_class": "fact",
+      "id": "assault-breach",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every copy, reanimation and mill-doubler exists to multiply Xander's three triggers, and his attack is half of two Spellbook infinites.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Seven mana, so the deck relies on reanimation and clones to make him realistic. Halving rounds down, so an odd library leaves one card (M1 xander-05). Guildmage + Mindcrank, Monument/Bruvac + Cacophony, Sword + Assault and Breach all win without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 4,
+      "combo_direct_commander_piece": 2,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 11
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:board_wipe:6febb76c3595",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:artifacts_wiped:284e02a47125",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:commander_removed_twice:5050a3dc5ab8",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:key_engine_exiled:d14fe41f5157",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:mana_screw:5b72d905e98c",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:color_screw:53f4e9d6c966",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-xander-the-collector.json#test:lord-xander-the-collector:stress:graveyard_exiled:7b9fc309e851",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "lord-xander-the-collector",
+ "source_packet": "data/grixis/bracket_stress_packets/lord-xander-the-collector.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

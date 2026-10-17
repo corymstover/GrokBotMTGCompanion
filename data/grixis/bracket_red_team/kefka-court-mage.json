@@ -1,0 +1,652 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+ "deck_id": "Kefka__Court_Mage",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Ad Nauseam",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Ad Nauseam"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#engines/kefka-triggers",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#identity_core/Anger",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#key_interactions/anger-haste"
+      ],
+      "card": "Anger",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Anger",
+       "graph:data/grixis/graph/kefka-court-mage.json#package:haste"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#engines/kefka-triggers",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:haste",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#plan/value"
+      ],
+      "card": "Arena of Glory",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Arena of Glory",
+       "graph:data/grixis/graph/kefka-court-mage.json#package:haste"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Beseech the Mirror",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Beseech the Mirror"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#win_conditions/breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/kefka-court-mage.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/kefka-court-mage.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:free-interaction",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#requirements/value"
+      ],
+      "card": "Deflecting Swat",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Deflecting Swat"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#win_conditions/oracle"
+      ],
+      "card": "Demonic Consultation",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Demonic Consultation",
+       "graph:data/grixis/graph/kefka-court-mage.json#combo:742-1295"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#failure_modes/counsel-no-delirium",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#key_interactions/counsel-delirium"
+      ],
+      "card": "Demonic Counsel",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Demonic Counsel"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#engines/extra-kefkas",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#identity_core/Displacer Kitten",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:copy-blink"
+      ],
+      "card": "Displacer Kitten",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Displacer Kitten"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:free-interaction",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#plan/value",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#win_conditions/hand-lock-turns"
+      ],
+      "card": "Final Fortune",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Final Fortune"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Flusterstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Flusterstorm"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Gamble",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#engines/extra-kefkas",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#identity_core/Gogo, Mysterious Mime",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:copy-blink"
+      ],
+      "card": "Gogo, Mysterious Mime",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Gogo, Mysterious Mime"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#engines/kefka-triggers",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#identity_core/Harmonic Prodigy",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:copy-blink"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Imperial Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Imperial Seal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#recursion/value",
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#win_conditions/breach"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/kefka-court-mage.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#win_conditions/breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/kefka-court-mage.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/kefka-court-mage.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#win_conditions/breach"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/kefka-court-mage.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Mental Misstep",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Mental Misstep"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#tutor_targets/Thassa's Oracle"
+      ],
+      "card": "Mystical Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Mystical Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Necropotence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Necropotence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/kefka-court-mage.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pyroblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/kefka-court-mage.json#metrics/Pyroblast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No dedicated Psychosis Crawler/back-face package (decisions L60).",
+      "Slow discard payoffs (Geth's Grimoire) cut at this ceiling (decisions L44)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "A five-mana commander removed before triggering much.",
+      "evidence_class": "strategic_judgment",
+      "id": "kefka-removed",
+      "mitigations": [
+       "Commander-free Oracle/Breach",
+       "Clones and Saw in Half"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents discarding one card type each draw you little.",
+      "evidence_class": "strategic_judgment",
+      "id": "low-diversity",
+      "mitigations": [
+       "Repeat triggers",
+       "Discard payoffs"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Demonic Counsel without delirium only finds a Demon.",
+      "evidence_class": "strategic_judgment",
+      "id": "counsel-no-delirium",
+      "mitigations": [
+       "Discard types into your yard first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters and one-mana interaction.",
+      "mana": "Fast mana and rituals for a five-mana commander.",
+      "protection": "Fierce Guardianship, Deflecting Swat, Cavern of Souls."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Thassa's Oracle",
+       "Demonic Consultation",
+       "Tainted Pact"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "oracle",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Final Fortune",
+       "Waste Not",
+       "Tinybones, Bauble Burglar"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Kefka, Court Mage // Kefka, Ruler of Ruin"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "hand-lock-turns",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Haste, blink and copy slots all exist to make more Kefka triggers; his discard-draw is the deck's card-advantage and disruption engine.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The kills (Oracle + Consultation/Pact, Breach lines) are generic and commander-independent. The {8} transform is rarely reached, and the back face is incidental (the source declined a Psychosis Crawler package).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 6,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/kefka-court-mage.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/kefka-court-mage.json#test:kefka-court-mage:stress:first_key_spell_countered:bb90d864111e",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/kefka-court-mage.json#test:kefka-court-mage:stress:graveyard_exiled:63fbf17cfafc",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/kefka-court-mage.json#test:kefka-court-mage:stress:commander_removed_twice:981d06293ed9",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/kefka-court-mage.json#test:kefka-court-mage:stress:key_engine_exiled:2502ba2fdd07",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "kefka-court-mage",
+ "source_packet": "data/grixis/bracket_stress_packets/kefka-court-mage.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

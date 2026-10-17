@@ -1,0 +1,2389 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+ "deck_id": "The_Rani",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 93,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Academy Manufactor",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator"
+      ],
+      "card": "Academy Manufactor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Academy Manufactor"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/baeloth-mark",
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad"
+      ],
+      "card": "Baeloth Barrityl, Entertainer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Baeloth Barrityl, Entertainer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:artifact-payoff",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/artifact-payoffs"
+      ],
+      "card": "Bjorna, Nightfall Alchemist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Bjorna, Nightfall Alchemist"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bothersome Quasit",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Bothersome Quasit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Coercive Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Coercive Impetus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Curse of Opulence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Curse of Opulence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Death Kiss",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Death Kiss"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/rani-blink",
+       "blueprint:data/grixis/blueprints/the-rani.json#plan/value"
+      ],
+      "card": "Displacer Kitten",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Displacer Kitten"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#plan/value",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Disrupt Decorum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Disrupt Decorum"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:artifact-payoff"
+      ],
+      "card": "Entity Tracker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Entity Tracker"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Erdwal Illuminator",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator"
+      ],
+      "card": "Erdwal Illuminator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Erdwal Illuminator"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Eye of Nidhogg",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Eye of Nidhogg"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad"
+      ],
+      "card": "Firkraag, Cunning Instigator",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Firkraag, Cunning Instigator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:artifact-payoff"
+      ],
+      "card": "Five Hundred Year Diary",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Five Hundred Year Diary"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Ghoulish Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Ghoulish Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hateful Eidolon",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Hateful Eidolon"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hot Pursuit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Hot Pursuit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Incriminating Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Incriminating Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad"
+      ],
+      "card": "Karazikar, the Eye Tyrant",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Karazikar, the Eye Tyrant"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Kardur, Doomscourge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mocking Doppelganger",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Mocking Doppelganger"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Psychic Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Psychic Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Puppet Master, String Puller",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Puppet Master, String Puller"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Breach (decisions L63).",
+      "No Propaganda / No Mercy (L61)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Creature-light combo opponents give no goad targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-creatures",
+      "mitigations": [
+       "Counterspells",
+       "Own pressure"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Time Sieve",
+       "Bjorna"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Needs U/B/R; Mana Vault and Chrome Mox were rejected.",
+      "evidence_class": "strategic_judgment",
+      "id": "colored-mana",
+      "mitigations": [
+       "Signets",
+       "Talismans"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Deadly Rollick, Chaos Warp, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+      "mana": "33 lands with City of Brass, Mana Confluence and fetches.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Rani",
+       "Ghoulish Impetus",
+       "Psychic Impetus",
+       "Shiny Impetus",
+       "Coercive Impetus",
+       "Incriminating Impetus",
+       "Eye of Nidhogg"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Disrupt Decorum",
+       "Kardur, Doomscourge"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "forced-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Bjorna, Nightfall Alchemist",
+       "Time Sieve",
+       "Academy Manufactor"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Erdwal Illuminator"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-payoffs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Rani makes the goad and is the main Clue trigger for opposing creatures' combat damage.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native forced combat. Spellbook finds no combos; Time Sieve is kept as a payoff, not a deterministic loop (decisions L48). Source note: the decisions file still says 'working decision closeout; not user approval' (L7), but the approval record (approvals L8) shows APPROVED / LOCKED on 2026-10-15; the approval record is the authority.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 2,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:board_wipe:6163cee40590",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:artifacts_wiped:814de4d0c584",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:commander_removed_twice:2d588ca3bbf4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:key_engine_exiled:4783ac82a742",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:mana_screw:dd2942d69c6a",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:color_screw:9eef50cb3907",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:graveyard_exiled:d0403886dbf7",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Academy Manufactor",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator"
+      ],
+      "card": "Academy Manufactor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Academy Manufactor"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:artifact-payoff",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/artifact-payoffs"
+      ],
+      "card": "Bjorna, Nightfall Alchemist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Bjorna, Nightfall Alchemist"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Coercive Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Coercive Impetus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Curse of Opulence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Curse of Opulence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Death Kiss",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Death Kiss"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/rani-blink",
+       "blueprint:data/grixis/blueprints/the-rani.json#plan/value"
+      ],
+      "card": "Displacer Kitten",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Displacer Kitten"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#plan/value",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Disrupt Decorum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Disrupt Decorum"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Erdwal Illuminator",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator"
+      ],
+      "card": "Erdwal Illuminator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Erdwal Illuminator"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Eye of Nidhogg",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Eye of Nidhogg"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Ghoulish Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Ghoulish Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hot Pursuit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Hot Pursuit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Incriminating Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Incriminating Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Kardur, Doomscourge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mocking Doppelganger",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Mocking Doppelganger"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Psychic Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Psychic Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Shiny Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Shiny Impetus"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/rani-blink",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Thassa, Deep-Dwelling",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/thassa-new-object"
+      ],
+      "card": "Thassa, Deep-Dwelling",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Thassa, Deep-Dwelling"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/The Master, Mesmerist",
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad"
+      ],
+      "card": "The Master, Mesmerist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/The Master, Mesmerist"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Sound of Drums",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/The Sound of Drums"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/the-rani.json#failure_modes/no-compact-win",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/sieve-not-infinite"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Time Sieve"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vengeful Ancestor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Vengeful Ancestor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Breach (decisions L63).",
+      "No Propaganda / No Mercy (L61)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Creature-light combo opponents give no goad targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-creatures",
+      "mitigations": [
+       "Counterspells",
+       "Own pressure"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Time Sieve",
+       "Bjorna"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Needs U/B/R; Mana Vault and Chrome Mox were rejected.",
+      "evidence_class": "strategic_judgment",
+      "id": "colored-mana",
+      "mitigations": [
+       "Signets",
+       "Talismans"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Deadly Rollick, Chaos Warp, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+      "mana": "33 lands with City of Brass, Mana Confluence and fetches.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Rani",
+       "Ghoulish Impetus",
+       "Psychic Impetus",
+       "Shiny Impetus",
+       "Coercive Impetus",
+       "Incriminating Impetus",
+       "Eye of Nidhogg"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Disrupt Decorum",
+       "Kardur, Doomscourge"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "forced-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Bjorna, Nightfall Alchemist",
+       "Time Sieve",
+       "Academy Manufactor"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Erdwal Illuminator"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-payoffs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Rani makes the goad and is the main Clue trigger for opposing creatures' combat damage.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native forced combat. Spellbook finds no combos; Time Sieve is kept as a payoff, not a deterministic loop (decisions L48). Source note: the decisions file still says 'working decision closeout; not user approval' (L7), but the approval record (approvals L8) shows APPROVED / LOCKED on 2026-10-15; the approval record is the authority.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 2,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:board_wipe:6163cee40590",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:artifacts_wiped:814de4d0c584",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:commander_removed_twice:2d588ca3bbf4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:key_engine_exiled:4783ac82a742",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:mana_screw:dd2942d69c6a",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:color_screw:9eef50cb3907",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:graveyard_exiled:d0403886dbf7",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Academy Manufactor",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator"
+      ],
+      "card": "Academy Manufactor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Academy Manufactor"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:artifact-payoff",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/artifact-payoffs"
+      ],
+      "card": "Bjorna, Nightfall Alchemist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Bjorna, Nightfall Alchemist"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Coercive Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Coercive Impetus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Curse of Opulence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Curse of Opulence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Death Kiss",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Death Kiss"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/rani-blink",
+       "blueprint:data/grixis/blueprints/the-rani.json#plan/value"
+      ],
+      "card": "Displacer Kitten",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Displacer Kitten"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#plan/value",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Disrupt Decorum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Disrupt Decorum"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Erdwal Illuminator",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator"
+      ],
+      "card": "Erdwal Illuminator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Erdwal Illuminator"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Eye of Nidhogg",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Eye of Nidhogg"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Ghoulish Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Ghoulish Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hot Pursuit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Hot Pursuit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Incriminating Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Incriminating Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Kardur, Doomscourge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mocking Doppelganger",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Mocking Doppelganger"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Psychic Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Psychic Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Shiny Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Shiny Impetus"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/rani-blink",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Thassa, Deep-Dwelling",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/thassa-new-object"
+      ],
+      "card": "Thassa, Deep-Dwelling",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Thassa, Deep-Dwelling"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/The Master, Mesmerist",
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad"
+      ],
+      "card": "The Master, Mesmerist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/The Master, Mesmerist"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Sound of Drums",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/The Sound of Drums"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/the-rani.json#failure_modes/no-compact-win",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/sieve-not-infinite"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Time Sieve"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vengeful Ancestor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Vengeful Ancestor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Breach (decisions L63).",
+      "No Propaganda / No Mercy (L61)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Creature-light combo opponents give no goad targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-creatures",
+      "mitigations": [
+       "Counterspells",
+       "Own pressure"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Time Sieve",
+       "Bjorna"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Needs U/B/R; Mana Vault and Chrome Mox were rejected.",
+      "evidence_class": "strategic_judgment",
+      "id": "colored-mana",
+      "mitigations": [
+       "Signets",
+       "Talismans"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Deadly Rollick, Chaos Warp, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+      "mana": "33 lands with City of Brass, Mana Confluence and fetches.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Rani",
+       "Ghoulish Impetus",
+       "Psychic Impetus",
+       "Shiny Impetus",
+       "Coercive Impetus",
+       "Incriminating Impetus",
+       "Eye of Nidhogg"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Disrupt Decorum",
+       "Kardur, Doomscourge"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "forced-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Bjorna, Nightfall Alchemist",
+       "Time Sieve",
+       "Academy Manufactor"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Erdwal Illuminator"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-payoffs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Rani makes the goad and is the main Clue trigger for opposing creatures' combat damage.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native forced combat. Spellbook finds no combos; Time Sieve is kept as a payoff, not a deterministic loop (decisions L48). Source note: the decisions file still says 'working decision closeout; not user approval' (L7), but the approval record (approvals L8) shows APPROVED / LOCKED on 2026-10-15; the approval record is the authority.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 2,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:board_wipe:6163cee40590",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:artifacts_wiped:814de4d0c584",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:commander_removed_twice:2d588ca3bbf4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:key_engine_exiled:4783ac82a742",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:mana_screw:dd2942d69c6a",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:color_screw:9eef50cb3907",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:graveyard_exiled:d0403886dbf7",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Academy Manufactor",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator"
+      ],
+      "card": "Academy Manufactor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Academy Manufactor"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:artifact-payoff",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/artifact-payoffs"
+      ],
+      "card": "Bjorna, Nightfall Alchemist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Bjorna, Nightfall Alchemist"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bothersome Quasit",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Bothersome Quasit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Coercive Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Coercive Impetus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Curse of Opulence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Curse of Opulence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Death Kiss",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Death Kiss"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/rani-blink",
+       "blueprint:data/grixis/blueprints/the-rani.json#plan/value"
+      ],
+      "card": "Displacer Kitten",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Displacer Kitten"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#plan/value",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Disrupt Decorum",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Disrupt Decorum"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/token-multiplier",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Erdwal Illuminator",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/manufactor-illuminator"
+      ],
+      "card": "Erdwal Illuminator",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Erdwal Illuminator"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Eye of Nidhogg",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Eye of Nidhogg"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Ghoulish Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Ghoulish Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hot Pursuit",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Hot Pursuit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Incriminating Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Incriminating Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Kardur, Doomscourge",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Kardur, Doomscourge"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mocking Doppelganger",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Mocking Doppelganger"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Psychic Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Psychic Impetus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Charm",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Rakdos Charm"
+      ],
+      "roles": [
+       "removal",
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad",
+       "blueprint:data/grixis/blueprints/the-rani.json#win_conditions/forced-combat"
+      ],
+      "card": "Shiny Impetus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Shiny Impetus"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#engines/rani-blink",
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/Thassa, Deep-Dwelling",
+       "blueprint:data/grixis/blueprints/the-rani.json#key_interactions/thassa-new-object"
+      ],
+      "card": "Thassa, Deep-Dwelling",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/Thassa, Deep-Dwelling"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/the-rani.json#identity_core/The Master, Mesmerist",
+       "blueprint:data/grixis/blueprints/the-rani.json#packages/pkg:goad"
+      ],
+      "card": "The Master, Mesmerist",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/the-rani.json#metrics/The Master, Mesmerist"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Breach (decisions L63).",
+      "No Propaganda / No Mercy (L61)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Creature-light combo opponents give no goad targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-creatures",
+      "mitigations": [
+       "Counterspells",
+       "Own pressure"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No compact kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Time Sieve",
+       "Bjorna"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Needs U/B/R; Mana Vault and Chrome Mox were rejected.",
+      "evidence_class": "strategic_judgment",
+      "id": "colored-mana",
+      "mitigations": [
+       "Signets",
+       "Talismans"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Deadly Rollick, Chaos Warp, Cyclonic Rift, Toxic Deluge, Blasphemous Act.",
+      "mana": "33 lands with City of Brass, Mana Confluence and fetches.",
+      "protection": "Deflecting Swat, Lightning Greaves, Force of Will."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Rani",
+       "Ghoulish Impetus",
+       "Psychic Impetus",
+       "Shiny Impetus",
+       "Coercive Impetus",
+       "Incriminating Impetus",
+       "Eye of Nidhogg"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Disrupt Decorum",
+       "Kardur, Doomscourge"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "forced-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Bjorna, Nightfall Alchemist",
+       "Time Sieve",
+       "Academy Manufactor"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Erdwal Illuminator"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-payoffs",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Rani makes the goad and is the main Clue trigger for opposing creatures' combat damage.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native forced combat. Spellbook finds no combos; Time Sieve is kept as a payoff, not a deterministic loop (decisions L48). Source note: the decisions file still says 'working decision closeout; not user approval' (L7), but the approval record (approvals L8) shows APPROVED / LOCKED on 2026-10-15; the approval record is the authority.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 3,
+      "engines_explicit_commander": 2,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:board_wipe:6163cee40590",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:artifacts_wiped:814de4d0c584",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:commander_removed_twice:2d588ca3bbf4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:key_engine_exiled:4783ac82a742",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:mana_screw:dd2942d69c6a",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:color_screw:9eef50cb3907",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/the-rani.json#test:the-rani:stress:graveyard_exiled:d0403886dbf7",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "the-rani",
+ "source_packet": "data/grixis/bracket_stress_packets/the-rani.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

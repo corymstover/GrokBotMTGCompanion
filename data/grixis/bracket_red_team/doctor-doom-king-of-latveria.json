@@ -1,0 +1,2334 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 99,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Archfiend of Ifnir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Archfiend of Ifnir"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baron Strucker, HYDRA Overlord",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Baron Strucker, HYDRA Overlord"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Big Score",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Big Score"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#requirements/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/trade-routes-engine"
+      ],
+      "card": "Bone Miser",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Bone Miser"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/chameleon",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies"
+      ],
+      "card": "Chameleon, Master of Disguise",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Chameleon, Master of Disguise",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Change of Fortune",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Change of Fortune"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/per-event",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Cool but Rude",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Cool but Rude"
+      ],
+      "roles": [
+       "draw",
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-recursion",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Crucible of Worlds",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/crucible-cycling"
+      ],
+      "card": "Crucible of Worlds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Crucible of Worlds"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Currency Converter",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Currency Converter"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#construction_rules/1",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-recursion",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Dakmor Salvage"
+      ],
+      "card": "Dakmor Salvage",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Dakmor Salvage",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Demand Answers",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Demand Answers"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Doctor Doom, King of Latveria",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/connive-target"
+      ],
+      "card": "Doctor Doom",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Doctor Doom"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doom Reigns Supreme",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Doom Reigns Supreme"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Faithless Looting",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Faithless Looting"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Frantic Search"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Green Goblin, Nemesis",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Green Goblin, Nemesis"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Green Goblin, Revenant",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Green Goblin, Revenant"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Iron Monger, Sadistic Tycoon",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Iron Monger, Sadistic Tycoon"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:villains-connive"
+      ],
+      "card": "Leader, Super-Genius",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Leader, Super-Genius"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Loki, the Deceiver",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Loki, the Deceiver"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "M.O.D.O.K.",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/M.O.D.O.K."
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Monument to Endurance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Monument to Endurance"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Psychic Frog",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Psychic Frog",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Psychic Frog"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Roaming Throne",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Seismic Assault",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Seismic Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Seismic Assault"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add generic Thassa's Oracle/Consultation cEDH packages (source blueprint).",
+      "Don't treat it as generic Villain tribal or generic discard."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Discarding many lands at once is only one trigger.",
+      "evidence_class": "strategic_judgment",
+      "id": "mass-discard",
+      "mitigations": [
+       "Prefer per-card outlets (Frog, cycling)"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard exile stops land recursion and Dakmor.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Crucible still replays from hand discard cycles"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No Villain on board: no combat connive.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-villain",
+      "mitigations": [
+       "Villain density"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Swan Song, Fierce Guardianship) and removal; graveyard hate is a real threat.",
+      "mana": "Many lands (fuel and mana); Treasure from Badgersaur/Bone Miser.",
+      "protection": "Free protection; Doom is four mana."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Tectonic Reformation",
+       "Surly Badgersaur",
+       "Dakmor Salvage"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Doctor Doom, King of Latveria"
+      ],
+      "evidence_class": "fact",
+      "id": "badgersaur-reformation-dakmor",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Trade Routes",
+       "Bone Miser",
+       "Surly Badgersaur",
+       "Dakmor Salvage"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "trade-routes-engine",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Seismic Assault",
+       "Psychic Frog",
+       "Archfiend of Ifnir",
+       "Cool but Rude",
+       "Monument to Endurance"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Crucible of Worlds"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "repeated-drain",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Doom is the drain: every separate land-discard event is 2 from each opponent, and his combat connive filters toward more lands and Villain value.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "One trigger per discard event, not per land: mass discards (wheels) give one trigger. The kill is multi-piece and resource-dependent.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:board_wipe:3ee31c414c0e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:artifacts_wiped:5abd6b4e1cde",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:commander_removed_twice:c8d611cd2177",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:key_engine_exiled:32ab6b58a944",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:mana_screw:6c40c10f5f7d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:color_screw:14c583a4cce0",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:graveyard_exiled:3138bf3ea423",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Archfiend of Ifnir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Archfiend of Ifnir"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baron Strucker, HYDRA Overlord",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Baron Strucker, HYDRA Overlord"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#requirements/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/trade-routes-engine"
+      ],
+      "card": "Bone Miser",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Bone Miser"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/chameleon",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies"
+      ],
+      "card": "Chameleon, Master of Disguise",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Chameleon, Master of Disguise",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/per-event",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Cool but Rude",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Cool but Rude"
+      ],
+      "roles": [
+       "draw",
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-recursion",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Crucible of Worlds",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/crucible-cycling"
+      ],
+      "card": "Crucible of Worlds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Crucible of Worlds"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#construction_rules/1",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-recursion",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Dakmor Salvage"
+      ],
+      "card": "Dakmor Salvage",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Dakmor Salvage",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doom Reigns Supreme",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Doom Reigns Supreme"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Iron Monger, Sadistic Tycoon",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Iron Monger, Sadistic Tycoon"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:villains-connive",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Lethal Scheme",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Lethal Scheme"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "M.O.D.O.K.",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/M.O.D.O.K."
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Monument to Endurance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Monument to Endurance"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Psychic Frog",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Psychic Frog",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Psychic Frog"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Roaming Throne",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Seismic Assault",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Seismic Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Seismic Assault"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Spark Double",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/badgersaur-reformation-dakmor",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/trade-routes-engine"
+      ],
+      "card": "Surly Badgersaur",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Surly Badgersaur",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#tutor_targets/Tectonic Reformation"
+      ],
+      "card": "Tectonic Reformation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Tectonic Reformation",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Toxic Deluge",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Trade Routes",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Trade Routes"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add generic Thassa's Oracle/Consultation cEDH packages (source blueprint).",
+      "Don't treat it as generic Villain tribal or generic discard."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Discarding many lands at once is only one trigger.",
+      "evidence_class": "strategic_judgment",
+      "id": "mass-discard",
+      "mitigations": [
+       "Prefer per-card outlets (Frog, cycling)"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard exile stops land recursion and Dakmor.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Crucible still replays from hand discard cycles"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No Villain on board: no combat connive.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-villain",
+      "mitigations": [
+       "Villain density"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Swan Song, Fierce Guardianship) and removal; graveyard hate is a real threat.",
+      "mana": "Many lands (fuel and mana); Treasure from Badgersaur/Bone Miser.",
+      "protection": "Free protection; Doom is four mana."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Tectonic Reformation",
+       "Surly Badgersaur",
+       "Dakmor Salvage"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Doctor Doom, King of Latveria"
+      ],
+      "evidence_class": "fact",
+      "id": "badgersaur-reformation-dakmor",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Trade Routes",
+       "Bone Miser",
+       "Surly Badgersaur",
+       "Dakmor Salvage"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "trade-routes-engine",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Seismic Assault",
+       "Psychic Frog",
+       "Archfiend of Ifnir",
+       "Cool but Rude",
+       "Monument to Endurance"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Crucible of Worlds"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "repeated-drain",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Doom is the drain: every separate land-discard event is 2 from each opponent, and his combat connive filters toward more lands and Villain value.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "One trigger per discard event, not per land: mass discards (wheels) give one trigger. The kill is multi-piece and resource-dependent.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:board_wipe:3ee31c414c0e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:artifacts_wiped:5abd6b4e1cde",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:commander_removed_twice:c8d611cd2177",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:key_engine_exiled:32ab6b58a944",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:mana_screw:6c40c10f5f7d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:color_screw:14c583a4cce0",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:graveyard_exiled:3138bf3ea423",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Archfiend of Ifnir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Archfiend of Ifnir"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baron Strucker, HYDRA Overlord",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Baron Strucker, HYDRA Overlord"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#requirements/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/trade-routes-engine"
+      ],
+      "card": "Bone Miser",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Bone Miser"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/chameleon",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies"
+      ],
+      "card": "Chameleon, Master of Disguise",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Chameleon, Master of Disguise",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/per-event",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Cool but Rude",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Cool but Rude"
+      ],
+      "roles": [
+       "draw",
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-recursion",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Crucible of Worlds",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/crucible-cycling"
+      ],
+      "card": "Crucible of Worlds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Crucible of Worlds"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#construction_rules/1",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-recursion",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Dakmor Salvage"
+      ],
+      "card": "Dakmor Salvage",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Dakmor Salvage",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doom Reigns Supreme",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Doom Reigns Supreme"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Iron Monger, Sadistic Tycoon",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Iron Monger, Sadistic Tycoon"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:villains-connive",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Lethal Scheme",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Lethal Scheme"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "M.O.D.O.K.",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/M.O.D.O.K."
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Monument to Endurance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Monument to Endurance"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Psychic Frog",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Psychic Frog",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Psychic Frog"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Roaming Throne",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Seismic Assault",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Seismic Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Seismic Assault"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Spark Double",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/badgersaur-reformation-dakmor",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/trade-routes-engine"
+      ],
+      "card": "Surly Badgersaur",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Surly Badgersaur",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#tutor_targets/Tectonic Reformation"
+      ],
+      "card": "Tectonic Reformation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Tectonic Reformation",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Toxic Deluge",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Trade Routes",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Trade Routes"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add generic Thassa's Oracle/Consultation cEDH packages (source blueprint).",
+      "Don't treat it as generic Villain tribal or generic discard."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Discarding many lands at once is only one trigger.",
+      "evidence_class": "strategic_judgment",
+      "id": "mass-discard",
+      "mitigations": [
+       "Prefer per-card outlets (Frog, cycling)"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard exile stops land recursion and Dakmor.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Crucible still replays from hand discard cycles"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No Villain on board: no combat connive.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-villain",
+      "mitigations": [
+       "Villain density"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Swan Song, Fierce Guardianship) and removal; graveyard hate is a real threat.",
+      "mana": "Many lands (fuel and mana); Treasure from Badgersaur/Bone Miser.",
+      "protection": "Free protection; Doom is four mana."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Tectonic Reformation",
+       "Surly Badgersaur",
+       "Dakmor Salvage"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Doctor Doom, King of Latveria"
+      ],
+      "evidence_class": "fact",
+      "id": "badgersaur-reformation-dakmor",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Trade Routes",
+       "Bone Miser",
+       "Surly Badgersaur",
+       "Dakmor Salvage"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "trade-routes-engine",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Seismic Assault",
+       "Psychic Frog",
+       "Archfiend of Ifnir",
+       "Cool but Rude",
+       "Monument to Endurance"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Crucible of Worlds"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "repeated-drain",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Doom is the drain: every separate land-discard event is 2 from each opponent, and his combat connive filters toward more lands and Villain value.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "One trigger per discard event, not per land: mass discards (wheels) give one trigger. The kill is multi-piece and resource-dependent.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:board_wipe:3ee31c414c0e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:artifacts_wiped:5abd6b4e1cde",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:commander_removed_twice:c8d611cd2177",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:key_engine_exiled:32ab6b58a944",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:mana_screw:6c40c10f5f7d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:color_screw:14c583a4cce0",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:graveyard_exiled:3138bf3ea423",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Archfiend of Ifnir",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Archfiend of Ifnir"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baron Strucker, HYDRA Overlord",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Baron Strucker, HYDRA Overlord"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#requirements/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/trade-routes-engine"
+      ],
+      "card": "Bone Miser",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Bone Miser"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/chameleon",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies"
+      ],
+      "card": "Chameleon, Master of Disguise",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Chameleon, Master of Disguise",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/per-event",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Cool but Rude",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Cool but Rude"
+      ],
+      "roles": [
+       "draw",
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-recursion",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Crucible of Worlds",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#key_interactions/crucible-cycling"
+      ],
+      "card": "Crucible of Worlds",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Crucible of Worlds"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#construction_rules/1",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-recursion",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Dakmor Salvage"
+      ],
+      "card": "Dakmor Salvage",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Dakmor Salvage",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doom Reigns Supreme",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Doom Reigns Supreme"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Iron Monger, Sadistic Tycoon",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Iron Monger, Sadistic Tycoon"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:villains-connive",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Lethal Scheme",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Lethal Scheme"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "M.O.D.O.K.",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/M.O.D.O.K."
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/repeated-drain"
+      ],
+      "card": "Monument to Endurance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Monument to Endurance"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Psychic Frog",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Psychic Frog",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Psychic Frog"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Roaming Throne",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#identity_core/Seismic Assault",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets"
+      ],
+      "card": "Seismic Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Seismic Assault"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:doom-copies",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Spark Double",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#package:doom-copies"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/badgersaur-reformation-dakmor",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#win_conditions/trade-routes-engine"
+      ],
+      "card": "Surly Badgersaur",
+      "decision_support": false,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Surly Badgersaur",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#tutor_targets/Tectonic Reformation"
+      ],
+      "card": "Tectonic Reformation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Tectonic Reformation",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#combo:779-2546-4467",
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#win:badgersaur-reformation-dakmor"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Toxic Deluge",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#engines/land-discard-drain",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#packages/pkg:land-discard-outlets",
+       "blueprint:data/grixis/blueprints/doctor-doom-king-of-latveria.json#plan/value"
+      ],
+      "card": "Trade Routes",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Trade Routes"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/doctor-doom-king-of-latveria.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add generic Thassa's Oracle/Consultation cEDH packages (source blueprint).",
+      "Don't treat it as generic Villain tribal or generic discard."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Discarding many lands at once is only one trigger.",
+      "evidence_class": "strategic_judgment",
+      "id": "mass-discard",
+      "mitigations": [
+       "Prefer per-card outlets (Frog, cycling)"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Graveyard exile stops land recursion and Dakmor.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Crucible still replays from hand discard cycles"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No Villain on board: no combat connive.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-villain",
+      "mitigations": [
+       "Villain density"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Swan Song, Fierce Guardianship) and removal; graveyard hate is a real threat.",
+      "mana": "Many lands (fuel and mana); Treasure from Badgersaur/Bone Miser.",
+      "protection": "Free protection; Doom is four mana."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Tectonic Reformation",
+       "Surly Badgersaur",
+       "Dakmor Salvage"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Doctor Doom, King of Latveria"
+      ],
+      "evidence_class": "fact",
+      "id": "badgersaur-reformation-dakmor",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Trade Routes",
+       "Bone Miser",
+       "Surly Badgersaur",
+       "Dakmor Salvage"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "trade-routes-engine",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Seismic Assault",
+       "Psychic Frog",
+       "Archfiend of Ifnir",
+       "Cool but Rude",
+       "Monument to Endurance"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Crucible of Worlds"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "repeated-drain",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Doom is the drain: every separate land-discard event is 2 from each opponent, and his combat connive filters toward more lands and Villain value.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "One trigger per discard event, not per land: mass discards (wheels) give one trigger. The kill is multi-piece and resource-dependent.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:board_wipe:3ee31c414c0e",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:artifacts_wiped:5abd6b4e1cde",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:commander_removed_twice:c8d611cd2177",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:key_engine_exiled:32ab6b58a944",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:mana_screw:6c40c10f5f7d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:color_screw:14c583a4cce0",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/doctor-doom-king-of-latveria.json#test:doctor-doom-king-of-latveria:stress:graveyard_exiled:3138bf3ea423",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "doctor-doom-king-of-latveria",
+ "source_packet": "data/grixis/bracket_stress_packets/doctor-doom-king-of-latveria.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

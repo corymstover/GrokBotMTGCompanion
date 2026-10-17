@@ -1,0 +1,2356 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+ "deck_id": "Don_Andres__the_Renegade",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 98,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/beckett-theft"
+      ],
+      "card": "Admiral Beckett Brass",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Admiral Beckett Brass",
+       "graph:data/grixis/graph/don-andres-the-renegade.json#win:beckett-theft"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs"
+      ],
+      "card": "Breeches, Eager Pillager",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Breeches, Eager Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/stolen-board"
+      ],
+      "card": "Coercive Recruiter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Coercive Recruiter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/voidwalker-nonbo"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Decadent Dragon // Expensive Taste",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Decadent Dragon // Expensive Taste"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Daredevil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Dire Fleet Daredevil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etali, Primal Storm",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Etali, Primal Storm"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Gonti, Night Minister",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:card-theft"
+      ],
+      "card": "Gonti, Night Minister",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Gonti, Night Minister"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-creature-buff",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Insurrection",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value"
+      ],
+      "card": "Insurrection",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Insurrection",
+       "graph:data/grixis/graph/don-andres-the-renegade.json#win:insurrection"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put"
+      ],
+      "card": "Jhoira, Weatherlight Corsair",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Jhoira, Weatherlight Corsair"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/stolen-board"
+      ],
+      "card": "Kindred Discovery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:card-theft"
+      ],
+      "card": "Locke, Treasure Hunter",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Locke, Treasure Hunter"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs"
+      ],
+      "card": "Malcolm, Keen-Eyed Navigator",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Malcolm, Keen-Eyed Navigator"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Professional Face-Breaker",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Professional Face-Breaker"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:card-theft"
+      ],
+      "card": "Ragavan, Nimble Pilferer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Ragavan, Nimble Pilferer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs"
+      ],
+      "card": "Ramirez DePietro, Pillager",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Ramirez DePietro, Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/throne",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft"
+      ],
+      "card": "Seize the Spotlight",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Seize the Spotlight"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sol Ring",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic Treasure or self-recursion value.",
+      "Don't rely on put-onto-battlefield effects for Treasure (they aren't casts)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents' cards are weak or off-color for what you need.",
+      "evidence_class": "strategic_judgment",
+      "id": "weak-opponent-cards",
+      "mitigations": [
+       "Many theft angles"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Without Don stolen creatures shrink and Treasures stop.",
+      "evidence_class": "strategic_judgment",
+      "id": "don-removed",
+      "mitigations": [
+       "Protection package"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "Stolen permanents leave when their owner leaves the game.",
+      "evidence_class": "fact",
+      "id": "owner-leaves",
+      "mitigations": []
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Moderate; theft doubles as removal.",
+      "mana": "Treasure snowball plus rocks; ~33 lands.",
+      "protection": "Greaves, free protection; Don's static vanishes with him."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Don Andres, the Renegade",
+       "Hostage Taker",
+       "Coercive Recruiter",
+       "Thieving Amalgam",
+       "Gonti, Night Minister"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Roaming Throne",
+       "Kindred Discovery"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "stolen-board",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Insurrection"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Don Andres, the Renegade"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "insurrection",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Admiral Beckett Brass"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Don Andres, the Renegade"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "beckett-theft",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Both theft axes pay off only through Don: stolen creatures become threats and stolen noncreature casts become Treasure.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Power depends on what opponents play; casting from your own copies or putting cards onto the battlefield (Jhoira, Reanimate) gives no Treasure.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:board_wipe:9e41165a3415",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:artifacts_wiped:023d4c325b6a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:commander_removed_twice:b3add53358e8",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:key_engine_exiled:1777346d260d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:mana_screw:9d42711ceab1",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:color_screw:58f3847b35ab",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:graveyard_exiled:95fafa5a7573",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/beckett-theft"
+      ],
+      "card": "Admiral Beckett Brass",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Admiral Beckett Brass",
+       "graph:data/grixis/graph/don-andres-the-renegade.json#win:beckett-theft"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/stolen-board"
+      ],
+      "card": "Coercive Recruiter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Coercive Recruiter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/voidwalker-nonbo"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Daredevil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Dire Fleet Daredevil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etali, Primal Storm",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Etali, Primal Storm"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Gonti, Night Minister",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:card-theft"
+      ],
+      "card": "Gonti, Night Minister",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Gonti, Night Minister"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-creature-buff",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hurl Through Hell",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Hurl Through Hell"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Insurrection",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value"
+      ],
+      "card": "Insurrection",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Insurrection",
+       "graph:data/grixis/graph/don-andres-the-renegade.json#win:insurrection"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put"
+      ],
+      "card": "Jhoira, Weatherlight Corsair",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Jhoira, Weatherlight Corsair"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/stolen-board"
+      ],
+      "card": "Kindred Discovery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/throne",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Stolen Strategy",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Stolen Strategy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Thief of Sanity",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:card-theft"
+      ],
+      "card": "Thief of Sanity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Thief of Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-creature-buff",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Thieving Amalgam",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/amalgam-manifests"
+      ],
+      "card": "Thieving Amalgam",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Thieving Amalgam"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Wand of Wonder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Wand of Wonder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "You Find Some Prisoners",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/You Find Some Prisoners"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic Treasure or self-recursion value.",
+      "Don't rely on put-onto-battlefield effects for Treasure (they aren't casts)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents' cards are weak or off-color for what you need.",
+      "evidence_class": "strategic_judgment",
+      "id": "weak-opponent-cards",
+      "mitigations": [
+       "Many theft angles"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Without Don stolen creatures shrink and Treasures stop.",
+      "evidence_class": "strategic_judgment",
+      "id": "don-removed",
+      "mitigations": [
+       "Protection package"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "Stolen permanents leave when their owner leaves the game.",
+      "evidence_class": "fact",
+      "id": "owner-leaves",
+      "mitigations": []
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Moderate; theft doubles as removal.",
+      "mana": "Treasure snowball plus rocks; ~33 lands.",
+      "protection": "Greaves, free protection; Don's static vanishes with him."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Don Andres, the Renegade",
+       "Hostage Taker",
+       "Coercive Recruiter",
+       "Thieving Amalgam",
+       "Gonti, Night Minister"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Roaming Throne",
+       "Kindred Discovery"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "stolen-board",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Insurrection"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Don Andres, the Renegade"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "insurrection",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Admiral Beckett Brass"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Don Andres, the Renegade"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "beckett-theft",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Both theft axes pay off only through Don: stolen creatures become threats and stolen noncreature casts become Treasure.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Power depends on what opponents play; casting from your own copies or putting cards onto the battlefield (Jhoira, Reanimate) gives no Treasure.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:board_wipe:9e41165a3415",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:artifacts_wiped:023d4c325b6a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:commander_removed_twice:b3add53358e8",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:key_engine_exiled:1777346d260d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:mana_screw:9d42711ceab1",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:color_screw:58f3847b35ab",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:graveyard_exiled:95fafa5a7573",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/beckett-theft"
+      ],
+      "card": "Admiral Beckett Brass",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Admiral Beckett Brass",
+       "graph:data/grixis/graph/don-andres-the-renegade.json#win:beckett-theft"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/stolen-board"
+      ],
+      "card": "Coercive Recruiter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Coercive Recruiter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/voidwalker-nonbo"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Daredevil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Dire Fleet Daredevil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etali, Primal Storm",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Etali, Primal Storm"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Gonti, Night Minister",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:card-theft"
+      ],
+      "card": "Gonti, Night Minister",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Gonti, Night Minister"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-creature-buff",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hurl Through Hell",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Hurl Through Hell"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Insurrection",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value"
+      ],
+      "card": "Insurrection",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Insurrection",
+       "graph:data/grixis/graph/don-andres-the-renegade.json#win:insurrection"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put"
+      ],
+      "card": "Jhoira, Weatherlight Corsair",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Jhoira, Weatherlight Corsair"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/stolen-board"
+      ],
+      "card": "Kindred Discovery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/throne",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Stolen Strategy",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Stolen Strategy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Thief of Sanity",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:card-theft"
+      ],
+      "card": "Thief of Sanity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Thief of Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-creature-buff",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Thieving Amalgam",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/amalgam-manifests"
+      ],
+      "card": "Thieving Amalgam",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Thieving Amalgam"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Wand of Wonder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Wand of Wonder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "You Find Some Prisoners",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/You Find Some Prisoners"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic Treasure or self-recursion value.",
+      "Don't rely on put-onto-battlefield effects for Treasure (they aren't casts)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents' cards are weak or off-color for what you need.",
+      "evidence_class": "strategic_judgment",
+      "id": "weak-opponent-cards",
+      "mitigations": [
+       "Many theft angles"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Without Don stolen creatures shrink and Treasures stop.",
+      "evidence_class": "strategic_judgment",
+      "id": "don-removed",
+      "mitigations": [
+       "Protection package"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "Stolen permanents leave when their owner leaves the game.",
+      "evidence_class": "fact",
+      "id": "owner-leaves",
+      "mitigations": []
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Moderate; theft doubles as removal.",
+      "mana": "Treasure snowball plus rocks; ~33 lands.",
+      "protection": "Greaves, free protection; Don's static vanishes with him."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Don Andres, the Renegade",
+       "Hostage Taker",
+       "Coercive Recruiter",
+       "Thieving Amalgam",
+       "Gonti, Night Minister"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Roaming Throne",
+       "Kindred Discovery"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "stolen-board",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Insurrection"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Don Andres, the Renegade"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "insurrection",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Admiral Beckett Brass"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Don Andres, the Renegade"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "beckett-theft",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Both theft axes pay off only through Don: stolen creatures become threats and stolen noncreature casts become Treasure.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Power depends on what opponents play; casting from your own copies or putting cards onto the battlefield (Jhoira, Reanimate) gives no Treasure.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:board_wipe:9e41165a3415",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:artifacts_wiped:023d4c325b6a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:commander_removed_twice:b3add53358e8",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:key_engine_exiled:1777346d260d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:mana_screw:9d42711ceab1",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:color_screw:58f3847b35ab",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:graveyard_exiled:95fafa5a7573",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/beckett-theft"
+      ],
+      "card": "Admiral Beckett Brass",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Admiral Beckett Brass",
+       "graph:data/grixis/graph/don-andres-the-renegade.json#win:beckett-theft"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#recursion/value"
+      ],
+      "card": "Animate Dead",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Animate Dead"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/stolen-board"
+      ],
+      "card": "Coercive Recruiter",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Coercive Recruiter"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/voidwalker-nonbo"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Dauthi Voidwalker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Daredevil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Dire Fleet Daredevil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etali, Primal Storm",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Etali, Primal Storm"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Gonti, Night Minister",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:card-theft"
+      ],
+      "card": "Gonti, Night Minister",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Gonti, Night Minister"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-creature-buff",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hurl Through Hell",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Hurl Through Hell"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Insurrection",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:creature-theft",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value"
+      ],
+      "card": "Insurrection",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Insurrection",
+       "graph:data/grixis/graph/don-andres-the-renegade.json#win:insurrection"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put"
+      ],
+      "card": "Jhoira, Weatherlight Corsair",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Jhoira, Weatherlight Corsair"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#plan/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#win_conditions/stolen-board"
+      ],
+      "card": "Kindred Discovery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Opposition Agent",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Opposition Agent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/copies-and-put",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/throne",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:pirate-payoffs"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Stolen Strategy",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Stolen Strategy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-spell-treasure",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Thief of Sanity",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:card-theft"
+      ],
+      "card": "Thief of Sanity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Thief of Sanity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#engines/stolen-creature-buff",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#identity_core/Thieving Amalgam",
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#key_interactions/amalgam-manifests"
+      ],
+      "card": "Thieving Amalgam",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Thieving Amalgam"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/don-andres-the-renegade.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Wand of Wonder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/Wand of Wonder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "You Find Some Prisoners",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/don-andres-the-renegade.json#metrics/You Find Some Prisoners"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't drift into generic Treasure or self-recursion value.",
+      "Don't rely on put-onto-battlefield effects for Treasure (they aren't casts)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents' cards are weak or off-color for what you need.",
+      "evidence_class": "strategic_judgment",
+      "id": "weak-opponent-cards",
+      "mitigations": [
+       "Many theft angles"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Without Don stolen creatures shrink and Treasures stop.",
+      "evidence_class": "strategic_judgment",
+      "id": "don-removed",
+      "mitigations": [
+       "Protection package"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "Stolen permanents leave when their owner leaves the game.",
+      "evidence_class": "fact",
+      "id": "owner-leaves",
+      "mitigations": []
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Moderate; theft doubles as removal.",
+      "mana": "Treasure snowball plus rocks; ~33 lands.",
+      "protection": "Greaves, free protection; Don's static vanishes with him."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Don Andres, the Renegade",
+       "Hostage Taker",
+       "Coercive Recruiter",
+       "Thieving Amalgam",
+       "Gonti, Night Minister"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Roaming Throne",
+       "Kindred Discovery"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "stolen-board",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Insurrection"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Don Andres, the Renegade"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "insurrection",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Admiral Beckett Brass"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Don Andres, the Renegade"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "beckett-theft",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Both theft axes pay off only through Don: stolen creatures become threats and stolen noncreature casts become Treasure.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Power depends on what opponents play; casting from your own copies or putting cards onto the battlefield (Jhoira, Reanimate) gives no Treasure.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:board_wipe:9e41165a3415",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:artifacts_wiped:023d4c325b6a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:commander_removed_twice:b3add53358e8",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:key_engine_exiled:1777346d260d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:mana_screw:9d42711ceab1",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:color_screw:58f3847b35ab",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/don-andres-the-renegade.json#test:don-andres-the-renegade:stress:graveyard_exiled:95fafa5a7573",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "don-andres-the-renegade",
+ "source_packet": "data/grixis/bracket_stress_packets/don-andres-the-renegade.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

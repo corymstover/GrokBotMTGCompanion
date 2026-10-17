@@ -1,0 +1,2419 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "deck_id": "Cult_of_Skaro",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 93,
+  "commander_role": "central",
+  "failure_modes": 4
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Adaptive Omnitool",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Adaptive Omnitool"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/cult-of-skaro.json#combo:900-3750",
+       "graph:data/grixis/graph/cult-of-skaro.json#win:sword-assault"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Anrakyr the Traveller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Anrakyr the Traveller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ashad, the Lone Cyberman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Ashad, the Lone Cyberman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Baleful Strix",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Baleful Strix"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Biotransference",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Biotransference"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Brudiclad, Telchor Engineer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army"
+      ],
+      "card": "Canoptek Spyder",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Canoptek Spyder"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyber Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Dalek Squadron",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Dalek Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army"
+      ],
+      "card": "Davros, Dalek Creator",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Davros, Dalek Creator"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Delete",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Delete"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Desynchronization",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Desynchronization"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doomsday Confluence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Doomsday Confluence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Enthusiastic Mechanaut"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Full Throttle",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Full Throttle"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Great Train Heist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Great Train Heist"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/cult-attack",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Helm of the Host",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/helm-copies"
+      ],
+      "card": "Helm of the Host",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Helm of the Host"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Irenicus's Vile Duplication",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Irenicus's Vile Duplication"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:attack-protection",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-lords",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Master of Etherium",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Master of Etherium",
+       "graph:data/grixis/graph/cult-of-skaro.json#package:artifact-lords"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Missy",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Missy"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Mox Opal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't become a generic Grixis combo shell; the infinite should be commander-native combat.",
+      "Don't add non-artifact creatures that the counter mode ignores without reason."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Random modes miss what the board needs.",
+      "evidence_class": "strategic_judgment",
+      "id": "bad-rolls",
+      "mitigations": [
+       "More triggers average out the variance"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Cult dies attacking or to removal.",
+      "evidence_class": "strategic_judgment",
+      "id": "cult-removed",
+      "mitigations": [
+       "Haste/protection package",
+       "Helm copies"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact wipes reset the army.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-wipe",
+      "mitigations": [
+       "Academy Ruins",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Almost no tutors (Inventors' Fair only for artifacts; Urza's Saga finds 0-1 cost artifacts), so the Sword + Assault combo is found by drawing.",
+      "evidence_class": "strategic_judgment",
+      "id": "few-tutors",
+      "mitigations": [
+       "Caan draw mode",
+       "Thought Monitor",
+       "Research Thief"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Mana Drain) and flexible removal (Delete, Chaos Warp, Cyclonic Rift).",
+      "mana": "Artifact mana (Mox Opal, Mana Vault, Urza's Saga) for extra-combat turns.",
+      "protection": "Greaves, Boots, Padeem, Plaza; the engine needs Cult to survive attacking."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Cult of Skaro"
+      ],
+      "evidence_class": "fact",
+      "id": "sword-assault",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Helm of the Host",
+       "Full Throttle",
+       "Great Train Heist",
+       "Strionic Resonator",
+       "Scientist Supreme of A.I.M."
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Lightning Greaves",
+       "Swiftfoot Boots"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "multiplied-attacks",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Steel Overseer",
+       "Master of Etherium",
+       "The Cyber-Controller",
+       "Genesis of the Daleks",
+       "Dalek Squadron"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-swarm",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every Cult attack produces value; Helm tokens, extra combats and copies each roll another trigger.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The mode is random and fixed when the trigger goes on the stack, so the engine is high-variance; copies repeat the rolled mode, extra triggers re-roll.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:board_wipe:5fb20b21f42a",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:artifacts_wiped:98d7504d24a4",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:commander_removed_twice:1859d684a009",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:key_engine_exiled:b925cf690ea2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:mana_screw:1ed8a0785079",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:color_screw:249e54f467a3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:graveyard_exiled:400a2b315b8d",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Adaptive Omnitool",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Adaptive Omnitool"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/cult-of-skaro.json#combo:900-3750",
+       "graph:data/grixis/graph/cult-of-skaro.json#win:sword-assault"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Anrakyr the Traveller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Anrakyr the Traveller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ashad, the Lone Cyberman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Ashad, the Lone Cyberman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Biotransference",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Biotransference"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Brudiclad, Telchor Engineer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyber Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army"
+      ],
+      "card": "Dalek Drone",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Dalek Drone"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Dalek Squadron",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Dalek Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Delete",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Delete"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Desynchronization",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Desynchronization"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doomsday Confluence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Doomsday Confluence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Enthusiastic Mechanaut"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/exterminate"
+      ],
+      "card": "Exterminate!",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Exterminate!"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Full Throttle",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Full Throttle"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Great Train Heist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Great Train Heist"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/cult-attack",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Helm of the Host",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/helm-copies"
+      ],
+      "card": "Helm of the Host",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Helm of the Host"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Irenicus's Vile Duplication",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Irenicus's Vile Duplication"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:attack-protection",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-lords",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Master of Etherium",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Master of Etherium",
+       "graph:data/grixis/graph/cult-of-skaro.json#package:artifact-lords"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nanogene Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Nanogene Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/cult-attack",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Scientist Supreme of A.I.M.",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/copies-vs-triggers"
+      ],
+      "card": "Scientist Supreme of A.I.M.",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Scientist Supreme of A.I.M."
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Shuri, Wakandan Inventor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Shuri, Wakandan Inventor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-lords",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Steel Overseer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Steel Overseer",
+       "graph:data/grixis/graph/cult-of-skaro.json#package:artifact-lords"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't become a generic Grixis combo shell; the infinite should be commander-native combat.",
+      "Don't add non-artifact creatures that the counter mode ignores without reason."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Random modes miss what the board needs.",
+      "evidence_class": "strategic_judgment",
+      "id": "bad-rolls",
+      "mitigations": [
+       "More triggers average out the variance"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Cult dies attacking or to removal.",
+      "evidence_class": "strategic_judgment",
+      "id": "cult-removed",
+      "mitigations": [
+       "Haste/protection package",
+       "Helm copies"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact wipes reset the army.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-wipe",
+      "mitigations": [
+       "Academy Ruins",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Almost no tutors (Inventors' Fair only for artifacts; Urza's Saga finds 0-1 cost artifacts), so the Sword + Assault combo is found by drawing.",
+      "evidence_class": "strategic_judgment",
+      "id": "few-tutors",
+      "mitigations": [
+       "Caan draw mode",
+       "Thought Monitor",
+       "Research Thief"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Mana Drain) and flexible removal (Delete, Chaos Warp, Cyclonic Rift).",
+      "mana": "Artifact mana (Mox Opal, Mana Vault, Urza's Saga) for extra-combat turns.",
+      "protection": "Greaves, Boots, Padeem, Plaza; the engine needs Cult to survive attacking."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Cult of Skaro"
+      ],
+      "evidence_class": "fact",
+      "id": "sword-assault",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Helm of the Host",
+       "Full Throttle",
+       "Great Train Heist",
+       "Strionic Resonator",
+       "Scientist Supreme of A.I.M."
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Lightning Greaves",
+       "Swiftfoot Boots"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "multiplied-attacks",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Steel Overseer",
+       "Master of Etherium",
+       "The Cyber-Controller",
+       "Genesis of the Daleks",
+       "Dalek Squadron"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-swarm",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every Cult attack produces value; Helm tokens, extra combats and copies each roll another trigger.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The mode is random and fixed when the trigger goes on the stack, so the engine is high-variance; copies repeat the rolled mode, extra triggers re-roll.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:board_wipe:5fb20b21f42a",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:artifacts_wiped:98d7504d24a4",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:commander_removed_twice:1859d684a009",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:key_engine_exiled:b925cf690ea2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:mana_screw:1ed8a0785079",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:color_screw:249e54f467a3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:graveyard_exiled:400a2b315b8d",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Adaptive Omnitool",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Adaptive Omnitool"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/cult-of-skaro.json#combo:900-3750",
+       "graph:data/grixis/graph/cult-of-skaro.json#win:sword-assault"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Anrakyr the Traveller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Anrakyr the Traveller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ashad, the Lone Cyberman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Ashad, the Lone Cyberman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Biotransference",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Biotransference"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Brudiclad, Telchor Engineer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyber Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army"
+      ],
+      "card": "Dalek Drone",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Dalek Drone"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Dalek Squadron",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Dalek Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Delete",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Delete"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Desynchronization",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Desynchronization"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doomsday Confluence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Doomsday Confluence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Enthusiastic Mechanaut"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/exterminate"
+      ],
+      "card": "Exterminate!",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Exterminate!"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Full Throttle",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Full Throttle"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Great Train Heist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Great Train Heist"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/cult-attack",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Helm of the Host",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/helm-copies"
+      ],
+      "card": "Helm of the Host",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Helm of the Host"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Irenicus's Vile Duplication",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Irenicus's Vile Duplication"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:attack-protection",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-lords",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Master of Etherium",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Master of Etherium",
+       "graph:data/grixis/graph/cult-of-skaro.json#package:artifact-lords"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nanogene Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Nanogene Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/cult-attack",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Scientist Supreme of A.I.M.",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/copies-vs-triggers"
+      ],
+      "card": "Scientist Supreme of A.I.M.",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Scientist Supreme of A.I.M."
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Shuri, Wakandan Inventor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Shuri, Wakandan Inventor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-lords",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Steel Overseer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Steel Overseer",
+       "graph:data/grixis/graph/cult-of-skaro.json#package:artifact-lords"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't become a generic Grixis combo shell; the infinite should be commander-native combat.",
+      "Don't add non-artifact creatures that the counter mode ignores without reason."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Random modes miss what the board needs.",
+      "evidence_class": "strategic_judgment",
+      "id": "bad-rolls",
+      "mitigations": [
+       "More triggers average out the variance"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Cult dies attacking or to removal.",
+      "evidence_class": "strategic_judgment",
+      "id": "cult-removed",
+      "mitigations": [
+       "Haste/protection package",
+       "Helm copies"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact wipes reset the army.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-wipe",
+      "mitigations": [
+       "Academy Ruins",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Almost no tutors (Inventors' Fair only for artifacts; Urza's Saga finds 0-1 cost artifacts), so the Sword + Assault combo is found by drawing.",
+      "evidence_class": "strategic_judgment",
+      "id": "few-tutors",
+      "mitigations": [
+       "Caan draw mode",
+       "Thought Monitor",
+       "Research Thief"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Mana Drain) and flexible removal (Delete, Chaos Warp, Cyclonic Rift).",
+      "mana": "Artifact mana (Mox Opal, Mana Vault, Urza's Saga) for extra-combat turns.",
+      "protection": "Greaves, Boots, Padeem, Plaza; the engine needs Cult to survive attacking."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Cult of Skaro"
+      ],
+      "evidence_class": "fact",
+      "id": "sword-assault",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Helm of the Host",
+       "Full Throttle",
+       "Great Train Heist",
+       "Strionic Resonator",
+       "Scientist Supreme of A.I.M."
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Lightning Greaves",
+       "Swiftfoot Boots"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "multiplied-attacks",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Steel Overseer",
+       "Master of Etherium",
+       "The Cyber-Controller",
+       "Genesis of the Daleks",
+       "Dalek Squadron"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-swarm",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every Cult attack produces value; Helm tokens, extra combats and copies each roll another trigger.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The mode is random and fixed when the trigger goes on the stack, so the engine is high-variance; copies repeat the rolled mode, extra triggers re-roll.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:board_wipe:5fb20b21f42a",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:artifacts_wiped:98d7504d24a4",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:commander_removed_twice:1859d684a009",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:key_engine_exiled:b925cf690ea2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:mana_screw:1ed8a0785079",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:color_screw:249e54f467a3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:graveyard_exiled:400a2b315b8d",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Adaptive Omnitool",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Adaptive Omnitool"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Aggravated Assault",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value"
+      ],
+      "card": "Aggravated Assault",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Aggravated Assault",
+       "graph:data/grixis/graph/cult-of-skaro.json#combo:900-3750",
+       "graph:data/grixis/graph/cult-of-skaro.json#win:sword-assault"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Anrakyr the Traveller",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Anrakyr the Traveller"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ashad, the Lone Cyberman",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Ashad, the Lone Cyberman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Biotransference",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Biotransference"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brudiclad, Telchor Engineer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Brudiclad, Telchor Engineer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyber Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Cyber Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army"
+      ],
+      "card": "Dalek Drone",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Dalek Drone"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Dalek Squadron",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Dalek Squadron"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Rollick",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Delete",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Delete"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Desynchronization",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Desynchronization"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doomsday Confluence",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Doomsday Confluence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#recursion/value"
+      ],
+      "card": "Emry, Lurker of the Loch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Emry, Lurker of the Loch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Enthusiastic Mechanaut",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Enthusiastic Mechanaut"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Etherium Sculptor",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Etherium Sculptor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/exterminate"
+      ],
+      "card": "Exterminate!",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Exterminate!"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:attack-protection"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Full Throttle",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Full Throttle"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-creature-army",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Genesis of the Daleks",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Genesis of the Daleks"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/extra-combats",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Great Train Heist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Great Train Heist"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/cult-attack",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Helm of the Host",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/helm-copies"
+      ],
+      "card": "Helm of the Host",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Helm of the Host"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Irenicus's Vile Duplication",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Irenicus's Vile Duplication"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:attack-protection",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/multiplied-attacks"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#packages/pkg:artifact-lords",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#plan/value",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#win_conditions/artifact-swarm"
+      ],
+      "card": "Master of Etherium",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Master of Etherium",
+       "graph:data/grixis/graph/cult-of-skaro.json#package:artifact-lords"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nanogene Conversion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Nanogene Conversion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#engines/cult-attack",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#identity_core/Scientist Supreme of A.I.M.",
+       "blueprint:data/grixis/blueprints/cult-of-skaro.json#key_interactions/copies-vs-triggers"
+      ],
+      "card": "Scientist Supreme of A.I.M.",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/cult-of-skaro.json#metrics/Scientist Supreme of A.I.M."
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't become a generic Grixis combo shell; the infinite should be commander-native combat.",
+      "Don't add non-artifact creatures that the counter mode ignores without reason."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Random modes miss what the board needs.",
+      "evidence_class": "strategic_judgment",
+      "id": "bad-rolls",
+      "mitigations": [
+       "More triggers average out the variance"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Cult dies attacking or to removal.",
+      "evidence_class": "strategic_judgment",
+      "id": "cult-removed",
+      "mitigations": [
+       "Haste/protection package",
+       "Helm copies"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact wipes reset the army.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-wipe",
+      "mitigations": [
+       "Academy Ruins",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Almost no tutors (Inventors' Fair only for artifacts; Urza's Saga finds 0-1 cost artifacts), so the Sword + Assault combo is found by drawing.",
+      "evidence_class": "strategic_judgment",
+      "id": "few-tutors",
+      "mitigations": [
+       "Caan draw mode",
+       "Thought Monitor",
+       "Research Thief"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Mana Drain) and flexible removal (Delete, Chaos Warp, Cyclonic Rift).",
+      "mana": "Artifact mana (Mox Opal, Mana Vault, Urza's Saga) for extra-combat turns.",
+      "protection": "Greaves, Boots, Padeem, Plaza; the engine needs Cult to survive attacking."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Sword of Feast and Famine",
+       "Aggravated Assault"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Cult of Skaro"
+      ],
+      "evidence_class": "fact",
+      "id": "sword-assault",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Helm of the Host",
+       "Full Throttle",
+       "Great Train Heist",
+       "Strionic Resonator",
+       "Scientist Supreme of A.I.M."
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Lightning Greaves",
+       "Swiftfoot Boots"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "multiplied-attacks",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Steel Overseer",
+       "Master of Etherium",
+       "The Cyber-Controller",
+       "Genesis of the Daleks",
+       "Dalek Squadron"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-swarm",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Every Cult attack produces value; Helm tokens, extra combats and copies each roll another trigger.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The mode is random and fixed when the trigger goes on the stack, so the engine is high-variance; copies repeat the rolled mode, extra triggers re-roll.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:board_wipe:5fb20b21f42a",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:artifacts_wiped:98d7504d24a4",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:commander_removed_twice:1859d684a009",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:key_engine_exiled:b925cf690ea2",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:mana_screw:1ed8a0785079",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:color_screw:249e54f467a3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/cult-of-skaro.json#test:cult-of-skaro:stress:graveyard_exiled:400a2b315b8d",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "cult-of-skaro",
+ "source_packet": "data/grixis/bracket_stress_packets/cult-of-skaro.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

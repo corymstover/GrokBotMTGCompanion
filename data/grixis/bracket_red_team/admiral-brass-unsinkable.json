@@ -1,0 +1,2346 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 96,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Angrath's Marauders",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Angrath's Marauders"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup"
+      ],
+      "card": "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "draw",
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Breeches, Brazen Plunderer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Breeches, Brazen Plunderer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Breeches, Eager Pillager",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Breeches, Eager Pillager"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/bad-mill",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Buried Alive",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Buried Alive",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Captain Lannery Storm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Captain Lannery Storm"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/changeling-and-wonder"
+      ],
+      "card": "Changeling Outcast",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Changeling Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Corsair Captain",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Corsair Captain"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Daredevil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Dire Fleet Daredevil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Edward Kenway",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Edward Kenway"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Enterprising Scallywag",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Enterprising Scallywag"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/bad-mill",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Entomb",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Entomb",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/mass-reanimation"
+      ],
+      "card": "Faithless Looting",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Faithless Looting",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fathom Fleet Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Fathom Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Francisco, Fowl Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Francisco, Fowl Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/pirate-etb-value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates"
+      ],
+      "card": "Gemcutter Buccaneer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Gemcutter Buccaneer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kindred Discovery",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/symmetric-mass-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Living Death",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Malcolm, Alluring Scoundrel",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Malcolm, Alluring Scoundrel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Malcolm, Keen-Eyed Navigator",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Malcolm, Keen-Eyed Navigator"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates"
+      ],
+      "card": "Mary Read and Anne Bonny",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Mary Read and Anne Bonny"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Merchant Raiders",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Merchant Raiders"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/symmetric-mass-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Patriarch's Bidding",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Patriarch's Bidding"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/finality-exile",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Pitiless Plunderer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#tutor_targets/Port Razer",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Port Razer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Port Razer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't become generic Grixis reanimator: the targets should be Pirates the commander can return.",
+      "Don't self-mill as an end in itself.",
+      "Revel in Riches-style off-plan alternate wins were cut for commander synergy (source decision)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard exile (Bojuka Bog, Rest in Peace) shuts off the commander and mass reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Hard-cast Pirates still work",
+       "Hold reanimation until needed"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "Finality counters mean each reanimated Pirate is usually exiled the next time it would die.",
+      "evidence_class": "fact",
+      "id": "one-shot-reanimation",
+      "mitigations": [
+       "Power Conduit"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Commander ETB mill and self-mill may hit lands or non-Pirates.",
+      "evidence_class": "strategic_judgment",
+      "id": "bad-mill",
+      "mitigations": [
+       "Entomb/Buried Alive choose the card"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Graveyard hate is the main threat; keep stack interaction to protect the reanimation turn.",
+      "mana": "Five-mana commander; 34 lands plus rocks.",
+      "protection": "Greaves, Stormtamer and free protection for the commander."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Admiral Brass, Unsinkable",
+       "Shared Animosity",
+       "Port Razer",
+       "Angrath's Marauders"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Entomb",
+       "Buried Alive"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reanimated-pirate-beats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Living Death",
+       "Patriarch's Bidding"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Faithless Looting"
+      ],
+      "evidence_class": "fact",
+      "id": "mass-reanimation",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Brass's combat trigger is a free Pirate reanimation every turn; the self-mill and Pirate-ETB choices exist for it.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Finality counters exile the returned Pirate when it would die, so each card is usually a one-shot unless Power Conduit removes the counter; the engine slowly consumes the graveyard.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:board_wipe:936402edd142",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:artifacts_wiped:f8a221437d52",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:commander_removed_twice:ba40525d5774",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:key_engine_exiled:baae7fb51dc4",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:mana_screw:b271e2c5325d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:color_screw:cc181623c454",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:graveyard_exiled:c05066e25202",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Admiral Beckett Brass",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Admiral Beckett Brass"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates"
+      ],
+      "card": "Amphin Mutineer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Amphin Mutineer"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Angrath's Marauders",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Angrath's Marauders"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup"
+      ],
+      "card": "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "draw",
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Breeches, Brazen Plunderer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Breeches, Brazen Plunderer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/bad-mill",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Buried Alive",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Buried Alive",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/changeling-and-wonder"
+      ],
+      "card": "Changeling Outcast",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Changeling Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Daredevil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Dire Fleet Daredevil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/bad-mill",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Entomb",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Entomb",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/mass-reanimation"
+      ],
+      "card": "Faithless Looting",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Faithless Looting",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fathom Fleet Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Fathom Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Francisco, Fowl Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Francisco, Fowl Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/pirate-etb-value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/symmetric-mass-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Living Death",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Merchant Raiders",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Merchant Raiders"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/symmetric-mass-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Patriarch's Bidding",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Patriarch's Bidding"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#tutor_targets/Port Razer",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Port Razer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Port Razer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/one-shot-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Power Conduit"
+      ],
+      "card": "Power Conduit",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Power Conduit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/combat-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Shared Animosity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Shared Animosity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/pirate-etb-value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Skeleton Crew"
+      ],
+      "card": "Skeleton Crew",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Skeleton Crew"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/changeling-and-wonder"
+      ],
+      "card": "Wonder",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Wonder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't become generic Grixis reanimator: the targets should be Pirates the commander can return.",
+      "Don't self-mill as an end in itself.",
+      "Revel in Riches-style off-plan alternate wins were cut for commander synergy (source decision)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard exile (Bojuka Bog, Rest in Peace) shuts off the commander and mass reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Hard-cast Pirates still work",
+       "Hold reanimation until needed"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "Finality counters mean each reanimated Pirate is usually exiled the next time it would die.",
+      "evidence_class": "fact",
+      "id": "one-shot-reanimation",
+      "mitigations": [
+       "Power Conduit"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Commander ETB mill and self-mill may hit lands or non-Pirates.",
+      "evidence_class": "strategic_judgment",
+      "id": "bad-mill",
+      "mitigations": [
+       "Entomb/Buried Alive choose the card"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Graveyard hate is the main threat; keep stack interaction to protect the reanimation turn.",
+      "mana": "Five-mana commander; 34 lands plus rocks.",
+      "protection": "Greaves, Stormtamer and free protection for the commander."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Admiral Brass, Unsinkable",
+       "Shared Animosity",
+       "Port Razer",
+       "Angrath's Marauders"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Entomb",
+       "Buried Alive"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reanimated-pirate-beats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Living Death",
+       "Patriarch's Bidding"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Faithless Looting"
+      ],
+      "evidence_class": "fact",
+      "id": "mass-reanimation",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Brass's combat trigger is a free Pirate reanimation every turn; the self-mill and Pirate-ETB choices exist for it.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Finality counters exile the returned Pirate when it would die, so each card is usually a one-shot unless Power Conduit removes the counter; the engine slowly consumes the graveyard.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:board_wipe:936402edd142",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:artifacts_wiped:f8a221437d52",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:commander_removed_twice:ba40525d5774",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:key_engine_exiled:baae7fb51dc4",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:mana_screw:b271e2c5325d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:color_screw:cc181623c454",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:graveyard_exiled:c05066e25202",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Admiral Beckett Brass",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Admiral Beckett Brass"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates"
+      ],
+      "card": "Amphin Mutineer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Amphin Mutineer"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Angrath's Marauders",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Angrath's Marauders"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup"
+      ],
+      "card": "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "draw",
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Breeches, Brazen Plunderer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Breeches, Brazen Plunderer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/bad-mill",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Buried Alive",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Buried Alive",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/changeling-and-wonder"
+      ],
+      "card": "Changeling Outcast",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Changeling Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Daredevil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Dire Fleet Daredevil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/bad-mill",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Entomb",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Entomb",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/mass-reanimation"
+      ],
+      "card": "Faithless Looting",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Faithless Looting",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fathom Fleet Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Fathom Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Francisco, Fowl Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Francisco, Fowl Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/pirate-etb-value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/symmetric-mass-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Living Death",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Merchant Raiders",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Merchant Raiders"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/symmetric-mass-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Patriarch's Bidding",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Patriarch's Bidding"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#tutor_targets/Port Razer",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Port Razer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Port Razer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/one-shot-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Power Conduit"
+      ],
+      "card": "Power Conduit",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Power Conduit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/combat-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Shared Animosity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Shared Animosity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/pirate-etb-value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Skeleton Crew"
+      ],
+      "card": "Skeleton Crew",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Skeleton Crew"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/changeling-and-wonder"
+      ],
+      "card": "Wonder",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Wonder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't become generic Grixis reanimator: the targets should be Pirates the commander can return.",
+      "Don't self-mill as an end in itself.",
+      "Revel in Riches-style off-plan alternate wins were cut for commander synergy (source decision)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard exile (Bojuka Bog, Rest in Peace) shuts off the commander and mass reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Hard-cast Pirates still work",
+       "Hold reanimation until needed"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "Finality counters mean each reanimated Pirate is usually exiled the next time it would die.",
+      "evidence_class": "fact",
+      "id": "one-shot-reanimation",
+      "mitigations": [
+       "Power Conduit"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Commander ETB mill and self-mill may hit lands or non-Pirates.",
+      "evidence_class": "strategic_judgment",
+      "id": "bad-mill",
+      "mitigations": [
+       "Entomb/Buried Alive choose the card"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Graveyard hate is the main threat; keep stack interaction to protect the reanimation turn.",
+      "mana": "Five-mana commander; 34 lands plus rocks.",
+      "protection": "Greaves, Stormtamer and free protection for the commander."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Admiral Brass, Unsinkable",
+       "Shared Animosity",
+       "Port Razer",
+       "Angrath's Marauders"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Entomb",
+       "Buried Alive"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reanimated-pirate-beats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Living Death",
+       "Patriarch's Bidding"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Faithless Looting"
+      ],
+      "evidence_class": "fact",
+      "id": "mass-reanimation",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Brass's combat trigger is a free Pirate reanimation every turn; the self-mill and Pirate-ETB choices exist for it.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Finality counters exile the returned Pirate when it would die, so each card is usually a one-shot unless Power Conduit removes the counter; the engine slowly consumes the graveyard.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:board_wipe:936402edd142",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:artifacts_wiped:f8a221437d52",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:commander_removed_twice:ba40525d5774",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:key_engine_exiled:baae7fb51dc4",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:mana_screw:b271e2c5325d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:color_screw:cc181623c454",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:graveyard_exiled:c05066e25202",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Admiral Beckett Brass",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Admiral Beckett Brass"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates"
+      ],
+      "card": "Amphin Mutineer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Amphin Mutineer"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Angrath's Marauders",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Angrath's Marauders"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup"
+      ],
+      "card": "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Brass's Tunnel-Grinder // Tecutlan, the Searing Rift",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "draw",
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Breeches, Brazen Plunderer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Breeches, Brazen Plunderer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/bad-mill",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Buried Alive",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Buried Alive",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/changeling-and-wonder"
+      ],
+      "card": "Changeling Outcast",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Changeling Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dire Fleet Daredevil",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Dire Fleet Daredevil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/bad-mill",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Entomb",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup"
+      ],
+      "card": "Entomb",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Entomb",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:graveyard-setup",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/mass-reanimation"
+      ],
+      "card": "Faithless Looting",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Faithless Looting",
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#package:graveyard-setup"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fathom Fleet Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Fathom Fleet Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Francisco, Fowl Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Francisco, Fowl Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/pirate-etb-value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates"
+      ],
+      "card": "Hostage Taker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Hostage Taker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/symmetric-mass-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Living Death",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Merchant Raiders",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Merchant Raiders"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#key_interactions/symmetric-mass-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#plan/value"
+      ],
+      "card": "Patriarch's Bidding",
+      "decision_support": false,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Patriarch's Bidding"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:high-impact-pirates",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#tutor_targets/Port Razer",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Port Razer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Port Razer"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#failure_modes/one-shot-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Power Conduit"
+      ],
+      "card": "Power Conduit",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Power Conduit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/combat-reanimation",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Roaming Throne"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#win_conditions/reanimated-pirate-beats"
+      ],
+      "card": "Shared Animosity",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Shared Animosity"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Siren Stormtamer",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Siren Stormtamer"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#engines/pirate-etb-value",
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#identity_core/Skeleton Crew"
+      ],
+      "card": "Skeleton Crew",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Skeleton Crew"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/admiral-brass-unsinkable.json#packages/pkg:interaction-protection"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/admiral-brass-unsinkable.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't become generic Grixis reanimator: the targets should be Pirates the commander can return.",
+      "Don't self-mill as an end in itself.",
+      "Revel in Riches-style off-plan alternate wins were cut for commander synergy (source decision)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Graveyard exile (Bojuka Bog, Rest in Peace) shuts off the commander and mass reanimation.",
+      "evidence_class": "strategic_judgment",
+      "id": "graveyard-hate",
+      "mitigations": [
+       "Hard-cast Pirates still work",
+       "Hold reanimation until needed"
+      ]
+     },
+     {
+      "confidence": "verified",
+      "description": "Finality counters mean each reanimated Pirate is usually exiled the next time it would die.",
+      "evidence_class": "fact",
+      "id": "one-shot-reanimation",
+      "mitigations": [
+       "Power Conduit"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Commander ETB mill and self-mill may hit lands or non-Pirates.",
+      "evidence_class": "strategic_judgment",
+      "id": "bad-mill",
+      "mitigations": [
+       "Entomb/Buried Alive choose the card"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Graveyard hate is the main threat; keep stack interaction to protect the reanimation turn.",
+      "mana": "Five-mana commander; 34 lands plus rocks.",
+      "protection": "Greaves, Stormtamer and free protection for the commander."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Admiral Brass, Unsinkable",
+       "Shared Animosity",
+       "Port Razer",
+       "Angrath's Marauders"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Entomb",
+       "Buried Alive"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "reanimated-pirate-beats",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Living Death",
+       "Patriarch's Bidding"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Faithless Looting"
+      ],
+      "evidence_class": "fact",
+      "id": "mass-reanimation",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Brass's combat trigger is a free Pirate reanimation every turn; the self-mill and Pirate-ETB choices exist for it.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Finality counters exile the returned Pirate when it would die, so each card is usually a one-shot unless Power Conduit removes the counter; the engine slowly consumes the graveyard.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:board_wipe:936402edd142",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:artifacts_wiped:f8a221437d52",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:commander_removed_twice:ba40525d5774",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:key_engine_exiled:baae7fb51dc4",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:mana_screw:b271e2c5325d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:color_screw:cc181623c454",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/admiral-brass-unsinkable.json#test:admiral-brass-unsinkable:stress:graveyard_exiled:c05066e25202",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "admiral-brass-unsinkable",
+ "source_packet": "data/grixis/bracket_stress_packets/admiral-brass-unsinkable.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

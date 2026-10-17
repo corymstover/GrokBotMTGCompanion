@@ -1,0 +1,2612 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 95,
+  "commander_role": "supporting",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Alania, Divergent Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Alania, Divergent Storm",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-5959",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-5959"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Archmage Emeritus",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Archmage Emeritus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals"
+      ],
+      "card": "Big Score",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Big Score"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/bonus-round-symmetric",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy"
+      ],
+      "card": "Bonus Round",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Bonus Round",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-2492-5195"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals"
+      ],
+      "card": "Brainstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Brainstorm"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cormela, Glamour Thief",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Cormela, Glamour Thief"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Display of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Display of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/dualcaster-tech"
+      ],
+      "card": "Dualcaster Mage",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Dualcaster Mage",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:147-1883",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#win:dualcaster-tech"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Errant, Street Artist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Errant, Street Artist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/narset-reversal-loops"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Frantic Search",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Goblin Electromancer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Grapeshot",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Grapeshot"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Increasing Vengeance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Increasing Vengeance",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-4285",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-5959"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1878-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kess, Dissident Mage",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Mana Geyser",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Mana Geyser",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:2091-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/copy-not-cast-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#recursion/value"
+      ],
+      "card": "Mizzix's Mastery",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Mizzix's Mastery"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#identity_core/Narset's Reversal",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Narset's Reversal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Narset's Reversal",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-2492-5195"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals"
+      ],
+      "card": "Ponder",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Ponder"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals"
+      ],
+      "card": "Preordain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Preordain"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/narset-reversal-loops"
+      ],
+      "card": "Primal Amulet // Primal Wellspring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Primal Amulet // Primal Wellspring",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Prismari, the Inspiration",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Prismari, the Inspiration",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-7683",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-7683"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Professor Onyx",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Professor Onyx"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Oracle/Consultation or Breach cEDH shell (blueprint L53).",
+      "Don't overfill two-mana copy spells (L54)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents' copies can backfire, e.g. a copied tutor or wipe.",
+      "evidence_class": "strategic_judgment",
+      "id": "gifted-copies",
+      "mitigations": [
+       "Choose copy recipients carefully",
+       "'up to one' lets you give none"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Five-mana commander plus five- to seven-mana copy engines.",
+      "evidence_class": "strategic_judgment",
+      "id": "expensive-engines",
+      "mitigations": [
+       "Rituals and cantrips"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Counters on the key copy spell break the combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "stack-interaction",
+      "mitigations": [
+       "Redundant copy pairs"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counterspell, Mana Drain, Narset's Reversal, An Offer You Can't Refuse, Chaos Warp, Feed the Swarm, Blasphemous Act.",
+      "mana": "35 lands, nine fetches, Sol Ring, Dark Ritual, Signets/Talismans.",
+      "protection": "Parnesse's tax, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Narset's Reversal",
+       "Twinning Staff",
+       "Reiterate",
+       "Increasing Vengeance",
+       "Reverberate",
+       "Return the Favor",
+       "Primal Amulet // Primal Wellspring",
+       "Frantic Search",
+       "Storm-Kiln Artist",
+       "Bonus Round",
+       "Thousand-Year Storm"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "narset-reversal-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Reiterate",
+       "Increasing Vengeance",
+       "Reverberate",
+       "Return the Favor",
+       "Alania, Divergent Storm",
+       "Pyromancer's Goggles",
+       "Prismari, the Inspiration",
+       "Thousand-Year Storm",
+       "Mana Geyser",
+       "Jeska's Will",
+       "Grapeshot"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "copy-mana-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dualcaster Mage",
+       "Replication Technique"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "dualcaster-tech",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Parnesse protects herself and your permanents with a 4-life targeting tax, and her copy-sharing is a political tool.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "None of the 25 Spellbook infinites in the list uses Parnesse; all are copy-spell pairs that work in any Grixis spellslinger deck. Her second ability gives opponents copies, which is optional politics and can be a liability. The source frames the deck as political conversion (blueprint L12), but mechanically she's a five-mana protection/politics commander on top of a strong generic copy-combo shell. The calibration floor is 3, below the source's 4; the 25 two-card infinites support 4. M1 review (parnesse-01..10) flags Bonus Round as symmetric (parnesse-07) and leaves one question uncertain (parnesse-10: whether opponents' retargeted copies pay her 4-life tax).",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 25,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 25
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:board_wipe:cee93affee1f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:artifacts_wiped:fc381dd5ce79",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:commander_removed_twice:7de44c8468db",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:key_engine_exiled:c33b4ef65c6d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:mana_screw:4b5808a74ebc",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:color_screw:b6b93d4616ca",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:graveyard_exiled:fbdd3bfd5c42",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Alania, Divergent Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Alania, Divergent Storm",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-5959",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-5959"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/bonus-round-symmetric",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy"
+      ],
+      "card": "Bonus Round",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Bonus Round",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-2492-5195"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chef's Kiss",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Chef's Kiss"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Display of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Display of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/dualcaster-tech"
+      ],
+      "card": "Dualcaster Mage",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Dualcaster Mage",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:147-1883",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#win:dualcaster-tech"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Errant, Street Artist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Errant, Street Artist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/narset-reversal-loops"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Frantic Search",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Goblin Electromancer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Grapeshot",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Grapeshot"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Increasing Vengeance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Increasing Vengeance",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-4285",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-5959"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1878-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kess, Dissident Mage",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Mana Geyser",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Mana Geyser",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:2091-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/copy-not-cast-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#recursion/value"
+      ],
+      "card": "Mizzix's Mastery",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Mizzix's Mastery"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#identity_core/Narset's Reversal",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Narset's Reversal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Narset's Reversal",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-2492-5195"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/narset-reversal-loops"
+      ],
+      "card": "Primal Amulet // Primal Wellspring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Primal Amulet // Primal Wellspring",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Prismari, the Inspiration",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Prismari, the Inspiration",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-7683",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-7683"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Professor Onyx",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Professor Onyx"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Pyromancer's Goggles",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Pyromancer's Goggles",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-6790",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-6790"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Ral, Storm Conduit",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Ral, Storm Conduit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#identity_core/Reiterate",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy"
+      ],
+      "card": "Reiterate",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Reiterate",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-3368",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/dualcaster-tech"
+      ],
+      "card": "Replication Technique",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Replication Technique",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:147-1883",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#win:dualcaster-tech"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Return the Favor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Return the Favor",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-5940",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:5940-5959"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Reverberate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Reverberate",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-5026",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:5026-5959"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#recursion/value"
+      ],
+      "card": "Sedgemoor Witch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Sedgemoor Witch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Oracle/Consultation or Breach cEDH shell (blueprint L53).",
+      "Don't overfill two-mana copy spells (L54)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents' copies can backfire, e.g. a copied tutor or wipe.",
+      "evidence_class": "strategic_judgment",
+      "id": "gifted-copies",
+      "mitigations": [
+       "Choose copy recipients carefully",
+       "'up to one' lets you give none"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Five-mana commander plus five- to seven-mana copy engines.",
+      "evidence_class": "strategic_judgment",
+      "id": "expensive-engines",
+      "mitigations": [
+       "Rituals and cantrips"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Counters on the key copy spell break the combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "stack-interaction",
+      "mitigations": [
+       "Redundant copy pairs"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counterspell, Mana Drain, Narset's Reversal, An Offer You Can't Refuse, Chaos Warp, Feed the Swarm, Blasphemous Act.",
+      "mana": "35 lands, nine fetches, Sol Ring, Dark Ritual, Signets/Talismans.",
+      "protection": "Parnesse's tax, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Narset's Reversal",
+       "Twinning Staff",
+       "Reiterate",
+       "Increasing Vengeance",
+       "Reverberate",
+       "Return the Favor",
+       "Primal Amulet // Primal Wellspring",
+       "Frantic Search",
+       "Storm-Kiln Artist",
+       "Bonus Round",
+       "Thousand-Year Storm"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "narset-reversal-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Reiterate",
+       "Increasing Vengeance",
+       "Reverberate",
+       "Return the Favor",
+       "Alania, Divergent Storm",
+       "Pyromancer's Goggles",
+       "Prismari, the Inspiration",
+       "Thousand-Year Storm",
+       "Mana Geyser",
+       "Jeska's Will",
+       "Grapeshot"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "copy-mana-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dualcaster Mage",
+       "Replication Technique"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "dualcaster-tech",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Parnesse protects herself and your permanents with a 4-life targeting tax, and her copy-sharing is a political tool.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "None of the 25 Spellbook infinites in the list uses Parnesse; all are copy-spell pairs that work in any Grixis spellslinger deck. Her second ability gives opponents copies, which is optional politics and can be a liability. The source frames the deck as political conversion (blueprint L12), but mechanically she's a five-mana protection/politics commander on top of a strong generic copy-combo shell. The calibration floor is 3, below the source's 4; the 25 two-card infinites support 4. M1 review (parnesse-01..10) flags Bonus Round as symmetric (parnesse-07) and leaves one question uncertain (parnesse-10: whether opponents' retargeted copies pay her 4-life tax).",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 25,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 25
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:board_wipe:cee93affee1f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:artifacts_wiped:fc381dd5ce79",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:commander_removed_twice:7de44c8468db",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:key_engine_exiled:c33b4ef65c6d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:mana_screw:4b5808a74ebc",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:color_screw:b6b93d4616ca",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:graveyard_exiled:fbdd3bfd5c42",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Alania, Divergent Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Alania, Divergent Storm",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-5959",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-5959"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/bonus-round-symmetric",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy"
+      ],
+      "card": "Bonus Round",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Bonus Round",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-2492-5195"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chef's Kiss",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Chef's Kiss"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Display of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Display of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/dualcaster-tech"
+      ],
+      "card": "Dualcaster Mage",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Dualcaster Mage",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:147-1883",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#win:dualcaster-tech"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Errant, Street Artist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Errant, Street Artist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/narset-reversal-loops"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Frantic Search",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Goblin Electromancer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Grapeshot",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Grapeshot"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Increasing Vengeance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Increasing Vengeance",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-4285",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-5959"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1878-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kess, Dissident Mage",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Mana Geyser",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Mana Geyser",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:2091-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/copy-not-cast-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#recursion/value"
+      ],
+      "card": "Mizzix's Mastery",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Mizzix's Mastery"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#identity_core/Narset's Reversal",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Narset's Reversal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Narset's Reversal",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-2492-5195"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/narset-reversal-loops"
+      ],
+      "card": "Primal Amulet // Primal Wellspring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Primal Amulet // Primal Wellspring",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Prismari, the Inspiration",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Prismari, the Inspiration",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-7683",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-7683"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Professor Onyx",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Professor Onyx"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Pyromancer's Goggles",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Pyromancer's Goggles",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-6790",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-6790"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Ral, Storm Conduit",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Ral, Storm Conduit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#identity_core/Reiterate",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy"
+      ],
+      "card": "Reiterate",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Reiterate",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-3368",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/dualcaster-tech"
+      ],
+      "card": "Replication Technique",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Replication Technique",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:147-1883",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#win:dualcaster-tech"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Return the Favor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Return the Favor",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-5940",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:5940-5959"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Reverberate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Reverberate",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-5026",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:5026-5959"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#recursion/value"
+      ],
+      "card": "Sedgemoor Witch",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Sedgemoor Witch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Oracle/Consultation or Breach cEDH shell (blueprint L53).",
+      "Don't overfill two-mana copy spells (L54)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents' copies can backfire, e.g. a copied tutor or wipe.",
+      "evidence_class": "strategic_judgment",
+      "id": "gifted-copies",
+      "mitigations": [
+       "Choose copy recipients carefully",
+       "'up to one' lets you give none"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Five-mana commander plus five- to seven-mana copy engines.",
+      "evidence_class": "strategic_judgment",
+      "id": "expensive-engines",
+      "mitigations": [
+       "Rituals and cantrips"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Counters on the key copy spell break the combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "stack-interaction",
+      "mitigations": [
+       "Redundant copy pairs"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counterspell, Mana Drain, Narset's Reversal, An Offer You Can't Refuse, Chaos Warp, Feed the Swarm, Blasphemous Act.",
+      "mana": "35 lands, nine fetches, Sol Ring, Dark Ritual, Signets/Talismans.",
+      "protection": "Parnesse's tax, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Narset's Reversal",
+       "Twinning Staff",
+       "Reiterate",
+       "Increasing Vengeance",
+       "Reverberate",
+       "Return the Favor",
+       "Primal Amulet // Primal Wellspring",
+       "Frantic Search",
+       "Storm-Kiln Artist",
+       "Bonus Round",
+       "Thousand-Year Storm"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "narset-reversal-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Reiterate",
+       "Increasing Vengeance",
+       "Reverberate",
+       "Return the Favor",
+       "Alania, Divergent Storm",
+       "Pyromancer's Goggles",
+       "Prismari, the Inspiration",
+       "Thousand-Year Storm",
+       "Mana Geyser",
+       "Jeska's Will",
+       "Grapeshot"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "copy-mana-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dualcaster Mage",
+       "Replication Technique"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "dualcaster-tech",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Parnesse protects herself and your permanents with a 4-life targeting tax, and her copy-sharing is a political tool.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "None of the 25 Spellbook infinites in the list uses Parnesse; all are copy-spell pairs that work in any Grixis spellslinger deck. Her second ability gives opponents copies, which is optional politics and can be a liability. The source frames the deck as political conversion (blueprint L12), but mechanically she's a five-mana protection/politics commander on top of a strong generic copy-combo shell. The calibration floor is 3, below the source's 4; the 25 two-card infinites support 4. M1 review (parnesse-01..10) flags Bonus Round as symmetric (parnesse-07) and leaves one question uncertain (parnesse-10: whether opponents' retargeted copies pay her 4-life tax).",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 25,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 25
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:board_wipe:cee93affee1f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:artifacts_wiped:fc381dd5ce79",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:commander_removed_twice:7de44c8468db",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:key_engine_exiled:c33b4ef65c6d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:mana_screw:4b5808a74ebc",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:color_screw:b6b93d4616ca",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:graveyard_exiled:fbdd3bfd5c42",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Alania, Divergent Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Alania, Divergent Storm",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-5959",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-5959"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/bonus-round-symmetric",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy"
+      ],
+      "card": "Bonus Round",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Bonus Round",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-2492-5195"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chef's Kiss",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Chef's Kiss"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Display of Power",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Display of Power"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/dualcaster-tech"
+      ],
+      "card": "Dualcaster Mage",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Dualcaster Mage",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:147-1883",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#win:dualcaster-tech"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Errant, Street Artist",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Errant, Street Artist"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/narset-reversal-loops"
+      ],
+      "card": "Frantic Search",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Frantic Search",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Goblin Electromancer",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Grapeshot",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Grapeshot"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Hexing Squelcher",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Hexing Squelcher"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Increasing Vengeance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Increasing Vengeance",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-4285",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-5959"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1878-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kess, Dissident Mage",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Kess, Dissident Mage"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:cantrips-rituals",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Mana Geyser",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Mana Geyser",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:2091-3368"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/copy-not-cast-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#recursion/value"
+      ],
+      "card": "Mizzix's Mastery",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Mizzix's Mastery"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#identity_core/Narset's Reversal",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value"
+      ],
+      "card": "Narset's Reversal",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Narset's Reversal",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-2492-5195"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/narset-reversal-loops"
+      ],
+      "card": "Primal Amulet // Primal Wellspring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Primal Amulet // Primal Wellspring",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-1484-2196",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Prismari, the Inspiration",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Prismari, the Inspiration",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-7683",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-7683"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Professor Onyx",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Professor Onyx"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#plan/value",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/copy-mana-loops"
+      ],
+      "card": "Pyromancer's Goggles",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Pyromancer's Goggles",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:3368-6790",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:4285-6790"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#engines/cast-copy-payoffs"
+      ],
+      "card": "Ral, Storm Conduit",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Ral, Storm Conduit"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#identity_core/Reiterate",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#key_interactions/reiterate-mana",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy"
+      ],
+      "card": "Reiterate",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Reiterate",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:11-3368",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:1484-2196-3368"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#packages/pkg:spell-copy",
+       "blueprint:data/grixis/blueprints/parnesse-the-subtle-brush.json#win_conditions/dualcaster-tech"
+      ],
+      "card": "Replication Technique",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#metrics/Replication Technique",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#combo:147-1883",
+       "graph:data/grixis/graph/parnesse-the-subtle-brush.json#win:dualcaster-tech"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Oracle/Consultation or Breach cEDH shell (blueprint L53).",
+      "Don't overfill two-mana copy spells (L54)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Opponents' copies can backfire, e.g. a copied tutor or wipe.",
+      "evidence_class": "strategic_judgment",
+      "id": "gifted-copies",
+      "mitigations": [
+       "Choose copy recipients carefully",
+       "'up to one' lets you give none"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Five-mana commander plus five- to seven-mana copy engines.",
+      "evidence_class": "strategic_judgment",
+      "id": "expensive-engines",
+      "mitigations": [
+       "Rituals and cantrips"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Counters on the key copy spell break the combos.",
+      "evidence_class": "strategic_judgment",
+      "id": "stack-interaction",
+      "mitigations": [
+       "Redundant copy pairs"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counterspell, Mana Drain, Narset's Reversal, An Offer You Can't Refuse, Chaos Warp, Feed the Swarm, Blasphemous Act.",
+      "mana": "35 lands, nine fetches, Sol Ring, Dark Ritual, Signets/Talismans.",
+      "protection": "Parnesse's tax, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Narset's Reversal",
+       "Twinning Staff",
+       "Reiterate",
+       "Increasing Vengeance",
+       "Reverberate",
+       "Return the Favor",
+       "Primal Amulet // Primal Wellspring",
+       "Frantic Search",
+       "Storm-Kiln Artist",
+       "Bonus Round",
+       "Thousand-Year Storm"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "narset-reversal-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Reiterate",
+       "Increasing Vengeance",
+       "Reverberate",
+       "Return the Favor",
+       "Alania, Divergent Storm",
+       "Pyromancer's Goggles",
+       "Prismari, the Inspiration",
+       "Thousand-Year Storm",
+       "Mana Geyser",
+       "Jeska's Will",
+       "Grapeshot"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "copy-mana-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Dualcaster Mage",
+       "Replication Technique"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "dualcaster-tech",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Parnesse protects herself and your permanents with a 4-life targeting tax, and her copy-sharing is a political tool.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "None of the 25 Spellbook infinites in the list uses Parnesse; all are copy-spell pairs that work in any Grixis spellslinger deck. Her second ability gives opponents copies, which is optional politics and can be a liability. The source frames the deck as political conversion (blueprint L12), but mechanically she's a five-mana protection/politics commander on top of a strong generic copy-combo shell. The calibration floor is 3, below the source's 4; the 25 two-card infinites support 4. M1 review (parnesse-01..10) flags Bonus Round as symmetric (parnesse-07) and leaves one question uncertain (parnesse-10: whether opponents' retargeted copies pay her 4-life tax).",
+      "level": "supporting"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 0,
+      "blueprint_wins_structurally_independent": 3,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 25,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 25
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:board_wipe:cee93affee1f",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:artifacts_wiped:fc381dd5ce79",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:commander_removed_twice:7de44c8468db",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:key_engine_exiled:c33b4ef65c6d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:mana_screw:4b5808a74ebc",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:color_screw:b6b93d4616ca",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/parnesse-the-subtle-brush.json#test:parnesse-the-subtle-brush:stress:graveyard_exiled:fbdd3bfd5c42",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "parnesse-the-subtle-brush",
+ "source_packet": "data/grixis/bracket_stress_packets/parnesse-the-subtle-brush.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

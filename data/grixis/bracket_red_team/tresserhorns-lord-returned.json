@@ -1,0 +1,2625 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 92,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Accursed Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Accursed Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2034-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Bastion of Remembrance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Bastion of Remembrance",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-3025-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/edict-indestructible",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Blasphemous Edict",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blasphemous Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2842-4279",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Boggart Trawler // Boggart Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Boggart Trawler // Boggart Bog"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Braids, Arisen Nightmare",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Braids, Arisen Nightmare"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2438-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#engines/fodder",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:fodder"
+      ],
+      "card": "Chasm Skulker",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Chasm Skulker"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Ritual",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Deadly Dispute",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Deadly Dispute"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-5147-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grave Pact",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/Gravecrawler",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "Infantry Shield",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Infantry Shield"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Living Death",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mahadi, Emporium Master",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Mahadi, Emporium Master"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "My Precious // Allure of Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/My Precious // Allure of Power"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/familiar-generic-only",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Nightscape Familiar",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-4050-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/Plumb the Forbidden",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/plumb-math"
+      ],
+      "card": "Plumb the Forbidden",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Plumb the Forbidden"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Torpor Orb / Karn, Argent Defender (decisions L23, L27).",
+      "No Zombie tribal or Voltron drift (L22, L26, L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The ETB needs three creatures, 3 life and gives an opponent three cards; without fodder he is sacrificed.",
+      "evidence_class": "strategic_judgment",
+      "id": "etb-cost",
+      "mitigations": [
+       "Fodder density",
+       "Draw triggers"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Edicts, exile and bounce get around indestructible.",
+      "evidence_class": "strategic_judgment",
+      "id": "edicts-exile",
+      "mitigations": [
+       "Not of This World",
+       "Fodder"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Optional loops can deck you; stop before it happens.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-deck",
+      "mitigations": [
+       "Drain outlet first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Stubborn Denial, Not of This World, Swan Song, Feed the Swarm, Chaos Warp, Blasphemous Edict, Blasphemous Act.",
+      "mana": "34 land-capable slots with Cavern of Souls and Kher Keep; Sol Ring, Talismans, Nightscape Familiar.",
+      "protection": "Lightning Greaves, Not of This World, indestructible."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Locust God",
+       "Tresserhorn's Lord, Returned",
+       "Viscera Seer",
+       "Carrion Feeder",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Goblin Bombardment"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "locust-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Gravecrawler",
+       "Phyrexian Altar",
+       "Pitiless Plunderer",
+       "Warren Soultrader",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Bastion of Remembrance"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Tresserhorn's Lord, Returned"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "gravecrawler-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Tresserhorn's Lord, Returned",
+       "Infantry Shield",
+       "Wand of Orcus",
+       "My Precious // Allure of Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-combat",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tresserhorn is the card-draw engine for every sacrifice, a Zombie for Gravecrawler, and a 10-power threat.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native: 6 of the 21 Spellbook combos need him (The Locust God + an outlet + Tresserhorn), and he is the Zombie that lets Gravecrawler loop. The ETB gives an opponent three cards. Legality conflict for Cory: the source says the future-release exception is stale and the card is legal now (verification L48, L67; approvals L18), but the Scryfall cache used by the registry shows it not_legal (mbc, released 2026-10-19), and the Madcap Jester source gives 2026-11-13 for the same set. The registry keeps PENDING_RELEASE and the exception row; this blueprint changes neither.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 10,
+      "combo_direct_commander_piece": 6,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 21
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:board_wipe:b663bb02fae0",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:artifacts_wiped:932adf5f2c9d",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:commander_removed_twice:8e07cb938294",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:key_engine_exiled:df00181a25ea",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:mana_screw:c4ba5556776d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:color_screw:37eee55ef472",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:graveyard_exiled:7c813930060e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Accursed Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Accursed Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2034-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Bastion of Remembrance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Bastion of Remembrance",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-3025-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/edict-indestructible",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Blasphemous Edict",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blasphemous Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2842-4279",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2438-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-5147-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grave Pact",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/Gravecrawler",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "Infantry Shield",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Infantry Shield"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Living Death",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "My Precious // Allure of Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/My Precious // Allure of Power"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/familiar-generic-only",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Nightscape Familiar",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-4050-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/Plumb the Forbidden",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/plumb-math"
+      ],
+      "card": "Plumb the Forbidden",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Plumb the Forbidden"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-4279-6578",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-5670-6578"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Skullclamp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Skullclamp",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-2034",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4050"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "The Locust God",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/The Locust God",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2034-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2292-7920"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Vampiric Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Vampiric Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Victimize",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Victimize"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Torpor Orb / Karn, Argent Defender (decisions L23, L27).",
+      "No Zombie tribal or Voltron drift (L22, L26, L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The ETB needs three creatures, 3 life and gives an opponent three cards; without fodder he is sacrificed.",
+      "evidence_class": "strategic_judgment",
+      "id": "etb-cost",
+      "mitigations": [
+       "Fodder density",
+       "Draw triggers"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Edicts, exile and bounce get around indestructible.",
+      "evidence_class": "strategic_judgment",
+      "id": "edicts-exile",
+      "mitigations": [
+       "Not of This World",
+       "Fodder"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Optional loops can deck you; stop before it happens.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-deck",
+      "mitigations": [
+       "Drain outlet first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Stubborn Denial, Not of This World, Swan Song, Feed the Swarm, Chaos Warp, Blasphemous Edict, Blasphemous Act.",
+      "mana": "34 land-capable slots with Cavern of Souls and Kher Keep; Sol Ring, Talismans, Nightscape Familiar.",
+      "protection": "Lightning Greaves, Not of This World, indestructible."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Locust God",
+       "Tresserhorn's Lord, Returned",
+       "Viscera Seer",
+       "Carrion Feeder",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Goblin Bombardment"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "locust-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Gravecrawler",
+       "Phyrexian Altar",
+       "Pitiless Plunderer",
+       "Warren Soultrader",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Bastion of Remembrance"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Tresserhorn's Lord, Returned"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "gravecrawler-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Tresserhorn's Lord, Returned",
+       "Infantry Shield",
+       "Wand of Orcus",
+       "My Precious // Allure of Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-combat",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tresserhorn is the card-draw engine for every sacrifice, a Zombie for Gravecrawler, and a 10-power threat.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native: 6 of the 21 Spellbook combos need him (The Locust God + an outlet + Tresserhorn), and he is the Zombie that lets Gravecrawler loop. The ETB gives an opponent three cards. Legality conflict for Cory: the source says the future-release exception is stale and the card is legal now (verification L48, L67; approvals L18), but the Scryfall cache used by the registry shows it not_legal (mbc, released 2026-10-19), and the Madcap Jester source gives 2026-11-13 for the same set. The registry keeps PENDING_RELEASE and the exception row; this blueprint changes neither.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 10,
+      "combo_direct_commander_piece": 6,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 21
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:board_wipe:b663bb02fae0",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:artifacts_wiped:932adf5f2c9d",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:commander_removed_twice:8e07cb938294",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:key_engine_exiled:df00181a25ea",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:mana_screw:c4ba5556776d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:color_screw:37eee55ef472",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:graveyard_exiled:7c813930060e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Accursed Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Accursed Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2034-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Bastion of Remembrance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Bastion of Remembrance",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-3025-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/edict-indestructible",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Blasphemous Edict",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blasphemous Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2842-4279",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2438-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-5147-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grave Pact",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/Gravecrawler",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "Infantry Shield",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Infantry Shield"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Living Death",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "My Precious // Allure of Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/My Precious // Allure of Power"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/familiar-generic-only",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Nightscape Familiar",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-4050-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/Plumb the Forbidden",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/plumb-math"
+      ],
+      "card": "Plumb the Forbidden",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Plumb the Forbidden"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-4279-6578",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-5670-6578"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Skullclamp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Skullclamp",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-2034",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4050"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "The Locust God",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/The Locust God",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2034-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2292-7920"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Vampiric Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Vampiric Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Victimize",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Victimize"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Torpor Orb / Karn, Argent Defender (decisions L23, L27).",
+      "No Zombie tribal or Voltron drift (L22, L26, L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The ETB needs three creatures, 3 life and gives an opponent three cards; without fodder he is sacrificed.",
+      "evidence_class": "strategic_judgment",
+      "id": "etb-cost",
+      "mitigations": [
+       "Fodder density",
+       "Draw triggers"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Edicts, exile and bounce get around indestructible.",
+      "evidence_class": "strategic_judgment",
+      "id": "edicts-exile",
+      "mitigations": [
+       "Not of This World",
+       "Fodder"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Optional loops can deck you; stop before it happens.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-deck",
+      "mitigations": [
+       "Drain outlet first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Stubborn Denial, Not of This World, Swan Song, Feed the Swarm, Chaos Warp, Blasphemous Edict, Blasphemous Act.",
+      "mana": "34 land-capable slots with Cavern of Souls and Kher Keep; Sol Ring, Talismans, Nightscape Familiar.",
+      "protection": "Lightning Greaves, Not of This World, indestructible."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Locust God",
+       "Tresserhorn's Lord, Returned",
+       "Viscera Seer",
+       "Carrion Feeder",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Goblin Bombardment"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "locust-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Gravecrawler",
+       "Phyrexian Altar",
+       "Pitiless Plunderer",
+       "Warren Soultrader",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Bastion of Remembrance"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Tresserhorn's Lord, Returned"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "gravecrawler-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Tresserhorn's Lord, Returned",
+       "Infantry Shield",
+       "Wand of Orcus",
+       "My Precious // Allure of Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-combat",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tresserhorn is the card-draw engine for every sacrifice, a Zombie for Gravecrawler, and a 10-power threat.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native: 6 of the 21 Spellbook combos need him (The Locust God + an outlet + Tresserhorn), and he is the Zombie that lets Gravecrawler loop. The ETB gives an opponent three cards. Legality conflict for Cory: the source says the future-release exception is stale and the card is legal now (verification L48, L67; approvals L18), but the Scryfall cache used by the registry shows it not_legal (mbc, released 2026-10-19), and the Madcap Jester source gives 2026-11-13 for the same set. The registry keeps PENDING_RELEASE and the exception row; this blueprint changes neither.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 10,
+      "combo_direct_commander_piece": 6,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 21
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:board_wipe:b663bb02fae0",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:artifacts_wiped:932adf5f2c9d",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:commander_removed_twice:8e07cb938294",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:key_engine_exiled:df00181a25ea",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:mana_screw:c4ba5556776d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:color_screw:37eee55ef472",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:graveyard_exiled:7c813930060e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Accursed Marauder",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Accursed Marauder"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2034-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Bastion of Remembrance",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Bastion of Remembrance",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-3025-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/edict-indestructible",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Blasphemous Edict",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blasphemous Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2842-4279",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Boggart Trawler // Boggart Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Boggart Trawler // Boggart Bog"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-2438-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#tutor_targets/The Locust God",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/locust-loop"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-5147-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Grave Pact",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Grave Pact"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/Gravecrawler",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "Infantry Shield",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Infantry Shield"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Living Death",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Living Death"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:drain"
+      ],
+      "card": "Mayhem Devil",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Mayhem Devil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/commander-combat"
+      ],
+      "card": "My Precious // Allure of Power",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/My Precious // Allure of Power"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/familiar-generic-only",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Nightscape Familiar",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#failure_modes/edicts-exile",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/not-of-this-world",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Not of This World",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Not of This World"
+      ],
+      "roles": [
+       "counter",
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#plan/value",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-4050-7920",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#win_conditions/gravecrawler-loops"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2034-2577-4871",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#identity_core/Plumb the Forbidden",
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#key_interactions/plumb-math"
+      ],
+      "card": "Plumb the Forbidden",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Plumb the Forbidden"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:1339-4279-6578",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:2577-5670-6578"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Skullclamp",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Skullclamp",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-2034",
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#combo:228-1339-4050"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/tresserhorns-lord-returned.json#requirements/value"
+      ],
+      "card": "Stubborn Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/tresserhorns-lord-returned.json#metrics/Stubborn Denial"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Torpor Orb / Karn, Argent Defender (decisions L23, L27).",
+      "No Zombie tribal or Voltron drift (L22, L26, L60)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The ETB needs three creatures, 3 life and gives an opponent three cards; without fodder he is sacrificed.",
+      "evidence_class": "strategic_judgment",
+      "id": "etb-cost",
+      "mitigations": [
+       "Fodder density",
+       "Draw triggers"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Edicts, exile and bounce get around indestructible.",
+      "evidence_class": "strategic_judgment",
+      "id": "edicts-exile",
+      "mitigations": [
+       "Not of This World",
+       "Fodder"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Optional loops can deck you; stop before it happens.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-deck",
+      "mitigations": [
+       "Drain outlet first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Stubborn Denial, Not of This World, Swan Song, Feed the Swarm, Chaos Warp, Blasphemous Edict, Blasphemous Act.",
+      "mana": "34 land-capable slots with Cavern of Souls and Kher Keep; Sol Ring, Talismans, Nightscape Familiar.",
+      "protection": "Lightning Greaves, Not of This World, indestructible."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "The Locust God",
+       "Tresserhorn's Lord, Returned",
+       "Viscera Seer",
+       "Carrion Feeder",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Goblin Bombardment"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "locust-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Gravecrawler",
+       "Phyrexian Altar",
+       "Pitiless Plunderer",
+       "Warren Soultrader",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Bastion of Remembrance"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Tresserhorn's Lord, Returned"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "gravecrawler-loops",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Tresserhorn's Lord, Returned",
+       "Infantry Shield",
+       "Wand of Orcus",
+       "My Precious // Allure of Power"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-combat",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tresserhorn is the card-draw engine for every sacrifice, a Zombie for Gravecrawler, and a 10-power threat.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native: 6 of the 21 Spellbook combos need him (The Locust God + an outlet + Tresserhorn), and he is the Zombie that lets Gravecrawler loop. The ETB gives an opponent three cards. Legality conflict for Cory: the source says the future-release exception is stale and the card is legal now (verification L48, L67; approvals L18), but the Scryfall cache used by the registry shows it not_legal (mbc, released 2026-10-19), and the Madcap Jester source gives 2026-11-13 for the same set. The registry keeps PENDING_RELEASE and the exception row; this blueprint changes neither.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 5,
+      "combo_commander_independent": 10,
+      "combo_direct_commander_piece": 6,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 21
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:board_wipe:b663bb02fae0",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:artifacts_wiped:932adf5f2c9d",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:commander_removed_twice:8e07cb938294",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:key_engine_exiled:df00181a25ea",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:mana_screw:c4ba5556776d",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:color_screw:37eee55ef472",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/tresserhorns-lord-returned.json#test:tresserhorns-lord-returned:stress:graveyard_exiled:7c813930060e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "tresserhorns-lord-returned",
+ "source_packet": "data/grixis/bracket_stress_packets/tresserhorns-lord-returned.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

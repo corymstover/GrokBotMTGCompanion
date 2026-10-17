@@ -1,0 +1,2385 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "deck_id": "Crosis__the_Purger",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 91,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Bandit's Talent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Bandit's Talent"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#failure_modes/no-finisher",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Bottomless Pit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Bottomless Pit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/purge",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Brotherhood Regalia",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Deal",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Dark Deal"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#recursion/value"
+      ],
+      "card": "Dream Salvage",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Dream Salvage"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value"
+      ],
+      "card": "Geth's Grimoire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Geth's Grimoire"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jet Medallion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Jet Medallion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-sources",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#recursion/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Kroxa, Titan of Death's Hunger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Kroxa, Titan of Death's Hunger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Lotus Petal",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Lotus Petal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Mox Diamond",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Mox Diamond"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:notion-wheels",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/notion-puzzle-lock"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Notion Thief",
+       "graph:data/grixis/graph/crosis-the-purger.json#combo:2286-3221",
+       "graph:data/grixis/graph/crosis-the-purger.json#win:notion-puzzle-lock"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/purge",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/painter"
+      ],
+      "card": "Painter's Servant",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Painter's Servant"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sol Ring",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Swiftfoot Boots",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Swiftfoot Boots"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/sword-painter",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Sword of Feast and Famine"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-sources"
+      ],
+      "card": "Syphon Mind",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Syphon Mind"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Creativity",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Talisman of Creativity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Dominance",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Talisman of Dominance"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add generic cEDH win packages or Painter + Grindstone combos (source decision).",
+      "Don't drop the connect/protection count for more discard."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Crosis can't connect (flying blockers, removal).",
+      "evidence_class": "strategic_judgment",
+      "id": "no-connection",
+      "mitigations": [
+       "Regalia unblockable",
+       "Shizo fear",
+       "Sword pro-black/green"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No {2}{B} on resolution: the trigger does nothing.",
+      "evidence_class": "strategic_judgment",
+      "id": "tapped-out",
+      "mitigations": [
+       "Sword untaps lands"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents stuck on empty hands but the deck lacks a fast kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-finisher",
+      "mitigations": [
+       "Bottomless Pit/Caress drain",
+       "Commander damage"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Force of Will, Mana Drain, Swan Song) plus Toxic Deluge/Damnation for blockers.",
+      "mana": "Fast mana (Mana Vault, Chrome Mox, Mox Diamond, Dark Ritual) to land a six-drop early.",
+      "protection": "Two haste/protection equipment, Plaza, Regalia ward, free protection."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Liliana's Caress",
+       "Bottomless Pit",
+       "Bandit's Talent",
+       "Tinybones, Trinket Thief",
+       "Kroxa, Titan of Death's Hunger"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Crosis, the Purger",
+       "Painter's Servant"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-punishment",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Crosis, the Purger",
+       "Sword of Feast and Famine",
+       "Brotherhood Regalia"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Swiftfoot Boots",
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Notion Thief",
+       "Teferi's Puzzle Box"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "notion-puzzle-lock",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Crosis's combat trigger is the deck's largest discard event; equipment, Painter and haste pieces exist to make it land.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Six mana, needs combat damage and another {2}{B}; the deck has no compact kill. It wins by attrition, discard punishment and combat, so the B4 rating comes more from the card pool (fast mana, Force of Will, Mind Twist) than from a fast win.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:board_wipe:7231c9de453d",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:artifacts_wiped:389011d7e63a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:commander_removed_twice:391d6f3ac365",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:key_engine_exiled:5d93e8af29a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:mana_screw:34b0d0331ac1",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:color_screw:935b03cbe3fb",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:graveyard_exiled:d1762ccc94a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Bandit's Talent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Bandit's Talent"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#failure_modes/no-finisher",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Bottomless Pit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Bottomless Pit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/purge",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Brotherhood Regalia",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jet Medallion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Jet Medallion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-sources",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#recursion/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Kroxa, Titan of Death's Hunger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Kroxa, Titan of Death's Hunger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:notion-wheels",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/notion-puzzle-lock"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Notion Thief",
+       "graph:data/grixis/graph/crosis-the-purger.json#combo:2286-3221",
+       "graph:data/grixis/graph/crosis-the-purger.json#win:notion-puzzle-lock"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/purge",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/painter"
+      ],
+      "card": "Painter's Servant",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Painter's Servant"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Recoil",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Recoil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Swiftfoot Boots",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Swiftfoot Boots"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/sword-painter",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Sword of Feast and Famine"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:notion-wheels",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/notion-puzzle-lock"
+      ],
+      "card": "Teferi's Puzzle Box",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Teferi's Puzzle Box",
+       "graph:data/grixis/graph/crosis-the-purger.json#combo:2286-3221",
+       "graph:data/grixis/graph/crosis-the-purger.json#win:notion-puzzle-lock"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/tergrid-order",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Tinybones, Bauble Burglar",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Tinybones, Bauble Burglar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Tinybones, Bauble Burglar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/tergrid-order",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Tinybones, Trinket Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Tinybones, Trinket Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Waste Not",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add generic cEDH win packages or Painter + Grindstone combos (source decision).",
+      "Don't drop the connect/protection count for more discard."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Crosis can't connect (flying blockers, removal).",
+      "evidence_class": "strategic_judgment",
+      "id": "no-connection",
+      "mitigations": [
+       "Regalia unblockable",
+       "Shizo fear",
+       "Sword pro-black/green"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No {2}{B} on resolution: the trigger does nothing.",
+      "evidence_class": "strategic_judgment",
+      "id": "tapped-out",
+      "mitigations": [
+       "Sword untaps lands"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents stuck on empty hands but the deck lacks a fast kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-finisher",
+      "mitigations": [
+       "Bottomless Pit/Caress drain",
+       "Commander damage"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Force of Will, Mana Drain, Swan Song) plus Toxic Deluge/Damnation for blockers.",
+      "mana": "Fast mana (Mana Vault, Chrome Mox, Mox Diamond, Dark Ritual) to land a six-drop early.",
+      "protection": "Two haste/protection equipment, Plaza, Regalia ward, free protection."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Liliana's Caress",
+       "Bottomless Pit",
+       "Bandit's Talent",
+       "Tinybones, Trinket Thief",
+       "Kroxa, Titan of Death's Hunger"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Crosis, the Purger",
+       "Painter's Servant"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-punishment",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Crosis, the Purger",
+       "Sword of Feast and Famine",
+       "Brotherhood Regalia"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Swiftfoot Boots",
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Notion Thief",
+       "Teferi's Puzzle Box"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "notion-puzzle-lock",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Crosis's combat trigger is the deck's largest discard event; equipment, Painter and haste pieces exist to make it land.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Six mana, needs combat damage and another {2}{B}; the deck has no compact kill. It wins by attrition, discard punishment and combat, so the B4 rating comes more from the card pool (fast mana, Force of Will, Mind Twist) than from a fast win.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:board_wipe:7231c9de453d",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:artifacts_wiped:389011d7e63a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:commander_removed_twice:391d6f3ac365",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:key_engine_exiled:5d93e8af29a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:mana_screw:34b0d0331ac1",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:color_screw:935b03cbe3fb",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:graveyard_exiled:d1762ccc94a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Bandit's Talent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Bandit's Talent"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#failure_modes/no-finisher",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Bottomless Pit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Bottomless Pit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/purge",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Brotherhood Regalia",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jet Medallion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Jet Medallion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-sources",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#recursion/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Kroxa, Titan of Death's Hunger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Kroxa, Titan of Death's Hunger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:notion-wheels",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/notion-puzzle-lock"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Notion Thief",
+       "graph:data/grixis/graph/crosis-the-purger.json#combo:2286-3221",
+       "graph:data/grixis/graph/crosis-the-purger.json#win:notion-puzzle-lock"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/purge",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/painter"
+      ],
+      "card": "Painter's Servant",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Painter's Servant"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Recoil",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Recoil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Swiftfoot Boots",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Swiftfoot Boots"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/sword-painter",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Sword of Feast and Famine"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:notion-wheels",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/notion-puzzle-lock"
+      ],
+      "card": "Teferi's Puzzle Box",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Teferi's Puzzle Box",
+       "graph:data/grixis/graph/crosis-the-purger.json#combo:2286-3221",
+       "graph:data/grixis/graph/crosis-the-purger.json#win:notion-puzzle-lock"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/tergrid-order",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Tinybones, Bauble Burglar",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Tinybones, Bauble Burglar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Tinybones, Bauble Burglar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/tergrid-order",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Tinybones, Trinket Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Tinybones, Trinket Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Waste Not",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add generic cEDH win packages or Painter + Grindstone combos (source decision).",
+      "Don't drop the connect/protection count for more discard."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Crosis can't connect (flying blockers, removal).",
+      "evidence_class": "strategic_judgment",
+      "id": "no-connection",
+      "mitigations": [
+       "Regalia unblockable",
+       "Shizo fear",
+       "Sword pro-black/green"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No {2}{B} on resolution: the trigger does nothing.",
+      "evidence_class": "strategic_judgment",
+      "id": "tapped-out",
+      "mitigations": [
+       "Sword untaps lands"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents stuck on empty hands but the deck lacks a fast kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-finisher",
+      "mitigations": [
+       "Bottomless Pit/Caress drain",
+       "Commander damage"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Force of Will, Mana Drain, Swan Song) plus Toxic Deluge/Damnation for blockers.",
+      "mana": "Fast mana (Mana Vault, Chrome Mox, Mox Diamond, Dark Ritual) to land a six-drop early.",
+      "protection": "Two haste/protection equipment, Plaza, Regalia ward, free protection."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Liliana's Caress",
+       "Bottomless Pit",
+       "Bandit's Talent",
+       "Tinybones, Trinket Thief",
+       "Kroxa, Titan of Death's Hunger"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Crosis, the Purger",
+       "Painter's Servant"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-punishment",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Crosis, the Purger",
+       "Sword of Feast and Famine",
+       "Brotherhood Regalia"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Swiftfoot Boots",
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Notion Thief",
+       "Teferi's Puzzle Box"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "notion-puzzle-lock",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Crosis's combat trigger is the deck's largest discard event; equipment, Painter and haste pieces exist to make it land.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Six mana, needs combat damage and another {2}{B}; the deck has no compact kill. It wins by attrition, discard punishment and combat, so the B4 rating comes more from the card pool (fast mana, Force of Will, Mind Twist) than from a fast win.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:board_wipe:7231c9de453d",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:artifacts_wiped:389011d7e63a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:commander_removed_twice:391d6f3ac365",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:key_engine_exiled:5d93e8af29a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:mana_screw:34b0d0331ac1",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:color_screw:935b03cbe3fb",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:graveyard_exiled:d1762ccc94a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Bandit's Talent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Bandit's Talent"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#failure_modes/no-finisher",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Bottomless Pit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Bottomless Pit"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/purge",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Brotherhood Regalia",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cyclonic Rift",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Drown in the Loch",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Drown in the Loch"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jet Medallion",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Jet Medallion"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-sources",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#recursion/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Kroxa, Titan of Death's Hunger",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Kroxa, Titan of Death's Hunger"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Lightning Greaves",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Lightning Greaves"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:notion-wheels",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/notion-puzzle-lock"
+      ],
+      "card": "Notion Thief",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Notion Thief",
+       "graph:data/grixis/graph/crosis-the-purger.json#combo:2286-3221",
+       "graph:data/grixis/graph/crosis-the-purger.json#win:notion-puzzle-lock"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/purge",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Painter's Servant",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/painter"
+      ],
+      "card": "Painter's Servant",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Painter's Servant"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Recoil",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Recoil"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Swiftfoot Boots",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Swiftfoot Boots"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/sword-painter",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:connect",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/commander-damage"
+      ],
+      "card": "Sword of Feast and Famine",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Sword of Feast and Famine"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:notion-wheels",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#plan/value",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/notion-puzzle-lock"
+      ],
+      "card": "Teferi's Puzzle Box",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Teferi's Puzzle Box",
+       "graph:data/grixis/graph/crosis-the-purger.json#combo:2286-3221",
+       "graph:data/grixis/graph/crosis-the-purger.json#win:notion-puzzle-lock"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/tergrid-order",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Tinybones, Bauble Burglar",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Tinybones, Bauble Burglar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Tinybones, Bauble Burglar"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#key_interactions/tergrid-order",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#win_conditions/discard-punishment"
+      ],
+      "card": "Tinybones, Trinket Thief",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Tinybones, Trinket Thief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#engines/discard-harvest",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#identity_core/Waste Not",
+       "blueprint:data/grixis/blueprints/crosis-the-purger.json#packages/pkg:discard-payoffs"
+      ],
+      "card": "Waste Not",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/crosis-the-purger.json#metrics/Waste Not"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't add generic cEDH win packages or Painter + Grindstone combos (source decision).",
+      "Don't drop the connect/protection count for more discard."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Crosis can't connect (flying blockers, removal).",
+      "evidence_class": "strategic_judgment",
+      "id": "no-connection",
+      "mitigations": [
+       "Regalia unblockable",
+       "Shizo fear",
+       "Sword pro-black/green"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "No {2}{B} on resolution: the trigger does nothing.",
+      "evidence_class": "strategic_judgment",
+      "id": "tapped-out",
+      "mitigations": [
+       "Sword untaps lands"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Opponents stuck on empty hands but the deck lacks a fast kill.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-finisher",
+      "mitigations": [
+       "Bottomless Pit/Caress drain",
+       "Commander damage"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Counters (Force of Will, Mana Drain, Swan Song) plus Toxic Deluge/Damnation for blockers.",
+      "mana": "Fast mana (Mana Vault, Chrome Mox, Mox Diamond, Dark Ritual) to land a six-drop early.",
+      "protection": "Two haste/protection equipment, Plaza, Regalia ward, free protection."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Liliana's Caress",
+       "Bottomless Pit",
+       "Bandit's Talent",
+       "Tinybones, Trinket Thief",
+       "Kroxa, Titan of Death's Hunger"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Crosis, the Purger",
+       "Painter's Servant"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "discard-punishment",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Crosis, the Purger",
+       "Sword of Feast and Famine",
+       "Brotherhood Regalia"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Swiftfoot Boots",
+       "Lightning Greaves"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "commander-damage",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Notion Thief",
+       "Teferi's Puzzle Box"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "notion-puzzle-lock",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Crosis's combat trigger is the deck's largest discard event; equipment, Painter and haste pieces exist to make it land.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Six mana, needs combat damage and another {2}{B}; the deck has no compact kill. It wins by attrition, discard punishment and combat, so the B4 rating comes more from the card pool (fast mana, Force of Will, Mind Twist) than from a fast win.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 1,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 1,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:board_wipe:7231c9de453d",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:artifacts_wiped:389011d7e63a",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:commander_removed_twice:391d6f3ac365",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:key_engine_exiled:5d93e8af29a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:mana_screw:34b0d0331ac1",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:color_screw:935b03cbe3fb",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/crosis-the-purger.json#test:crosis-the-purger:stress:graveyard_exiled:d1762ccc94a6",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "crosis-the-purger",
+ "source_packet": "data/grixis/bracket_stress_packets/crosis-the-purger.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

@@ -1,0 +1,2226 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+ "deck_id": "Loki__the_Deceiver",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 94,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Avengers: Under Siege",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Avengers: Under Siege"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Black Market Connections",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cover of Darkness",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Cover of Darkness"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains"
+      ],
+      "card": "Doctor Doom",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Doctor Doom"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Doctor Octopus, Master Planner",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Doctor Octopus, Master Planner"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doom Reigns Supreme",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Doom Reigns Supreme"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Hall of Echoes",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:copy"
+      ],
+      "card": "Hall of Echoes",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Hall of Echoes"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#recursion/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains"
+      ],
+      "card": "Killmonger, Ruthless Usurper",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Killmonger, Ruthless Usurper"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#plan/value",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Kindred Discovery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains"
+      ],
+      "card": "Leader, Super-Genius",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Leader, Super-Genius"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/scepter"
+      ],
+      "card": "Loki's Scepter",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Loki's Scepter"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Loki, God of Mischief",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Loki, God of Mischief"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Patchwork Banner",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Patchwork Banner"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Red Ghost, Intangible Genius",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Red Ghost, Intangible Genius",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Red Ghost, Intangible Genius"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Rhystic Study",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Roaming Throne",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/throne-villain"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Sol Ring",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/keep-token",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#plan/value"
+      ],
+      "card": "Sundial of the Infinite",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Sundial of the Infinite"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Creativity",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Talisman of Creativity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Dominance",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Talisman of Dominance"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Indulgence",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Talisman of Indulgence"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/The Master, Multiplied",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/keep-token"
+      ],
+      "card": "The Master, Multiplied",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/The Master, Multiplied"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Soul Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/The Soul Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Squadron Sinister",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/The Squadron Sinister"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thunderbolts Conspiracy",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Thunderbolts Conspiracy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thassa's Oracle/Consultation or fast-combo packages (decisions, rejected under no-forced-homogenization).",
+      "Avoid attack-trigger-only Villains as copy targets."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact win; the deck has to win through combat.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-combo",
+      "mitigations": [
+       "Card advantage",
+       "Interaction suite"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Attack-trigger Villains are poor copy targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "attack-trigger-targets",
+      "mitigations": [
+       "Source cut most of them"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Loki removed or unable to attack safely.",
+      "evidence_class": "strategic_judgment",
+      "id": "loki-removed",
+      "mitigations": [
+       "Boots, Greaves",
+       "Copy redundancy"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "34 lands, Sol Ring, Talismans, Dark Ritual; Cavern of Souls and Path of Ancestry for Villains.",
+      "protection": "Swiftfoot Boots, Lightning Greaves, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Avengers: Under Siege",
+       "Doctor Octopus, Master Planner",
+       "Red Ghost, Intangible Genius",
+       "Titan of Littjara",
+       "The Master, Multiplied"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Loki, the Deceiver"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "villain-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Kindred Discovery",
+       "Rhystic Study",
+       "Black Market Connections"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Loki, the Deceiver"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "card-advantage-grind",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Loki's attack copy and Villain combat draw are the deck's main engine.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list. The copy enters attacking, so attack-trigger Villains do nothing as targets (M1 loki-01). Loki has to attack and survive combat to generate value.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:board_wipe:757d385670d8",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:artifacts_wiped:aca1122a242e",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:commander_removed_twice:336aac691681",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:key_engine_exiled:366fd13888dd",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:mana_screw:9b102034bad7",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:color_screw:f41fa6bd1664",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:graveyard_exiled:b15320e2471c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Avengers: Under Siege",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Avengers: Under Siege"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Black Market Connections",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cover of Darkness",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Cover of Darkness"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Doctor Octopus, Master Planner",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Doctor Octopus, Master Planner"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doom Reigns Supreme",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Doom Reigns Supreme"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Hall of Echoes",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:copy"
+      ],
+      "card": "Hall of Echoes",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Hall of Echoes"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#plan/value",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Kindred Discovery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Red Ghost, Intangible Genius",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Red Ghost, Intangible Genius",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Red Ghost, Intangible Genius"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Rhystic Study",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Roaming Throne",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/throne-villain"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains"
+      ],
+      "card": "Stilt-Man, Towering Terror",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Stilt-Man, Towering Terror"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/keep-token",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#plan/value"
+      ],
+      "card": "Sundial of the Infinite",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Sundial of the Infinite"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/The Master, Multiplied",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/keep-token"
+      ],
+      "card": "The Master, Multiplied",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/The Master, Multiplied"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Squadron Sinister",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/The Squadron Sinister"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thunderbolts Conspiracy",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Thunderbolts Conspiracy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/throne-villain",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:copy"
+      ],
+      "card": "Titan of Littjara",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Titan of Littjara"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Urza's Incubator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Urza's Incubator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thassa's Oracle/Consultation or fast-combo packages (decisions, rejected under no-forced-homogenization).",
+      "Avoid attack-trigger-only Villains as copy targets."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact win; the deck has to win through combat.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-combo",
+      "mitigations": [
+       "Card advantage",
+       "Interaction suite"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Attack-trigger Villains are poor copy targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "attack-trigger-targets",
+      "mitigations": [
+       "Source cut most of them"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Loki removed or unable to attack safely.",
+      "evidence_class": "strategic_judgment",
+      "id": "loki-removed",
+      "mitigations": [
+       "Boots, Greaves",
+       "Copy redundancy"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "34 lands, Sol Ring, Talismans, Dark Ritual; Cavern of Souls and Path of Ancestry for Villains.",
+      "protection": "Swiftfoot Boots, Lightning Greaves, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Avengers: Under Siege",
+       "Doctor Octopus, Master Planner",
+       "Red Ghost, Intangible Genius",
+       "Titan of Littjara",
+       "The Master, Multiplied"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Loki, the Deceiver"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "villain-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Kindred Discovery",
+       "Rhystic Study",
+       "Black Market Connections"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Loki, the Deceiver"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "card-advantage-grind",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Loki's attack copy and Villain combat draw are the deck's main engine.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list. The copy enters attacking, so attack-trigger Villains do nothing as targets (M1 loki-01). Loki has to attack and survive combat to generate value.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:board_wipe:757d385670d8",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:artifacts_wiped:aca1122a242e",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:commander_removed_twice:336aac691681",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:key_engine_exiled:366fd13888dd",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:mana_screw:9b102034bad7",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:color_screw:f41fa6bd1664",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:graveyard_exiled:b15320e2471c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Avengers: Under Siege",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Avengers: Under Siege"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Black Market Connections",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cover of Darkness",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Cover of Darkness"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Doctor Octopus, Master Planner",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Doctor Octopus, Master Planner"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doom Reigns Supreme",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Doom Reigns Supreme"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Hall of Echoes",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:copy"
+      ],
+      "card": "Hall of Echoes",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Hall of Echoes"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#plan/value",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Kindred Discovery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Red Ghost, Intangible Genius",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Red Ghost, Intangible Genius",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Red Ghost, Intangible Genius"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Rhystic Study",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Roaming Throne",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/throne-villain"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains"
+      ],
+      "card": "Stilt-Man, Towering Terror",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Stilt-Man, Towering Terror"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/keep-token",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#plan/value"
+      ],
+      "card": "Sundial of the Infinite",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Sundial of the Infinite"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/The Master, Multiplied",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/keep-token"
+      ],
+      "card": "The Master, Multiplied",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/The Master, Multiplied"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Squadron Sinister",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/The Squadron Sinister"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thunderbolts Conspiracy",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Thunderbolts Conspiracy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/throne-villain",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:copy"
+      ],
+      "card": "Titan of Littjara",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Titan of Littjara"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Urza's Incubator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Urza's Incubator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thassa's Oracle/Consultation or fast-combo packages (decisions, rejected under no-forced-homogenization).",
+      "Avoid attack-trigger-only Villains as copy targets."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact win; the deck has to win through combat.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-combo",
+      "mitigations": [
+       "Card advantage",
+       "Interaction suite"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Attack-trigger Villains are poor copy targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "attack-trigger-targets",
+      "mitigations": [
+       "Source cut most of them"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Loki removed or unable to attack safely.",
+      "evidence_class": "strategic_judgment",
+      "id": "loki-removed",
+      "mitigations": [
+       "Boots, Greaves",
+       "Copy redundancy"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "34 lands, Sol Ring, Talismans, Dark Ritual; Cavern of Souls and Path of Ancestry for Villains.",
+      "protection": "Swiftfoot Boots, Lightning Greaves, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Avengers: Under Siege",
+       "Doctor Octopus, Master Planner",
+       "Red Ghost, Intangible Genius",
+       "Titan of Littjara",
+       "The Master, Multiplied"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Loki, the Deceiver"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "villain-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Kindred Discovery",
+       "Rhystic Study",
+       "Black Market Connections"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Loki, the Deceiver"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "card-advantage-grind",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Loki's attack copy and Villain combat draw are the deck's main engine.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list. The copy enters attacking, so attack-trigger Villains do nothing as targets (M1 loki-01). Loki has to attack and survive combat to generate value.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:board_wipe:757d385670d8",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:artifacts_wiped:aca1122a242e",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:commander_removed_twice:336aac691681",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:key_engine_exiled:366fd13888dd",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:mana_screw:9b102034bad7",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:color_screw:f41fa6bd1664",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:graveyard_exiled:b15320e2471c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Avengers: Under Siege",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Avengers: Under Siege"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Black Market Connections",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Cover of Darkness",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Cover of Darkness"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Doctor Octopus, Master Planner",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Doctor Octopus, Master Planner"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Doom Reigns Supreme",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Doom Reigns Supreme"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Hall of Echoes",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:copy"
+      ],
+      "card": "Hall of Echoes",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Hall of Echoes"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#plan/value",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Kindred Discovery",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Kindred Discovery"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#recursion/value"
+      ],
+      "card": "Reanimate",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Reanimate"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Red Ghost, Intangible Genius",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/villain-combat"
+      ],
+      "card": "Red Ghost, Intangible Genius",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Red Ghost, Intangible Genius"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#win_conditions/card-advantage-grind"
+      ],
+      "card": "Rhystic Study",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/Roaming Throne",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/throne-villain"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:villains"
+      ],
+      "card": "Stilt-Man, Towering Terror",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Stilt-Man, Towering Terror"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/keep-token",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#plan/value"
+      ],
+      "card": "Sundial of the Infinite",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Sundial of the Infinite"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/keep-copies",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#identity_core/The Master, Multiplied",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/keep-token"
+      ],
+      "card": "The Master, Multiplied",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/The Master, Multiplied"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "The Squadron Sinister",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/The Squadron Sinister"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Thunderbolts Conspiracy",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Thunderbolts Conspiracy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#engines/attack-copy",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#key_interactions/throne-villain",
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#packages/pkg:copy"
+      ],
+      "card": "Titan of Littjara",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Titan of Littjara"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/loki-the-deceiver.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Urza's Incubator",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Urza's Incubator"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Vandalblast",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/loki-the-deceiver.json#metrics/Vandalblast"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Thassa's Oracle/Consultation or fast-combo packages (decisions, rejected under no-forced-homogenization).",
+      "Avoid attack-trigger-only Villains as copy targets."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact win; the deck has to win through combat.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-combo",
+      "mitigations": [
+       "Card advantage",
+       "Interaction suite"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Attack-trigger Villains are poor copy targets.",
+      "evidence_class": "strategic_judgment",
+      "id": "attack-trigger-targets",
+      "mitigations": [
+       "Source cut most of them"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Loki removed or unable to attack safely.",
+      "evidence_class": "strategic_judgment",
+      "id": "loki-removed",
+      "mitigations": [
+       "Boots, Greaves",
+       "Copy redundancy"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, An Offer You Can't Refuse, Deadly Rollick, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "34 lands, Sol Ring, Talismans, Dark Ritual; Cavern of Souls and Path of Ancestry for Villains.",
+      "protection": "Swiftfoot Boots, Lightning Greaves, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Avengers: Under Siege",
+       "Doctor Octopus, Master Planner",
+       "Red Ghost, Intangible Genius",
+       "Titan of Littjara",
+       "The Master, Multiplied"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Loki, the Deceiver"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "villain-combat",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Kindred Discovery",
+       "Rhystic Study",
+       "Black Market Connections"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Loki, the Deceiver"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "card-advantage-grind",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Loki's attack copy and Villain combat draw are the deck's main engine.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "There is no compact win: Commander Spellbook finds no combos in the list. The copy enters attacking, so attack-trigger Villains do nothing as targets (M1 loki-01). Loki has to attack and survive combat to generate value.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 0
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:board_wipe:757d385670d8",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:artifacts_wiped:aca1122a242e",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:commander_removed_twice:336aac691681",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:key_engine_exiled:366fd13888dd",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:mana_screw:9b102034bad7",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:color_screw:f41fa6bd1664",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/loki-the-deceiver.json#test:loki-the-deceiver:stress:graveyard_exiled:b15320e2471c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "loki-the-deceiver",
+ "source_packet": "data/grixis/bracket_stress_packets/loki-the-deceiver.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

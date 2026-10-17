@@ -1,0 +1,2594 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 97,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bolas's Citadel",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Bolas's Citadel"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chrome Mox",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/bolas-walker-checks",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#tutor_targets/Teferi, Temporal Archmage"
+      ],
+      "card": "Dark Intimations",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Dark Intimations"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:etb-reset"
+      ],
+      "card": "Deepglow Skate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deepglow Skate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/bolas-walker-checks",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Deliver Unto Evil",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deliver Unto Evil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Dreamtide Whale",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Dreamtide Whale"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate"
+      ],
+      "card": "Flux Channeler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Flux Channeler"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/Ichormoon Gauntlet"
+      ],
+      "card": "Ichormoon Gauntlet",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Ichormoon Gauntlet",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:1124-1543-2247",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Inexorable Tide",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Inexorable Tide"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Izzet Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Izzet Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Jaya's Phoenix",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Jaya's Phoenix"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Karn's Bastion",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Karn's Bastion"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Liliana's Talent",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Liliana's Talent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Liliana, Dreadhorde General",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Liliana, Dreadhorde General"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Lotus Petal",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Lotus Petal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mana Vault",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mox Diamond",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Mox Diamond"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mox Opal",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Mox Opal"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/spark-dragon-god",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, Dragon-God",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, Dragon-God"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, God-Pharaoh",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, God-Pharaoh"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/Nicol Bolas, Planeswalker",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, Planeswalker",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, Planeswalker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nicol Bolas, the Deceiver",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, the Deceiver"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rhystic Study",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Owns superfriends/transform/proliferate; leave discard-damage to deck #41 (blueprint L37–L44).",
+      "No generic wheel locks or draw-punishment (blueprint L44)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The transform is slow and telegraphed.",
+      "evidence_class": "strategic_judgment",
+      "id": "sorcery-transform",
+      "mitigations": [
+       "Training Grounds"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Combat pressure and walker removal punish a superfriends board.",
+      "evidence_class": "strategic_judgment",
+      "id": "walker-pressure",
+      "mitigations": [
+       "Sweepers",
+       "Vraska/-3 removal"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact removal answers the Veil/Gauntlet.",
+      "evidence_class": "strategic_judgment",
+      "id": "veil-hate",
+      "mitigations": [
+       "Redundant loyalty multipliers"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Damnation, Toxic Deluge, Cyclonic Rift, The Elderspell.",
+      "mana": "34 lands, fast mana, Signets/Talismans.",
+      "protection": "Fierce Guardianship, Cavern of Souls."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Teferi, Temporal Archmage",
+       "Teferi, Master of Time",
+       "The Chain Veil",
+       "Ichormoon Gauntlet",
+       "Rowan's Talent"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "teferi-veil",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+       "Rings of Brighthearth",
+       "Spark Double"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Deepglow Skate",
+       "Flux Channeler",
+       "Tekuthal, Inquiry Dominus",
+       "Karn's Bastion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "arisen-ultimate",
+      "kind": "alternate"
+     },
+     {
+      "cards": [
+       "Nicol Bolas, Dragon-God",
+       "Nicol Bolas, God-Pharaoh",
+       "Nicol Bolas, Planeswalker",
+       "Liliana, Dreadhorde General"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Deepglow Skate",
+       "Flux Channeler",
+       "Tekuthal, Inquiry Dominus",
+       "Karn's Bastion",
+       "Inexorable Tide",
+       "Ripples of Potential",
+       "Dreamtide Whale",
+       "Tezzeret's Gambit"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "superfriends-value",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Arisen is the centrepiece planeswalker and Ravager's ETB gives discard.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "All three Spellbook infinites (Teferi + Chain Veil, Teferi + Ichormoon Gauntlet + Chain Veil or Rowan's Talent) are commander-free. Bolas's transform costs seven mana at sorcery speed. He is the deck's best planeswalker rather than its engine, and a superfriends shell would work under another Grixis walker commander. The cycle 51 M1 review (bolasrav-01..08, all verified) confirms the transform and loyalty rules.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:board_wipe:82dfa61b39ad",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:artifacts_wiped:0242a0e1bc8c",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:commander_removed_twice:f9db82fe11e6",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:key_engine_exiled:b7891503bb87",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:mana_screw:815adcdf2a3e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:color_screw:5f44dc89f68b",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:graveyard_exiled:dca5cbd55325",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Bolas's Citadel",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Bolas's Citadel"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:etb-reset"
+      ],
+      "card": "Deepglow Skate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deepglow Skate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/bolas-walker-checks",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Deliver Unto Evil",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deliver Unto Evil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Dreamtide Whale",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Dreamtide Whale"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate"
+      ],
+      "card": "Flux Channeler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Flux Channeler"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/Ichormoon Gauntlet"
+      ],
+      "card": "Ichormoon Gauntlet",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Ichormoon Gauntlet",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:1124-1543-2247",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Inexorable Tide",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Inexorable Tide"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Jaya's Phoenix",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Jaya's Phoenix"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Karn's Bastion",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Karn's Bastion"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Liliana's Talent",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Liliana's Talent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Liliana, Dreadhorde General",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Liliana, Dreadhorde General"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/spark-dragon-god",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, Dragon-God",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, Dragon-God"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, God-Pharaoh",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, God-Pharaoh"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/Nicol Bolas, Planeswalker",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, Planeswalker",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, Planeswalker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nicol Bolas, the Deceiver",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, the Deceiver"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/one-loyalty-activation",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Rings of Brighthearth"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Ripples of Potential",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Ripples of Potential"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil"
+      ],
+      "card": "Rowan's Talent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Rowan's Talent",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication"
+      ],
+      "card": "Sanctum Lurker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Sanctum Lurker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/spark-dragon-god",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Spark Double"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil"
+      ],
+      "card": "Teferi, Master of Time",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Teferi, Master of Time",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:1124-1543-2247",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#tutor_targets/Teferi, Temporal Archmage",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil"
+      ],
+      "card": "Teferi, Temporal Archmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Teferi, Temporal Archmage",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:787-1124"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate"
+      ],
+      "card": "Tekuthal, Inquiry Dominus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Tekuthal, Inquiry Dominus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Tezzeret's Gambit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Tezzeret's Gambit"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/The Chain Veil",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/one-loyalty-activation"
+      ],
+      "card": "The Chain Veil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/The Chain Veil",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:1124-1543-2247",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:787-1124"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "The Elderspell",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/The Elderspell"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Owns superfriends/transform/proliferate; leave discard-damage to deck #41 (blueprint L37–L44).",
+      "No generic wheel locks or draw-punishment (blueprint L44)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The transform is slow and telegraphed.",
+      "evidence_class": "strategic_judgment",
+      "id": "sorcery-transform",
+      "mitigations": [
+       "Training Grounds"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Combat pressure and walker removal punish a superfriends board.",
+      "evidence_class": "strategic_judgment",
+      "id": "walker-pressure",
+      "mitigations": [
+       "Sweepers",
+       "Vraska/-3 removal"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact removal answers the Veil/Gauntlet.",
+      "evidence_class": "strategic_judgment",
+      "id": "veil-hate",
+      "mitigations": [
+       "Redundant loyalty multipliers"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Damnation, Toxic Deluge, Cyclonic Rift, The Elderspell.",
+      "mana": "34 lands, fast mana, Signets/Talismans.",
+      "protection": "Fierce Guardianship, Cavern of Souls."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Teferi, Temporal Archmage",
+       "Teferi, Master of Time",
+       "The Chain Veil",
+       "Ichormoon Gauntlet",
+       "Rowan's Talent"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "teferi-veil",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+       "Rings of Brighthearth",
+       "Spark Double"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Deepglow Skate",
+       "Flux Channeler",
+       "Tekuthal, Inquiry Dominus",
+       "Karn's Bastion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "arisen-ultimate",
+      "kind": "alternate"
+     },
+     {
+      "cards": [
+       "Nicol Bolas, Dragon-God",
+       "Nicol Bolas, God-Pharaoh",
+       "Nicol Bolas, Planeswalker",
+       "Liliana, Dreadhorde General"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Deepglow Skate",
+       "Flux Channeler",
+       "Tekuthal, Inquiry Dominus",
+       "Karn's Bastion",
+       "Inexorable Tide",
+       "Ripples of Potential",
+       "Dreamtide Whale",
+       "Tezzeret's Gambit"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "superfriends-value",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Arisen is the centrepiece planeswalker and Ravager's ETB gives discard.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "All three Spellbook infinites (Teferi + Chain Veil, Teferi + Ichormoon Gauntlet + Chain Veil or Rowan's Talent) are commander-free. Bolas's transform costs seven mana at sorcery speed. He is the deck's best planeswalker rather than its engine, and a superfriends shell would work under another Grixis walker commander. The cycle 51 M1 review (bolasrav-01..08, all verified) confirms the transform and loyalty rules.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:board_wipe:82dfa61b39ad",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:artifacts_wiped:0242a0e1bc8c",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:commander_removed_twice:f9db82fe11e6",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:key_engine_exiled:b7891503bb87",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:mana_screw:815adcdf2a3e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:color_screw:5f44dc89f68b",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:graveyard_exiled:dca5cbd55325",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Bolas's Citadel",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Bolas's Citadel"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:etb-reset"
+      ],
+      "card": "Deepglow Skate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deepglow Skate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/bolas-walker-checks",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Deliver Unto Evil",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deliver Unto Evil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Dreamtide Whale",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Dreamtide Whale"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate"
+      ],
+      "card": "Flux Channeler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Flux Channeler"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/Ichormoon Gauntlet"
+      ],
+      "card": "Ichormoon Gauntlet",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Ichormoon Gauntlet",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:1124-1543-2247",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Inexorable Tide",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Inexorable Tide"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Jaya's Phoenix",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Jaya's Phoenix"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Karn's Bastion",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Karn's Bastion"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Liliana's Talent",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Liliana's Talent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Liliana, Dreadhorde General",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Liliana, Dreadhorde General"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/spark-dragon-god",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, Dragon-God",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, Dragon-God"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, God-Pharaoh",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, God-Pharaoh"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/Nicol Bolas, Planeswalker",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, Planeswalker",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, Planeswalker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nicol Bolas, the Deceiver",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, the Deceiver"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/one-loyalty-activation",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Rings of Brighthearth"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Ripples of Potential",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Ripples of Potential"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil"
+      ],
+      "card": "Rowan's Talent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Rowan's Talent",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication"
+      ],
+      "card": "Sanctum Lurker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Sanctum Lurker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/spark-dragon-god",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Spark Double"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil"
+      ],
+      "card": "Teferi, Master of Time",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Teferi, Master of Time",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:1124-1543-2247",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#tutor_targets/Teferi, Temporal Archmage",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil"
+      ],
+      "card": "Teferi, Temporal Archmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Teferi, Temporal Archmage",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:787-1124"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate"
+      ],
+      "card": "Tekuthal, Inquiry Dominus",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Tekuthal, Inquiry Dominus"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Tergrid, God of Fright // Tergrid's Lantern",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Tezzeret's Gambit",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Tezzeret's Gambit"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/The Chain Veil",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/one-loyalty-activation"
+      ],
+      "card": "The Chain Veil",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/The Chain Veil",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:1124-1543-2247",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:787-1124"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "The Elderspell",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/The Elderspell"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Owns superfriends/transform/proliferate; leave discard-damage to deck #41 (blueprint L37–L44).",
+      "No generic wheel locks or draw-punishment (blueprint L44)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The transform is slow and telegraphed.",
+      "evidence_class": "strategic_judgment",
+      "id": "sorcery-transform",
+      "mitigations": [
+       "Training Grounds"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Combat pressure and walker removal punish a superfriends board.",
+      "evidence_class": "strategic_judgment",
+      "id": "walker-pressure",
+      "mitigations": [
+       "Sweepers",
+       "Vraska/-3 removal"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact removal answers the Veil/Gauntlet.",
+      "evidence_class": "strategic_judgment",
+      "id": "veil-hate",
+      "mitigations": [
+       "Redundant loyalty multipliers"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Damnation, Toxic Deluge, Cyclonic Rift, The Elderspell.",
+      "mana": "34 lands, fast mana, Signets/Talismans.",
+      "protection": "Fierce Guardianship, Cavern of Souls."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Teferi, Temporal Archmage",
+       "Teferi, Master of Time",
+       "The Chain Veil",
+       "Ichormoon Gauntlet",
+       "Rowan's Talent"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "teferi-veil",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+       "Rings of Brighthearth",
+       "Spark Double"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Deepglow Skate",
+       "Flux Channeler",
+       "Tekuthal, Inquiry Dominus",
+       "Karn's Bastion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "arisen-ultimate",
+      "kind": "alternate"
+     },
+     {
+      "cards": [
+       "Nicol Bolas, Dragon-God",
+       "Nicol Bolas, God-Pharaoh",
+       "Nicol Bolas, Planeswalker",
+       "Liliana, Dreadhorde General"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Deepglow Skate",
+       "Flux Channeler",
+       "Tekuthal, Inquiry Dominus",
+       "Karn's Bastion",
+       "Inexorable Tide",
+       "Ripples of Potential",
+       "Dreamtide Whale",
+       "Tezzeret's Gambit"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "superfriends-value",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Arisen is the centrepiece planeswalker and Ravager's ETB gives discard.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "All three Spellbook infinites (Teferi + Chain Veil, Teferi + Ichormoon Gauntlet + Chain Veil or Rowan's Talent) are commander-free. Bolas's transform costs seven mana at sorcery speed. He is the deck's best planeswalker rather than its engine, and a superfriends shell would work under another Grixis walker commander. The cycle 51 M1 review (bolasrav-01..08, all verified) confirms the transform and loyalty rules.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:board_wipe:82dfa61b39ad",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:artifacts_wiped:0242a0e1bc8c",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:commander_removed_twice:f9db82fe11e6",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:key_engine_exiled:b7891503bb87",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:mana_screw:815adcdf2a3e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:color_screw:5f44dc89f68b",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:graveyard_exiled:dca5cbd55325",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bolas's Citadel",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Bolas's Citadel"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Damnation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Damnation"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:etb-reset"
+      ],
+      "card": "Deepglow Skate",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deepglow Skate"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/bolas-walker-checks",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Deliver Unto Evil",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Deliver Unto Evil"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Dreamtide Whale",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Dreamtide Whale"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate"
+      ],
+      "card": "Flux Channeler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Flux Channeler"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/Ichormoon Gauntlet"
+      ],
+      "card": "Ichormoon Gauntlet",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Ichormoon Gauntlet",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:1124-1543-2247",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Inexorable Tide",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Inexorable Tide"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Jaya's Phoenix",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Jaya's Phoenix"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Karn's Bastion",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Karn's Bastion"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#recursion/value"
+      ],
+      "card": "Liliana's Talent",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Liliana's Talent"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Liliana, Dreadhorde General",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Liliana, Dreadhorde General"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/spark-dragon-god",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, Dragon-God",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, Dragon-God"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, God-Pharaoh",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, God-Pharaoh"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#identity_core/Nicol Bolas, Planeswalker",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Nicol Bolas, Planeswalker",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, Planeswalker"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nicol Bolas, the Deceiver",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Nicol Bolas, the Deceiver"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/one-loyalty-activation",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate"
+      ],
+      "card": "Rings of Brighthearth",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Rings of Brighthearth"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:proliferate",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/superfriends-value"
+      ],
+      "card": "Ripples of Potential",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Ripples of Potential"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil"
+      ],
+      "card": "Rowan's Talent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Rowan's Talent",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication"
+      ],
+      "card": "Sanctum Lurker",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Sanctum Lurker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#engines/loyalty-multiplication",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#key_interactions/spark-dragon-god",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/arisen-ultimate"
+      ],
+      "card": "Spark Double",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Spark Double"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil"
+      ],
+      "card": "Teferi, Master of Time",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Teferi, Master of Time",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:1124-1543-2247",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:652-1543-2247"
+      ],
+      "roles": [
+       "draw",
+       "protection"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#packages/pkg:planeswalkers",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#tutor_targets/Teferi, Temporal Archmage",
+       "blueprint:data/grixis/blueprints/nicol-bolas-the-ravager.json#win_conditions/teferi-veil"
+      ],
+      "card": "Teferi, Temporal Archmage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#metrics/Teferi, Temporal Archmage",
+       "graph:data/grixis/graph/nicol-bolas-the-ravager.json#combo:787-1124"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Owns superfriends/transform/proliferate; leave discard-damage to deck #41 (blueprint L37–L44).",
+      "No generic wheel locks or draw-punishment (blueprint L44)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The transform is slow and telegraphed.",
+      "evidence_class": "strategic_judgment",
+      "id": "sorcery-transform",
+      "mitigations": [
+       "Training Grounds"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Combat pressure and walker removal punish a superfriends board.",
+      "evidence_class": "strategic_judgment",
+      "id": "walker-pressure",
+      "mitigations": [
+       "Sweepers",
+       "Vraska/-3 removal"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact removal answers the Veil/Gauntlet.",
+      "evidence_class": "strategic_judgment",
+      "id": "veil-hate",
+      "mitigations": [
+       "Redundant loyalty multipliers"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Damnation, Toxic Deluge, Cyclonic Rift, The Elderspell.",
+      "mana": "34 lands, fast mana, Signets/Talismans.",
+      "protection": "Fierce Guardianship, Cavern of Souls."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Teferi, Temporal Archmage",
+       "Teferi, Master of Time",
+       "The Chain Veil",
+       "Ichormoon Gauntlet",
+       "Rowan's Talent"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "teferi-veil",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+       "Rings of Brighthearth",
+       "Spark Double"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Deepglow Skate",
+       "Flux Channeler",
+       "Tekuthal, Inquiry Dominus",
+       "Karn's Bastion"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "arisen-ultimate",
+      "kind": "alternate"
+     },
+     {
+      "cards": [
+       "Nicol Bolas, Dragon-God",
+       "Nicol Bolas, God-Pharaoh",
+       "Nicol Bolas, Planeswalker",
+       "Liliana, Dreadhorde General"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Deepglow Skate",
+       "Flux Channeler",
+       "Tekuthal, Inquiry Dominus",
+       "Karn's Bastion",
+       "Inexorable Tide",
+       "Ripples of Potential",
+       "Dreamtide Whale",
+       "Tezzeret's Gambit"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "superfriends-value",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "The Arisen is the centrepiece planeswalker and Ravager's ETB gives discard.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "All three Spellbook infinites (Teferi + Chain Veil, Teferi + Ichormoon Gauntlet + Chain Veil or Rowan's Talent) are commander-free. Bolas's transform costs seven mana at sorcery speed. He is the deck's best planeswalker rather than its engine, and a superfriends shell would work under another Grixis walker commander. The cycle 51 M1 review (bolasrav-01..08, all verified) confirms the transform and loyalty rules.",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 3
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:board_wipe:82dfa61b39ad",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:artifacts_wiped:0242a0e1bc8c",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:commander_removed_twice:f9db82fe11e6",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:key_engine_exiled:b7891503bb87",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:mana_screw:815adcdf2a3e",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:color_screw:5f44dc89f68b",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nicol-bolas-the-ravager.json#test:nicol-bolas-the-ravager:stress:graveyard_exiled:dca5cbd55325",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "nicol-bolas-the-ravager",
+ "source_packet": "data/grixis/bracket_stress_packets/nicol-bolas-the-ravager.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

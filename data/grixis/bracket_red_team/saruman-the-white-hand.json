@@ -1,0 +1,2431 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "deck_id": "Saruman__the_White_Hand",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 96,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#anti_goals/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events"
+      ],
+      "card": "All Will Be One",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/All Will Be One"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Archmage Emeritus",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Archmage Emeritus"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Assault on Osgiliath",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Assault on Osgiliath"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Waltz No. 3",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Black Waltz No. 3"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Blasphemous Act"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Blasphemous Act",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#combo:1823-2484",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#win:cair-andros-act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:high-mv-cheap",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "Blood for the Blood God!",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Blood for the Blood God!"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bothersome Noisemaker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Bothersome Noisemaker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Brainstorm",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Brainstorm"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Commence the Endgame",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Commence the Endgame"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/cair-andros-act",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs"
+      ],
+      "card": "Fall of Cair Andros",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Fall of Cair Andros",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#combo:1823-2484",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#win:cair-andros-act"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flame of Anor",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Flame of Anor"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Frantic Search",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Frantic Search"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/saruman-doublers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#recursion/value"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/mdfc-land-face",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:mdfc-spells"
+      ],
+      "card": "Kazuul's Fury // Kazuul's Cliffs",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Kazuul's Fury // Kazuul's Cliffs"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mana Geyser",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mana Geyser"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Mauhúr, Uruk-hai Captain",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events"
+      ],
+      "card": "Mauhúr, Uruk-hai Captain",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mauhúr, Uruk-hai Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/mizzix-casts",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#recursion/value"
+      ],
+      "card": "Mizzix's Mastery",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mizzix's Mastery"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Siegemaster",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Orcish Siegemaster"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ponder",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Ponder"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rage into the Valley",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Rage into the Valley"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rhystic Study",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sauron, the Dark Lord",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Sauron, the Dark Lord"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:mdfc-spells"
+      ],
+      "card": "Sea Gate Restoration // Sea Gate, Reborn",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Sea Gate Restoration // Sea Gate, Reborn"
+      ],
+      "roles": [
+       "draw",
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No commander-independent All Will Be One/Red Terror loops (decisions L40).",
+      "No extra creatures that dilute noncreature density (decisions L37).",
+      "No mana-spent payoffs like Uncover the Moon-Letters (L35)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact win; the deck needs several spells after Saruman lands.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Card draw and cost reduction"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "One removal spell on the Army resets most of the board.",
+      "evidence_class": "strategic_judgment",
+      "id": "army-removal",
+      "mitigations": [
+       "Ward {2}",
+       "The Ozolith"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Saruman the high-MV discount plan is just card quality.",
+      "evidence_class": "strategic_judgment",
+      "id": "saruman-removed",
+      "mitigations": [
+       "Fierce Guardianship",
+       "Deflecting Swat"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Swan Song, Deadly Rollick, Cyclonic Rift, Toxic Deluge, Feed the Swarm.",
+      "mana": "35 land-capable slots including 4 MDFCs.",
+      "protection": "Fierce Guardianship, Deflecting Swat; ward {2} on Orcs and Goblins."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Fall of Cair Andros",
+       "Blasphemous Act"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Saruman, the White Hand"
+      ],
+      "evidence_class": "fact",
+      "id": "cair-andros-act",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Saruman, the White Hand",
+       "Soul's Fire",
+       "Chandra's Ignition",
+       "The Great Goblin",
+       "All Will Be One",
+       "Widespread Brutality"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Mauhúr, Uruk-hai Captain",
+       "Harmonic Prodigy",
+       "Wizard's Staff",
+       "Veyran, Voice of Duality"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "army-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Saruman is the Army engine and gives Goblins and Orcs ward {2}.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native identity, but the only Spellbook combo in the list is Fall of Cair Andros + Blasphemous Act, which doesn't need him. He's a four-mana engine with no compact win; the source rejected commander-independent All Will Be One loops (decisions L40). Expect a mid Bracket 4 value/burn deck. M1 review (saruman-01..07) verifies the mana-value and copy rules and flags a documentation error about The Black Gate (saruman-07).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:board_wipe:1913a9f057e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:artifacts_wiped:491624ffdadf",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:commander_removed_twice:6692f7c221f5",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:key_engine_exiled:0f6d3dc4ae4d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:mana_screw:80c7011ea290",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:color_screw:4e0495c1d0aa",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:graveyard_exiled:eb2312e3c235",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#anti_goals/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events"
+      ],
+      "card": "All Will Be One",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/All Will Be One"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Assault on Osgiliath",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Assault on Osgiliath"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Waltz No. 3",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Black Waltz No. 3"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Blasphemous Act"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Blasphemous Act",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#combo:1823-2484",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#win:cair-andros-act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bothersome Noisemaker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Bothersome Noisemaker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:high-mv-cheap",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/cair-andros-act",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs"
+      ],
+      "card": "Fall of Cair Andros",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Fall of Cair Andros",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#combo:1823-2484",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#win:cair-andros-act"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flame of Anor",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Flame of Anor"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Foray of Orcs",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Foray of Orcs"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/saruman-doublers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Mauhúr, Uruk-hai Captain",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events"
+      ],
+      "card": "Mauhúr, Uruk-hai Captain",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mauhúr, Uruk-hai Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/mizzix-casts",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#recursion/value"
+      ],
+      "card": "Mizzix's Mastery",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mizzix's Mastery"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Siegemaster",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Orcish Siegemaster"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:mdfc-spells"
+      ],
+      "card": "Sink into Stupor // Soporific Springs",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Sink into Stupor // Soporific Springs"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Soul's Fire",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/fling-rejected",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs"
+      ],
+      "card": "Soul's Fire",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Soul's Fire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#recursion/value"
+      ],
+      "card": "Summons of Saruman",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Summons of Saruman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "The Great Goblin",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/The Great Goblin"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#failure_modes/army-removal",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "The Ozolith",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/The Ozolith"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Treason of Isengard",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Treason of Isengard"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/saruman-doublers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage"
+      ],
+      "card": "Veyran, Voice of Duality",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Veyran, Voice of Duality"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Volcanic Salvo",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:high-mv-cheap"
+      ],
+      "card": "Volcanic Salvo",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Volcanic Salvo"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage"
+      ],
+      "card": "Widespread Brutality",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Widespread Brutality"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/saruman-doublers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "Wizard's Staff",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Wizard's Staff"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No commander-independent All Will Be One/Red Terror loops (decisions L40).",
+      "No extra creatures that dilute noncreature density (decisions L37).",
+      "No mana-spent payoffs like Uncover the Moon-Letters (L35)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact win; the deck needs several spells after Saruman lands.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Card draw and cost reduction"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "One removal spell on the Army resets most of the board.",
+      "evidence_class": "strategic_judgment",
+      "id": "army-removal",
+      "mitigations": [
+       "Ward {2}",
+       "The Ozolith"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Saruman the high-MV discount plan is just card quality.",
+      "evidence_class": "strategic_judgment",
+      "id": "saruman-removed",
+      "mitigations": [
+       "Fierce Guardianship",
+       "Deflecting Swat"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Swan Song, Deadly Rollick, Cyclonic Rift, Toxic Deluge, Feed the Swarm.",
+      "mana": "35 land-capable slots including 4 MDFCs.",
+      "protection": "Fierce Guardianship, Deflecting Swat; ward {2} on Orcs and Goblins."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Fall of Cair Andros",
+       "Blasphemous Act"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Saruman, the White Hand"
+      ],
+      "evidence_class": "fact",
+      "id": "cair-andros-act",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Saruman, the White Hand",
+       "Soul's Fire",
+       "Chandra's Ignition",
+       "The Great Goblin",
+       "All Will Be One",
+       "Widespread Brutality"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Mauhúr, Uruk-hai Captain",
+       "Harmonic Prodigy",
+       "Wizard's Staff",
+       "Veyran, Voice of Duality"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "army-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Saruman is the Army engine and gives Goblins and Orcs ward {2}.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native identity, but the only Spellbook combo in the list is Fall of Cair Andros + Blasphemous Act, which doesn't need him. He's a four-mana engine with no compact win; the source rejected commander-independent All Will Be One loops (decisions L40). Expect a mid Bracket 4 value/burn deck. M1 review (saruman-01..07) verifies the mana-value and copy rules and flags a documentation error about The Black Gate (saruman-07).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:board_wipe:1913a9f057e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:artifacts_wiped:491624ffdadf",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:commander_removed_twice:6692f7c221f5",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:key_engine_exiled:0f6d3dc4ae4d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:mana_screw:80c7011ea290",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:color_screw:4e0495c1d0aa",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:graveyard_exiled:eb2312e3c235",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#anti_goals/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events"
+      ],
+      "card": "All Will Be One",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/All Will Be One"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Assault on Osgiliath",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Assault on Osgiliath"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Waltz No. 3",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Black Waltz No. 3"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Blasphemous Act"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Blasphemous Act",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#combo:1823-2484",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#win:cair-andros-act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bothersome Noisemaker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Bothersome Noisemaker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:high-mv-cheap",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/cair-andros-act",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs"
+      ],
+      "card": "Fall of Cair Andros",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Fall of Cair Andros",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#combo:1823-2484",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#win:cair-andros-act"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flame of Anor",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Flame of Anor"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Foray of Orcs",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Foray of Orcs"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/saruman-doublers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Mauhúr, Uruk-hai Captain",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events"
+      ],
+      "card": "Mauhúr, Uruk-hai Captain",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mauhúr, Uruk-hai Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/mizzix-casts",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#recursion/value"
+      ],
+      "card": "Mizzix's Mastery",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mizzix's Mastery"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Siegemaster",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Orcish Siegemaster"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:mdfc-spells"
+      ],
+      "card": "Sink into Stupor // Soporific Springs",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Sink into Stupor // Soporific Springs"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Soul's Fire",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/fling-rejected",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs"
+      ],
+      "card": "Soul's Fire",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Soul's Fire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#recursion/value"
+      ],
+      "card": "Summons of Saruman",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Summons of Saruman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "The Great Goblin",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/The Great Goblin"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#failure_modes/army-removal",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "The Ozolith",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/The Ozolith"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Treason of Isengard",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Treason of Isengard"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/saruman-doublers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage"
+      ],
+      "card": "Veyran, Voice of Duality",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Veyran, Voice of Duality"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Volcanic Salvo",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:high-mv-cheap"
+      ],
+      "card": "Volcanic Salvo",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Volcanic Salvo"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage"
+      ],
+      "card": "Widespread Brutality",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Widespread Brutality"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/saruman-doublers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "Wizard's Staff",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Wizard's Staff"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No commander-independent All Will Be One/Red Terror loops (decisions L40).",
+      "No extra creatures that dilute noncreature density (decisions L37).",
+      "No mana-spent payoffs like Uncover the Moon-Letters (L35)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact win; the deck needs several spells after Saruman lands.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Card draw and cost reduction"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "One removal spell on the Army resets most of the board.",
+      "evidence_class": "strategic_judgment",
+      "id": "army-removal",
+      "mitigations": [
+       "Ward {2}",
+       "The Ozolith"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Saruman the high-MV discount plan is just card quality.",
+      "evidence_class": "strategic_judgment",
+      "id": "saruman-removed",
+      "mitigations": [
+       "Fierce Guardianship",
+       "Deflecting Swat"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Swan Song, Deadly Rollick, Cyclonic Rift, Toxic Deluge, Feed the Swarm.",
+      "mana": "35 land-capable slots including 4 MDFCs.",
+      "protection": "Fierce Guardianship, Deflecting Swat; ward {2} on Orcs and Goblins."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Fall of Cair Andros",
+       "Blasphemous Act"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Saruman, the White Hand"
+      ],
+      "evidence_class": "fact",
+      "id": "cair-andros-act",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Saruman, the White Hand",
+       "Soul's Fire",
+       "Chandra's Ignition",
+       "The Great Goblin",
+       "All Will Be One",
+       "Widespread Brutality"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Mauhúr, Uruk-hai Captain",
+       "Harmonic Prodigy",
+       "Wizard's Staff",
+       "Veyran, Voice of Duality"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "army-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Saruman is the Army engine and gives Goblins and Orcs ward {2}.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native identity, but the only Spellbook combo in the list is Fall of Cair Andros + Blasphemous Act, which doesn't need him. He's a four-mana engine with no compact win; the source rejected commander-independent All Will Be One loops (decisions L40). Expect a mid Bracket 4 value/burn deck. M1 review (saruman-01..07) verifies the mana-value and copy rules and flags a documentation error about The Black Gate (saruman-07).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:board_wipe:1913a9f057e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:artifacts_wiped:491624ffdadf",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:commander_removed_twice:6692f7c221f5",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:key_engine_exiled:0f6d3dc4ae4d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:mana_screw:80c7011ea290",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:color_screw:4e0495c1d0aa",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:graveyard_exiled:eb2312e3c235",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#anti_goals/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events"
+      ],
+      "card": "All Will Be One",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/All Will Be One"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Assault on Osgiliath",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Assault on Osgiliath"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Waltz No. 3",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Black Waltz No. 3"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Blasphemous Act"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Blasphemous Act",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#combo:1823-2484",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#win:cair-andros-act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bothersome Noisemaker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Bothersome Noisemaker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#win_conditions/army-damage"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Counterspell",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Counterspell"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:high-mv-cheap",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/cair-andros-act",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs"
+      ],
+      "card": "Fall of Cair Andros",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Fall of Cair Andros",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#combo:1823-2484",
+       "graph:data/grixis/graph/saruman-the-white-hand.json#win:cair-andros-act"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#failure_modes/saruman-removed",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:high-mv-cheap"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Flame of Anor",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Flame of Anor"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Foray of Orcs",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Foray of Orcs"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/mv-amass",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/alt-cost-keeps-mv",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:high-mv-cheap"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Goblin Electromancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Goblin Electromancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/saruman-doublers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Mauhúr, Uruk-hai Captain",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events"
+      ],
+      "card": "Mauhúr, Uruk-hai Captain",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mauhúr, Uruk-hai Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/mizzix-casts",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#recursion/value"
+      ],
+      "card": "Mizzix's Mastery",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Mizzix's Mastery"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Bowmasters",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Orcish Bowmasters"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Orcish Siegemaster",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Orcish Siegemaster"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Saruman's Trickery",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Saruman's Trickery"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:mdfc-spells"
+      ],
+      "card": "Sink into Stupor // Soporific Springs",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Sink into Stupor // Soporific Springs"
+      ],
+      "roles": [
+       "land",
+       "ramp",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#identity_core/Soul's Fire",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/fling-rejected",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs"
+      ],
+      "card": "Soul's Fire",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Soul's Fire"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#recursion/value"
+      ],
+      "card": "Summons of Saruman",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Summons of Saruman"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#key_interactions/counter-events",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#packages/pkg:army-payoffs",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "The Great Goblin",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/The Great Goblin"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#engines/trigger-and-counter-multipliers",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#failure_modes/army-removal",
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#plan/value"
+      ],
+      "card": "The Ozolith",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/The Ozolith"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/saruman-the-white-hand.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/saruman-the-white-hand.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No commander-independent All Will Be One/Red Terror loops (decisions L40).",
+      "No extra creatures that dilute noncreature density (decisions L37).",
+      "No mana-spent payoffs like Uncover the Moon-Letters (L35)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "No compact win; the deck needs several spells after Saruman lands.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-compact-win",
+      "mitigations": [
+       "Card draw and cost reduction"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "One removal spell on the Army resets most of the board.",
+      "evidence_class": "strategic_judgment",
+      "id": "army-removal",
+      "mitigations": [
+       "Ward {2}",
+       "The Ozolith"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Without Saruman the high-MV discount plan is just card quality.",
+      "evidence_class": "strategic_judgment",
+      "id": "saruman-removed",
+      "mitigations": [
+       "Fierce Guardianship",
+       "Deflecting Swat"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Force of Will, Mana Drain, Counterspell, Swan Song, Deadly Rollick, Cyclonic Rift, Toxic Deluge, Feed the Swarm.",
+      "mana": "35 land-capable slots including 4 MDFCs.",
+      "protection": "Fierce Guardianship, Deflecting Swat; ward {2} on Orcs and Goblins."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Fall of Cair Andros",
+       "Blasphemous Act"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Saruman, the White Hand"
+      ],
+      "evidence_class": "fact",
+      "id": "cair-andros-act",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Saruman, the White Hand",
+       "Soul's Fire",
+       "Chandra's Ignition",
+       "The Great Goblin",
+       "All Will Be One",
+       "Widespread Brutality"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Mauhúr, Uruk-hai Captain",
+       "Harmonic Prodigy",
+       "Wizard's Staff",
+       "Veyran, Voice of Duality"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "army-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Saruman is the Army engine and gives Goblins and Orcs ward {2}.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native identity, but the only Spellbook combo in the list is Fall of Cair Andros + Blasphemous Act, which doesn't need him. He's a four-mana engine with no compact win; the source rejected commander-independent All Will Be One loops (decisions L40). Expect a mid Bracket 4 value/burn deck. M1 review (saruman-01..07) verifies the mana-value and copy rules and flags a documentation error about The Black Gate (saruman-07).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 2,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 2,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 1
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:board_wipe:1913a9f057e5",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:artifacts_wiped:491624ffdadf",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:commander_removed_twice:6692f7c221f5",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:key_engine_exiled:0f6d3dc4ae4d",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:mana_screw:80c7011ea290",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:color_screw:4e0495c1d0aa",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/saruman-the-white-hand.json#test:saruman-the-white-hand:stress:graveyard_exiled:eb2312e3c235",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "saruman-the-white-hand",
+ "source_packet": "data/grixis/bracket_stress_packets/saruman-the-white-hand.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

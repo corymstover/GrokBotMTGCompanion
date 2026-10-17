@@ -1,0 +1,2576 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "deck_id": "Lord_of_Tresserhorn",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 97,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder"
+      ],
+      "card": "Bitterblossom",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bitterblossom"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2842-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Bloodghast",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bloodghast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/greaves-shroud",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2438-2452-2577",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/big-hits"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dimir Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Dimir Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Diregraf Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Diregraf Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/drawback-suppression",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/suppression-timing",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:suppression"
+      ],
+      "card": "Dress Down",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Dress Down",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#package:suppression"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2452-2577-5147",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#identity_core/Gravecrawler",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder"
+      ],
+      "card": "Headless Rider",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Headless Rider"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Jadar, Ghoulcaller of Nephalia",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Jadar, Ghoulcaller of Nephalia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/drawback-suppression",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/suppression-timing",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:suppression"
+      ],
+      "card": "Karn, Argent Defender",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Karn, Argent Defender",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#package:suppression"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Kediss, Emberclaw Familiar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1218-2822",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2822-4651"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystic Remora",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Mystic Remora"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Nether Traitor",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Nether Traitor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ophiomancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Ophiomancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/big-hits"
+      ],
+      "card": "Pain for All",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Pain for All"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Phyresis",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Phyresis",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:264-4651",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2822-4651"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-4050-4871",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rakdos Signet",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Rakdos Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Reassembling Skeleton",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Reassembling Skeleton",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Rogue's Passage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Rogue's Passage"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Current optimized Lord evidence is Infect/Voltron, not sacrifice; keep the sacrifice shell as backup (decisions L33).",
+      "Dictate of Erebos cut on the adversarial pass (decisions)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Unsuppressed trigger costs two creatures, 2 life and gives an opponent two cards.",
+      "evidence_class": "strategic_judgment",
+      "id": "drawback",
+      "mitigations": [
+       "Suppression package",
+       "Recursive fodder"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "A 10/4 dies to most removal and can be chump-blocked.",
+      "evidence_class": "strategic_judgment",
+      "id": "chump-removal",
+      "mitigations": [
+       "Evasion and protection suite"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Torpor Orb also stops your own ETB creatures.",
+      "evidence_class": "strategic_judgment",
+      "id": "torpor-self",
+      "mitigations": [
+       "Karn as a removable alternative"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap removal and stack interaction (Terminate, Deadly Rollick, Sheoldred's Edict, Stifle, Muddle the Mixture, Toxic Deluge).",
+      "mana": "Four-mana commander; Sol Ring, Signets, Talismans.",
+      "protection": "Boots/Greaves, Not of This World, Slip Out the Back, Stubborn Denial, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Lord of Tresserhorn",
+       "Tainted Strike",
+       "Phyresis",
+       "Kediss, Emberclaw Familiar"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Brotherhood Regalia",
+       "Rogue's Passage",
+       "Shizo, Death's Storehouse"
+      ],
+      "evidence_class": "fact",
+      "id": "infect-lord",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Uncaged Fury",
+       "Chandra's Ignition",
+       "Pain for All"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord of Tresserhorn"
+      ],
+      "evidence_class": "fact",
+      "id": "big-hits",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Gravecrawler",
+       "Reassembling Skeleton",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Rooftop Storm",
+       "Pitiless Plunderer",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Goblin Bombardment",
+       "Warren Soultrader"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord of Tresserhorn"
+      ],
+      "evidence_class": "fact",
+      "id": "sac-loops",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Lord's 10 power is the kill; the infect and double-strike cards only work on him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The enter trigger is a real cost: lose 2, sacrifice two creatures (Lord himself if needed; regeneration doesn't help) and an opponent draws two (M1 tresserhorn-01). The source admits the Torpor Orb/Karn slots trade away flexibility (tresserhorn-13). The sacrifice loops win without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 14,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 2,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 19
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:board_wipe:2668ce1a11c8",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:artifacts_wiped:2dd516ad465b",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:commander_removed_twice:ceb347c2f386",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:key_engine_exiled:4e0ff8ac3d55",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:mana_screw:257bd19ddac3",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:color_screw:1db43f6ed8d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:graveyard_exiled:acb039c4db1e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder"
+      ],
+      "card": "Bitterblossom",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bitterblossom"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2842-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Bloodghast",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bloodghast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/greaves-shroud",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2438-2452-2577",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/big-hits"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Diregraf Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Diregraf Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/drawback-suppression",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/suppression-timing",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:suppression"
+      ],
+      "card": "Dress Down",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Dress Down",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#package:suppression"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2452-2577-5147",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#identity_core/Gravecrawler",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder"
+      ],
+      "card": "Headless Rider",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Headless Rider"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Jadar, Ghoulcaller of Nephalia",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Jadar, Ghoulcaller of Nephalia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/drawback-suppression",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/suppression-timing",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:suppression"
+      ],
+      "card": "Karn, Argent Defender",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Karn, Argent Defender",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#package:suppression"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Kediss, Emberclaw Familiar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1218-2822",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2822-4651"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Nether Traitor",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Nether Traitor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ophiomancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Ophiomancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/big-hits"
+      ],
+      "card": "Pain for All",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Pain for All"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Phyresis",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Phyresis",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:264-4651",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2822-4651"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-4050-4871",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Reassembling Skeleton",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Reassembling Skeleton",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Rogue's Passage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Rogue's Passage"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/rooftop",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Rooftop Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Rooftop Storm",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2292-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#requirements/value"
+      ],
+      "card": "Sheoldred's Edict",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Sheoldred's Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Current optimized Lord evidence is Infect/Voltron, not sacrifice; keep the sacrifice shell as backup (decisions L33).",
+      "Dictate of Erebos cut on the adversarial pass (decisions)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Unsuppressed trigger costs two creatures, 2 life and gives an opponent two cards.",
+      "evidence_class": "strategic_judgment",
+      "id": "drawback",
+      "mitigations": [
+       "Suppression package",
+       "Recursive fodder"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "A 10/4 dies to most removal and can be chump-blocked.",
+      "evidence_class": "strategic_judgment",
+      "id": "chump-removal",
+      "mitigations": [
+       "Evasion and protection suite"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Torpor Orb also stops your own ETB creatures.",
+      "evidence_class": "strategic_judgment",
+      "id": "torpor-self",
+      "mitigations": [
+       "Karn as a removable alternative"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap removal and stack interaction (Terminate, Deadly Rollick, Sheoldred's Edict, Stifle, Muddle the Mixture, Toxic Deluge).",
+      "mana": "Four-mana commander; Sol Ring, Signets, Talismans.",
+      "protection": "Boots/Greaves, Not of This World, Slip Out the Back, Stubborn Denial, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Lord of Tresserhorn",
+       "Tainted Strike",
+       "Phyresis",
+       "Kediss, Emberclaw Familiar"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Brotherhood Regalia",
+       "Rogue's Passage",
+       "Shizo, Death's Storehouse"
+      ],
+      "evidence_class": "fact",
+      "id": "infect-lord",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Uncaged Fury",
+       "Chandra's Ignition",
+       "Pain for All"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord of Tresserhorn"
+      ],
+      "evidence_class": "fact",
+      "id": "big-hits",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Gravecrawler",
+       "Reassembling Skeleton",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Rooftop Storm",
+       "Pitiless Plunderer",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Goblin Bombardment",
+       "Warren Soultrader"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord of Tresserhorn"
+      ],
+      "evidence_class": "fact",
+      "id": "sac-loops",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Lord's 10 power is the kill; the infect and double-strike cards only work on him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The enter trigger is a real cost: lose 2, sacrifice two creatures (Lord himself if needed; regeneration doesn't help) and an opponent draws two (M1 tresserhorn-01). The source admits the Torpor Orb/Karn slots trade away flexibility (tresserhorn-13). The sacrifice loops win without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 14,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 2,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 19
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:board_wipe:2668ce1a11c8",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:artifacts_wiped:2dd516ad465b",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:commander_removed_twice:ceb347c2f386",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:key_engine_exiled:4e0ff8ac3d55",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:mana_screw:257bd19ddac3",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:color_screw:1db43f6ed8d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:graveyard_exiled:acb039c4db1e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder"
+      ],
+      "card": "Bitterblossom",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bitterblossom"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2842-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Bloodghast",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bloodghast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/greaves-shroud",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2438-2452-2577",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/big-hits"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Diregraf Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Diregraf Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/drawback-suppression",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/suppression-timing",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:suppression"
+      ],
+      "card": "Dress Down",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Dress Down",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#package:suppression"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2452-2577-5147",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#identity_core/Gravecrawler",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder"
+      ],
+      "card": "Headless Rider",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Headless Rider"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Jadar, Ghoulcaller of Nephalia",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Jadar, Ghoulcaller of Nephalia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/drawback-suppression",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/suppression-timing",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:suppression"
+      ],
+      "card": "Karn, Argent Defender",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Karn, Argent Defender",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#package:suppression"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Kediss, Emberclaw Familiar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1218-2822",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2822-4651"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Nether Traitor",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Nether Traitor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ophiomancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Ophiomancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/big-hits"
+      ],
+      "card": "Pain for All",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Pain for All"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Phyresis",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Phyresis",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:264-4651",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2822-4651"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-4050-4871",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Reassembling Skeleton",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Reassembling Skeleton",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Rogue's Passage",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Rogue's Passage"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/rooftop",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Rooftop Storm",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Rooftop Storm",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2292-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#requirements/value"
+      ],
+      "card": "Sheoldred's Edict",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Sheoldred's Edict"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Current optimized Lord evidence is Infect/Voltron, not sacrifice; keep the sacrifice shell as backup (decisions L33).",
+      "Dictate of Erebos cut on the adversarial pass (decisions)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Unsuppressed trigger costs two creatures, 2 life and gives an opponent two cards.",
+      "evidence_class": "strategic_judgment",
+      "id": "drawback",
+      "mitigations": [
+       "Suppression package",
+       "Recursive fodder"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "A 10/4 dies to most removal and can be chump-blocked.",
+      "evidence_class": "strategic_judgment",
+      "id": "chump-removal",
+      "mitigations": [
+       "Evasion and protection suite"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Torpor Orb also stops your own ETB creatures.",
+      "evidence_class": "strategic_judgment",
+      "id": "torpor-self",
+      "mitigations": [
+       "Karn as a removable alternative"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap removal and stack interaction (Terminate, Deadly Rollick, Sheoldred's Edict, Stifle, Muddle the Mixture, Toxic Deluge).",
+      "mana": "Four-mana commander; Sol Ring, Signets, Talismans.",
+      "protection": "Boots/Greaves, Not of This World, Slip Out the Back, Stubborn Denial, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Lord of Tresserhorn",
+       "Tainted Strike",
+       "Phyresis",
+       "Kediss, Emberclaw Familiar"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Brotherhood Regalia",
+       "Rogue's Passage",
+       "Shizo, Death's Storehouse"
+      ],
+      "evidence_class": "fact",
+      "id": "infect-lord",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Uncaged Fury",
+       "Chandra's Ignition",
+       "Pain for All"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord of Tresserhorn"
+      ],
+      "evidence_class": "fact",
+      "id": "big-hits",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Gravecrawler",
+       "Reassembling Skeleton",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Rooftop Storm",
+       "Pitiless Plunderer",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Goblin Bombardment",
+       "Warren Soultrader"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord of Tresserhorn"
+      ],
+      "evidence_class": "fact",
+      "id": "sac-loops",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Lord's 10 power is the kill; the infect and double-strike cards only work on him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The enter trigger is a real cost: lose 2, sacrifice two creatures (Lord himself if needed; regeneration doesn't help) and an opponent draws two (M1 tresserhorn-01). The source admits the Torpor Orb/Karn slots trade away flexibility (tresserhorn-13). The sacrifice loops win without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 14,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 2,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 19
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:board_wipe:2668ce1a11c8",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:artifacts_wiped:2dd516ad465b",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:commander_removed_twice:ceb347c2f386",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:key_engine_exiled:4e0ff8ac3d55",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:mana_screw:257bd19ddac3",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:color_screw:1db43f6ed8d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:graveyard_exiled:acb039c4db1e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder"
+      ],
+      "card": "Bitterblossom",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bitterblossom"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blasphemous Act",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Blood Artist",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Blood Artist",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2842-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-2842-5670"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Bloodghast",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bloodghast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/greaves-shroud",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Brotherhood Regalia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Brotherhood Regalia"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2438-2452-2577",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2438-2577-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/big-hits"
+      ],
+      "card": "Chandra's Ignition",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Chandra's Ignition"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Diregraf Captain",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Diregraf Captain"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/drawback-suppression",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/suppression-timing",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:suppression"
+      ],
+      "card": "Dress Down",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Dress Down",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#package:suppression"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Feed the Swarm",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2452-2577-5147",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-4871-5147"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#identity_core/Gravecrawler",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value"
+      ],
+      "card": "Gravecrawler",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Gravecrawler",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-2577-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2034-2452-2577"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder"
+      ],
+      "card": "Headless Rider",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Headless Rider"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Jadar, Ghoulcaller of Nephalia",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Jadar, Ghoulcaller of Nephalia"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/drawback-suppression",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#key_interactions/suppression-timing",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:suppression"
+      ],
+      "card": "Karn, Argent Defender",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Karn, Argent Defender",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#package:suppression"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#identity_core/Kediss, Emberclaw Familiar",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Kediss, Emberclaw Familiar",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Kediss, Emberclaw Familiar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1218-2822",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2822-4651"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#requirements/value"
+      ],
+      "card": "Muddle the Mixture",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Muddle the Mixture"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Nether Traitor",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Nether Traitor"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Nightscape Familiar",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Nightscape Familiar"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:evasion-haste-protection",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#requirements/value"
+      ],
+      "card": "Not of This World",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Not of This World"
+      ],
+      "roles": [
+       "counter",
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ophiomancer",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Ophiomancer"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/big-hits"
+      ],
+      "card": "Pain for All",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Pain for All"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#packages/pkg:ten-power-conversion",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/infect-lord"
+      ],
+      "card": "Phyresis",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Phyresis",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:264-4651",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2822-4651"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-4050-4871",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:2577-4050"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#win_conditions/sac-loops"
+      ],
+      "card": "Pitiless Plunderer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Pitiless Plunderer",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#engines/recursive-fodder",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#plan/value",
+       "blueprint:data/grixis/blueprints/lord-of-tresserhorn.json#recursion/value"
+      ],
+      "card": "Reassembling Skeleton",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#metrics/Reassembling Skeleton",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1385-1580-4871-5670",
+       "graph:data/grixis/graph/lord-of-tresserhorn.json#combo:1580-2034-4871"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Current optimized Lord evidence is Infect/Voltron, not sacrifice; keep the sacrifice shell as backup (decisions L33).",
+      "Dictate of Erebos cut on the adversarial pass (decisions)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Unsuppressed trigger costs two creatures, 2 life and gives an opponent two cards.",
+      "evidence_class": "strategic_judgment",
+      "id": "drawback",
+      "mitigations": [
+       "Suppression package",
+       "Recursive fodder"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "A 10/4 dies to most removal and can be chump-blocked.",
+      "evidence_class": "strategic_judgment",
+      "id": "chump-removal",
+      "mitigations": [
+       "Evasion and protection suite"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Torpor Orb also stops your own ETB creatures.",
+      "evidence_class": "strategic_judgment",
+      "id": "torpor-self",
+      "mitigations": [
+       "Karn as a removable alternative"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Cheap removal and stack interaction (Terminate, Deadly Rollick, Sheoldred's Edict, Stifle, Muddle the Mixture, Toxic Deluge).",
+      "mana": "Four-mana commander; Sol Ring, Signets, Talismans.",
+      "protection": "Boots/Greaves, Not of This World, Slip Out the Back, Stubborn Denial, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Lord of Tresserhorn",
+       "Tainted Strike",
+       "Phyresis",
+       "Kediss, Emberclaw Familiar"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Brotherhood Regalia",
+       "Rogue's Passage",
+       "Shizo, Death's Storehouse"
+      ],
+      "evidence_class": "fact",
+      "id": "infect-lord",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Uncaged Fury",
+       "Chandra's Ignition",
+       "Pain for All"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord of Tresserhorn"
+      ],
+      "evidence_class": "fact",
+      "id": "big-hits",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Gravecrawler",
+       "Reassembling Skeleton",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Rooftop Storm",
+       "Pitiless Plunderer",
+       "Blood Artist",
+       "Zulaport Cutthroat",
+       "Goblin Bombardment",
+       "Warren Soultrader"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Lord of Tresserhorn"
+      ],
+      "evidence_class": "fact",
+      "id": "sac-loops",
+      "kind": "combo"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Lord's 10 power is the kill; the infect and double-strike cards only work on him.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The enter trigger is a real cost: lose 2, sacrifice two creatures (Lord himself if needed; regeneration doesn't help) and an opponent draws two (M1 tresserhorn-01). The source admits the Torpor Orb/Karn slots trade away flexibility (tresserhorn-13). The sacrifice loops win without him.",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 14,
+      "combo_commander_independent": 3,
+      "combo_direct_commander_piece": 2,
+      "engines": 2,
+      "engines_explicit_commander": 0,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 19
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:board_wipe:2668ce1a11c8",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:artifacts_wiped:2dd516ad465b",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:commander_removed_twice:ceb347c2f386",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:key_engine_exiled:4e0ff8ac3d55",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:mana_screw:257bd19ddac3",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:color_screw:1db43f6ed8d3",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/lord-of-tresserhorn.json#test:lord-of-tresserhorn:stress:graveyard_exiled:acb039c4db1e",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "lord-of-tresserhorn",
+ "source_packet": "data/grixis/bracket_stress_packets/lord-of-tresserhorn.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

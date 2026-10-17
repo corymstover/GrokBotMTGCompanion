@@ -1,0 +1,2730 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "deck_id": "Nekusar__the_Mindrazer",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 96,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Anvil of Bogardan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Anvil of Bogardan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction"
+      ],
+      "card": "Arcane Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodchief Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels"
+      ],
+      "card": "Burning Inquiry",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Burning Inquiry"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Chrome Mox",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Chrome Mox"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Consecrated Sphinx",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Consecrated Sphinx"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/curiosity-nekusar",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/curiosity-niv"
+      ],
+      "card": "Curiosity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Curiosity",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1089-2353",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:curiosity-niv"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Deal",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Dark Deal"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Dark Ritual",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Echo of Eons",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Echo of Eons"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Fate Unraveler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Fate Unraveler"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fevered Visions",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Fevered Visions"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/ghyrson-exact-one",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Ghyrson Starn, Kelermorph",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Ghyrson Starn, Kelermorph"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Grim Monolith",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Grim Monolith"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jace's Archivist",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Jace's Archivist"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:breach-wheel"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kami of the Crescent Moon",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Kami of the Crescent Moon"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Kederekt Parasite",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Kederekt Parasite"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step"
+      ],
+      "card": "Krang, the All-Powerful",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Krang, the All-Powerful"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/discard-vs-shuffle"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels"
+      ],
+      "card": "Magus of the Wheel",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Magus of the Wheel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Mana Vault",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Mana Vault"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/discard-vs-shuffle",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels"
+      ],
+      "card": "Molten Psyche",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Molten Psyche"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/curiosity-niv"
+      ],
+      "card": "Niv-Mizzet, Parun",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Niv-Mizzet, Parun",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1089-2353",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:curiosity-niv"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/peer-punish"
+      ],
+      "card": "Orcish Bowmasters",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Orcish Bowmasters",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-3862"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Peer into the Abyss",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels"
+      ],
+      "card": "Peer into the Abyss",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Peer into the Abyss",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-1972",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-2498"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Narset/Notion Thief wheel locks (blueprint L59).",
+      "No Thassa's Oracle package (L60), no infect shortcuts (L61), no Mindcrank package (L62)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "A five-mana setup before the wheels; wheels without punishers refill opponents.",
+      "evidence_class": "strategic_judgment",
+      "id": "five-mana-setup",
+      "mitigations": [
+       "Punisher redundancy"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Opposing Narset/Notion Thief turn the deck off.",
+      "evidence_class": "strategic_judgment",
+      "id": "draw-locks",
+      "mitigations": [
+       "Removal",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Lifegain blunts the slug damage.",
+      "evidence_class": "strategic_judgment",
+      "id": "lifegain",
+      "mitigations": [
+       "Compact Peer kills"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free and cheap counters, Toxic Deluge, Cyclonic Rift.",
+      "mana": "35 lands, Mana Vault, Grim Monolith, Chrome Mox, Dark Ritual, Talismans; triple pips for Niv-Mizzet.",
+      "protection": "Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Nekusar, the Mindrazer",
+       "Sheoldred, the Apocalypse",
+       "Orcish Bowmasters",
+       "Razorkin Needlehead",
+       "Underworld Dreams"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "peer-punish",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Fate Unraveler",
+       "Underworld Dreams",
+       "Sheoldred, the Apocalypse"
+      ],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Curiosity",
+       "Niv-Mizzet, Parun"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "curiosity-niv",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nekusar, the Mindrazer",
+       "Wheel of Fortune",
+       "Windfall",
+       "Wheel and Deal",
+       "Echo of Eons"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Fate Unraveler",
+       "Underworld Dreams",
+       "Sheoldred, the Apocalypse",
+       "Spiteful Visions",
+       "Phyrexian Tyranny",
+       "Kederekt Parasite",
+       "Razorkin Needlehead",
+       "Scrawling Crawler",
+       "Orcish Bowmasters",
+       "Ghyrson Starn, Kelermorph"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Nekusar is the best punisher and his draw-step trigger gives every opponent an extra draw to punish.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source says outright that without Nekusar the deck still works as a wheel/group-slug deck (blueprint L55) and that the punishers were chosen so it isn't commander-or-bust (L29). Only 1 of 7 Spellbook combos needs him (Nekusar + Peer into the Abyss). He multiplies the plan rather than being required by it. The cycle 51 M1 review (nekusar-01..09) verifies the engines and flags Krang self-damage (nekusar-03).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 4,
+      "combo_commander_independent": 2,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 7
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:board_wipe:c8cb0e985d75",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:artifacts_wiped:e30e247960d1",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:commander_removed_twice:3e538fc7656b",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:key_engine_exiled:c486c5b5f60a",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:mana_screw:c290ca4acb92",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:color_screw:ce8fc782d28a",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:graveyard_exiled:8722ded67b1c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Anvil of Bogardan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Anvil of Bogardan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodchief Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/curiosity-nekusar",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/curiosity-niv"
+      ],
+      "card": "Curiosity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Curiosity",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1089-2353",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:curiosity-niv"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Echo of Eons",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Echo of Eons"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Fate Unraveler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Fate Unraveler"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/ghyrson-exact-one",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Ghyrson Starn, Kelermorph",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Ghyrson Starn, Kelermorph"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:breach-wheel"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kami of the Crescent Moon",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Kami of the Crescent Moon"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Kederekt Parasite",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Kederekt Parasite"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step"
+      ],
+      "card": "Krang, the All-Powerful",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Krang, the All-Powerful"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/discard-vs-shuffle"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/curiosity-niv"
+      ],
+      "card": "Niv-Mizzet, Parun",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Niv-Mizzet, Parun",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1089-2353",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:curiosity-niv"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/peer-punish"
+      ],
+      "card": "Orcish Bowmasters",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Orcish Bowmasters",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-3862"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Peer into the Abyss",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels"
+      ],
+      "card": "Peer into the Abyss",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Peer into the Abyss",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-1972",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-2498"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Phyrexian Tyranny",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Phyrexian Tyranny"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/peer-punish"
+      ],
+      "card": "Razorkin Needlehead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Razorkin Needlehead",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-5919"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Scrawling Crawler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Scrawling Crawler"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Sheoldred, the Apocalypse",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-2498"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Spiteful Visions",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Spiteful Visions"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:breach-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Underworld Dreams",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Underworld Dreams",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Underworld Dreams",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-2720"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Wheel and Deal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Wheel and Deal"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Wheel of Fortune",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/discard-vs-shuffle",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:breach-wheel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/discard-vs-shuffle",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Windfall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Windfall"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Wizard's Staff",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step"
+      ],
+      "card": "Wizard's Staff",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Wizard's Staff"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Narset/Notion Thief wheel locks (blueprint L59).",
+      "No Thassa's Oracle package (L60), no infect shortcuts (L61), no Mindcrank package (L62)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "A five-mana setup before the wheels; wheels without punishers refill opponents.",
+      "evidence_class": "strategic_judgment",
+      "id": "five-mana-setup",
+      "mitigations": [
+       "Punisher redundancy"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Opposing Narset/Notion Thief turn the deck off.",
+      "evidence_class": "strategic_judgment",
+      "id": "draw-locks",
+      "mitigations": [
+       "Removal",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Lifegain blunts the slug damage.",
+      "evidence_class": "strategic_judgment",
+      "id": "lifegain",
+      "mitigations": [
+       "Compact Peer kills"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free and cheap counters, Toxic Deluge, Cyclonic Rift.",
+      "mana": "35 lands, Mana Vault, Grim Monolith, Chrome Mox, Dark Ritual, Talismans; triple pips for Niv-Mizzet.",
+      "protection": "Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Nekusar, the Mindrazer",
+       "Sheoldred, the Apocalypse",
+       "Orcish Bowmasters",
+       "Razorkin Needlehead",
+       "Underworld Dreams"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "peer-punish",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Fate Unraveler",
+       "Underworld Dreams",
+       "Sheoldred, the Apocalypse"
+      ],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Curiosity",
+       "Niv-Mizzet, Parun"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "curiosity-niv",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nekusar, the Mindrazer",
+       "Wheel of Fortune",
+       "Windfall",
+       "Wheel and Deal",
+       "Echo of Eons"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Fate Unraveler",
+       "Underworld Dreams",
+       "Sheoldred, the Apocalypse",
+       "Spiteful Visions",
+       "Phyrexian Tyranny",
+       "Kederekt Parasite",
+       "Razorkin Needlehead",
+       "Scrawling Crawler",
+       "Orcish Bowmasters",
+       "Ghyrson Starn, Kelermorph"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Nekusar is the best punisher and his draw-step trigger gives every opponent an extra draw to punish.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source says outright that without Nekusar the deck still works as a wheel/group-slug deck (blueprint L55) and that the punishers were chosen so it isn't commander-or-bust (L29). Only 1 of 7 Spellbook combos needs him (Nekusar + Peer into the Abyss). He multiplies the plan rather than being required by it. The cycle 51 M1 review (nekusar-01..09) verifies the engines and flags Krang self-damage (nekusar-03).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 4,
+      "combo_commander_independent": 2,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 7
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:board_wipe:c8cb0e985d75",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:artifacts_wiped:e30e247960d1",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:commander_removed_twice:3e538fc7656b",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:key_engine_exiled:c486c5b5f60a",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:mana_screw:c290ca4acb92",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:color_screw:ce8fc782d28a",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:graveyard_exiled:8722ded67b1c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "Anvil of Bogardan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Anvil of Bogardan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodchief Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/curiosity-nekusar",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/curiosity-niv"
+      ],
+      "card": "Curiosity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Curiosity",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1089-2353",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:curiosity-niv"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Echo of Eons",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Echo of Eons"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Fate Unraveler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Fate Unraveler"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/ghyrson-exact-one",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Ghyrson Starn, Kelermorph",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Ghyrson Starn, Kelermorph"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:breach-wheel"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kami of the Crescent Moon",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Kami of the Crescent Moon"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Kederekt Parasite",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Kederekt Parasite"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step"
+      ],
+      "card": "Krang, the All-Powerful",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Krang, the All-Powerful"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/discard-vs-shuffle"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/curiosity-niv"
+      ],
+      "card": "Niv-Mizzet, Parun",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Niv-Mizzet, Parun",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1089-2353",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:curiosity-niv"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/peer-punish"
+      ],
+      "card": "Orcish Bowmasters",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Orcish Bowmasters",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-3862"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Peer into the Abyss",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels"
+      ],
+      "card": "Peer into the Abyss",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Peer into the Abyss",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-1972",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-2498"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Phyrexian Tyranny",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Phyrexian Tyranny"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/peer-punish"
+      ],
+      "card": "Razorkin Needlehead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Razorkin Needlehead",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-5919"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Scrawling Crawler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Scrawling Crawler"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Sheoldred, the Apocalypse",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-2498"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Spiteful Visions",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Spiteful Visions"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#tutor_targets/Underworld Breach"
+      ],
+      "card": "Underworld Breach",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Underworld Breach",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:breach-wheel"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Underworld Dreams",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Underworld Dreams",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Underworld Dreams",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-2720"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Wheel and Deal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Wheel and Deal"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Wheel of Fortune",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/discard-vs-shuffle",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels"
+      ],
+      "card": "Wheel of Fortune",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Wheel of Fortune",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:breach-wheel"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/discard-vs-shuffle",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Windfall",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Windfall"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Wizard's Staff",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step"
+      ],
+      "card": "Wizard's Staff",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Wizard's Staff"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Narset/Notion Thief wheel locks (blueprint L59).",
+      "No Thassa's Oracle package (L60), no infect shortcuts (L61), no Mindcrank package (L62)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "A five-mana setup before the wheels; wheels without punishers refill opponents.",
+      "evidence_class": "strategic_judgment",
+      "id": "five-mana-setup",
+      "mitigations": [
+       "Punisher redundancy"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Opposing Narset/Notion Thief turn the deck off.",
+      "evidence_class": "strategic_judgment",
+      "id": "draw-locks",
+      "mitigations": [
+       "Removal",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Lifegain blunts the slug damage.",
+      "evidence_class": "strategic_judgment",
+      "id": "lifegain",
+      "mitigations": [
+       "Compact Peer kills"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free and cheap counters, Toxic Deluge, Cyclonic Rift.",
+      "mana": "35 lands, Mana Vault, Grim Monolith, Chrome Mox, Dark Ritual, Talismans; triple pips for Niv-Mizzet.",
+      "protection": "Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Nekusar, the Mindrazer",
+       "Sheoldred, the Apocalypse",
+       "Orcish Bowmasters",
+       "Razorkin Needlehead",
+       "Underworld Dreams"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "peer-punish",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Fate Unraveler",
+       "Underworld Dreams",
+       "Sheoldred, the Apocalypse"
+      ],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Curiosity",
+       "Niv-Mizzet, Parun"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "curiosity-niv",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nekusar, the Mindrazer",
+       "Wheel of Fortune",
+       "Windfall",
+       "Wheel and Deal",
+       "Echo of Eons"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Fate Unraveler",
+       "Underworld Dreams",
+       "Sheoldred, the Apocalypse",
+       "Spiteful Visions",
+       "Phyrexian Tyranny",
+       "Kederekt Parasite",
+       "Razorkin Needlehead",
+       "Scrawling Crawler",
+       "Orcish Bowmasters",
+       "Ghyrson Starn, Kelermorph"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Nekusar is the best punisher and his draw-step trigger gives every opponent an extra draw to punish.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source says outright that without Nekusar the deck still works as a wheel/group-slug deck (blueprint L55) and that the punishers were chosen so it isn't commander-or-bust (L29). Only 1 of 7 Spellbook combos needs him (Nekusar + Peer into the Abyss). He multiplies the plan rather than being required by it. The cycle 51 M1 review (nekusar-01..09) verifies the engines and flags Krang self-damage (nekusar-03).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 4,
+      "combo_commander_independent": 2,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 7
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:board_wipe:c8cb0e985d75",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:artifacts_wiped:e30e247960d1",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:commander_removed_twice:3e538fc7656b",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:key_engine_exiled:c486c5b5f60a",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:mana_screw:c290ca4acb92",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:color_screw:ce8fc782d28a",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:graveyard_exiled:8722ded67b1c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Anvil of Bogardan",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Anvil of Bogardan"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction"
+      ],
+      "card": "Arcane Denial",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Arcane Denial"
+      ],
+      "roles": [
+       "counter",
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bloodchief Ascension",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Bloodchief Ascension"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bojuka Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Bojuka Bog"
+      ],
+      "roles": [
+       "land"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chaos Warp",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/curiosity-nekusar",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/curiosity-niv"
+      ],
+      "card": "Curiosity",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Curiosity",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1089-2353",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:curiosity-niv"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Echo of Eons",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Echo of Eons"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Fate Unraveler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Fate Unraveler"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/ghyrson-exact-one",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Ghyrson Starn, Kelermorph",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Ghyrson Starn, Kelermorph"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value"
+      ],
+      "card": "Harmonic Prodigy",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Harmonic Prodigy"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#plan/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#recursion/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1368-1878-2706",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:breach-wheel"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Kami of the Crescent Moon",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Kami of the Crescent Moon"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Kederekt Parasite",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Kederekt Parasite"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/wizard-multipliers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-vs-draw-step"
+      ],
+      "card": "Krang, the All-Powerful",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Krang, the All-Powerful"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/discard-vs-shuffle"
+      ],
+      "card": "Liliana's Caress",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Liliana's Caress"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/curiosity-niv"
+      ],
+      "card": "Niv-Mizzet, Parun",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Niv-Mizzet, Parun",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1089-2353",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#win:curiosity-niv"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/peer-punish"
+      ],
+      "card": "Orcish Bowmasters",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Orcish Bowmasters",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-3862"
+      ],
+      "roles": [
+       "draw",
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#identity_core/Peer into the Abyss",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:wheels"
+      ],
+      "card": "Peer into the Abyss",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Peer into the Abyss",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-1972",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-2498"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Phyrexian Tyranny",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Phyrexian Tyranny"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/peer-punish"
+      ],
+      "card": "Razorkin Needlehead",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Razorkin Needlehead",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-5919"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/wheel-damage"
+      ],
+      "card": "Scrawling Crawler",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Scrawling Crawler"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#win_conditions/breach-wheel"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Sheoldred, the Apocalypse",
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#combo:1561-2498"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#engines/draw-punish",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#key_interactions/krang-self-damage",
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:punishers"
+      ],
+      "card": "Spiteful Visions",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Spiteful Visions"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/nekusar-the-mindrazer.json#packages/pkg:interaction"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/nekusar-the-mindrazer.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No Narset/Notion Thief wheel locks (blueprint L59).",
+      "No Thassa's Oracle package (L60), no infect shortcuts (L61), no Mindcrank package (L62)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "A five-mana setup before the wheels; wheels without punishers refill opponents.",
+      "evidence_class": "strategic_judgment",
+      "id": "five-mana-setup",
+      "mitigations": [
+       "Punisher redundancy"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Opposing Narset/Notion Thief turn the deck off.",
+      "evidence_class": "strategic_judgment",
+      "id": "draw-locks",
+      "mitigations": [
+       "Removal",
+       "Counters"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Lifegain blunts the slug damage.",
+      "evidence_class": "strategic_judgment",
+      "id": "lifegain",
+      "mitigations": [
+       "Compact Peer kills"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free and cheap counters, Toxic Deluge, Cyclonic Rift.",
+      "mana": "35 lands, Mana Vault, Grim Monolith, Chrome Mox, Dark Ritual, Talismans; triple pips for Niv-Mizzet.",
+      "protection": "Fierce Guardianship, Deflecting Swat."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Peer into the Abyss",
+       "Nekusar, the Mindrazer",
+       "Sheoldred, the Apocalypse",
+       "Orcish Bowmasters",
+       "Razorkin Needlehead",
+       "Underworld Dreams"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "peer-punish",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Fate Unraveler",
+       "Underworld Dreams",
+       "Sheoldred, the Apocalypse"
+      ],
+      "evidence_class": "fact",
+      "id": "breach-wheel",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Curiosity",
+       "Niv-Mizzet, Parun"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "curiosity-niv",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Nekusar, the Mindrazer",
+       "Wheel of Fortune",
+       "Windfall",
+       "Wheel and Deal",
+       "Echo of Eons"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Fate Unraveler",
+       "Underworld Dreams",
+       "Sheoldred, the Apocalypse",
+       "Spiteful Visions",
+       "Phyrexian Tyranny",
+       "Kederekt Parasite",
+       "Razorkin Needlehead",
+       "Scrawling Crawler",
+       "Orcish Bowmasters",
+       "Ghyrson Starn, Kelermorph"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "wheel-damage",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Nekusar is the best punisher and his draw-step trigger gives every opponent an extra draw to punish.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "The source says outright that without Nekusar the deck still works as a wheel/group-slug deck (blueprint L55) and that the punishers were chosen so it isn't commander-or-bust (L29). Only 1 of 7 Spellbook combos needs him (Nekusar + Peer into the Abyss). He multiplies the plan rather than being required by it. The cycle 51 M1 review (nekusar-01..09) verifies the engines and flags Krang self-damage (nekusar-03).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 2,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 4,
+      "combo_commander_independent": 2,
+      "combo_direct_commander_piece": 1,
+      "engines": 2,
+      "engines_explicit_commander": 2,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 7
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:board_wipe:c8cb0e985d75",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:artifacts_wiped:e30e247960d1",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:commander_removed_twice:3e538fc7656b",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:key_engine_exiled:c486c5b5f60a",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:mana_screw:c290ca4acb92",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:color_screw:ce8fc782d28a",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:graveyard_exiled:8722ded67b1c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "nekusar-the-mindrazer",
+ "source_packet": "data/grixis/bracket_stress_packets/nekusar-the-mindrazer.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

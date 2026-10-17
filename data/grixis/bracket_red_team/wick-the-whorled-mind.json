@@ -1,0 +1,2712 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 98,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:5256-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-5256-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace"
+      ],
+      "card": "Arcane Adaptation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Arcane Adaptation",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2034-5853",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2292-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2034-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2034-5853"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Black Market Connections",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Black Market Connections"
+      ],
+      "roles": [
+       "draw",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Blade of the Bloodchief",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Blade of the Bloodchief",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Blightstep Pathway // Searstep Pathway",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Blightstep Pathway // Searstep Pathway"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Boggart Trawler // Boggart Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Boggart Trawler // Boggart Bog"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Bulk Up",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value"
+      ],
+      "card": "Bulk Up",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Bulk Up",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2438-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2438-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chittering Witch",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Chittering Witch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Clearwater Pathway // Murkwater Pathway",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Clearwater Pathway // Murkwater Pathway"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dark Ritual",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Dark Ritual"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:5147-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-5147-5853"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Impact Tremors",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Impact Tremors"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Intruder Alarm",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value"
+      ],
+      "card": "Intruder Alarm",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Intruder Alarm",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:1636-3126",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:gnawer-alarm"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Jeska's Will",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Jeska's Will"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Karumonix, the Rat King",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Karumonix, the Rat King"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Leyline of Transformation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace"
+      ],
+      "card": "Leyline of Transformation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Leyline of Transformation",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2034-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2292-5853-5929"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lich's Relic",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lich's Relic",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lord Skitter's Butcher",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lord Skitter's Butcher"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lord Skitter, Sewer King",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lord Skitter, Sewer King"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Intruder Alarm",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats"
+      ],
+      "card": "Marrow-Gnawer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Marrow-Gnawer",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:1636-3126",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:gnawer-alarm"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:type-changers"
+      ],
+      "card": "Maskwood Nexus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Maskwood Nexus",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:type-changers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mirkwood Bats",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Mirkwood Bats"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#recursion/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Pack Rat",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Pack Rat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Consultation/Breach (decisions L139).",
+      "No Conspiracy (L138) or Panharmonicon (L133)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The activation needs all three colors.",
+      "evidence_class": "strategic_judgment",
+      "id": "three-color-activation",
+      "mitigations": [
+       "Mana Confluence",
+       "Typed duals"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Removing the Snail in response wastes the stored power.",
+      "evidence_class": "strategic_judgment",
+      "id": "snail-removal",
+      "mitigations": [
+       "The Ozolith",
+       "Instant-speed activation"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Enchantment removal on the type-changer breaks the loop.",
+      "evidence_class": "strategic_judgment",
+      "id": "enchantment-hate",
+      "mitigations": [
+       "Three type-changers",
+       "Tutors"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Feed the Swarm, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "U/B/R sources for the activation; Mana Confluence and fetches; Cavern is restricted.",
+      "protection": "Deflecting Swat, Fierce Guardianship, An Offer You Can't Refuse, Cavern of Souls."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Wick, the Whorled Mind",
+       "Arcane Adaptation",
+       "Leyline of Transformation",
+       "Viscera Seer",
+       "Carrion Feeder",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Altar of Dementia",
+       "Goblin Bombardment"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "snail-rat-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Marrow-Gnawer",
+       "Intruder Alarm"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Wick, the Whorled Mind"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "gnawer-alarm",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Wick, the Whorled Mind",
+       "Bulk Up",
+       "Lich's Relic",
+       "Blade of the Bloodchief",
+       "Song of Totentanz"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Pack Rat",
+       "Marrow-Gnawer",
+       "Lord Skitter, Sewer King",
+       "Lord Skitter's Butcher",
+       "Karumonix, the Rat King"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "big-snail",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Tainted Strike",
+       "Wick, the Whorled Mind"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "tainted-strike",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Wick is the Snail factory and the damage-and-draw outlet.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native combo: 12 of the 13 Spellbook combos name Wick (Wick + a type-changer + a free outlet); the 13th (1636-3126, Marrow-Gnawer + Intruder Alarm) doesn't. Wick costs {3}{B}, but the activation needs {U}{B}{R}, and Cavern of Souls mana can't pay it (verification L64).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 4,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 12,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 13
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:board_wipe:8a9e09992aba",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:artifacts_wiped:e6938be848e2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:commander_removed_twice:66dbf271a525",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:key_engine_exiled:a28e174db0a9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:mana_screw:2cc4443dedbd",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:color_screw:563ce4f6621a",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:graveyard_exiled:95a2fe7fc98a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:5256-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-5256-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace"
+      ],
+      "card": "Arcane Adaptation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Arcane Adaptation",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2034-5853",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2292-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2034-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2034-5853"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Blade of the Bloodchief",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Blade of the Bloodchief",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Bulk Up",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value"
+      ],
+      "card": "Bulk Up",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Bulk Up",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2438-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2438-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chittering Witch",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Chittering Witch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:5147-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-5147-5853"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Impact Tremors",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Impact Tremors"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Intruder Alarm",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value"
+      ],
+      "card": "Intruder Alarm",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Intruder Alarm",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:1636-3126",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:gnawer-alarm"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Karumonix, the Rat King",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Karumonix, the Rat King"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Leyline of Transformation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace"
+      ],
+      "card": "Leyline of Transformation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Leyline of Transformation",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2034-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2292-5853-5929"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lich's Relic",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lich's Relic",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lord Skitter's Butcher",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lord Skitter's Butcher"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lord Skitter, Sewer King",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lord Skitter, Sewer King"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Intruder Alarm",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats"
+      ],
+      "card": "Marrow-Gnawer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Marrow-Gnawer",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:1636-3126",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:gnawer-alarm"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:type-changers"
+      ],
+      "card": "Maskwood Nexus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Maskwood Nexus",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:type-changers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mirkwood Bats",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Mirkwood Bats"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#recursion/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Pack Rat",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Pack Rat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:4050-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-4050-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats"
+      ],
+      "card": "Piper of the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Piper of the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Song of Totentanz",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Song of Totentanz"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/wick-is-source",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/tainted-strike"
+      ],
+      "card": "Tainted Strike",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Tainted Strike",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:tainted-strike"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Consultation/Breach (decisions L139).",
+      "No Conspiracy (L138) or Panharmonicon (L133)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The activation needs all three colors.",
+      "evidence_class": "strategic_judgment",
+      "id": "three-color-activation",
+      "mitigations": [
+       "Mana Confluence",
+       "Typed duals"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Removing the Snail in response wastes the stored power.",
+      "evidence_class": "strategic_judgment",
+      "id": "snail-removal",
+      "mitigations": [
+       "The Ozolith",
+       "Instant-speed activation"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Enchantment removal on the type-changer breaks the loop.",
+      "evidence_class": "strategic_judgment",
+      "id": "enchantment-hate",
+      "mitigations": [
+       "Three type-changers",
+       "Tutors"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Feed the Swarm, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "U/B/R sources for the activation; Mana Confluence and fetches; Cavern is restricted.",
+      "protection": "Deflecting Swat, Fierce Guardianship, An Offer You Can't Refuse, Cavern of Souls."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Wick, the Whorled Mind",
+       "Arcane Adaptation",
+       "Leyline of Transformation",
+       "Viscera Seer",
+       "Carrion Feeder",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Altar of Dementia",
+       "Goblin Bombardment"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "snail-rat-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Marrow-Gnawer",
+       "Intruder Alarm"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Wick, the Whorled Mind"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "gnawer-alarm",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Wick, the Whorled Mind",
+       "Bulk Up",
+       "Lich's Relic",
+       "Blade of the Bloodchief",
+       "Song of Totentanz"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Pack Rat",
+       "Marrow-Gnawer",
+       "Lord Skitter, Sewer King",
+       "Lord Skitter's Butcher",
+       "Karumonix, the Rat King"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "big-snail",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Tainted Strike",
+       "Wick, the Whorled Mind"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "tainted-strike",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Wick is the Snail factory and the damage-and-draw outlet.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native combo: 12 of the 13 Spellbook combos name Wick (Wick + a type-changer + a free outlet); the 13th (1636-3126, Marrow-Gnawer + Intruder Alarm) doesn't. Wick costs {3}{B}, but the activation needs {U}{B}{R}, and Cavern of Souls mana can't pay it (verification L64).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 4,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 12,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 13
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:board_wipe:8a9e09992aba",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:artifacts_wiped:e6938be848e2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:commander_removed_twice:66dbf271a525",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:key_engine_exiled:a28e174db0a9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:mana_screw:2cc4443dedbd",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:color_screw:563ce4f6621a",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:graveyard_exiled:95a2fe7fc98a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:5256-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-5256-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace"
+      ],
+      "card": "Arcane Adaptation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Arcane Adaptation",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2034-5853",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2292-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2034-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2034-5853"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Blade of the Bloodchief",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Blade of the Bloodchief",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Bulk Up",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value"
+      ],
+      "card": "Bulk Up",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Bulk Up",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2438-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2438-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chittering Witch",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Chittering Witch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:5147-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-5147-5853"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Impact Tremors",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Impact Tremors"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Intruder Alarm",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value"
+      ],
+      "card": "Intruder Alarm",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Intruder Alarm",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:1636-3126",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:gnawer-alarm"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Karumonix, the Rat King",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Karumonix, the Rat King"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Leyline of Transformation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace"
+      ],
+      "card": "Leyline of Transformation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Leyline of Transformation",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2034-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2292-5853-5929"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lich's Relic",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lich's Relic",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lord Skitter's Butcher",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lord Skitter's Butcher"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lord Skitter, Sewer King",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lord Skitter, Sewer King"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Intruder Alarm",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats"
+      ],
+      "card": "Marrow-Gnawer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Marrow-Gnawer",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:1636-3126",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:gnawer-alarm"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:type-changers"
+      ],
+      "card": "Maskwood Nexus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Maskwood Nexus",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:type-changers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mirkwood Bats",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Mirkwood Bats"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#recursion/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Pack Rat",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Pack Rat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Phyrexian Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Phyrexian Altar",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:4050-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-4050-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats"
+      ],
+      "card": "Piper of the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Piper of the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Song of Totentanz",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Song of Totentanz"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/wick-is-source",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/tainted-strike"
+      ],
+      "card": "Tainted Strike",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Tainted Strike",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:tainted-strike"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Consultation/Breach (decisions L139).",
+      "No Conspiracy (L138) or Panharmonicon (L133)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The activation needs all three colors.",
+      "evidence_class": "strategic_judgment",
+      "id": "three-color-activation",
+      "mitigations": [
+       "Mana Confluence",
+       "Typed duals"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Removing the Snail in response wastes the stored power.",
+      "evidence_class": "strategic_judgment",
+      "id": "snail-removal",
+      "mitigations": [
+       "The Ozolith",
+       "Instant-speed activation"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Enchantment removal on the type-changer breaks the loop.",
+      "evidence_class": "strategic_judgment",
+      "id": "enchantment-hate",
+      "mitigations": [
+       "Three type-changers",
+       "Tutors"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Feed the Swarm, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "U/B/R sources for the activation; Mana Confluence and fetches; Cavern is restricted.",
+      "protection": "Deflecting Swat, Fierce Guardianship, An Offer You Can't Refuse, Cavern of Souls."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Wick, the Whorled Mind",
+       "Arcane Adaptation",
+       "Leyline of Transformation",
+       "Viscera Seer",
+       "Carrion Feeder",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Altar of Dementia",
+       "Goblin Bombardment"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "snail-rat-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Marrow-Gnawer",
+       "Intruder Alarm"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Wick, the Whorled Mind"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "gnawer-alarm",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Wick, the Whorled Mind",
+       "Bulk Up",
+       "Lich's Relic",
+       "Blade of the Bloodchief",
+       "Song of Totentanz"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Pack Rat",
+       "Marrow-Gnawer",
+       "Lord Skitter, Sewer King",
+       "Lord Skitter's Butcher",
+       "Karumonix, the Rat King"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "big-snail",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Tainted Strike",
+       "Wick, the Whorled Mind"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "tainted-strike",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Wick is the Snail factory and the damage-and-draw outlet.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native combo: 12 of the 13 Spellbook combos name Wick (Wick + a type-changer + a free outlet); the 13th (1636-3126, Marrow-Gnawer + Intruder Alarm) doesn't. Wick costs {3}{B}, but the activation needs {U}{B}{R}, and Cavern of Souls mana can't pay it (verification L64).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 4,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 12,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 13
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:board_wipe:8a9e09992aba",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:artifacts_wiped:e6938be848e2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:commander_removed_twice:66dbf271a525",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:key_engine_exiled:a28e174db0a9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:mana_screw:2cc4443dedbd",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:color_screw:563ce4f6621a",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:graveyard_exiled:95a2fe7fc98a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Altar of Dementia",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Altar of Dementia",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:5256-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-5256-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace"
+      ],
+      "card": "Arcane Adaptation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Arcane Adaptation",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2034-5853",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2292-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Ashnod's Altar",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Ashnod's Altar",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2034-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2034-5853"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Blade of the Bloodchief",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Blade of the Bloodchief",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Blasphemous Act",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Blasphemous Act"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Boggart Trawler // Boggart Bog",
+      "decision_support": false,
+      "disposition": "meta_dependent",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Boggart Trawler // Boggart Bog"
+      ],
+      "roles": [
+       "land",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Bulk Up",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value"
+      ],
+      "card": "Bulk Up",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Bulk Up",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Carrion Feeder",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Carrion Feeder",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2438-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-2438-5853"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Chaos Warp",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Chaos Warp"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Chittering Witch",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Chittering Witch"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#tutor_targets/Arcane Adaptation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Feed the Swarm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Feed the Swarm"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:outlets",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/snail-rat-loop"
+      ],
+      "card": "Goblin Bombardment",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Goblin Bombardment",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:5147-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:803-5147-5853"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Impact Tremors",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Impact Tremors"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Intruder Alarm",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value"
+      ],
+      "card": "Intruder Alarm",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Intruder Alarm",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:1636-3126",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:gnawer-alarm"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Karumonix, the Rat King",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Karumonix, the Rat King"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Leyline of Transformation",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace"
+      ],
+      "card": "Leyline of Transformation",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Leyline of Transformation",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2034-5853-5929",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:2292-5853-5929"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:snail-growth",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#plan/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lich's Relic",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lich's Relic",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:snail-growth"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lord Skitter's Butcher",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lord Skitter's Butcher"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Lord Skitter, Sewer King",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Lord Skitter, Sewer King"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#identity_core/Intruder Alarm",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats"
+      ],
+      "card": "Marrow-Gnawer",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Marrow-Gnawer",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#combo:1636-3126",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#win:gnawer-alarm"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#engines/type-change",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#key_interactions/add-not-replace",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:type-changers"
+      ],
+      "card": "Maskwood Nexus",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Maskwood Nexus",
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#package:type-changers"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mirkwood Bats",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Mirkwood Bats"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#packages/pkg:rats",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#recursion/value",
+       "blueprint:data/grixis/blueprints/wick-the-whorled-mind.json#win_conditions/big-snail"
+      ],
+      "card": "Pack Rat",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/wick-the-whorled-mind.json#metrics/Pack Rat"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "No generic Oracle/Consultation/Breach (decisions L139).",
+      "No Conspiracy (L138) or Panharmonicon (L133)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The activation needs all three colors.",
+      "evidence_class": "strategic_judgment",
+      "id": "three-color-activation",
+      "mitigations": [
+       "Mana Confluence",
+       "Typed duals"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Removing the Snail in response wastes the stored power.",
+      "evidence_class": "strategic_judgment",
+      "id": "snail-removal",
+      "mitigations": [
+       "The Ozolith",
+       "Instant-speed activation"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Enchantment removal on the type-changer breaks the loop.",
+      "evidence_class": "strategic_judgment",
+      "id": "enchantment-hate",
+      "mitigations": [
+       "Three type-changers",
+       "Tutors"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Fierce Guardianship, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Feed the Swarm, Chaos Warp, Toxic Deluge, Blasphemous Act, Cyclonic Rift.",
+      "mana": "U/B/R sources for the activation; Mana Confluence and fetches; Cavern is restricted.",
+      "protection": "Deflecting Swat, Fierce Guardianship, An Offer You Can't Refuse, Cavern of Souls."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Wick, the Whorled Mind",
+       "Arcane Adaptation",
+       "Leyline of Transformation",
+       "Viscera Seer",
+       "Carrion Feeder",
+       "Phyrexian Altar",
+       "Ashnod's Altar",
+       "Altar of Dementia",
+       "Goblin Bombardment"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Diabolic Intent",
+       "Demonic Tutor",
+       "Vampiric Tutor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "snail-rat-loop",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Marrow-Gnawer",
+       "Intruder Alarm"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Wick, the Whorled Mind"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "gnawer-alarm",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Wick, the Whorled Mind",
+       "Bulk Up",
+       "Lich's Relic",
+       "Blade of the Bloodchief",
+       "Song of Totentanz"
+      ],
+      "confidence": "high",
+      "enablers": [
+       "Pack Rat",
+       "Marrow-Gnawer",
+       "Lord Skitter, Sewer King",
+       "Lord Skitter's Butcher",
+       "Karumonix, the Rat King"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "big-snail",
+      "kind": "natural"
+     },
+     {
+      "cards": [
+       "Tainted Strike",
+       "Wick, the Whorled Mind"
+      ],
+      "confidence": "moderate",
+      "enablers": [],
+      "evidence_class": "strategic_judgment",
+      "id": "tainted-strike",
+      "kind": "alternate"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Wick is the Snail factory and the damage-and-draw outlet.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Commander-native combo: 12 of the 13 Spellbook combos name Wick (Wick + a type-changer + a free outlet); the 13th (1636-3126, Marrow-Gnawer + Intruder Alarm) doesn't. Wick costs {3}{B}, but the activation needs {U}{B}{R}, and Cavern of Souls mana can't pay it (verification L64).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 4,
+      "blueprint_wins_explicit_commander": 4,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 1,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 12,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 4,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 13
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:board_wipe:8a9e09992aba",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:artifacts_wiped:e6938be848e2",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:commander_removed_twice:66dbf271a525",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:key_engine_exiled:a28e174db0a9",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:mana_screw:2cc4443dedbd",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:color_screw:563ce4f6621a",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/wick-the-whorled-mind.json#test:wick-the-whorled-mind:stress:graveyard_exiled:95a2fe7fc98a",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "source_packet": "data/grixis/bracket_stress_packets/wick-the-whorled-mind.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}

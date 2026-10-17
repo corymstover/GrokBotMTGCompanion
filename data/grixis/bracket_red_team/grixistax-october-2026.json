@@ -1,0 +1,662 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "deck_id": "Grixistax___October_2026",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 98,
+  "commander_role": "significant",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume the primary win is identified and opponents hold relevant interaction. Determine whether the deck can assemble, protect, pivot, or recover without relying on generic power-core assumptions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Beseech the Mirror",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Beseech the Mirror"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#win_conditions/breach"
+      ],
+      "card": "Brain Freeze",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Brain Freeze",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:1368-1414-4856",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#engines/mana-lock",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#key_interactions/self-tax",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:prison"
+      ],
+      "card": "Chalice of the Void",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Chalice of the Void"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#engines/mana-lock",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#engines/thrull-parity"
+      ],
+      "card": "Contamination",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Contamination"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#plan/value",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#win_conditions/helm-leyline"
+      ],
+      "card": "Dauthi Voidwalker",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Dauthi Voidwalker",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:2581-5065"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#requirements/value"
+      ],
+      "card": "Deflecting Swat",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Deflecting Swat"
+      ],
+      "roles": [
+       "protection"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#tutor_targets/Helm of Obedience"
+      ],
+      "card": "Demonic Tutor",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Demonic Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#engines/thrull-parity",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#tutor_targets/Winter Orb"
+      ],
+      "card": "Diabolic Intent",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Diabolic Intent"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"
+      ],
+      "card": "Flusterstorm",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Flusterstorm"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Force of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"
+      ],
+      "card": "Force of Will",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Force of Will"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Gamble",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Gamble"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#identity_core/Helm of Obedience",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#plan/value",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#tutor_targets/Helm of Obedience"
+      ],
+      "card": "Helm of Obedience",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Helm of Obedience",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:2163-5065",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:2581-5065"
+      ],
+      "roles": [],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#tutor_targets/Helm of Obedience"
+      ],
+      "card": "Imperial Seal",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Imperial Seal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#recursion/value",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#win_conditions/breach"
+      ],
+      "card": "Jeska's Will",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Jeska's Will",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:1368-1878-2706"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:prison",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#plan/value",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#win_conditions/helm-leyline"
+      ],
+      "card": "Leyline of the Void",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Leyline of the Void",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:2163-5065"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:artifact-mana",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#win_conditions/breach"
+      ],
+      "card": "Lion's Eye Diamond",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Lion's Eye Diamond",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:1368-2706-3518",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:1368-3518-4856"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:artifact-mana",
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#win_conditions/breach"
+      ],
+      "card": "Lotus Petal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Lotus Petal",
+       "graph:data/grixis/graph/grixistax-october-2026.json#combo:1368-1414-4856"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mana Drain",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"
+      ],
+      "card": "Mental Misstep",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Mental Misstep"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Mystical Tutor",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Mystical Tutor"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#plan/value"
+      ],
+      "card": "Necropotence",
+      "decision_support": true,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Necropotence"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pact of Negation",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Pact of Negation"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"
+      ],
+      "card": "Pyroblast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Pyroblast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#win_conditions/lock-beatdown"
+      ],
+      "card": "Ragavan, Nimble Pilferer",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Ragavan, Nimble Pilferer"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"
+      ],
+      "card": "Red Elemental Blast",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Red Elemental Blast"
+      ],
+      "roles": [
+       "counter",
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#win_conditions/lock-beatdown"
+      ],
+      "card": "Sheoldred, the Apocalypse",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Sheoldred, the Apocalypse"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/grixistax-october-2026.json#packages/pkg:free-interaction"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/grixistax-october-2026.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Don't rebuild into stock Kraum/Tevesh turbo-combo (decisions L20).",
+      "No hard one-spell caps (Arcane Laboratory) that make Kraum's trigger dead and block Breach (decisions L35)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "The prison suite taxes your own mana, spells and utility lands.",
+      "evidence_class": "strategic_judgment",
+      "id": "self-lock",
+      "mitigations": [
+       "Sequence artifact mana first",
+       "Thrulls for Contamination"
+      ]
+     },
+     {
+      "confidence": "high",
+      "description": "Artifact wipes break parity against you.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-removal",
+      "mitigations": [
+       "Counters",
+       "Land-based enchantment locks"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Your own Damping Sphere/Trinisphere stop the Breach finish.",
+      "evidence_class": "strategic_judgment",
+      "id": "breach-blocked",
+      "mitigations": [
+       "Helm win",
+       "Remove own pieces first"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Free counters, Toxic Deluge, Cyclonic Rift, Deadly Rollick.",
+      "mana": "Heavy artifact fast mana to break the land locks; 26 lands.",
+      "protection": "Fierce Guardianship, Deflecting Swat, counters."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Helm of Obedience",
+       "Leyline of the Void",
+       "Dauthi Voidwalker"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "helm-leyline",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Underworld Breach",
+       "Lion's Eye Diamond",
+       "Lotus Petal",
+       "Brain Freeze",
+       "Wheel of Fortune",
+       "Jeska's Will"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "breach",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Sheoldred, the Apocalypse",
+       "Ragavan, Nimble Pilferer"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Kraum, Ludevic's Opus"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "lock-beatdown",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Tevesh Szat is the parity engine (Thrulls pay Contamination, feed Skullclamp, Phyrexian Tower and Culling the Weak); Kraum is evasive pressure and a draw trigger.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Both win lines (Helm + Leyline/Dauthi, Breach) are commander-independent, and Kraum is close to incidental: he only draws when an opponent casts a second spell, which this deck's own taxes suppress. The pair is chosen for parity breaking, not as an engine the deck can't run without (source: decisions L28).",
+      "level": "significant"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 1,
+      "blueprint_wins_structurally_independent": 2,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 6,
+      "combo_direct_commander_piece": 0,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 6
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": null,
+      "source": "data/grixis/audit/grixistax-october-2026.json#baseline_sim",
+      "status": "reused_goldfish_readiness",
+      "stress_id": "turbo_clock"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/grixistax-october-2026.json#test:grixistax-october-2026:stress:first_key_spell_countered:bc01950c45ee",
+      "status": "reused_existing_test_result",
+      "stress_id": "first_key_spell_countered"
+     },
+     {
+      "legacy_verdict": "inconclusive",
+      "source": "data/grixis/stress/grixistax-october-2026.json#test:grixistax-october-2026:stress:graveyard_exiled:ac043b1c5f8c",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/grixistax-october-2026.json#test:grixistax-october-2026:stress:commander_removed_twice:90a0d7ea67cc",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/grixistax-october-2026.json#test:grixistax-october-2026:stress:key_engine_exiled:bf6580a121c4",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     }
+    ]
+   },
+   "id": "protected_win_red_team",
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "grixistax-october-2026",
+ "source_packet": "data/grixis/bracket_stress_packets/grixistax-october-2026.json",
+ "status": "red_team_pending",
+ "suite_family": "B5_competitive"
+}

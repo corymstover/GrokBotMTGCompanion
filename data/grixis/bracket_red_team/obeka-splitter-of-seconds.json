@@ -1,0 +1,2317 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "This packet frames required adversarial reviews; script generation never answers or decides them."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "evidence_class": "strategic_judgment",
+ "limitations": [
+  "Evidence context is assembled mechanically and may include irrelevant rows; the reviewer must judge relevance.",
+  "A pending red-team prompt is not a judgment_review and cannot support an M6 decision.",
+  "No script-authored verdict or recommendation is permitted.",
+  "Priority weights allocate review attention only.",
+  "Later judgment must preserve Commander-first identity and bracket-specific context."
+ ],
+ "packet_context": {
+  "audit_slots": 95,
+  "commander_role": "central",
+  "failure_modes": 3
+ },
+ "reviews": [
+  {
+   "adversarial_challenge": "Assume multiple permanent types are answered over several turns. Identify which strategic routes actually rebuild and which collapse after repeated removal.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:suspend"
+      ],
+      "card": "Ancestral Vision",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Ancestral Vision"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Arcane Signet",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Arcane Signet"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Bonehoard Dracosaur",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Bonehoard Dracosaur"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/damage-multiplication",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:damage-trigger-scaling"
+      ],
+      "card": "Combat Research",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Combat Research"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Court of Vantress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Court of Vantress",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1469-1558-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Creeping Bloodsucker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Creeping Bloodsucker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/upkeep-wincons",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Darksteel Reactor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Darksteel Reactor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dragonmaster Outcast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Dragonmaster Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Extravagant Replication",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Extravagant Replication"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Fellwar Stone",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Fellwar Stone"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:suspend"
+      ],
+      "card": "Inspiring Refrain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Inspiring Refrain"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/upkeep-wincons",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Mechanized Production",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Mechanized Production",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:2047-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/damage-multiplication",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Mjölnir, Hammer of Thor",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/mjolnir-worthy"
+      ],
+      "card": "Mjölnir, Hammer of Thor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Mjölnir, Hammer of Thor"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Paradox Haze",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Paradox Haze"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Phyrexian Arena",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Phyrexian Arena"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns"
+      ],
+      "card": "Replicating Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Replicating Ring",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5471-7348"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Rhystic Study",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Rhystic Study"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ring of Valkas",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Ring of Valkas"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ring of Xathrid",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Ring of Xathrid"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/damage-multiplication",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/throne-ogre"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:suspend"
+      ],
+      "card": "Rousing Refrain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Rousing Refrain"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Smaug the Magnificent",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts"
+      ],
+      "card": "Smaug the Magnificent",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Smaug the Magnificent",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5471-7651",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#win:advantage-combat"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Sol Ring",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Sol Ring"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Super Intelligence",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Super Intelligence",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Super Intelligence"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Creativity",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Talisman of Creativity"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Dominance",
+      "decision_support": false,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Talisman of Dominance"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Talisman of Indulgence",
+      "decision_support": false,
+      "disposition": "flexible",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Talisman of Indulgence"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/advantage-combat"
+      ],
+      "card": "Tamiyo's Journal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Tamiyo's Journal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Not generic Grixis cEDH (blueprint L48); no generic extra turns or Oracle/Breach (L49).",
+      "No more evasion slots (L50)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Blockers, fogs and removal stop the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-connection",
+      "mitigations": [
+       "Menace",
+       "Evasion package"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact removal answers Time Sieve.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Upkeep value even without the combo"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Many upkeep engines cost four to six mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "four-to-six-drops",
+      "mitigations": [
+       "35 lands"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Cyclonic Rift, Toxic Deluge.",
+      "mana": "35 lands (blueprint L52).",
+      "protection": "Fierce Guardianship, Deflecting Swat, Greaves, Boots, Dragonfire Blade."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Time Sieve",
+       "Court of Vantress",
+       "Thopter Spy Network",
+       "Replicating Ring",
+       "Smaug the Magnificent"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "evidence_class": "fact",
+      "id": "time-sieve-turns",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Mechanized Production",
+       "Darksteel Reactor"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "alt-wins",
+      "kind": "alternate"
+     },
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Smaug the Magnificent"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Super Intelligence",
+       "Smaug the Magnificent",
+       "Tamiyo's Journal",
+       "Darksteel Reactor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "advantage-combat",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Obeka's combat-damage trigger is the deck's resource multiplier, and she's in all 5 Spellbook combos in the list.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Strongly commander-native: every combo includes Obeka (Time Sieve + Court of Vantress/Thopter Spy Network/Replicating Ring/Smaug; Mechanized Production). She has to connect in combat first, so a 2/5 menace attacker is the bottleneck, and the extra upkeeps arrive after combat. M1 review (obekass-01..05, all verified) confirms the extra-upkeep rules; Roaming Throne + Wizard's Staff gives three triggers, not four (obekass-03).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 5,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 5
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:board_wipe:c4c8ecd0ba59",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:artifacts_wiped:da4014f77b16",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:commander_removed_twice:f1b99a3131e4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:key_engine_exiled:00c5503d2f28",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:mana_screw:d4719a40d053",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:color_screw:3187c34f8fb2",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:graveyard_exiled:7f246b1f7df1",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "repeated_removal_attrition",
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat or targeting is materially constrained. Identify noncombat pivots, answers, and any commander-native route that still functions.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Court of Ire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Court of Ire"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Court of Vantress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Court of Vantress",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1469-1558-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Creeping Bloodsucker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Creeping Bloodsucker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/upkeep-wincons",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Darksteel Reactor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Darksteel Reactor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dragonmaster Outcast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Dragonmaster Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Extravagant Replication",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Extravagant Replication"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/upkeep-wincons",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Mechanized Production",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Mechanized Production",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:2047-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/damage-multiplication",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Mjölnir, Hammer of Thor",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/mjolnir-worthy"
+      ],
+      "card": "Mjölnir, Hammer of Thor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Mjölnir, Hammer of Thor"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Paradox Haze",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Paradox Haze"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns"
+      ],
+      "card": "Replicating Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Replicating Ring",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5471-7348"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ring of Valkas",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Ring of Valkas"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ring of Xathrid",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Ring of Xathrid"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/damage-multiplication",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/throne-ogre"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Smaug the Magnificent",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts"
+      ],
+      "card": "Smaug the Magnificent",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Smaug the Magnificent",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5471-7651",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#win:advantage-combat"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Super Intelligence",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Super Intelligence",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Super Intelligence"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:suspend"
+      ],
+      "card": "Suspended Sentence",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Suspended Sentence"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/advantage-combat"
+      ],
+      "card": "Tamiyo's Journal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Tamiyo's Journal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Thopter Spy Network",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Thopter Spy Network",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5085-5471"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#failure_modes/artifact-hate",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Time Sieve"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Time Sieve",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1469-1558-5471",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5085-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Twilight Prophet",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Twilight Prophet"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Not generic Grixis cEDH (blueprint L48); no generic extra turns or Oracle/Breach (L49).",
+      "No more evasion slots (L50)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Blockers, fogs and removal stop the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-connection",
+      "mitigations": [
+       "Menace",
+       "Evasion package"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact removal answers Time Sieve.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Upkeep value even without the combo"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Many upkeep engines cost four to six mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "four-to-six-drops",
+      "mitigations": [
+       "35 lands"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Cyclonic Rift, Toxic Deluge.",
+      "mana": "35 lands (blueprint L52).",
+      "protection": "Fierce Guardianship, Deflecting Swat, Greaves, Boots, Dragonfire Blade."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Time Sieve",
+       "Court of Vantress",
+       "Thopter Spy Network",
+       "Replicating Ring",
+       "Smaug the Magnificent"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "evidence_class": "fact",
+      "id": "time-sieve-turns",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Mechanized Production",
+       "Darksteel Reactor"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "alt-wins",
+      "kind": "alternate"
+     },
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Smaug the Magnificent"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Super Intelligence",
+       "Smaug the Magnificent",
+       "Tamiyo's Journal",
+       "Darksteel Reactor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "advantage-combat",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Obeka's combat-damage trigger is the deck's resource multiplier, and she's in all 5 Spellbook combos in the list.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Strongly commander-native: every combo includes Obeka (Time Sieve + Court of Vantress/Thopter Spy Network/Replicating Ring/Smaug; Mechanized Production). She has to connect in combat first, so a 2/5 menace attacker is the bottleneck, and the extra upkeeps arrive after combat. M1 review (obekass-01..05, all verified) confirms the extra-upkeep rules; Roaming Throne + Wizard's Staff gives three triggers, not four (obekass-03).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 5,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 5
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:board_wipe:c4c8ecd0ba59",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:artifacts_wiped:da4014f77b16",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:commander_removed_twice:f1b99a3131e4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:key_engine_exiled:00c5503d2f28",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:mana_screw:d4719a40d053",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:color_screw:3187c34f8fb2",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:graveyard_exiled:7f246b1f7df1",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "pillowfort",
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume combat lanes are clogged by expendable bodies. Determine whether the deck can progress without favorable combat and whether its removal/wipe plan preserves its own identity engine.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Court of Ire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Court of Ire"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Court of Vantress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Court of Vantress",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1469-1558-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Creeping Bloodsucker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Creeping Bloodsucker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/upkeep-wincons",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Darksteel Reactor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Darksteel Reactor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dragonmaster Outcast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Dragonmaster Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Extravagant Replication",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Extravagant Replication"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/upkeep-wincons",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Mechanized Production",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Mechanized Production",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:2047-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/damage-multiplication",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Mjölnir, Hammer of Thor",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/mjolnir-worthy"
+      ],
+      "card": "Mjölnir, Hammer of Thor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Mjölnir, Hammer of Thor"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Paradox Haze",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Paradox Haze"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns"
+      ],
+      "card": "Replicating Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Replicating Ring",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5471-7348"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ring of Valkas",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Ring of Valkas"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ring of Xathrid",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Ring of Xathrid"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/damage-multiplication",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/throne-ogre"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Smaug the Magnificent",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts"
+      ],
+      "card": "Smaug the Magnificent",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Smaug the Magnificent",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5471-7651",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#win:advantage-combat"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Super Intelligence",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Super Intelligence",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Super Intelligence"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:suspend"
+      ],
+      "card": "Suspended Sentence",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Suspended Sentence"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/advantage-combat"
+      ],
+      "card": "Tamiyo's Journal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Tamiyo's Journal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Thopter Spy Network",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Thopter Spy Network",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5085-5471"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#failure_modes/artifact-hate",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Time Sieve"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Time Sieve",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1469-1558-5471",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5085-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Twilight Prophet",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Twilight Prophet"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Not generic Grixis cEDH (blueprint L48); no generic extra turns or Oracle/Breach (L49).",
+      "No more evasion slots (L50)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Blockers, fogs and removal stop the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-connection",
+      "mitigations": [
+       "Menace",
+       "Evasion package"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact removal answers Time Sieve.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Upkeep value even without the combo"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Many upkeep engines cost four to six mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "four-to-six-drops",
+      "mitigations": [
+       "35 lands"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Cyclonic Rift, Toxic Deluge.",
+      "mana": "35 lands (blueprint L52).",
+      "protection": "Fierce Guardianship, Deflecting Swat, Greaves, Boots, Dragonfire Blade."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Time Sieve",
+       "Court of Vantress",
+       "Thopter Spy Network",
+       "Replicating Ring",
+       "Smaug the Magnificent"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "evidence_class": "fact",
+      "id": "time-sieve-turns",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Mechanized Production",
+       "Darksteel Reactor"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "alt-wins",
+      "kind": "alternate"
+     },
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Smaug the Magnificent"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Super Intelligence",
+       "Smaug the Magnificent",
+       "Tamiyo's Journal",
+       "Darksteel Reactor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "advantage-combat",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Obeka's combat-damage trigger is the deck's resource multiplier, and she's in all 5 Spellbook combos in the list.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Strongly commander-native: every combo includes Obeka (Time Sieve + Court of Vantress/Thopter Spy Network/Replicating Ring/Smaug; Mechanized Production). She has to connect in combat first, so a 2/5 menace attacker is the bottleneck, and the extra upkeeps arrive after combat. M1 review (obekass-01..05, all verified) confirms the extra-upkeep rules; Roaming Throne + Wizard's Staff gives three triggers, not four (obekass-03).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 5,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 5
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:board_wipe:c4c8ecd0ba59",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:artifacts_wiped:da4014f77b16",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:commander_removed_twice:f1b99a3131e4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:key_engine_exiled:00c5503d2f28",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:mana_screw:d4719a40d053",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:color_screw:3187c34f8fb2",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:graveyard_exiled:7f246b1f7df1",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "token_stall",
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  },
+  {
+   "adversarial_challenge": "Assume a key artifact/enchantment is removed and an opposing noncreature permanent must be answered. Verify actual answers, recursion/replacement lines, and package fragility.",
+   "analysis": null,
+   "can_decide": false,
+   "evidence_context": {
+    "audit_focus": [
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "An Offer You Can't Refuse",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/An Offer You Can't Refuse"
+      ],
+      "roles": [
+       "counter",
+       "ramp"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Court of Ire",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Court of Ire"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Court of Vantress",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Court of Vantress",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1469-1558-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Creeping Bloodsucker",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Creeping Bloodsucker"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Cyclonic Rift",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Cyclonic Rift"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/upkeep-wincons",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Darksteel Reactor",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Darksteel Reactor"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Deadly Rollick",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Deadly Rollick"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Dragonmaster Outcast",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Dragonmaster Outcast"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Extravagant Replication",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Extravagant Replication"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Fierce Guardianship",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Fierce Guardianship"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Mana Drain",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Mana Drain"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/upkeep-wincons",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Mechanized Production",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Mechanized Production",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:2047-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/damage-multiplication",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Mjölnir, Hammer of Thor",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/mjolnir-worthy"
+      ],
+      "card": "Mjölnir, Hammer of Thor",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Mjölnir, Hammer of Thor"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Paradox Haze",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Paradox Haze"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Plargg and Nassari",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Plargg and Nassari"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/time-sieve-turns"
+      ],
+      "card": "Replicating Ring",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Replicating Ring",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5471-7348"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ring of Valkas",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Ring of Valkas"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Ring of Xathrid",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Ring of Xathrid"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/damage-multiplication",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/throne-ogre"
+      ],
+      "card": "Roaming Throne",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Roaming Throne"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Smaug the Magnificent",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts"
+      ],
+      "card": "Smaug the Magnificent",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Smaug the Magnificent",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5471-7651",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#win:advantage-combat"
+      ],
+      "roles": [
+       "ramp"
+      ],
+      "structural_necessity": "necessary"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Super Intelligence",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Super Intelligence",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Super Intelligence"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:suspend"
+      ],
+      "card": "Suspended Sentence",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Suspended Sentence"
+      ],
+      "roles": [
+       "removal"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Swan Song",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Swan Song"
+      ],
+      "roles": [
+       "counter"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#engines/extra-upkeeps",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#win_conditions/advantage-combat"
+      ],
+      "card": "Tamiyo's Journal",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Tamiyo's Journal"
+      ],
+      "roles": [
+       "tutor"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#key_interactions/sieve-upkeep-artifacts",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#packages/pkg:upkeep-engines"
+      ],
+      "card": "Thopter Spy Network",
+      "decision_support": true,
+      "disposition": "strong_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Thopter Spy Network",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5085-5471"
+      ],
+      "roles": [
+       "draw"
+      ],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#commander_role/value",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#failure_modes/artifact-hate",
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#identity_core/Time Sieve"
+      ],
+      "card": "Time Sieve",
+      "decision_support": true,
+      "disposition": "core",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Time Sieve",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1469-1558-5471",
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#combo:1558-5085-5471"
+      ],
+      "roles": [],
+      "structural_necessity": "important"
+     },
+     {
+      "blueprint_refs": [
+       "blueprint:data/grixis/blueprints/obeka-splitter-of-seconds.json#requirements/value"
+      ],
+      "card": "Toxic Deluge",
+      "decision_support": true,
+      "disposition": "functional_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Toxic Deluge"
+      ],
+      "roles": [
+       "wipe"
+      ],
+      "structural_necessity": "redundant"
+     },
+     {
+      "blueprint_refs": [],
+      "card": "Twilight Prophet",
+      "decision_support": false,
+      "disposition": "weak_retain",
+      "graph_refs": [
+       "graph:data/grixis/graph/obeka-splitter-of-seconds.json#metrics/Twilight Prophet"
+      ],
+      "roles": [],
+      "structural_necessity": "independent"
+     }
+    ],
+    "blueprint_anti_goals": {
+     "confidence": "high",
+     "evidence_class": "strategic_judgment",
+     "value": [
+      "Not generic Grixis cEDH (blueprint L48); no generic extra turns or Oracle/Breach (L49).",
+      "No more evasion slots (L50)."
+     ]
+    },
+    "blueprint_failure_modes": [
+     {
+      "confidence": "high",
+      "description": "Blockers, fogs and removal stop the engine.",
+      "evidence_class": "strategic_judgment",
+      "id": "no-connection",
+      "mitigations": [
+       "Menace",
+       "Evasion package"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Artifact removal answers Time Sieve.",
+      "evidence_class": "strategic_judgment",
+      "id": "artifact-hate",
+      "mitigations": [
+       "Upkeep value even without the combo"
+      ]
+     },
+     {
+      "confidence": "moderate",
+      "description": "Many upkeep engines cost four to six mana.",
+      "evidence_class": "strategic_judgment",
+      "id": "four-to-six-drops",
+      "mitigations": [
+       "35 lands"
+      ]
+     }
+    ],
+    "blueprint_requirements": {
+     "confidence": "moderate",
+     "evidence_class": "strategic_judgment",
+     "value": {
+      "interaction": "Mana Drain, Swan Song, An Offer You Can't Refuse, Deadly Rollick, Cyclonic Rift, Toxic Deluge.",
+      "mana": "35 lands (blueprint L52).",
+      "protection": "Fierce Guardianship, Deflecting Swat, Greaves, Boots, Dragonfire Blade."
+     }
+    },
+    "blueprint_win_conditions": [
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Time Sieve",
+       "Court of Vantress",
+       "Thopter Spy Network",
+       "Replicating Ring",
+       "Smaug the Magnificent"
+      ],
+      "confidence": "verified",
+      "enablers": [
+       "Mjölnir, Hammer of Thor",
+       "Roaming Throne"
+      ],
+      "evidence_class": "fact",
+      "id": "time-sieve-turns",
+      "kind": "combo"
+     },
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Mechanized Production",
+       "Darksteel Reactor"
+      ],
+      "confidence": "verified",
+      "enablers": [],
+      "evidence_class": "fact",
+      "id": "alt-wins",
+      "kind": "alternate"
+     },
+     {
+      "cards": [
+       "Obeka, Splitter of Seconds",
+       "Smaug the Magnificent"
+      ],
+      "confidence": "moderate",
+      "enablers": [
+       "Super Intelligence",
+       "Smaug the Magnificent",
+       "Tamiyo's Journal",
+       "Darksteel Reactor"
+      ],
+      "evidence_class": "strategic_judgment",
+      "id": "advantage-combat",
+      "kind": "natural"
+     }
+    ],
+    "commander_structure": {
+     "accepted_role": {
+      "advances_plan": "Obeka's combat-damage trigger is the deck's resource multiplier, and she's in all 5 Spellbook combos in the list.",
+      "confidence": "high",
+      "evidence_class": "strategic_judgment",
+      "honest_note": "Strongly commander-native: every combo includes Obeka (Time Sieve + Court of Vantress/Thopter Spy Network/Replicating Ring/Smaug; Mechanized Production). She has to connect in combat first, so a 2/5 menace attacker is the bottleneck, and the extra upkeeps arrive after combat. M1 review (obekass-01..05, all verified) confirms the extra-upkeep rules; Roaming Throne + Wizard's Staff gives three triggers, not four (obekass-03).",
+      "level": "central"
+     },
+     "summary": {
+      "blueprint_wins": 3,
+      "blueprint_wins_explicit_commander": 3,
+      "blueprint_wins_structurally_independent": 0,
+      "combo_blueprint_supported": 0,
+      "combo_commander_independent": 0,
+      "combo_direct_commander_piece": 5,
+      "engines": 2,
+      "engines_explicit_commander": 1,
+      "required_packages": 3,
+      "required_packages_explicit_commander": 0,
+      "spellbook_lines": 5
+     }
+    },
+    "supporting_test_refs": [
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:board_wipe:c4c8ecd0ba59",
+      "status": "reused_existing_test_result",
+      "stress_id": "board_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:artifacts_wiped:da4014f77b16",
+      "status": "reused_existing_test_result",
+      "stress_id": "artifact_wipe"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:commander_removed_twice:f1b99a3131e4",
+      "status": "reused_existing_test_result",
+      "stress_id": "commander_disruption"
+     },
+     {
+      "legacy_verdict": "fail",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:key_engine_exiled:00c5503d2f28",
+      "status": "reused_existing_test_result",
+      "stress_id": "key_engine_exiled"
+     },
+     {
+      "legacy_verdict": "pass",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:mana_screw:d4719a40d053",
+      "status": "reused_existing_test_result",
+      "stress_id": "mana_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:color_screw:3187c34f8fb2",
+      "status": "reused_existing_test_result",
+      "stress_id": "color_screw"
+     },
+     {
+      "legacy_verdict": "no_detectable_difference",
+      "source": "data/grixis/stress/obeka-splitter-of-seconds.json#test:obeka-splitter-of-seconds:stress:graveyard_exiled:7f246b1f7df1",
+      "status": "reused_existing_test_result",
+      "stress_id": "graveyard_exiled"
+     }
+    ]
+   },
+   "id": "artifact_enchantment_interaction",
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+   "review_contract": {
+    "acceptable_evidence_classes": [
+     "fact",
+     "test_result",
+     "strategic_judgment"
+    ],
+    "heuristic_only_sufficient": false,
+    "may_decide_swap": false,
+    "must_address_bracket_context": true,
+    "must_address_commander_identity": true,
+    "required_review_method": "human_or_agent_judgment_not_script"
+   },
+   "review_status": "pending",
+   "reviewer": null,
+   "uncertainties": [],
+   "verdict": null
+  }
+ ],
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "source_packet": "data/grixis/bracket_stress_packets/obeka-splitter-of-seconds.json",
+ "status": "red_team_pending",
+ "suite_family": "B4_resilience"
+}
