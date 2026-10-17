@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/m6_sealed_reconciliation.schema.json",
+  "title": "M6 commit-then-reveal A/B reconciliation manifest (Pass C still required)",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "stage": {
+      "const": "M6_A_B_commit_then_reveal"
+    },
+    "pass_a_commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "pass_b_commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "passes": {
+      "type": "array",
+      "minItems": 62,
+      "maxItems": 62,
+      "items": {
+        "type": "object",
+        "properties": {
+          "deck_id": {
+            "$ref": "common.schema.json#/$defs/deck_id"
+          },
+          "slug": {
+            "$ref": "common.schema.json#/$defs/slug"
+          },
+          "list_hash": {
+            "$ref": "common.schema.json#/$defs/list_hash"
+          },
+          "a_sha256": {
+            "$ref": "common.schema.json#/$defs/sha256"
+          },
+          "b_sha256": {
+            "$ref": "common.schema.json#/$defs/sha256"
+          },
+          "agreements": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "disagreements": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "deep_review": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "deck_id",
+          "slug",
+          "list_hash",
+          "a_sha256",
+          "b_sha256",
+          "agreements",
+          "disagreements",
+          "deep_review"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "counts": {
+      "type": "object",
+      "properties": {
+        "decks": {
+          "const": 62
+        },
+        "agreements": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "disagreements": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "deep_review": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "decks",
+        "agreements",
+        "disagreements",
+        "deep_review"
+      ],
+      "additionalProperties": false
+    },
+    "pass_c": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "const": false
+        },
+        "status": {
+          "const": "awaiting_named_critic"
+        },
+        "model_limited_positive_tests_decisive": {
+          "const": false
+        }
+      },
+      "required": [
+        "complete",
+        "status",
+        "model_limited_positive_tests_decisive"
+      ],
+      "additionalProperties": false
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "can_decide": {
+          "const": false
+        },
+        "can_apply_swap": {
+          "const": false
+        },
+        "can_approve_or_lock": {
+          "const": false
+        }
+      },
+      "required": [
+        "can_decide",
+        "can_apply_swap",
+        "can_approve_or_lock"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "stage",
+    "pass_a_commit",
+    "pass_b_commit",
+    "passes",
+    "counts",
+    "pass_c",
+    "authority"
+  ],
+  "additionalProperties": false
+}
