@@ -34,7 +34,7 @@ jobs:
       - name: Restore exact frozen development inputs
         run: |
           python - <<'PY'
-          import hashlib, pathlib, urllib.request
+          import hashlib, json, pathlib, urllib.request
           files = [
             ("https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz", "oracle-cards-20261016090200.jsonl.gz", "ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483"),
             ("https://data.scryfall.io/rulings/rulings-20261015090033.jsonl.gz", "rulings-20261015090033.jsonl.gz", "3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a"),
@@ -47,35 +47,31 @@ jobs:
               if got != want: raise SystemExit(f'HASH MISMATCH {name}: {got}')
               print('restored+verified',name,p.stat().st_size,'sha256',got)
 
-          # Historical Comprehensive Rules input used by Step A/M5. Recover an exact archived copy,
-          # pinned to the mtgrulediff commit whose only purpose was "Add 20260925 rules".
+          lock=json.load(open('data/grixis/dev_rules_lock.json'))
+          src=lock['recovery_source']
           rules_url=(
-              "https://raw.githubusercontent.com/muz/mtgrulediff/"
-              "8ba7eb0d63a9b1e67aa1280fafb9fd0d16052592/rules/MagicCompRules%2020260925.txt"
+              f"https://raw.githubusercontent.com/{src['repository']}/{src['commit']}/rules/"
+              "MagicCompRules%2020260925.txt"
           )
-          rules=d/'MagicCompRules-20260925.txt'
+          rules=d/lock['file']
           urllib.request.urlretrieve(rules_url,rules)
           b=rules.read_bytes()
+          got='sha256:'+hashlib.sha256(b).hexdigest()
           blob=hashlib.sha1(f"blob {len(b)}\0".encode()+b).hexdigest()
-          if len(b) != 977752:
-              raise SystemExit(f'RULES SIZE MISMATCH: {len(b)}')
-          if blob != '4dc4fead596288be1ca6aa9c913ea1739c680a29':
-              raise SystemExit(f'RULES GIT-BLOB MISMATCH: {blob}')
+          if len(b) != lock['size']: raise SystemExit(f'RULES SIZE MISMATCH: {len(b)}')
+          if got != lock['sha256']: raise SystemExit(f'RULES SHA256 MISMATCH: {got}')
+          if blob != src['git_blob_sha1']: raise SystemExit(f'RULES GIT-BLOB MISMATCH: {blob}')
           text=b.decode('utf-8-sig',errors='strict')
-          if 'These rules are effective as of September 25, 2026.' not in text[:500]:
+          if lock['upstream_identity']['effective_date_sentence'] not in text[:500]:
               raise SystemExit('RULES EFFECTIVE-DATE MISMATCH')
-          print('restored+verified',rules.name,len(b),'git-blob',blob,'sha256',hashlib.sha256(b).hexdigest())
+          print('restored+verified',rules.name,len(b),got,'git-blob',blob)
           PY
           python scripts/check_dev_snapshot_lock.py
+          python scripts/check_dev_rules_lock.py
 
       - name: Verify A-F prerequisites remain closed
         run: |
-          python scripts/grixis_saturation.py --check
-          python scripts/grixis_combo_step.py --check
-          python scripts/grixis_mana_step.py --check
-          python scripts/grixis_commander_step.py --check
-          python scripts/grixis_mechanics.py --check
-          python scripts/grixis_stress_step.py --check
+          python scripts/validate_all.py --only saturation,mechanics,combo-quality,power-core,combo-line-semantics,combo-families,combo-quality-gain,mana-step,commander-step,bracket-stress-step
           python - <<'PY'
           import json
           d=json.load(open('data/grixis/upgrade_plan.json'))
