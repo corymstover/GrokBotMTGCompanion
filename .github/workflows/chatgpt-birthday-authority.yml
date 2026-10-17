@@ -8,6 +8,10 @@ on:
       - scripts/grixis_birthday_snapshot.py
   workflow_dispatch:
 
+concurrency:
+  group: chatgpt-cycle74-birthday-authority
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -104,6 +108,7 @@ jobs:
             echo "no snapshot changes to commit"
           else
             git commit -m "ChatGPT cycle 74: collect Birthday authority snapshot [skip ci]"
+            git pull --rebase origin chatgpt-cycle74-birthday-authority
             git push origin HEAD:chatgpt-cycle74-birthday-authority
           fi
 
