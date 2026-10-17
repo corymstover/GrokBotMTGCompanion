@@ -314,8 +314,32 @@ def fetch_edhrec():
                        "unavailable": sum(x["status"] == "unavailable" for x in decks.values())}}
 
 
+def preferred_name_index(oracle_by_id: dict):
+    """Resolve duplicate Scryfall names to the actual game card, not a same-name token/emblem.
+
+    Oracle bulk can contain separate Oracle IDs with identical English names (for example
+    Thundertrap Trainer and its offspring token).  Canonical deck legality must resolve the
+    playable object.  Non-game layouts/type lines therefore sort after ordinary cards;
+    legality is only a secondary tie-breaker and never overrides project exceptions.
+    """
+    out = {}
+    non_game_layouts = {"token", "double_faced_token", "emblem", "art_series", "vanguard", "scheme", "planar"}
+    def rank(c):
+        t = c.get("type_line") or ""
+        nongame = c.get("layout") in non_game_layouts or t.startswith(("Token ", "Emblem"))
+        ordinary_legality = c.get("commander_legality") in ("legal", "banned", "restricted")
+        return (1 if nongame else 0, 0 if ordinary_legality else 1, c.get("set") or "")
+    for oid, c in oracle_by_id.items():
+        name = c.get("name")
+        if not name:
+            continue
+        if name not in out or rank(c) < rank(out[name][1]):
+            out[name] = (oid, c)
+    return out
+
+
 def fresh_deck_legality(oracle_by_id: dict):
-    by_name = {v["name"]: (oid, v) for oid, v in oracle_by_id.items()}
+    by_name = preferred_name_index(oracle_by_id)
     exc_rows = json.loads(EXCEPTIONS.read_text(encoding="utf-8"))["exceptions"]
     exc = {(x["deck_id"], x["card"]): x for x in exc_rows}
     rows, blockers = {}, []
@@ -415,7 +439,7 @@ def build():
     legality = fresh_deck_legality(oracle_now)
 
     pending = json.loads(PENDING.read_text(encoding="utf-8"))["decks"]
-    names = {v["name"]: v for v in oracle_now.values()}
+    names = {name: pair[1] for name, pair in preferred_name_index(oracle_now).items()}
     pending_now = {}
     for did, x in pending.items():
         pending_now[did] = {"legal_from": x["legal_from"], "cards": {n: {"present": n in names,
