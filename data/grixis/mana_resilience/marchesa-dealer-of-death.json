@@ -1,0 +1,307 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 10,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Marchesa, Dealer of Death",
+   "one_strict_source_unavailable": {
+    "baseline": 0.513891,
+    "mean_delta": 0.031275,
+    "mean_relative_delta": 0.060858,
+    "sources_tested": 26,
+    "worst_delta": 0.031768,
+    "worst_relative_delta": 0.061818,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry",
+     "Talon Gates of Madara",
+     "Verdant Catacombs"
+    ]
+   },
+   "potential_colored_failure": 0.486109,
+   "unconditional_colored_failure": 0.550184,
+   "untapped_capable_colored_failure": 0.516597
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 2,
+   "U": 7
+  },
+  "early_pips_mv_le_2": {
+   "B": 9.0,
+   "R": 10.0,
+   "U": 22.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 14.0,
+   "R": 13.0,
+   "U": 28.0
+  },
+  "land_source_count": {
+   "B": 19,
+   "R": 16,
+   "U": 19
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2656,
+   "R": 0.2188,
+   "U": 0.5156
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.1176,
+   "R": 1.1429,
+   "U": 0.5758
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/marchesa-dealer-of-death.json",
+  "mana_timing": "data/grixis/mana_timing/marchesa-dealer-of-death.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "marchesa-dealer-of-death",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 6,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.195724,
+   "missing_any_UBR_potential_source_match": 0.567423,
+   "missing_any_UBR_unconditional_source_match": 0.627101,
+   "missing_any_UBR_untapped_capable_source_match": 0.596067,
+   "missing_any_UBR_with_mdfc_option": 0.567423,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.133967,
+    "R": 0.189883,
+    "U": 0.133967
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.432577,
+    "mean_delta": 0.02936,
+    "mean_relative_delta": 0.067872,
+    "sources_tested": 26,
+    "worst_delta": 0.029811,
+    "worst_relative_delta": 0.068914,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry",
+     "Talon Gates of Madara",
+     "Verdant Catacombs"
+    ]
+   },
+   "strict_land_drop_failure": 0.195724
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.392538,
+   "missing_any_UBR_potential_source_match": 0.486109,
+   "missing_any_UBR_unconditional_source_match": 0.550184,
+   "missing_any_UBR_untapped_capable_source_match": 0.516597,
+   "missing_any_UBR_with_mdfc_option": 0.486109,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.105685,
+    "R": 0.156126,
+    "U": 0.105685
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.513891,
+    "mean_delta": 0.031275,
+    "mean_relative_delta": 0.060858,
+    "sources_tested": 26,
+    "worst_delta": 0.031768,
+    "worst_relative_delta": 0.061818,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry",
+     "Talon Gates of Madara",
+     "Verdant Catacombs"
+    ]
+   },
+   "strict_land_drop_failure": 0.392538
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.591564,
+   "missing_any_UBR_potential_source_match": 0.410606,
+   "missing_any_UBR_unconditional_source_match": 0.476584,
+   "missing_any_UBR_untapped_capable_source_match": 0.441721,
+   "missing_any_UBR_with_mdfc_option": 0.410606,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.083123,
+    "R": 0.128059,
+    "U": 0.083123
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.589394,
+    "mean_delta": 0.031944,
+    "mean_relative_delta": 0.054198,
+    "sources_tested": 26,
+    "worst_delta": 0.032461,
+    "worst_relative_delta": 0.055075,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry",
+     "Talon Gates of Madara",
+     "Verdant Catacombs"
+    ]
+   },
+   "strict_land_drop_failure": 0.591564
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.753272,
+   "missing_any_UBR_potential_source_match": 0.342321,
+   "missing_any_UBR_unconditional_source_match": 0.407959,
+   "missing_any_UBR_untapped_capable_source_match": 0.372993,
+   "missing_any_UBR_with_mdfc_option": 0.342321,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.065176,
+    "R": 0.104775,
+    "U": 0.065176
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.657679,
+    "mean_delta": 0.031516,
+    "mean_relative_delta": 0.04792,
+    "sources_tested": 26,
+    "worst_delta": 0.03204,
+    "worst_relative_delta": 0.048717,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry",
+     "Talon Gates of Madara",
+     "Verdant Catacombs"
+    ]
+   },
+   "strict_land_drop_failure": 0.753272
+  }
+ }
+}

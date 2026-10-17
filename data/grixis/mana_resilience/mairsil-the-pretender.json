@@ -1,0 +1,248 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Mairsil, the Pretender",
+   "one_strict_source_unavailable": {
+    "baseline": 0.618969,
+    "mean_delta": 0.029437,
+    "mean_relative_delta": 0.047559,
+    "sources_tested": 28,
+    "worst_delta": 0.033383,
+    "worst_relative_delta": 0.053934,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.381031,
+   "unconditional_colored_failure": 0.381031,
+   "untapped_capable_colored_failure": 0.414414
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Mairsil__the_Pretender",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 5,
+   "R": 2,
+   "U": 5
+  },
+  "early_pips_mv_le_2": {
+   "B": 6.0,
+   "R": 2.0,
+   "U": 9.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 8.0,
+   "R": 4.0,
+   "U": 15.0
+  },
+  "land_source_count": {
+   "B": 17,
+   "R": 18,
+   "U": 18
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.3729,
+   "R": 0.1525,
+   "U": 0.4746
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.7727,
+   "R": 2.0,
+   "U": 0.6429
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/mairsil-the-pretender.json",
+  "mana_timing": "data/grixis/mana_timing/mairsil-the-pretender.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 3,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.145274,
+   "missing_any_UBR_potential_source_match": 0.538006,
+   "missing_any_UBR_unconditional_source_match": 0.538006,
+   "missing_any_UBR_untapped_capable_source_match": 0.569473,
+   "missing_any_UBR_with_mdfc_option": 0.538006,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.169293,
+    "R": 0.150712,
+    "U": 0.150712
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.461994,
+    "mean_delta": 0.027976,
+    "mean_relative_delta": 0.060556,
+    "sources_tested": 28,
+    "worst_delta": 0.031467,
+    "worst_relative_delta": 0.068111,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.145274
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.311396,
+   "missing_any_UBR_potential_source_match": 0.455962,
+   "missing_any_UBR_unconditional_source_match": 0.455962,
+   "missing_any_UBR_untapped_capable_source_match": 0.489052,
+   "missing_any_UBR_with_mdfc_option": 0.455962,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.137316,
+    "R": 0.12057,
+    "U": 0.12057
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.544038,
+    "mean_delta": 0.029301,
+    "mean_relative_delta": 0.053859,
+    "sources_tested": 28,
+    "worst_delta": 0.033089,
+    "worst_relative_delta": 0.060822,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.311396
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.498051,
+   "missing_any_UBR_potential_source_match": 0.381031,
+   "missing_any_UBR_unconditional_source_match": 0.381031,
+   "missing_any_UBR_untapped_capable_source_match": 0.414414,
+   "missing_any_UBR_with_mdfc_option": 0.381031,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.111087,
+    "R": 0.096185,
+    "U": 0.096185
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.618969,
+    "mean_delta": 0.029437,
+    "mean_relative_delta": 0.047559,
+    "sources_tested": 28,
+    "worst_delta": 0.033383,
+    "worst_relative_delta": 0.053934,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.498051
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.667207,
+   "missing_any_UBR_potential_source_match": 0.314347,
+   "missing_any_UBR_unconditional_source_match": 0.314347,
+   "missing_any_UBR_untapped_capable_source_match": 0.3469,
+   "missing_any_UBR_with_mdfc_option": 0.314347,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.089627,
+    "R": 0.076511,
+    "U": 0.076511
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.685653,
+    "mean_delta": 0.028579,
+    "mean_relative_delta": 0.041681,
+    "sources_tested": 28,
+    "worst_delta": 0.032554,
+    "worst_relative_delta": 0.047478,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.667207
+  }
+ }
+}

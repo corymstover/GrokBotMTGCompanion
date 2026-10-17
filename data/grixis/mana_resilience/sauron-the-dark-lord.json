@@ -1,0 +1,292 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 13,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Sauron, the Dark Lord",
+   "one_strict_source_unavailable": {
+    "baseline": 0.802186,
+    "mean_delta": 0.022033,
+    "mean_relative_delta": 0.027467,
+    "sources_tested": 31,
+    "worst_delta": 0.026001,
+    "worst_relative_delta": 0.032412,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.197814,
+   "unconditional_colored_failure": 0.223814,
+   "untapped_capable_colored_failure": 0.223814
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Sauron__the_Dark_Lord",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 5,
+   "R": 1,
+   "U": 3
+  },
+  "early_pips_mv_le_2": {
+   "B": 11.0,
+   "R": 2.0,
+   "U": 7.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 27.0,
+   "R": 9.0,
+   "U": 15.0
+  },
+  "land_source_count": {
+   "B": 21,
+   "R": 16,
+   "U": 17
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.519,
+   "R": 0.2152,
+   "U": 0.2658
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.5122,
+   "R": 0.9412,
+   "U": 0.8095
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/sauron-the-dark-lord.json",
+  "mana_timing": "data/grixis/mana_timing/sauron-the-dark-lord.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "sauron-the-dark-lord",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 6,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.117605,
+   "missing_any_UBR_potential_source_match": 0.469184,
+   "missing_any_UBR_unconditional_source_match": 0.499797,
+   "missing_any_UBR_untapped_capable_source_match": 0.499797,
+   "missing_any_UBR_with_mdfc_option": 0.469184,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.10535,
+    "R": 0.189883,
+    "U": 0.169293
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.530816,
+    "mean_delta": 0.026574,
+    "mean_relative_delta": 0.050063,
+    "sources_tested": 31,
+    "worst_delta": 0.030612,
+    "worst_relative_delta": 0.05767,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.117605
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.263007,
+   "missing_any_UBR_potential_source_match": 0.38609,
+   "missing_any_UBR_unconditional_source_match": 0.417141,
+   "missing_any_UBR_untapped_capable_source_match": 0.417141,
+   "missing_any_UBR_with_mdfc_option": 0.38609,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.080769,
+    "R": 0.156126,
+    "U": 0.137316
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.61391,
+    "mean_delta": 0.026805,
+    "mean_relative_delta": 0.043662,
+    "sources_tested": 31,
+    "worst_delta": 0.031051,
+    "worst_relative_delta": 0.050578,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.263007
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.437272,
+   "missing_any_UBR_potential_source_match": 0.313001,
+   "missing_any_UBR_unconditional_source_match": 0.343221,
+   "missing_any_UBR_untapped_capable_source_match": 0.343221,
+   "missing_any_UBR_with_mdfc_option": 0.313001,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.061711,
+    "R": 0.128059,
+    "U": 0.111087
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.686999,
+    "mean_delta": 0.025935,
+    "mean_relative_delta": 0.037751,
+    "sources_tested": 31,
+    "worst_delta": 0.03022,
+    "worst_relative_delta": 0.043988,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.437272
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.606092,
+   "missing_any_UBR_potential_source_match": 0.250355,
+   "missing_any_UBR_unconditional_source_match": 0.278787,
+   "missing_any_UBR_untapped_capable_source_match": 0.278787,
+   "missing_any_UBR_with_mdfc_option": 0.250355,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.046984,
+    "R": 0.104775,
+    "U": 0.089627
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.749645,
+    "mean_delta": 0.02425,
+    "mean_relative_delta": 0.032349,
+    "sources_tested": 31,
+    "worst_delta": 0.028432,
+    "worst_relative_delta": 0.037927,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.606092
+  }
+ }
+}

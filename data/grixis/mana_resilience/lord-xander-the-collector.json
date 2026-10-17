@@ -1,0 +1,287 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 14,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Lord Xander, the Collector",
+   "one_strict_source_unavailable": {
+    "baseline": 0.813988,
+    "mean_delta": 0.02295,
+    "mean_relative_delta": 0.028195,
+    "sources_tested": 29,
+    "worst_delta": 0.026321,
+    "worst_relative_delta": 0.032336,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Polluted Delta",
+     "Prismatic Vista",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.186012,
+   "unconditional_colored_failure": 0.186012,
+   "untapped_capable_colored_failure": 0.230376
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Lord_Xander__the_Collector",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 0,
+   "R": 0,
+   "U": 4
+  },
+  "early_pips_mv_le_2": {
+   "B": 11.0,
+   "R": 3.0,
+   "U": 13.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 14.0,
+   "R": 8.0,
+   "U": 20.0
+  },
+  "land_source_count": {
+   "B": 19,
+   "R": 16,
+   "U": 17
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.3077,
+   "R": 0.1731,
+   "U": 0.5192
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.1875,
+   "R": 1.7778,
+   "U": 0.6296
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Prismatic Vista",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/lord-xander-the-collector.json",
+  "mana_timing": "data/grixis/mana_timing/lord-xander-the-collector.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "lord-xander-the-collector",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 6,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.130877,
+   "missing_any_UBR_potential_source_match": 0.513201,
+   "missing_any_UBR_unconditional_source_match": 0.513201,
+   "missing_any_UBR_untapped_capable_source_match": 0.565443,
+   "missing_any_UBR_with_mdfc_option": 0.513201,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.133967,
+    "R": 0.189883,
+    "U": 0.169293
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.486799,
+    "mean_delta": 0.027645,
+    "mean_relative_delta": 0.05679,
+    "sources_tested": 29,
+    "worst_delta": 0.031043,
+    "worst_relative_delta": 0.06377,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Polluted Delta",
+     "Prismatic Vista",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.130877
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.286602,
+   "missing_any_UBR_potential_source_match": 0.430307,
+   "missing_any_UBR_unconditional_source_match": 0.430307,
+   "missing_any_UBR_untapped_capable_source_match": 0.484574,
+   "missing_any_UBR_with_mdfc_option": 0.430307,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.105685,
+    "R": 0.156126,
+    "U": 0.137316
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.569693,
+    "mean_delta": 0.028584,
+    "mean_relative_delta": 0.050175,
+    "sources_tested": 29,
+    "worst_delta": 0.03222,
+    "worst_relative_delta": 0.056557,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Polluted Delta",
+     "Prismatic Vista",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.286602
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.467406,
+   "missing_any_UBR_potential_source_match": 0.355577,
+   "missing_any_UBR_unconditional_source_match": 0.355577,
+   "missing_any_UBR_untapped_capable_source_match": 0.409639,
+   "missing_any_UBR_with_mdfc_option": 0.355577,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.083123,
+    "R": 0.128059,
+    "U": 0.111087
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.644423,
+    "mean_delta": 0.028346,
+    "mean_relative_delta": 0.043986,
+    "sources_tested": 29,
+    "worst_delta": 0.03208,
+    "worst_relative_delta": 0.049781,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Polluted Delta",
+     "Prismatic Vista",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.467406
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.636911,
+   "missing_any_UBR_potential_source_match": 0.289943,
+   "missing_any_UBR_unconditional_source_match": 0.289943,
+   "missing_any_UBR_untapped_capable_source_match": 0.341978,
+   "missing_any_UBR_with_mdfc_option": 0.289943,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.065176,
+    "R": 0.104775,
+    "U": 0.089627
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.710057,
+    "mean_delta": 0.027159,
+    "mean_relative_delta": 0.038249,
+    "sources_tested": 29,
+    "worst_delta": 0.030867,
+    "worst_relative_delta": 0.043471,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Polluted Delta",
+     "Prismatic Vista",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.636911
+  }
+ }
+}

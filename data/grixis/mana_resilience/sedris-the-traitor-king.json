@@ -1,0 +1,287 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 13,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Sedris, the Traitor King",
+   "one_strict_source_unavailable": {
+    "baseline": 0.770035,
+    "mean_delta": 0.025158,
+    "mean_relative_delta": 0.032672,
+    "sources_tested": 29,
+    "worst_delta": 0.028443,
+    "worst_relative_delta": 0.036937,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.229965,
+   "unconditional_colored_failure": 0.229965,
+   "untapped_capable_colored_failure": 0.313708
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Sedris__the_Traitor_King",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 11,
+   "R": 3,
+   "U": 5
+  },
+  "early_pips_mv_le_2": {
+   "B": 9.0,
+   "R": 3.0,
+   "U": 6.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 14.0,
+   "R": 7.0,
+   "U": 10.0
+  },
+  "land_source_count": {
+   "B": 19,
+   "R": 15,
+   "U": 17
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.5325,
+   "R": 0.1948,
+   "U": 0.2727
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.4634,
+   "R": 1.0,
+   "U": 0.8095
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/sedris-the-traitor-king.json",
+  "mana_timing": "data/grixis/mana_timing/sedris-the-traitor-king.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "sedris-the-traitor-king",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 6,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.160848,
+   "missing_any_UBR_potential_source_match": 0.509279,
+   "missing_any_UBR_unconditional_source_match": 0.509279,
+   "missing_any_UBR_untapped_capable_source_match": 0.595987,
+   "missing_any_UBR_with_mdfc_option": 0.509279,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.133967,
+    "R": 0.212669,
+    "U": 0.169293
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.490721,
+    "mean_delta": 0.027746,
+    "mean_relative_delta": 0.056542,
+    "sources_tested": 29,
+    "worst_delta": 0.03086,
+    "worst_relative_delta": 0.062888,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.160848
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.337353,
+   "missing_any_UBR_potential_source_match": 0.426249,
+   "missing_any_UBR_unconditional_source_match": 0.426249,
+   "missing_any_UBR_untapped_capable_source_match": 0.517106,
+   "missing_any_UBR_with_mdfc_option": 0.426249,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.105685,
+    "R": 0.177224,
+    "U": 0.137316
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.573751,
+    "mean_delta": 0.028631,
+    "mean_relative_delta": 0.049902,
+    "sources_tested": 29,
+    "worst_delta": 0.031965,
+    "worst_relative_delta": 0.055711,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.337353
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.529063,
+   "missing_any_UBR_potential_source_match": 0.351553,
+   "missing_any_UBR_unconditional_source_match": 0.351553,
+   "missing_any_UBR_untapped_capable_source_match": 0.442882,
+   "missing_any_UBR_with_mdfc_option": 0.351553,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.083123,
+    "R": 0.147355,
+    "U": 0.111087
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.648447,
+    "mean_delta": 0.028333,
+    "mean_relative_delta": 0.043694,
+    "sources_tested": 29,
+    "worst_delta": 0.031758,
+    "worst_relative_delta": 0.048975,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.529063
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.696809,
+   "missing_any_UBR_potential_source_match": 0.286087,
+   "missing_any_UBR_unconditional_source_match": 0.286087,
+   "missing_any_UBR_untapped_capable_source_match": 0.374808,
+   "missing_any_UBR_with_mdfc_option": 0.286087,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.065176,
+    "R": 0.122238,
+    "U": 0.089627
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.713913,
+    "mean_delta": 0.027089,
+    "mean_relative_delta": 0.037945,
+    "sources_tested": 29,
+    "worst_delta": 0.030491,
+    "worst_relative_delta": 0.042709,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.696809
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/mana_resilience.schema.json",
+ "title": "Grixis Step C mana resilience evidence",
+ "type": "object",
+ "required": ["schema_version","deck_id","slug","canonical_hash","status","evidence_class","confidence","authority","inputs","turn_failure","commander_colored_failure","demand_context","fetch_target_resilience","summary","limitations"],
+ "properties": {
+  "schema_version": {"const": 1},
+  "deck_id": {"type": "string","minLength": 1},
+  "slug": {"type": "string","minLength": 1},
+  "canonical_hash": {"type": "string","pattern": "^lh1:"},
+  "status": {"const": "provisional_evidence"},
+  "evidence_class": {"const": "derived_metric"},
+  "confidence": {"enum": ["moderate","low"]},
+  "authority": {"type": "object","required": ["can_decide","note"],"additionalProperties": false,"properties": {"can_decide": {"const": false},"note": {"type": "string","minLength": 1}}},
+  "inputs": {"type": "object","required": ["mana_base","mana_timing"],"additionalProperties": {"type": "string"}},
+  "turn_failure": {"type": "object","required": ["2","3","4","5"],"additionalProperties": {"$ref": "#/$defs/turnRow"}},
+  "commander_colored_failure": {"type": "array","items": {"$ref": "#/$defs/commanderRow"},"minItems": 1},
+  "demand_context": {"type": "object"},
+  "fetch_target_resilience": {"type": "array","items": {"$ref": "#/$defs/fetchRow"}},
+  "summary": {"type": "object","required": ["fetches","single_target_fetches","fetch_color_single_points","commanders"],"properties": {"fetches":{"type":"integer","minimum":0},"single_target_fetches":{"type":"integer","minimum":0},"fetch_color_single_points":{"type":"integer","minimum":0},"commanders":{"type":"integer","minimum":1}},"additionalProperties": false},
+  "limitations": {"type": "array","items": {"type": "string","minLength": 1},"minItems": 4}
+ },
+ "$defs": {
+  "probability": {"type": "number","minimum": 0,"maximum": 1},
+  "sensitivity": {
+   "type": "object",
+   "required": ["baseline","worst_delta","mean_delta","worst_relative_delta","mean_relative_delta","worst_sources","sources_tested"],
+   "properties": {
+    "baseline":{"$ref":"#/$defs/probability"},"worst_delta":{"$ref":"#/$defs/probability"},"mean_delta":{"$ref":"#/$defs/probability"},
+    "worst_relative_delta":{"$ref":"#/$defs/probability"},"mean_relative_delta":{"$ref":"#/$defs/probability"},
+    "worst_sources":{"type":"array","items":{"type":"string"}},"sources_tested":{"type":"integer","minimum":0}
+   },"additionalProperties": false
+  },
+  "turnRow": {
+   "type": "object","required": ["cards_seen_no_mulligan","strict_land_drop_failure","flex_land_drop_failure","missing_any_UBR_potential_source_match","missing_any_UBR_unconditional_source_match","missing_any_UBR_untapped_capable_source_match","missing_any_UBR_with_mdfc_option","missing_each_color_at_least_one_strict_land_source","one_strict_source_unavailable_UBR"],
+   "properties": {
+    "cards_seen_no_mulligan":{"type":"integer","minimum":0},
+    "strict_land_drop_failure":{"$ref":"#/$defs/probability"},"flex_land_drop_failure":{"$ref":"#/$defs/probability"},
+    "missing_any_UBR_potential_source_match":{"$ref":"#/$defs/probability"},"missing_any_UBR_unconditional_source_match":{"$ref":"#/$defs/probability"},"missing_any_UBR_untapped_capable_source_match":{"$ref":"#/$defs/probability"},"missing_any_UBR_with_mdfc_option":{"$ref":"#/$defs/probability"},
+    "missing_each_color_at_least_one_strict_land_source":{"type":"object","required":["U","B","R"],"additionalProperties":{"$ref":"#/$defs/probability"}},
+    "one_strict_source_unavailable_UBR":{"$ref":"#/$defs/sensitivity"}
+   },"additionalProperties": false
+  },
+  "commanderRow": {"type":"object","required":["name","colored_requirements","cards_seen_by_base_resource_turn","potential_colored_failure","unconditional_colored_failure","untapped_capable_colored_failure","one_strict_source_unavailable"],"properties":{"name":{"type":"string"},"colored_requirements":{"type":"object"},"cards_seen_by_base_resource_turn":{"type":"integer"},"potential_colored_failure":{"$ref":"#/$defs/probability"},"unconditional_colored_failure":{"$ref":"#/$defs/probability"},"untapped_capable_colored_failure":{"$ref":"#/$defs/probability"},"one_strict_source_unavailable":{"$ref":"#/$defs/sensitivity"}},"additionalProperties": false},
+  "fetchRow": {"type":"object","required":["card","target_count","actual_target_colors","single_target","colors_with_only_one_target","all_supported_colors_have_redundant_targets"],"properties":{"card":{"type":"string"},"target_count":{"type":"integer","minimum":0},"actual_target_colors":{"type":"string"},"single_target":{"type":"boolean"},"colors_with_only_one_target":{"type":"object"},"all_supported_colors_have_redundant_targets":{"type":"boolean"}},"additionalProperties": false}
+ },
+ "additionalProperties": false
+}

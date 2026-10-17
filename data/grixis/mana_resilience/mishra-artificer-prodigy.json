@@ -1,0 +1,253 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Mishra, Artificer Prodigy",
+   "one_strict_source_unavailable": {
+    "baseline": 0.504527,
+    "mean_delta": 0.033186,
+    "mean_relative_delta": 0.065776,
+    "sources_tested": 24,
+    "worst_delta": 0.036171,
+    "worst_relative_delta": 0.071692,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry"
+    ]
+   },
+   "potential_colored_failure": 0.495473,
+   "unconditional_colored_failure": 0.531644,
+   "untapped_capable_colored_failure": 0.495473
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 2,
+   "R": 1,
+   "U": 7
+  },
+  "early_pips_mv_le_2": {
+   "B": 4.0,
+   "R": 5.0,
+   "U": 10.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 7.0,
+   "R": 6.0,
+   "U": 20.0
+  },
+  "land_source_count": {
+   "B": 15,
+   "R": 16,
+   "U": 16
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2245,
+   "R": 0.1837,
+   "U": 0.5918
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.3636,
+   "R": 1.7778,
+   "U": 0.5517
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/mishra-artificer-prodigy.json",
+  "mana_timing": "data/grixis/mana_timing/mishra-artificer-prodigy.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "mishra-artificer-prodigy",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 3,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.195724,
+   "missing_any_UBR_potential_source_match": 0.64301,
+   "missing_any_UBR_unconditional_source_match": 0.673758,
+   "missing_any_UBR_untapped_capable_source_match": 0.64301,
+   "missing_any_UBR_with_mdfc_option": 0.64301,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.212669,
+    "R": 0.189883,
+    "U": 0.189883
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.35699,
+    "mean_delta": 0.028337,
+    "mean_relative_delta": 0.079377,
+    "sources_tested": 24,
+    "worst_delta": 0.030748,
+    "worst_relative_delta": 0.086132,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry"
+    ]
+   },
+   "strict_land_drop_failure": 0.195724
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.392538,
+   "missing_any_UBR_potential_source_match": 0.567879,
+   "missing_any_UBR_unconditional_source_match": 0.601921,
+   "missing_any_UBR_untapped_capable_source_match": 0.567879,
+   "missing_any_UBR_with_mdfc_option": 0.567879,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.177224,
+    "R": 0.156126,
+    "U": 0.156126
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.432121,
+    "mean_delta": 0.031305,
+    "mean_relative_delta": 0.072444,
+    "sources_tested": 24,
+    "worst_delta": 0.034043,
+    "worst_relative_delta": 0.07878,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry"
+    ]
+   },
+   "strict_land_drop_failure": 0.392538
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.591564,
+   "missing_any_UBR_potential_source_match": 0.495473,
+   "missing_any_UBR_unconditional_source_match": 0.531644,
+   "missing_any_UBR_untapped_capable_source_match": 0.495473,
+   "missing_any_UBR_with_mdfc_option": 0.495473,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.147355,
+    "R": 0.128059,
+    "U": 0.128059
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.504527,
+    "mean_delta": 0.033186,
+    "mean_relative_delta": 0.065776,
+    "sources_tested": 24,
+    "worst_delta": 0.036171,
+    "worst_relative_delta": 0.071692,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry"
+    ]
+   },
+   "strict_land_drop_failure": 0.591564
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.753272,
+   "missing_any_UBR_potential_source_match": 0.427455,
+   "missing_any_UBR_unconditional_source_match": 0.464611,
+   "missing_any_UBR_untapped_capable_source_match": 0.427455,
+   "missing_any_UBR_with_mdfc_option": 0.427455,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.122238,
+    "R": 0.104775,
+    "U": 0.104775
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.572545,
+    "mean_delta": 0.034009,
+    "mean_relative_delta": 0.0594,
+    "sources_tested": 24,
+    "worst_delta": 0.037156,
+    "worst_relative_delta": 0.064896,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Spire of Industry"
+    ]
+   },
+   "strict_land_drop_failure": 0.753272
+  }
+ }
+}

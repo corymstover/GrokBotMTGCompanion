@@ -1,0 +1,336 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 12,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Inalla, Archmage Ritualist",
+   "one_strict_source_unavailable": {
+    "baseline": 0.624765,
+    "mean_delta": 0.032983,
+    "mean_relative_delta": 0.052793,
+    "sources_tested": 25,
+    "worst_delta": 0.033582,
+    "worst_relative_delta": 0.053751,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "potential_colored_failure": 0.375235,
+   "unconditional_colored_failure": 0.443822,
+   "untapped_capable_colored_failure": 0.375235
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 2,
+   "U": 4
+  },
+  "early_pips_mv_le_2": {
+   "B": 22.0,
+   "R": 10.0,
+   "U": 14.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 26.0,
+   "R": 12.0,
+   "U": 17.0
+  },
+  "land_source_count": {
+   "B": 16,
+   "R": 14,
+   "U": 17
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.507,
+   "R": 0.169,
+   "U": 0.3239
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.4444,
+   "R": 1.1667,
+   "U": 0.7391
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/inalla-archmage-ritualist.json",
+  "mana_timing": "data/grixis/mana_timing/inalla-archmage-ritualist.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "inalla-archmage-ritualist",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.235857,
+   "missing_any_UBR_potential_source_match": 0.598042,
+   "missing_any_UBR_unconditional_source_match": 0.657588,
+   "missing_any_UBR_untapped_capable_source_match": 0.598042,
+   "missing_any_UBR_with_mdfc_option": 0.598042,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.189883,
+    "R": 0.237854,
+    "U": 0.169293
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.401958,
+    "mean_delta": 0.029326,
+    "mean_relative_delta": 0.072958,
+    "sources_tested": 25,
+    "worst_delta": 0.029822,
+    "worst_relative_delta": 0.074193,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.235857
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.451586,
+   "missing_any_UBR_potential_source_match": 0.51874,
+   "missing_any_UBR_unconditional_source_match": 0.583651,
+   "missing_any_UBR_untapped_capable_source_match": 0.51874,
+   "missing_any_UBR_with_mdfc_option": 0.51874,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.156126,
+    "R": 0.200854,
+    "U": 0.137316
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.48126,
+    "mean_delta": 0.031721,
+    "mean_relative_delta": 0.065912,
+    "sources_tested": 25,
+    "worst_delta": 0.03227,
+    "worst_relative_delta": 0.067053,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.451586
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.65358,
+   "missing_any_UBR_potential_source_match": 0.44395,
+   "missing_any_UBR_unconditional_source_match": 0.511826,
+   "missing_any_UBR_untapped_capable_source_match": 0.44395,
+   "missing_any_UBR_with_mdfc_option": 0.44395,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.128059,
+    "R": 0.169259,
+    "U": 0.111087
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.55605,
+    "mean_delta": 0.032908,
+    "mean_relative_delta": 0.059181,
+    "sources_tested": 25,
+    "worst_delta": 0.033491,
+    "worst_relative_delta": 0.060229,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.65358
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.805075,
+   "missing_any_UBR_potential_source_match": 0.375235,
+   "missing_any_UBR_unconditional_source_match": 0.443822,
+   "missing_any_UBR_untapped_capable_source_match": 0.375235,
+   "missing_any_UBR_with_mdfc_option": 0.375235,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.104775,
+    "R": 0.142332,
+    "U": 0.089627
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.624765,
+    "mean_delta": 0.032983,
+    "mean_relative_delta": 0.052793,
+    "sources_tested": 25,
+    "worst_delta": 0.033582,
+    "worst_relative_delta": 0.053751,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.805075
+  }
+ }
+}

@@ -1,0 +1,341 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Fire Lord Azula",
+   "one_strict_source_unavailable": {
+    "baseline": 0.52749,
+    "mean_delta": 0.033843,
+    "mean_relative_delta": 0.064159,
+    "sources_tested": 24,
+    "worst_delta": 0.033959,
+    "worst_relative_delta": 0.064378,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "potential_colored_failure": 0.47251,
+   "unconditional_colored_failure": 0.54113,
+   "untapped_capable_colored_failure": 0.47251
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Fire_Lord_Azula",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 0,
+   "U": 6
+  },
+  "early_pips_mv_le_2": {
+   "B": 9.0,
+   "R": 11.0,
+   "U": 22.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 12.0,
+   "R": 16.0,
+   "U": 29.0
+  },
+  "land_source_count": {
+   "B": 15,
+   "R": 16,
+   "U": 16
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.25,
+   "R": 0.25,
+   "U": 0.5
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.8824,
+   "R": 0.9412,
+   "U": 0.4706
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 4
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/fire-lord-azula.json",
+  "mana_timing": "data/grixis/mana_timing/fire-lord-azula.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "fire-lord-azula",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.257983,
+   "missing_any_UBR_potential_source_match": 0.62364,
+   "missing_any_UBR_unconditional_source_match": 0.682369,
+   "missing_any_UBR_untapped_capable_source_match": 0.62364,
+   "missing_any_UBR_with_mdfc_option": 0.62364,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.212669,
+    "R": 0.189883,
+    "U": 0.189883
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.37636,
+    "mean_delta": 0.029394,
+    "mean_relative_delta": 0.0781,
+    "sources_tested": 24,
+    "worst_delta": 0.02949,
+    "worst_relative_delta": 0.078357,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.257983
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.482317,
+   "missing_any_UBR_potential_source_match": 0.546351,
+   "missing_any_UBR_unconditional_source_match": 0.611163,
+   "missing_any_UBR_untapped_capable_source_match": 0.546351,
+   "missing_any_UBR_with_mdfc_option": 0.546351,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.177224,
+    "R": 0.156126,
+    "U": 0.156126
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.453649,
+    "mean_delta": 0.032204,
+    "mean_relative_delta": 0.070988,
+    "sources_tested": 24,
+    "worst_delta": 0.032311,
+    "worst_relative_delta": 0.071225,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.482317
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.683965,
+   "missing_any_UBR_potential_source_match": 0.47251,
+   "missing_any_UBR_unconditional_source_match": 0.54113,
+   "missing_any_UBR_untapped_capable_source_match": 0.47251,
+   "missing_any_UBR_with_mdfc_option": 0.47251,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.147355,
+    "R": 0.128059,
+    "U": 0.128059
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.52749,
+    "mean_delta": 0.033843,
+    "mean_relative_delta": 0.064159,
+    "sources_tested": 24,
+    "worst_delta": 0.033959,
+    "worst_relative_delta": 0.064378,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.683965
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.828899,
+   "missing_any_UBR_potential_source_match": 0.403774,
+   "missing_any_UBR_unconditional_source_match": 0.473988,
+   "missing_any_UBR_untapped_capable_source_match": 0.403774,
+   "missing_any_UBR_with_mdfc_option": 0.403774,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.122238,
+    "R": 0.104775,
+    "U": 0.104775
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.596226,
+    "mean_delta": 0.034368,
+    "mean_relative_delta": 0.057643,
+    "sources_tested": 24,
+    "worst_delta": 0.034487,
+    "worst_relative_delta": 0.057842,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Gemstone Caverns",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Starting Town",
+     "Verdant Catacombs",
+     "Wooded Foothills"
+    ]
+   },
+   "strict_land_drop_failure": 0.828899
+  }
+ }
+}

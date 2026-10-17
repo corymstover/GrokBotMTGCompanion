@@ -1,0 +1,292 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Saruman, the White Hand",
+   "one_strict_source_unavailable": {
+    "baseline": 0.674859,
+    "mean_delta": 0.027164,
+    "mean_relative_delta": 0.040252,
+    "sources_tested": 30,
+    "worst_delta": 0.030436,
+    "worst_relative_delta": 0.045099,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.325141,
+   "unconditional_colored_failure": 0.355577,
+   "untapped_capable_colored_failure": 0.355577
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Saruman__the_White_Hand",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 1,
+   "R": 6,
+   "U": 7
+  },
+  "early_pips_mv_le_2": {
+   "B": 6.0,
+   "R": 5.0,
+   "U": 13.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 10.0,
+   "R": 17.0,
+   "U": 23.0
+  },
+  "land_source_count": {
+   "B": 19,
+   "R": 16,
+   "U": 18
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.1928,
+   "R": 0.4096,
+   "U": 0.3976
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.1875,
+   "R": 0.4706,
+   "U": 0.5455
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/saruman-the-white-hand.json",
+  "mana_timing": "data/grixis/mana_timing/saruman-the-white-hand.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "saruman-the-white-hand",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 6,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.105403,
+   "missing_any_UBR_potential_source_match": 0.482762,
+   "missing_any_UBR_unconditional_source_match": 0.513201,
+   "missing_any_UBR_untapped_capable_source_match": 0.513201,
+   "missing_any_UBR_with_mdfc_option": 0.482762,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.133967,
+    "R": 0.189883,
+    "U": 0.150712
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.517238,
+    "mean_delta": 0.027369,
+    "mean_relative_delta": 0.052913,
+    "sources_tested": 30,
+    "worst_delta": 0.030439,
+    "worst_relative_delta": 0.058849,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.160848
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.240638,
+   "missing_any_UBR_potential_source_match": 0.399226,
+   "missing_any_UBR_unconditional_source_match": 0.430307,
+   "missing_any_UBR_untapped_capable_source_match": 0.430307,
+   "missing_any_UBR_with_mdfc_option": 0.399226,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.105685,
+    "R": 0.156126,
+    "U": 0.12057
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.600774,
+    "mean_delta": 0.027846,
+    "mean_relative_delta": 0.046349,
+    "sources_tested": 30,
+    "worst_delta": 0.031081,
+    "worst_relative_delta": 0.051735,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.337353
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.407781,
+   "missing_any_UBR_potential_source_match": 0.325141,
+   "missing_any_UBR_unconditional_source_match": 0.355577,
+   "missing_any_UBR_untapped_capable_source_match": 0.355577,
+   "missing_any_UBR_with_mdfc_option": 0.325141,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.083123,
+    "R": 0.128059,
+    "U": 0.096185
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.674859,
+    "mean_delta": 0.027164,
+    "mean_relative_delta": 0.040252,
+    "sources_tested": 30,
+    "worst_delta": 0.030436,
+    "worst_relative_delta": 0.045099,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.529063
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.574925,
+   "missing_any_UBR_potential_source_match": 0.261148,
+   "missing_any_UBR_unconditional_source_match": 0.289943,
+   "missing_any_UBR_untapped_capable_source_match": 0.289943,
+   "missing_any_UBR_with_mdfc_option": 0.261148,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.065176,
+    "R": 0.104775,
+    "U": 0.076511
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.738852,
+    "mean_delta": 0.025597,
+    "mean_relative_delta": 0.034645,
+    "sources_tested": 30,
+    "worst_delta": 0.028795,
+    "worst_relative_delta": 0.038973,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.696809
+  }
+ }
+}

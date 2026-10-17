@@ -1,0 +1,336 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 12,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Edward Kenway",
+   "one_strict_source_unavailable": {
+    "baseline": 0.82407,
+    "mean_delta": 0.02035,
+    "mean_relative_delta": 0.024694,
+    "sources_tested": 33,
+    "worst_delta": 0.021454,
+    "worst_relative_delta": 0.026034,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.17593,
+   "unconditional_colored_failure": 0.220665,
+   "untapped_capable_colored_failure": 0.197384
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Edward_Kenway",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 0,
+   "R": 2,
+   "U": 5
+  },
+  "early_pips_mv_le_2": {
+   "B": 4.0,
+   "R": 2.0,
+   "U": 11.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 7.0,
+   "R": 13.0,
+   "U": 18.0
+  },
+  "land_source_count": {
+   "B": 20,
+   "R": 19,
+   "U": 21
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.1791,
+   "R": 0.3284,
+   "U": 0.4925
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.6667,
+   "R": 0.8636,
+   "U": 0.6364
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Arid Mesa",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Wooded Foothills",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/edward-kenway.json",
+  "mana_timing": "data/grixis/mana_timing/edward-kenway.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "edward-kenway",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 9,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.105403,
+   "missing_any_UBR_potential_source_match": 0.382924,
+   "missing_any_UBR_unconditional_source_match": 0.43816,
+   "missing_any_UBR_untapped_capable_source_match": 0.410122,
+   "missing_any_UBR_with_mdfc_option": 0.382924,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.118895,
+    "R": 0.133967,
+    "U": 0.10535
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.617076,
+    "mean_delta": 0.025941,
+    "mean_relative_delta": 0.042038,
+    "sources_tested": 33,
+    "worst_delta": 0.027198,
+    "worst_relative_delta": 0.044076,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.240638,
+   "missing_any_UBR_potential_source_match": 0.300679,
+   "missing_any_UBR_unconditional_source_match": 0.354297,
+   "missing_any_UBR_untapped_capable_source_match": 0.326855,
+   "missing_any_UBR_with_mdfc_option": 0.300679,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.092474,
+    "R": 0.105685,
+    "U": 0.080769
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.699321,
+    "mean_delta": 0.024923,
+    "mean_relative_delta": 0.035638,
+    "sources_tested": 33,
+    "worst_delta": 0.026176,
+    "worst_relative_delta": 0.03743,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.407781,
+   "missing_any_UBR_potential_source_match": 0.231891,
+   "missing_any_UBR_unconditional_source_match": 0.281747,
+   "missing_any_UBR_untapped_capable_source_match": 0.256018,
+   "missing_any_UBR_with_mdfc_option": 0.231891,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.071693,
+    "R": 0.083123,
+    "U": 0.061711
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.768109,
+    "mean_delta": 0.022929,
+    "mean_relative_delta": 0.029852,
+    "sources_tested": 33,
+    "worst_delta": 0.024127,
+    "worst_relative_delta": 0.03141,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.574925,
+   "missing_any_UBR_potential_source_match": 0.17593,
+   "missing_any_UBR_unconditional_source_match": 0.220665,
+   "missing_any_UBR_untapped_capable_source_match": 0.197384,
+   "missing_any_UBR_with_mdfc_option": 0.17593,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.055399,
+    "R": 0.065176,
+    "U": 0.046984
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.82407,
+    "mean_delta": 0.02035,
+    "mean_relative_delta": 0.024694,
+    "sources_tested": 33,
+    "worst_delta": 0.021454,
+    "worst_relative_delta": 0.026034,
+    "worst_sources": [
+     "Arid Mesa",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Wooded Foothills",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}

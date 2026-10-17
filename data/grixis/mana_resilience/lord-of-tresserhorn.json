@@ -1,0 +1,279 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Lord of Tresserhorn",
+   "one_strict_source_unavailable": {
+    "baseline": 0.724908,
+    "mean_delta": 0.023538,
+    "mean_relative_delta": 0.03247,
+    "sources_tested": 33,
+    "worst_delta": 0.028444,
+    "worst_relative_delta": 0.039239,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.275092,
+   "unconditional_colored_failure": 0.333881,
+   "untapped_capable_colored_failure": 0.318133
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Lord_of_Tresserhorn",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 1,
+   "U": 1
+  },
+  "early_pips_mv_le_2": {
+   "B": 24.0,
+   "R": 3.0,
+   "U": 8.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 29.0,
+   "R": 7.0,
+   "U": 9.0
+  },
+  "land_source_count": {
+   "B": 23,
+   "R": 17,
+   "U": 18
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.5818,
+   "R": 0.2,
+   "U": 0.2182
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.7188,
+   "R": 1.5455,
+   "U": 1.5
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 8
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/lord-of-tresserhorn.json",
+  "mana_timing": "data/grixis/mana_timing/lord-of-tresserhorn.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "lord-of-tresserhorn",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 5,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.105403,
+   "missing_any_UBR_potential_source_match": 0.427937,
+   "missing_any_UBR_unconditional_source_match": 0.489101,
+   "missing_any_UBR_untapped_capable_source_match": 0.474115,
+   "missing_any_UBR_with_mdfc_option": 0.427937,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.082302,
+    "R": 0.169293,
+    "U": 0.150712
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.572063,
+    "mean_delta": 0.025313,
+    "mean_relative_delta": 0.044249,
+    "sources_tested": 33,
+    "worst_delta": 0.030121,
+    "worst_relative_delta": 0.052654,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.240638,
+   "missing_any_UBR_potential_source_match": 0.345705,
+   "missing_any_UBR_unconditional_source_match": 0.406903,
+   "missing_any_UBR_untapped_capable_source_match": 0.391225,
+   "missing_any_UBR_with_mdfc_option": 0.345705,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.061269,
+    "R": 0.137316,
+    "U": 0.12057
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.654295,
+    "mean_delta": 0.024919,
+    "mean_relative_delta": 0.038085,
+    "sources_tested": 33,
+    "worst_delta": 0.029876,
+    "worst_relative_delta": 0.045662,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.407781,
+   "missing_any_UBR_potential_source_match": 0.275092,
+   "missing_any_UBR_unconditional_source_match": 0.333881,
+   "missing_any_UBR_untapped_capable_source_match": 0.318133,
+   "missing_any_UBR_with_mdfc_option": 0.275092,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.045435,
+    "R": 0.111087,
+    "U": 0.096185
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.724908,
+    "mean_delta": 0.023538,
+    "mean_relative_delta": 0.03247,
+    "sources_tested": 33,
+    "worst_delta": 0.028444,
+    "worst_relative_delta": 0.039239,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.574925,
+   "missing_any_UBR_potential_source_match": 0.215984,
+   "missing_any_UBR_unconditional_source_match": 0.270612,
+   "missing_any_UBR_untapped_capable_source_match": 0.255315,
+   "missing_any_UBR_with_mdfc_option": 0.215984,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.03356,
+    "R": 0.089627,
+    "U": 0.076511
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.784016,
+    "mean_delta": 0.021494,
+    "mean_relative_delta": 0.027415,
+    "sources_tested": 33,
+    "worst_delta": 0.026191,
+    "worst_relative_delta": 0.033406,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}

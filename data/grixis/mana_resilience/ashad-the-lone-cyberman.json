@@ -1,0 +1,235 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Ashad, the Lone Cyberman",
+   "one_strict_source_unavailable": {
+    "baseline": 0.553424,
+    "mean_delta": 0.029843,
+    "mean_relative_delta": 0.053924,
+    "sources_tested": 27,
+    "worst_delta": 0.037576,
+    "worst_relative_delta": 0.067897,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.446576,
+   "unconditional_colored_failure": 0.484152,
+   "untapped_capable_colored_failure": 0.523315
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 1,
+   "U": 7
+  },
+  "early_pips_mv_le_2": {
+   "B": 3.0,
+   "R": 5.0,
+   "U": 10.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 5.0,
+   "R": 11.0,
+   "U": 19.0
+  },
+  "land_source_count": {
+   "B": 16,
+   "R": 14,
+   "U": 17
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.25,
+   "R": 0.2031,
+   "U": 0.5469
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.0,
+   "R": 1.0769,
+   "U": 0.4857
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/ashad-the-lone-cyberman.json",
+  "mana_timing": "data/grixis/mana_timing/ashad-the-lone-cyberman.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "ashad-the-lone-cyberman",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 2,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.177649,
+   "missing_any_UBR_potential_source_match": 0.59775,
+   "missing_any_UBR_unconditional_source_match": 0.631026,
+   "missing_any_UBR_untapped_capable_source_match": 0.664591,
+   "missing_any_UBR_with_mdfc_option": 0.59775,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.189883,
+    "R": 0.237854,
+    "U": 0.169293
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.40225,
+    "mean_delta": 0.026796,
+    "mean_relative_delta": 0.066615,
+    "sources_tested": 27,
+    "worst_delta": 0.033276,
+    "worst_relative_delta": 0.082724,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.177649
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.364422,
+   "missing_any_UBR_potential_source_match": 0.519827,
+   "missing_any_UBR_unconditional_source_match": 0.55591,
+   "missing_any_UBR_untapped_capable_source_match": 0.592903,
+   "missing_any_UBR_with_mdfc_option": 0.519827,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.156126,
+    "R": 0.200854,
+    "U": 0.137316
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.480173,
+    "mean_delta": 0.02886,
+    "mean_relative_delta": 0.060104,
+    "sources_tested": 27,
+    "worst_delta": 0.036083,
+    "worst_relative_delta": 0.075145,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.364422
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.560288,
+   "missing_any_UBR_potential_source_match": 0.446576,
+   "missing_any_UBR_unconditional_source_match": 0.484152,
+   "missing_any_UBR_untapped_capable_source_match": 0.523315,
+   "missing_any_UBR_with_mdfc_option": 0.446576,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.128059,
+    "R": 0.169259,
+    "U": 0.111087
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.553424,
+    "mean_delta": 0.029843,
+    "mean_relative_delta": 0.053924,
+    "sources_tested": 27,
+    "worst_delta": 0.037576,
+    "worst_relative_delta": 0.067897,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.560288
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.725551,
+   "missing_any_UBR_potential_source_match": 0.379414,
+   "missing_any_UBR_unconditional_source_match": 0.417275,
+   "missing_any_UBR_untapped_capable_source_match": 0.4574,
+   "missing_any_UBR_with_mdfc_option": 0.379414,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.104775,
+    "R": 0.142332,
+    "U": 0.089627
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.620586,
+    "mean_delta": 0.02985,
+    "mean_relative_delta": 0.048099,
+    "sources_tested": 27,
+    "worst_delta": 0.037861,
+    "worst_relative_delta": 0.061009,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Polluted Delta",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.725551
+  }
+ }
+}

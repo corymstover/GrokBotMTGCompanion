@@ -1,0 +1,268 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Admiral Beckett Brass",
+   "one_strict_source_unavailable": {
+    "baseline": 0.775381,
+    "mean_delta": 0.021799,
+    "mean_relative_delta": 0.028114,
+    "sources_tested": 34,
+    "worst_delta": 0.024381,
+    "worst_relative_delta": 0.031444,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Secluded Courtyard",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.224619,
+   "unconditional_colored_failure": 0.303117,
+   "untapped_capable_colored_failure": 0.303117
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Admiral_Beckett_Brass",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 0,
+   "R": 1,
+   "U": 7
+  },
+  "early_pips_mv_le_2": {
+   "B": 11.0,
+   "R": 3.0,
+   "U": 13.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 14.0,
+   "R": 11.0,
+   "U": 18.0
+  },
+  "land_source_count": {
+   "B": 21,
+   "R": 22,
+   "U": 26
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2603,
+   "R": 0.2603,
+   "U": 0.4795
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.1053,
+   "R": 1.1579,
+   "U": 0.7429
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 13
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/admiral-beckett-brass.json",
+  "mana_timing": "data/grixis/mana_timing/admiral-beckett-brass.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "admiral-beckett-brass",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 3,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.105403,
+   "missing_any_UBR_potential_source_match": 0.373111,
+   "missing_any_UBR_unconditional_source_match": 0.459116,
+   "missing_any_UBR_untapped_capable_source_match": 0.459116,
+   "missing_any_UBR_with_mdfc_option": 0.373111,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.10535,
+    "R": 0.093194,
+    "U": 0.056083
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.626889,
+    "mean_delta": 0.025017,
+    "mean_relative_delta": 0.039907,
+    "sources_tested": 34,
+    "worst_delta": 0.027695,
+    "worst_relative_delta": 0.044179,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Secluded Courtyard",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.240638,
+   "missing_any_UBR_potential_source_match": 0.291999,
+   "missing_any_UBR_unconditional_source_match": 0.375901,
+   "missing_any_UBR_untapped_capable_source_match": 0.375901,
+   "missing_any_UBR_with_mdfc_option": 0.291999,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.080769,
+    "R": 0.070414,
+    "U": 0.039881
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.708001,
+    "mean_delta": 0.023857,
+    "mean_relative_delta": 0.033696,
+    "sources_tested": 34,
+    "worst_delta": 0.026541,
+    "worst_relative_delta": 0.037487,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Secluded Courtyard",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.407781,
+   "missing_any_UBR_potential_source_match": 0.224619,
+   "missing_any_UBR_unconditional_source_match": 0.303117,
+   "missing_any_UBR_untapped_capable_source_match": 0.303117,
+   "missing_any_UBR_with_mdfc_option": 0.224619,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.061711,
+    "R": 0.053008,
+    "U": 0.028231
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.775381,
+    "mean_delta": 0.021799,
+    "mean_relative_delta": 0.028114,
+    "sources_tested": 34,
+    "worst_delta": 0.024381,
+    "worst_relative_delta": 0.031444,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Secluded Courtyard",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.574925,
+   "missing_any_UBR_potential_source_match": 0.170134,
+   "missing_any_UBR_unconditional_source_match": 0.241096,
+   "missing_any_UBR_untapped_capable_source_match": 0.241096,
+   "missing_any_UBR_with_mdfc_option": 0.170134,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.046984,
+    "R": 0.039756,
+    "U": 0.01989
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.829866,
+    "mean_delta": 0.01923,
+    "mean_relative_delta": 0.023172,
+    "sources_tested": 34,
+    "worst_delta": 0.02163,
+    "worst_relative_delta": 0.026064,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Crumbling Necropolis",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Secluded Courtyard",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}

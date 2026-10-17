@@ -1,0 +1,302 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Don Andres, the Renegade",
+   "one_strict_source_unavailable": {
+    "baseline": 0.78644,
+    "mean_delta": 0.021589,
+    "mean_relative_delta": 0.027452,
+    "sources_tested": 34,
+    "worst_delta": 0.02309,
+    "worst_relative_delta": 0.02936,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.21356,
+   "unconditional_colored_failure": 0.261395,
+   "untapped_capable_colored_failure": 0.261395
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Don_Andres__the_Renegade",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 9,
+   "R": 4,
+   "U": 3
+  },
+  "early_pips_mv_le_2": {
+   "B": 10.0,
+   "R": 5.0,
+   "U": 5.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 18.0,
+   "R": 13.0,
+   "U": 8.0
+  },
+  "land_source_count": {
+   "B": 23,
+   "R": 20,
+   "U": 23
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.4557,
+   "R": 0.3418,
+   "U": 0.2025
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.6389,
+   "R": 0.7407,
+   "U": 1.4375
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/don-andres-the-renegade.json",
+  "mana_timing": "data/grixis/mana_timing/don-andres-the-renegade.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "don-andres-the-renegade",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 6,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.105403,
+   "missing_any_UBR_potential_source_match": 0.361225,
+   "missing_any_UBR_unconditional_source_match": 0.415635,
+   "missing_any_UBR_untapped_capable_source_match": 0.415635,
+   "missing_any_UBR_with_mdfc_option": 0.361225,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.082302,
+    "R": 0.118895,
+    "U": 0.082302
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.638775,
+    "mean_delta": 0.025132,
+    "mean_relative_delta": 0.039345,
+    "sources_tested": 34,
+    "worst_delta": 0.026736,
+    "worst_relative_delta": 0.041855,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.240638,
+   "missing_any_UBR_potential_source_match": 0.280291,
+   "missing_any_UBR_unconditional_source_match": 0.332415,
+   "missing_any_UBR_untapped_capable_source_match": 0.332415,
+   "missing_any_UBR_with_mdfc_option": 0.280291,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.061269,
+    "R": 0.092474,
+    "U": 0.061269
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.719709,
+    "mean_delta": 0.023804,
+    "mean_relative_delta": 0.033074,
+    "sources_tested": 34,
+    "worst_delta": 0.025388,
+    "worst_relative_delta": 0.035276,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.407781,
+   "missing_any_UBR_potential_source_match": 0.21356,
+   "missing_any_UBR_unconditional_source_match": 0.261395,
+   "missing_any_UBR_untapped_capable_source_match": 0.261395,
+   "missing_any_UBR_with_mdfc_option": 0.21356,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.045435,
+    "R": 0.071693,
+    "U": 0.045435
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.78644,
+    "mean_delta": 0.021589,
+    "mean_relative_delta": 0.027452,
+    "sources_tested": 34,
+    "worst_delta": 0.02309,
+    "worst_relative_delta": 0.02936,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.574925,
+   "missing_any_UBR_potential_source_match": 0.160042,
+   "missing_any_UBR_unconditional_source_match": 0.202407,
+   "missing_any_UBR_untapped_capable_source_match": 0.202407,
+   "missing_any_UBR_with_mdfc_option": 0.160042,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.03356,
+    "R": 0.055399,
+    "U": 0.03356
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.839958,
+    "mean_delta": 0.018889,
+    "mean_relative_delta": 0.022488,
+    "sources_tested": 34,
+    "worst_delta": 0.020261,
+    "worst_relative_delta": 0.024122,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1
+   },
+   "name": "Wick, the Whorled Mind",
+   "one_strict_source_unavailable": {
+    "baseline": 0.938289,
+    "mean_delta": 0.006762,
+    "mean_relative_delta": 0.007207,
+    "sources_tested": 31,
+    "worst_delta": 0.009983,
+    "worst_relative_delta": 0.010639,
+    "worst_sources": [
+     "Badlands",
+     "Blood Crypt",
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Haunted Ridge",
+     "Luxury Suite",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Morphic Pool",
+     "Mudflat Village",
+     "Phyrexian Tower",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Shipwreck Marsh",
+     "Sulfurous Springs",
+     "Swamp",
+     "Underground Sea",
+     "Watery Grave",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.061711,
+   "unconditional_colored_failure": 0.096185,
+   "untapped_capable_colored_failure": 0.071693
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 2,
+   "R": 1,
+   "U": 2
+  },
+  "early_pips_mv_le_2": {
+   "B": 17.0,
+   "R": 4.0,
+   "U": 5.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 25.0,
+   "R": 8.0,
+   "U": 8.0
+  },
+  "land_source_count": {
+   "B": 20,
+   "R": 19,
+   "U": 19
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.6071,
+   "R": 0.1964,
+   "U": 0.1964
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.5882,
+   "R": 1.7273,
+   "U": 1.7273
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 6
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/wick-the-whorled-mind.json",
+  "mana_timing": "data/grixis/mana_timing/wick-the-whorled-mind.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 4,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.094217,
+   "missing_any_UBR_potential_source_match": 0.454372,
+   "missing_any_UBR_unconditional_source_match": 0.538006,
+   "missing_any_UBR_untapped_capable_source_match": 0.484452,
+   "missing_any_UBR_with_mdfc_option": 0.454372,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.118895,
+    "R": 0.133967,
+    "U": 0.133967
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.545628,
+    "mean_delta": 0.026912,
+    "mean_relative_delta": 0.049323,
+    "sources_tested": 31,
+    "worst_delta": 0.03008,
+    "worst_relative_delta": 0.055128,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.219507,
+   "missing_any_UBR_potential_source_match": 0.370829,
+   "missing_any_UBR_unconditional_source_match": 0.455962,
+   "missing_any_UBR_untapped_capable_source_match": 0.401076,
+   "missing_any_UBR_with_mdfc_option": 0.370829,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.092474,
+    "R": 0.105685,
+    "U": 0.105685
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.629171,
+    "mean_delta": 0.026949,
+    "mean_relative_delta": 0.042833,
+    "sources_tested": 31,
+    "worst_delta": 0.030247,
+    "worst_relative_delta": 0.048074,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.379054,
+   "missing_any_UBR_potential_source_match": 0.297916,
+   "missing_any_UBR_unconditional_source_match": 0.381031,
+   "missing_any_UBR_untapped_capable_source_match": 0.327082,
+   "missing_any_UBR_with_mdfc_option": 0.297916,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.071693,
+    "R": 0.083123,
+    "U": 0.083123
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.702084,
+    "mean_delta": 0.025872,
+    "mean_relative_delta": 0.036851,
+    "sources_tested": 31,
+    "worst_delta": 0.029166,
+    "worst_relative_delta": 0.041542,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.543586,
+   "missing_any_UBR_potential_source_match": 0.235943,
+   "missing_any_UBR_unconditional_source_match": 0.314347,
+   "missing_any_UBR_untapped_capable_source_match": 0.263112,
+   "missing_any_UBR_with_mdfc_option": 0.235943,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.055399,
+    "R": 0.065176,
+    "U": 0.065176
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.764057,
+    "mean_delta": 0.02399,
+    "mean_relative_delta": 0.031398,
+    "sources_tested": 31,
+    "worst_delta": 0.027169,
+    "worst_relative_delta": 0.035559,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Cavern of Souls",
+     "Command Tower",
+     "Exotic Orchard",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}

@@ -1,0 +1,286 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Doctor Doom, King of Latveria",
+   "one_strict_source_unavailable": {
+    "baseline": 0.798554,
+    "mean_delta": 0.02035,
+    "mean_relative_delta": 0.025483,
+    "sources_tested": 35,
+    "worst_delta": 0.022692,
+    "worst_relative_delta": 0.028416,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Fabled Passage",
+     "Mana Confluence",
+     "Oscorp Industries",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Villainous Hideout",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.201446,
+   "unconditional_colored_failure": 0.248594,
+   "untapped_capable_colored_failure": 0.314027
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 2,
+   "U": 1
+  },
+  "early_pips_mv_le_2": {
+   "B": 8.0,
+   "R": 5.0,
+   "U": 5.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 15.0,
+   "R": 12.0,
+   "U": 10.0
+  },
+  "land_source_count": {
+   "B": 27,
+   "R": 21,
+   "U": 24
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.4462,
+   "R": 0.3077,
+   "U": 0.2462
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.931,
+   "R": 1.05,
+   "U": 1.5
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": false,
+   "card": "Fabled Passage",
+   "colors_with_only_one_target": {
+    "B": [
+     "Swamp"
+    ],
+    "R": [
+     "Mountain"
+    ],
+    "U": [
+     "Island"
+    ]
+   },
+   "single_target": false,
+   "target_count": 3
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 12
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/doctor-doom-king-of-latveria.json",
+  "mana_timing": "data/grixis/mana_timing/doctor-doom-king-of-latveria.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "doctor-doom-king-of-latveria",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 3,
+  "fetches": 4,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.074664,
+   "missing_any_UBR_potential_source_match": 0.34559,
+   "missing_any_UBR_unconditional_source_match": 0.400079,
+   "missing_any_UBR_untapped_capable_source_match": 0.471478,
+   "missing_any_UBR_with_mdfc_option": 0.34559,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.049169,
+    "R": 0.10535,
+    "U": 0.072555
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.65441,
+    "mean_delta": 0.024226,
+    "mean_relative_delta": 0.03702,
+    "sources_tested": 35,
+    "worst_delta": 0.026711,
+    "worst_relative_delta": 0.040817,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Fabled Passage",
+     "Mana Confluence",
+     "Oscorp Industries",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Villainous Hideout",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.074664
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.18097,
+   "missing_any_UBR_potential_source_match": 0.266194,
+   "missing_any_UBR_unconditional_source_match": 0.317961,
+   "missing_any_UBR_untapped_capable_source_match": 0.387785,
+   "missing_any_UBR_with_mdfc_option": 0.266194,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.034418,
+    "R": 0.080769,
+    "U": 0.053207
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.733806,
+    "mean_delta": 0.022684,
+    "mean_relative_delta": 0.030913,
+    "sources_tested": 35,
+    "worst_delta": 0.025148,
+    "worst_relative_delta": 0.03427,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Fabled Passage",
+     "Mana Confluence",
+     "Oscorp Industries",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Villainous Hideout",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.18097
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.324304,
+   "missing_any_UBR_potential_source_match": 0.201446,
+   "missing_any_UBR_unconditional_source_match": 0.248594,
+   "missing_any_UBR_untapped_capable_source_match": 0.314027,
+   "missing_any_UBR_with_mdfc_option": 0.201446,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.023977,
+    "R": 0.061711,
+    "U": 0.038859
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.798554,
+    "mean_delta": 0.02035,
+    "mean_relative_delta": 0.025483,
+    "sources_tested": 35,
+    "worst_delta": 0.022692,
+    "worst_relative_delta": 0.028416,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Fabled Passage",
+     "Mana Confluence",
+     "Oscorp Industries",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Villainous Hideout",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.324304
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.481075,
+   "missing_any_UBR_potential_source_match": 0.150055,
+   "missing_any_UBR_unconditional_source_match": 0.191532,
+   "missing_any_UBR_untapped_capable_source_match": 0.250726,
+   "missing_any_UBR_with_mdfc_option": 0.150055,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.01662,
+    "R": 0.046984,
+    "U": 0.028261
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.849945,
+    "mean_delta": 0.01762,
+    "mean_relative_delta": 0.02073,
+    "sources_tested": 35,
+    "worst_delta": 0.019773,
+    "worst_relative_delta": 0.023264,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Fabled Passage",
+     "Mana Confluence",
+     "Oscorp Industries",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Villainous Hideout",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.481075
+  }
+ }
+}

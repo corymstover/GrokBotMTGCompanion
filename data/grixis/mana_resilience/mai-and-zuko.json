@@ -1,0 +1,297 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Mai and Zuko",
+   "one_strict_source_unavailable": {
+    "baseline": 0.58402,
+    "mean_delta": 0.031871,
+    "mean_relative_delta": 0.054572,
+    "sources_tested": 26,
+    "worst_delta": 0.032984,
+    "worst_relative_delta": 0.056478,
+    "worst_sources": [
+     "Ally Encampment",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.41598,
+   "unconditional_colored_failure": 0.448964,
+   "untapped_capable_colored_failure": 0.511985
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Mai_and_Zuko",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 2,
+   "R": 1,
+   "U": 3
+  },
+  "early_pips_mv_le_2": {
+   "B": 4.0,
+   "R": 5.0,
+   "U": 13.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 8.0,
+   "R": 7.0,
+   "U": 20.0
+  },
+  "land_source_count": {
+   "B": 18,
+   "R": 16,
+   "U": 17
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.2632,
+   "R": 0.2456,
+   "U": 0.4912
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 1.2,
+   "R": 1.1429,
+   "U": 0.6071
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 5
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/mai-and-zuko.json",
+  "mana_timing": "data/grixis/mana_timing/mai-and-zuko.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "mai-and-zuko",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 6,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.160848,
+   "missing_any_UBR_potential_source_match": 0.572255,
+   "missing_any_UBR_unconditional_source_match": 0.60238,
+   "missing_any_UBR_untapped_capable_source_match": 0.657686,
+   "missing_any_UBR_with_mdfc_option": 0.572255,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.150712,
+    "R": 0.189883,
+    "U": 0.169293
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.427745,
+    "mean_delta": 0.029162,
+    "mean_relative_delta": 0.068175,
+    "sources_tested": 26,
+    "worst_delta": 0.030125,
+    "worst_relative_delta": 0.070427,
+    "worst_sources": [
+     "Ally Encampment",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.160848
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.337353,
+   "missing_any_UBR_potential_source_match": 0.491312,
+   "missing_any_UBR_unconditional_source_match": 0.523501,
+   "missing_any_UBR_untapped_capable_source_match": 0.583779,
+   "missing_any_UBR_with_mdfc_option": 0.491312,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.12057,
+    "R": 0.156126,
+    "U": 0.137316
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.508688,
+    "mean_delta": 0.031132,
+    "mean_relative_delta": 0.0612,
+    "sources_tested": 26,
+    "worst_delta": 0.032189,
+    "worst_relative_delta": 0.063278,
+    "worst_sources": [
+     "Ally Encampment",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.337353
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.529063,
+   "missing_any_UBR_potential_source_match": 0.41598,
+   "missing_any_UBR_unconditional_source_match": 0.448964,
+   "missing_any_UBR_untapped_capable_source_match": 0.511985,
+   "missing_any_UBR_with_mdfc_option": 0.41598,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.096185,
+    "R": 0.128059,
+    "U": 0.111087
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.58402,
+    "mean_delta": 0.031871,
+    "mean_relative_delta": 0.054572,
+    "sources_tested": 26,
+    "worst_delta": 0.032984,
+    "worst_relative_delta": 0.056478,
+    "worst_sources": [
+     "Ally Encampment",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.529063
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.696809,
+   "missing_any_UBR_potential_source_match": 0.347685,
+   "missing_any_UBR_unconditional_source_match": 0.380339,
+   "missing_any_UBR_untapped_capable_source_match": 0.44401,
+   "missing_any_UBR_with_mdfc_option": 0.347685,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.076511,
+    "R": 0.104775,
+    "U": 0.089627
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.652315,
+    "mean_delta": 0.031521,
+    "mean_relative_delta": 0.048321,
+    "sources_tested": 26,
+    "worst_delta": 0.032654,
+    "worst_relative_delta": 0.050058,
+    "worst_sources": [
+     "Ally Encampment",
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Path of Ancestry",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.696809
+  }
+ }
+}

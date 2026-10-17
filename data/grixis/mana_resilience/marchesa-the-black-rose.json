@@ -1,0 +1,292 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 11,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Marchesa, the Black Rose",
+   "one_strict_source_unavailable": {
+    "baseline": 0.703792,
+    "mean_delta": 0.025868,
+    "mean_relative_delta": 0.036755,
+    "sources_tested": 31,
+    "worst_delta": 0.028794,
+    "worst_relative_delta": 0.040913,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.296208,
+   "unconditional_colored_failure": 0.325002,
+   "untapped_capable_colored_failure": 0.325002
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Marchesa__the_Black_Rose",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 8,
+   "R": 0,
+   "U": 2
+  },
+  "early_pips_mv_le_2": {
+   "B": 16.0,
+   "R": 2.0,
+   "U": 4.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 28.0,
+   "R": 5.0,
+   "U": 8.0
+  },
+  "land_source_count": {
+   "B": 20,
+   "R": 16,
+   "U": 20
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.6567,
+   "R": 0.1493,
+   "U": 0.194
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.4545,
+   "R": 1.6,
+   "U": 1.5385
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 11
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Verdant Catacombs",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 7
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/marchesa-the-black-rose.json",
+  "mana_timing": "data/grixis/mana_timing/marchesa-the-black-rose.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "marchesa-the-black-rose",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 6,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.117605,
+   "missing_any_UBR_potential_source_match": 0.452711,
+   "missing_any_UBR_unconditional_source_match": 0.482482,
+   "missing_any_UBR_untapped_capable_source_match": 0.482482,
+   "missing_any_UBR_with_mdfc_option": 0.452711,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.118895,
+    "R": 0.189883,
+    "U": 0.118895
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.547289,
+    "mean_delta": 0.026952,
+    "mean_relative_delta": 0.049247,
+    "sources_tested": 31,
+    "worst_delta": 0.029771,
+    "worst_relative_delta": 0.054396,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.117605
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.263007,
+   "missing_any_UBR_potential_source_match": 0.369109,
+   "missing_any_UBR_unconditional_source_match": 0.399009,
+   "missing_any_UBR_untapped_capable_source_match": 0.399009,
+   "missing_any_UBR_with_mdfc_option": 0.369109,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.092474,
+    "R": 0.156126,
+    "U": 0.092474
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.630891,
+    "mean_delta": 0.026968,
+    "mean_relative_delta": 0.042746,
+    "sources_tested": 31,
+    "worst_delta": 0.0299,
+    "worst_relative_delta": 0.047393,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.263007
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.437272,
+   "missing_any_UBR_potential_source_match": 0.296208,
+   "missing_any_UBR_unconditional_source_match": 0.325002,
+   "missing_any_UBR_untapped_capable_source_match": 0.325002,
+   "missing_any_UBR_with_mdfc_option": 0.296208,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.071693,
+    "R": 0.128059,
+    "U": 0.071693
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.703792,
+    "mean_delta": 0.025868,
+    "mean_relative_delta": 0.036755,
+    "sources_tested": 31,
+    "worst_delta": 0.028794,
+    "worst_relative_delta": 0.040913,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.437272
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.606092,
+   "missing_any_UBR_potential_source_match": 0.234305,
+   "missing_any_UBR_unconditional_source_match": 0.26109,
+   "missing_any_UBR_untapped_capable_source_match": 0.26109,
+   "missing_any_UBR_with_mdfc_option": 0.234305,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.055399,
+    "R": 0.104775,
+    "U": 0.055399
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.765695,
+    "mean_delta": 0.023963,
+    "mean_relative_delta": 0.031295,
+    "sources_tested": 31,
+    "worst_delta": 0.026785,
+    "worst_relative_delta": 0.034982,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "City of Brass",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Mana Confluence",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Verdant Catacombs",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.606092
+  }
+ }
+}

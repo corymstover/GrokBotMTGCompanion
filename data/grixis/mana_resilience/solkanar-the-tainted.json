@@ -1,0 +1,287 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Mana-screw/color-screw and fragility diagnostics cannot decide a land or mana-source swap."
+ },
+ "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "commander_colored_failure": [
+  {
+   "cards_seen_by_base_resource_turn": 12,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "name": "Sol'Kanar the Tainted",
+   "one_strict_source_unavailable": {
+    "baseline": 0.814664,
+    "mean_delta": 0.019804,
+    "mean_relative_delta": 0.02431,
+    "sources_tested": 34,
+    "worst_delta": 0.023511,
+    "worst_relative_delta": 0.02886,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "potential_colored_failure": 0.185336,
+   "unconditional_colored_failure": 0.208847,
+   "untapped_capable_colored_failure": 0.224109
+  }
+ ],
+ "confidence": "moderate",
+ "deck_id": "Sol_kanar_the_Tainted",
+ "demand_context": {
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 1,
+   "U": 7
+  },
+  "early_pips_mv_le_2": {
+   "B": 6.0,
+   "R": 7.0,
+   "U": 9.0
+  },
+  "early_pips_mv_le_3": {
+   "B": 11.0,
+   "R": 12.0,
+   "U": 18.0
+  },
+  "land_source_count": {
+   "B": 20,
+   "R": 17,
+   "U": 21
+  },
+  "note": "Source/pip ratios are descriptive pressure indicators only; they are not target thresholds or a land score.",
+  "pip_share": {
+   "B": 0.3514,
+   "R": 0.2297,
+   "U": 0.4189
+  },
+  "sources_per_raw_pip_equivalent": {
+   "B": 0.7692,
+   "R": 1.0,
+   "U": 0.6774
+  }
+ },
+ "evidence_class": "derived_metric",
+ "fetch_target_resilience": [
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Bloodstained Mire",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 15
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Flooded Strand",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Marsh Flats",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 10
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Misty Rainforest",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 9
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Polluted Delta",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 15
+  },
+  {
+   "actual_target_colors": "UBR",
+   "all_supported_colors_have_redundant_targets": true,
+   "card": "Scalding Tarn",
+   "colors_with_only_one_target": {},
+   "single_target": false,
+   "target_count": 14
+  }
+ ],
+ "inputs": {
+  "mana_base": "data/grixis/mana_base/solkanar-the-tainted.json",
+  "mana_timing": "data/grixis/mana_timing/solkanar-the-tainted.json"
+ },
+ "limitations": [
+  "Failure probabilities are complements of exact no-mulligan draw/source-presence proxies, not real-game loss probabilities or cast probabilities.",
+  "The one-source-unavailable probe keeps library size fixed and blanks one source; it measures structural sensitivity, not the chance an opponent removes that source.",
+  "Absolute one-source delta depends on the baseline success probability; relative delta is provided separately and neither is a universal fragility threshold.",
+  "Conditional source requirements, sequencing, mulligan policy, rocks, rituals and life/payment decisions are not converted into invented reliability percentages.",
+  "MDFC land faces remain an optional layer and do not silently increase the strict land count.",
+  "Fetch-target fragility is measured at deck start; target depletion after earlier fetches is not simulated.",
+  "No universal mana-quality score, threshold, cut, or automatic replacement is produced."
+ ],
+ "schema_version": 1,
+ "slug": "solkanar-the-tainted",
+ "status": "provisional_evidence",
+ "summary": {
+  "commanders": 1,
+  "fetch_color_single_points": 0,
+  "fetches": 6,
+  "single_target_fetches": 0
+ },
+ "turn_failure": {
+  "2": {
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_failure": 0.105403,
+   "missing_any_UBR_potential_source_match": 0.391566,
+   "missing_any_UBR_unconditional_source_match": 0.420522,
+   "missing_any_UBR_untapped_capable_source_match": 0.43951,
+   "missing_any_UBR_with_mdfc_option": 0.391566,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.118895,
+    "R": 0.169293,
+    "U": 0.10535
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.608434,
+    "mean_delta": 0.024885,
+    "mean_relative_delta": 0.0409,
+    "sources_tested": 34,
+    "worst_delta": 0.028956,
+    "worst_relative_delta": 0.04759,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.105403
+  },
+  "3": {
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_failure": 0.240638,
+   "missing_any_UBR_potential_source_match": 0.309996,
+   "missing_any_UBR_unconditional_source_match": 0.338089,
+   "missing_any_UBR_untapped_capable_source_match": 0.356467,
+   "missing_any_UBR_with_mdfc_option": 0.309996,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.092474,
+    "R": 0.137316,
+    "U": 0.080769
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.690004,
+    "mean_delta": 0.023991,
+    "mean_relative_delta": 0.03477,
+    "sources_tested": 34,
+    "worst_delta": 0.028093,
+    "worst_relative_delta": 0.040714,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.240638
+  },
+  "4": {
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_failure": 0.407781,
+   "missing_any_UBR_potential_source_match": 0.241448,
+   "missing_any_UBR_unconditional_source_match": 0.267591,
+   "missing_any_UBR_untapped_capable_source_match": 0.284637,
+   "missing_any_UBR_with_mdfc_option": 0.241448,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.071693,
+    "R": 0.111087,
+    "U": 0.061711
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.758552,
+    "mean_delta": 0.022177,
+    "mean_relative_delta": 0.029236,
+    "sources_tested": 34,
+    "worst_delta": 0.026143,
+    "worst_relative_delta": 0.034465,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.407781
+  },
+  "5": {
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_failure": 0.574925,
+   "missing_any_UBR_potential_source_match": 0.185336,
+   "missing_any_UBR_unconditional_source_match": 0.208847,
+   "missing_any_UBR_untapped_capable_source_match": 0.224109,
+   "missing_any_UBR_with_mdfc_option": 0.185336,
+   "missing_each_color_at_least_one_strict_land_source": {
+    "B": 0.055399,
+    "R": 0.089627,
+    "U": 0.046984
+   },
+   "one_strict_source_unavailable_UBR": {
+    "baseline": 0.814664,
+    "mean_delta": 0.019804,
+    "mean_relative_delta": 0.02431,
+    "sources_tested": 34,
+    "worst_delta": 0.023511,
+    "worst_relative_delta": 0.02886,
+    "worst_sources": [
+     "Bloodstained Mire",
+     "Command Tower",
+     "Exotic Orchard",
+     "Flooded Strand",
+     "Forbidden Orchard",
+     "Marsh Flats",
+     "Misty Rainforest",
+     "Polluted Delta",
+     "Scalding Tarn",
+     "Xander's Lounge"
+    ]
+   },
+   "strict_land_drop_failure": 0.574925
+  }
+ }
+}
