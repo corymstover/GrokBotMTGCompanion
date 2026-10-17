@@ -211,7 +211,7 @@ def fetch_rules():
     if not links:
         return {"status": "blocked", "page_url": RULES_PAGE, "page_sha256": sha_file(page_path),
                 "reason": "official Rules page exposed no Comprehensive Rules TXT link"}, None
-    url = next((x for x in links if "MagicCompRules" in x), links[0])
+    url = urllib.parse.quote(next((x for x in links if "MagicCompRules" in x), links[0]), safe=":/?=&%")
     path = CACHE / Path(urllib.parse.urlsplit(url).path).name
     download(url, path)
     raw = path.read_bytes()
@@ -377,23 +377,8 @@ def refresh_spellbook():
 
 
 def refresh_tournament():
-    import grixis_tournament as tr
-    target = OUT / "tournament"
-    target.mkdir(parents=True, exist_ok=True)
-    tr.OUT = target
-    tr.fetch()
-    probs = tr.check(verbose=False)
-    docs = {}
-    for p in sorted(target.glob("*.json")):
-        d = json.loads(p.read_text(encoding="utf-8"))
-        oldp = OLD_TOUR / p.name
-        old = json.loads(oldp.read_text(encoding="utf-8")) if oldp.exists() else None
-        docs[p.stem] = {"status": d.get("status"), "retrieved": d.get("retrieved"), "sample_size": d.get("sample_size"),
-                        "sha256": sha_file(p), "old_sample_size": None if old is None else old.get("sample_size"),
-                        "sample_size_delta": None if old is None else (d.get("sample_size") or 0) - (old.get("sample_size") or 0)}
-    return {"status": "collected" if not probs else "blocked", "source": tr.API,
-            "class": "derived_metric", "problems": probs, "decks": docs,
-            "counts": {"expected_cedh": len(tr.cedh_slugs()), "collected_files": len(docs)}}
+    import grixis_birthday_tournament as bt
+    return bt.refresh(OUT)
 
 
 def build():

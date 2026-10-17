@@ -1,0 +1,21 @@
+{
+ "authority": {
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "card_rows_status": "deferred_to_birthday_m5_delta",
+ "card_window": "ONE_YEAR",
+ "cards": {},
+ "class": "derived_metric",
+ "commander": null,
+ "commander_query": "Mishra, Artificer Prodigy",
+ "generated_by": "scripts/grixis_birthday_tournament.py v1",
+ "note": "EDHTop16 aggregates reported cEDH tournament results (entries with and without a card, top cuts, conversion = top cuts / entries). Entries without a submitted decklist count as 'without' the card, so 'without' figures are upper bounds on non-play. Observational, confounded by pilot skill and meta: derived_metric only.",
+ "retrieved": "2026-10-17",
+ "sample_size": 0,
+ "schema_version": 1,
+ "slug": "mishra-artificer-prodigy",
+ "source": "https://edhtop16.com/api/graphql",
+ "status": "no_data",
+ "window": "ONE_YEAR"
+}

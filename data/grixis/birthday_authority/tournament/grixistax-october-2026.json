@@ -1,0 +1,38 @@
+{
+ "authority": {
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "card_rows_status": "deferred_to_birthday_m5_delta",
+ "card_window": "ONE_YEAR",
+ "cards": {},
+ "class": "derived_metric",
+ "commander": {
+  "color_id": "UBR",
+  "name": "Kraum, Ludevic's Opus / Tevesh Szat, Doom of Fools",
+  "windows": {
+   "ONE_YEAR": {
+    "conversionRate": 0.2857,
+    "count": 7,
+    "metaShare": 0.0,
+    "topCuts": 2
+   },
+   "SIX_MONTHS": {
+    "conversionRate": 0,
+    "count": 1,
+    "metaShare": 0.0,
+    "topCuts": 0
+   }
+  }
+ },
+ "commander_query": "Kraum, Ludevic's Opus / Tevesh Szat, Doom of Fools",
+ "generated_by": "scripts/grixis_birthday_tournament.py v1",
+ "note": "EDHTop16 aggregates reported cEDH tournament results (entries with and without a card, top cuts, conversion = top cuts / entries). Entries without a submitted decklist count as 'without' the card, so 'without' figures are upper bounds on non-play. Observational, confounded by pilot skill and meta: derived_metric only.",
+ "retrieved": "2026-10-17",
+ "sample_size": 7,
+ "schema_version": 1,
+ "slug": "grixistax-october-2026",
+ "source": "https://edhtop16.com/api/graphql",
+ "status": "collected",
+ "window": "ONE_YEAR"
+}

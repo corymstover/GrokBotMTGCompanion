@@ -1,0 +1,38 @@
+{
+ "authority": {
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "card_rows_status": "deferred_to_birthday_m5_delta",
+ "card_window": "ONE_YEAR",
+ "cards": {},
+ "class": "derived_metric",
+ "commander": {
+  "color_id": "UBR",
+  "name": "Norman Osborn // Green Goblin",
+  "windows": {
+   "ONE_YEAR": {
+    "conversionRate": 0.1744,
+    "count": 430,
+    "metaShare": 0.0021,
+    "topCuts": 75
+   },
+   "SIX_MONTHS": {
+    "conversionRate": 0.2095,
+    "count": 148,
+    "metaShare": 0.0012,
+    "topCuts": 31
+   }
+  }
+ },
+ "commander_query": "Norman Osborn // Green Goblin",
+ "generated_by": "scripts/grixis_birthday_tournament.py v1",
+ "note": "EDHTop16 aggregates reported cEDH tournament results (entries with and without a card, top cuts, conversion = top cuts / entries). Entries without a submitted decklist count as 'without' the card, so 'without' figures are upper bounds on non-play. Observational, confounded by pilot skill and meta: derived_metric only.",
+ "retrieved": "2026-10-17",
+ "sample_size": 430,
+ "schema_version": 1,
+ "slug": "norman-osborn",
+ "source": "https://edhtop16.com/api/graphql",
+ "status": "collected",
+ "window": "ONE_YEAR"
+}
