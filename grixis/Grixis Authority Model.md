@@ -346,6 +346,8 @@ Status is in `data/grixis/registry.json → program.milestones`. Only Cory sets 
 ### M5
 **Candidate deep dive.** Per deck a recorded candidate universe (definition, sources, size, snapshot), triage with the default 15–40 full reviews and escalations with reasons; tournament evidence only for decks whose estimated ceiling is cEDH, with sample size and date.
 
+*ChatGPT cycle 75 (Cory, 2026-10-17T14:34:41Z):* **M5 accepted.** Cory explicitly said `Accept M5 and proceed` after independent review of the Lift-corrected Birthday corpus at commit `fcd28daff7d3f7b091de04299699645ba7e47aa2` / snapshot `birthday-20261017-6e5c604e1459`. Acceptance is evidence-layer authority only: it approves no swap, challenger, canonical list, deck state, approval, or lock. The generated Birthday summary deliberately remains non-self-accepting; `program.milestones.M5` is the human acceptance record.
+
 *Bot cycle 62:* M5 is **exploratory**: non-authoritative evidence only, with no list changes and no promoted challengers (`program.milestones.M5.pending_note`). Candidates were regenerated on the corrected blueprints.
 
 *Bot cycle 61 revision (after Cory's review of the cycle-60 report; constraints 2 and 3, no absolute protections).* The 12-per-reason escalation cap is gone. Every card meeting a reason is escalated and gets a screening review: 20,774 escalated and 22,971 screening reviews (300–420 per deck). The reviews are relabeled `screening_review`, scripted and never decision-capable ([review kinds](#review-kinds-screening-vs-judgment)).
@@ -399,7 +401,7 @@ Deck files are now `<slug>.json.gz`, written as deterministic gzip and checked o
    - **No data:** Mishra, Artificer Prodigy and The Madcap Jester (not yet legal).
 
    The other 49 decks record `applicable: false`. The evidence is class `derived_metric` (observational, confounded) and never a simulation.
-7. ⏳ Cory's acceptance (`program.milestones.M5`).
+7. ✅ **Cory's acceptance** (`program.milestones.M5`): accepted 2026-10-17T14:34:41Z after the Lift-corrected Birthday rebuild and independent Cycle 74b review. This accepts M5 evidence only; no swap or deck is approved.
 
 ### M6
 **Refinement cycle 1** (starts only after M2 and M4 are accepted). Every decision-bearing swap needs a `judgment_review` on its adds. An M5 `screening_review` never qualifies ([review kinds](#review-kinds-screening-vs-judgment)). Per deck: independent commander-first and performance passes with different objective functions (rule 7), a reconciliation with a deep-review queue, paired tests of each material swap, stress scenarios and a red-team record, and a schema-valid certificate leading to `APPROVAL_READY` or `REVIEW_REQUIRED`.
