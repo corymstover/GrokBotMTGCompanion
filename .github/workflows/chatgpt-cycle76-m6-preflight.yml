@@ -40,14 +40,14 @@ jobs:
           with gzip.open(p, 'rt', encoding='utf-8') as f:
               d=json.load(f)
           print('regen top-level keys:', sorted(d))
-          for key in sorted(d):
-              value=d[key]
-              if isinstance(value, list):
-                  print(key, 'list', len(value), 'sample_keys=', sorted(value[0]) if value and isinstance(value[0], dict) else None)
-              elif isinstance(value, dict):
-                  print(key, 'dict keys=', sorted(value)[:60])
-              else:
-                  print(key, type(value).__name__, repr(value)[:200])
+          for key in ('candidates','full_reviews','swap_hypotheses'):
+              value=d.get(key, [])
+              print(key, 'len=', len(value))
+              if value:
+                  print(key, 'sample=', json.dumps(value[0], sort_keys=True)[:12000])
+          print('testing_status=', json.dumps(d.get('testing_status'), sort_keys=True)[:16000])
+          print('candidate_policy=', json.dumps(d.get('candidate_policy'), sort_keys=True)[:8000])
+          print('role_quota_status=', json.dumps(d.get('role_quota_status'), sort_keys=True)[:8000])
           PY
 
       - name: Build and check M6 preflight
