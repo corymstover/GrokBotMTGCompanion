@@ -1,0 +1,14 @@
+{
+ "authority": {
+  "can_decide": false,
+  "requires_cory_to_supersede": true
+ },
+ "basis_commit": "ea87b5c62543c7ee410d57098789d3171913f2fe",
+ "frozen_before_m6_outputs": true,
+ "m6_status_at_freeze": "not_started",
+ "note": "v1 policy hash frozen before M6 outputs. Later mutation requires an explicit superseding version approved by Cory; do not overwrite this record in place.",
+ "policy_path": "data/grixis/human_sampling_policy.json",
+ "policy_sha256": "sha256:e230c9826f9501672db8d0fcc0288d93998db4b42921e38a966a77cd6b848895",
+ "schema_version": 1,
+ "seed": "grixis-birthday-human-sampling-v1-2026-10-16"
+}

@@ -462,3 +462,12 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - The gain proof counts zero aggregate outcome scores. Existing M3 outcomes retain their original preregistration and are not re-thresholded.
 - Step-E module items that need canonical-deck/local execution remain explicit `pending_deck_level_module_execution` closure items. Pending red-team judgments are intentional future reviews, not failed tests.
 - `validate_all` now includes `bracket-stress-step`. Step F is code-complete pending the declared local module/full-validation closure work.
+
+
+### Step H batch 71.1: pre-M6 human-sampling policy freeze
+
+- `data/grixis/human_sampling_policy.json` freezes the required nine strata before any M6 optimizer output exists: random, anomaly, exception, pending-release, cEDH, low commander dependence, rules-sensitive, high optimizer disagreement and major change.
+- Static strata have fixed quotas/ranking formulas. Exception and pending-release strata select all eligible decks.
+- Future-result strata are frozen now rather than chosen after results: optimizer disagreement is ranked by committed challenger-hash disagreement and swap symmetric difference; major change is triggered/ranked by predeclared win/package/swap/mana-change fields.
+- A deterministic SHA-256 tie-break seed is fixed. Strata may overlap; sampling is a minimum review obligation, never negative evidence about selected decks or a correctness certificate for unselected decks.
+- `human_sampling_freeze.json` records the byte-level policy hash and confirms M6 was not started when frozen. Later mutation requires an explicit superseding version approved by Cory.
