@@ -1,5 +1,8 @@
+import json
 import sys
 from pathlib import Path
+
+import pytest
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"scripts"))
@@ -15,6 +18,11 @@ def model(name, source=None, ritual=None, oneshot=None):
     return {"name":name,"source":source,"cost":{"generic":0,"pips":[],"life":0},"v11":v,"land":False,
             "flex_land":False,"permanent":True,"creature":False,"artifact":True,"gy_text":False,"tapped":False,
             "legendary":False,"types":["artifact"],"colors":[],"mv":0}
+
+
+def locked_oracle_bulk():
+    lock=json.loads((ROOT/"data/grixis/dev_snapshot_lock.json").read_text())
+    return ROOT/".cache"/lock["files"]["oracle-cards"]
 
 
 def test_disable_fast_mana_preserves_library_but_removes_mana_mode():
@@ -67,6 +75,9 @@ def test_paired_fast_delta_sign():
 
 
 def test_real_abaddon_small_sample_smoke():
+    """Runs only where the frozen dev bulk is actually restored; CI must never bypass the snapshot lock."""
+    if not locked_oracle_bulk().is_file():
+        pytest.skip("requires frozen local Scryfall bulk; snapshot lock intentionally forbids CI refresh")
     import random
     d=sim.load_deck("abaddon-the-despoiler")
     iso=cm.isolate_commander(d,"Abaddon the Despoiler")
