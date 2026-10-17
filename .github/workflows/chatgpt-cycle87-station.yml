@@ -1,0 +1,65 @@
+name: ChatGPT cycle 87 - Abaddon Grinding Station resource trace
+on:
+  push:
+    branches:
+      - chatgpt-cycle87-station-breach-trace
+    paths:
+      - .github/workflows/chatgpt-cycle87-station.yml
+      - scripts/grixis_m6_abaddon_station_trace.py
+      - tests/test_m6_station_trace.py
+      - data/grixis/m6/critic_batches/abaddon_station_resource_review.md
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle87-station
+  cancel-in-progress: true
+jobs:
+  bounded-resource-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle87-station-breach-trace
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Exact-resource and adversarial fail-closed tests
+        run: python -m unittest discover -s tests -p 'test_m6_station_trace.py' -v
+      - name: Recompute bounded resource scenarios
+        run: python scripts/grixis_m6_abaddon_station_trace.py --build --check
+      - name: No unsupported victory or canonical edits
+        run: |
+          git diff --name-only HEAD
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Unexpected protected file modified'
+            exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          e=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_station_breach_line.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert not e['supports_improvement_claim']
+          assert not e['phase_b_complete']
+          assert not any(e['authority'].values())
+          assert e['examples']['ninety_card_library']['win_proven'] is False
+          print('conditional finite self-mill; no automatic deck recommendation or win claim')
+          PY
+      - name: Commit derived evidence only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_station_breach_line.json
+          if git diff --cached --quiet; then
+            echo 'trace already current'
+          else
+            git commit -m 'Cycle 87: record finite Grinding Station resource trace [skip ci]'
+            git pull --rebase origin chatgpt-cycle87-station-breach-trace
+            git push origin HEAD:chatgpt-cycle87-station-breach-trace
+          fi
