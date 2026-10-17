@@ -1,0 +1,235 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 28,
+   "R": 20,
+   "U": 24
+  },
+  "land_sources": {
+   "B": 23,
+   "R": 16,
+   "U": 20
+  },
+  "unconditional_land_sources": {
+   "B": 22,
+   "R": 15,
+   "U": 19
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 20,
+   "R": 14,
+   "U": 18
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.803851,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 2,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{U}{B}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Gwendlyn Di Corci",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.780395,
+    "R": 0.871941,
+    "U": 0.928307
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 7,
+  "fast_mana": 8,
+  "fetchlands": 3,
+  "flex_land_mdfcs": 0,
+  "lands": 35,
+  "library_cards": 99,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 6,
+  "rituals": 1,
+  "unconditional_tapped_lands": 3,
+  "utility_lands": 3
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Gwendlyn_Di_Corci",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Chrome Mox",
+  "Dark Ritual",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Sol Ring",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/gwendlyn-di-corci.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 2,
+   "Plains": 0,
+   "Swamp": 5
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 10
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 49,
+  "double_pip_spell_count": {
+   "B": 5,
+   "R": 1,
+   "U": 5
+  },
+  "mv_le_2": {
+   "B": 16.5,
+   "R": 2.0,
+   "U": 7.5
+  },
+  "mv_le_3": {
+   "B": 29.5,
+   "R": 6.0,
+   "U": 17.5
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 33.5,
+   "R": 9.0,
+   "U": 21.5
+  },
+  "share": {
+   "B": 0.5234,
+   "R": 0.1406,
+   "U": 0.3359
+  }
+ },
+ "ritual_cards": [
+  "Dark Ritual"
+ ],
+ "schema_version": 1,
+ "slug": "gwendlyn-di-corci",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.709658,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.894597,
+   "per_color_at_least_one_land_source": {
+    "B": 0.917698,
+    "R": 0.810117,
+    "U": 0.881105
+   },
+   "strict_land_drop_probability": 0.894597
+  },
+  "3": {
+   "all_three_land_source_presence": 0.760596,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.759362,
+   "per_color_at_least_one_land_source": {
+    "B": 0.938731,
+    "R": 0.843874,
+    "U": 0.907526
+   },
+   "strict_land_drop_probability": 0.759362
+  },
+  "4": {
+   "all_three_land_source_presence": 0.803851,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.592219,
+   "per_color_at_least_one_land_source": {
+    "B": 0.954565,
+    "R": 0.871941,
+    "U": 0.928307
+   },
+   "strict_land_drop_probability": 0.592219
+  },
+  "5": {
+   "all_three_land_source_presence": 0.840216,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.425075,
+   "per_color_at_least_one_land_source": {
+    "B": 0.96644,
+    "R": 0.895225,
+    "U": 0.944601
+   },
+   "strict_land_drop_probability": 0.425075
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Minamo, School at Water's Edge",
+   "Otawara, Soaring City",
+   "Takenuma, Abandoned Mire"
+  ]
+ }
+}

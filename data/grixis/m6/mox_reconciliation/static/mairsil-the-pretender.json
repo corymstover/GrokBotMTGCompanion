@@ -1,0 +1,239 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 0,
+   "R": 0,
+   "U": 0
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 27,
+   "R": 28,
+   "U": 29
+  },
+  "land_sources": {
+   "B": 17,
+   "R": 18,
+   "U": 18
+  },
+  "unconditional_land_sources": {
+   "B": 17,
+   "R": 18,
+   "U": 18
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 16,
+   "R": 17,
+   "U": 17
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.765851,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Mairsil, the Pretender",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.888913,
+    "R": 0.903815,
+    "U": 0.903815
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 0,
+  "conditional_tapped_lands": 10,
+  "fast_mana": 14,
+  "fetchlands": 3,
+  "flex_land_mdfcs": 0,
+  "lands": 32,
+  "library_cards": 99,
+  "one_shot_mana": 1,
+  "repeatable_nonland_sources": 15,
+  "rituals": 0,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 4
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Mairsil__the_Pretender",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Chrome Mox",
+  "Dimir Signet",
+  "Fellwar Stone",
+  "Izzet Signet",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Diamond",
+  "Omen Hawker",
+  "Rakdos Signet",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/mairsil-the-pretender.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 1,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 6,
+   "Mountain": 6,
+   "Plains": 0,
+   "Swamp": 6
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 45,
+  "double_pip_spell_count": {
+   "B": 5,
+   "R": 2,
+   "U": 5
+  },
+  "mv_le_2": {
+   "B": 6.0,
+   "R": 2.0,
+   "U": 9.0
+  },
+  "mv_le_3": {
+   "B": 8.0,
+   "R": 4.0,
+   "U": 15.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 22.0,
+   "R": 9.0,
+   "U": 28.0
+  },
+  "share": {
+   "B": 0.3729,
+   "R": 0.1525,
+   "U": 0.4746
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.662274,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.854726,
+   "per_color_at_least_one_land_source": {
+    "B": 0.830707,
+    "R": 0.849288,
+    "U": 0.849288
+   },
+   "strict_land_drop_probability": 0.854726
+  },
+  "3": {
+   "all_three_land_source_presence": 0.717782,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.688604,
+   "per_color_at_least_one_land_source": {
+    "B": 0.862684,
+    "R": 0.87943,
+    "U": 0.87943
+   },
+   "strict_land_drop_probability": 0.688604
+  },
+  "4": {
+   "all_three_land_source_presence": 0.765851,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.501949,
+   "per_color_at_least_one_land_source": {
+    "B": 0.888913,
+    "R": 0.903815,
+    "U": 0.903815
+   },
+   "strict_land_drop_probability": 0.501949
+  },
+  "5": {
+   "all_three_land_source_presence": 0.80702,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.332793,
+   "per_color_at_least_one_land_source": {
+    "B": 0.910373,
+    "R": 0.923489,
+    "U": 0.923489
+   },
+   "strict_land_drop_probability": 0.332793
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Minamo, School at Water's Edge",
+   "Otawara, Soaring City",
+   "Sokenzan, Crucible of Defiance",
+   "Takenuma, Abandoned Mire"
+  ]
+ }
+}

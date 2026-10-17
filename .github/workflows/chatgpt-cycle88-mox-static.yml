@@ -1,0 +1,59 @@
+name: ChatGPT cycle 88 - 25 Chrome Mox corrected static evidence
+on:
+  push:
+    branches:
+      - chatgpt-cycle88-mox-static-25
+    paths:
+      - .github/workflows/chatgpt-cycle88-mox-static.yml
+      - scripts/grixis_m6_mox_static_25.py
+      - tests/test_m6_mox_static_25.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle88-mox-static
+  cancel-in-progress: true
+jobs:
+  corrected-static:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle88-mox-static-25
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial regression and scope checks
+        run: python -m unittest discover -s tests -p 'test_m6_mox_static_25.py' -v
+      - name: Regenerate and validate 25 corrected static snapshots
+        run: python scripts/grixis_m6_mox_static_25.py --build --check
+      - name: Enforce zero frozen report, deck or authority edits
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/mox_reconciliation/' | grep -q .; then
+            echo 'Forbidden change to accepted or canonical file'; exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          m=json.loads(Path('data/grixis/m6/mox_reconciliation/static_manifest.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert m['count']==25 and m['authority']['can_decide'] is False
+          print('25/25 evidence only; accepted 62 decks untouched')
+          PY
+      - name: Commit reproducible evidence only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/mox_reconciliation/
+          if git diff --cached --quiet; then
+            echo 'already reconciled'
+          else
+            git commit -m 'Cycle 88: record 25 conditional Chrome Mox static snapshots [skip ci]'
+            git pull --rebase origin chatgpt-cycle88-mox-static-25
+            git push origin HEAD:chatgpt-cycle88-mox-static-25
+          fi

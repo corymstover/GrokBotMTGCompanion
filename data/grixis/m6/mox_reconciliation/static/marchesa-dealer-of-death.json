@@ -1,0 +1,272 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 2,
+   "R": 2,
+   "U": 2
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 27,
+   "R": 24,
+   "U": 28
+  },
+  "land_sources": {
+   "B": 19,
+   "R": 16,
+   "U": 19
+  },
+  "unconditional_land_sources": {
+   "B": 17,
+   "R": 14,
+   "U": 17
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 18,
+   "R": 16,
+   "U": 18
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.753212,
+   "base_resource_target": 3,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 5,
+   "mana_cost": "{U}{B}{R}",
+   "mana_value": 3.0,
+   "name": "Marchesa, Dealer of Death",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.894315,
+    "R": 0.843874,
+    "U": 0.894315
+   },
+   "second_recast_resource_target": 7
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 3,
+  "conditional_tapped_lands": 5,
+  "fast_mana": 15,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 0,
+  "lands": 29,
+  "library_cards": 99,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 11,
+  "rituals": 3,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 4
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Cabal Ritual",
+  "Chrome Mox",
+  "Dark Ritual",
+  "Fellwar Stone",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Amber",
+  "Mox Diamond",
+  "Mox Opal",
+  "Rite of Flame",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/marchesa-dealer-of-death.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 0,
+   "Mountain": 0,
+   "Plains": 0,
+   "Swamp": 0
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 5,
+   "Mountain": 4,
+   "Plains": 0,
+   "Swamp": 5
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 50,
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 2,
+   "U": 7
+  },
+  "mv_le_2": {
+   "B": 9.0,
+   "R": 10.0,
+   "U": 22.0
+  },
+  "mv_le_3": {
+   "B": 14.0,
+   "R": 13.0,
+   "U": 28.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 17.0,
+   "R": 14.0,
+   "U": 33.0
+  },
+  "share": {
+   "B": 0.2656,
+   "R": 0.2188,
+   "U": 0.5156
+  }
+ },
+ "ritual_cards": [
+  "Cabal Ritual",
+  "Dark Ritual",
+  "Rite of Flame"
+ ],
+ "schema_version": 1,
+ "slug": "marchesa-dealer-of-death",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.704806,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.804276,
+   "per_color_at_least_one_land_source": {
+    "B": 0.866033,
+    "R": 0.810117,
+    "U": 0.866033
+   },
+   "strict_land_drop_probability": 0.804276
+  },
+  "3": {
+   "all_three_land_source_presence": 0.753212,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.607462,
+   "per_color_at_least_one_land_source": {
+    "B": 0.894315,
+    "R": 0.843874,
+    "U": 0.894315
+   },
+   "strict_land_drop_probability": 0.607462
+  },
+  "4": {
+   "all_three_land_source_presence": 0.79492,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.408436,
+   "per_color_at_least_one_land_source": {
+    "B": 0.916877,
+    "R": 0.871941,
+    "U": 0.916877
+   },
+   "strict_land_drop_probability": 0.408436
+  },
+  "5": {
+   "all_three_land_source_presence": 0.830544,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.246728,
+   "per_color_at_least_one_land_source": {
+    "B": 0.934824,
+    "R": 0.895225,
+    "U": 0.934824
+   },
+   "strict_land_drop_probability": 0.246728
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Hammerheim",
+   "Talon Gates of Madara",
+   "Tolaria",
+   "Urborg"
+  ]
+ }
+}

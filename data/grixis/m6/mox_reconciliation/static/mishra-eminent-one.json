@@ -1,0 +1,269 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 0,
+   "R": 0,
+   "U": 0
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 25,
+   "R": 23,
+   "U": 28
+  },
+  "land_sources": {
+   "B": 17,
+   "R": 15,
+   "U": 18
+  },
+  "unconditional_land_sources": {
+   "B": 17,
+   "R": 15,
+   "U": 18
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 16,
+   "R": 14,
+   "U": 17
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.779486,
+   "base_resource_target": 5,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 7,
+   "mana_cost": "{2}{U}{B}{R}",
+   "mana_value": 5.0,
+   "name": "Mishra, Eminent One",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.910373,
+    "R": 0.877762,
+    "U": 0.923489
+   },
+   "second_recast_resource_target": 9
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 6,
+  "fast_mana": 14,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 0,
+  "lands": 34,
+  "library_cards": 99,
+  "one_shot_mana": 1,
+  "repeatable_nonland_sources": 17,
+  "rituals": 0,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 4
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Mishra__Eminent_One",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Chrome Mox",
+  "Darksteel Citadel",
+  "Great Furnace",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Diamond",
+  "Mox Opal",
+  "Seat of the Synod",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence",
+  "Vault of Whispers"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/mishra-eminent-one.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 1,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 6,
+   "Mountain": 6,
+   "Plains": 0,
+   "Swamp": 6
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 34,
+  "double_pip_spell_count": {
+   "B": 0,
+   "R": 0,
+   "U": 5
+  },
+  "mv_le_2": {
+   "B": 4.0,
+   "R": 5.0,
+   "U": 10.0
+  },
+  "mv_le_3": {
+   "B": 5.0,
+   "R": 7.0,
+   "U": 21.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 5.0,
+   "R": 8.0,
+   "U": 29.0
+  },
+  "share": {
+   "B": 0.119,
+   "R": 0.1905,
+   "U": 0.6905
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "mishra-eminent-one",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.635243,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.882395,
+   "per_color_at_least_one_land_source": {
+    "B": 0.830707,
+    "R": 0.787331,
+    "U": 0.849288
+   },
+   "strict_land_drop_probability": 0.882395
+  },
+  "3": {
+   "all_three_land_source_presence": 0.68961,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.736993,
+   "per_color_at_least_one_land_source": {
+    "B": 0.862684,
+    "R": 0.822776,
+    "U": 0.87943
+   },
+   "strict_land_drop_probability": 0.736993
+  },
+  "4": {
+   "all_three_land_source_presence": 0.737585,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.562728,
+   "per_color_at_least_one_land_source": {
+    "B": 0.888913,
+    "R": 0.852645,
+    "U": 0.903815
+   },
+   "strict_land_drop_probability": 0.562728
+  },
+  "5": {
+   "all_three_land_source_presence": 0.779486,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.393908,
+   "per_color_at_least_one_land_source": {
+    "B": 0.910373,
+    "R": 0.877762,
+    "U": 0.923489
+   },
+   "strict_land_drop_probability": 0.393908
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Academy Ruins",
+   "Inventors' Fair"
+  ],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Academy Ruins",
+   "Inventors' Fair",
+   "Otawara, Soaring City",
+   "Takenuma, Abandoned Mire"
+  ]
+ }
+}
