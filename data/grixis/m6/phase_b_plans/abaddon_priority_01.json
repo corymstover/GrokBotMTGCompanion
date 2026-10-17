@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "stage": "M6_Phase_B_preregistered_plan",
+  "date": "2026-10-17",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "base_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "accepted_m5_snapshot": "birthday-20261017-6e5c604e1459",
+  "preregistered_before_new_tests": true,
+  "identity_guard": "Commander-first: five-mana Abaddon gets cascade on your turn only for hand-cast spells with mana value at most opponents' life lost this turn. Keep threshold enablers, exile-cast payoffs, affordable protection and fast mana.",
+  "controls": [
+    "unchanged 100-card approved baseline",
+    "all specific proposed cuts retained as controls",
+    "review at least one alternate non-core cut per add",
+    "commander-present and commander-unavailable counterfactuals"
+  ],
+  "groups": [
+    {
+      "candidate": "Heartless Hidetsugu",
+      "priority": "P0_targeted_rules_and_gameplan",
+      "swap_ids": [
+        "swap:abaddon-the-despoiler:m5:d17609747acc",
+        "swap:abaddon-the-despoiler:m5:5ac285a18b7a"
+      ],
+      "model_requirements": [
+        "Verify current Oracle, legal activation timing and self-damage, including removal in response",
+        "Model first turn on which tapped activated ability can be used with and without haste",
+        "Compare 40 and odd-life opponents with Solphim present/removed; keep self-damage separate",
+        "Verify Bloodletter of Aclazotz interaction and damage/life-loss accounting, including prevention",
+        "Quantify lost Birgi or Kessig same-turn pings/mana versus retained-baseline alternate cuts",
+        "Stress-test removal and protection, commander tax, and multiplayer opponent availability"
+      ],
+      "test_status": "not_executed",
+      "agent_judgment": "pending"
+    },
+    {
+      "candidate": "Tree of Perdition",
+      "priority": "P0_targeted_rules_and_gameplan",
+      "swap_ids": [
+        "swap:abaddon-the-despoiler:m5:f2e3f08ecb7d",
+        "swap:abaddon-the-despoiler:m5:ba42cedcaa2f"
+      ],
+      "model_requirements": [
+        "Verify exchange of target life with current toughness counts non-damage life loss under current rules",
+        "Test high and low life total targets, Tree toughness modifications and legal target constraints",
+        "Model summoning sickness/haste and need to survive until an activation opportunity",
+        "Test hand-cast follow-through after activation in current turn with protection/mana available",
+        "Compare per-opponent life loss and Kessig repeatable tablewide early threshold",
+        "Evaluate alternate non-core cuts rather than assuming Birgi or Kessig is expendable"
+      ],
+      "test_status": "not_executed",
+      "agent_judgment": "pending"
+    },
+    {
+      "candidate": "Grinding Station",
+      "priority": "P0_exact_combo_and_mana",
+      "swap_ids": [
+        "swap:abaddon-the-despoiler:m5:1eb1c0ea9334"
+      ],
+      "model_requirements": [
+        "Trace exact Underworld Breach + Grinding Station + available artifact package with all recasts, sacrifices, untaps, zone changes and graveyard escape costs",
+        "Identify actual win condition and line interruption points, not just increased mill/storm proxy",
+        "Check that proposed line is executable from accepted 100-card baseline; distinguish a new variant from complete combo",
+        "Model Chrome Mox fast-mana opportunity cost and colored-source readiness for Abaddon",
+        "Compare with non-core alternate cut and preserve distinct commander-cascade gameplan"
+      ],
+      "test_status": "not_executed",
+      "agent_judgment": "pending"
+    },
+    {
+      "candidate": "Shredder, Shadow Master",
+      "priority": "P1_conditional_combat",
+      "swap_ids": [
+        "swap:abaddon-the-despoiler:m5:f042c87e6e25",
+        "swap:abaddon-the-despoiler:m5:e03993a91dd5"
+      ],
+      "model_requirements": [
+        "Use official attack-trigger rule: only original declared attacking makes copies, each token enters attacking and is not declared an attacker",
+        "Model connection rates versus blockers, removal and pillowfort, rather than assuming all three players are hit",
+        "Check first eligible attack turn, postcombat-only X window, mana left for hand-cast spells and Abaddon",
+        "Compare losing Birgi mana/draw or Kessig precombat repeatable threshold at Bracket 4",
+        "Resolve whether existing deck has enough combat support to justify a new package"
+      ],
+      "test_status": "not_executed",
+      "agent_judgment": "pending"
+    }
+  ],
+  "required_before_determination": [
+    "independent current Oracle and Commander legality check",
+    "interaction and combo lines checked against current Comprehensive Rules",
+    "bounded Phase-B test evidence with active effect modeling and registered seeds",
+    "full colored-mana and curve tradeoff against original list",
+    "commander marginal-value analysis and opponent/interaction red-team cases",
+    "named agent judgment that reviews alternatives and weaknesses",
+    "verified final 100-card/hash proof only if any proposal advances",
+    "explicit user approval before changing deck"
+  ],
+  "status": "preregistered_not_executed",
+  "counts": {
+    "candidate_groups": 4,
+    "hypotheses": 7,
+    "phase_b_tests_completed": 0,
+    "formal_judgments_completed": 0,
+    "swaps_applied": 0
+  },
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false
+  }
+}
