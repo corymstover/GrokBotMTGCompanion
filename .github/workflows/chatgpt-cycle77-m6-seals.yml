@@ -1,0 +1,85 @@
+name: ChatGPT cycle 77 - M6 separated A B seals
+
+on:
+  push:
+    branches:
+      - chatgpt-cycle77-ij-sealing
+    paths:
+      - .github/workflows/chatgpt-cycle77-m6-seals.yml
+      - scripts/grixis_m6_sealed.py
+      - tests/test_m6_sealed.py
+      - data/grixis/schemas/m6_sealed_reconciliation.schema.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chatgpt-cycle77-m6-sealed-first-passes
+  cancel-in-progress: true
+
+jobs:
+  sealed-first-passes:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle77-ij-sealing
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Independent field-projection adversarial tests
+        run: python -m unittest discover -s tests -p 'test_m6_sealed.py' -v
+      - name: Detect completed immutable seal
+        id: sealed
+        run: |
+          if test -f data/grixis/m6/sealed/reconciliation_manifest.json; then
+            python scripts/grixis_m6_sealed.py --check
+            echo 'present=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'present=false' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Emit and commit ONLY commander-first Pass A
+        if: steps.sealed.outputs.present == 'false'
+        run: |
+          python scripts/grixis_m6_sealed.py --emit-a
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/m6/sealed/A/
+          git diff --cached --quiet && { echo 'Pass A has no distinct new artifact'; exit 1; }
+          git commit -m 'Cycle 77: seal commander-first Pass A [skip ci]'
+          echo "A_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Emit and commit ONLY performance Pass B
+        if: steps.sealed.outputs.present == 'false'
+        run: |
+          python scripts/grixis_m6_sealed.py --emit-b
+          git add data/grixis/m6/sealed/B/
+          git diff --cached --quiet && { echo 'Pass B has no distinct new artifact'; exit 1; }
+          git commit -m 'Cycle 77: seal performance Pass B [skip ci]'
+          echo "B_COMMIT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Reconcile only AFTER both committed hashes exist
+        if: steps.sealed.outputs.present == 'false'
+        run: |
+          python scripts/grixis_m6_sealed.py --reconcile --a-commit "$A_COMMIT" --b-commit "$B_COMMIT"
+          python scripts/grixis_m6_sealed.py --check
+          git add data/grixis/m6/sealed/reconciliation_manifest.json
+          git commit -m 'Cycle 77: reveal sealed A/B and queue separate Pass C [skip ci]'
+          git pull --rebase origin chatgpt-cycle77-ij-sealing
+          git push origin HEAD:chatgpt-cycle77-ij-sealing
+      - name: Authority and scope summary
+        run: |
+          python scripts/grixis_m6_sealed.py --check
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          manifest=json.loads(Path('data/grixis/m6/sealed/reconciliation_manifest.json').read_text())
+          assert len(reg['decks'])==62
+          assert reg['program']['milestones']['M5']['status']=='accepted'
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          assert manifest['pass_c']['complete'] is False
+          assert manifest['authority']['can_approve_or_lock'] is False
+          print('A/B hash-bound; Pass C still requires named judgment; 0 auto-approvals')
+          PY
