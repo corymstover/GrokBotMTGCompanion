@@ -1,0 +1,70 @@
+name: Temporary ChatGPT Step F integration
+
+on:
+  push:
+    branches: [chatgpt-cycle70-4-bracket-integration]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle70-4-bracket-integration
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Focused Step F tests
+        run: python -m pytest -q tests/test_bracket_stress.py tests/test_bracket_stress_runner.py tests/test_bracket_red_team.py tests/test_bracket_stress_step.py
+      - name: Build and check gain proof
+        run: |
+          python scripts/grixis_bracket_stress_gain.py --build
+          python scripts/grixis_bracket_stress_gain.py --check
+          python scripts/grixis_stress_step.py --check
+      - name: Wire validate_all and update plan
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('scripts/validate_all.py'); text=p.read_text()
+          anchor='             ("commander-step", ["scripts/grixis_commander_step.py", "--check"]),  # Step D: structural/integration layers + explicit local dynamic closure\n'
+          ins='             ("bracket-stress-step", ["scripts/grixis_stress_step.py", "--check"]),  # Step F: bracket-specific suites/routing/red-team/gain + local module closure\n'
+          if ins not in text:
+              if anchor not in text: raise SystemExit('validate_all Step D anchor missing')
+              text=text.replace(anchor,anchor+ins); p.write_text(text)
+          up=Path('data/grixis/upgrade_plan.json'); d=json.loads(up.read_text())
+          s=next(x for x in d['steps'] if x['id']=='F'); s['status']='code_complete_pending_local_cache_validation'; s['batches']=[
+            '70.1 preregister B5 competitive vs B4 resilience stress priorities for all 62 decks; weights are review priority only, never outcome scores',
+            '70.2 route all 62 suites to committed M3 paired stress evidence, audit goldfish readiness, exact Step-E module specs, or judgment-required status; no aggregate score',
+            '70.3 build frozen bracket-specific red-team packets for all 62 decks; script assembles Blueprint/audit/commander-structure/test context but leaves every judgment pending and non-deciding',
+            '70.4 Step-F integration + real B5/B4 gain proof + validate_all gate; code complete, deck-level Step-E module execution/full local validation remains closure item'
+          ]
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 70.4 (2026-10-16)'
+          x=next(x for x in tr['stages'] if x['id']=='F'); x['batches_done']=4; x['status']='code_complete_pending_local_cache_validation'; x['note']='4/4.5 batch-equivalents complete. 62 suites, routed packets and red-team packets plus gain/integration gate are validated; remaining 0.5 equivalent = frozen-local deck-level Step-E module execution/full validation.'
+          tr['batches_done']=39; tr['percent_complete']=62.4
+          up.write_text(json.dumps(d,indent=1,ensure_ascii=False)+'\n')
+          md=Path('grixis/Grixis Birthday Upgrade Plan.md'); t=md.read_text(); marker='### Step F batch 70.4: integration and decision-resolution gain proof'
+          if marker not in t:
+              t += '''\n\n### Step F batch 70.4: integration and decision-resolution gain proof\n\n- `scripts/grixis_stress_step.py --check` requires all 62 preregistered suites, 62 routed evidence packets, 62 pending red-team packets, and the gain proof to validate.\n- `bracket_stress_gain.json` demonstrates the change from one generic nine-scenario M3 suite to distinct B5/B4 workloads with exact evidence/module routing and mandatory adversarial prompts on real project decks.\n- The gain proof counts zero aggregate outcome scores. Existing M3 outcomes retain their original preregistration and are not re-thresholded.\n- Step-E module items that need canonical-deck/local execution remain explicit `pending_deck_level_module_execution` closure items. Pending red-team judgments are intentional future reviews, not failed tests.\n- `validate_all` now includes `bracket-stress-step`. Step F is code-complete pending the declared local module/full-validation closure work.\n'''
+              md.write_text(t)
+          PY
+      - name: Validate integrated Step F gate
+        run: python scripts/validate_all.py --only bracket-stress-step
+      - name: Assert snapshot metadata unchanged
+        run: git diff --exit-code HEAD -- data/grixis/dev_snapshot_lock.json
+      - name: Commit integration outputs and cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/chatgpt-bracket-stress-integration.yml
+          git add scripts/validate_all.py data/grixis/bracket_stress_gain.json data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md'
+          git commit -m "ChatGPT cycle 70.4: finalize Step F integration [skip ci]"
+          git push
