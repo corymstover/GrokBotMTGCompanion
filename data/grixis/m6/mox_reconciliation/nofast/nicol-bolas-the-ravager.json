@@ -1,0 +1,188 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.052749,
+      0.099251
+     ],
+     "value": 0.076
+    },
+    "4": {
+     "ci95": [
+      -0.012644,
+      0.020644
+     ],
+     "value": 0.004
+    },
+    "5": {
+     "ci95": [
+      -0.008633,
+      0.024633
+     ],
+     "value": 0.008
+    },
+    "6": {
+     "ci95": [
+      -0.009588,
+      0.017588
+     ],
+     "value": 0.004
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.996,
+    "2": 0.136,
+    "3": 0.614,
+    "4": 0.882,
+    "5": 0.934,
+    "6": 0.962,
+    "8": 0.984
+   },
+   "commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Dimir Signet",
+    "Fellwar Stone",
+    "Izzet Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.954,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.716,
+     "5": 0.834,
+     "6": 0.876,
+     "8": 0.928
+    },
+    "cast_share_by_turn10": 0.954,
+    "mana_available_by_turn": [
+     0.914,
+     2.024,
+     3.026,
+     3.866,
+     4.57,
+     5.14,
+     5.63,
+     6.06,
+     6.426,
+     6.798
+    ],
+    "mana_spent_by_turn": [
+     0.294,
+     0.786,
+     1.968,
+     3.382,
+     3.7,
+     3.84,
+     4.0,
+     3.876,
+     3.232,
+     3.088
+    ],
+    "mean_turn_when_cast": 4.5535
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Dimir Signet",
+    "Fellwar Stone",
+    "Izzet Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:2cf45314d2dc5ef20a59738e9cffa052ea38229a4758b692c6c6f75295dd7650",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.956,
+     "2": 0.0,
+     "3": 0.076,
+     "4": 0.72,
+     "5": 0.842,
+     "6": 0.88,
+     "8": 0.928
+    },
+    "cast_share_by_turn10": 0.956,
+    "mana_available_by_turn": [
+     0.91,
+     2.116,
+     3.12,
+     3.944,
+     4.652,
+     5.242,
+     5.742,
+     6.17,
+     6.546,
+     6.918
+    ],
+    "mana_spent_by_turn": [
+     0.31,
+     0.89,
+     2.104,
+     3.35,
+     3.736,
+     3.856,
+     3.952,
+     3.642,
+     3.158,
+     3.082
+    ],
+    "mean_turn_when_cast": 4.4561
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:8082e5659ba48d79ea216da417ccc86c079468e0d2771e9d418f36012913ba14",
+ "deck_id": "Nicol_Bolas__the_Ravager",
+ "frozen_commander_mana_sha256": "sha256:6a6e1c09d40d94edff68ef1375b85963e71665283944fd2902095eaecdb5745a",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "nicol-bolas-the-ravager",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

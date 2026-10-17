@@ -1,0 +1,190 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.059662,
+      0.108338
+     ],
+     "value": 0.084
+    },
+    "4": {
+     "ci95": [
+      0.0211,
+      0.0589
+     ],
+     "value": 0.04
+    },
+    "5": {
+     "ci95": [
+      0.021224,
+      0.054776
+     ],
+     "value": 0.038
+    },
+    "6": {
+     "ci95": [
+      0.022806,
+      0.057194
+     ],
+     "value": 0.04
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.962,
+    "2": 0.08,
+    "3": 0.42,
+    "4": 0.76,
+    "5": 0.836,
+    "6": 0.88,
+    "8": 0.934
+   },
+   "commander": "Jeleva, Nephalia's Scourge",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.878,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.586,
+     "5": 0.658,
+     "6": 0.704,
+     "8": 0.806
+    },
+    "cast_share_by_turn10": 0.878,
+    "mana_available_by_turn": [
+     0.982,
+     2.024,
+     2.966,
+     3.692,
+     4.226,
+     4.636,
+     5.004,
+     5.336,
+     5.664,
+     5.982
+    ],
+    "mana_spent_by_turn": [
+     0.652,
+     1.156,
+     1.692,
+     2.816,
+     2.356,
+     1.994,
+     1.71,
+     1.588,
+     1.484,
+     1.522
+    ],
+    "mean_turn_when_cast": 5.0342
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:82dec80f6a7128ef9fe8d84bf1097d8712e52ec29ecf308f7c00c4210b53d0c2",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.896,
+     "2": 0.0,
+     "3": 0.084,
+     "4": 0.626,
+     "5": 0.696,
+     "6": 0.744,
+     "8": 0.842
+    },
+    "cast_share_by_turn10": 0.896,
+    "mana_available_by_turn": [
+     0.982,
+     2.134,
+     3.084,
+     3.824,
+     4.362,
+     4.78,
+     5.138,
+     5.478,
+     5.822,
+     6.152
+    ],
+    "mana_spent_by_turn": [
+     0.702,
+     1.23,
+     1.87,
+     2.762,
+     2.294,
+     1.958,
+     1.696,
+     1.556,
+     1.454,
+     1.478
+    ],
+    "mean_turn_when_cast": 4.7969
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:f17b3d77af1c2a9e0307309a27e3f3d848558a839e047383b23a922cabf2d4d0",
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "frozen_commander_mana_sha256": "sha256:8a1acf84033a474e406b4aabab4f484720b915bd8fca133acb427a331ac078e2",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "jeleva-nephalias-scourge",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

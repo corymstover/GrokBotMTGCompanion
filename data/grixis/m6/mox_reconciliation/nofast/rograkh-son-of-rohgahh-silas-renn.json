@@ -1,0 +1,356 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "4": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "5": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "6": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 1.0,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 1.0,
+    "8": 1.0
+   },
+   "commander": "Rograkh, Son of Rohgahh",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Infernal Plunge",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Springleaf Drum",
+    "Talisman of Dominance"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 1.0,
+     "2": 1.0,
+     "3": 1.0,
+     "4": 1.0,
+     "5": 1.0,
+     "6": 1.0,
+     "8": 1.0
+    },
+    "cast_share_by_turn10": 1.0,
+    "mana_available_by_turn": [
+     0.952,
+     2.154,
+     2.996,
+     3.57,
+     3.964,
+     4.296,
+     4.616,
+     4.894,
+     5.184,
+     5.5
+    ],
+    "mana_spent_by_turn": [
+     0.584,
+     1.308,
+     1.724,
+     1.682,
+     1.544,
+     1.292,
+     1.31,
+     1.302,
+     1.306,
+     1.348
+    ],
+    "mean_turn_when_cast": 1.0
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Infernal Plunge",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Springleaf Drum",
+    "Talisman of Dominance"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:bf60ef6360b34e54360fb30e65cad9ad283f2202011e00e5ba75291a44a68f46",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 1.0,
+     "2": 1.0,
+     "3": 1.0,
+     "4": 1.0,
+     "5": 1.0,
+     "6": 1.0,
+     "8": 1.0
+    },
+    "cast_share_by_turn10": 1.0,
+    "mana_available_by_turn": [
+     0.956,
+     2.228,
+     3.084,
+     3.66,
+     4.056,
+     4.392,
+     4.712,
+     4.994,
+     5.306,
+     5.626
+    ],
+    "mana_spent_by_turn": [
+     0.604,
+     1.35,
+     1.764,
+     1.706,
+     1.522,
+     1.252,
+     1.27,
+     1.26,
+     1.314,
+     1.296
+    ],
+    "mean_turn_when_cast": 1.0
+   }
+  },
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.039163,
+      0.080837
+     ],
+     "value": 0.06
+    },
+    "3": {
+     "ci95": [
+      0.00947,
+      0.03853
+     ],
+     "value": 0.024
+    },
+    "4": {
+     "ci95": [
+      0.00947,
+      0.03853
+     ],
+     "value": 0.024
+    },
+    "5": {
+     "ci95": [
+      0.006521,
+      0.033479
+     ],
+     "value": 0.02
+    },
+    "6": {
+     "ci95": [
+      0.005082,
+      0.030918
+     ],
+     "value": 0.018
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.962,
+    "2": 0.22,
+    "3": 0.736,
+    "4": 0.826,
+    "5": 0.86,
+    "6": 0.9,
+    "8": 0.94
+   },
+   "commander": "Silas Renn, Seeker Adept",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Infernal Plunge",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Springleaf Drum",
+    "Talisman of Dominance"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.902,
+     "2": 0.004,
+     "3": 0.654,
+     "4": 0.748,
+     "5": 0.784,
+     "6": 0.816,
+     "8": 0.86
+    },
+    "cast_share_by_turn10": 0.902,
+    "mana_available_by_turn": [
+     0.922,
+     2.0,
+     2.868,
+     3.526,
+     3.928,
+     4.276,
+     4.608,
+     4.89,
+     5.188,
+     5.508
+    ],
+    "mana_spent_by_turn": [
+     0.54,
+     1.174,
+     2.288,
+     2.32,
+     2.016,
+     1.68,
+     1.522,
+     1.45,
+     1.378,
+     1.4
+    ],
+    "mean_turn_when_cast": 3.8027
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Infernal Plunge",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Springleaf Drum",
+    "Talisman of Dominance"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:c94941f811e7d2f6b193fc2cfd34620aaa9e9a3ee1ca19a7b927e7cf6dbb441b",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.914,
+     "2": 0.064,
+     "3": 0.678,
+     "4": 0.772,
+     "5": 0.804,
+     "6": 0.834,
+     "8": 0.876
+    },
+    "cast_share_by_turn10": 0.914,
+    "mana_available_by_turn": [
+     0.926,
+     2.076,
+     2.96,
+     3.614,
+     4.022,
+     4.376,
+     4.706,
+     4.996,
+     5.316,
+     5.638
+    ],
+    "mana_spent_by_turn": [
+     0.562,
+     1.308,
+     2.3,
+     2.358,
+     2.008,
+     1.628,
+     1.452,
+     1.426,
+     1.38,
+     1.35
+    ],
+    "mean_turn_when_cast": 3.6718
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:7117c4a286f57d4d47d2b152a59015e1968e2f99be74c69f9b3ffb5e2ea631d7",
+ "deck_id": "RogSi",
+ "frozen_commander_mana_sha256": "sha256:f83f2152cb23fe30add7d9b01f90848c1271fbbbeed47fc3e467018898f79ec6",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

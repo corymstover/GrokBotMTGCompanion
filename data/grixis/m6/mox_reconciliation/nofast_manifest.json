@@ -1,0 +1,383 @@
+{
+ "accepted_m5_or_canonical_state_modified": false,
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "count": 25,
+ "original_commander_mana_artifacts_modified": false,
+ "rows": [
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Abaddon the Despoiler": {
+     "ci95": [
+      0.04182,
+      0.08618
+     ],
+     "value": 0.064
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:bee4c89b9a2e327a74fdcc493de2657f31a16c50bb1c7b2fb47247a8ad698545",
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Cormela, Glamour Thief": {
+     "ci95": [
+      -0.00796,
+      0.02796
+     ],
+     "value": 0.01
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:c5d7568658a537452c5c644fdeab7ee1d2531e25bfd249d383403e3cd261f521",
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Crosis, the Purger": {
+     "ci95": [
+      -0.000776,
+      0.012776
+     ],
+     "value": 0.006
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:2c7198308c6ed0471910a47714c6ed1745e988f027a64da296fb4b151a82a892",
+   "slug": "crosis-the-purger"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Edward Kenway": {
+     "ci95": [
+      0.033654,
+      0.078346
+     ],
+     "value": 0.056
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:631137dc7d08f01b812b40f3a7ccf694a5c3e605e2f3e02e758e7599199c4318",
+   "slug": "edward-kenway"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Evelyn, the Covetous": {
+     "ci95": [
+      0.015419,
+      0.052581
+     ],
+     "value": 0.034
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:1879f5cad324e82bc9a1740e4fd9620aaff4a0eb062819f0518214946ce7579f",
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Fire Lord Azula": {
+     "ci95": [
+      0.005716,
+      0.042284
+     ],
+     "value": 0.024
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:34f051654124236f1d847fe80bdd02b8284f07825668e41a207ce4fcc89e69c0",
+   "slug": "fire-lord-azula"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Kraum, Ludevic's Opus": {
+     "ci95": [
+      0.026005,
+      0.061995
+     ],
+     "value": 0.044
+    },
+    "Tevesh Szat, Doom of Fools": {
+     "ci95": [
+      0.029244,
+      0.066756
+     ],
+     "value": 0.048
+    }
+   },
+   "commander_count": 2,
+   "sha256": "sha256:2a2004077a7754716040258123ef0d1a7fcffd5ec669a1226f7f166af279ccf6",
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Gwendlyn Di Corci": {
+     "ci95": [
+      0.005005,
+      0.038995
+     ],
+     "value": 0.022
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:cf621f8b111bb6e99946570e2b92ddeb7ffd99d5f93e340c2b1bb95cfd9c3013",
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Inalla, Archmage Ritualist": {
+     "ci95": [
+      0.026005,
+      0.061995
+     ],
+     "value": 0.044
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:097c970ef150c2393fa59906a50a9e476f6ff5099d4529b011eb934f0bb1de73",
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Jeleva, Nephalia's Scourge": {
+     "ci95": [
+      0.0211,
+      0.0589
+     ],
+     "value": 0.04
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:b517b76032c9c05f82bfb700912215f5515e81c0c0d082d0fb425c6da2057e2b",
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Kefka, Court Mage // Kefka, Ruler of Ruin": {
+     "ci95": [
+      0.032519,
+      0.071481
+     ],
+     "value": 0.052
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:a045a49d92d17f6acf588d4c5797968b6a623174f7c38530b625323d5b6c2234",
+   "slug": "kefka-court-mage"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Kess, Dissident Mage": {
+     "ci95": [
+      0.012983,
+      0.051017
+     ],
+     "value": 0.032
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:7d369b48f58478d6d55bb2a7498a0293e8d6ff98b3e1d75a8beade2c10d5b210",
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Mai and Zuko": {
+     "ci95": [
+      0.004103,
+      0.043897
+     ],
+     "value": 0.024
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:0c081d0cb3aebd380c3ace461cf299479221ab21d0848cd295ee232a6e6b7f87",
+   "slug": "mai-and-zuko"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Mairsil, the Pretender": {
+     "ci95": [
+      -0.001552,
+      0.025552
+     ],
+     "value": 0.012
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:de7addd21bfb3d47aaf32c5f41be23944c619f228079dfd5aa3845f8996ea0b7",
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Marchesa, Dealer of Death": {
+     "ci95": [
+      0.005937,
+      0.038063
+     ],
+     "value": 0.022
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:2e924378c25bb29f5e0dc5e5d942e4431fccbe25be97424e7939eef41e2e7f86",
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Mishra, Artificer Prodigy": {
+     "ci95": [
+      0.000367,
+      0.031633
+     ],
+     "value": 0.016
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:981a587a06f77d605e2ac6f16a48ac6a9d9e65e0e8777c9a044da727db7b6e1a",
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Mishra, Eminent One": {
+     "ci95": [
+      0.017038,
+      0.054962
+     ],
+     "value": 0.036
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:db7c21fa4066133146767e25a83805b4fd2ffc9209ce69b3e00e61de9cf849a9",
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Nekusar, the Mindrazer": {
+     "ci95": [
+      0.047613,
+      0.092387
+     ],
+     "value": 0.07
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:abb8771c6ac1e6e82845d0176c3341f6339d89ee0f1b9ce81d097046449d62de",
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Nicol Bolas": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:65688694b450c77cdf22b7c1ae680fc3586ef27c471068440fc5e47c1facd0a9",
+   "slug": "nicol-bolas"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen": {
+     "ci95": [
+      -0.012644,
+      0.020644
+     ],
+     "value": 0.004
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:135814300907179e4835457a07a7e98e0c3cce3f4049c7793945d745b0a76d37",
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Norman Osborn // Green Goblin": {
+     "ci95": [
+      -0.000364,
+      0.024364
+     ],
+     "value": 0.012
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:a63db44ed50900f3eae67adf74c2021e26e2f0407ba3efd2a24f5d2e0e33a1ab",
+   "slug": "norman-osborn"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Obeka, Brute Chronologist": {
+     "ci95": [
+      0.008164,
+      0.043836
+     ],
+     "value": 0.026
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:d0df924d1228fa5ff7d89aa2119ca15eafbcad7b56d008fcf8f8d08a5cce94c6",
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Rograkh, Son of Rohgahh": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "Silas Renn, Seeker Adept": {
+     "ci95": [
+      0.00947,
+      0.03853
+     ],
+     "value": 0.024
+    }
+   },
+   "commander_count": 2,
+   "sha256": "sha256:3aecabb92f03f88a5606d016591f578962b919f1771551110b95c2d852ee4ba5",
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "Sol'kanar the Swamp King": {
+     "ci95": [
+      0.040125,
+      0.083875
+     ],
+     "value": 0.062
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:18b7045d83120deb5950f6a1a7c391bdf6cd0093718868d5a9f6f7e5522e0e25",
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "additional_fast_package_turn4_deltas": {
+    "The Madcap Jester": {
+     "ci95": [
+      0.011367,
+      0.048633
+     ],
+     "value": 0.03
+    }
+   },
+   "commander_count": 1,
+   "sha256": "sha256:92fa1e3c2f3152be29ea433650f4ed7a2133d05dca7169f1055d239b97a38a1a",
+   "slug": "the-madcap-jester"
+  }
+ ],
+ "samples_per_commander": 500,
+ "schema_version": 1,
+ "scope": "Paired no-fast scenario difference from correcting Chrome Mox inventory; NOT a win-rate or approved swap",
+ "seed": 6813,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "stage": "M6_25_deck_Chrome_Mox_corrected_nofast_manifest",
+ "static_manifest_sha256": "sha256:d59050802cda5ca5c1cfcabf9604b3c56b098ec3f57c767ec52776b4f946178e"
+}

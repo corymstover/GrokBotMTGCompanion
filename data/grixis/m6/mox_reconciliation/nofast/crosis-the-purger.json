@@ -1,0 +1,186 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "4": {
+     "ci95": [
+      -0.000776,
+      0.012776
+     ],
+     "value": 0.006
+    },
+    "5": {
+     "ci95": [
+      0.045911,
+      0.090089
+     ],
+     "value": 0.068
+    },
+    "6": {
+     "ci95": [
+      0.015419,
+      0.052581
+     ],
+     "value": 0.034
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.958,
+    "2": 0.016,
+    "3": 0.164,
+    "4": 0.408,
+    "5": 0.63,
+    "6": 0.802,
+    "8": 0.91
+   },
+   "commander": "Crosis, the Purger",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Dark Ritual",
+    "Dimir Signet",
+    "Izzet Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.814,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.0,
+     "5": 0.086,
+     "6": 0.504,
+     "8": 0.678
+    },
+    "cast_share_by_turn10": 0.814,
+    "mana_available_by_turn": [
+     0.934,
+     2.044,
+     3.046,
+     3.926,
+     4.652,
+     5.284,
+     5.798,
+     6.306,
+     6.75,
+     7.194
+    ],
+    "mana_spent_by_turn": [
+     0.354,
+     1.62,
+     2.55,
+     3.028,
+     3.394,
+     4.334,
+     3.502,
+     2.708,
+     2.49,
+     2.112
+    ],
+    "mean_turn_when_cast": 6.7764
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Dark Ritual",
+    "Dimir Signet",
+    "Izzet Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:1e6407e17cbde3327ddf6b90ea9852d77923194cdc0ef224c41006ee318436f9",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.822,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.006,
+     "5": 0.154,
+     "6": 0.538,
+     "8": 0.702
+    },
+    "cast_share_by_turn10": 0.822,
+    "mana_available_by_turn": [
+     0.936,
+     2.142,
+     3.146,
+     4.042,
+     4.776,
+     5.408,
+     5.924,
+     6.438,
+     6.874,
+     7.312
+    ],
+    "mana_spent_by_turn": [
+     0.432,
+     1.664,
+     2.544,
+     2.968,
+     3.564,
+     4.24,
+     3.368,
+     2.566,
+     2.406,
+     2.106
+    ],
+    "mean_turn_when_cast": 6.5888
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:a099dcae7b73756afdd4272c9a017f924328afaa128a0eadbbaf4387c2bc46a7",
+ "deck_id": "Crosis__the_Purger",
+ "frozen_commander_mana_sha256": "sha256:c098b28b0079ca40eac5052dae955cb2a522376e2dbb470fbac8a5edcefa1609",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "crosis-the-purger",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

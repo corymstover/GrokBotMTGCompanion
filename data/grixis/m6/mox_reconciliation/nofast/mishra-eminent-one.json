@@ -1,0 +1,188 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.002446,
+      0.021554
+     ],
+     "value": 0.012
+    },
+    "4": {
+     "ci95": [
+      0.017038,
+      0.054962
+     ],
+     "value": 0.036
+    },
+    "5": {
+     "ci95": [
+      0.003281,
+      0.040719
+     ],
+     "value": 0.022
+    },
+    "6": {
+     "ci95": [
+      0.003281,
+      0.040719
+     ],
+     "value": 0.022
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.984,
+    "2": 0.038,
+    "3": 0.21,
+    "4": 0.548,
+    "5": 0.784,
+    "6": 0.844,
+    "8": 0.932
+   },
+   "commander": "Mishra, Eminent One",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Darksteel Citadel",
+    "Great Furnace",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Seat of the Synod",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Vault of Whispers"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.814,
+     "2": 0.0,
+     "3": 0.026,
+     "4": 0.192,
+     "5": 0.508,
+     "6": 0.588,
+     "8": 0.72
+    },
+    "cast_share_by_turn10": 0.814,
+    "mana_available_by_turn": [
+     0.938,
+     2.158,
+     3.242,
+     4.03,
+     4.654,
+     5.212,
+     5.786,
+     6.312,
+     6.858,
+     7.302
+    ],
+    "mana_spent_by_turn": [
+     0.374,
+     1.38,
+     2.452,
+     3.196,
+     3.752,
+     3.694,
+     3.414,
+     3.39,
+     3.016,
+     3.08
+    ],
+    "mean_turn_when_cast": 5.7469
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Darksteel Citadel",
+    "Great Furnace",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Seat of the Synod",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Vault of Whispers"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:a33485a2e6a34399200e23f2720da87d0cfd135823086958a98bb6c0ca9601f7",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.83,
+     "2": 0.0,
+     "3": 0.038,
+     "4": 0.228,
+     "5": 0.53,
+     "6": 0.61,
+     "8": 0.74
+    },
+    "cast_share_by_turn10": 0.83,
+    "mana_available_by_turn": [
+     0.936,
+     2.226,
+     3.298,
+     4.092,
+     4.726,
+     5.286,
+     5.866,
+     6.414,
+     6.962,
+     7.424
+    ],
+    "mana_spent_by_turn": [
+     0.408,
+     1.462,
+     2.488,
+     3.312,
+     3.726,
+     3.63,
+     3.374,
+     3.4,
+     3.032,
+     3.07
+    ],
+    "mean_turn_when_cast": 5.6554
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:bc4f3b7f2fc53cf7a1fcf4834c8047d85874957961d50441d70f423dda32e8fe",
+ "deck_id": "Mishra__Eminent_One",
+ "frozen_commander_mana_sha256": "sha256:a55bb6e66943500c1ae19ac1374c1e8a5e272991eaf9f319ddd06fea68dcd0df",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "mishra-eminent-one",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

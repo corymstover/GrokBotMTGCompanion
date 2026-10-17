@@ -1,0 +1,176 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.044215,
+      0.087785
+     ],
+     "value": 0.066
+    },
+    "4": {
+     "ci95": [
+      0.005005,
+      0.038995
+     ],
+     "value": 0.022
+    },
+    "5": {
+     "ci95": [
+      -0.005575,
+      0.021575
+     ],
+     "value": 0.008
+    },
+    "6": {
+     "ci95": [
+      -0.004368,
+      0.016368
+     ],
+     "value": 0.006
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.982,
+    "2": 0.01,
+    "3": 0.278,
+    "4": 0.726,
+    "5": 0.86,
+    "6": 0.908,
+    "8": 0.958
+   },
+   "commander": "Gwendlyn Di Corci",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Dark Ritual",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Sol Ring",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.974,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.594,
+     "5": 0.806,
+     "6": 0.864,
+     "8": 0.93
+    },
+    "cast_share_by_turn10": 0.974,
+    "mana_available_by_turn": [
+     0.868,
+     2.03,
+     3.02,
+     3.96,
+     4.746,
+     5.404,
+     6.008,
+     6.576,
+     7.1,
+     7.612
+    ],
+    "mana_spent_by_turn": [
+     0.386,
+     1.55,
+     2.532,
+     3.48,
+     3.822,
+     3.676,
+     3.016,
+     2.478,
+     2.246,
+     2.128
+    ],
+    "mean_turn_when_cast": 4.8234
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Dark Ritual",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Sol Ring",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:b925a669efc60f55bac3c402c847d3c02ed0ba6599808f82fee79c4b502030b5",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.978,
+     "2": 0.0,
+     "3": 0.066,
+     "4": 0.616,
+     "5": 0.814,
+     "6": 0.87,
+     "8": 0.936
+    },
+    "cast_share_by_turn10": 0.978,
+    "mana_available_by_turn": [
+     0.868,
+     2.104,
+     3.11,
+     4.062,
+     4.886,
+     5.538,
+     6.144,
+     6.732,
+     7.26,
+     7.782
+    ],
+    "mana_spent_by_turn": [
+     0.444,
+     1.616,
+     2.634,
+     3.51,
+     3.81,
+     3.546,
+     2.966,
+     2.428,
+     2.154,
+     2.07
+    ],
+    "mean_turn_when_cast": 4.7198
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:ad9eea77b3d563461c49d87b4fcb2469f151d3a51b8a7c564fed3d558fa12713",
+ "deck_id": "Gwendlyn_Di_Corci",
+ "frozen_commander_mana_sha256": "sha256:368e32c0969dc27767b2110a0ce77bcd34974720f4a1ae75f4f42336c86bb9a9",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "gwendlyn-di-corci",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

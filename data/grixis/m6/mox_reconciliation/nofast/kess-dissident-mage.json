@@ -1,0 +1,192 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.042525,
+      0.085475
+     ],
+     "value": 0.064
+    },
+    "4": {
+     "ci95": [
+      0.012983,
+      0.051017
+     ],
+     "value": 0.032
+    },
+    "5": {
+     "ci95": [
+      0.0211,
+      0.0589
+     ],
+     "value": 0.04
+    },
+    "6": {
+     "ci95": [
+      0.008446,
+      0.039554
+     ],
+     "value": 0.024
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.978,
+    "2": 0.076,
+    "3": 0.466,
+    "4": 0.8,
+    "5": 0.86,
+    "6": 0.9,
+    "8": 0.946
+   },
+   "commander": "Kess, Dissident Mage",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.892,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.614,
+     "5": 0.674,
+     "6": 0.74,
+     "8": 0.822
+    },
+    "cast_share_by_turn10": 0.892,
+    "mana_available_by_turn": [
+     0.986,
+     2.036,
+     3.024,
+     3.754,
+     4.29,
+     4.7,
+     5.064,
+     5.416,
+     5.76,
+     6.044
+    ],
+    "mana_spent_by_turn": [
+     0.684,
+     1.228,
+     1.822,
+     2.982,
+     2.518,
+     1.94,
+     1.698,
+     1.61,
+     1.54,
+     1.54
+    ],
+    "mean_turn_when_cast": 4.9619
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:ffb3b47c6430295ec2273c3b8ce749eb0e0a63eec92ef591965e94325c8fa768",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.906,
+     "2": 0.0,
+     "3": 0.064,
+     "4": 0.646,
+     "5": 0.714,
+     "6": 0.764,
+     "8": 0.844
+    },
+    "cast_share_by_turn10": 0.906,
+    "mana_available_by_turn": [
+     0.988,
+     2.136,
+     3.132,
+     3.878,
+     4.426,
+     4.85,
+     5.234,
+     5.584,
+     5.958,
+     6.246
+    ],
+    "mana_spent_by_turn": [
+     0.706,
+     1.29,
+     2.008,
+     2.976,
+     2.52,
+     1.932,
+     1.604,
+     1.544,
+     1.436,
+     1.542
+    ],
+    "mean_turn_when_cast": 4.7837
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:37730bd818394c3d7f93ebc19d6f3394e650959b481f8ab95091211a2368347f",
+ "deck_id": "Kess__Dissident_Mage",
+ "frozen_commander_mana_sha256": "sha256:540afc58a0b889330079511e30f8a5272078aa109b13ab4c0b8123c1cdb98642",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "kess-dissident-mage",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

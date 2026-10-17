@@ -1,0 +1,188 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.04932,
+      0.09468
+     ],
+     "value": 0.072
+    },
+    "4": {
+     "ci95": [
+      0.011367,
+      0.048633
+     ],
+     "value": 0.03
+    },
+    "5": {
+     "ci95": [
+      0.000367,
+      0.031633
+     ],
+     "value": 0.016
+    },
+    "6": {
+     "ci95": [
+      0.001385,
+      0.030615
+     ],
+     "value": 0.016
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.992,
+    "2": 0.08,
+    "3": 0.438,
+    "4": 0.866,
+    "5": 0.92,
+    "6": 0.944,
+    "8": 0.974
+   },
+   "commander": "The Madcap Jester",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Dark Ritual",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Thieving Varmint"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.97,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.728,
+     "5": 0.846,
+     "6": 0.878,
+     "8": 0.924
+    },
+    "cast_share_by_turn10": 0.97,
+    "mana_available_by_turn": [
+     0.948,
+     2.112,
+     3.178,
+     3.992,
+     4.702,
+     5.208,
+     5.636,
+     6.014,
+     6.412,
+     6.798
+    ],
+    "mana_spent_by_turn": [
+     0.338,
+     1.048,
+     2.194,
+     3.422,
+     3.464,
+     3.04,
+     2.6,
+     2.198,
+     2.016,
+     1.9
+    ],
+    "mean_turn_when_cast": 4.6
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Dark Ritual",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Thieving Varmint"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:ad0e627dc43607cbe6cd70bfc446581ecc5a09eda3a6a9f7dfe5a06587d5bd51",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.974,
+     "2": 0.0,
+     "3": 0.072,
+     "4": 0.758,
+     "5": 0.862,
+     "6": 0.894,
+     "8": 0.94
+    },
+    "cast_share_by_turn10": 0.974,
+    "mana_available_by_turn": [
+     0.944,
+     2.176,
+     3.248,
+     4.048,
+     4.754,
+     5.278,
+     5.706,
+     6.106,
+     6.51,
+     6.888
+    ],
+    "mana_spent_by_turn": [
+     0.356,
+     1.096,
+     2.326,
+     3.424,
+     3.4,
+     2.98,
+     2.578,
+     2.162,
+     1.93,
+     1.916
+    ],
+    "mean_turn_when_cast": 4.4497
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:fb00bd917722b1dd6407bb453e81f707aa3e5acc23dd186debac1d6075092526",
+ "deck_id": "The_Madcap_Jester",
+ "frozen_commander_mana_sha256": "sha256:1dd25ab65cb3f770f9095e77edaf5041bb3ba1d8527eb13675ff6af4fa16667a",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "the-madcap-jester",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}
