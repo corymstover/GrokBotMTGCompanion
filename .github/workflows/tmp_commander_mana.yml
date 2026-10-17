@@ -7,7 +7,7 @@ permissions:
 jobs:
   commander-mana:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     env:
       SCRYFALL_OFFLINE: "1"
     steps:
@@ -19,14 +19,23 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install jsonschema pytest
-      - name: Semantic tests
+      - name: Cache-independent semantic tests
         run: pytest -q tests/test_commander_mana.py
-      - name: Build and validate 62 decks
+      - name: Compile and inspect local validation gate
         run: |
-          python scripts/grixis_commander_mana.py --build
-          python scripts/grixis_commander_mana.py --check
-          python scripts/grixis_commander_mana.py --summary
-      - name: Update Step C tracker
+          python -m py_compile scripts/grixis_commander_mana.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          lock=json.loads(Path('data/grixis/dev_snapshot_lock.json').read_text())
+          assert lock['snapshot']=='snap-20261016'
+          assert lock['files']['oracle-cards']=='oracle-cards-20261016090200.jsonl.gz'
+          assert not (Path('.cache')/lock['files']['oracle-cards']).exists(), 'CI unexpectedly contains the local locked bulk; revisit this gate'
+          text=Path('data/grixis/commander_mana/README.md').read_text()
+          assert 'pending local frozen-cache validation' in text
+          assert 'SCRYFALL_BIRTHDAY_SNAPSHOT=1' in text
+          PY
+      - name: Record 68.3 code-ready state without inflating completion tracker
         run: |
           python - <<'PY'
           import json
@@ -35,22 +44,25 @@ jobs:
           by={x['id']:x for x in d['steps']}; c=by['C']; c['status']='in_progress'
           c['completed_batches']=[
             '68.1 static mana/pip/source baseline across all 62 canonical decks',
-            '68.2 source reliability, ETB timing, actual fetch-target validation and distinct-source colored readiness',
-            '68.3 isolated commander casting, fast-mana contribution and +2/+4 commander-tax recovery stress'
+            '68.2 source reliability, ETB timing, actual fetch-target validation and distinct-source colored readiness'
           ]
-          arts=list(dict.fromkeys(c.get('artifacts',[])+['data/grixis/commander_mana/'])); c['artifacts']=arts
-          c['next']='68.4 utility-land + MDFC opportunity cost and land-type/commander synergies; then candidate-level mana-base optimizer and Step C closure.'
-          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 68.3 (2026-10-16)'; st={x['id']:x for x in tr['stages']}
-          st['C']['batches_done']=3; st['C']['status']='in_progress'; st['C']['note']='3/6 batch-equivalents complete through 68.3 commander casting / fast-mana / tax-recovery stress.'
+          c['pending_local_validation_batches']=[
+            '68.3 isolated commander casting, fast-mana contribution and +2/+4 commander-tax recovery stress — code-ready; requires frozen local Oracle bulk to generate/validate real 62-deck evidence'
+          ]
+          c['local_validation_gate']='data/grixis/commander_mana/README.md'
+          c['next']='68.4 utility-land + MDFC opportunity cost and land-type/commander synergies can proceed independently; run the 68.3 frozen-cache gate before final Step C closure.'
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 68.3 code-ready gate (2026-10-16)'; st={x['id']:x for x in tr['stages']}
+          st['C']['batches_done']=2; st['C']['status']='in_progress'; st['C']['note']='2/6 validated batch-equivalents complete; 68.3 code-ready but deliberately not counted until the frozen-local-cache simulation gate passes.'
           tr['batches_done']=sum(float(x['batches_done']) for x in tr['stages']); tr['total_estimated_batches']=sum(float(x['estimated_batches']) for x in tr['stages']); tr['percent_complete']=round(100*tr['batches_done']/tr['total_estimated_batches'],1)
-          p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n'); print('Birthday Launch',tr['percent_complete'],'%')
+          p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
+          print('Birthday Launch remains',tr['percent_complete'],'%')
           PY
-      - name: Commit generated evidence and plan
+      - name: Commit plan state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/grixis/commander_mana data/grixis/upgrade_plan.json
+          git add data/grixis/upgrade_plan.json
           if ! git diff --cached --quiet; then
-            git commit -m "ChatGPT cycle 68.3: generate commander mana evidence and tracker [skip ci]"
+            git commit -m "ChatGPT cycle 68.3: record frozen-cache validation gate [skip ci]"
             git push
           fi
