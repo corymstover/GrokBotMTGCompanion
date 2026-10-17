@@ -31,6 +31,25 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: Inspect accepted M5 regen contract
+        run: |
+          python - <<'PY'
+          import gzip, json
+          from pathlib import Path
+          p=Path('data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz')
+          with gzip.open(p, 'rt', encoding='utf-8') as f:
+              d=json.load(f)
+          print('regen top-level keys:', sorted(d))
+          for key in sorted(d):
+              value=d[key]
+              if isinstance(value, list):
+                  print(key, 'list', len(value), 'sample_keys=', sorted(value[0]) if value and isinstance(value[0], dict) else None)
+              elif isinstance(value, dict):
+                  print(key, 'dict keys=', sorted(value)[:60])
+              else:
+                  print(key, type(value).__name__, repr(value)[:200])
+          PY
+
       - name: Build and check M6 preflight
         run: python scripts/grixis_m6.py --build --check
 
