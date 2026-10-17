@@ -1,0 +1,1497 @@
+{
+ "authority": {
+  "can_decide": false,
+  "exploratory": true,
+  "note": "Discovery coverage evidence only; screening tiers order work and never exclude or decide. M5 stays unaccepted (Cory). Current Birthday screening/discovery only; does not reopen frozen B-F or decide a swap."
+ },
+ "blind_spots": [
+  {
+   "cards": [
+    {
+     "card": "Auspicious Aquarium",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Balefang the Unslayable",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Boss Uramon, Shadow's Reach",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Chira, All In",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Dragon's Smile",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Dyfed, the Guiding Hand",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Flitwing, Lyev Detective",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Grandmother Goby",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Gustha Ebbasdotter",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Istvan, Butcher of Eln",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Itazura, Lingering Wick",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Jabs, Mistress of Mockery",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Kuroki, Thief of Talents",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Matoc, Lavamancer",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Miss Highwater",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Olinda the Oblivious",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Sahir, Visitor in Darkness",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Sash and Waistcoat, Unmen",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Sifa Grent",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Everforger",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Madcap Jester",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Unluckiest Planeswalker",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "The Weaver King",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Thomil, the Destroyer",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Tolabow, Loch Rascal",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Tresserhorn's Lord, Returned",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "Valko Indorian",
+     "legal_from": "2026-10-19"
+    },
+    {
+     "card": "A Good Day to Die",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Assault Drone",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Automated Warfare System",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Badgey, Malicious Glitch",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Bat'leth",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Battle-Scarred Survivalist",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Beckett Mariner, Impetuous Ensign",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Bio-Asset Allocator",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cantankerous Captain",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Captain James T. Kirk",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Captain's Tutelage",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Ceti Eel",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cha'DIch Investigator",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cloistered Telepath",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Collective Drone",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Consider the Prime Directive",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cryogenic Stasis",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Crystalline Entity",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Cybernetic Specialist",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Defense Force Aggressor",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Direct Hit",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Disruptor Pistol",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Dominion Saboteur",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Eject the Warp Core",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Exocomp",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Federation Probe",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "General Chang, Cold Warrior",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Gin'tak Charge",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Guidance Failure",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "He's Dead, Jim",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Highly Illogical",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Hive Mind Coprocessor",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Horta",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Hoshi Sato, Exolinguist",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Humpback Whales",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "In the Pale Moonlight",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Khaaaaaaaaaaaannn!",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Klingon Strike Force",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Kolinahr Priest",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Kruge, Genesis Seeker",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "La Forge, Perceptive Engineer",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "La'An Noonien-Singh, Security",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Marooned",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Mek'leth Berserker",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Munitions Enthusiast",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Open Communications",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Organic Avulsion Unit",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Pelia, Immortal Innovator",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Perils of the Past",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Planetary Patrol",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Plasma Cascade",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Relentless Drednok",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Resistance Is Futile",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Rogue Artificial Intelligence",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Salt Vampire",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Seven of Nine",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Silicate Surveyor",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "T'Pol, Vulcan Representative",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Trelane, Squire of Gothos",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "U.S.S. Enterprise-D, Galaxy-Class",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "V'Ger, the Intruder",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Warship Flight Crew",
+     "legal_from": "2026-11-13"
+    },
+    {
+     "card": "Hela's Arcanum",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Hela, Mistress of Darkness // Dark Tutor",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Magik, Illyana Rasputin // Darkchild, Demon Uncaged",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Rise from the Nether",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "Spirit Sorcerer Token",
+     "legal_from": "2027-04-09"
+    },
+    {
+     "card": "The Darkhold",
+     "legal_from": "2027-04-09"
+    }
+   ],
+   "kind": "unreleased_not_yet_legal",
+   "note": "Excluded from candidates until legal; picked up at the Birthday snapshot."
+  },
+  {
+   "kind": "spellbook_snapshot",
+   "note": "Commander Spellbook near-misses come from the cached almostIncluded snapshot (one missing piece only)."
+  },
+  {
+   "kind": "edhrec_pages",
+   "note": "EDHREC rows exist only for the commander page(s) in the evidence layer; partner/background pages may be thin."
+  },
+  {
+   "kind": "tournament",
+   "note": "Tournament evidence exists only for cEDH-ceiling decks and is sparse; an empty tournament pass is recorded, not an error."
+  },
+  {
+   "kind": "screening_model",
+   "note": "Sweep-only cards are scored by the M5 screening function; a card whose value it does not model can sit low in tier C (still in the universe)."
+  }
+ ],
+ "cycle": "ChatGPT cycle 74 Birthday current A",
+ "deck_id": "Goro_Goro_and_Satoru",
+ "escalated_untested_queue": [
+  {
+   "card": "Goblin Rabblemaster",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 251,
+   "score": 30.81
+  },
+  {
+   "card": "Rev, Tithe Extractor",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 252,
+   "score": 25.8
+  },
+  {
+   "card": "Greedy Freebooter",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 253,
+   "score": 25.76
+  },
+  {
+   "card": "Sedgemoor Witch",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 254,
+   "score": 25.76
+  },
+  {
+   "card": "Ghoulcaller Gisa",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 255,
+   "score": 25.72
+  },
+  {
+   "card": "Zealous Conscripts",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 256,
+   "score": 25.7
+  },
+  {
+   "card": "The Lord of Pain",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 257,
+   "score": 25.69
+  },
+  {
+   "card": "Kellogg, Dangerous Mind",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 258,
+   "score": 25.64
+  },
+  {
+   "card": "Battle Cry Goblin",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 259,
+   "score": 30.63
+  },
+  {
+   "card": "Mischievous Mystic",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 260,
+   "score": 25.59
+  },
+  {
+   "card": "Danny Pink",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 261,
+   "score": 25.55
+  },
+  {
+   "card": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 262,
+   "score": 25.47
+  },
+  {
+   "card": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 263,
+   "score": 25.39
+  },
+  {
+   "card": "Blighted Agent",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 264,
+   "score": 25.35
+  },
+  {
+   "card": "Firebending Student",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 265,
+   "score": 25.35
+  },
+  {
+   "card": "Otepec Huntmaster",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 266,
+   "score": 25.34
+  },
+  {
+   "card": "Piper of the Swarm",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 267,
+   "score": 25.34
+  },
+  {
+   "card": "Basim Ibn Ishaq",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 268,
+   "score": 25.32
+  },
+  {
+   "card": "Frontier Warmonger",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 269,
+   "score": 25.32
+  },
+  {
+   "card": "Gríma, Saruman's Footman",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 270,
+   "score": 25.32
+  },
+  {
+   "card": "Endrek Sahr, Master Breeder",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 271,
+   "score": 25.31
+  },
+  {
+   "card": "Ingenious Prodigy",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 272,
+   "score": 25.3
+  },
+  {
+   "card": "Archpriest of Shadows",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 273,
+   "score": 25.28
+  },
+  {
+   "card": "Gisa, the Hellraiser",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 274,
+   "score": 25.27
+  },
+  {
+   "card": "Ardyn, the Usurper",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 275,
+   "score": 25.26
+  },
+  {
+   "card": "Chittering Witch",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 276,
+   "score": 25.23
+  },
+  {
+   "card": "Fain, the Broker",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 277,
+   "score": 25.23
+  },
+  {
+   "card": "Lulu, Stern Guardian",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 278,
+   "score": 25.22
+  },
+  {
+   "card": "Charming Scoundrel",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 279,
+   "score": 25.2
+  },
+  {
+   "card": "Spider-Punk",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 280,
+   "score": 25.18
+  },
+  {
+   "card": "Captivating Crew",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 281,
+   "score": 25.15
+  },
+  {
+   "card": "Ayara, Widow of the Realm // Ayara, Furnace Queen",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 282,
+   "score": 30.13
+  },
+  {
+   "card": "Goblin War Drums",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 283,
+   "score": 30.13
+  },
+  {
+   "card": "Fire Lord Azula",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 284,
+   "score": 25.12
+  },
+  {
+   "card": "Rikku, Resourceful Guardian",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 285,
+   "score": 25.08
+  },
+  {
+   "card": "Ozai, the Phoenix King",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 286,
+   "score": 25.07
+  },
+  {
+   "card": "Slash, Reptile Rampager",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 287,
+   "score": 30.07
+  },
+  {
+   "card": "Experimental Confectioner",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 288,
+   "score": 25.03
+  },
+  {
+   "card": "Avenger of the Fallen",
+   "escalation": [
+    "package_gap",
+    "multi_source_corroboration"
+   ],
+   "priority": 289,
+   "score": 25.02
+  },
+  {
+   "card": "Poetic Ingenuity",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 290,
+   "score": 29.97
+  },
+  {
+   "card": "Grub, Storied Matriarch // Grub, Notorious Auntie",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 291,
+   "score": 29.88
+  },
+  {
+   "card": "Death Tyrant",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 292,
+   "score": 29.83
+  },
+  {
+   "card": "Drider",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 293,
+   "score": 29.78
+  },
+  {
+   "card": "Origin of the Hidden Ones",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 294,
+   "score": 29.35
+  },
+  {
+   "card": "Ogre Chitterlord",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 295,
+   "score": 29.28
+  },
+  {
+   "card": "Creeping Tar Pit",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 296,
+   "score": 29.1
+  },
+  {
+   "card": "Reckless Imp",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 297,
+   "score": 29.06
+  },
+  {
+   "card": "Spellbinder",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 298,
+   "score": 29.04
+  },
+  {
+   "card": "Moira, Urborg Haunt",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 299,
+   "score": 29.03
+  },
+  {
+   "card": "Pestered Wellguard",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 300,
+   "score": 28.93
+  },
+  {
+   "card": "Pugnacious Pugilist",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 301,
+   "score": 28.69
+  },
+  {
+   "card": "Dragonstorm Globe",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 302,
+   "score": 28.3
+  },
+  {
+   "card": "Nested Ghoul",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 303,
+   "score": 28.28
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 304,
+   "score": 27.65
+  },
+  {
+   "card": "Cascade Bluffs",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 305,
+   "score": 26.88
+  },
+  {
+   "card": "Sneak Attack",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 306,
+   "score": 25.45
+  },
+  {
+   "card": "Temple of Epiphany",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 307,
+   "score": 25.17
+  },
+  {
+   "card": "Urza's Saga",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 308,
+   "score": 25.11
+  },
+  {
+   "card": "March of Swirling Mist",
+   "escalation": [
+    "multi_source_corroboration"
+   ],
+   "priority": 309,
+   "score": 25.08
+  },
+  {
+   "card": "Malevolent Hermit // Benevolent Geist",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 310,
+   "score": 24.86
+  },
+  {
+   "card": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 311,
+   "score": 24.74
+  },
+  {
+   "card": "Mishra, Claimed by Gix",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 312,
+   "score": 24.22
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 313,
+   "score": 22.85
+  },
+  {
+   "card": "Ninja of the New Moon",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 314,
+   "score": 22.74
+  },
+  {
+   "card": "Covetous Castaway // Ghostly Castigator",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 315,
+   "score": 22.47
+  },
+  {
+   "card": "Kargan Dragonrider",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 316,
+   "score": 22.33
+  },
+  {
+   "card": "Callow Jushi // Jaraku the Interloper",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 317,
+   "score": 22.3
+  },
+  {
+   "card": "Baithook Angler // Hook-Haunt Drifter",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 318,
+   "score": 22.29
+  },
+  {
+   "card": "Covert Cutpurse // Covetous Geist",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 319,
+   "score": 22.24
+  },
+  {
+   "card": "Cunning Bandit // Azamuki, Treachery Incarnate",
+   "escalation": [
+    "unusual_oracle_interaction"
+   ],
+   "priority": 320,
+   "score": 22.24
+  },
+  {
+   "card": "Peregrine Drake",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 321,
+   "score": 21.09
+  },
+  {
+   "card": "Neheb, the Eternal",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 322,
+   "score": 20.73
+  },
+  {
+   "card": "Cloud of Faeries",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 323,
+   "score": 20.53
+  },
+  {
+   "card": "Intruder Alarm",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 324,
+   "score": 20.2
+  },
+  {
+   "card": "Kitsa, Otterball Elite",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 325,
+   "score": 19.87
+  },
+  {
+   "card": "Sphinx of the Second Sun",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 326,
+   "score": 19.79
+  },
+  {
+   "card": "Reiterate",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 327,
+   "score": 19.64
+  },
+  {
+   "card": "Shadow of the Second Sun",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 328,
+   "score": 19.11
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 329,
+   "score": 19.02
+  },
+  {
+   "card": "Palinchron",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 330,
+   "score": 18.04
+  },
+  {
+   "card": "Great Whale",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 331,
+   "score": 17.44
+  },
+  {
+   "card": "Crackdown Construct",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 332,
+   "score": 17.13
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 333,
+   "score": 16.92
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "escalation": [
+    "spellbook_near_miss_completion"
+   ],
+   "priority": 334,
+   "score": 16.19
+  }
+ ],
+ "evidence_class": "derived_metric",
+ "generated_by": "scripts/grixis_saturation.py v3 via grixis_birthday_m5.py v1",
+ "hard_exclusion_kinds": [
+  "not_commander_legal",
+  "outside_colour_identity",
+  "already_in_list",
+  "basic_land",
+  "unresolved_name"
+ ],
+ "hard_exclusions": {
+  "already_in_list": 96,
+  "not_commander_legal": 1742,
+  "outside_colour_identity": 14587
+ },
+ "kind": "saturation_certificate",
+ "last_material_pass": 13,
+ "list_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "passes": [
+  {
+   "eligible_signalled": 160,
+   "first_signal": 160,
+   "first_signal_at_or_above_score": 105,
+   "index": 1,
+   "inputs": [
+    "data/grixis/birthday_m5/evidence/goro-goro-and-satoru.json"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 54,
+   "nominated": 169,
+   "pass": "edhrec",
+   "unresolved_names": 9
+  },
+  {
+   "eligible_signalled": 84,
+   "first_signal": 79,
+   "first_signal_at_or_above_score": 63,
+   "index": 2,
+   "inputs": [
+    "data/grixis/birthday_authority/spellbook_almost.json"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 78,
+   "nominated": 85,
+   "pass": "spellbook_near_miss",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 2063,
+   "first_signal": 2031,
+   "first_signal_at_or_above_score": 158,
+   "index": 3,
+   "inputs": [
+    "data/grixis/blueprints/goro-goro-and-satoru.json#packages (members not in list, candidates, package-type matches)"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 170,
+   "nominated": 2083,
+   "pass": "blueprint_package",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 1331,
+   "first_signal": 480,
+   "first_signal_at_or_above_score": 0,
+   "index": 4,
+   "inputs": [
+    "oracle_bulk",
+    "grixis_refine.HOOKS (commander_specific and blueprint_package specificity; generic hooks only score)"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 2,
+   "nominated": 1331,
+   "pass": "oracle_text",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 2063,
+   "first_signal": 0,
+   "first_signal_at_or_above_score": 0,
+   "index": 5,
+   "inputs": [
+    "oracle_bulk",
+    "data/grixis/blueprints/goro-goro-and-satoru.json",
+    "package types: Human,Ninja"
+   ],
+   "kind": "signal",
+   "material": false,
+   "new_escalated": 0,
+   "nominated": 2063,
+   "pass": "type_search",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 1240,
+   "first_signal": 817,
+   "first_signal_at_or_above_score": 0,
+   "index": 6,
+   "inputs": [
+    "data/grixis_interactions/goro-goro-and-satoru.json"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 5,
+   "nominated": 1258,
+   "pass": "rules_interaction",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 801,
+   "first_signal": 545,
+   "first_signal_at_or_above_score": 0,
+   "index": 7,
+   "inputs": [
+    "default_bulk (earliest printing)"
+   ],
+   "kind": "signal",
+   "material": false,
+   "new_escalated": 0,
+   "nominated": 801,
+   "pass": "new_card",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 30,
+   "first_signal": 1,
+   "first_signal_at_or_above_score": 1,
+   "index": 8,
+   "inputs": [
+    "data/grixis/audit/goro-goro-and-satoru.json",
+    "roles: wipe,protection,tutor"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 5,
+   "nominated": 30,
+   "pass": "role_gap",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 9,
+   "first_signal": 0,
+   "first_signal_at_or_above_score": 0,
+   "index": 9,
+   "inputs": [
+    "data/grixis/audit/goro-goro-and-satoru.json#slots/*/alternatives"
+   ],
+   "kind": "signal",
+   "material": false,
+   "new_escalated": 0,
+   "nominated": 9,
+   "pass": "graph_alternative_ref",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 235,
+   "first_signal": 167,
+   "first_signal_at_or_above_score": 0,
+   "index": 10,
+   "inputs": [
+    "data/grixis/graph/goro-goro-and-satoru.json"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 2,
+   "nominated": 235,
+   "pass": "graph_alternative",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 1239,
+   "first_signal": 1172,
+   "first_signal_at_or_above_score": 0,
+   "index": 11,
+   "inputs": [
+    "data/grixis/blueprints/goro-goro-and-satoru.json#tutor_targets"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 7,
+   "nominated": 1240,
+   "pass": "tutor_target",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 735,
+   "first_signal": 583,
+   "first_signal_at_or_above_score": 0,
+   "index": 12,
+   "inputs": [
+    "oracle_bulk produced_mana"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 9,
+   "nominated": 735,
+   "pass": "mana_base",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 302,
+   "first_signal": 180,
+   "first_signal_at_or_above_score": 0,
+   "index": 13,
+   "inputs": [
+    "exports/grixis-archidekt (other canonical lists, >= 3)"
+   ],
+   "kind": "signal",
+   "material": true,
+   "new_escalated": 2,
+   "nominated": 302,
+   "pass": "archetype_tech",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "first_signal_at_or_above_score": 0,
+   "index": 14,
+   "inputs": [
+    "none: no tournament evidence file for this deck"
+   ],
+   "kind": "signal",
+   "material": false,
+   "new_escalated": 0,
+   "nominated": 0,
+   "pass": "tournament",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "first_signal_at_or_above_score": 0,
+   "index": 15,
+   "inputs": [
+    "data/grixis/blueprint_reviews.json",
+    "data/grixis/m1_corrections.json",
+    "data/grixis/audit/goro-goro-and-satoru.json#lint,m1_flags"
+   ],
+   "kind": "signal",
+   "material": false,
+   "new_escalated": 0,
+   "nominated": 0,
+   "pass": "human_evidence",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 7507,
+   "first_signal": 3792,
+   "first_signal_at_or_above_score": 0,
+   "index": 16,
+   "inputs": [
+    "52 tier-A seeds"
+   ],
+   "kind": "expansion",
+   "material": false,
+   "new_escalated": 0,
+   "nominated": 7507,
+   "pass": "expansion_1",
+   "unresolved_names": 0
+  },
+  {
+   "eligible_signalled": 0,
+   "first_signal": 0,
+   "first_signal_at_or_above_score": 0,
+   "index": 17,
+   "inputs": [
+    "0 tier-A seeds"
+   ],
+   "kind": "expansion",
+   "material": false,
+   "new_escalated": 0,
+   "nominated": 0,
+   "pass": "expansion_2",
+   "unresolved_names": 0
+  },
+  {
+   "added_without_signal": 8450,
+   "eligible_signalled": 18457,
+   "first_signal": 0,
+   "first_signal_at_or_above_score": 0,
+   "index": 18,
+   "inputs": [
+    "oracle_bulk: every card Commander-legal (or authorized project exception), in colour identity, not in the list"
+   ],
+   "kind": "sweep",
+   "material": false,
+   "new_escalated": 0,
+   "nominated": 18457,
+   "pass": "full_pool_sweep",
+   "unresolved_names": 0
+  }
+ ],
+ "pool": {
+  "added_by_sweep_without_signal": 8450,
+  "eligible": 18457,
+  "oracle_cards": 34882,
+  "project_exceptions_admitted": [],
+  "sweep_coverage": 1.0
+ },
+ "runtime_seconds": null,
+ "saturated": true,
+ "schema_version": 2,
+ "slug": "goro-goro-and-satoru",
+ "snapshot": {
+  "frozen_structural_baseline": "snap-20261016",
+  "id": "birthday-20261017-6e5c604e1459",
+  "inputs": {
+   "audit": "sha256:9cd0bb6c1e4395eaa1c3a77614b77eeace379c31014422f156e790522f8ed6a7",
+   "blueprint": "sha256:27c000cffcf10baaf08ad250a2182f997065926d5e73505bb49f61d521eee7ae",
+   "default_bulk": "default-cards-20261017090548.jsonl.gz",
+   "evidence": "sha256:74690fe005e4c21da1ed2bf1b38ff315cd197544e215028b16ac798e593764ee",
+   "oracle_bulk": "oracle-cards-20261017090158.jsonl.gz",
+   "spellbook_almost": "sha256:c37aa870a59ab40242bdc50c2d1c360627b59ea1fdc337923c1bed0d7bbea7e1"
+  }
+ },
+ "stopping_rule": {
+  "definition": "a signal pass is material if it gives a first signal to >= 3 eligible cards with screening score >= 25.0, or newly escalates any card; expansion stops after 2 consecutive non-material rounds; the full-pool sweep then admits every eligible card",
+  "material_k": 3,
+  "material_score": 25.0,
+  "stop_after_non_material": 2,
+  "test_tier_rule": "escalated cards ranked by score + 5 x reasons; the first PAIRED_TARGET are paired_test, the rest escalated_queued (kept, run in later batches); others screen_only. Workload order, never exclusion"
+ },
+ "universe": {
+  "by_escalation_reason": {
+   "anomaly_source_disagreement": 8,
+   "dependency_graph_alternative": 9,
+   "multi_source_corroboration": 232,
+   "new_card": 86,
+   "package_gap": 190,
+   "spellbook_near_miss_completion": 83,
+   "tier_a_score": 52,
+   "unusual_oracle_interaction": 14
+  },
+  "by_test_tier": {
+   "escalated_queued": 84,
+   "paired_test": 250,
+   "screen_only": 18123
+  },
+  "by_tier": {
+   "A": 52,
+   "B": 275,
+   "C": 18130
+  },
+  "escalated": 334,
+  "file": "data/grixis/birthday_m5/saturation/goro-goro-and-satoru.universe.json.gz",
+  "oracle_hook_specificity": {
+   "blueprint_package": 831,
+   "commander_specific": 500,
+   "generic": 4094
+  },
+  "paired_test_target": 250,
+  "per_signal": {
+   "archetype_tech": 302,
+   "blueprint_package": 2063,
+   "edhrec": 160,
+   "expansion_1": 7507,
+   "full_pool_sweep": 8450,
+   "graph_alternative": 235,
+   "graph_alternative_ref": 9,
+   "mana_base": 735,
+   "new_card": 801,
+   "oracle_text": 1331,
+   "role_gap": 30,
+   "rules_interaction": 1240,
+   "spellbook_near_miss": 84,
+   "tutor_target": 1239,
+   "type_search": 2063
+  },
+  "previous_m5_bound": 500,
+  "sha256": "sha256:d23f2bb382d9469a197867614fa3da603a72a4976030dbf9600c583aeaa3376f",
+  "size": 18457
+ }
+}

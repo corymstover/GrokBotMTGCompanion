@@ -1,0 +1,47 @@
+{
+ "authority_manifest_sha256": "sha256:581df44ca684cb633b1e124630e8ac101ac691a03f620de6b89614fa16c016f7",
+ "birthday_authority_snapshot": "birthday-20261017-6e5c604e1459",
+ "edhrec_current_sha256": "sha256:d0d4cd57b260ee16da7cd21038694d59d60ebe56b853f699e2a07fd22c5a34f4",
+ "edhrec_metric_policy": {
+  "current_metric": "lift",
+  "inclusion_component": "35 * min(1, inclusion/0.40)",
+  "purpose": "candidate workload ordering only; Lift and inclusion are derived/community evidence and never decide a swap",
+  "retired_metric_used": false,
+  "screening_transform": "lift_delta = inclusion - inclusion/lift; association points = 25 * clamp(lift_delta/0.25, -1, 1)",
+  "source_method": "EDH Lift and Synergy.md; commander/tag/combo pages moved from Synergy to Lift on 2026-10-01"
+ },
+ "fresh_A_frozen_BF": true,
+ "frozen_corpus_digest": "sha256:2788065fb688ab51a6098f7ed19650b35435efcfb3a6d7700175fe3111574e0c",
+ "historical_raw_edhrec_required": false,
+ "impact_sha256": "sha256:5f1c4cf4e305d2ab6eb35275f98887779982ab9aa9979e382a7258479c9886c2",
+ "metric_patch": {
+  "file": "scripts/grixis_birthday_m5_lift.py",
+  "sha256": "sha256:8e1a260857501f4a27bf8cc75f8ebb9e5aa1f44ee7f4f72c7425528df3baf26c"
+ },
+ "outputs": {
+  "delta": "sha256:8272791232ed31f2d5d0f02bb750dd1e8396745d18bc27d4f8384e82b585bb91",
+  "summary": "sha256:dfa23cab773832927eb0a0877f8b425581efe1b2e51dcd32b90c53a66d549046"
+ },
+ "schema_version": 1,
+ "scryfall": {
+  "default-cards": {
+   "file": "default-cards-20261017090548.jsonl.gz",
+   "sha256": "sha256:daa76ebce64a8a962165fd805a53e4793d7f6c4520e28e70b726ebc136e6b50d",
+   "updated_at": "2026-10-17T09:05:48.905+00:00",
+   "url": "https://data.scryfall.io/default-cards/default-cards-20261017090548.jsonl.gz"
+  },
+  "oracle-cards": {
+   "file": "oracle-cards-20261017090158.jsonl.gz",
+   "sha256": "sha256:f278ae30bc51657e8e7fcb897984fafe0df0c93ed511160fe60429bbb0e29a71",
+   "updated_at": "2026-10-17T09:01:58.799+00:00",
+   "url": "https://data.scryfall.io/oracle-cards/oracle-cards-20261017090158.jsonl.gz"
+  },
+  "rulings": {
+   "file": "rulings-20261017090034.jsonl.gz",
+   "sha256": "sha256:34a1f2ddf2899af80fdc4d2e65cd769269bbdac0854c074cc177fb9556ecb7d8",
+   "updated_at": "2026-10-17T09:00:34.555+00:00",
+   "url": "https://data.scryfall.io/rulings/rulings-20261017090034.jsonl.gz"
+  }
+ },
+ "spellbook_current_sha256": "sha256:c37aa870a59ab40242bdc50c2d1c360627b59ea1fdc337923c1bed0d7bbea7e1"
+}
