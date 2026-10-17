@@ -344,10 +344,20 @@
         5,
         7
       ],
-      "status": "not_started",
+      "status": "in_progress",
       "depends_on": [
         "E"
-      ]
+      ],
+      "started": "ChatGPT cycle 68.1",
+      "completed_batches": [
+        "68.1 static mana/pip/source baseline across all 62 canonical decks",
+        "68.2 source reliability, ETB timing, actual fetch-target validation and distinct-source colored readiness"
+      ],
+      "artifacts": [
+        "data/grixis/mana_base/",
+        "data/grixis/mana_timing/"
+      ],
+      "next": "68.3 commander casting + commander-tax recovery / fast-mana sequencing; later utility/MDFC opportunity cost and candidate-level mana-base optimizer."
     },
     {
       "order": 5,
@@ -543,7 +553,7 @@
   ],
   "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
   "launch_tracker": {
-    "updated": "ChatGPT cycle 67.5 (2026-10-16)",
+    "updated": "ChatGPT cycle 68.2 (2026-10-16)",
     "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
     "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
     "stages": [
@@ -578,9 +588,9 @@
       {
         "id": "C",
         "estimated_batches": 6,
-        "batches_done": 0,
-        "status": "not_started",
-        "note": "est 5-7"
+        "batches_done": 2,
+        "status": "in_progress",
+        "note": "2/6 batch-equivalents complete: 68.1 static baseline, 68.2 timing/reliability/fetch validation."
       },
       {
         "id": "D",
@@ -640,7 +650,7 @@
       }
     ],
     "total_estimated_batches": 62.5,
-    "batches_done": 27.0,
-    "percent_complete": 43.2
+    "batches_done": 29.0,
+    "percent_complete": 46.4
   }
 }
