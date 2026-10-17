@@ -14,11 +14,11 @@ wrapper changes only the Birthday/current evidence path:
 * Fresh EDHREC derivative rows keep the legacy `synergy` column position only for
   schema compatibility and set its value to null. Raw source bytes remain in
   birthday_authority/edhrec_current.json.gz for provenance.
-* Mature candidate-review evidence references are rebound from the frozen M3
-  evidence directory to the fresh Birthday derivative directory.
+* Every mature candidate-document reference to the frozen M3 EDHREC evidence
+  directory is rebound to the fresh Birthday derivative directory before write.
 * Summary/delta/provenance explicitly record the metric policy and validation
   fails if a fresh derivative or screening fact leaks a numeric Synergy value,
-  or if a current candidate review cites the frozen EDHREC evidence path.
+  or if a current candidate document cites the frozen EDHREC evidence path.
 
 This file delegates all authority, saturation, A-F integration, tournament
 convergence, delta, and non-decision invariants to grixis_birthday_m5.py.
@@ -31,7 +31,7 @@ from pathlib import Path
 
 import grixis_birthday_m5 as bm
 
-VERSION = 2
+VERSION = 3
 METRIC_POLICY = {
     "current_metric": "lift",
     "retired_metric_used": False,
@@ -44,6 +44,7 @@ METRIC_POLICY = {
 _orig_screen = bm.gc.screen
 _orig_full_review = bm.gc.full_review
 _orig_esc_refs = bm.gc.esc_refs
+_orig_build_deck = bm.gc.build_deck
 _orig_build_delta = bm.build_delta
 _orig_build_summary = bm.build_summary
 _orig_semantic_problems = bm.semantic_problems
@@ -207,6 +208,15 @@ def esc_refs_lift(D, n, reasons, facts):
     return _rewrite_ref(_orig_esc_refs(D, n, reasons, facts), D.slug)
 
 
+def build_deck_lift(did, v, R, reg, pool, first, almost):
+    """Mature M5 build plus a whole-document fresh-evidence reference rewrite."""
+    doc = _orig_build_deck(did, v, R, reg, pool, first, almost)
+    doc = _rewrite_ref(doc, doc["slug"])
+    doc["snapshot"]["edhrec_current_metric"] = "lift"
+    doc["snapshot"]["edhrec_retired_synergy_used"] = False
+    return doc
+
+
 def integrate_doc_lift(doc, af, m):
     doc = _orig_integrate_doc(doc, af, m)
     doc["snapshot"]["edhrec_current_metric"] = "lift"
@@ -257,7 +267,7 @@ def semantic_problems_lift(m):
         slug = p.name[:-8]
         raw = gzip.decompress(p.read_bytes()).decode("utf-8")
         if f"evidence:data/grixis/evidence/{slug}.json" in raw:
-            probs.append(f"{p.name}: current candidate review cites frozen EDHREC evidence")
+            probs.append(f"{p.name}: current candidate document cites frozen EDHREC evidence")
     for p in sorted(bm.REGEN.glob("*.json.gz")):
         d = json.loads(gzip.decompress(p.read_bytes()).decode("utf-8"))
         if d.get("snapshot", {}).get("edhrec_current_metric") != "lift" or d.get("snapshot", {}).get("edhrec_retired_synergy_used") is not False:
@@ -283,6 +293,7 @@ def install():
     bm.gc.screen = screen_lift
     bm.gc.full_review = full_review_lift
     bm.gc.esc_refs = esc_refs_lift
+    bm.gc.build_deck = build_deck_lift
     bm.integrate_doc = integrate_doc_lift
     bm.build_delta = build_delta_lift
     bm.build_summary = build_summary_lift
