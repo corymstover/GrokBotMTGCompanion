@@ -1,0 +1,56 @@
+name: tmp Step C commander mana
+on:
+  push:
+    branches: [chatgpt-cycle68-3-commander-mana]
+permissions:
+  contents: write
+jobs:
+  commander-mana:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle68-3-commander-mana
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install jsonschema pytest
+      - name: Semantic tests
+        run: pytest -q tests/test_commander_mana.py
+      - name: Build and validate 62 decks
+        run: |
+          python scripts/grixis_commander_mana.py --build
+          python scripts/grixis_commander_mana.py --check
+          python scripts/grixis_commander_mana.py --summary
+      - name: Update Step C tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          by={x['id']:x for x in d['steps']}; c=by['C']; c['status']='in_progress'
+          c['completed_batches']=[
+            '68.1 static mana/pip/source baseline across all 62 canonical decks',
+            '68.2 source reliability, ETB timing, actual fetch-target validation and distinct-source colored readiness',
+            '68.3 isolated commander casting, fast-mana contribution and +2/+4 commander-tax recovery stress'
+          ]
+          arts=list(dict.fromkeys(c.get('artifacts',[])+['data/grixis/commander_mana/'])); c['artifacts']=arts
+          c['next']='68.4 utility-land + MDFC opportunity cost and land-type/commander synergies; then candidate-level mana-base optimizer and Step C closure.'
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 68.3 (2026-10-16)'; st={x['id']:x for x in tr['stages']}
+          st['C']['batches_done']=3; st['C']['status']='in_progress'; st['C']['note']='3/6 batch-equivalents complete through 68.3 commander casting / fast-mana / tax-recovery stress.'
+          tr['batches_done']=sum(float(x['batches_done']) for x in tr['stages']); tr['total_estimated_batches']=sum(float(x['estimated_batches']) for x in tr['stages']); tr['percent_complete']=round(100*tr['batches_done']/tr['total_estimated_batches'],1)
+          p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n'); print('Birthday Launch',tr['percent_complete'],'%')
+          PY
+      - name: Commit generated evidence and plan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/commander_mana data/grixis/upgrade_plan.json
+          if ! git diff --cached --quiet; then
+            git commit -m "ChatGPT cycle 68.3: generate commander mana evidence and tracker [skip ci]"
+            git push
+          fi
