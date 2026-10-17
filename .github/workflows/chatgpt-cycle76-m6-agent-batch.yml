@@ -1,0 +1,42 @@
+name: ChatGPT cycle 76 - M6 agent batch view
+
+on:
+  push:
+    branches:
+      - chatgpt-cycle76-m6-refinement
+    paths:
+      - .github/workflows/chatgpt-cycle76-m6-agent-batch.yml
+      - scripts/grixis_m6_batch_view.py
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: Deck slug
+        required: false
+        default: abaddon-the-despoiler
+      batch:
+        description: Review batch number
+        required: false
+        default: '1'
+
+permissions:
+  contents: read
+
+jobs:
+  view:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle76-m6-refinement
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Render compact batch
+        env:
+          INPUT_SLUG: ${{ inputs.slug }}
+          INPUT_BATCH: ${{ inputs.batch }}
+        run: |
+          slug="${INPUT_SLUG:-abaddon-the-despoiler}"
+          batch="${INPUT_BATCH:-1}"
+          python scripts/grixis_m6_batch_view.py --slug "$slug" --batch "$batch"
