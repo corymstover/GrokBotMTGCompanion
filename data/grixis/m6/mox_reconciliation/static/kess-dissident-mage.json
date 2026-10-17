@@ -1,0 +1,299 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 0,
+   "R": 0,
+   "U": 0
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 21,
+   "R": 22,
+   "U": 24
+  },
+  "land_sources": {
+   "B": 14,
+   "R": 15,
+   "U": 17
+  },
+  "unconditional_land_sources": {
+   "B": 14,
+   "R": 15,
+   "U": 17
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 14,
+   "R": 15,
+   "U": 17
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.691721,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Kess, Dissident Mage",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.830741,
+    "R": 0.852645,
+    "U": 0.888913
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 0,
+  "conditional_tapped_lands": 7,
+  "fast_mana": 16,
+  "fetchlands": 9,
+  "flex_land_mdfcs": 0,
+  "lands": 27,
+  "library_cards": 99,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 11,
+  "rituals": 3,
+  "unconditional_tapped_lands": 0,
+  "utility_lands": 3
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Kess__Dissident_Mage",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Cabal Ritual",
+  "Chrome Mox",
+  "Dark Ritual",
+  "Fellwar Stone",
+  "Grim Monolith",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Diamond",
+  "Mox Opal",
+  "Rite of Flame",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/kess-dissident-mage.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 0,
+   "Mountain": 0,
+   "Plains": 0,
+   "Swamp": 0
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Arid Mesa",
+    "potential_source_colors": "R",
+    "types": [
+     "Plains",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Wooded Foothills",
+    "potential_source_colors": "R",
+    "types": [
+     "Mountain",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 4,
+   "Mountain": 4,
+   "Plains": 0,
+   "Swamp": 4
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 55,
+  "double_pip_spell_count": {
+   "B": 3,
+   "R": 1,
+   "U": 4
+  },
+  "mv_le_2": {
+   "B": 12.0,
+   "R": 10.0,
+   "U": 16.0
+  },
+  "mv_le_3": {
+   "B": 16.0,
+   "R": 13.0,
+   "U": 24.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 22.0,
+   "R": 13.0,
+   "U": 30.0
+  },
+  "share": {
+   "B": 0.3385,
+   "R": 0.2,
+   "U": 0.4615
+  }
+ },
+ "ritual_cards": [
+  "Cabal Ritual",
+  "Dark Ritual",
+  "Rite of Flame"
+ ],
+ "schema_version": 1,
+ "slug": "kess-dissident-mage",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.586289,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.764143,
+   "per_color_at_least_one_land_source": {
+    "B": 0.762146,
+    "R": 0.787331,
+    "U": 0.830707
+   },
+   "strict_land_drop_probability": 0.764143
+  },
+  "3": {
+   "all_three_land_source_presence": 0.641799,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.548414,
+   "per_color_at_least_one_land_source": {
+    "B": 0.799146,
+    "R": 0.822776,
+    "U": 0.862684
+   },
+   "strict_land_drop_probability": 0.548414
+  },
+  "4": {
+   "all_three_land_source_presence": 0.691721,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.34642,
+   "per_color_at_least_one_land_source": {
+    "B": 0.830741,
+    "R": 0.852645,
+    "U": 0.888913
+   },
+   "strict_land_drop_probability": 0.34642
+  },
+  "5": {
+   "all_three_land_source_presence": 0.736169,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.194925,
+   "per_color_at_least_one_land_source": {
+    "B": 0.857668,
+    "R": 0.877762,
+    "U": 0.910373
+   },
+   "strict_land_drop_probability": 0.194925
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Fiery Islet",
+   "Mistrise Village",
+   "Otawara, Soaring City"
+  ]
+ }
+}

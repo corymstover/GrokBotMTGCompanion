@@ -1,0 +1,298 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 3,
+   "R": 3,
+   "U": 3
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 29,
+   "R": 27,
+   "U": 28
+  },
+  "land_sources": {
+   "B": 21,
+   "R": 19,
+   "U": 20
+  },
+  "unconditional_land_sources": {
+   "B": 18,
+   "R": 16,
+   "U": 17
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 19,
+   "R": 18,
+   "U": 19
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.93313,
+   "base_resource_target": 8,
+   "colored_requirements": {
+    "B": 2,
+    "R": 2,
+    "U": 2
+   },
+   "first_recast_resource_target": 10,
+   "mana_cost": "{2}{U}{U}{B}{B}{R}{R}",
+   "mana_value": 8.0,
+   "name": "Nicol Bolas",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.879881,
+    "R": 0.836114,
+    "U": 0.859402
+   },
+   "second_recast_resource_target": 12
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 3,
+  "conditional_tapped_lands": 7,
+  "fast_mana": 15,
+  "fetchlands": 9,
+  "flex_land_mdfcs": 0,
+  "lands": 37,
+  "library_cards": 99,
+  "one_shot_mana": 0,
+  "repeatable_nonland_sources": 13,
+  "rituals": 3,
+  "unconditional_tapped_lands": 3,
+  "utility_lands": 4
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Nicol_Bolas",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Cabal Ritual",
+  "Chrome Mox",
+  "Dark Ritual",
+  "Dimir Signet",
+  "Fellwar Stone",
+  "Grim Monolith",
+  "Izzet Signet",
+  "Mana Vault",
+  "Mox Diamond",
+  "Rakdos Signet",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/source-baseline/nicol-bolas.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Arid Mesa",
+    "potential_source_colors": "R",
+    "types": [
+     "Plains",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Wooded Foothills",
+    "potential_source_colors": "R",
+    "types": [
+     "Mountain",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 6,
+   "Plains": 0,
+   "Swamp": 6
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [],
+ "pip_demand": {
+  "colored_spell_count": 41,
+  "double_pip_spell_count": {
+   "B": 7,
+   "R": 2,
+   "U": 3
+  },
+  "mv_le_2": {
+   "B": 13.0,
+   "R": 3.0,
+   "U": 7.0
+  },
+  "mv_le_3": {
+   "B": 21.0,
+   "R": 13.0,
+   "U": 10.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 30.0,
+   "R": 15.0,
+   "U": 13.0
+  },
+  "share": {
+   "B": 0.5172,
+   "R": 0.2586,
+   "U": 0.2241
+  }
+ },
+ "ritual_cards": [
+  "Cabal Ritual",
+  "Dark Ritual",
+  "Seething Song"
+ ],
+ "schema_version": 1,
+ "slug": "nicol-bolas",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.736652,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.916011,
+   "per_color_at_least_one_land_source": {
+    "B": 0.89465,
+    "R": 0.866033,
+    "U": 0.881105
+   },
+   "strict_land_drop_probability": 0.916011
+  },
+  "3": {
+   "all_three_land_source_presence": 0.78651,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.80038,
+   "per_color_at_least_one_land_source": {
+    "B": 0.919231,
+    "R": 0.894315,
+    "U": 0.907526
+   },
+   "strict_land_drop_probability": 0.80038
+  },
+  "4": {
+   "all_three_land_source_presence": 0.828321,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.648804,
+   "per_color_at_least_one_land_source": {
+    "B": 0.938289,
+    "R": 0.916877,
+    "U": 0.928307
+   },
+   "strict_land_drop_probability": 0.648804
+  },
+  "5": {
+   "all_three_land_source_presence": 0.862979,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.487754,
+   "per_color_at_least_one_land_source": {
+    "B": 0.953016,
+    "R": 0.934824,
+    "U": 0.944601
+   },
+   "strict_land_drop_probability": 0.487754
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Command Beacon"
+  ],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Command Beacon",
+   "Otawara, Soaring City",
+   "Shizo, Death's Storehouse",
+   "Takenuma, Abandoned Mire"
+  ]
+ }
+}

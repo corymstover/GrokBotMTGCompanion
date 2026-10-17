@@ -1,0 +1,297 @@
+{
+ "audit_sha256": "sha256:f983e5776932bef8bcff2af35ef554df106f1f4224440bcca2d77f1dac97f0ba",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "classifier_sha256": "sha256:5eed919db7c2bcea33147d23348a807116f6a0014906cb85b9abe92b402cec74",
+ "count": 25,
+ "expected_changes": "Each report differs from frozen Step C ONLY in fast-mana inventory +1, repeatable nonland count +1, and U/B/R potential source counts +1",
+ "limitations": [
+  "Potential colored sources require valid Chrome Mox imprint and are not guaranteed color access",
+  "Commander casting probabilities have not been recomputed",
+  "Original Step C files and commander_mana artifacts remain frozen",
+  "This reconciles structural classification only; it does not approve a deck swap or M6"
+ ],
+ "registry_sha256": "sha256:c6004376d9324479d75ed3a94a4a389c600e57a2384bf77cc466ab86e128dba0",
+ "rows": [
+  {
+   "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+   "corrected_fast_mana": 12,
+   "corrected_sha256": "sha256:76e8222d33e16f549774fe6f3f89aa5016e977441dc22a0fb548e793dccf7e1e",
+   "deck_id": "Abaddon_the_Despoiler",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 11,
+   "old_sha256": "sha256:bc98168062576f357165c01063d016c6a14061d6e1e6da176e46d95b2083737a",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "corrected_fast_mana": 15,
+   "corrected_sha256": "sha256:5a1cbd724284255d773a0edcd71f876133cfb5497a0fd6b966dc921a73eccb41",
+   "deck_id": "Cormela__Glamour_Thief",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 14,
+   "old_sha256": "sha256:6eaace31340e7b4af33ac66f932404519b450ed4058e43702a4001c523aa8abc",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "canonical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "corrected_fast_mana": 13,
+   "corrected_sha256": "sha256:a099dcae7b73756afdd4272c9a017f924328afaa128a0eadbbaf4387c2bc46a7",
+   "deck_id": "Crosis__the_Purger",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 12,
+   "old_sha256": "sha256:5e4e90912264d4b1544a1a36c93f8604430f58df381e53ec04c30c8661ee3b63",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "crosis-the-purger"
+  },
+  {
+   "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "corrected_fast_mana": 11,
+   "corrected_sha256": "sha256:599a6de1bca130c64056cc3044addce858a1b8bf3e39d00a5f37b74cefc61d19",
+   "deck_id": "Edward_Kenway",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 10,
+   "old_sha256": "sha256:e3c186cf48008928b93dc0657f4043fa8890e6373c8b2a5aee9ab6526739ed9e",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "edward-kenway"
+  },
+  {
+   "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "corrected_fast_mana": 15,
+   "corrected_sha256": "sha256:d2ad89b69190bab64f35ff740228218831fb8b6a152a3b986c321834b1a36efb",
+   "deck_id": "Evelyn__the_Covetous",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 14,
+   "old_sha256": "sha256:7acbb8904a88080f61972ddcdfa24759d5f05ff63c366ee08cd3b39f93e5ed2d",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "corrected_fast_mana": 16,
+   "corrected_sha256": "sha256:6a0fdd4d342f847b956a255caa9a24a16ef3ef64f63ec4af8f2090baf1c0709b",
+   "deck_id": "Fire_Lord_Azula",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 15,
+   "old_sha256": "sha256:cac12d228f1ef0a498e5f34767a0f5b2ba9f8c66646ff92b0b337fd39eb613ca",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "fire-lord-azula"
+  },
+  {
+   "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "corrected_fast_mana": 13,
+   "corrected_sha256": "sha256:a5ef5586e1e4b5b917d318538c1b48a5f6d4a7447eaab406f2c4ccf0bd9d8e3c",
+   "deck_id": "Grixistax___October_2026",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 12,
+   "old_sha256": "sha256:d552664f14856b6616f0d0fbd6dba1c23113d360c23e0d832c06764b9bbe6d5f",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "canonical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "corrected_fast_mana": 8,
+   "corrected_sha256": "sha256:ad9eea77b3d563461c49d87b4fcb2469f151d3a51b8a7c564fed3d558fa12713",
+   "deck_id": "Gwendlyn_Di_Corci",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 7,
+   "old_sha256": "sha256:6530bb8bf4fd2d5dc8b15ac7fdb272feb1f423b6a55680af64b4ec7b408ea8c7",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "corrected_fast_mana": 17,
+   "corrected_sha256": "sha256:8ff373780f1df903fd92c4d57492e4924885528e96a504279dc0badd2e1e7389",
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 16,
+   "old_sha256": "sha256:ee6aa0b4c77f79484c6337ad17576148c1c184bcf76a732b7c6f70cfcbec6132",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "corrected_fast_mana": 15,
+   "corrected_sha256": "sha256:f17b3d77af1c2a9e0307309a27e3f3d848558a839e047383b23a922cabf2d4d0",
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 14,
+   "old_sha256": "sha256:9ad62e204ff2f73010c4f7151e8d750f6cbc5c11f48aaf50f99b617b40f8520e",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "corrected_fast_mana": 16,
+   "corrected_sha256": "sha256:1ff6d0abc658da5ebee6affc52675a31d6676225568270b2aa339b1df86d2820",
+   "deck_id": "Kefka__Court_Mage",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 15,
+   "old_sha256": "sha256:6cb8f98e244e672171d30cf52b1a2fc8ff2764b03b91680ea58aa39f7f71c28e",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "kefka-court-mage"
+  },
+  {
+   "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "corrected_fast_mana": 16,
+   "corrected_sha256": "sha256:37730bd818394c3d7f93ebc19d6f3394e650959b481f8ab95091211a2368347f",
+   "deck_id": "Kess__Dissident_Mage",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 15,
+   "old_sha256": "sha256:9c79e6f372bcba44d0abe1647592cb9bcd2b9c2a8fd57b4dc6b68c65e2330b54",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+   "corrected_fast_mana": 12,
+   "corrected_sha256": "sha256:d7ea7efb07a8156b429aa10b20bab365f9f1b057dbd2b4a2518ac60619ca8e66",
+   "deck_id": "Mai_and_Zuko",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 11,
+   "old_sha256": "sha256:66bb13251df772dea08e0be091f6edcbe8eb384d81a68b996112acee06f43aca",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "mai-and-zuko"
+  },
+  {
+   "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+   "corrected_fast_mana": 14,
+   "corrected_sha256": "sha256:8b55c8064b22192fefa79684f8381c6916ce2666bb28c933c0ce991cc58120f5",
+   "deck_id": "Mairsil__the_Pretender",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 13,
+   "old_sha256": "sha256:81d5931c21612eac0423eea9f9034525749a3f4863eb54953561ff4488c9431c",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+   "corrected_fast_mana": 15,
+   "corrected_sha256": "sha256:abb993f867c5a112b62ff909103319002069b1cf7d528ad717c885ebadea37f5",
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 14,
+   "old_sha256": "sha256:9d0a295d9e55b8ea2ab48297b81f9611f66c8ee98194356913fb50e4c88a6dd7",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+   "corrected_fast_mana": 17,
+   "corrected_sha256": "sha256:c0749d196e7228f5e9bb960a8a1fd0943be2d124c036f233a50ef65ef02fb300",
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 16,
+   "old_sha256": "sha256:467a884d4288bfccc37cfac7b1c46ab87b180a6f72cfaf9b95cd7aa0b727fc37",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+   "corrected_fast_mana": 14,
+   "corrected_sha256": "sha256:bc4f3b7f2fc53cf7a1fcf4834c8047d85874957961d50441d70f423dda32e8fe",
+   "deck_id": "Mishra__Eminent_One",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 13,
+   "old_sha256": "sha256:b2d87264f923fbff1c956489de2c915312481f0dbf3919669db97753dbc3a7a6",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+   "corrected_fast_mana": 9,
+   "corrected_sha256": "sha256:505d1886ad6ded11b7f5090746950da66ef805c72d5599414383128dcf866cbb",
+   "deck_id": "Nekusar__the_Mindrazer",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 8,
+   "old_sha256": "sha256:f61dc58b13e934a4283ae5ce522a3f7e1d0a414c2ca6b015a622fca80ecf3830",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+   "corrected_fast_mana": 15,
+   "corrected_sha256": "sha256:1720c999bb171ef50b81d3e1e6bea2080021bc3651a04838d76d171056655508",
+   "deck_id": "Nicol_Bolas",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 14,
+   "old_sha256": "sha256:73a6c1bc3f4593df6dc3d0a1ec00fec97d6929a1e6d27d793c439d1dd49e74b2",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "nicol-bolas"
+  },
+  {
+   "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+   "corrected_fast_mana": 14,
+   "corrected_sha256": "sha256:8082e5659ba48d79ea216da417ccc86c079468e0d2771e9d418f36012913ba14",
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 13,
+   "old_sha256": "sha256:b62730f1e79c69539c079a7ade1e5701f8d53b2a22eafe5e1f9d54a969a54510",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "corrected_fast_mana": 18,
+   "corrected_sha256": "sha256:aa574bba4731d399004b2b6215bcc0c266011615685457fbabac1255e42d8022",
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 17,
+   "old_sha256": "sha256:54c852a56ceab6c86c7a3a446b9bf0c18e85200da0b16010c8fda8fec5cdfb27",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "norman-osborn"
+  },
+  {
+   "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+   "corrected_fast_mana": 10,
+   "corrected_sha256": "sha256:b73cc354bcd56c80d215161c5de83c7f715b01d144623172eb4ef5b579c79ea2",
+   "deck_id": "Obeka__Brute_Chronologist",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 9,
+   "old_sha256": "sha256:fed3cb4a5dcfc1bfc14586a7024054e0d13b5f650901876c07d3ae869fb4f036",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+   "corrected_fast_mana": 17,
+   "corrected_sha256": "sha256:7117c4a286f57d4d47d2b152a59015e1968e2f99be74c69f9b3ffb5e2ea631d7",
+   "deck_id": "RogSi",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 16,
+   "old_sha256": "sha256:e9460d3aa40dc3f712502610a345336d7a6f9f2ed7af2a6beb6571648535cf09",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+   "corrected_fast_mana": 13,
+   "corrected_sha256": "sha256:3bfd07dac71ebacade7d9cd4d8692cb0f11a5b7a858d27943626a961129193c0",
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 12,
+   "old_sha256": "sha256:6586b7d2b0b7fb882b018f3746499af7cb3f74881b1091049b1d886f920b842a",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "corrected_fast_mana": 14,
+   "corrected_sha256": "sha256:fb00bd917722b1dd6407bb453e81f707aa3e5acc23dd186debac1d6075092526",
+   "deck_id": "The_Madcap_Jester",
+   "new_source": "Chrome Mox; conditional imprint-dependent potential UBR",
+   "old_fast_mana": 13,
+   "old_sha256": "sha256:dd78eab8e4581e467bc28d737b99844116e7f0ca828e3e9333a8183457763d41",
+   "simulator_impact": "requires separate sampled no-fast counterfactual; not measured here",
+   "slug": "the-madcap-jester"
+  }
+ ],
+ "schema_version": 1,
+ "stage": "M6_25_deck_conditional_mox_static_reconciliation"
+}

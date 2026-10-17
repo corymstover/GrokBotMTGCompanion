@@ -1,0 +1,276 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 21,
+   "R": 22,
+   "U": 22
+  },
+  "land_sources": {
+   "B": 14,
+   "R": 16,
+   "U": 16
+  },
+  "unconditional_land_sources": {
+   "B": 13,
+   "R": 15,
+   "U": 15
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 14,
+   "R": 15,
+   "U": 15
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.857668,
+   "base_resource_target": 5,
+   "colored_requirements": {
+    "B": 2
+   },
+   "first_recast_resource_target": 7,
+   "mana_cost": "{2}{U/B}{B}{B/R}",
+   "mana_value": 5.0,
+   "name": "Evelyn, the Covetous",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.534537
+   },
+   "second_recast_resource_target": 9
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 4,
+  "fast_mana": 15,
+  "fetchlands": 7,
+  "flex_land_mdfcs": 0,
+  "lands": 26,
+  "library_cards": 99,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 9,
+  "rituals": 4,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 2
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Evelyn__the_Covetous",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Cabal Ritual",
+  "Chrome Mox",
+  "Culling the Weak",
+  "Dark Ritual",
+  "Fellwar Stone",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Diamond",
+  "Mox Opal",
+  "Rite of Flame",
+  "Sol Ring",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/evelyn-the-covetous.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 1,
+   "Mountain": 0,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Arid Mesa",
+    "potential_source_colors": "R",
+    "types": [
+     "Plains",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Wooded Foothills",
+    "potential_source_colors": "R",
+    "types": [
+     "Mountain",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 6,
+   "Mountain": 5,
+   "Plains": 0,
+   "Swamp": 5
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 56,
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 2,
+   "U": 6
+  },
+  "mv_le_2": {
+   "B": 18.0,
+   "R": 12.0,
+   "U": 14.0
+  },
+  "mv_le_3": {
+   "B": 26.0,
+   "R": 13.0,
+   "U": 19.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 29.0,
+   "R": 16.0,
+   "U": 26.0
+  },
+  "share": {
+   "B": 0.4085,
+   "R": 0.2254,
+   "U": 0.3662
+  }
+ },
+ "ritual_cards": [
+  "Cabal Ritual",
+  "Culling the Weak",
+  "Dark Ritual",
+  "Rite of Flame"
+ ],
+ "schema_version": 1,
+ "slug": "evelyn-the-covetous",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.604216,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.742017,
+   "per_color_at_least_one_land_source": {
+    "B": 0.762146,
+    "R": 0.810117,
+    "U": 0.810117
+   },
+   "strict_land_drop_probability": 0.742017
+  },
+  "3": {
+   "all_three_land_source_presence": 0.657843,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.517683,
+   "per_color_at_least_one_land_source": {
+    "B": 0.799146,
+    "R": 0.843874,
+    "U": 0.843874
+   },
+   "strict_land_drop_probability": 0.517683
+  },
+  "4": {
+   "all_three_land_source_presence": 0.705902,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.316035,
+   "per_color_at_least_one_land_source": {
+    "B": 0.830741,
+    "R": 0.871941,
+    "U": 0.871941
+   },
+   "strict_land_drop_probability": 0.316035
+  },
+  "5": {
+   "all_three_land_source_presence": 0.748573,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.171101,
+   "per_color_at_least_one_land_source": {
+    "B": 0.857668,
+    "R": 0.895225,
+    "U": 0.895225
+   },
+   "strict_land_drop_probability": 0.171101
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Mistrise Village",
+   "Mount Doom"
+  ]
+ }
+}

@@ -1,0 +1,268 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 3,
+   "R": 3,
+   "U": 3
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 29,
+   "R": 25,
+   "U": 27
+  },
+  "land_sources": {
+   "B": 22,
+   "R": 18,
+   "U": 20
+  },
+  "unconditional_land_sources": {
+   "B": 19,
+   "R": 15,
+   "U": 17
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 21,
+   "R": 17,
+   "U": 19
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.888504,
+   "base_resource_target": 6,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 8,
+   "mana_cost": "{3}{U}{B}{R}",
+   "mana_value": 6.0,
+   "name": "Crosis, the Purger",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.970297,
+    "R": 0.939319,
+    "U": 0.957336
+   },
+   "second_recast_resource_target": 10
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 3,
+  "conditional_tapped_lands": 6,
+  "fast_mana": 13,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 0,
+  "lands": 36,
+  "library_cards": 99,
+  "one_shot_mana": 1,
+  "repeatable_nonland_sources": 11,
+  "rituals": 1,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 3
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Crosis__the_Purger",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Chrome Mox",
+  "Dark Ritual",
+  "Dimir Signet",
+  "Izzet Signet",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Diamond",
+  "Rakdos Signet",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/crosis-the-purger.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 4,
+   "Mountain": 3,
+   "Plains": 0,
+   "Swamp": 4
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 9,
+   "Mountain": 8,
+   "Plains": 0,
+   "Swamp": 9
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 42,
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 0,
+   "U": 2
+  },
+  "mv_le_2": {
+   "B": 18.5,
+   "R": 2.0,
+   "U": 6.5
+  },
+  "mv_le_3": {
+   "B": 28.5,
+   "R": 6.0,
+   "U": 10.5
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 34.5,
+   "R": 6.0,
+   "U": 14.5
+  },
+  "share": {
+   "B": 0.6273,
+   "R": 0.1091,
+   "U": 0.2636
+  }
+ },
+ "ritual_cards": [
+  "Dark Ritual"
+ ],
+ "schema_version": 1,
+ "slug": "crosis-the-purger",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.733938,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.905783,
+   "per_color_at_least_one_land_source": {
+    "B": 0.906806,
+    "R": 0.849288,
+    "U": 0.881105
+   },
+   "strict_land_drop_probability": 0.905783
+  },
+  "3": {
+   "all_three_land_source_presence": 0.783596,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.780493,
+   "per_color_at_least_one_land_source": {
+    "B": 0.929586,
+    "R": 0.87943,
+    "U": 0.907526
+   },
+   "strict_land_drop_probability": 0.780493
+  },
+  "4": {
+   "all_three_land_source_presence": 0.825318,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.620946,
+   "per_color_at_least_one_land_source": {
+    "B": 0.946992,
+    "R": 0.903815,
+    "U": 0.928307
+   },
+   "strict_land_drop_probability": 0.620946
+  },
+  "5": {
+   "all_three_land_source_presence": 0.859984,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.456414,
+   "per_color_at_least_one_land_source": {
+    "B": 0.960244,
+    "R": 0.923489,
+    "U": 0.944601
+   },
+   "strict_land_drop_probability": 0.456414
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Geier Reach Sanitarium"
+  ],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Geier Reach Sanitarium",
+   "Plaza of Heroes",
+   "Shizo, Death's Storehouse"
+  ]
+ }
+}

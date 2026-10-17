@@ -1,0 +1,287 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 2,
+   "R": 2,
+   "U": 2
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 27,
+   "R": 26,
+   "U": 28
+  },
+  "land_sources": {
+   "B": 20,
+   "R": 19,
+   "U": 21
+  },
+  "unconditional_land_sources": {
+   "B": 18,
+   "R": 17,
+   "U": 19
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 19,
+   "R": 18,
+   "U": 20
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.862011,
+   "base_resource_target": 5,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 7,
+   "mana_cost": "{2}{U}{B}{R}",
+   "mana_value": 5.0,
+   "name": "Edward Kenway",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.944601,
+    "R": 0.934824,
+    "U": 0.953016
+   },
+   "second_recast_resource_target": 9
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 2,
+  "conditional_tapped_lands": 6,
+  "fast_mana": 11,
+  "fetchlands": 9,
+  "flex_land_mdfcs": 0,
+  "lands": 35,
+  "library_cards": 99,
+  "one_shot_mana": 1,
+  "repeatable_nonland_sources": 10,
+  "rituals": 0,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 1
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Edward_Kenway",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Chrome Mox",
+  "Fellwar Stone",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Diamond",
+  "Mox Opal",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/edward-kenway.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 2
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Arid Mesa",
+    "potential_source_colors": "R",
+    "types": [
+     "Plains",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "U",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "B",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "U",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "B",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Wooded Foothills",
+    "potential_source_colors": "R",
+    "types": [
+     "Mountain",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 6,
+   "Plains": 0,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 46,
+  "double_pip_spell_count": {
+   "B": 0,
+   "R": 2,
+   "U": 5
+  },
+  "mv_le_2": {
+   "B": 4.0,
+   "R": 2.0,
+   "U": 11.0
+  },
+  "mv_le_3": {
+   "B": 7.0,
+   "R": 13.0,
+   "U": 18.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 12.0,
+   "R": 22.0,
+   "U": 33.0
+  },
+  "share": {
+   "B": 0.1791,
+   "R": 0.3284,
+   "U": 0.4925
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "edward-kenway",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.733736,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.894597,
+   "per_color_at_least_one_land_source": {
+    "B": 0.881105,
+    "R": 0.866033,
+    "U": 0.89465
+   },
+   "strict_land_drop_probability": 0.894597
+  },
+  "3": {
+   "all_three_land_source_presence": 0.784458,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.759362,
+   "per_color_at_least_one_land_source": {
+    "B": 0.907526,
+    "R": 0.894315,
+    "U": 0.919231
+   },
+   "strict_land_drop_probability": 0.759362
+  },
+  "4": {
+   "all_three_land_source_presence": 0.826901,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.592219,
+   "per_color_at_least_one_land_source": {
+    "B": 0.928307,
+    "R": 0.916877,
+    "U": 0.938289
+   },
+   "strict_land_drop_probability": 0.592219
+  },
+  "5": {
+   "all_three_land_source_presence": 0.862011,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.425075,
+   "per_color_at_least_one_land_source": {
+    "B": 0.944601,
+    "R": 0.934824,
+    "U": 0.953016
+   },
+   "strict_land_drop_probability": 0.425075
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [],
+  "utility_lands": [
+   "Otawara, Soaring City"
+  ]
+ }
+}
