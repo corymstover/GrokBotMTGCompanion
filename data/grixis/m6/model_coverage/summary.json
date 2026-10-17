@@ -1,0 +1,516 @@
+{
+ "counts": {
+  "claim_eligible_from_M5": 0,
+  "decks": 62,
+  "hypotheses": 8848,
+  "positive_other_or_unknown_coverage": 260,
+  "positive_proxy_verdicts": 1042,
+  "positive_unmodeled_swap_effects": 782
+ },
+ "decks": [
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 98,
+   "positive_other_or_unknown_coverage": 5,
+   "positive_proxy_verdicts": 65,
+   "positive_unmodeled_swap_effects": 60,
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 314,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 6,
+   "positive_unmodeled_swap_effects": 6,
+   "slug": "admiral-beckett-brass"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 211,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 7,
+   "positive_unmodeled_swap_effects": 7,
+   "slug": "admiral-brass-unsinkable"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 295,
+   "positive_other_or_unknown_coverage": 4,
+   "positive_proxy_verdicts": 29,
+   "positive_unmodeled_swap_effects": 25,
+   "slug": "anhelo-the-painter"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 415,
+   "positive_other_or_unknown_coverage": 4,
+   "positive_proxy_verdicts": 9,
+   "positive_unmodeled_swap_effects": 5,
+   "slug": "ashad-the-lone-cyberman"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 475,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 41,
+   "positive_unmodeled_swap_effects": 41,
+   "slug": "ashnod-the-uncaring"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 270,
+   "positive_other_or_unknown_coverage": 2,
+   "positive_proxy_verdicts": 3,
+   "positive_unmodeled_swap_effects": 1,
+   "slug": "belakor-the-dark-master"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 81,
+   "positive_other_or_unknown_coverage": 4,
+   "positive_proxy_verdicts": 23,
+   "positive_unmodeled_swap_effects": 19,
+   "slug": "bjorna-nightfall-alchemist-cecily"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 218,
+   "positive_other_or_unknown_coverage": 25,
+   "positive_proxy_verdicts": 108,
+   "positive_unmodeled_swap_effects": 83,
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 17,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 3,
+   "positive_unmodeled_swap_effects": 3,
+   "slug": "crosis-the-purger"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 87,
+   "positive_other_or_unknown_coverage": 4,
+   "positive_proxy_verdicts": 8,
+   "positive_unmodeled_swap_effects": 4,
+   "slug": "cult-of-skaro"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 66,
+   "positive_other_or_unknown_coverage": 3,
+   "positive_proxy_verdicts": 3,
+   "positive_unmodeled_swap_effects": 0,
+   "slug": "davros-dalek-creator"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 238,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 1,
+   "positive_unmodeled_swap_effects": 1,
+   "slug": "doctor-doom-king-of-latveria"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 111,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 3,
+   "positive_unmodeled_swap_effects": 3,
+   "slug": "don-andres-the-renegade"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 249,
+   "positive_other_or_unknown_coverage": 6,
+   "positive_proxy_verdicts": 6,
+   "positive_unmodeled_swap_effects": 0,
+   "slug": "dr-eggman"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 122,
+   "positive_other_or_unknown_coverage": 7,
+   "positive_proxy_verdicts": 12,
+   "positive_unmodeled_swap_effects": 5,
+   "slug": "edea-possessed-sorceress"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 342,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 5,
+   "positive_unmodeled_swap_effects": 5,
+   "slug": "edward-kenway"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 79,
+   "positive_other_or_unknown_coverage": 3,
+   "positive_proxy_verdicts": 32,
+   "positive_unmodeled_swap_effects": 29,
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 86,
+   "positive_other_or_unknown_coverage": 5,
+   "positive_proxy_verdicts": 26,
+   "positive_unmodeled_swap_effects": 21,
+   "slug": "fire-lord-azula"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 47,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 11,
+   "positive_unmodeled_swap_effects": 11,
+   "slug": "garza-zol-plague-queen"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 298,
+   "positive_other_or_unknown_coverage": 1,
+   "positive_proxy_verdicts": 4,
+   "positive_unmodeled_swap_effects": 3,
+   "slug": "goro-goro-and-satoru"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 42,
+   "positive_other_or_unknown_coverage": 9,
+   "positive_proxy_verdicts": 13,
+   "positive_unmodeled_swap_effects": 4,
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 66,
+   "positive_other_or_unknown_coverage": 1,
+   "positive_proxy_verdicts": 38,
+   "positive_unmodeled_swap_effects": 37,
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 370,
+   "positive_other_or_unknown_coverage": 14,
+   "positive_proxy_verdicts": 66,
+   "positive_unmodeled_swap_effects": 52,
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 68,
+   "positive_other_or_unknown_coverage": 15,
+   "positive_proxy_verdicts": 31,
+   "positive_unmodeled_swap_effects": 16,
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 111,
+   "positive_other_or_unknown_coverage": 8,
+   "positive_proxy_verdicts": 53,
+   "positive_unmodeled_swap_effects": 45,
+   "slug": "kefka-court-mage"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 68,
+   "positive_other_or_unknown_coverage": 7,
+   "positive_proxy_verdicts": 30,
+   "positive_unmodeled_swap_effects": 23,
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 386,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 0,
+   "positive_unmodeled_swap_effects": 0,
+   "slug": "loki-the-deceiver"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 121,
+   "positive_other_or_unknown_coverage": 1,
+   "positive_proxy_verdicts": 1,
+   "positive_unmodeled_swap_effects": 0,
+   "slug": "lord-of-tresserhorn"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 105,
+   "positive_other_or_unknown_coverage": 13,
+   "positive_proxy_verdicts": 20,
+   "positive_unmodeled_swap_effects": 7,
+   "slug": "lord-xander-the-collector"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 22,
+   "positive_other_or_unknown_coverage": 1,
+   "positive_proxy_verdicts": 5,
+   "positive_unmodeled_swap_effects": 4,
+   "slug": "lynde-cheerful-tormentor"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 258,
+   "positive_other_or_unknown_coverage": 9,
+   "positive_proxy_verdicts": 29,
+   "positive_unmodeled_swap_effects": 20,
+   "slug": "mai-and-zuko"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 77,
+   "positive_other_or_unknown_coverage": 2,
+   "positive_proxy_verdicts": 13,
+   "positive_unmodeled_swap_effects": 11,
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 58,
+   "positive_other_or_unknown_coverage": 1,
+   "positive_proxy_verdicts": 7,
+   "positive_unmodeled_swap_effects": 6,
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 129,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 1,
+   "positive_unmodeled_swap_effects": 1,
+   "slug": "marchesa-the-black-rose"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 127,
+   "positive_other_or_unknown_coverage": 2,
+   "positive_proxy_verdicts": 5,
+   "positive_unmodeled_swap_effects": 3,
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 178,
+   "positive_other_or_unknown_coverage": 16,
+   "positive_proxy_verdicts": 28,
+   "positive_unmodeled_swap_effects": 12,
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 276,
+   "positive_other_or_unknown_coverage": 3,
+   "positive_proxy_verdicts": 3,
+   "positive_unmodeled_swap_effects": 0,
+   "slug": "missy"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 249,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 9,
+   "positive_unmodeled_swap_effects": 9,
+   "slug": "nathan-drake-treasure-hunter"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 69,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 25,
+   "positive_unmodeled_swap_effects": 25,
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 73,
+   "positive_other_or_unknown_coverage": 18,
+   "positive_proxy_verdicts": 30,
+   "positive_unmodeled_swap_effects": 12,
+   "slug": "nicol-bolas"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 54,
+   "positive_other_or_unknown_coverage": 7,
+   "positive_proxy_verdicts": 9,
+   "positive_unmodeled_swap_effects": 2,
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 73,
+   "positive_other_or_unknown_coverage": 8,
+   "positive_proxy_verdicts": 40,
+   "positive_unmodeled_swap_effects": 32,
+   "slug": "norman-osborn"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 181,
+   "positive_other_or_unknown_coverage": 2,
+   "positive_proxy_verdicts": 25,
+   "positive_unmodeled_swap_effects": 23,
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 38,
+   "positive_other_or_unknown_coverage": 2,
+   "positive_proxy_verdicts": 2,
+   "positive_unmodeled_swap_effects": 0,
+   "slug": "obeka-splitter-of-seconds"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 126,
+   "positive_other_or_unknown_coverage": 2,
+   "positive_proxy_verdicts": 4,
+   "positive_unmodeled_swap_effects": 2,
+   "slug": "parnesse-the-subtle-brush"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 51,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 13,
+   "positive_unmodeled_swap_effects": 13,
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 55,
+   "positive_other_or_unknown_coverage": 14,
+   "positive_proxy_verdicts": 22,
+   "positive_unmodeled_swap_effects": 8,
+   "slug": "saruman-the-white-hand"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 44,
+   "positive_other_or_unknown_coverage": 1,
+   "positive_proxy_verdicts": 28,
+   "positive_unmodeled_swap_effects": 27,
+   "slug": "sauron-lord-of-the-rings"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 31,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 8,
+   "positive_unmodeled_swap_effects": 8,
+   "slug": "sauron-the-dark-lord"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 111,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 5,
+   "positive_unmodeled_swap_effects": 5,
+   "slug": "sedris-the-traitor-king"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 98,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 8,
+   "positive_unmodeled_swap_effects": 8,
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 28,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 3,
+   "positive_unmodeled_swap_effects": 3,
+   "slug": "solkanar-the-tainted"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 44,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 0,
+   "positive_unmodeled_swap_effects": 0,
+   "slug": "tetsuo-imperial-champion"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 34,
+   "positive_other_or_unknown_coverage": 1,
+   "positive_proxy_verdicts": 4,
+   "positive_unmodeled_swap_effects": 3,
+   "slug": "tetsuo-umezawa"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 38,
+   "positive_other_or_unknown_coverage": 10,
+   "positive_proxy_verdicts": 19,
+   "positive_unmodeled_swap_effects": 9,
+   "slug": "the-madcap-jester"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 80,
+   "positive_other_or_unknown_coverage": 6,
+   "positive_proxy_verdicts": 11,
+   "positive_unmodeled_swap_effects": 5,
+   "slug": "the-rani"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 30,
+   "positive_other_or_unknown_coverage": 2,
+   "positive_proxy_verdicts": 6,
+   "positive_unmodeled_swap_effects": 4,
+   "slug": "the-valeyard"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 135,
+   "positive_other_or_unknown_coverage": 0,
+   "positive_proxy_verdicts": 8,
+   "positive_unmodeled_swap_effects": 8,
+   "slug": "thraximundar"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 301,
+   "positive_other_or_unknown_coverage": 3,
+   "positive_proxy_verdicts": 3,
+   "positive_unmodeled_swap_effects": 0,
+   "slug": "tresserhorns-lord-returned"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 214,
+   "positive_other_or_unknown_coverage": 2,
+   "positive_proxy_verdicts": 4,
+   "positive_unmodeled_swap_effects": 2,
+   "slug": "wick-the-whorled-mind"
+  },
+  {
+   "claim_eligible_from_M5": 0,
+   "hypotheses": 110,
+   "positive_other_or_unknown_coverage": 7,
+   "positive_proxy_verdicts": 8,
+   "positive_unmodeled_swap_effects": 1,
+   "slug": "zevlor-elturel-exile"
+  }
+ ],
+ "policy": {
+  "M5_proxy_pass_can_decide": false,
+  "M5_proxy_pass_proves_improvement": false,
+  "note": "No M5 proxy verdict qualifies alone as improvement evidence even if it is marked pass.",
+  "phase_b_and_judgment_required": true
+ },
+ "schema_version": 1,
+ "stage": "M6_M5_proxy_coverage_aggregate"
+}
