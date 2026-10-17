@@ -45,7 +45,26 @@ jobs:
               p=d/name; urllib.request.urlretrieve(url,p)
               got=hashlib.sha256(p.read_bytes()).hexdigest()
               if got != want: raise SystemExit(f'HASH MISMATCH {name}: {got}')
-              print('restored+verified',name,p.stat().st_size)
+              print('restored+verified',name,p.stat().st_size,'sha256',got)
+
+          # Historical Comprehensive Rules input used by Step A/M5. Recover an exact archived copy,
+          # pinned to the mtgrulediff commit whose only purpose was "Add 20260925 rules".
+          rules_url=(
+              "https://raw.githubusercontent.com/muz/mtgrulediff/"
+              "8ba7eb0d63a9b1e67aa1280fafb9fd0d16052592/rules/MagicCompRules%2020260925.txt"
+          )
+          rules=d/'MagicCompRules-20260925.txt'
+          urllib.request.urlretrieve(rules_url,rules)
+          b=rules.read_bytes()
+          blob=hashlib.sha1(f"blob {len(b)}\0".encode()+b).hexdigest()
+          if len(b) != 977752:
+              raise SystemExit(f'RULES SIZE MISMATCH: {len(b)}')
+          if blob != '4dc4fead596288be1ca6aa9c913ea1739c680a29':
+              raise SystemExit(f'RULES GIT-BLOB MISMATCH: {blob}')
+          text=b.decode('utf-8-sig',errors='strict')
+          if 'These rules are effective as of September 25, 2026.' not in text[:500]:
+              raise SystemExit('RULES EFFECTIVE-DATE MISMATCH')
+          print('restored+verified',rules.name,len(b),'git-blob',blob,'sha256',hashlib.sha256(b).hexdigest())
           PY
           python scripts/check_dev_snapshot_lock.py
 
@@ -74,7 +93,7 @@ jobs:
           python - <<'PY'
           import sys
           sys.path.insert(0,'scripts')
-          import grixis_authority as ga, grixis_candidates as gc, grixis_m5_regen as m
+          import grixis_authority as ga, grixis_m5_regen as m
           slugs=('kess-dissident-mage','abaddon-the-despoiler','bjorna-nightfall-alchemist-cecily')
           probs=[]
           for slug in slugs:
