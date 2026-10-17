@@ -58,6 +58,23 @@ jobs:
           print('frozen rules verified',p.name,got)
           PY
 
+      - name: Normalize discovered Wizards rules URL
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/grixis_birthday_snapshot.py')
+          s=p.read_text(encoding='utf-8')
+          old='url = next((x for x in links if "MagicCompRules" in x), links[0])'
+          new='url = urllib.parse.quote(next((x for x in links if "MagicCompRules" in x), links[0]), safe=":/?=&%")'
+          if old in s:
+              p.write_text(s.replace(old,new,1),encoding='utf-8')
+              print('patched rules URL normalization')
+          elif new in s:
+              print('rules URL normalization already present')
+          else:
+              raise SystemExit('expected rules URL assignment not found')
+          PY
+
       - name: Collect current Birthday authority and evidence feeds
         id: collect
         shell: bash
@@ -82,7 +99,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/grixis/birthday_authority
+          git add scripts/grixis_birthday_snapshot.py data/grixis/birthday_authority
           if git diff --cached --quiet; then
             echo "no snapshot changes to commit"
           else
