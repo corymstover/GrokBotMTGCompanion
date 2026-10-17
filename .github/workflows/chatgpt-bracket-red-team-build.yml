@@ -1,0 +1,61 @@
+name: Temporary ChatGPT bracket red-team packets
+
+on:
+  push:
+    branches: [chatgpt-cycle70-3-red-team-packets]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle70-3-red-team-packets
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Focused red-team tests
+        run: python -m pytest -q tests/test_bracket_red_team.py tests/test_bracket_stress_runner.py
+      - name: Build and validate all 62 red-team packets
+        run: |
+          python scripts/grixis_bracket_red_team.py --build
+          python scripts/grixis_bracket_red_team.py --check
+      - name: Update Step F plan and tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          s=next(x for x in d['steps'] if x['id']=='F'); s['status']='in_progress'; s['batches']=[
+            '70.1 preregister B5 competitive vs B4 resilience stress priorities for all 62 decks; weights are review priority only, never outcome scores',
+            '70.2 route all 62 suites to committed M3 paired stress evidence, audit goldfish readiness, exact Step-E module specs, or judgment-required status; no aggregate score',
+            '70.3 build frozen bracket-specific red-team packets for all 62 decks; script assembles Blueprint/audit/commander-structure/test context but leaves every judgment pending and non-deciding',
+            '70.4 integration + gain proof + validate_all gate (planned; deck-level Step-E/local reruns may remain frozen-local-cache closure items)'
+          ]
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 70.3 (2026-10-16)'
+          x=next(x for x in tr['stages'] if x['id']=='F'); x['batches_done']=3; x['status']='in_progress'; x['note']='3/4.5 batch-equivalents complete: all 62 bracket-specific red-team packets frozen with evidence context and mandatory pending judgment; scripts cannot answer or decide them.'
+          tr['batches_done']=38; tr['percent_complete']=60.8
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+'\n')
+          md=Path('grixis/Grixis Birthday Upgrade Plan.md'); t=md.read_text(); marker='### Step F batch 70.3: bracket red-team review packets'
+          if marker not in t:
+              t += '''\n\n### Step F batch 70.3: bracket red-team review packets\n\n- `scripts/grixis_bracket_red_team.py` freezes one adversarial review packet per deck from the 70.2 routed stress evidence.\n- B5 packets require a protected-win review; B4 packets require repeated-removal/attrition, pillowfort, token-stall and artifact/enchantment-interaction reviews.\n- The generator assembles accepted Blueprint failure modes/anti-goals/requirements/win routes, focused audit slots, commander-structure context and supporting test references. It does not answer the prompts.\n- Every review starts `pending` with null reviewer/analysis/verdict, `can_decide: false`, and a contract requiring human or agent judgment grounded in fact/test/strategic evidence while addressing Commander identity and bracket context.\n- Script-authored packets are not `judgment_review`s and cannot support M6 decisions until a real reviewer completes the later judgment process.\n'''
+              md.write_text(t)
+          PY
+      - name: Assert snapshot metadata unchanged
+        run: git diff --exit-code HEAD -- data/grixis/dev_snapshot_lock.json
+      - name: Commit packets and cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/chatgpt-bracket-red-team-build.yml
+          git add data/grixis/bracket_red_team data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md'
+          git commit -m "ChatGPT cycle 70.3: finalize bracket red-team packets [skip ci]"
+          git push
