@@ -1,0 +1,37 @@
+name: tmp Step C mana timing
+on:
+  push:
+    branches: [chatgpt-cycle68-2-mana-timing]
+permissions:
+  contents: write
+jobs:
+  timing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle68-2-mana-timing
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install jsonschema pytest
+      - name: Semantic tests
+        run: pytest -q tests/test_mana_timing.py
+      - name: Build and validate all 62 timing records
+        run: |
+          python scripts/grixis_mana_timing.py --build
+          python scripts/grixis_mana_timing.py --check
+          python scripts/grixis_mana_timing.py --summary
+      - name: Commit generated timing evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/mana_timing
+          if ! git diff --cached --quiet; then
+            git commit -m "ChatGPT cycle 68.2: generate 62 mana timing records [skip ci]"
+            git push
+          fi
