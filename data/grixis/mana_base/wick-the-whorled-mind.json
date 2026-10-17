@@ -1,0 +1,250 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 3,
+   "R": 2,
+   "U": 2
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 26,
+   "R": 25,
+   "U": 25
+  },
+  "land_sources": {
+   "B": 20,
+   "R": 19,
+   "U": 19
+  },
+  "unconditional_land_sources": {
+   "B": 17,
+   "R": 17,
+   "U": 17
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 19,
+   "R": 18,
+   "U": 18
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.928307,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{3}{B}",
+   "mana_value": 4.0,
+   "name": "Wick, the Whorled Mind",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.928307
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 3,
+  "conditional_tapped_lands": 9,
+  "fast_mana": 8,
+  "fetchlands": 4,
+  "flex_land_mdfcs": 1,
+  "lands": 35,
+  "library_cards": 99,
+  "one_shot_mana": 4,
+  "repeatable_nonland_sources": 8,
+  "rituals": 1,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 5
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Arcane Signet",
+  "Dark Ritual",
+  "Fellwar Stone",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/wick-the-whorled-mind.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "WB",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 6,
+   "Plains": 0,
+   "Swamp": 6
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [
+  "Boggart Trawler // Boggart Bog"
+ ],
+ "one_shot_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Ashnod's Altar",
+  "Phyrexian Altar",
+  "Pitiless Plunderer"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 49,
+  "double_pip_spell_count": {
+   "B": 2,
+   "R": 1,
+   "U": 2
+  },
+  "mv_le_2": {
+   "B": 17.0,
+   "R": 4.0,
+   "U": 5.0
+  },
+  "mv_le_3": {
+   "B": 25.0,
+   "R": 8.0,
+   "U": 8.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 34.0,
+   "R": 11.0,
+   "U": 11.0
+  },
+  "share": {
+   "B": 0.6071,
+   "R": 0.1964,
+   "U": 0.1964
+  }
+ },
+ "ritual_cards": [
+  "Dark Ritual"
+ ],
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.714464,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.905783,
+   "per_color_at_least_one_land_source": {
+    "B": 0.881105,
+    "R": 0.866033,
+    "U": 0.866033
+   },
+   "strict_land_drop_probability": 0.894597
+  },
+  "3": {
+   "all_three_land_source_presence": 0.767013,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.780493,
+   "per_color_at_least_one_land_source": {
+    "B": 0.907526,
+    "R": 0.894315,
+    "U": 0.894315
+   },
+   "strict_land_drop_probability": 0.759362
+  },
+  "4": {
+   "all_three_land_source_presence": 0.811356,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.620946,
+   "per_color_at_least_one_land_source": {
+    "B": 0.928307,
+    "R": 0.916877,
+    "U": 0.916877
+   },
+   "strict_land_drop_probability": 0.592219
+  },
+  "5": {
+   "all_three_land_source_presence": 0.848351,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.456414,
+   "per_color_at_least_one_land_source": {
+    "B": 0.944601,
+    "R": 0.934824,
+    "U": 0.934824
+   },
+   "strict_land_drop_probability": 0.425075
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Swarmyard"
+  ],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Mudflat Village",
+   "Otawara, Soaring City",
+   "Sokenzan, Crucible of Defiance",
+   "Swarmyard",
+   "Xander's Lounge"
+  ]
+ }
+}

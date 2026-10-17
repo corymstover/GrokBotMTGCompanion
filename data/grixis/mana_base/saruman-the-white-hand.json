@@ -1,0 +1,267 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 25,
+   "R": 22,
+   "U": 24
+  },
+  "land_sources": {
+   "B": 19,
+   "R": 16,
+   "U": 18
+  },
+  "unconditional_land_sources": {
+   "B": 18,
+   "R": 15,
+   "U": 17
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 18,
+   "R": 15,
+   "U": 17
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.764798,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Saruman, the White Hand",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.916877,
+    "R": 0.871941,
+    "U": 0.903815
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 8,
+  "fast_mana": 6,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 4,
+  "lands": 31,
+  "library_cards": 99,
+  "one_shot_mana": 2,
+  "repeatable_nonland_sources": 8,
+  "rituals": 0,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 5
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Saruman__the_White_Hand",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Fellwar Stone",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/saruman-the-white-hand.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 2,
+   "Plains": 0,
+   "Swamp": 2
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "WU",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "WB",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "UG",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [
+  "Kazuul's Fury // Kazuul's Cliffs",
+  "Sea Gate Restoration // Sea Gate, Reborn",
+  "Shatterskull Smashing // Shatterskull, the Hammer Pass",
+  "Sink into Stupor // Soporific Springs"
+ ],
+ "one_shot_mana_cards": [
+  "Storm-Kiln Artist",
+  "Swarming of Moria"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 56,
+  "double_pip_spell_count": {
+   "B": 1,
+   "R": 6,
+   "U": 7
+  },
+  "mv_le_2": {
+   "B": 6.0,
+   "R": 5.0,
+   "U": 13.0
+  },
+  "mv_le_3": {
+   "B": 10.0,
+   "R": 17.0,
+   "U": 23.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 16.0,
+   "R": 34.0,
+   "U": 33.0
+  },
+  "share": {
+   "B": 0.1928,
+   "R": 0.4096,
+   "U": 0.3976
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "saruman-the-white-hand",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.663419,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.894597,
+   "per_color_at_least_one_land_source": {
+    "B": 0.866033,
+    "R": 0.810117,
+    "U": 0.849288
+   },
+   "strict_land_drop_probability": 0.839152
+  },
+  "3": {
+   "all_three_land_source_presence": 0.717657,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.759362,
+   "per_color_at_least_one_land_source": {
+    "B": 0.894315,
+    "R": 0.843874,
+    "U": 0.87943
+   },
+   "strict_land_drop_probability": 0.662647
+  },
+  "4": {
+   "all_three_land_source_presence": 0.764798,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.592219,
+   "per_color_at_least_one_land_source": {
+    "B": 0.916877,
+    "R": 0.871941,
+    "U": 0.903815
+   },
+   "strict_land_drop_probability": 0.470937
+  },
+  "5": {
+   "all_three_land_source_presence": 0.805331,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.425075,
+   "per_color_at_least_one_land_source": {
+    "B": 0.934824,
+    "R": 0.895225,
+    "U": 0.923489
+   },
+   "strict_land_drop_probability": 0.303191
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Barad-dûr",
+   "Mount Doom",
+   "Otawara, Soaring City",
+   "The Black Gate",
+   "Xander's Lounge"
+  ]
+ }
+}

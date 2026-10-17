@@ -1,0 +1,239 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 3,
+   "R": 3,
+   "U": 3
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 28,
+   "R": 26,
+   "U": 28
+  },
+  "land_sources": {
+   "B": 21,
+   "R": 20,
+   "U": 22
+  },
+  "unconditional_land_sources": {
+   "B": 18,
+   "R": 17,
+   "U": 19
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 18,
+   "R": 17,
+   "U": 19
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.855342,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Loki, the Deceiver",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.938289,
+    "R": 0.928307,
+    "U": 0.946992
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 3,
+  "conditional_tapped_lands": 9,
+  "fast_mana": 8,
+  "fetchlands": 3,
+  "flex_land_mdfcs": 0,
+  "lands": 34,
+  "library_cards": 99,
+  "one_shot_mana": 1,
+  "repeatable_nonland_sources": 9,
+  "rituals": 1,
+  "unconditional_tapped_lands": 3,
+  "utility_lands": 4
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Loki__the_Deceiver",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Arcane Signet",
+  "Dark Ritual",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence",
+  "The Soul Stone"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/loki-the-deceiver.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 3,
+   "Mountain": 2,
+   "Plains": 0,
+   "Swamp": 3
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 8,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 8
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "An Offer You Can't Refuse"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 53,
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 0,
+   "U": 4
+  },
+  "mv_le_2": {
+   "B": 6.0,
+   "R": 1.0,
+   "U": 5.0
+  },
+  "mv_le_3": {
+   "B": 14.0,
+   "R": 7.0,
+   "U": 9.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 34.0,
+   "R": 15.0,
+   "U": 26.0
+  },
+  "share": {
+   "B": 0.4533,
+   "R": 0.2,
+   "U": 0.3467
+  }
+ },
+ "ritual_cards": [
+  "Dark Ritual"
+ ],
+ "schema_version": 1,
+ "slug": "loki-the-deceiver",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.77119,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.882395,
+   "per_color_at_least_one_land_source": {
+    "B": 0.89465,
+    "R": 0.881105,
+    "U": 0.906806
+   },
+   "strict_land_drop_probability": 0.882395
+  },
+  "3": {
+   "all_three_land_source_presence": 0.817353,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.736993,
+   "per_color_at_least_one_land_source": {
+    "B": 0.919231,
+    "R": 0.907526,
+    "U": 0.929586
+   },
+   "strict_land_drop_probability": 0.736993
+  },
+  "4": {
+   "all_three_land_source_presence": 0.855342,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.562728,
+   "per_color_at_least_one_land_source": {
+    "B": 0.938289,
+    "R": 0.928307,
+    "U": 0.946992
+   },
+   "strict_land_drop_probability": 0.562728
+  },
+  "5": {
+   "all_three_land_source_presence": 0.886268,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.393908,
+   "per_color_at_least_one_land_source": {
+    "B": 0.953016,
+    "R": 0.944601,
+    "U": 0.960244
+   },
+   "strict_land_drop_probability": 0.393908
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Hall of Echoes"
+  ],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Hall of Echoes",
+   "Otawara, Soaring City",
+   "Villainous Hideout",
+   "Xander's Lounge"
+  ]
+ }
+}

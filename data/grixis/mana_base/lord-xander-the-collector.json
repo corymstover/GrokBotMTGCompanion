@@ -1,0 +1,270 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 0,
+   "R": 0,
+   "U": 0
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 24,
+   "R": 21,
+   "U": 22
+  },
+  "land_sources": {
+   "B": 19,
+   "R": 16,
+   "U": 17
+  },
+  "unconditional_land_sources": {
+   "B": 19,
+   "R": 16,
+   "U": 17
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 17,
+   "R": 15,
+   "U": 16
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.862388,
+   "base_resource_target": 7,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 9,
+   "mana_cost": "{4}{U}{B}{R}",
+   "mana_value": 7.0,
+   "name": "Lord Xander, the Collector",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.960313,
+    "R": 0.930402,
+    "U": 0.942141
+   },
+   "second_recast_resource_target": 11
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 0,
+  "conditional_tapped_lands": 7,
+  "fast_mana": 11,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 0,
+  "lands": 33,
+  "library_cards": 99,
+  "one_shot_mana": 3,
+  "repeatable_nonland_sources": 9,
+  "rituals": 1,
+  "unconditional_tapped_lands": 3,
+  "utility_lands": 5
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Lord_Xander__the_Collector",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Arcane Signet",
+  "Dark Ritual",
+  "Grim Monolith",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Mana Vault",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/lord-xander-the-collector.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 2,
+   "Plains": 0,
+   "Swamp": 2
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "WU",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "WB",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": true,
+    "card": "Prismatic Vista",
+    "potential_source_colors": "UBR",
+    "types": []
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 46,
+  "double_pip_spell_count": {
+   "B": 0,
+   "R": 0,
+   "U": 4
+  },
+  "mv_le_2": {
+   "B": 11.0,
+   "R": 3.0,
+   "U": 13.0
+  },
+  "mv_le_3": {
+   "B": 14.0,
+   "R": 8.0,
+   "U": 20.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 16.0,
+   "R": 9.0,
+   "U": 27.0
+  },
+  "share": {
+   "B": 0.3077,
+   "R": 0.1731,
+   "U": 0.5192
+  }
+ },
+ "ritual_cards": [
+  "Dark Ritual"
+ ],
+ "schema_version": 1,
+ "slug": "lord-xander-the-collector",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.654861,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.869123,
+   "per_color_at_least_one_land_source": {
+    "B": 0.866033,
+    "R": 0.810117,
+    "U": 0.830707
+   },
+   "strict_land_drop_probability": 0.869123
+  },
+  "3": {
+   "all_three_land_source_presence": 0.709148,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.713398,
+   "per_color_at_least_one_land_source": {
+    "B": 0.894315,
+    "R": 0.843874,
+    "U": 0.862684
+   },
+   "strict_land_drop_probability": 0.713398
+  },
+  "4": {
+   "all_three_land_source_presence": 0.756561,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.532594,
+   "per_color_at_least_one_land_source": {
+    "B": 0.916877,
+    "R": 0.871941,
+    "U": 0.888913
+   },
+   "strict_land_drop_probability": 0.532594
+  },
+  "5": {
+   "all_three_land_source_presence": 0.797534,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.363089,
+   "per_color_at_least_one_land_source": {
+    "B": 0.934824,
+    "R": 0.895225,
+    "U": 0.910373
+   },
+   "strict_land_drop_probability": 0.363089
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Hall of Echoes",
+   "Urza's Saga"
+  ],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Hall of Echoes",
+   "Otawara, Soaring City",
+   "Takenuma, Abandoned Mire",
+   "Urza's Saga",
+   "Xander's Lounge"
+  ]
+ }
+}

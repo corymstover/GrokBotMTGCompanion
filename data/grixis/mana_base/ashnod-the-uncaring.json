@@ -1,0 +1,251 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 24,
+   "R": 23,
+   "U": 26
+  },
+  "land_sources": {
+   "B": 15,
+   "R": 14,
+   "U": 16
+  },
+  "unconditional_land_sources": {
+   "B": 14,
+   "R": 13,
+   "U": 15
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 14,
+   "R": 13,
+   "U": 15
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.715613,
+   "base_resource_target": 5,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 7,
+   "mana_cost": "{2}{U}{B}{R}",
+   "mana_value": 5.0,
+   "name": "Ashnod the Uncaring",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.877762,
+    "R": 0.857668,
+    "U": 0.895225
+   },
+   "second_recast_resource_target": 9
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 6,
+  "fast_mana": 12,
+  "fetchlands": 3,
+  "flex_land_mdfcs": 0,
+  "lands": 33,
+  "library_cards": 99,
+  "one_shot_mana": 4,
+  "repeatable_nonland_sources": 13,
+  "rituals": 0,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 7
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Ashnod_the_Uncaring",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Arcane Signet",
+  "Fellwar Stone",
+  "Lotus Petal",
+  "Mind Stone",
+  "Moonsilver Key",
+  "Mox Opal",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence",
+  "Wayfarer's Bauble"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/ashnod-the-uncaring.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 3,
+   "Mountain": 2,
+   "Plains": 0,
+   "Swamp": 3
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 8,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 8
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Ashnod's Altar",
+  "Krark-Clan Ironworks",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 36,
+  "double_pip_spell_count": {
+   "B": 1,
+   "R": 0,
+   "U": 2
+  },
+  "mv_le_2": {
+   "B": 8.0,
+   "R": 7.0,
+   "U": 9.0
+  },
+  "mv_le_3": {
+   "B": 10.0,
+   "R": 13.0,
+   "U": 15.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 13.0,
+   "R": 14.0,
+   "U": 18.0
+  },
+  "share": {
+   "B": 0.2889,
+   "R": 0.3111,
+   "U": 0.4
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "ashnod-the-uncaring",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.558477,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.869123,
+   "per_color_at_least_one_land_source": {
+    "B": 0.787331,
+    "R": 0.762146,
+    "U": 0.810117
+   },
+   "strict_land_drop_probability": 0.869123
+  },
+  "3": {
+   "all_three_land_source_presence": 0.616267,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.713398,
+   "per_color_at_least_one_land_source": {
+    "B": 0.822776,
+    "R": 0.799146,
+    "U": 0.843874
+   },
+   "strict_land_drop_probability": 0.713398
+  },
+  "4": {
+   "all_three_land_source_presence": 0.668653,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.532594,
+   "per_color_at_least_one_land_source": {
+    "B": 0.852645,
+    "R": 0.830741,
+    "U": 0.871941
+   },
+   "strict_land_drop_probability": 0.532594
+  },
+  "5": {
+   "all_three_land_source_presence": 0.715613,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.363089,
+   "per_color_at_least_one_land_source": {
+    "B": 0.877762,
+    "R": 0.857668,
+    "U": 0.895225
+   },
+   "strict_land_drop_probability": 0.363089
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Academy Ruins",
+   "Buried Ruin",
+   "Inventors' Fair",
+   "Treasure Vault",
+   "Urza's Saga"
+  ],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Academy Ruins",
+   "Buried Ruin",
+   "Inventors' Fair",
+   "Otawara, Soaring City",
+   "Treasure Vault",
+   "Urza's Saga",
+   "Xander's Lounge"
+  ]
+ }
+}

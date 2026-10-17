@@ -1,0 +1,269 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 0,
+   "U": 0
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 34,
+   "R": 20,
+   "U": 23
+  },
+  "land_sources": {
+   "B": 26,
+   "R": 14,
+   "U": 17
+  },
+  "unconditional_land_sources": {
+   "B": 25,
+   "R": 14,
+   "U": 17
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 22,
+   "R": 12,
+   "U": 15
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.791248,
+   "base_resource_target": 5,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 7,
+   "mana_cost": "{2}{U}{B}{R}",
+   "mana_value": 5.0,
+   "name": "Sol'kanar the Swamp King",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.98011,
+    "R": 0.857668,
+    "U": 0.910373
+   },
+   "second_recast_resource_target": 9
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 8,
+  "fast_mana": 12,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 1,
+  "lands": 35,
+  "library_cards": 99,
+  "one_shot_mana": 1,
+  "repeatable_nonland_sources": 11,
+  "rituals": 1,
+  "unconditional_tapped_lands": 4,
+  "utility_lands": 3
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Dark Ritual",
+  "Dimir Signet",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Diamond",
+  "Rakdos Signet",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence",
+  "The Soul Stone"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/source-baseline/solkanar-the-swamp-king.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 0,
+   "Mountain": 0,
+   "Plains": 0,
+   "Swamp": 6
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "WU",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "WB",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "UG",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 15
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [
+  "Fell the Profane // Fell Mire"
+ ],
+ "one_shot_mana_cards": [
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 42,
+  "double_pip_spell_count": {
+   "B": 13,
+   "R": 0,
+   "U": 2
+  },
+  "mv_le_2": {
+   "B": 15.0,
+   "R": 1.0,
+   "U": 8.0
+  },
+  "mv_le_3": {
+   "B": 25.0,
+   "R": 4.0,
+   "U": 11.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 48.0,
+   "R": 4.0,
+   "U": 11.0
+  },
+  "share": {
+   "B": 0.7619,
+   "R": 0.0635,
+   "U": 0.1746
+  }
+ },
+ "ritual_cards": [
+  "Dark Ritual"
+ ],
+ "schema_version": 1,
+ "slug": "solkanar-the-swamp-king",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.65181,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.905783,
+   "per_color_at_least_one_land_source": {
+    "B": 0.943917,
+    "R": 0.762146,
+    "U": 0.830707
+   },
+   "strict_land_drop_probability": 0.894597
+  },
+  "3": {
+   "all_three_land_source_presence": 0.705044,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.780493,
+   "per_color_at_least_one_land_source": {
+    "B": 0.960119,
+    "R": 0.799146,
+    "U": 0.862684
+   },
+   "strict_land_drop_probability": 0.759362
+  },
+  "4": {
+   "all_three_land_source_presence": 0.751328,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.620946,
+   "per_color_at_least_one_land_source": {
+    "B": 0.971769,
+    "R": 0.830741,
+    "U": 0.888913
+   },
+   "strict_land_drop_probability": 0.592219
+  },
+  "5": {
+   "all_three_land_source_presence": 0.791248,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.456414,
+   "per_color_at_least_one_land_source": {
+    "B": 0.98011,
+    "R": 0.857668,
+    "U": 0.910373
+   },
+   "strict_land_drop_probability": 0.425075
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Otawara, Soaring City",
+   "Takenuma, Abandoned Mire",
+   "Xander's Lounge"
+  ]
+ }
+}

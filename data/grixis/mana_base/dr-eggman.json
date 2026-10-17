@@ -1,0 +1,236 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 22,
+   "R": 22,
+   "U": 22
+  },
+  "land_sources": {
+   "B": 17,
+   "R": 17,
+   "U": 17
+  },
+  "unconditional_land_sources": {
+   "B": 16,
+   "R": 16,
+   "U": 16
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 16,
+   "R": 16,
+   "U": 16
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.799283,
+   "base_resource_target": 5,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 7,
+   "mana_cost": "{2}{U}{B}{R}",
+   "mana_value": 5.0,
+   "name": "Dr. Eggman",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.910373,
+    "R": 0.910373,
+    "U": 0.910373
+   },
+   "second_recast_resource_target": 9
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 6,
+  "fast_mana": 7,
+  "fetchlands": 3,
+  "flex_land_mdfcs": 0,
+  "lands": 31,
+  "library_cards": 99,
+  "one_shot_mana": 0,
+  "repeatable_nonland_sources": 7,
+  "rituals": 0,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 4
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Dr__Eggman",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Fellwar Stone",
+  "Mox Opal",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/dr-eggman.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 2,
+   "Plains": 0,
+   "Swamp": 2
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [],
+ "pip_demand": {
+  "colored_spell_count": 40,
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 3,
+   "U": 4
+  },
+  "mv_le_2": {
+   "B": 4.0,
+   "R": 1.0,
+   "U": 5.0
+  },
+  "mv_le_3": {
+   "B": 6.0,
+   "R": 3.0,
+   "U": 9.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 22.0,
+   "R": 13.0,
+   "U": 26.0
+  },
+  "share": {
+   "B": 0.3607,
+   "R": 0.2131,
+   "U": 0.4262
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "dr-eggman",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.660617,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.839152,
+   "per_color_at_least_one_land_source": {
+    "B": 0.830707,
+    "R": 0.830707,
+    "U": 0.830707
+   },
+   "strict_land_drop_probability": 0.839152
+  },
+  "3": {
+   "all_three_land_source_presence": 0.713256,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.662647,
+   "per_color_at_least_one_land_source": {
+    "B": 0.862684,
+    "R": 0.862684,
+    "U": 0.862684
+   },
+   "strict_land_drop_probability": 0.662647
+  },
+  "4": {
+   "all_three_land_source_presence": 0.75934,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.470937,
+   "per_color_at_least_one_land_source": {
+    "B": 0.888913,
+    "R": 0.888913,
+    "U": 0.888913
+   },
+   "strict_land_drop_probability": 0.470937
+  },
+  "5": {
+   "all_three_land_source_presence": 0.799283,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.303191,
+   "per_color_at_least_one_land_source": {
+    "B": 0.910373,
+    "R": 0.910373,
+    "U": 0.910373
+   },
+   "strict_land_drop_probability": 0.303191
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Academy Ruins",
+   "Inventors' Fair",
+   "Urza's Saga"
+  ],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Academy Ruins",
+   "Inventors' Fair",
+   "Urza's Saga",
+   "Xander's Lounge"
+  ]
+ }
+}

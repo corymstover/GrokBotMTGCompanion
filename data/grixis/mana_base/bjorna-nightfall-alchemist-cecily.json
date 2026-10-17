@@ -1,0 +1,265 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 0,
+   "R": 0,
+   "U": 0
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 29,
+   "R": 28,
+   "U": 29
+  },
+  "land_sources": {
+   "B": 19,
+   "R": 18,
+   "U": 19
+  },
+  "unconditional_land_sources": {
+   "B": 19,
+   "R": 18,
+   "U": 19
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 16,
+   "R": 16,
+   "U": 17
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.769177,
+   "base_resource_target": 2,
+   "colored_requirements": {
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 4,
+   "mana_cost": "{U}{R}",
+   "mana_value": 2.0,
+   "name": "Bjorna, Nightfall Alchemist",
+   "per_color_source_presence_by_base_turn": {
+    "R": 0.852637,
+    "U": 0.869215
+   },
+   "second_recast_resource_target": 6
+  },
+  {
+   "all_required_colors_present_by_base_turn": 0.796512,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Cecily, Haunted Mage",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.919345,
+    "R": 0.906487,
+    "U": 0.919345
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 0,
+  "conditional_tapped_lands": 12,
+  "fast_mana": 10,
+  "fetchlands": 4,
+  "flex_land_mdfcs": 0,
+  "lands": 33,
+  "library_cards": 98,
+  "one_shot_mana": 4,
+  "repeatable_nonland_sources": 14,
+  "rituals": 1,
+  "unconditional_tapped_lands": 3,
+  "utility_lands": 4
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Deadly Dispute",
+  "Dimir Signet",
+  "Izzet Signet",
+  "Rakdos Signet",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence",
+  "Thought Vessel"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/source-baseline/bjorna-nightfall-alchemist-cecily.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": true,
+    "card": "Fabled Passage",
+    "potential_source_colors": "UBR",
+    "types": []
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 5,
+   "Mountain": 4,
+   "Plains": 0,
+   "Swamp": 4
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Big Score",
+  "Brass's Bounty",
+  "Deadly Dispute",
+  "Storm-Kiln Artist"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 51,
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 5,
+   "U": 8
+  },
+  "mv_le_2": {
+   "B": 5.0,
+   "R": 7.0,
+   "U": 9.0
+  },
+  "mv_le_3": {
+   "B": 7.0,
+   "R": 12.0,
+   "U": 18.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 21.0,
+   "R": 29.0,
+   "U": 36.0
+  },
+  "share": {
+   "B": 0.2442,
+   "R": 0.3372,
+   "U": 0.4186
+  }
+ },
+ "ritual_cards": [
+  "Seething Song"
+ ],
+ "schema_version": 1,
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.695728,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.873842,
+   "per_color_at_least_one_land_source": {
+    "B": 0.869215,
+    "R": 0.852637,
+    "U": 0.869215
+   },
+   "strict_land_drop_probability": 0.873842
+  },
+  "3": {
+   "all_three_land_source_presence": 0.750213,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.721616,
+   "per_color_at_least_one_land_source": {
+    "B": 0.897135,
+    "R": 0.882441,
+    "U": 0.897135
+   },
+   "strict_land_drop_probability": 0.721616
+  },
+  "4": {
+   "all_three_land_source_presence": 0.796512,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.542867,
+   "per_color_at_least_one_land_source": {
+    "B": 0.919345,
+    "R": 0.906487,
+    "U": 0.919345
+   },
+   "strict_land_drop_probability": 0.542867
+  },
+  "5": {
+   "all_three_land_source_presence": 0.835406,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.373362,
+   "per_color_at_least_one_land_source": {
+    "B": 0.936959,
+    "R": 0.925834,
+    "U": 0.936959
+   },
+   "strict_land_drop_probability": 0.373362
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Otawara, Soaring City",
+   "Sokenzan, Crucible of Defiance",
+   "Takenuma, Abandoned Mire",
+   "Xander's Lounge"
+  ]
+ }
+}

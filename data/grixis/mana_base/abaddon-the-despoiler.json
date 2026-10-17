@@ -1,0 +1,279 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 24,
+   "R": 21,
+   "U": 24
+  },
+  "land_sources": {
+   "B": 19,
+   "R": 16,
+   "U": 19
+  },
+  "unconditional_land_sources": {
+   "B": 18,
+   "R": 15,
+   "U": 18
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 18,
+   "R": 15,
+   "U": 18
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.809675,
+   "base_resource_target": 5,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 7,
+   "mana_cost": "{2}{U}{B}{R}",
+   "mana_value": 5.0,
+   "name": "Abaddon the Despoiler",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.934824,
+    "R": 0.895225,
+    "U": 0.934824
+   },
+   "second_recast_resource_target": 9
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 6,
+  "fast_mana": 11,
+  "fetchlands": 7,
+  "flex_land_mdfcs": 0,
+  "lands": 34,
+  "library_cards": 99,
+  "one_shot_mana": 3,
+  "repeatable_nonland_sources": 8,
+  "rituals": 3,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 3
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Abaddon_the_Despoiler",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Cabal Ritual",
+  "Dark Ritual",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Mana Vault",
+  "Rite of Flame",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 3,
+   "Mountain": 3,
+   "Plains": 0,
+   "Swamp": 3
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "WU",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "WB",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "UG",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "BG",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 8,
+   "Mountain": 8,
+   "Plains": 0,
+   "Swamp": 8
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Storm-Kiln Artist"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 51,
+  "double_pip_spell_count": {
+   "B": 2,
+   "R": 5,
+   "U": 3
+  },
+  "mv_le_2": {
+   "B": 6.0,
+   "R": 9.0,
+   "U": 7.0
+  },
+  "mv_le_3": {
+   "B": 7.0,
+   "R": 16.0,
+   "U": 14.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 16.0,
+   "R": 35.0,
+   "U": 19.0
+  },
+  "share": {
+   "B": 0.2286,
+   "R": 0.5,
+   "U": 0.2714
+  }
+ },
+ "ritual_cards": [
+  "Cabal Ritual",
+  "Dark Ritual",
+  "Rite of Flame"
+ ],
+ "schema_version": 1,
+ "slug": "abaddon-the-despoiler",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.667219,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.882395,
+   "per_color_at_least_one_land_source": {
+    "B": 0.866033,
+    "R": 0.810117,
+    "U": 0.866033
+   },
+   "strict_land_drop_probability": 0.882395
+  },
+  "3": {
+   "all_three_land_source_presence": 0.721813,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.736993,
+   "per_color_at_least_one_land_source": {
+    "B": 0.894315,
+    "R": 0.843874,
+    "U": 0.894315
+   },
+   "strict_land_drop_probability": 0.736993
+  },
+  "4": {
+   "all_three_land_source_presence": 0.769129,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.562728,
+   "per_color_at_least_one_land_source": {
+    "B": 0.916877,
+    "R": 0.871941,
+    "U": 0.916877
+   },
+   "strict_land_drop_probability": 0.562728
+  },
+  "5": {
+   "all_three_land_source_presence": 0.809675,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.393908,
+   "per_color_at_least_one_land_source": {
+    "B": 0.934824,
+    "R": 0.895225,
+    "U": 0.934824
+   },
+   "strict_land_drop_probability": 0.393908
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Otawara, Soaring City",
+   "Takenuma, Abandoned Mire",
+   "Xander's Lounge"
+  ]
+ }
+}

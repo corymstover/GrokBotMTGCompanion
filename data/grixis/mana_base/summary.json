@@ -1,0 +1,509 @@
+{
+ "decks": [
+  {
+   "deck_id": "Abaddon_the_Despoiler",
+   "fast_mana": 11,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "abaddon-the-despoiler",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Admiral_Beckett_Brass",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "admiral-beckett-brass",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 1,
+   "lands": 34,
+   "slug": "admiral-brass-unsinkable",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Anhelo__the_Painter",
+   "fast_mana": 11,
+   "flex_land_mdfcs": 1,
+   "lands": 34,
+   "slug": "anhelo-the-painter",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 30,
+   "slug": "ashad-the-lone-cyberman",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Ashnod_the_Uncaring",
+   "fast_mana": 12,
+   "flex_land_mdfcs": 0,
+   "lands": 33,
+   "slug": "ashnod-the-uncaring",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 36,
+   "slug": "belakor-the-dark-master",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "fast_mana": 10,
+   "flex_land_mdfcs": 0,
+   "lands": 33,
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Cormela__Glamour_Thief",
+   "fast_mana": 15,
+   "flex_land_mdfcs": 0,
+   "lands": 30,
+   "slug": "cormela-glamour-thief",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Crosis__the_Purger",
+   "fast_mana": 12,
+   "flex_land_mdfcs": 0,
+   "lands": 36,
+   "slug": "crosis-the-purger",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Cult_of_Skaro",
+   "fast_mana": 9,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "cult-of-skaro",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Davros__Dalek_Creator",
+   "fast_mana": 7,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "davros-dalek-creator",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "fast_mana": 7,
+   "flex_land_mdfcs": 0,
+   "lands": 38,
+   "slug": "doctor-doom-king-of-latveria",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Don_Andres__the_Renegade",
+   "fast_mana": 10,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "don-andres-the-renegade",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Dr__Eggman",
+   "fast_mana": 7,
+   "flex_land_mdfcs": 0,
+   "lands": 31,
+   "slug": "dr-eggman",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Edea__Possessed_Sorceress",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "edea-possessed-sorceress",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Edward_Kenway",
+   "fast_mana": 11,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "edward-kenway",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Evelyn__the_Covetous",
+   "fast_mana": 15,
+   "flex_land_mdfcs": 0,
+   "lands": 26,
+   "slug": "evelyn-the-covetous",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Fire_Lord_Azula",
+   "fast_mana": 16,
+   "flex_land_mdfcs": 0,
+   "lands": 26,
+   "slug": "fire-lord-azula",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "fast_mana": 12,
+   "flex_land_mdfcs": 0,
+   "lands": 38,
+   "slug": "garza-zol-plague-queen",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Goro_Goro_and_Satoru",
+   "fast_mana": 7,
+   "flex_land_mdfcs": 0,
+   "lands": 33,
+   "slug": "goro-goro-and-satoru",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Grixistax___October_2026",
+   "fast_mana": 13,
+   "flex_land_mdfcs": 0,
+   "lands": 26,
+   "slug": "grixistax-october-2026",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Gwendlyn_Di_Corci",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "gwendlyn-di-corci",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "fast_mana": 17,
+   "flex_land_mdfcs": 0,
+   "lands": 27,
+   "slug": "inalla-archmage-ritualist",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "fast_mana": 15,
+   "flex_land_mdfcs": 0,
+   "lands": 27,
+   "slug": "jeleva-nephalias-scourge",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Kefka__Court_Mage",
+   "fast_mana": 16,
+   "flex_land_mdfcs": 0,
+   "lands": 28,
+   "slug": "kefka-court-mage",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Kess__Dissident_Mage",
+   "fast_mana": 16,
+   "flex_land_mdfcs": 0,
+   "lands": 27,
+   "slug": "kess-dissident-mage",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Loki__the_Deceiver",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "loki-the-deceiver",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Lord_of_Tresserhorn",
+   "fast_mana": 9,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "lord-of-tresserhorn",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Lord_Xander__the_Collector",
+   "fast_mana": 11,
+   "flex_land_mdfcs": 0,
+   "lands": 33,
+   "slug": "lord-xander-the-collector",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "lynde-cheerful-tormentor",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Mai_and_Zuko",
+   "fast_mana": 12,
+   "flex_land_mdfcs": 0,
+   "lands": 31,
+   "slug": "mai-and-zuko",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Mairsil__the_Pretender",
+   "fast_mana": 14,
+   "flex_land_mdfcs": 0,
+   "lands": 32,
+   "slug": "mairsil-the-pretender",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "fast_mana": 16,
+   "flex_land_mdfcs": 0,
+   "lands": 29,
+   "slug": "marchesa-dealer-of-death",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Marchesa__the_Black_Rose",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "marchesa-the-black-rose",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "fast_mana": 13,
+   "flex_land_mdfcs": 0,
+   "lands": 29,
+   "slug": "mishra-artificer-prodigy",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Mishra__Eminent_One",
+   "fast_mana": 11,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "mishra-eminent-one",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Missy",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "missy",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "fast_mana": 10,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "nathan-drake-treasure-hunter",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Nekusar__the_Mindrazer",
+   "fast_mana": 9,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "nekusar-the-mindrazer",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Nicol_Bolas",
+   "fast_mana": 14,
+   "flex_land_mdfcs": 0,
+   "lands": 37,
+   "slug": "nicol-bolas",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "fast_mana": 14,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "nicol-bolas-the-ravager",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "fast_mana": 17,
+   "flex_land_mdfcs": 0,
+   "lands": 23,
+   "slug": "norman-osborn",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Obeka__Brute_Chronologist",
+   "fast_mana": 9,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "obeka-brute-chronologist",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "fast_mana": 7,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "obeka-splitter-of-seconds",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "fast_mana": 10,
+   "flex_land_mdfcs": 1,
+   "lands": 35,
+   "slug": "parnesse-the-subtle-brush",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "RogSi",
+   "fast_mana": 19,
+   "flex_land_mdfcs": 0,
+   "lands": 24,
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Saruman__the_White_Hand",
+   "fast_mana": 6,
+   "flex_land_mdfcs": 4,
+   "lands": 31,
+   "slug": "saruman-the-white-hand",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "fast_mana": 9,
+   "flex_land_mdfcs": 0,
+   "lands": 32,
+   "slug": "sauron-lord-of-the-rings",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Sauron__the_Dark_Lord",
+   "fast_mana": 7,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "sauron-the-dark-lord",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Sedris__the_Traitor_King",
+   "fast_mana": 10,
+   "flex_land_mdfcs": 0,
+   "lands": 31,
+   "slug": "sedris-the-traitor-king",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "fast_mana": 12,
+   "flex_land_mdfcs": 1,
+   "lands": 35,
+   "slug": "solkanar-the-swamp-king",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Sol_kanar_the_Tainted",
+   "fast_mana": 10,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "solkanar-the-tainted",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 0,
+   "lands": 35,
+   "slug": "tetsuo-imperial-champion",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Tetsuo_Umezawa",
+   "fast_mana": 11,
+   "flex_land_mdfcs": 1,
+   "lands": 35,
+   "slug": "tetsuo-umezawa",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "The_Madcap_Jester",
+   "fast_mana": 13,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "the-madcap-jester",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "The_Rani",
+   "fast_mana": 10,
+   "flex_land_mdfcs": 0,
+   "lands": 33,
+   "slug": "the-rani",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "The_Valeyard",
+   "fast_mana": 10,
+   "flex_land_mdfcs": 0,
+   "lands": 36,
+   "slug": "the-valeyard",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Thraximundar",
+   "fast_mana": 10,
+   "flex_land_mdfcs": 0,
+   "lands": 36,
+   "slug": "thraximundar",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 1,
+   "lands": 33,
+   "slug": "tresserhorns-lord-returned",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Wick__the_Whorled_Mind",
+   "fast_mana": 8,
+   "flex_land_mdfcs": 1,
+   "lands": 35,
+   "slug": "wick-the-whorled-mind",
+   "unresolved": 0
+  },
+  {
+   "deck_id": "Zevlor__Elturel_Exile",
+   "fast_mana": 5,
+   "flex_land_mdfcs": 0,
+   "lands": 34,
+   "slug": "zevlor-elturel-exile",
+   "unresolved": 0
+  }
+ ],
+ "generated_by": "scripts/grixis_mana_base.py v1",
+ "schema_version": 1,
+ "totals": {
+  "decks": 62,
+  "fast_mana": 661,
+  "flex_land_mdfcs": 11,
+  "lands": 2031,
+  "unresolved": 0
+ }
+}

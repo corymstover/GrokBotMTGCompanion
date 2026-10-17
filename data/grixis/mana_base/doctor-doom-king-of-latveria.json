@@ -1,0 +1,251 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 2,
+   "R": 2,
+   "U": 2
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 35,
+   "R": 28,
+   "U": 31
+  },
+  "land_sources": {
+   "B": 27,
+   "R": 21,
+   "U": 24
+  },
+  "unconditional_land_sources": {
+   "B": 25,
+   "R": 19,
+   "U": 22
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 22,
+   "R": 18,
+   "U": 21
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.895371,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Doctor Doom, King of Latveria",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.976023,
+    "R": 0.938289,
+    "U": 0.961141
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 2,
+  "conditional_tapped_lands": 11,
+  "fast_mana": 7,
+  "fetchlands": 4,
+  "flex_land_mdfcs": 0,
+  "lands": 38,
+  "library_cards": 99,
+  "one_shot_mana": 3,
+  "repeatable_nonland_sources": 10,
+  "rituals": 0,
+  "unconditional_tapped_lands": 5,
+  "utility_lands": 8
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "Arcane Signet",
+  "Fellwar Stone",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence",
+  "The Soul Stone"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/doctor-doom-king-of-latveria.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 1,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 1
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": true,
+    "card": "Fabled Passage",
+    "potential_source_colors": "UBR",
+    "types": []
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 8,
+   "Mountain": 7,
+   "Plains": 0,
+   "Swamp": 9
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "Big Score",
+  "Surly Badgersaur",
+  "Unexpected Windfall"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 49,
+  "double_pip_spell_count": {
+   "B": 4,
+   "R": 2,
+   "U": 1
+  },
+  "mv_le_2": {
+   "B": 8.0,
+   "R": 5.0,
+   "U": 5.0
+  },
+  "mv_le_3": {
+   "B": 15.0,
+   "R": 12.0,
+   "U": 10.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 29.0,
+   "R": 20.0,
+   "U": 16.0
+  },
+  "share": {
+   "B": 0.4462,
+   "R": 0.3077,
+   "U": 0.2462
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "doctor-doom-king-of-latveria",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.821566,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.925336,
+   "per_color_at_least_one_land_source": {
+    "B": 0.950831,
+    "R": 0.89465,
+    "U": 0.927445
+   },
+   "strict_land_drop_probability": 0.925336
+  },
+  "3": {
+   "all_three_land_source_presence": 0.862834,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.81903,
+   "per_color_at_least_one_land_source": {
+    "B": 0.965582,
+    "R": 0.919231,
+    "U": 0.946793
+   },
+   "strict_land_drop_probability": 0.81903
+  },
+  "4": {
+   "all_three_land_source_presence": 0.895371,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.675696,
+   "per_color_at_least_one_land_source": {
+    "B": 0.976023,
+    "R": 0.938289,
+    "U": 0.961141
+   },
+   "strict_land_drop_probability": 0.675696
+  },
+  "5": {
+   "all_three_land_source_presence": 0.920752,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.518925,
+   "per_color_at_least_one_land_source": {
+    "B": 0.98338,
+    "R": 0.953016,
+    "U": 0.971739
+   },
+   "strict_land_drop_probability": 0.518925
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Desolate Lighthouse",
+   "Geier Reach Sanitarium"
+  ],
+  "tapped_utility_lands": [
+   "Canyon Slough",
+   "Fetid Pools",
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Canyon Slough",
+   "Desolate Lighthouse",
+   "Fetid Pools",
+   "Geier Reach Sanitarium",
+   "Otawara, Soaring City",
+   "Takenuma, Abandoned Mire",
+   "Villainous Hideout",
+   "Xander's Lounge"
+  ]
+ }
+}

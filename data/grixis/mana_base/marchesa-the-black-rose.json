@@ -1,0 +1,271 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 28,
+   "R": 24,
+   "U": 28
+  },
+  "land_sources": {
+   "B": 20,
+   "R": 16,
+   "U": 20
+  },
+  "unconditional_land_sources": {
+   "B": 19,
+   "R": 15,
+   "U": 19
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 19,
+   "R": 15,
+   "U": 19
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.787323,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Marchesa, the Black Rose",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.928307,
+    "R": 0.871941,
+    "U": 0.928307
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 6,
+  "fast_mana": 8,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 0,
+  "lands": 34,
+  "library_cards": 99,
+  "one_shot_mana": 6,
+  "repeatable_nonland_sources": 10,
+  "rituals": 0,
+  "unconditional_tapped_lands": 1,
+  "utility_lands": 5
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Marchesa__the_Black_Rose",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Arcane Signet",
+  "Deadly Dispute",
+  "Fellwar Stone",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/marchesa-the-black-rose.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 2,
+   "Mountain": 1,
+   "Plains": 0,
+   "Swamp": 2
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "WU",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "UG",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Verdant Catacombs",
+    "potential_source_colors": "BG",
+    "types": [
+     "Swamp",
+     "Forest"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 7,
+   "Mountain": 6,
+   "Plains": 0,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Ashnod's Altar",
+  "Deadly Dispute",
+  "Phyrexian Altar",
+  "Pitiless Plunderer",
+  "Warren Soultrader"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 50,
+  "double_pip_spell_count": {
+   "B": 8,
+   "R": 0,
+   "U": 2
+  },
+  "mv_le_2": {
+   "B": 16.0,
+   "R": 2.0,
+   "U": 4.0
+  },
+  "mv_le_3": {
+   "B": 28.0,
+   "R": 5.0,
+   "U": 8.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 44.0,
+   "R": 10.0,
+   "U": 13.0
+  },
+  "share": {
+   "B": 0.6567,
+   "R": 0.1493,
+   "U": 0.194
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "marchesa-the-black-rose",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.688763,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.882395,
+   "per_color_at_least_one_land_source": {
+    "B": 0.881105,
+    "R": 0.810117,
+    "U": 0.881105
+   },
+   "strict_land_drop_probability": 0.882395
+  },
+  "3": {
+   "all_three_land_source_presence": 0.741852,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.736993,
+   "per_color_at_least_one_land_source": {
+    "B": 0.907526,
+    "R": 0.843874,
+    "U": 0.907526
+   },
+   "strict_land_drop_probability": 0.736993
+  },
+  "4": {
+   "all_three_land_source_presence": 0.787323,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.562728,
+   "per_color_at_least_one_land_source": {
+    "B": 0.928307,
+    "R": 0.871941,
+    "U": 0.928307
+   },
+   "strict_land_drop_probability": 0.562728
+  },
+  "5": {
+   "all_three_land_source_presence": 0.825864,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.393908,
+   "per_color_at_least_one_land_source": {
+    "B": 0.944601,
+    "R": 0.895225,
+    "U": 0.944601
+   },
+   "strict_land_drop_probability": 0.393908
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Forge of Heroes",
+   "High Market"
+  ],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Forge of Heroes",
+   "High Market",
+   "Otawara, Soaring City",
+   "Takenuma, Abandoned Mire",
+   "Xander's Lounge"
+  ]
+ }
+}

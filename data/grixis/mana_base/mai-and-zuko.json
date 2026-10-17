@@ -1,0 +1,272 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C static mana evidence only; no land or mana-source swap is decided by this record."
+ },
+ "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+ "colored_sources": {
+  "conditional_land_sources": {
+   "B": 1,
+   "R": 1,
+   "U": 1
+  },
+  "land_plus_repeatable_nonland": {
+   "B": 27,
+   "R": 26,
+   "U": 27
+  },
+  "land_sources": {
+   "B": 18,
+   "R": 16,
+   "U": 17
+  },
+  "unconditional_land_sources": {
+   "B": 17,
+   "R": 15,
+   "U": 16
+  },
+  "untapped_or_conditionally_untapped_land_sources": {
+   "B": 15,
+   "R": 14,
+   "U": 15
+  }
+ },
+ "commander_casting": [
+  {
+   "all_required_colors_present_by_base_turn": 0.76047,
+   "base_resource_target": 4,
+   "colored_requirements": {
+    "B": 1,
+    "R": 1,
+    "U": 1
+   },
+   "first_recast_resource_target": 6,
+   "mana_cost": "{1}{U}{B}{R}",
+   "mana_value": 4.0,
+   "name": "Mai and Zuko",
+   "per_color_source_presence_by_base_turn": {
+    "B": 0.903815,
+    "R": 0.871941,
+    "U": 0.888913
+   },
+   "second_recast_resource_target": 8
+  }
+ ],
+ "confidence": "moderate",
+ "counts": {
+  "conditional_mana_lands": 1,
+  "conditional_tapped_lands": 6,
+  "fast_mana": 12,
+  "fetchlands": 6,
+  "flex_land_mdfcs": 0,
+  "lands": 31,
+  "library_cards": 99,
+  "one_shot_mana": 3,
+  "repeatable_nonland_sources": 15,
+  "rituals": 0,
+  "unconditional_tapped_lands": 3,
+  "utility_lands": 6
+ },
+ "deck_color_identity": "UBR",
+ "deck_id": "Mai_and_Zuko",
+ "evidence_class": "derived_metric",
+ "fast_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Arcane Signet",
+  "Fellwar Stone",
+  "Lion's Eye Diamond",
+  "Lotus Petal",
+  "Mana Vault",
+  "Mox Diamond",
+  "Mox Opal",
+  "Sol Ring",
+  "Talisman of Creativity",
+  "Talisman of Dominance",
+  "Talisman of Indulgence"
+ ],
+ "inputs": {
+  "canonical_export": "exports/grixis-archidekt/mai-and-zuko.txt",
+  "card_index": "data/card_index.csv",
+  "card_shards": "cards/** (frozen generated Oracle pages)"
+ },
+ "land_type_coverage": {
+  "basic_counts": {
+   "Forest": 0,
+   "Island": 0,
+   "Mountain": 0,
+   "Plains": 0,
+   "Swamp": 0
+  },
+  "fetches": [
+   {
+    "basic_fetch": false,
+    "card": "Bloodstained Mire",
+    "potential_source_colors": "BR",
+    "types": [
+     "Swamp",
+     "Mountain"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Flooded Strand",
+    "potential_source_colors": "WU",
+    "types": [
+     "Plains",
+     "Island"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Marsh Flats",
+    "potential_source_colors": "WB",
+    "types": [
+     "Plains",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Misty Rainforest",
+    "potential_source_colors": "UG",
+    "types": [
+     "Island",
+     "Forest"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Polluted Delta",
+    "potential_source_colors": "UB",
+    "types": [
+     "Island",
+     "Swamp"
+    ]
+   },
+   {
+    "basic_fetch": false,
+    "card": "Scalding Tarn",
+    "potential_source_colors": "UR",
+    "types": [
+     "Island",
+     "Mountain"
+    ]
+   }
+  ],
+  "typed_land_counts": {
+   "Forest": 0,
+   "Island": 5,
+   "Mountain": 5,
+   "Plains": 0,
+   "Swamp": 5
+  }
+ },
+ "limitations": [
+  "Source-access probabilities are no-mulligan draw/presence proxies, not cast probabilities.",
+  "Conditional/filter/opponent-dependent sources are labeled but not assigned a real-game reliability percentage.",
+  "Fetch colors are potential colors from Oracle/basic-land-type wording; target availability is summarized by typed-land coverage and refined in later Step C batches.",
+  "Tapped-source timing is counted, not yet simulated jointly with spell sequencing.",
+  "Fast mana and rituals are inventoried; commander-tax recovery and startup sequencing are refined later in Step C."
+ ],
+ "mdfc_cards": [],
+ "one_shot_mana_cards": [
+  "An Offer You Can't Refuse",
+  "Lion's Eye Diamond",
+  "Lotus Petal"
+ ],
+ "pip_demand": {
+  "colored_spell_count": 43,
+  "double_pip_spell_count": {
+   "B": 2,
+   "R": 1,
+   "U": 3
+  },
+  "mv_le_2": {
+   "B": 4.0,
+   "R": 5.0,
+   "U": 13.0
+  },
+  "mv_le_3": {
+   "B": 8.0,
+   "R": 7.0,
+   "U": 20.0
+  },
+  "raw_colored_pip_equivalents": {
+   "B": 15.0,
+   "R": 14.0,
+   "U": 28.0
+  },
+  "share": {
+   "B": 0.2632,
+   "R": 0.2456,
+   "U": 0.4912
+  }
+ },
+ "ritual_cards": [],
+ "schema_version": 1,
+ "slug": "mai-and-zuko",
+ "status": "provisional_evidence",
+ "turn_access_proxies": {
+  "2": {
+   "all_three_land_source_presence": 0.66248,
+   "cards_seen_no_mulligan": 9,
+   "flex_land_drop_probability": 0.839152,
+   "per_color_at_least_one_land_source": {
+    "B": 0.849288,
+    "R": 0.810117,
+    "U": 0.830707
+   },
+   "strict_land_drop_probability": 0.839152
+  },
+  "3": {
+   "all_three_land_source_presence": 0.714758,
+   "cards_seen_no_mulligan": 10,
+   "flex_land_drop_probability": 0.662647,
+   "per_color_at_least_one_land_source": {
+    "B": 0.87943,
+    "R": 0.843874,
+    "U": 0.862684
+   },
+   "strict_land_drop_probability": 0.662647
+  },
+  "4": {
+   "all_three_land_source_presence": 0.76047,
+   "cards_seen_no_mulligan": 11,
+   "flex_land_drop_probability": 0.470937,
+   "per_color_at_least_one_land_source": {
+    "B": 0.903815,
+    "R": 0.871941,
+    "U": 0.888913
+   },
+   "strict_land_drop_probability": 0.470937
+  },
+  "5": {
+   "all_three_land_source_presence": 0.800057,
+   "cards_seen_no_mulligan": 12,
+   "flex_land_drop_probability": 0.303191,
+   "per_color_at_least_one_land_source": {
+    "B": 0.923489,
+    "R": 0.895225,
+    "U": 0.910373
+   },
+   "strict_land_drop_probability": 0.303191
+  }
+ },
+ "unresolved_cards": [],
+ "utility_opportunity_cost": {
+  "colorless_only_utility_lands": [
+   "Urza's Saga"
+  ],
+  "tapped_utility_lands": [
+   "Xander's Lounge"
+  ],
+  "utility_lands": [
+   "Ally Encampment",
+   "Otawara, Soaring City",
+   "Sokenzan, Crucible of Defiance",
+   "Takenuma, Abandoned Mire",
+   "Urza's Saga",
+   "Xander's Lounge"
+  ]
+ }
+}
