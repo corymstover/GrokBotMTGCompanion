@@ -317,7 +317,7 @@ def check():
     reg, combos, summary = load(REGISTRY), load(COMBOS), load(SUMMARY)
     problems = []
     expected = {e["slug"] for e in reg["decks"].values()}
-    present = {p.stem for p in OUT.glob("*.json") if p.name != "summary.json"}
+    present = {p.stem for p in OUT.glob("*.json") if p.name not in ("summary.json", "decision_quality_gain.json")}
     if present != expected:
         problems.append(f"deck file coverage mismatch: missing={sorted(expected-present)} extra={sorted(present-expected)}")
     for did, e in sorted(reg["decks"].items()):

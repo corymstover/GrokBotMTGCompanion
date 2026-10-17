@@ -209,7 +209,12 @@ def main(argv):
              ("tournament", ["scripts/grixis_tournament.py", "--check"]),  # Bot cycle 60.3 (M5): cEDH-only tournament evidence
              ("benchmark", ["scripts/grixis_benchmark.py", "--check"]),
              ("saturation", ["scripts/grixis_saturation.py", "--check"]),
-             ("mechanics", ["scripts/grixis_mechanics.py", "--check"]),  # Bot cycle 66.1 (step E): mechanic module registry  # Bot cycle 65.1 (step A): saturation certificates  # Bot cycle 64.1 (G0): sealed benchmark corpus
+             ("mechanics", ["scripts/grixis_mechanics.py", "--check"]),  # Step E mechanic module registry
+             ("combo-quality", ["scripts/grixis_combo_quality.py", "--check"]),  # Step B: per-line quality vectors
+             ("power-core", ["scripts/grixis_power_core.py", "--check"]),  # Step B / D5 overlay
+             ("combo-line-semantics", ["scripts/grixis_combo_steps_quality.py", "--check"]),  # Step B: cached Spellbook line evidence
+             ("combo-families", ["scripts/grixis_combo_families.py", "--check"]),  # Step B: near-variant redundancy networks
+             ("combo-quality-gain", ["scripts/grixis_combo_quality_gain.py", "--check"]),  # Step B acceptance criterion 9
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []
