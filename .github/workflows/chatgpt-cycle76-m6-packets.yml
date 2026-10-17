@@ -1,0 +1,95 @@
+name: ChatGPT cycle 76 - M6 review packets
+
+on:
+  push:
+    branches:
+      - chatgpt-cycle76-m6-refinement
+    paths:
+      - .github/workflows/chatgpt-cycle76-m6-packets.yml
+      - scripts/grixis_m6_packets.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chatgpt-cycle76-m6-packets
+  cancel-in-progress: true
+
+jobs:
+  packets:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle76-m6-refinement
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Build deterministic review packets
+        run: python scripts/grixis_m6_packets.py --build --check
+
+      - name: Independent packet invariants
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          files=sorted(Path('data/grixis/m6/review_packets').glob('*.json'))
+          assert len(files)==62
+          total=0
+          agreements=0
+          for p in files:
+              d=json.loads(p.read_text())
+              assert d['authority']['can_decide'] is False
+              assert d['authority']['can_apply_swap'] is False
+              assert d['authority']['can_write_judgment_review'] is False
+              assert d['authority']['can_approve_or_lock'] is False
+              for x in d['items']:
+                  total += 1
+                  agreements += x['source']=='agreement'
+                  assert x['authority']['can_decide'] is False
+                  assert 'named_agent_or_human_strategic_judgment' in x['required_next']
+          s=json.loads(Path('data/grixis/m6/review_packet_summary.json').read_text())
+          o=json.loads(Path('data/grixis/m6/optimizer_summary.json').read_text())
+          assert total==8848==s['counts']['deep_review']==o['counts']['deep_review']
+          assert agreements==239==o['counts']['agreements']
+          print('packet invariants: PASS')
+          print('decks:', len(files), 'deep_review:', total, 'agreements:', agreements)
+          PY
+          changed="$(git diff --name-only HEAD --)"
+          echo "$changed"
+          if printf '%s\n' "$changed" | grep -Eq '^(grixis/decks/|exports/grixis-archidekt/|data/grixis/approvals\.json$|data/grixis/registry\.json$)'; then
+            echo 'Forbidden authority/canonical path changed by packet builder' >&2
+            exit 1
+          fi
+
+      - name: Commit review packets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/m6/review_packets data/grixis/m6/review_packet_summary.json
+          if git diff --cached --quiet; then
+            echo "No packet changes to commit"
+          else
+            git commit -m "Cycle 76: generate M6 strategic-review packets [skip ci]"
+            git pull --rebase origin chatgpt-cycle76-m6-refinement
+            git push origin HEAD:chatgpt-cycle76-m6-refinement
+          fi
+
+      - name: Gate summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/m6/review_packet_summary.json')
+          if not p.exists():
+              print('review packet summary missing')
+          else:
+              d=json.loads(p.read_text())
+              print('counts:', json.dumps(d['counts'], sort_keys=True))
+              print('authority:', json.dumps(d['authority'], sort_keys=True))
+          PY
