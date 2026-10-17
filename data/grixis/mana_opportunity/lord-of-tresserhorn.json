@@ -1,0 +1,223 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C opportunity-cost evidence does not rank/cut lands; burden and Commander-first support remain separate for later judgment."
+ },
+ "canonical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "commander_land_text_hooks": [],
+ "confidence": "moderate",
+ "deck_id": "Lord_of_Tresserhorn",
+ "evidence_class": "derived_metric",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/lord-of-tresserhorn.json",
+  "graph": "data/grixis/graph/lord-of-tresserhorn.json",
+  "mana_base": "data/grixis/mana_base/lord-of-tresserhorn.json",
+  "mana_timing": "data/grixis/mana_timing/lord-of-tresserhorn.json"
+ },
+ "land_type_context": {
+  "blueprint_named_lands": [
+   "Arena of Glory",
+   "Rogue's Passage",
+   "Shizo, Death's Storehouse"
+  ],
+  "commander_text_relevant_types": [],
+  "interpretation": "Commander Oracle land/type matches are textual hooks only; they may be opponent-facing or otherwise non-beneficial and require rules/strategic judgment.",
+  "typed_land_counts": {
+   "Island": 6,
+   "Mountain": 6,
+   "Swamp": 8
+  }
+ },
+ "limitations": [
+  "No universal opportunity-cost score is produced; color/timing burdens and strategic support signals stay separate.",
+  "Blueprint exact-name mentions are Commander-first evidence, not automatic protections; absence is not evidence that a land lacks strategic value.",
+  "Utility categories are Oracle-text heuristics and do not price the magnitude, activation cost, timing window or multiplayer value of the effect.",
+  "Commander land/type matches are textual hooks only and can be opponent-facing (for example landwalk) or otherwise irrelevant to own mana-base construction.",
+  "MDFCs are represented as spell/land option-value tradeoffs; later candidate optimization decides whether that flexibility is worth the tapped/color/slot cost.",
+  "Graph package/identity signals are inherited accepted M4 evidence but do not decide a mana-base swap by themselves."
+ ],
+ "mdfcs": [],
+ "schema_version": 1,
+ "slug": "lord-of-tresserhorn",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_named_utility_lands": 2,
+  "commander_land_hook_count": 0,
+  "mdfc_count": 0,
+  "utility_burden_flags": {
+   "always_enters_tapped": 1,
+   "no_usable_grixis_color": 2,
+   "single_color_source": 4
+  },
+  "utility_land_count": 6,
+  "utility_support_flags": {
+   "graph_package_member": 2,
+   "named_in_blueprint": 2,
+   "nonmana_utility_text": 4
+  }
+ },
+ "utility_lands": [
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source",
+    "always_enters_tapped"
+   ],
+   "card": "Bojuka Bog",
+   "conditional_mana_ability": false,
+   "entry_timing": "always_tapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "This land enters tapped.\nWhen this land enters, exile target player's graveyard.\n{T}: Add {B}.",
+   "potential_colors": "B",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "B",
+   "utility_categories": [
+    "graveyard",
+    "removal_or_damage"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "no_usable_grixis_color"
+   ],
+   "card": "High Market",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}.\n{T}, Sacrifice a creature: You gain 1 life.",
+   "potential_colors": "",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "",
+   "utility_categories": [
+    "sacrifice"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Otawara, Soaring City",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+   "potential_colors": "U",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "U",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "no_usable_grixis_color"
+   ],
+   "card": "Rogue's Passage",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [
+    "pkg:evasion-haste-protection"
+   ],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
+   "potential_colors": "",
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint"
+   ],
+   "unconditional_colors": "",
+   "utility_categories": []
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Shizo, Death's Storehouse",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [
+    "pkg:evasion-haste-protection"
+   ],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {B}.\n{B}, {T}: Target legendary creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)",
+   "potential_colors": "B",
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint"
+   ],
+   "unconditional_colors": "B",
+   "utility_categories": []
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Takenuma, Abandoned Mire",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",
+   "potential_colors": "B",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "B",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "graveyard",
+    "recursion"
+   ]
+  }
+ ]
+}

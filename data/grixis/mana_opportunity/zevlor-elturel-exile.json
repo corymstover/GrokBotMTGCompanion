@@ -1,0 +1,167 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C opportunity-cost evidence does not rank/cut lands; burden and Commander-first support remain separate for later judgment."
+ },
+ "canonical_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+ "commander_land_text_hooks": [],
+ "confidence": "moderate",
+ "deck_id": "Zevlor__Elturel_Exile",
+ "evidence_class": "derived_metric",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/zevlor-elturel-exile.json",
+  "graph": "data/grixis/graph/zevlor-elturel-exile.json",
+  "mana_base": "data/grixis/mana_base/zevlor-elturel-exile.json",
+  "mana_timing": "data/grixis/mana_timing/zevlor-elturel-exile.json"
+ },
+ "land_type_context": {
+  "blueprint_named_lands": [
+   "Ancient Tomb",
+   "Minamo, School at Water's Edge"
+  ],
+  "commander_text_relevant_types": [],
+  "interpretation": "Commander Oracle land/type matches are textual hooks only; they may be opponent-facing or otherwise non-beneficial and require rules/strategic judgment.",
+  "typed_land_counts": {
+   "Island": 7,
+   "Mountain": 7,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "No universal opportunity-cost score is produced; color/timing burdens and strategic support signals stay separate.",
+  "Blueprint exact-name mentions are Commander-first evidence, not automatic protections; absence is not evidence that a land lacks strategic value.",
+  "Utility categories are Oracle-text heuristics and do not price the magnitude, activation cost, timing window or multiplayer value of the effect.",
+  "Commander land/type matches are textual hooks only and can be opponent-facing (for example landwalk) or otherwise irrelevant to own mana-base construction.",
+  "MDFCs are represented as spell/land option-value tradeoffs; later candidate optimization decides whether that flexibility is worth the tapped/color/slot cost.",
+  "Graph package/identity signals are inherited accepted M4 evidence but do not decide a mana-base swap by themselves."
+ ],
+ "mdfcs": [],
+ "schema_version": 1,
+ "slug": "zevlor-elturel-exile",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_named_utility_lands": 1,
+  "commander_land_hook_count": 0,
+  "mdfc_count": 0,
+  "utility_burden_flags": {
+   "single_color_source": 4
+  },
+  "utility_land_count": 4,
+  "utility_support_flags": {
+   "graph_package_member": 1,
+   "named_in_blueprint": 1,
+   "nonmana_utility_text": 3
+  }
+ },
+ "utility_lands": [
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Minamo, School at Water's Edge",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [
+    "pkg:activation"
+   ],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {U}.\n{U}, {T}: Untap target legendary permanent.",
+   "potential_colors": "U",
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint"
+   ],
+   "unconditional_colors": "U",
+   "utility_categories": []
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Otawara, Soaring City",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+   "potential_colors": "U",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "U",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Sokenzan, Crucible of Defiance",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {R}.\nChannel — {3}{R}, Discard this card: Create two 1/1 colorless Spirit creature tokens. They gain haste until end of turn. This ability costs {1} less to activate for each legendary creature you control.",
+   "potential_colors": "R",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "R",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "creature_mode",
+    "token"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Takenuma, Abandoned Mire",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {B}.\nChannel — {3}{B}, Discard this card: Mill three cards, then return a creature or planeswalker card from your graveyard to your hand. This ability costs {1} less to activate for each legendary creature you control.",
+   "potential_colors": "B",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "B",
+   "utility_categories": [
+    "cost_reduction_or_ramp",
+    "graveyard",
+    "recursion"
+   ]
+  }
+ ]
+}

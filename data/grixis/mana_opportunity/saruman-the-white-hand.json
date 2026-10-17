@@ -1,0 +1,287 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step C opportunity-cost evidence does not rank/cut lands; burden and Commander-first support remain separate for later judgment."
+ },
+ "canonical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "commander_land_text_hooks": [],
+ "confidence": "moderate",
+ "deck_id": "Saruman__the_White_Hand",
+ "evidence_class": "derived_metric",
+ "inputs": {
+  "blueprint": "data/grixis/blueprints/saruman-the-white-hand.json",
+  "graph": "data/grixis/graph/saruman-the-white-hand.json",
+  "mana_base": "data/grixis/mana_base/saruman-the-white-hand.json",
+  "mana_timing": "data/grixis/mana_timing/saruman-the-white-hand.json"
+ },
+ "land_type_context": {
+  "blueprint_named_lands": [
+   "The Black Gate"
+  ],
+  "commander_text_relevant_types": [],
+  "interpretation": "Commander Oracle land/type matches are textual hooks only; they may be opponent-facing or otherwise non-beneficial and require rules/strategic judgment.",
+  "typed_land_counts": {
+   "Island": 7,
+   "Mountain": 7,
+   "Swamp": 7
+  }
+ },
+ "limitations": [
+  "No universal opportunity-cost score is produced; color/timing burdens and strategic support signals stay separate.",
+  "Blueprint exact-name mentions are Commander-first evidence, not automatic protections; absence is not evidence that a land lacks strategic value.",
+  "Utility categories are Oracle-text heuristics and do not price the magnitude, activation cost, timing window or multiplayer value of the effect.",
+  "Commander land/type matches are textual hooks only and can be opponent-facing (for example landwalk) or otherwise irrelevant to own mana-base construction.",
+  "MDFCs are represented as spell/land option-value tradeoffs; later candidate optimization decides whether that flexibility is worth the tapped/color/slot cost.",
+  "Graph package/identity signals are inherited accepted M4 evidence but do not decide a mana-base swap by themselves."
+ ],
+ "mdfcs": [
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "MDFC flexibility is recorded as an option-value tradeoff; this does not silently count the card as a full land or a free spell slot."
+   },
+   "blueprint_named": true,
+   "card": "Kazuul's Fury // Kazuul's Cliffs",
+   "graph_packages": [
+    "pkg:mdfc-spells"
+   ],
+   "graph_roles": [
+    "land",
+    "ramp"
+   ],
+   "land_face": {
+    "entry_timing": "untapped_by_default",
+    "potential_colors": "",
+    "unconditional_colors": ""
+   },
+   "spell_face": {
+    "colored_pip_equivalents": {},
+    "mana_cost": "—",
+    "mana_value": 0.0
+   },
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint"
+   ],
+   "tradeoff_flags": [
+    "no_usable_grixis_color"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "MDFC flexibility is recorded as an option-value tradeoff; this does not silently count the card as a full land or a free spell slot."
+   },
+   "blueprint_named": true,
+   "card": "Sea Gate Restoration // Sea Gate, Reborn",
+   "graph_packages": [
+    "pkg:mdfc-spells"
+   ],
+   "graph_roles": [
+    "draw",
+    "land",
+    "ramp"
+   ],
+   "land_face": {
+    "entry_timing": "untapped_by_default",
+    "potential_colors": "",
+    "unconditional_colors": ""
+   },
+   "spell_face": {
+    "colored_pip_equivalents": {},
+    "mana_cost": "—",
+    "mana_value": 0.0
+   },
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint"
+   ],
+   "tradeoff_flags": [
+    "no_usable_grixis_color"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "MDFC flexibility is recorded as an option-value tradeoff; this does not silently count the card as a full land or a free spell slot."
+   },
+   "blueprint_named": true,
+   "card": "Shatterskull Smashing // Shatterskull, the Hammer Pass",
+   "graph_packages": [
+    "pkg:mdfc-spells"
+   ],
+   "graph_roles": [
+    "land",
+    "ramp"
+   ],
+   "land_face": {
+    "entry_timing": "untapped_by_default",
+    "potential_colors": "",
+    "unconditional_colors": ""
+   },
+   "spell_face": {
+    "colored_pip_equivalents": {},
+    "mana_cost": "—",
+    "mana_value": 0.0
+   },
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint"
+   ],
+   "tradeoff_flags": [
+    "no_usable_grixis_color"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "MDFC flexibility is recorded as an option-value tradeoff; this does not silently count the card as a full land or a free spell slot."
+   },
+   "blueprint_named": true,
+   "card": "Sink into Stupor // Soporific Springs",
+   "graph_packages": [
+    "pkg:mdfc-spells"
+   ],
+   "graph_roles": [
+    "land",
+    "ramp",
+    "removal"
+   ],
+   "land_face": {
+    "entry_timing": "untapped_by_default",
+    "potential_colors": "",
+    "unconditional_colors": ""
+   },
+   "spell_face": {
+    "colored_pip_equivalents": {},
+    "mana_cost": "—",
+    "mana_value": 0.0
+   },
+   "support_flags": [
+    "graph_package_member",
+    "named_in_blueprint"
+   ],
+   "tradeoff_flags": [
+    "no_usable_grixis_color"
+   ]
+  }
+ ],
+ "schema_version": 1,
+ "slug": "saruman-the-white-hand",
+ "status": "provisional_evidence",
+ "summary": {
+  "blueprint_named_utility_lands": 1,
+  "commander_land_hook_count": 0,
+  "mdfc_count": 4,
+  "utility_burden_flags": {
+   "conditional_untapped": 2,
+   "single_color_source": 3
+  },
+  "utility_land_count": 4,
+  "utility_support_flags": {
+   "named_in_blueprint": 1,
+   "nonmana_utility_text": 2
+  }
+ },
+ "utility_lands": [
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source",
+    "conditional_untapped"
+   ],
+   "card": "Barad-dûr",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "Barad-dûr enters tapped unless you control a legendary creature.\n{T}: Add {B}.\n{X}{X}{B}, {T}: Amass Orcs X. Activate only if a creature died this turn.",
+   "potential_colors": "B",
+   "support_flags": [],
+   "unconditional_colors": "B",
+   "utility_categories": []
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [],
+   "card": "Mount Doom",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}, Pay 1 life: Add {B} or {R}.\n{1}{B}{R}, {T}: Mount Doom deals 1 damage to each opponent.\n{5}{B}{R}, {T}, Sacrifice Mount Doom and a legendary artifact: Choose up to two creatures, then destroy the rest. Activate only as a sorcery.",
+   "potential_colors": "BR",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "BR",
+   "utility_categories": [
+    "removal_or_damage",
+    "sacrifice"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": false,
+   "burden_flags": [
+    "single_color_source"
+   ],
+   "card": "Otawara, Soaring City",
+   "conditional_mana_ability": false,
+   "entry_timing": "untapped_by_default",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+   "potential_colors": "U",
+   "support_flags": [
+    "nonmana_utility_text"
+   ],
+   "unconditional_colors": "U",
+   "utility_categories": [
+    "cost_reduction_or_ramp"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "note": "Separate burden/support dimensions only; no utility land is automatically cut or retained."
+   },
+   "blueprint_named": true,
+   "burden_flags": [
+    "single_color_source",
+    "conditional_untapped"
+   ],
+   "card": "The Black Gate",
+   "conditional_mana_ability": false,
+   "entry_timing": "conditional_untapped",
+   "graph_packages": [],
+   "graph_roles": [
+    "land"
+   ],
+   "oracle_text": "As The Black Gate enters, you may pay 3 life. If you don't, it enters tapped.\n{T}: Add {B}.\n{1}{B}, {T}: Choose a player with the most life or tied for most life. Target creature can't be blocked by creatures that player controls this turn.",
+   "potential_colors": "B",
+   "support_flags": [
+    "named_in_blueprint"
+   ],
+   "unconditional_colors": "B",
+   "utility_categories": []
+  }
+ ]
+}

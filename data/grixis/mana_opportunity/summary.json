@@ -1,0 +1,509 @@
+{
+ "decks": [
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Abaddon_the_Despoiler",
+   "mdfcs": 0,
+   "slug": "abaddon-the-despoiler",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Admiral_Beckett_Brass",
+   "mdfcs": 0,
+   "slug": "admiral-beckett-brass",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "mdfcs": 1,
+   "slug": "admiral-brass-unsinkable",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Anhelo__the_Painter",
+   "mdfcs": 1,
+   "slug": "anhelo-the-painter",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 3,
+   "commander_land_hooks": 0,
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "mdfcs": 0,
+   "slug": "ashad-the-lone-cyberman",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 3,
+   "commander_land_hooks": 0,
+   "deck_id": "Ashnod_the_Uncaring",
+   "mdfcs": 0,
+   "slug": "ashnod-the-uncaring",
+   "utility_lands": 6
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "mdfcs": 0,
+   "slug": "belakor-the-dark-master",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "mdfcs": 0,
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Cormela__Glamour_Thief",
+   "mdfcs": 0,
+   "slug": "cormela-glamour-thief",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Crosis__the_Purger",
+   "mdfcs": 0,
+   "slug": "crosis-the-purger",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 4,
+   "commander_land_hooks": 0,
+   "deck_id": "Cult_of_Skaro",
+   "mdfcs": 0,
+   "slug": "cult-of-skaro",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Davros__Dalek_Creator",
+   "mdfcs": 0,
+   "slug": "davros-dalek-creator",
+   "utility_lands": 5
+  },
+  {
+   "blueprint_named_utility_lands": 3,
+   "commander_land_hooks": 2,
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "mdfcs": 0,
+   "slug": "doctor-doom-king-of-latveria",
+   "utility_lands": 6
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Don_Andres__the_Renegade",
+   "mdfcs": 0,
+   "slug": "don-andres-the-renegade",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Dr__Eggman",
+   "mdfcs": 0,
+   "slug": "dr-eggman",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Edea__Possessed_Sorceress",
+   "mdfcs": 0,
+   "slug": "edea-possessed-sorceress",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Edward_Kenway",
+   "mdfcs": 0,
+   "slug": "edward-kenway",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Evelyn__the_Covetous",
+   "mdfcs": 0,
+   "slug": "evelyn-the-covetous",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Fire_Lord_Azula",
+   "mdfcs": 0,
+   "slug": "fire-lord-azula",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 3,
+   "commander_land_hooks": 0,
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "mdfcs": 0,
+   "slug": "garza-zol-plague-queen",
+   "utility_lands": 7
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Goro_Goro_and_Satoru",
+   "mdfcs": 0,
+   "slug": "goro-goro-and-satoru",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Grixistax___October_2026",
+   "mdfcs": 0,
+   "slug": "grixistax-october-2026",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Gwendlyn_Di_Corci",
+   "mdfcs": 0,
+   "slug": "gwendlyn-di-corci",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "mdfcs": 0,
+   "slug": "inalla-archmage-ritualist",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "mdfcs": 0,
+   "slug": "jeleva-nephalias-scourge",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Kefka__Court_Mage",
+   "mdfcs": 0,
+   "slug": "kefka-court-mage",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Kess__Dissident_Mage",
+   "mdfcs": 0,
+   "slug": "kess-dissident-mage",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Loki__the_Deceiver",
+   "mdfcs": 0,
+   "slug": "loki-the-deceiver",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Lord_of_Tresserhorn",
+   "mdfcs": 0,
+   "slug": "lord-of-tresserhorn",
+   "utility_lands": 6
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Lord_Xander__the_Collector",
+   "mdfcs": 0,
+   "slug": "lord-xander-the-collector",
+   "utility_lands": 5
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "mdfcs": 0,
+   "slug": "lynde-cheerful-tormentor",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Mai_and_Zuko",
+   "mdfcs": 0,
+   "slug": "mai-and-zuko",
+   "utility_lands": 6
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Mairsil__the_Pretender",
+   "mdfcs": 0,
+   "slug": "mairsil-the-pretender",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "mdfcs": 0,
+   "slug": "marchesa-dealer-of-death",
+   "utility_lands": 5
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Marchesa__the_Black_Rose",
+   "mdfcs": 0,
+   "slug": "marchesa-the-black-rose",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 3,
+   "commander_land_hooks": 0,
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "mdfcs": 0,
+   "slug": "mishra-artificer-prodigy",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 3,
+   "commander_land_hooks": 0,
+   "deck_id": "Mishra__Eminent_One",
+   "mdfcs": 0,
+   "slug": "mishra-eminent-one",
+   "utility_lands": 6
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Missy",
+   "mdfcs": 0,
+   "slug": "missy",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "mdfcs": 0,
+   "slug": "nathan-drake-treasure-hunter",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Nekusar__the_Mindrazer",
+   "mdfcs": 0,
+   "slug": "nekusar-the-mindrazer",
+   "utility_lands": 5
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Nicol_Bolas",
+   "mdfcs": 0,
+   "slug": "nicol-bolas",
+   "utility_lands": 5
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "mdfcs": 0,
+   "slug": "nicol-bolas-the-ravager",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "mdfcs": 0,
+   "slug": "norman-osborn",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Obeka__Brute_Chronologist",
+   "mdfcs": 0,
+   "slug": "obeka-brute-chronologist",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "mdfcs": 0,
+   "slug": "obeka-splitter-of-seconds",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "mdfcs": 1,
+   "slug": "parnesse-the-subtle-brush",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "RogSi",
+   "mdfcs": 0,
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Saruman__the_White_Hand",
+   "mdfcs": 4,
+   "slug": "saruman-the-white-hand",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 4,
+   "commander_land_hooks": 0,
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "mdfcs": 0,
+   "slug": "sauron-lord-of-the-rings",
+   "utility_lands": 5
+  },
+  {
+   "blueprint_named_utility_lands": 3,
+   "commander_land_hooks": 0,
+   "deck_id": "Sauron__the_Dark_Lord",
+   "mdfcs": 0,
+   "slug": "sauron-the-dark-lord",
+   "utility_lands": 6
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Sedris__the_Traitor_King",
+   "mdfcs": 0,
+   "slug": "sedris-the-traitor-king",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 1,
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "mdfcs": 1,
+   "slug": "solkanar-the-swamp-king",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Sol_kanar_the_Tainted",
+   "mdfcs": 0,
+   "slug": "solkanar-the-tainted",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "mdfcs": 0,
+   "slug": "tetsuo-imperial-champion",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Tetsuo_Umezawa",
+   "mdfcs": 1,
+   "slug": "tetsuo-umezawa",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "The_Madcap_Jester",
+   "mdfcs": 0,
+   "slug": "the-madcap-jester",
+   "utility_lands": 2
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "The_Rani",
+   "mdfcs": 0,
+   "slug": "the-rani",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "The_Valeyard",
+   "mdfcs": 0,
+   "slug": "the-valeyard",
+   "utility_lands": 1
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Thraximundar",
+   "mdfcs": 0,
+   "slug": "thraximundar",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 2,
+   "commander_land_hooks": 0,
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "mdfcs": 1,
+   "slug": "tresserhorns-lord-returned",
+   "utility_lands": 3
+  },
+  {
+   "blueprint_named_utility_lands": 0,
+   "commander_land_hooks": 0,
+   "deck_id": "Wick__the_Whorled_Mind",
+   "mdfcs": 1,
+   "slug": "wick-the-whorled-mind",
+   "utility_lands": 4
+  },
+  {
+   "blueprint_named_utility_lands": 1,
+   "commander_land_hooks": 0,
+   "deck_id": "Zevlor__Elturel_Exile",
+   "mdfcs": 0,
+   "slug": "zevlor-elturel-exile",
+   "utility_lands": 4
+  }
+ ],
+ "generated_by": "scripts/grixis_mana_opportunity.py v1",
+ "schema_version": 1,
+ "totals": {
+  "blueprint_named_utility_lands": 67,
+  "commander_land_hooks": 3,
+  "decks": 62,
+  "mdfcs": 11,
+  "utility_lands": 196
+ }
+}

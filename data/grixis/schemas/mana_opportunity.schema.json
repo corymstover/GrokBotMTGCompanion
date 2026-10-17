@@ -1,0 +1,27 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://github.com/corymstover/GrokBotMTGCompanion/blob/main/data/grixis/schemas/mana_opportunity.schema.json",
+  "title":"Grixis Step C utility-land and MDFC opportunity evidence v1",
+  "type":"object","additionalProperties":false,
+  "required":["schema_version","deck_id","slug","canonical_hash","status","evidence_class","confidence","authority","inputs","utility_lands","mdfcs","commander_land_text_hooks","land_type_context","summary","limitations"],
+  "properties":{
+    "schema_version":{"const":1},"deck_id":{"type":"string"},"slug":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^lh1:"},
+    "status":{"const":"provisional_evidence"},"evidence_class":{"const":"derived_metric"},"confidence":{"enum":["moderate","low"]},
+    "authority":{"$ref":"#/$defs/authority"},
+    "inputs":{"type":"object","additionalProperties":false,"required":["mana_base","mana_timing","blueprint","graph"],"properties":{"mana_base":{"type":"string"},"mana_timing":{"type":"string"},"blueprint":{"type":"string"},"graph":{"type":"string"}}},
+    "utility_lands":{"type":"array","items":{"$ref":"#/$defs/utility"}},
+    "mdfcs":{"type":"array","items":{"$ref":"#/$defs/mdfc"}},
+    "commander_land_text_hooks":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["commander","terms","oracle_text"],"properties":{"commander":{"type":"string"},"terms":{"$ref":"#/$defs/str_array"},"oracle_text":{"type":"string"}}}},
+    "land_type_context":{"type":"object","additionalProperties":false,"required":["typed_land_counts","commander_text_relevant_types","blueprint_named_lands","interpretation"],"properties":{"typed_land_counts":{"type":"object","additionalProperties":false,"required":["Island","Swamp","Mountain"],"properties":{"Island":{"type":"integer","minimum":0},"Swamp":{"type":"integer","minimum":0},"Mountain":{"type":"integer","minimum":0}}},"commander_text_relevant_types":{"type":"array","items":{"enum":["Island","Swamp","Mountain"]},"uniqueItems":true},"blueprint_named_lands":{"$ref":"#/$defs/str_array"},"interpretation":{"type":"string"}}},
+    "summary":{"type":"object","additionalProperties":false,"required":["utility_land_count","mdfc_count","utility_burden_flags","utility_support_flags","blueprint_named_utility_lands","commander_land_hook_count"],"properties":{"utility_land_count":{"type":"integer","minimum":0},"mdfc_count":{"type":"integer","minimum":0},"utility_burden_flags":{"$ref":"#/$defs/count_map"},"utility_support_flags":{"$ref":"#/$defs/count_map"},"blueprint_named_utility_lands":{"type":"integer","minimum":0},"commander_land_hook_count":{"type":"integer","minimum":0}}},
+    "limitations":{"type":"array","minItems":6,"items":{"type":"string","minLength":1}}
+  },
+  "$defs":{
+    "authority":{"type":"object","additionalProperties":false,"required":["can_decide","note"],"properties":{"can_decide":{"const":false},"note":{"type":"string","minLength":1}}},
+    "str_array":{"type":"array","items":{"type":"string"}},
+    "count_map":{"type":"object","additionalProperties":{"type":"integer","minimum":0}},
+    "mask":{"type":"string","pattern":"^(|U|B|R|UB|UR|BR|UBR)$"},
+    "utility":{"type":"object","additionalProperties":false,"required":["card","potential_colors","unconditional_colors","entry_timing","conditional_mana_ability","burden_flags","utility_categories","support_flags","blueprint_named","graph_roles","graph_packages","oracle_text","authority"],"properties":{"card":{"type":"string"},"potential_colors":{"$ref":"#/$defs/mask"},"unconditional_colors":{"$ref":"#/$defs/mask"},"entry_timing":{"enum":["always_tapped","conditional_untapped","untapped_by_default"]},"conditional_mana_ability":{"type":"boolean"},"burden_flags":{"$ref":"#/$defs/str_array"},"utility_categories":{"$ref":"#/$defs/str_array"},"support_flags":{"$ref":"#/$defs/str_array"},"blueprint_named":{"type":"boolean"},"graph_roles":{"$ref":"#/$defs/str_array"},"graph_packages":{"$ref":"#/$defs/str_array"},"oracle_text":{"type":"string"},"authority":{"$ref":"#/$defs/authority"}}},
+    "mdfc":{"type":"object","additionalProperties":false,"required":["card","spell_face","land_face","tradeoff_flags","support_flags","blueprint_named","graph_roles","graph_packages","authority"],"properties":{"card":{"type":"string"},"spell_face":{"type":"object","additionalProperties":false,"required":["mana_cost","mana_value","colored_pip_equivalents"],"properties":{"mana_cost":{"type":"string"},"mana_value":{"type":"number","minimum":0},"colored_pip_equivalents":{"type":"object","propertyNames":{"enum":["U","B","R","W","G"]},"additionalProperties":{"type":"number","minimum":0}}}},"land_face":{"type":"object","additionalProperties":false,"required":["potential_colors","unconditional_colors","entry_timing"],"properties":{"potential_colors":{"$ref":"#/$defs/mask"},"unconditional_colors":{"$ref":"#/$defs/mask"},"entry_timing":{"enum":["always_tapped","conditional_untapped","untapped_by_default"]}}},"tradeoff_flags":{"$ref":"#/$defs/str_array"},"support_flags":{"$ref":"#/$defs/str_array"},"blueprint_named":{"type":"boolean"},"graph_roles":{"$ref":"#/$defs/str_array"},"graph_packages":{"$ref":"#/$defs/str_array"},"authority":{"$ref":"#/$defs/authority"}}}
+  }
+}
