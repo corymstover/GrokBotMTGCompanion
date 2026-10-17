@@ -12,6 +12,7 @@ import gzip
 import hashlib
 import json
 from pathlib import Path
+import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,6 +24,7 @@ REGISTRY = ROOT / "data/grixis/registry.json"
 SUMMARY = ROOT / "data/grixis/birthday_m5/summary.json"
 OUT = ROOT / "data/grixis/m6/ij/input_receipts"
 CORPUS_COMMIT = "fcd28daff7d3f7b091de04299699645ba7e47aa2"
+SUMMARY_SHA256 = "sha256:dfa23cab773832927eb0a0877f8b425581efe1b2e51dcd32b90c53a66d549046"
 REQUIRED_NEXT = [
     "sealed_independent_A_B_commits",
     "pass_C_critique",
@@ -48,6 +50,18 @@ def sha256(path: Path) -> str:
     return "sha256:" + h.hexdigest()
 
 
+def assert_frozen_source(rel: str, path: Path) -> None:
+    """A receipt may not silently re-attest mutated files as the accepted M5 corpus."""
+    original = subprocess.check_output(
+        ["git", "rev-parse", f"{CORPUS_COMMIT}:{rel}"], cwd=ROOT, text=True
+    ).strip()
+    current = subprocess.check_output(
+        ["git", "hash-object", str(path)], cwd=ROOT, text=True
+    ).strip()
+    if original != current:
+        raise ValueError(f"accepted Birthday M5 source changed since {CORPUS_COMMIT}: {rel}")
+
+
 def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -64,6 +78,9 @@ def context():
     if CORPUS_COMMIT not in m5.get("acceptance_evidence", ""):
         raise ValueError("accepted source corpus commit drift")
     summary = load(SUMMARY)
+    assert_frozen_source("data/grixis/birthday_m5/summary.json", SUMMARY)
+    if sha256(SUMMARY) != SUMMARY_SHA256 or SUMMARY_SHA256 not in m5.get("acceptance_evidence", ""):
+        raise ValueError("accepted Birthday M5 summary SHA-256 no longer matches acceptance")
     if len(summary.get("decks", [])) != 62:
         raise ValueError("M5 summary coverage must be 62")
     if summary["authority"].get("accepted_by_cory") is not False:
@@ -86,6 +103,8 @@ def record(row, entry, m5, summary):
         p = ROOT / rel
         if not p.is_file():
             raise ValueError(f"{slug}: missing input {rel}")
+        if role in ("candidate_pool", "regeneration", "birthday_evidence"):
+            assert_frozen_source(rel, p)
         paths.append({"role": role, "path": rel, "sha256": sha256(p), "bytes": p.stat().st_size})
     with gzip.open(ROOT / ROLES[1][1].format(slug=slug), "rt", encoding="utf-8") as f:
         regen = json.load(f)
