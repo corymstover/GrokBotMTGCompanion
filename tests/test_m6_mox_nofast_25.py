@@ -19,7 +19,10 @@ class TestMoxNoFastGate(unittest.TestCase):
         for row in m.load(m.STATIC)["rows"]:
             old=m.load(m.BASE/(row["slug"]+".json"))
             corrected=m.load(m.NEWSTATIC/(row["slug"]+".json"))
-            self.assertEqual(set(corrected["fast_mana_cards"])-set(old["fast_mana_cards"]),{"Chrome Mox"})
-            self.assertEqual(set(old["fast_mana_cards"])-set(corrected["fast_mana_cards"]),set())
+            for cmd in old["commanders"]:
+                historical=set(cmd["fast_mana_inventory"])
+                current=set(corrected["fast_mana_cards"])
+                self.assertEqual(current-historical,{"Chrome Mox"})
+                self.assertEqual(historical-current,set())
 
 if __name__=="__main__":unittest.main()
