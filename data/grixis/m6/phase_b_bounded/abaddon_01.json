@@ -1,0 +1,260 @@
+{
+ "accepted_packet_sha256": "sha256:9806693fca1b50ef5415ab65f48e27766e1a5c9feb0f3f47de5099ea9a50cc84",
+ "assumptions": [
+  "Effects successfully resolve except explicit removal scenario; no prevention/replacement except named Solphim/Bloodletter",
+  "Heartless values use floor(life/2) damage and double opponent noncombat damage with Solphim",
+  "Bloodletter doubles life lost by opponent on your turn; its effect does not double damage",
+  "Tree life exchange uses current unmodified toughness, includes life gain when life lower, and deals zero damage",
+  "Shredder's original 5/5 and two nonlegendary token copies are assumed to have 5 power; tokens enter attacking without new attack triggers",
+  "The artifact in Grinding Station scenario is free to escape, and sufficient other graveyard cards are milled in each iteration"
+ ],
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "base_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "covered_candidate_groups": [
+  "Heartless Hidetsugu",
+  "Tree of Perdition",
+  "Grinding Station",
+  "Shredder, Shadow Master"
+ ],
+ "covered_swap_ids": [
+  "swap:abaddon-the-despoiler:m5:d17609747acc",
+  "swap:abaddon-the-despoiler:m5:5ac285a18b7a",
+  "swap:abaddon-the-despoiler:m5:f2e3f08ecb7d",
+  "swap:abaddon-the-despoiler:m5:ba42cedcaa2f",
+  "swap:abaddon-the-despoiler:m5:1eb1c0ea9334",
+  "swap:abaddon-the-despoiler:m5:f042c87e6e25",
+  "swap:abaddon-the-despoiler:m5:e03993a91dd5"
+ ],
+ "deck_id": "Abaddon_the_Despoiler",
+ "limitations": [
+  "Exact conditional rules calculations only; no opponent-policy sampling or deck win-rate claim",
+  "Does not simulate current 100-card mana curve, mulligans, real draw, combat blockers, priority, or opponent responses",
+  "Every tapped ability assumes its source survived until legally usable; no haste supplied",
+  "Grinding Station loop is limited by library/graveyard resources and has no demonstrated winner",
+  "Follow-up Abaddon spells require commander present, hand origin, sufficient mana and a surviving game",
+  "Phase-B completion requires independent current Oracle, full combo/resource audit, paired tests, colored-mana study and named Pass C judgment"
+ ],
+ "metrics": {
+  "approved_swaps": 0,
+  "bounded_scenario_checks": 17,
+  "candidate_groups_examined": 4,
+  "complete_phase_b_candidate_groups": 0,
+  "effect_aware_deckwide_paired_tests": 0,
+  "swap_ids_addressed": 7
+ },
+ "oracle_and_rules_refs": [
+  "https://media.wizards.com/2024/downloads/INR_Release_Notes_hzvmSd7KJG/EN_MTGINR_ReleaseNotes_20240903.pdf",
+  "https://media.wizards.com/2026/downloads/TMT_Release_Notes_eM8Yplm3UV/u17aHk8iV1_EN_MTGTMT_ReleaseNotes_20251001.pdf",
+  "https://mtg.wtf/card/cmm/539/Heartless-Hidetsugu",
+  "https://mtg.wtf/card/lci/92/Bloodletter-of-Aclazotz",
+  "https://commanderspellbook.com/combo/1368-1414-4856/"
+ ],
+ "phase_b_complete": false,
+ "preregistered_plan_sha256": "sha256:6c18e3c9c2c3834d0d4204be847e2e2262cc247bf3b735feed17dd1a9410cac7",
+ "scenarios": {
+  "cascade_from_graveyard_after_large_loss": false,
+  "cascade_resets_next_turn": false,
+  "grinding_station_free_artifact_2_library": {
+   "completed_cycles": 0,
+   "net_mana_produced": 0,
+   "remaining_library": 2,
+   "repeatable_infinite": false,
+   "requires_free_recastable_artifact": true,
+   "requires_underworld_breach_and_station_untap": true,
+   "winner_proven": false
+  },
+  "grinding_station_free_artifact_90_library": {
+   "completed_cycles": 30,
+   "net_mana_produced": 0,
+   "remaining_library": 0,
+   "repeatable_infinite": false,
+   "requires_free_recastable_artifact": true,
+   "requires_underworld_breach_and_station_untap": true,
+   "winner_proven": false
+  },
+  "heartless_base": {
+   "life_lost_to_opponents_in_damage_event": 54,
+   "opponents": [
+    {
+     "damage": 20,
+     "defeated_after_SBA": false,
+     "life_after": 20,
+     "life_before": 40,
+     "life_lost": 20
+    },
+    {
+     "damage": 19,
+     "defeated_after_SBA": false,
+     "life_after": 20,
+     "life_before": 39,
+     "life_lost": 19
+    },
+    {
+     "damage": 15,
+     "defeated_after_SBA": false,
+     "life_after": 16,
+     "life_before": 31,
+     "life_lost": 15
+    }
+   ],
+   "pilot_damage": 20,
+   "pilot_life_after": 20
+  },
+  "heartless_with_bloodletter": {
+   "life_lost_to_opponents_in_damage_event": 108,
+   "opponents": [
+    {
+     "damage": 20,
+     "defeated_after_SBA": true,
+     "life_after": 0,
+     "life_before": 40,
+     "life_lost": 40
+    },
+    {
+     "damage": 19,
+     "defeated_after_SBA": false,
+     "life_after": 1,
+     "life_before": 39,
+     "life_lost": 38
+    },
+    {
+     "damage": 15,
+     "defeated_after_SBA": false,
+     "life_after": 1,
+     "life_before": 31,
+     "life_lost": 30
+    }
+   ],
+   "pilot_damage": 20,
+   "pilot_life_after": 20
+  },
+  "heartless_with_solphim": {
+   "life_lost_to_opponents_in_damage_event": 108,
+   "opponents": [
+    {
+     "damage": 40,
+     "defeated_after_SBA": true,
+     "life_after": 0,
+     "life_before": 40,
+     "life_lost": 40
+    },
+    {
+     "damage": 38,
+     "defeated_after_SBA": false,
+     "life_after": 1,
+     "life_before": 39,
+     "life_lost": 38
+    },
+    {
+     "damage": 30,
+     "defeated_after_SBA": false,
+     "life_after": 1,
+     "life_before": 31,
+     "life_lost": 30
+    }
+   ],
+   "pilot_damage": 20,
+   "pilot_life_after": 20
+  },
+  "kessig_two_noncreature_spells": {
+   "first_spell_threshold_at_cast": 0,
+   "threshold_after_all_triggers": 6,
+   "threshold_after_first_trigger": 3
+  },
+  "shredder_all_three_connect": {
+   "attack_triggers": 1,
+   "copies": 2,
+   "per_opponent": [
+    {
+     "connect": true,
+     "damage": 5,
+     "total_life_lost": 23,
+     "triggered_life_loss": 18
+    },
+    {
+     "connect": true,
+     "damage": 5,
+     "total_life_lost": 23,
+     "triggered_life_loss": 18
+    },
+    {
+     "connect": true,
+     "damage": 5,
+     "total_life_lost": 23,
+     "triggered_life_loss": 18
+    }
+   ],
+   "table_life_lost": 69
+  },
+  "shredder_one_connect": {
+   "attack_triggers": 1,
+   "copies": 2,
+   "per_opponent": [
+    {
+     "connect": true,
+     "damage": 5,
+     "total_life_lost": 23,
+     "triggered_life_loss": 18
+    },
+    {
+     "connect": false,
+     "damage": 0,
+     "total_life_lost": 0,
+     "triggered_life_loss": 0
+    },
+    {
+     "connect": false,
+     "damage": 0,
+     "total_life_lost": 0,
+     "triggered_life_loss": 0
+    }
+   ],
+   "table_life_lost": 23
+  },
+  "tree_bloodletter_life40": {
+   "damage": 0,
+   "life_after": -14,
+   "life_before": 40,
+   "life_gained": 0,
+   "life_lost": 54,
+   "resolved": true,
+   "toughness_before": 13
+  },
+  "tree_commander_absent_mv5": false,
+  "tree_followup_exile_mv5": false,
+  "tree_followup_hand_mv5": true,
+  "tree_life40_toughness13": {
+   "damage": 0,
+   "life_after": 13,
+   "life_before": 40,
+   "life_gained": 0,
+   "life_lost": 27,
+   "resolved": true,
+   "toughness_before": 13
+  },
+  "tree_removed_in_response": {
+   "damage": 0,
+   "life_after": 40,
+   "life_lost": 0,
+   "resolved": false
+  },
+  "tree_target_below_toughness": {
+   "damage": 0,
+   "life_after": 13,
+   "life_before": 8,
+   "life_gained": 5,
+   "life_lost": 0,
+   "resolved": true,
+   "toughness_before": 13
+  }
+ },
+ "schema_version": 1,
+ "slug": "abaddon-the-despoiler",
+ "stage": "M6_partial_bounded_mechanics",
+ "status": "partial_rules_evidence_only",
+ "supports_improvement_claim": false
+}
