@@ -1,0 +1,61 @@
+name: Temporary ChatGPT bracket stress preregistration
+
+on:
+  push:
+    branches: [chatgpt-cycle70-1-bracket-stress-prereg]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle70-1-bracket-stress-prereg
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Focused preregistration tests
+        run: python -m pytest -q tests/test_bracket_stress.py
+      - name: Build and validate all 62 suite manifests
+        run: |
+          python scripts/grixis_bracket_stress.py --build
+          python scripts/grixis_bracket_stress.py --check
+      - name: Update Step F plan and tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          s=next(x for x in d['steps'] if x['id']=='F'); s['status']='in_progress'; s['batches']=[
+            '70.1 preregister B5 competitive vs B4 resilience stress priorities for all 62 decks; weights are review priority only, never outcome scores',
+            '70.2 executable bracket runner + Step-E module routing (planned)',
+            '70.3 bracket-specific red-team/judgment packet and result schema (planned)',
+            '70.4 integration + gain proof + validate_all gate (planned; real simulator/module result generation may require frozen local cache)'
+          ]
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 70.1 (2026-10-16)'
+          x=next(x for x in tr['stages'] if x['id']=='F'); x['batches_done']=1; x['status']='in_progress'; x['note']='1/4.5 batch-equivalents complete: all 62 bracket-specific stress suites preregistered before M6 results; B5 and B4 priorities are distinct and weights are review-priority only.'
+          tr['batches_done']=36; tr['percent_complete']=57.6
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+'\n')
+          md=Path('grixis/Grixis Birthday Upgrade Plan.md'); t=md.read_text(); marker='### Step F batch 70.1: bracket-specific stress preregistration'
+          if marker not in t:
+              t += '''\n\n### Step F batch 70.1: bracket-specific stress preregistration\n\n- Every deck receives a frozen pre-result suite selected from its recorded ceiling: B5 competitive pressure versus B4 resilience/attrition pressure.\n- B5 emphasizes turbo clock, stack interaction/protection, stax/tax, fast graveyard hate, commander disruption and protected wins. B4 emphasizes wipes, repeated removal, artifact/enchantment interaction, attrition, rebuilding, commander tax, pillowfort and token stalls.\n- `priority_weight` allocates later review/test attention only. It is never multiplied by stress outcomes into a deck score.\n- Each item declares its executor class: legacy simulator scenario, bounded Step-E mechanic module, goldfish threshold, or judgment-only red-team prompt. Unsupported multiplayer situations stay judgment-only rather than receiving fake simulation.\n- All 62 suite manifests validate and no item has decision authority.\n'''
+              md.write_text(t)
+          PY
+      - name: Assert snapshot metadata unchanged
+        run: git diff --exit-code HEAD -- data/grixis/dev_snapshot_lock.json
+      - name: Commit manifests and cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/chatgpt-bracket-stress-prereg.yml
+          git add data/grixis/bracket_stress data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md'
+          git commit -m "ChatGPT cycle 70.1: finalize bracket stress preregistration [skip ci]"
+          git push
