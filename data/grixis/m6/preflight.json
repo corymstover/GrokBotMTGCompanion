@@ -1,0 +1,1278 @@
+{
+ "schema_version": 1,
+ "cycle": 76,
+ "stage": "M6_preflight",
+ "input_authority": {
+  "m5_status": "accepted",
+  "m5_accepted_by": "corymstover",
+  "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+  "summary_ref": "data/grixis/birthday_m5/summary.json"
+ },
+ "requirements": {
+  "independent_optimizer_schema": "data/grixis/schemas/optimizer_pass.schema.json",
+  "zero_improvement_schema": "data/grixis/schemas/zero_improvement_certificate.schema.json",
+  "phase_b_all_required_tests_pass": true,
+  "unresolved_requires_human_judgment_must_be_zero": true,
+  "receipt_bundle_required": true,
+  "scope": "tested_pool_local_optimum_not_global_proof"
+ },
+ "counts": {
+  "decks": 62,
+  "accepted_m5_input_complete": 62,
+  "optimizer_pass_present": 0,
+  "phase_b_present": 0,
+  "judgment_review_present": 0,
+  "artifact_bundle_present": 0,
+  "zero_improvement_certificate_present": 0,
+  "approval_ready": 0
+ },
+ "decks": [
+  {
+   "slug": "abaddon-the-despoiler",
+   "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "admiral-beckett-brass",
+   "canonical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "admiral-brass-unsinkable",
+   "canonical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "anhelo-the-painter",
+   "canonical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "ashad-the-lone-cyberman",
+   "canonical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "ashnod-the-uncaring",
+   "canonical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "belakor-the-dark-master",
+   "canonical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "canonical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "cormela-glamour-thief",
+   "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "crosis-the-purger",
+   "canonical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "cult-of-skaro",
+   "canonical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "davros-dalek-creator",
+   "canonical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "doctor-doom-king-of-latveria",
+   "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "don-andres-the-renegade",
+   "canonical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "dr-eggman",
+   "canonical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "edea-possessed-sorceress",
+   "canonical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "edward-kenway",
+   "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "evelyn-the-covetous",
+   "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "fire-lord-azula",
+   "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "garza-zol-plague-queen",
+   "canonical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "goro-goro-and-satoru",
+   "canonical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "grixistax-october-2026",
+   "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "gwendlyn-di-corci",
+   "canonical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "inalla-archmage-ritualist",
+   "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "jeleva-nephalias-scourge",
+   "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "kefka-court-mage",
+   "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "kess-dissident-mage",
+   "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "loki-the-deceiver",
+   "canonical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "lord-of-tresserhorn",
+   "canonical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "lord-xander-the-collector",
+   "canonical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "lynde-cheerful-tormentor",
+   "canonical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "mai-and-zuko",
+   "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "mairsil-the-pretender",
+   "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "marchesa-dealer-of-death",
+   "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "marchesa-the-black-rose",
+   "canonical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "mishra-artificer-prodigy",
+   "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "mishra-eminent-one",
+   "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "missy",
+   "canonical_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "nathan-drake-treasure-hunter",
+   "canonical_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "nekusar-the-mindrazer",
+   "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "nicol-bolas-the-ravager",
+   "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "nicol-bolas",
+   "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "norman-osborn",
+   "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "obeka-brute-chronologist",
+   "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "obeka-splitter-of-seconds",
+   "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "parnesse-the-subtle-brush",
+   "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "saruman-the-white-hand",
+   "canonical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "sauron-lord-of-the-rings",
+   "canonical_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "sauron-the-dark-lord",
+   "canonical_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "sedris-the-traitor-king",
+   "canonical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "solkanar-the-swamp-king",
+   "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "solkanar-the-tainted",
+   "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "tetsuo-imperial-champion",
+   "canonical_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "tetsuo-umezawa",
+   "canonical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "the-madcap-jester",
+   "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "the-rani",
+   "canonical_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "the-valeyard",
+   "canonical_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "thraximundar",
+   "canonical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "tresserhorns-lord-returned",
+   "canonical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "wick-the-whorled-mind",
+   "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  },
+  {
+   "slug": "zevlor-elturel-exile",
+   "canonical_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+   "accepted_m5_input_complete": true,
+   "m6_artifacts_present": {
+    "optimizer_pass": false,
+    "phase_b": false,
+    "judgment_review": false,
+    "artifact_bundle": false,
+    "zero_improvement_certificate": false
+   },
+   "blockers": [
+    "independent_optimizer_pass_and_reconciliation_missing",
+    "phase_b_test_bundle_missing",
+    "human_judgment_resolution_missing",
+    "receipt_bundle_missing",
+    "zero_improvement_certificate_missing"
+   ],
+   "approval_ready": false
+  }
+ ],
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_change_canonical_list": false,
+  "can_approve_or_lock": false,
+  "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+ }
+}

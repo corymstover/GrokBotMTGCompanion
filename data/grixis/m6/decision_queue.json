@@ -1,0 +1,1565 @@
+{
+ "schema_version": 1,
+ "cycle": 76,
+ "stage": "M6_decision_preparation_queue",
+ "order_source": "data/grixis/birthday_m5/summary.json",
+ "decks": [
+  {
+   "order": 1,
+   "slug": "abaddon-the-despoiler",
+   "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+   "m5_counts": {
+    "candidate_universe": 18462,
+    "full_reviews": 153,
+    "swap_hypotheses": 224,
+    "tests": 189
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/abaddon-the-despoiler.json.gz",
+    "candidate_pool_sha256": "sha256:ad508f286096371040ae9f076eee7f7996bdf708ca6cbb625740487a7e000e6e",
+    "regen": "data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/abaddon-the-despoiler.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 2,
+   "slug": "admiral-beckett-brass",
+   "canonical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 341,
+    "swap_hypotheses": 365,
+    "tests": 344
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/admiral-beckett-brass.json.gz",
+    "candidate_pool_sha256": "sha256:86386cd876ac492e2f7041c897175eb1e00ee945f625e31a02a80e40802ad84f",
+    "regen": "data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/admiral-beckett-brass.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 3,
+   "slug": "admiral-brass-unsinkable",
+   "canonical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 306,
+    "swap_hypotheses": 273,
+    "tests": 228
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/admiral-brass-unsinkable.json.gz",
+    "candidate_pool_sha256": "sha256:8d39df81c5a006c52b47ae3bdee047095c6d0604c0b12bf0c556d79d56c1a9e5",
+    "regen": "data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/admiral-brass-unsinkable.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 4,
+   "slug": "anhelo-the-painter",
+   "canonical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+   "m5_counts": {
+    "candidate_universe": 18462,
+    "full_reviews": 359,
+    "swap_hypotheses": 431,
+    "tests": 381
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/anhelo-the-painter.json.gz",
+    "candidate_pool_sha256": "sha256:1f264f0af51e1511e96c0bb3af9b0eea2146dcc9bd398005b838d1dcc397c06d",
+    "regen": "data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/anhelo-the-painter.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 5,
+   "slug": "ashad-the-lone-cyberman",
+   "canonical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+   "m5_counts": {
+    "candidate_universe": 18461,
+    "full_reviews": 480,
+    "swap_hypotheses": 517,
+    "tests": 482
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/ashad-the-lone-cyberman.json.gz",
+    "candidate_pool_sha256": "sha256:ecdff3e620b2e9d6d0e8e8ab45df106c3e4aaa33b758a2cd22f033c0da6b50e5",
+    "regen": "data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/ashad-the-lone-cyberman.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 6,
+   "slug": "ashnod-the-uncaring",
+   "canonical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+   "m5_counts": {
+    "candidate_universe": 18461,
+    "full_reviews": 569,
+    "swap_hypotheses": 749,
+    "tests": 622
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/ashnod-the-uncaring.json.gz",
+    "candidate_pool_sha256": "sha256:36f3ea54719c57ac47616841ccb5f63bf0307610d0958f6a4eaed335ca01e632",
+    "regen": "data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/ashnod-the-uncaring.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 7,
+   "slug": "belakor-the-dark-master",
+   "canonical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+   "m5_counts": {
+    "candidate_universe": 18462,
+    "full_reviews": 269,
+    "swap_hypotheses": 318,
+    "tests": 261
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/belakor-the-dark-master.json.gz",
+    "candidate_pool_sha256": "sha256:43c32d401fe64eac729ce602098772b95101940458c0e8ed1246b35eb03de77b",
+    "regen": "data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/belakor-the-dark-master.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 8,
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "canonical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+   "m5_counts": {
+    "candidate_universe": 18458,
+    "full_reviews": 237,
+    "swap_hypotheses": 284,
+    "tests": 217
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/bjorna-nightfall-alchemist-cecily.json.gz",
+    "candidate_pool_sha256": "sha256:9cf57b90a9c4418ff1b4011c3c6ec134e9505851a9d3ae678ced1841fc419bd4",
+    "regen": "data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/bjorna-nightfall-alchemist-cecily.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 9,
+   "slug": "cormela-glamour-thief",
+   "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "m5_counts": {
+    "candidate_universe": 18456,
+    "full_reviews": 256,
+    "swap_hypotheses": 408,
+    "tests": 403
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/cormela-glamour-thief.json.gz",
+    "candidate_pool_sha256": "sha256:0b4c929236a5c6adcc2ee04db90596f02d93c99797fa4d809d0ad30c55ae8162",
+    "regen": "data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/cormela-glamour-thief.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 10,
+   "slug": "crosis-the-purger",
+   "canonical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "m5_counts": {
+    "candidate_universe": 18464,
+    "full_reviews": 95,
+    "swap_hypotheses": 124,
+    "tests": 90
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/crosis-the-purger.json.gz",
+    "candidate_pool_sha256": "sha256:f4450c9cf03ddc028c4134d7408969dea79e7b3c79e5ccf5c50eff662ede8aa2",
+    "regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 11,
+   "slug": "cult-of-skaro",
+   "canonical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+   "m5_counts": {
+    "candidate_universe": 18462,
+    "full_reviews": 148,
+    "swap_hypotheses": 198,
+    "tests": 153
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/cult-of-skaro.json.gz",
+    "candidate_pool_sha256": "sha256:4ed163b71119bc5ed3f0f6d41c0d6700f13f05fbd54c31d308dade7671319f33",
+    "regen": "data/grixis/birthday_m5/regen/cult-of-skaro.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/cult-of-skaro.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 12,
+   "slug": "davros-dalek-creator",
+   "canonical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+   "m5_counts": {
+    "candidate_universe": 18461,
+    "full_reviews": 129,
+    "swap_hypotheses": 188,
+    "tests": 177
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/davros-dalek-creator.json.gz",
+    "candidate_pool_sha256": "sha256:e6da8fed47d3d002fdd5e5edb405126b0e038f0ea41ad2ab6bfde37e72721c60",
+    "regen": "data/grixis/birthday_m5/regen/davros-dalek-creator.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/davros-dalek-creator.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 13,
+   "slug": "doctor-doom-king-of-latveria",
+   "canonical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+   "m5_counts": {
+    "candidate_universe": 18456,
+    "full_reviews": 318,
+    "swap_hypotheses": 332,
+    "tests": 286
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/doctor-doom-king-of-latveria.json.gz",
+    "candidate_pool_sha256": "sha256:678291f940c42c074102f3498c950735bdb6b86513da13d8dc74b4d4508589cd",
+    "regen": "data/grixis/birthday_m5/regen/doctor-doom-king-of-latveria.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/doctor-doom-king-of-latveria.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 14,
+   "slug": "don-andres-the-renegade",
+   "canonical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+   "m5_counts": {
+    "candidate_universe": 18457,
+    "full_reviews": 263,
+    "swap_hypotheses": 222,
+    "tests": 160
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/don-andres-the-renegade.json.gz",
+    "candidate_pool_sha256": "sha256:ef2ae28c2c75d47a363eaf4d48bf15d53c25ee37b082924872a22a68ebd00bcb",
+    "regen": "data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/don-andres-the-renegade.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 15,
+   "slug": "dr-eggman",
+   "canonical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 293,
+    "swap_hypotheses": 326,
+    "tests": 283
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/dr-eggman.json.gz",
+    "candidate_pool_sha256": "sha256:1ead999153dbd69d27cc5163ce639d6ed7d11203e85389a60b09bd465b157f05",
+    "regen": "data/grixis/birthday_m5/regen/dr-eggman.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/dr-eggman.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 16,
+   "slug": "edea-possessed-sorceress",
+   "canonical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+   "m5_counts": {
+    "candidate_universe": 18462,
+    "full_reviews": 155,
+    "swap_hypotheses": 193,
+    "tests": 160
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/edea-possessed-sorceress.json.gz",
+    "candidate_pool_sha256": "sha256:7893b3df016a65843f9bf56ed4b04119998b2393e84ba0d56f3094a90e099dcb",
+    "regen": "data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/edea-possessed-sorceress.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 17,
+   "slug": "edward-kenway",
+   "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "m5_counts": {
+    "candidate_universe": 18458,
+    "full_reviews": 449,
+    "swap_hypotheses": 469,
+    "tests": 345
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/edward-kenway.json.gz",
+    "candidate_pool_sha256": "sha256:74d587efe7263ee97ba6ca60bb8de1111c7818c06f778b8e30043adf37661375",
+    "regen": "data/grixis/birthday_m5/regen/edward-kenway.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/edward-kenway.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 18,
+   "slug": "evelyn-the-covetous",
+   "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "m5_counts": {
+    "candidate_universe": 18455,
+    "full_reviews": 168,
+    "swap_hypotheses": 224,
+    "tests": 156
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/evelyn-the-covetous.json.gz",
+    "candidate_pool_sha256": "sha256:3a087b33aa015405e5427eaa881bff465b85082fd95e10b1eb8195c55f49cca3",
+    "regen": "data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/evelyn-the-covetous.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 19,
+   "slug": "fire-lord-azula",
+   "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "m5_counts": {
+    "candidate_universe": 18453,
+    "full_reviews": 160,
+    "swap_hypotheses": 231,
+    "tests": 223
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/fire-lord-azula.json.gz",
+    "candidate_pool_sha256": "sha256:c41cdf66d52fab8e2cea6595dd600f17f7956b828ad06c6f34140b5f43e76942",
+    "regen": "data/grixis/birthday_m5/regen/fire-lord-azula.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/fire-lord-azula.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 20,
+   "slug": "garza-zol-plague-queen",
+   "canonical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "m5_counts": {
+    "candidate_universe": 18456,
+    "full_reviews": 115,
+    "swap_hypotheses": 142,
+    "tests": 110
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/garza-zol-plague-queen.json.gz",
+    "candidate_pool_sha256": "sha256:cde9237fb9c7ae9759b1eba315787852655d674732cb03256731587d43a945c6",
+    "regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 21,
+   "slug": "goro-goro-and-satoru",
+   "canonical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+   "m5_counts": {
+    "candidate_universe": 18457,
+    "full_reviews": 334,
+    "swap_hypotheses": 355,
+    "tests": 273
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/goro-goro-and-satoru.json.gz",
+    "candidate_pool_sha256": "sha256:62edf614a6caddf761411166062710d85c4468325d477f89841062f26b9057e4",
+    "regen": "data/grixis/birthday_m5/regen/goro-goro-and-satoru.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/goro-goro-and-satoru.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 22,
+   "slug": "grixistax-october-2026",
+   "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "m5_counts": {
+    "candidate_universe": 18456,
+    "full_reviews": 138,
+    "swap_hypotheses": 166,
+    "tests": 141
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/grixistax-october-2026.json.gz",
+    "candidate_pool_sha256": "sha256:a2dad8a4025f778ade4c78fc8b18a85e3b1bddc84b4b51eab8f9940bbd1d3939",
+    "regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 23,
+   "slug": "gwendlyn-di-corci",
+   "canonical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "m5_counts": {
+    "candidate_universe": 18462,
+    "full_reviews": 98,
+    "swap_hypotheses": 129,
+    "tests": 91
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/gwendlyn-di-corci.json.gz",
+    "candidate_pool_sha256": "sha256:49c586177c345d2fb407a13ceec94fad05e48b2c76c5658c32a81ebfce80db85",
+    "regen": "data/grixis/birthday_m5/regen/gwendlyn-di-corci.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/gwendlyn-di-corci.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 24,
+   "slug": "inalla-archmage-ritualist",
+   "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "m5_counts": {
+    "candidate_universe": 18455,
+    "full_reviews": 379,
+    "swap_hypotheses": 479,
+    "tests": 312
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/inalla-archmage-ritualist.json.gz",
+    "candidate_pool_sha256": "sha256:1be91fd91e0a8e3570362c2509effeabecea95d7c19b49f8b290389a868eb074",
+    "regen": "data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/inalla-archmage-ritualist.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 25,
+   "slug": "jeleva-nephalias-scourge",
+   "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "m5_counts": {
+    "candidate_universe": 18455,
+    "full_reviews": 179,
+    "swap_hypotheses": 241,
+    "tests": 205
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/jeleva-nephalias-scourge.json.gz",
+    "candidate_pool_sha256": "sha256:d531217ccce5e918eb04ecfa88974fdb524befbc4d090219f4426652eaabaad9",
+    "regen": "data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/jeleva-nephalias-scourge.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 26,
+   "slug": "kefka-court-mage",
+   "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "m5_counts": {
+    "candidate_universe": 18454,
+    "full_reviews": 160,
+    "swap_hypotheses": 212,
+    "tests": 192
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/kefka-court-mage.json.gz",
+    "candidate_pool_sha256": "sha256:97358cf72707c40cefb773b7fed4ba5d0a07209c4da22d9b8df4bca17fe9d5a6",
+    "regen": "data/grixis/birthday_m5/regen/kefka-court-mage.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/kefka-court-mage.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 27,
+   "slug": "kess-dissident-mage",
+   "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "m5_counts": {
+    "candidate_universe": 18453,
+    "full_reviews": 169,
+    "swap_hypotheses": 203,
+    "tests": 176
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/kess-dissident-mage.json.gz",
+    "candidate_pool_sha256": "sha256:142a0524ed42708f44a2c63e2a06b270e1c9ef1dd5bcbc2bbc1dc4d2328c5f48",
+    "regen": "data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/kess-dissident-mage.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 28,
+   "slug": "loki-the-deceiver",
+   "canonical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+   "m5_counts": {
+    "candidate_universe": 18461,
+    "full_reviews": 451,
+    "swap_hypotheses": 471,
+    "tests": 403
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/loki-the-deceiver.json.gz",
+    "candidate_pool_sha256": "sha256:ec706d46849ae79ad172976e19763266a1979361e32db6778aff5f23b098f21d",
+    "regen": "data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/loki-the-deceiver.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 29,
+   "slug": "lord-of-tresserhorn",
+   "canonical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+   "m5_counts": {
+    "candidate_universe": 18458,
+    "full_reviews": 203,
+    "swap_hypotheses": 314,
+    "tests": 288
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/lord-of-tresserhorn.json.gz",
+    "candidate_pool_sha256": "sha256:b62b09c5cd9fddcc761fa2e7c06021b656997a39be7c4dc2750cc476d3ba7467",
+    "regen": "data/grixis/birthday_m5/regen/lord-of-tresserhorn.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/lord-of-tresserhorn.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 30,
+   "slug": "lord-xander-the-collector",
+   "canonical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 156,
+    "swap_hypotheses": 242,
+    "tests": 212
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/lord-xander-the-collector.json.gz",
+    "candidate_pool_sha256": "sha256:1c8e971f90936146215dc1a833f81ca2c69b6719627a602203606eeb5a66ef03",
+    "regen": "data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/lord-xander-the-collector.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 31,
+   "slug": "lynde-cheerful-tormentor",
+   "canonical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "m5_counts": {
+    "candidate_universe": 18463,
+    "full_reviews": 81,
+    "swap_hypotheses": 83,
+    "tests": 48
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/lynde-cheerful-tormentor.json.gz",
+    "candidate_pool_sha256": "sha256:b4a636b75a968a716f1aac02ab817d55b6de3e3020b738d5f31a33310979027e",
+    "regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 32,
+   "slug": "mai-and-zuko",
+   "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+   "m5_counts": {
+    "candidate_universe": 18453,
+    "full_reviews": 347,
+    "swap_hypotheses": 422,
+    "tests": 346
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/mai-and-zuko.json.gz",
+    "candidate_pool_sha256": "sha256:85287956300ea31f070c1ec5d0ba503f55aa397f5eea60004a1d398c7d19afc0",
+    "regen": "data/grixis/birthday_m5/regen/mai-and-zuko.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/mai-and-zuko.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 33,
+   "slug": "mairsil-the-pretender",
+   "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+   "m5_counts": {
+    "candidate_universe": 18456,
+    "full_reviews": 142,
+    "swap_hypotheses": 199,
+    "tests": 182
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/mairsil-the-pretender.json.gz",
+    "candidate_pool_sha256": "sha256:9ce68223fa14b08969f8755ea07cf583d7fb5208d18d6425c6e91caabccf5d3a",
+    "regen": "data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/mairsil-the-pretender.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 34,
+   "slug": "marchesa-dealer-of-death",
+   "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+   "m5_counts": {
+    "candidate_universe": 18453,
+    "full_reviews": 183,
+    "swap_hypotheses": 208,
+    "tests": 152
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/marchesa-dealer-of-death.json.gz",
+    "candidate_pool_sha256": "sha256:b7b56788b3da46f85156cdf6f6031c7a70c91b2015f40c5ff4ec433938b36a77",
+    "regen": "data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/marchesa-dealer-of-death.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 35,
+   "slug": "marchesa-the-black-rose",
+   "canonical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+   "m5_counts": {
+    "candidate_universe": 18458,
+    "full_reviews": 187,
+    "swap_hypotheses": 303,
+    "tests": 282
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/marchesa-the-black-rose.json.gz",
+    "candidate_pool_sha256": "sha256:771cedf123db239b53f2ea13bc9224d5479814733f78a96f809ce6c575894c6b",
+    "regen": "data/grixis/birthday_m5/regen/marchesa-the-black-rose.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/marchesa-the-black-rose.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 36,
+   "slug": "mishra-artificer-prodigy",
+   "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+   "m5_counts": {
+    "candidate_universe": 18456,
+    "full_reviews": 215,
+    "swap_hypotheses": 313,
+    "tests": 281
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/mishra-artificer-prodigy.json.gz",
+    "candidate_pool_sha256": "sha256:8884e53378c25b024feabb23bc68f347b5011714b391e9736a3ad3579e42be43",
+    "regen": "data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/mishra-artificer-prodigy.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 37,
+   "slug": "mishra-eminent-one",
+   "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+   "m5_counts": {
+    "candidate_universe": 18456,
+    "full_reviews": 326,
+    "swap_hypotheses": 514,
+    "tests": 457
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/mishra-eminent-one.json.gz",
+    "candidate_pool_sha256": "sha256:612fa60c7f287cb6e3c1b4e801157f0160cfd7b3a08b7be2b036533736451f3c",
+    "regen": "data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/mishra-eminent-one.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 38,
+   "slug": "missy",
+   "canonical_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 347,
+    "swap_hypotheses": 376,
+    "tests": 216
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/missy.json.gz",
+    "candidate_pool_sha256": "sha256:373c461494cae60e3220d731141c8cf2edb84234ecd71b2293f7cc8b28322211",
+    "regen": "data/grixis/birthday_m5/regen/missy.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/missy.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 39,
+   "slug": "nathan-drake-treasure-hunter",
+   "canonical_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 330,
+    "swap_hypotheses": 333,
+    "tests": 234
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/nathan-drake-treasure-hunter.json.gz",
+    "candidate_pool_sha256": "sha256:6c844994e6f7d0258c5c3c0f816d2ea527476422ced64f55980d29e9b6d9dc66",
+    "regen": "data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/nathan-drake-treasure-hunter.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 40,
+   "slug": "nekusar-the-mindrazer",
+   "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 256,
+    "swap_hypotheses": 296,
+    "tests": 186
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/nekusar-the-mindrazer.json.gz",
+    "candidate_pool_sha256": "sha256:f551265123bb01efd67c93d7d5518e811c3d47a4ce4d65919cc1e28147588c50",
+    "regen": "data/grixis/birthday_m5/regen/nekusar-the-mindrazer.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/nekusar-the-mindrazer.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 41,
+   "slug": "nicol-bolas-the-ravager",
+   "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+   "m5_counts": {
+    "candidate_universe": 18458,
+    "full_reviews": 109,
+    "swap_hypotheses": 139,
+    "tests": 110
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/nicol-bolas-the-ravager.json.gz",
+    "candidate_pool_sha256": "sha256:58d6c9ce8199698ed3f387cd5c099ba644484999f599ccd5ecaf2756f1848a2c",
+    "regen": "data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/nicol-bolas-the-ravager.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 42,
+   "slug": "nicol-bolas",
+   "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+   "m5_counts": {
+    "candidate_universe": 18457,
+    "full_reviews": 130,
+    "swap_hypotheses": 161,
+    "tests": 139
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/nicol-bolas.json.gz",
+    "candidate_pool_sha256": "sha256:27a5b96d9b03dd8f4e9c60eeb386347ae9cc88dd32e025cb329d6c1be97873d0",
+    "regen": "data/grixis/birthday_m5/regen/nicol-bolas.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/nicol-bolas.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 43,
+   "slug": "norman-osborn",
+   "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "m5_counts": {
+    "candidate_universe": 18453,
+    "full_reviews": 181,
+    "swap_hypotheses": 231,
+    "tests": 178
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/norman-osborn.json.gz",
+    "candidate_pool_sha256": "sha256:f007ed6e317d48a075cc82f50311ac503a1aafa2e2afe17c2c6432856efff1d1",
+    "regen": "data/grixis/birthday_m5/regen/norman-osborn.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/norman-osborn.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 44,
+   "slug": "obeka-brute-chronologist",
+   "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+   "m5_counts": {
+    "candidate_universe": 18456,
+    "full_reviews": 197,
+    "swap_hypotheses": 295,
+    "tests": 267
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/obeka-brute-chronologist.json.gz",
+    "candidate_pool_sha256": "sha256:e28fce6f78a5dd355f86341c82399ce01f7b16568fc4f2d93bd33e4b2eb61d43",
+    "regen": "data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/obeka-brute-chronologist.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 45,
+   "slug": "obeka-splitter-of-seconds",
+   "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "m5_counts": {
+    "candidate_universe": 18460,
+    "full_reviews": 110,
+    "swap_hypotheses": 120,
+    "tests": 92
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/obeka-splitter-of-seconds.json.gz",
+    "candidate_pool_sha256": "sha256:b87420f9f1fde21666dc48d2be71d5b75e63fce256265e0a0a5ade2ab1283b7c",
+    "regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 46,
+   "slug": "parnesse-the-subtle-brush",
+   "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+   "m5_counts": {
+    "candidate_universe": 18460,
+    "full_reviews": 171,
+    "swap_hypotheses": 258,
+    "tests": 222
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/parnesse-the-subtle-brush.json.gz",
+    "candidate_pool_sha256": "sha256:aab467b2540113c4622731d38ed56ed9efe40d729d76a65a07e54e81dcb0929c",
+    "regen": "data/grixis/birthday_m5/regen/parnesse-the-subtle-brush.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/parnesse-the-subtle-brush.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 47,
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+   "m5_counts": {
+    "candidate_universe": 18453,
+    "full_reviews": 67,
+    "swap_hypotheses": 91,
+    "tests": 82
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/rograkh-son-of-rohgahh-silas-renn.json.gz",
+    "candidate_pool_sha256": "sha256:87f426ef32aa571bbb0b99668bc8f716399e96d0daade0d6884b17118c0e946b",
+    "regen": "data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/rograkh-son-of-rohgahh-silas-renn.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 48,
+   "slug": "saruman-the-white-hand",
+   "canonical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 154,
+    "swap_hypotheses": 171,
+    "tests": 131
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/saruman-the-white-hand.json.gz",
+    "candidate_pool_sha256": "sha256:2c394caccb7cd228230a53bac13e21981ef2ea29bfbe66822fe6b13b979ef4c1",
+    "regen": "data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/saruman-the-white-hand.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 49,
+   "slug": "sauron-lord-of-the-rings",
+   "canonical_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "m5_counts": {
+    "candidate_universe": 18460,
+    "full_reviews": 124,
+    "swap_hypotheses": 149,
+    "tests": 103
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/sauron-lord-of-the-rings.json.gz",
+    "candidate_pool_sha256": "sha256:15eb000854ece14ccd0fd8bd90f26327c8f05973e042e51d99e3f187b35ed020",
+    "regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 50,
+   "slug": "sauron-the-dark-lord",
+   "canonical_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "m5_counts": {
+    "candidate_universe": 18465,
+    "full_reviews": 141,
+    "swap_hypotheses": 143,
+    "tests": 82
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/sauron-the-dark-lord.json.gz",
+    "candidate_pool_sha256": "sha256:3782c9a2cc059d40ac4bdb3820ee81c2b721a01fa40f04435185bb9c9b4cc12e",
+    "regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 51,
+   "slug": "sedris-the-traitor-king",
+   "canonical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+   "m5_counts": {
+    "candidate_universe": 18457,
+    "full_reviews": 150,
+    "swap_hypotheses": 197,
+    "tests": 165
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/sedris-the-traitor-king.json.gz",
+    "candidate_pool_sha256": "sha256:347e633c423b449584484758e6bf0e179cd0ef8e284a1ed12bf204a728ca1ebd",
+    "regen": "data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/sedris-the-traitor-king.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 52,
+   "slug": "solkanar-the-swamp-king",
+   "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 175,
+    "swap_hypotheses": 229,
+    "tests": 201
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/solkanar-the-swamp-king.json.gz",
+    "candidate_pool_sha256": "sha256:8c452c94c91d9e4a06ace69d4b33bf3035bfc668be533e3ad7c7f338c28f877c",
+    "regen": "data/grixis/birthday_m5/regen/solkanar-the-swamp-king.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/solkanar-the-swamp-king.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 53,
+   "slug": "solkanar-the-tainted",
+   "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "m5_counts": {
+    "candidate_universe": 18463,
+    "full_reviews": 63,
+    "swap_hypotheses": 81,
+    "tests": 56
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/solkanar-the-tainted.json.gz",
+    "candidate_pool_sha256": "sha256:b6815e71046c073f411d4f2ef9abec34e08abd0753ffe57efb8a586d8d797b3a",
+    "regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 54,
+   "slug": "tetsuo-imperial-champion",
+   "canonical_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "m5_counts": {
+    "candidate_universe": 18465,
+    "full_reviews": 123,
+    "swap_hypotheses": 156,
+    "tests": 122
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/tetsuo-imperial-champion.json.gz",
+    "candidate_pool_sha256": "sha256:edd43754b8fba3bfb9c55284d1504cbac41c7a6e1695f4cc9fa54cb762d1c4ab",
+    "regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 55,
+   "slug": "tetsuo-umezawa",
+   "canonical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "m5_counts": {
+    "candidate_universe": 18469,
+    "full_reviews": 76,
+    "swap_hypotheses": 86,
+    "tests": 59
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/tetsuo-umezawa.json.gz",
+    "candidate_pool_sha256": "sha256:9d8c3bf5ace018f203aa1db3145d566cad170409af07b49a88243289cbd92c9d",
+    "regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 56,
+   "slug": "the-madcap-jester",
+   "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "m5_counts": {
+    "candidate_universe": 18456,
+    "full_reviews": 123,
+    "swap_hypotheses": 150,
+    "tests": 121
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/the-madcap-jester.json.gz",
+    "candidate_pool_sha256": "sha256:a8a39d0aa08bead9afd77af3e75ffa85f1823090d5db3f84e92f2e6995d02bf7",
+    "regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 57,
+   "slug": "the-rani",
+   "canonical_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+   "m5_counts": {
+    "candidate_universe": 18462,
+    "full_reviews": 131,
+    "swap_hypotheses": 173,
+    "tests": 119
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/the-rani.json.gz",
+    "candidate_pool_sha256": "sha256:cc69ef3d97772a150a5c75d4f2381b780c0ac01c1a02d51fc1416534f06ac2ca",
+    "regen": "data/grixis/birthday_m5/regen/the-rani.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/the-rani.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 58,
+   "slug": "the-valeyard",
+   "canonical_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "m5_counts": {
+    "candidate_universe": 18460,
+    "full_reviews": 81,
+    "swap_hypotheses": 94,
+    "tests": 65
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/the-valeyard.json.gz",
+    "candidate_pool_sha256": "sha256:77a6c2c812a9127a05fbe5c05c46514dc08eed191ef54375dfbc388f4ce7b6bc",
+    "regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 59,
+   "slug": "thraximundar",
+   "canonical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+   "m5_counts": {
+    "candidate_universe": 18463,
+    "full_reviews": 235,
+    "swap_hypotheses": 376,
+    "tests": 328
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/thraximundar.json.gz",
+    "candidate_pool_sha256": "sha256:4d9d34759f114ad766ead8771477485ba703d7efc8df98f2e2f02ef7adf834f6",
+    "regen": "data/grixis/birthday_m5/regen/thraximundar.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/thraximundar.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 60,
+   "slug": "tresserhorns-lord-returned",
+   "canonical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+   "m5_counts": {
+    "candidate_universe": 18464,
+    "full_reviews": 299,
+    "swap_hypotheses": 425,
+    "tests": 366
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/tresserhorns-lord-returned.json.gz",
+    "candidate_pool_sha256": "sha256:cdc866fc2da76cf82c7edcf195c243a0f882410519cbb27050dd5d2521ed46aa",
+    "regen": "data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/tresserhorns-lord-returned.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 61,
+   "slug": "wick-the-whorled-mind",
+   "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+   "m5_counts": {
+    "candidate_universe": 18457,
+    "full_reviews": 264,
+    "swap_hypotheses": 374,
+    "tests": 355
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/wick-the-whorled-mind.json.gz",
+    "candidate_pool_sha256": "sha256:bb640f97864fa20e9ddca8b74678ffeb688819cfc99f0c624d508503f8ad1157",
+    "regen": "data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/wick-the-whorled-mind.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  },
+  {
+   "order": 62,
+   "slug": "zevlor-elturel-exile",
+   "canonical_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+   "m5_counts": {
+    "candidate_universe": 18459,
+    "full_reviews": 187,
+    "swap_hypotheses": 186,
+    "tests": 146
+   },
+   "accepted_m5_inputs": {
+    "candidate_pool": "data/grixis/birthday_m5/candidates/zevlor-elturel-exile.json.gz",
+    "candidate_pool_sha256": "sha256:ac638870b86579f759bf4bd5cade616410cb1322c3b675165e69d9a54f25f91e",
+    "regen": "data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz",
+    "evidence": "data/grixis/birthday_m5/evidence/zevlor-elturel-exile.json"
+   },
+   "next_required_stage": "independent_optimizer_passes",
+   "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false,
+    "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+   }
+  }
+ ],
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_change_canonical_list": false,
+  "can_approve_or_lock": false,
+  "note": "M6 preflight and queue are decision-preparation evidence only. Human approval remains required for any deck change, approval, or lock."
+ }
+}
