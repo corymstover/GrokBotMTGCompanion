@@ -1,0 +1,84 @@
+name: Temporary ChatGPT Step C integration
+
+on:
+  push:
+    branches: [chatgpt-cycle68-6-mana-integration]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle68-6-mana-integration
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Focused Step C tests
+        run: python -m pytest -q tests/test_mana_step.py tests/test_mana_resilience.py tests/test_mana_opportunity.py tests/test_mana_timing.py tests/test_mana_base.py
+      - name: Build gain proof
+        run: |
+          python scripts/grixis_mana_quality_gain.py --build
+          python scripts/grixis_mana_quality_gain.py --check
+      - name: Cache-independent Step C closure check
+        run: python scripts/grixis_mana_step.py --check
+      - name: Wire validate_all and update plan
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p=Path('scripts/validate_all.py')
+          text=p.read_text()
+          needle='             ("combo-quality-gain", ["scripts/grixis_combo_quality_gain.py", "--check"]),  # Step B acceptance criterion 9\n'
+          insert='             ("mana-step", ["scripts/grixis_mana_step.py", "--check"]),  # Step C: cache-independent layers + explicit 68.3 pending/validated closure\n'
+          if insert not in text:
+              if needle not in text: raise SystemExit('validate_all insertion anchor missing')
+              text=text.replace(needle,needle+insert)
+              p.write_text(text)
+
+          up=Path('data/grixis/upgrade_plan.json')
+          d=json.loads(up.read_text())
+          c=next(x for x in d['steps'] if x['id']=='C')
+          c['status']='code_complete_pending_local_cache_validation'
+          c['batches']=[
+            '68.1 static mana-base baseline, pip demand, land/MDFC counts, fast mana and source inventory',
+            '68.2 source timing, fetch/dual target validation and exact distinct-source colored readiness',
+            '68.3 commander casting, fast-mana delta and tax recovery (code-ready; frozen-local-cache outputs/validation pending)',
+            '68.4 utility-land/MDFC opportunity-cost and Commander-first land/type signals',
+            '68.5 mana/color-screw complements, one-source-unavailable structural sensitivity and fetch-target redundancy',
+            '68.6 validate_all integration + real-deck decision-resolution gain proof; Step C code complete except 68.3 local-cache closure'
+          ]
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 68.6 (2026-10-16)'
+          tc=next(x for x in tr['stages'] if x['id']=='C')
+          tc['batches_done']=5; tc['status']='code_complete_pending_local_cache_validation'
+          tc['note']='5/6 batch-equivalents complete through 68.6. Cache-independent Step C is integrated and gain-proven; the final equivalent is 68.3 commander-cast/tax output generation + validation on the frozen local Scryfall cache.'
+          tr['batches_done']=32; tr['percent_complete']=51.2
+          up.write_text(json.dumps(d,indent=1,ensure_ascii=False)+"\n")
+
+          md=Path('grixis/Grixis Birthday Upgrade Plan.md')
+          t=md.read_text(); marker='### Step C batch 68.6: integration and decision-resolution gain proof'
+          if marker not in t:
+              t += '''\n\n### Step C batch 68.6: integration and decision-resolution gain proof\n\n- `scripts/grixis_mana_step.py --check` is the Step C integration gate. It requires all four cache-independent 62-deck evidence layers plus the gain proof to validate.\n- Commander-mana 68.3 is handled explicitly: zero generated records is `pending_local_cache_validation`, 1–61 is an error, and 62 records are validated normally. CI therefore cannot silently mistake missing local-cache work for completion.\n- `data/grixis/mana_quality_gain.json` demonstrates real before/after decision resolution for timing/conditional sources, MDFC optionality, utility-land burden versus Commander-first support, and source/fetch resilience. It makes zero automatic land-swap decisions.\n- `validate_all` now includes the `mana-step` gate. Step C is code-complete except for the declared 68.3 frozen-local-cache output/validation closure item.\n'''
+              md.write_text(t)
+          PY
+      - name: Validate integrated gate
+        run: python scripts/validate_all.py --only mana-step
+      - name: Assert no frozen development snapshot metadata changed
+        run: git diff --exit-code HEAD -- data/grixis/dev_snapshot_lock.json
+      - name: Commit generated/integration artifacts and cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/chatgpt-mana-integration-build.yml
+          git add scripts/validate_all.py data/grixis/mana_quality_gain.json data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md'
+          git commit -m "ChatGPT cycle 68.6: finalize Step C integration [skip ci]"
+          git push
