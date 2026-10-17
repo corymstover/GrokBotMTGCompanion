@@ -1,0 +1,593 @@
+{
+ "decks": [
+  {
+   "deck_id": "Abaddon_the_Despoiler",
+   "slug": "abaddon-the-despoiler",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Admiral_Beckett_Brass",
+   "slug": "admiral-beckett-brass",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "slug": "admiral-brass-unsinkable",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Anhelo__the_Painter",
+   "slug": "anhelo-the-painter",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "slug": "ashad-the-lone-cyberman",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Ashnod_the_Uncaring",
+   "slug": "ashnod-the-uncaring",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "slug": "belakor-the-dark-master",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Cormela__Glamour_Thief",
+   "slug": "cormela-glamour-thief",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Crosis__the_Purger",
+   "slug": "crosis-the-purger",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Cult_of_Skaro",
+   "slug": "cult-of-skaro",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Davros__Dalek_Creator",
+   "slug": "davros-dalek-creator",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "slug": "doctor-doom-king-of-latveria",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Don_Andres__the_Renegade",
+   "slug": "don-andres-the-renegade",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Dr__Eggman",
+   "slug": "dr-eggman",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Edea__Possessed_Sorceress",
+   "slug": "edea-possessed-sorceress",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Edward_Kenway",
+   "slug": "edward-kenway",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Evelyn__the_Covetous",
+   "slug": "evelyn-the-covetous",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Fire_Lord_Azula",
+   "slug": "fire-lord-azula",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "slug": "garza-zol-plague-queen",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Goro_Goro_and_Satoru",
+   "slug": "goro-goro-and-satoru",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Grixistax___October_2026",
+   "slug": "grixistax-october-2026",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Gwendlyn_Di_Corci",
+   "slug": "gwendlyn-di-corci",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "slug": "inalla-archmage-ritualist",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "slug": "jeleva-nephalias-scourge",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Kefka__Court_Mage",
+   "slug": "kefka-court-mage",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Kess__Dissident_Mage",
+   "slug": "kess-dissident-mage",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Loki__the_Deceiver",
+   "slug": "loki-the-deceiver",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Lord_of_Tresserhorn",
+   "slug": "lord-of-tresserhorn",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Lord_Xander__the_Collector",
+   "slug": "lord-xander-the-collector",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "slug": "lynde-cheerful-tormentor",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Mai_and_Zuko",
+   "slug": "mai-and-zuko",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Mairsil__the_Pretender",
+   "slug": "mairsil-the-pretender",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "slug": "marchesa-dealer-of-death",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Marchesa__the_Black_Rose",
+   "slug": "marchesa-the-black-rose",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "slug": "mishra-artificer-prodigy",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Mishra__Eminent_One",
+   "slug": "mishra-eminent-one",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Missy",
+   "slug": "missy",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "slug": "nathan-drake-treasure-hunter",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Nekusar__the_Mindrazer",
+   "slug": "nekusar-the-mindrazer",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Nicol_Bolas",
+   "slug": "nicol-bolas",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "slug": "nicol-bolas-the-ravager",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "slug": "norman-osborn",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Obeka__Brute_Chronologist",
+   "slug": "obeka-brute-chronologist",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "slug": "obeka-splitter-of-seconds",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "slug": "parnesse-the-subtle-brush",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "RogSi",
+   "slug": "rograkh-son-of-rohgahh-silas-renn",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "Saruman__the_White_Hand",
+   "slug": "saruman-the-white-hand",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "slug": "sauron-lord-of-the-rings",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sauron__the_Dark_Lord",
+   "slug": "sauron-the-dark-lord",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sedris__the_Traitor_King",
+   "slug": "sedris-the-traitor-king",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "slug": "solkanar-the-swamp-king",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Sol_kanar_the_Tainted",
+   "slug": "solkanar-the-tainted",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "slug": "tetsuo-imperial-champion",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Tetsuo_Umezawa",
+   "slug": "tetsuo-umezawa",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "The_Madcap_Jester",
+   "slug": "the-madcap-jester",
+   "statuses": {
+    "judgment_required": 1,
+    "pending_deck_level_module_execution": 2,
+    "reused_existing_test_result": 4,
+    "reused_goldfish_readiness": 1
+   },
+   "suite_family": "B5_competitive"
+  },
+  {
+   "deck_id": "The_Rani",
+   "slug": "the-rani",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "The_Valeyard",
+   "slug": "the-valeyard",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Thraximundar",
+   "slug": "thraximundar",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "slug": "tresserhorns-lord-returned",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Wick__the_Whorled_Mind",
+   "slug": "wick-the-whorled-mind",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  },
+  {
+   "deck_id": "Zevlor__Elturel_Exile",
+   "slug": "zevlor-elturel-exile",
+   "statuses": {
+    "judgment_required": 4,
+    "reused_existing_test_result": 7
+   },
+   "suite_family": "B4_resilience"
+  }
+ ],
+ "generated_by": "scripts/grixis_bracket_stress_runner.py v1",
+ "schema_version": 1,
+ "totals": {
+  "decks": 62
+ }
+}

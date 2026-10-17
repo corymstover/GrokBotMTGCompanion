@@ -1,0 +1,418 @@
+{
+ "aggregate_score": null,
+ "authority": {
+  "can_decide": false,
+  "note": "The packet routes preregistered stresses to evidence or pending review; it never aggregates outcomes or decides swaps."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "deck_id": "Cormela__Glamour_Thief",
+ "evidence_class": "derived_metric",
+ "items": [
+  {
+   "decision_authority": false,
+   "evidence": {
+    "combo_assembled_by_turn": {
+     "10": 0.695,
+     "4": 0.405,
+     "6": 0.521,
+     "8": 0.622
+    },
+    "commander_cast_by_turn": {
+     "10": 0.985,
+     "2": 0.067,
+     "3": 0.471,
+     "4": 0.835,
+     "5": 0.904,
+     "6": 0.937
+    },
+    "evidence_class": "test_result",
+    "note": "These are one-player goldfish readiness/access proxies from the canonical baseline, never multiplayer win probability or a bracket pass/fail by themselves.",
+    "samples": 1000,
+    "simulator": {
+     "model_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+     "name": "grixis_sim",
+     "version": "1.1"
+    },
+    "source": "data/grixis/audit/cormela-glamour-thief.json#baseline_sim",
+    "status": "reused_goldfish_readiness",
+    "win_turn_proxy_by_turn": {
+     "10": 0.687,
+     "4": 0.295,
+     "6": 0.494,
+     "8": 0.611
+    }
+   },
+   "id": "turbo_clock",
+   "kind": "goldfish_threshold",
+   "preregistered_executor": null,
+   "priority_weight": 0.2,
+   "question": "Pressure to present or meaningfully contest early wins; read existing goldfish/combo readiness, not a multiplayer win rate."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "win_turn_proxy_by_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.02
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 0.57,
+     "challenger": 0.53,
+     "ci95": [
+      -0.05807,
+      -0.02193
+     ],
+     "diff": -0.04,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "win_turn_proxy_by_t8"
+    },
+    "record_id": "test:cormela-glamour-thief:stress:first_key_spell_countered:5294ff3d52cd",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.99238,
+       1.0
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 1.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "first_key_spell_countered@T1: the first key spell you cast (a blueprint package card, tutor target or combo piece; not the commander) is countered",
+    "source": "data/grixis/stress/cormela-glamour-thief.json#test:cormela-glamour-thief:stress:first_key_spell_countered:5294ff3d52cd",
+    "status": "reused_existing_test_result"
+   },
+   "id": "first_key_spell_countered",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "first_key_spell_countered",
+   "priority_weight": 0.15,
+   "question": "First material setup/win spell is countered."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "win_turn_proxy_by_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.02
+    },
+    "legacy_verdict": "no_detectable_difference",
+    "primary_result": {
+     "baseline": 0.57,
+     "challenger": 0.564,
+     "ci95": [
+      -0.01278,
+      0.00078
+     ],
+     "diff": -0.006,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "win_turn_proxy_by_t8"
+    },
+    "record_id": "test:cormela-glamour-thief:stress:graveyard_exiled:ddeccca8ed48",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.99238,
+       1.0
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 1.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "graveyard_exiled@T5: your graveyard is exiled at the end of turn T",
+    "source": "data/grixis/stress/cormela-glamour-thief.json#test:cormela-glamour-thief:stress:graveyard_exiled:ddeccca8ed48",
+    "status": "reused_existing_test_result"
+   },
+   "id": "graveyard_exiled",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "graveyard_exiled",
+   "priority_weight": 0.1,
+   "question": "Fast graveyard hate before or during setup."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "commander_bf_turns",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 1.0
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 7.172,
+     "challenger": 2.804,
+     "ci95": [
+      -4.52779,
+      -4.20821
+     ],
+     "diff": -4.368,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "commander_bf_turns"
+    },
+    "record_id": "test:cormela-glamour-thief:stress:commander_removed_twice:9a6fa1d7b43f",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.98251,
+       0.99796
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.994
+     },
+     {
+      "ci95": [
+       0.91282,
+       0.95571
+      ],
+      "method": "share of games with a commander removal in which the commander was recast by turn 10",
+      "metric": "commander_recast_share",
+      "n": 497,
+      "value": 0.93763
+     },
+     {
+      "ci95": [
+       1.74818,
+       1.97714
+      ],
+      "method": "turns from the first removal (end step) to the recast, among games where it was recast",
+      "metric": "recovery_turns",
+      "n": 466,
+      "value": 1.86266
+     },
+     {
+      "ci95": [
+       0.6918,
+       0.76943
+      ],
+      "method": "share of removal games where the commander was recast within 2 turns",
+      "metric": "recovered_within_2_turns_share",
+      "n": 497,
+      "value": 0.73239
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "commander_removed_twice@T4: as once, and again at the end of the first turn after the recast that it is back on the battlefield",
+    "source": "data/grixis/stress/cormela-glamour-thief.json#test:cormela-glamour-thief:stress:commander_removed_twice:9a6fa1d7b43f",
+    "status": "reused_existing_test_result"
+   },
+   "id": "commander_disruption",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "commander_removed_twice",
+   "priority_weight": 0.1,
+   "question": "Repeated commander disruption/tax pressure."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "win_turn_proxy_by_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.02
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 0.57,
+     "challenger": 0.504,
+     "ci95": [
+      -0.08778,
+      -0.04422
+     ],
+     "diff": -0.066,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "win_turn_proxy_by_t8"
+    },
+    "record_id": "test:cormela-glamour-thief:stress:key_engine_exiled:8a4afda69861",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.82683,
+       0.88768
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.86
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "key_engine_exiled@T1: the first engine card (combo piece or identity-core card) to reach the battlefield is exiled at the end of that turn",
+    "source": "data/grixis/stress/cormela-glamour-thief.json#test:cormela-glamour-thief:stress:key_engine_exiled:8a4afda69861",
+    "status": "reused_existing_test_result"
+   },
+   "id": "key_engine_exiled",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "key_engine_exiled",
+   "priority_weight": 0.1,
+   "question": "A central noncommander engine is exiled."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "modules": [
+     {
+      "confidence": "low",
+      "does_not_model": [
+       "whether an opponent actually casts a legal/important target",
+       "soft counters ('unless ... pays')",
+       "conditional target qualifiers",
+       "Force-of-Will-style pitch/resource alternate costs",
+       "colored-mana hold-up",
+       "activation costs for permanent counter abilities",
+       "multiplayer win rates (never produced)"
+      ],
+      "family": "counterspell readiness",
+      "id": "counterspell_density",
+      "limitations": [
+       "Does not evaluate counterspell quality, target breadth or opponent pressure; scope is reported but not weighted."
+      ],
+      "metrics": [
+       "counter_ready_turns_by_turn"
+      ],
+      "models": [
+       "turns by 4/6/8/10 on which a supported counterspell is in hand and normal-cost mana remains unspent",
+       "Fierce-Guardianship-style explicit 'control a commander -> cast without paying' readiness",
+       "supported activated counter abilities: battlefield-available turns (cost not reconstructed)"
+      ],
+      "version": "1"
+     },
+     {
+      "confidence": "low",
+      "does_not_model": [
+       "whether protection has a valuable legal target",
+       "colored mana",
+       "ward cost/effect magnitude",
+       "conditional protection",
+       "redirects/copies, bounce-as-protection, prevention, regeneration, protection-from-color, Teferi-style timing locks",
+       "multiplayer win rates (never produced)"
+      ],
+      "family": "protection availability",
+      "id": "stack_protection",
+      "limitations": [
+       "Protection modes differ materially; this module reports availability only and does not claim a universal value conversion."
+      ],
+      "metrics": [
+       "protection_ready_or_active_turns_by_turn"
+      ],
+      "models": [
+       "supported reactive protection spells: turns in hand with normal-cost mana left unspent",
+       "supported activated/static team/self protection permanents: battlefield-active turns",
+       "direct hexproof/indestructible/phase-out protection and explicit 'spells you control can't be countered'"
+      ],
+      "version": "1"
+     }
+    ],
+    "note": "Step-E modules exist and are routed, but no canonical-deck result is fabricated from swap-level/readiness machinery. Execute in the frozen local environment or consume a future deck-level result.",
+    "requested_executor": "counterspell_stack_protection",
+    "resolved_module_ids": [
+     "counterspell_density",
+     "stack_protection"
+    ],
+    "source": "data/grixis/mechanics/modules.json",
+    "status": "pending_deck_level_module_execution"
+   },
+   "id": "stack_protection",
+   "kind": "mechanic_module",
+   "preregistered_executor": "counterspell_stack_protection",
+   "priority_weight": 0.15,
+   "question": "Can the list protect or force through a compact win under stack interaction?"
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "modules": [
+     {
+      "confidence": "low",
+      "does_not_model": [
+       "whether opponents can/will pay taxes, exact opponent mana curves, or which spells are most important",
+       "Trinisphere-style minimum total costs, dynamic per-spell taxes, type/color/subtype-specific locks outside supported families",
+       "resource denial, mana-base conversion, combat restrictions, graveyard replacement effects, or removal timing",
+       "a universal conversion between tax mana, blocked spells, blocked draws and static-lock uptime",
+       "multiplayer win rates (never produced)"
+      ],
+      "family": "stax/tax static effects",
+      "id": "stax_tax",
+      "limitations": [
+       "Category metrics are intentionally not summed. M6 judgment must consider self-burden, asymmetry and commander-specific leverage.",
+       "Static-lock active rounds measure availability only; opponent dependence is handled later by bracket stress/red-team review."
+      ],
+      "metrics": [
+       "opponent_extra_mana_range",
+       "opponent_spells_blocked_range",
+       "opponent_draws_blocked_range",
+       "static_lock_active_rounds",
+       "self_burden"
+      ],
+      "models": [
+       "fixed spell taxes on opponents or all players: opponent extra-mana demand range",
+       "cast-per-turn caps: opponent spells blocked range under declared spell-volume sensitivity",
+       "draw-per-turn caps: opponent draws blocked range under declared draw-volume sensitivity",
+       "supported static locks (search, cast-during-your-turn, artifact ETB tapped, activated-ability, untap, graveyard-cast, creature-ETB-trigger): active rounds only",
+       "symmetric effects retain an explicit self_burden flag; no composite score hides that cost"
+      ],
+      "version": "1"
+     }
+    ],
+    "note": "Step-E modules exist and are routed, but no canonical-deck result is fabricated from swap-level/readiness machinery. Execute in the frozen local environment or consume a future deck-level result.",
+    "requested_executor": "stax_tax",
+    "resolved_module_ids": [
+     "stax_tax"
+    ],
+    "source": "data/grixis/mechanics/modules.json",
+    "status": "pending_deck_level_module_execution"
+   },
+   "id": "stax_tax",
+   "kind": "mechanic_module",
+   "preregistered_executor": "stax_tax",
+   "priority_weight": 0.15,
+   "question": "Sensitivity to relevant stax/tax categories; categories remain separate."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+    "status": "judgment_required"
+   },
+   "id": "protected_win_red_team",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows."
+  }
+ ],
+ "limitations": [
+  "Existing M3 stress records are reused rather than silently rerun under new thresholds.",
+  "Goldfish readiness is not multiplayer win probability.",
+  "Step-E mechanic modules remain bounded/readiness proxies and may require local deck-level execution.",
+  "Judgment prompts remain unanswered by automation.",
+  "Priority weights allocate attention only and are not outcome weights."
+ ],
+ "schema_version": 1,
+ "slug": "cormela-glamour-thief",
+ "status": "evidence_routed",
+ "suite_family": "B5_competitive",
+ "suite_source": "data/grixis/bracket_stress/cormela-glamour-thief.json",
+ "weight_semantics": "review_priority_only_not_outcome_score"
+}

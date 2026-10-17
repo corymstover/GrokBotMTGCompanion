@@ -1,0 +1,418 @@
+{
+ "aggregate_score": null,
+ "authority": {
+  "can_decide": false,
+  "note": "The packet routes preregistered stresses to evidence or pending review; it never aggregates outcomes or decides swaps."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+ "deck_id": "Fire_Lord_Azula",
+ "evidence_class": "derived_metric",
+ "items": [
+  {
+   "decision_authority": false,
+   "evidence": {
+    "combo_assembled_by_turn": {
+     "10": 0.474,
+     "4": 0.17,
+     "6": 0.292,
+     "8": 0.387
+    },
+    "commander_cast_by_turn": {
+     "10": 0.966,
+     "2": 0.095,
+     "3": 0.49,
+     "4": 0.779,
+     "5": 0.838,
+     "6": 0.882
+    },
+    "evidence_class": "test_result",
+    "note": "These are one-player goldfish readiness/access proxies from the canonical baseline, never multiplayer win probability or a bracket pass/fail by themselves.",
+    "samples": 1000,
+    "simulator": {
+     "model_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+     "name": "grixis_sim",
+     "version": "1.1"
+    },
+    "source": "data/grixis/audit/fire-lord-azula.json#baseline_sim",
+    "status": "reused_goldfish_readiness",
+    "win_turn_proxy_by_turn": {
+     "10": 0.469,
+     "4": 0.121,
+     "6": 0.262,
+     "8": 0.373
+    }
+   },
+   "id": "turbo_clock",
+   "kind": "goldfish_threshold",
+   "preregistered_executor": null,
+   "priority_weight": 0.2,
+   "question": "Pressure to present or meaningfully contest early wins; read existing goldfish/combo readiness, not a multiplayer win rate."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "win_turn_proxy_by_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.02
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 0.356,
+     "challenger": 0.324,
+     "ci95": [
+      -0.04841,
+      -0.01559
+     ],
+     "diff": -0.032,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "win_turn_proxy_by_t8"
+    },
+    "record_id": "test:fire-lord-azula:stress:first_key_spell_countered:e707518797c0",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.98553,
+       0.9989
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.996
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "first_key_spell_countered@T1: the first key spell you cast (a blueprint package card, tutor target or combo piece; not the commander) is countered",
+    "source": "data/grixis/stress/fire-lord-azula.json#test:fire-lord-azula:stress:first_key_spell_countered:e707518797c0",
+    "status": "reused_existing_test_result"
+   },
+   "id": "first_key_spell_countered",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "first_key_spell_countered",
+   "priority_weight": 0.15,
+   "question": "First material setup/win spell is countered."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "win_turn_proxy_by_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.02
+    },
+    "legacy_verdict": "no_detectable_difference",
+    "primary_result": {
+     "baseline": 0.356,
+     "challenger": 0.356,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "diff": 0.0,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "win_turn_proxy_by_t8"
+    },
+    "record_id": "test:fire-lord-azula:stress:graveyard_exiled:45a7046b36eb",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.99238,
+       1.0
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 1.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "graveyard_exiled@T5: your graveyard is exiled at the end of turn T",
+    "source": "data/grixis/stress/fire-lord-azula.json#test:fire-lord-azula:stress:graveyard_exiled:45a7046b36eb",
+    "status": "reused_existing_test_result"
+   },
+   "id": "graveyard_exiled",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "graveyard_exiled",
+   "priority_weight": 0.1,
+   "question": "Fast graveyard hate before or during setup."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "commander_bf_turns",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 1.0
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 6.77,
+     "challenger": 2.188,
+     "ci95": [
+      -4.75939,
+      -4.40461
+     ],
+     "diff": -4.582,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "commander_bf_turns"
+    },
+    "record_id": "test:fire-lord-azula:stress:commander_removed_twice:b2e9d2aadb77",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.94382,
+       0.97711
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.964
+     },
+     {
+      "ci95": [
+       0.8544,
+       0.91128
+      ],
+      "method": "share of games with a commander removal in which the commander was recast by turn 10",
+      "metric": "commander_recast_share",
+      "n": 482,
+      "value": 0.88589
+     },
+     {
+      "ci95": [
+       1.81373,
+       2.0645
+      ],
+      "method": "turns from the first removal (end step) to the recast, among games where it was recast",
+      "metric": "recovery_turns",
+      "n": 427,
+      "value": 1.93911
+     },
+     {
+      "ci95": [
+       0.62907,
+       0.7126
+      ],
+      "method": "share of removal games where the commander was recast within 2 turns",
+      "metric": "recovered_within_2_turns_share",
+      "n": 482,
+      "value": 0.6722
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "commander_removed_twice@T4: as once, and again at the end of the first turn after the recast that it is back on the battlefield",
+    "source": "data/grixis/stress/fire-lord-azula.json#test:fire-lord-azula:stress:commander_removed_twice:b2e9d2aadb77",
+    "status": "reused_existing_test_result"
+   },
+   "id": "commander_disruption",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "commander_removed_twice",
+   "priority_weight": 0.1,
+   "question": "Repeated commander disruption/tax pressure."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "win_turn_proxy_by_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.02
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 0.356,
+     "challenger": 0.314,
+     "ci95": [
+      -0.0596,
+      -0.0244
+     ],
+     "diff": -0.042,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "win_turn_proxy_by_t8"
+    },
+    "record_id": "test:fire-lord-azula:stress:key_engine_exiled:26039dac17df",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.62149,
+       0.70401
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.664
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "key_engine_exiled@T1: the first engine card (combo piece or identity-core card) to reach the battlefield is exiled at the end of that turn",
+    "source": "data/grixis/stress/fire-lord-azula.json#test:fire-lord-azula:stress:key_engine_exiled:26039dac17df",
+    "status": "reused_existing_test_result"
+   },
+   "id": "key_engine_exiled",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "key_engine_exiled",
+   "priority_weight": 0.1,
+   "question": "A central noncommander engine is exiled."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "modules": [
+     {
+      "confidence": "low",
+      "does_not_model": [
+       "whether an opponent actually casts a legal/important target",
+       "soft counters ('unless ... pays')",
+       "conditional target qualifiers",
+       "Force-of-Will-style pitch/resource alternate costs",
+       "colored-mana hold-up",
+       "activation costs for permanent counter abilities",
+       "multiplayer win rates (never produced)"
+      ],
+      "family": "counterspell readiness",
+      "id": "counterspell_density",
+      "limitations": [
+       "Does not evaluate counterspell quality, target breadth or opponent pressure; scope is reported but not weighted."
+      ],
+      "metrics": [
+       "counter_ready_turns_by_turn"
+      ],
+      "models": [
+       "turns by 4/6/8/10 on which a supported counterspell is in hand and normal-cost mana remains unspent",
+       "Fierce-Guardianship-style explicit 'control a commander -> cast without paying' readiness",
+       "supported activated counter abilities: battlefield-available turns (cost not reconstructed)"
+      ],
+      "version": "1"
+     },
+     {
+      "confidence": "low",
+      "does_not_model": [
+       "whether protection has a valuable legal target",
+       "colored mana",
+       "ward cost/effect magnitude",
+       "conditional protection",
+       "redirects/copies, bounce-as-protection, prevention, regeneration, protection-from-color, Teferi-style timing locks",
+       "multiplayer win rates (never produced)"
+      ],
+      "family": "protection availability",
+      "id": "stack_protection",
+      "limitations": [
+       "Protection modes differ materially; this module reports availability only and does not claim a universal value conversion."
+      ],
+      "metrics": [
+       "protection_ready_or_active_turns_by_turn"
+      ],
+      "models": [
+       "supported reactive protection spells: turns in hand with normal-cost mana left unspent",
+       "supported activated/static team/self protection permanents: battlefield-active turns",
+       "direct hexproof/indestructible/phase-out protection and explicit 'spells you control can't be countered'"
+      ],
+      "version": "1"
+     }
+    ],
+    "note": "Step-E modules exist and are routed, but no canonical-deck result is fabricated from swap-level/readiness machinery. Execute in the frozen local environment or consume a future deck-level result.",
+    "requested_executor": "counterspell_stack_protection",
+    "resolved_module_ids": [
+     "counterspell_density",
+     "stack_protection"
+    ],
+    "source": "data/grixis/mechanics/modules.json",
+    "status": "pending_deck_level_module_execution"
+   },
+   "id": "stack_protection",
+   "kind": "mechanic_module",
+   "preregistered_executor": "counterspell_stack_protection",
+   "priority_weight": 0.15,
+   "question": "Can the list protect or force through a compact win under stack interaction?"
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "modules": [
+     {
+      "confidence": "low",
+      "does_not_model": [
+       "whether opponents can/will pay taxes, exact opponent mana curves, or which spells are most important",
+       "Trinisphere-style minimum total costs, dynamic per-spell taxes, type/color/subtype-specific locks outside supported families",
+       "resource denial, mana-base conversion, combat restrictions, graveyard replacement effects, or removal timing",
+       "a universal conversion between tax mana, blocked spells, blocked draws and static-lock uptime",
+       "multiplayer win rates (never produced)"
+      ],
+      "family": "stax/tax static effects",
+      "id": "stax_tax",
+      "limitations": [
+       "Category metrics are intentionally not summed. M6 judgment must consider self-burden, asymmetry and commander-specific leverage.",
+       "Static-lock active rounds measure availability only; opponent dependence is handled later by bracket stress/red-team review."
+      ],
+      "metrics": [
+       "opponent_extra_mana_range",
+       "opponent_spells_blocked_range",
+       "opponent_draws_blocked_range",
+       "static_lock_active_rounds",
+       "self_burden"
+      ],
+      "models": [
+       "fixed spell taxes on opponents or all players: opponent extra-mana demand range",
+       "cast-per-turn caps: opponent spells blocked range under declared spell-volume sensitivity",
+       "draw-per-turn caps: opponent draws blocked range under declared draw-volume sensitivity",
+       "supported static locks (search, cast-during-your-turn, artifact ETB tapped, activated-ability, untap, graveyard-cast, creature-ETB-trigger): active rounds only",
+       "symmetric effects retain an explicit self_burden flag; no composite score hides that cost"
+      ],
+      "version": "1"
+     }
+    ],
+    "note": "Step-E modules exist and are routed, but no canonical-deck result is fabricated from swap-level/readiness machinery. Execute in the frozen local environment or consume a future deck-level result.",
+    "requested_executor": "stax_tax",
+    "resolved_module_ids": [
+     "stax_tax"
+    ],
+    "source": "data/grixis/mechanics/modules.json",
+    "status": "pending_deck_level_module_execution"
+   },
+   "id": "stax_tax",
+   "kind": "mechanic_module",
+   "preregistered_executor": "stax_tax",
+   "priority_weight": 0.15,
+   "question": "Sensitivity to relevant stax/tax categories; categories remain separate."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows.",
+    "status": "judgment_required"
+   },
+   "id": "protected_win_red_team",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows."
+  }
+ ],
+ "limitations": [
+  "Existing M3 stress records are reused rather than silently rerun under new thresholds.",
+  "Goldfish readiness is not multiplayer win probability.",
+  "Step-E mechanic modules remain bounded/readiness proxies and may require local deck-level execution.",
+  "Judgment prompts remain unanswered by automation.",
+  "Priority weights allocate attention only and are not outcome weights."
+ ],
+ "schema_version": 1,
+ "slug": "fire-lord-azula",
+ "status": "evidence_routed",
+ "suite_family": "B5_competitive",
+ "suite_source": "data/grixis/bracket_stress/fire-lord-azula.json",
+ "weight_semantics": "review_priority_only_not_outcome_score"
+}

@@ -1,0 +1,465 @@
+{
+ "aggregate_score": null,
+ "authority": {
+  "can_decide": false,
+  "note": "The packet routes preregistered stresses to evidence or pending review; it never aggregates outcomes or decides swaps."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "deck_id": "Nekusar__the_Mindrazer",
+ "evidence_class": "derived_metric",
+ "items": [
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "mana_available_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.5
+    },
+    "legacy_verdict": "pass",
+    "primary_result": {
+     "baseline": 8.554,
+     "challenger": 8.26,
+     "ci95": [
+      -0.37648,
+      -0.21152
+     ],
+     "diff": -0.294,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "mana_available_t8"
+    },
+    "record_id": "test:nekusar-the-mindrazer:stress:board_wipe:c8cb0e985d75",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.99238,
+       1.0
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 1.0
+     },
+     {
+      "ci95": [
+       0.95713,
+       0.98714
+      ],
+      "method": "share of games with a commander removal in which the commander was recast by turn 10",
+      "metric": "commander_recast_share",
+      "n": 424,
+      "value": 0.97642
+     },
+     {
+      "ci95": [
+       1.5763,
+       1.76669
+      ],
+      "method": "turns from the first removal (end step) to the recast, among games where it was recast",
+      "metric": "recovery_turns",
+      "n": 414,
+      "value": 1.6715
+     },
+     {
+      "ci95": [
+       0.78899,
+       0.86078
+      ],
+      "method": "share of removal games where the commander was recast within 2 turns",
+      "metric": "recovered_within_2_turns_share",
+      "n": 424,
+      "value": 0.82783
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "board_wipe@T5: every nonland creature you control is destroyed at the end of turn T (commanders go to the command zone)",
+    "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:board_wipe:c8cb0e985d75",
+    "status": "reused_existing_test_result"
+   },
+   "id": "board_wipe",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "board_wipe",
+   "priority_weight": 0.15,
+   "question": "Creature-board wipe and rebuilding pressure."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "mana_available_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.5
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 8.554,
+     "challenger": 7.418,
+     "ci95": [
+      -1.26271,
+      -1.00929
+     ],
+     "diff": -1.136,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "mana_available_t8"
+    },
+    "record_id": "test:nekusar-the-mindrazer:stress:artifacts_wiped:e30e247960d1",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.99238,
+       1.0
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 1.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "artifacts_wiped@T4: every nonland artifact you control is destroyed at the end of turn T",
+    "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:artifacts_wiped:e30e247960d1",
+    "status": "reused_existing_test_result"
+   },
+   "id": "artifact_wipe",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "artifacts_wiped",
+   "priority_weight": 0.1,
+   "question": "Artifact wipe / mana-engine disruption."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "commander_bf_turns",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 1.0
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 6.322,
+     "challenger": 2.234,
+     "ci95": [
+      -4.22518,
+      -3.95082
+     ],
+     "diff": -4.088,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "commander_bf_turns"
+    },
+    "record_id": "test:nekusar-the-mindrazer:stress:commander_removed_twice:3e538fc7656b",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.97407,
+       0.99449
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.988
+     },
+     {
+      "ci95": [
+       0.93589,
+       0.97203
+      ],
+      "method": "share of games with a commander removal in which the commander was recast by turn 10",
+      "metric": "commander_recast_share",
+      "n": 494,
+      "value": 0.95749
+     },
+     {
+      "ci95": [
+       1.89831,
+       2.09323
+      ],
+      "method": "turns from the first removal (end step) to the recast, among games where it was recast",
+      "metric": "recovery_turns",
+      "n": 473,
+      "value": 1.99577
+     },
+     {
+      "ci95": [
+       0.70471,
+       0.78139
+      ],
+      "method": "share of removal games where the commander was recast within 2 turns",
+      "metric": "recovered_within_2_turns_share",
+      "n": 494,
+      "value": 0.74494
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "commander_removed_twice@T4: as once, and again at the end of the first turn after the recast that it is back on the battlefield",
+    "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:commander_removed_twice:3e538fc7656b",
+    "status": "reused_existing_test_result"
+   },
+   "id": "commander_disruption",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "commander_removed_twice",
+   "priority_weight": 0.15,
+   "question": "Repeated commander removal and tax recovery."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "win_turn_proxy_by_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.02
+    },
+    "legacy_verdict": "inconclusive",
+    "primary_result": {
+     "baseline": 0.35,
+     "challenger": 0.334,
+     "ci95": [
+      -0.02701,
+      -0.00499
+     ],
+     "diff": -0.016,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "win_turn_proxy_by_t8"
+    },
+    "record_id": "test:nekusar-the-mindrazer:stress:key_engine_exiled:c486c5b5f60a",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.7818,
+       0.84935
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.818
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "key_engine_exiled@T1: the first engine card (combo piece or identity-core card) to reach the battlefield is exiled at the end of that turn",
+    "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:key_engine_exiled:c486c5b5f60a",
+    "status": "reused_existing_test_result"
+   },
+   "id": "key_engine_exiled",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "key_engine_exiled",
+   "priority_weight": 0.1,
+   "question": "Central engine removal/exile."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "commander_cast_by_t6",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.05
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 0.904,
+     "challenger": 0.642,
+     "ci95": [
+      -0.30098,
+      -0.22302
+     ],
+     "diff": -0.262,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "commander_cast_by_t6"
+    },
+    "record_id": "test:nekusar-the-mindrazer:stress:mana_screw:c290ca4acb92",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.0,
+       0.00762
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "mana_screw@T3: no land drop on turns T and T+1",
+    "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:mana_screw:c290ca4acb92",
+    "status": "reused_existing_test_result"
+   },
+   "id": "mana_screw",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "mana_screw",
+   "priority_weight": 0.1,
+   "question": "Missed land-drop recovery pressure."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "commander_cast_by_t6",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.05
+    },
+    "legacy_verdict": "no_detectable_difference",
+    "primary_result": {
+     "baseline": 0.904,
+     "challenger": 0.9,
+     "ci95": [
+      -0.01509,
+      0.00709
+     ],
+     "diff": -0.004,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "commander_cast_by_t6"
+    },
+    "record_id": "test:nekusar-the-mindrazer:stress:color_screw:ce8fc782d28a",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.0,
+       0.00762
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "color_screw@T5: the colour the commander needs most produces nothing coloured before turn T (those units become {C})",
+    "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:color_screw:ce8fc782d28a",
+    "status": "reused_existing_test_result"
+   },
+   "id": "color_screw",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "color_screw",
+   "priority_weight": 0.05,
+   "question": "Temporary pressure on the commander's most-demanded color."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "win_turn_proxy_by_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.02
+    },
+    "legacy_verdict": "no_detectable_difference",
+    "primary_result": {
+     "baseline": 0.35,
+     "challenger": 0.346,
+     "ci95": [
+      -0.00954,
+      0.00154
+     ],
+     "diff": -0.004,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "win_turn_proxy_by_t8"
+    },
+    "record_id": "test:nekusar-the-mindrazer:stress:graveyard_exiled:8722ded67b1c",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.99238,
+       1.0
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 1.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "graveyard_exiled@T5: your graveyard is exiled at the end of turn T",
+    "source": "data/grixis/stress/nekusar-the-mindrazer.json#test:nekusar-the-mindrazer:stress:graveyard_exiled:8722ded67b1c",
+    "status": "reused_existing_test_result"
+   },
+   "id": "graveyard_exiled",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "graveyard_exiled",
+   "priority_weight": 0.05,
+   "question": "Graveyard hate/attrition where relevant."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+    "status": "judgment_required"
+   },
+   "id": "repeated_removal_attrition",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?"
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+    "status": "judgment_required"
+   },
+   "id": "pillowfort",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?"
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Can the deck progress through token stalls and clogged combat?",
+    "status": "judgment_required"
+   },
+   "id": "token_stall",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?"
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+    "status": "judgment_required"
+   },
+   "id": "artifact_enchantment_interaction",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?"
+  }
+ ],
+ "limitations": [
+  "Existing M3 stress records are reused rather than silently rerun under new thresholds.",
+  "Goldfish readiness is not multiplayer win probability.",
+  "Step-E mechanic modules remain bounded/readiness proxies and may require local deck-level execution.",
+  "Judgment prompts remain unanswered by automation.",
+  "Priority weights allocate attention only and are not outcome weights."
+ ],
+ "schema_version": 1,
+ "slug": "nekusar-the-mindrazer",
+ "status": "evidence_routed",
+ "suite_family": "B4_resilience",
+ "suite_source": "data/grixis/bracket_stress/nekusar-the-mindrazer.json",
+ "weight_semantics": "review_priority_only_not_outcome_score"
+}
