@@ -1,0 +1,4634 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 3,
+  "deep_review": 47,
+  "flag:combo_review_required": 41,
+  "flag:elevated_burden": 7,
+  "flag:explicit_judgment_prompts": 47,
+  "flag:mana_delta_required": 16,
+  "flag:mechanics_not_modelable": 29,
+  "flag:test_fail": 2,
+  "flag:test_inconclusive": 26,
+  "flag:test_no_detectable_difference": 8,
+  "flag:test_pass": 11,
+  "priority:P0_independent_agreement": 4,
+  "priority:P1_measured_performance_only": 7,
+  "priority:P3_commander_fit_only": 36,
+  "scrutiny:enhanced_scrutiny": 45,
+  "scrutiny:high_scrutiny": 2,
+  "source:agreement": 4,
+  "source:commander_only": 36,
+  "source:performance_only": 7
+ },
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Triskelion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "+1/+1 counters",
+    "rank": 72,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.72,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rapid Hybridization",
+   "expected_benefit": "Oracle hook +1/+1 counters; completes Spellbook 1331-1495; roles removal",
+   "expected_cost": "loses Rapid Hybridization: flexible ({U} instant): 8 other cards sharing a key role. Oracle: “Destroy target creature”. Role removal (9 in list). Redundancy 8 (other cards sharing a key r",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rapid Hybridization with Triskelion in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Triskelion",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:d821948834fe",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bea1699da6aa05c36939854057de96c5b034e69b8a8c9288f20990e392b5a121",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:garza-zol-plague-queen:m5:d821948834fe",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:1ab68659bf840581",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rapid Hybridization [no effect modelled beyond being a castable card] → Triskelion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Kamahl, Pit Fighter",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 93,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.77,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rapid Hybridization",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1331-3477; roles removal",
+   "expected_cost": "loses Rapid Hybridization: flexible ({U} instant): 8 other cards sharing a key role. Oracle: “Destroy target creature”. Role removal (9 in list). Redundancy 8 (other cards sharing a key r",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rapid Hybridization with Kamahl, Pit Fighter in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Kamahl, Pit Fighter",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:c03c643ca61a",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:609b10d9a31da040126f105ea5e64b68806a7a1b338fb8352e9a04f7a2966bfe",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:garza-zol-plague-queen:m5:c03c643ca61a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:5e1643633a59b0c3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rapid Hybridization [no effect modelled beyond being a castable card] → Kamahl, Pit Fighter [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Wound Reflection",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 307,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.01,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Curiosity",
+   "expected_benefit": "completes Spellbook 4475-5136",
+   "expected_cost": "loses Curiosity: functional retain ({U} enchantment): role draw. Oracle: “Enchant creature”. Role draw (6 in list). Redundancy 5 (other cards sharing a key role). Best alternati",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Curiosity with Wound Reflection in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Wound Reflection",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:0560b6b63e21",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e6f58ea9f49497c12dba919383da1a96a23576a2b81178445fd893fbec20934b",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:garza-zol-plague-queen:m5:0560b6b63e21",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:bdad1a80791db600",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Curiosity [no effect modelled beyond being a castable card] → Wound Reflection [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Shadow of the Second Sun",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 406,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.11,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Curiosity",
+   "expected_benefit": "completes Spellbook 3750-6190",
+   "expected_cost": "loses Curiosity: functional retain ({U} enchantment): role draw. Oracle: “Enchant creature”. Role draw (6 in list). Redundancy 5 (other cards sharing a key role). Best alternati",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Curiosity with Shadow of the Second Sun in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Shadow of the Second Sun",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:9d6bc76c5953",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:07850b67308f5636d00ed5790949b85ba8c7d3dd6952173efcbcc1a578d769ca",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:garza-zol-plague-queen:m5:9d6bc76c5953",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:4f52173e80797c03",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Curiosity [no effect modelled beyond being a castable card] → Shadow of the Second Sun [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Bloodlord of Vaasgoth",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "+1/+1 counters",
+    "rank": 20,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 45.69,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Slip Out the Back",
+   "expected_benefit": "Oracle hook +1/+1 counters; EDHREC inclusion 17.1% vs cut 0.0%",
+   "expected_cost": "loses Slip Out the Back: functional retain ({U} instant): required package pkg:evasion-protection. Oracle: “Put a +1/+1 counter on target creature”. Packages pkg:evasion-protection. Red",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Slip Out the Back with Bloodlord of Vaasgoth in role +1/+1 counters improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Bloodlord of Vaasgoth",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:55a4e1d9705a",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:3737acf44d265c3710c49f741486d7327681fb08d9356e242affe956db554776",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:55a4e1d9705a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:5689cb46bfe7abaa",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Slip Out the Back [no effect modelled beyond being a castable card] → Bloodlord of Vaasgoth [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Relic of Sauron",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 51,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.51,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook graveyard as a resource; EDHREC inclusion 17.8% vs cut 0.0%; roles draw, ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Relic of Sauron in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Relic of Sauron",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:c2ac692c8f49",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1a0c7e288d8c791fdf5b708b5b30a053934eba43494f379f0f7e6fcac67c82e1",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:c2ac692c8f49",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:161775dcc7658eb3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Relic of Sauron [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Vein Drinker",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "+1/+1 counters",
+    "rank": 53,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.31,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Slip Out the Back",
+   "expected_benefit": "Oracle hook +1/+1 counters; EDHREC inclusion 11.6% vs cut 0.0%",
+   "expected_cost": "loses Slip Out the Back: functional retain ({U} instant): required package pkg:evasion-protection. Oracle: “Put a +1/+1 counter on target creature”. Packages pkg:evasion-protection. Red",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Slip Out the Back with Vein Drinker in role +1/+1 counters improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Vein Drinker",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:99420a752774",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:fedb6fce5305555f24e816986b9e2fa7787d51b1955cbca2a207656e8f7867a4",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:99420a752774",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:708130cfcd74d0d4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Slip Out the Back [no effect modelled beyond being a castable card] → Vein Drinker [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Sengir, the Dark Baron",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "+1/+1 counters",
+    "rank": 57,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.79,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Slip Out the Back",
+   "expected_benefit": "Oracle hook +1/+1 counters; EDHREC inclusion 10.9% vs cut 0.0%",
+   "expected_cost": "loses Slip Out the Back: functional retain ({U} instant): required package pkg:evasion-protection. Oracle: “Put a +1/+1 counter on target creature”. Packages pkg:evasion-protection. Red",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Slip Out the Back with Sengir, the Dark Baron in role +1/+1 counters improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Sengir, the Dark Baron",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:b6ed27a91d6b",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1dd5ebac42c7fac09d22d622c46f52f8ef47925127e355845eca96336300a06b",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:b6ed27a91d6b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:863a8944c79c087c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Slip Out the Back [no effect modelled beyond being a castable card] → Sengir, the Dark Baron [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cormela, Glamour Thief",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 91,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.86,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; EDHREC inclusion 7.8% vs cut 0.0%; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Cormela, Glamour Thief in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Cormela, Glamour Thief",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:a2ea39c07d7d",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f016bccb4ddc0bfc949f05c2abb25420b7d33e0916f5d3ecced2c9f39b532ef1",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:a2ea39c07d7d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:f42f7cb83b73dee2",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Cormela, Glamour Thief [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Burning Anger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 101,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.13,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Curiosity",
+   "expected_benefit": "completes Spellbook 1506-2178-3500, 1506-2178-5136; EDHREC inclusion 10.1% vs cut 10.9%",
+   "expected_cost": "loses Curiosity: functional retain ({U} enchantment): role draw. Oracle: “Enchant creature”. Role draw (6 in list). Redundancy 5 (other cards sharing a key role). Best alternati",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Curiosity with Burning Anger in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Burning Anger",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:0f93fad150a2",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:732a3dae02dc8fc283400cdb4d1d2883fe7f51ccbd087e0666beefd99d8a4c40",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:0f93fad150a2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:f97901e47c63c3cf",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Curiosity [no effect modelled beyond being a castable card] → Burning Anger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Brainstorm",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 120,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 25.47,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "EDHREC inclusion 17.8% vs cut 0.0%; roles draw",
+   "expected_cost": "loses Sword of Fire and Ice: functional retain ({3} artifact): role draw, protection, removal. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (6",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Brainstorm in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Brainstorm",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:b44f6f4066c6",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0a2f627926e4b0e54c33d4e348ca50f6f4a986039ad4e9cfa038cfe42ca8c0d5",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:b44f6f4066c6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:f540ce50b3a54967",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Brainstorm [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (protection, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Reiterate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Reiterate"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 343,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.64,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Hatred",
+   "expected_benefit": "completes Spellbook 1878-3368",
+   "expected_cost": "loses Hatred: strong retain ({3}{B}{B} instant): win piece / enabler. Oracle: “As an additional cost to cast this spell, pay X life”. Redundancy 0 (no shared job). No EDHREC ",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Hatred with Reiterate in role Instant improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Reiterate",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:5d6413242cb5",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a929f10f3bfd9d7dc61986300b34105b981df0aded2ca0c4d60b893d1cfc021d",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:5d6413242cb5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:3256a58c58e1678c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Hatred [no effect modelled beyond being a castable card] → Reiterate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Reiterate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 343,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.64,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rapid Hybridization",
+   "expected_benefit": "completes Spellbook 1878-3368",
+   "expected_cost": "loses Rapid Hybridization: flexible ({U} instant): 8 other cards sharing a key role. Oracle: “Destroy target creature”. Role removal (9 in list). Redundancy 8 (other cards sharing a key r",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rapid Hybridization with Reiterate in role Instant improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Reiterate",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:4368c9b6a8ea",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:94a3e87db8c5080d21213a2d9935868da3cbb65d5951645fa16b07916a7e3b3b",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:4368c9b6a8ea",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:8ca9cf25a9b49394",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rapid Hybridization [no effect modelled beyond being a castable card] → Reiterate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Thorin, Company's Leader",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 32,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 38.26,
+    "tier": "B"
+   },
+   "challenger_class": "new_card",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-7903; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Thorin, Company's Leader in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Thorin, Company's Leader",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:f2e86943ec52",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:96c118d44169e2b198aef8af71c500e780604f0765b5c48071c1038a3497849e",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:f2e86943ec52",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:a03b9046f2bdc88a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Thorin, Company's Leader [oneshot].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Ancient Copper Dragon",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 35,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 37.68,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 778-3750; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Ancient Copper Dragon in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Ancient Copper Dragon",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:54594a1fa6b1",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:de5e8e90998905e2d821cf4c90ab7a78317b5a366704cbb6b61cb1155c4f6b85",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:54594a1fa6b1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:3a3e5afb483a5de6",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Ancient Copper Dragon [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cavern-Hoard Dragon",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 38,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 36.55,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-5988; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Cavern-Hoard Dragon in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Cavern-Hoard Dragon",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:cf6f8df13e9a",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e5262e329c6c3eae81061b050c435c5883cfd115dde1e0ec71002accaeaba08c",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:cf6f8df13e9a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:11840de233ded053",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Cavern-Hoard Dragon [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Howlsquad Heavy",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 42,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 35.4,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-6410; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Howlsquad Heavy in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Howlsquad Heavy",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:b11d1db465a1",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:920fb51d0892f310fe3769ba846f1f23d64164b691588c244b55f8dd8079d856",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:b11d1db465a1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:55b982089a57c90d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Howlsquad Heavy [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Hoard Hauler",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 49,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.61,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 451-3750; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Hoard Hauler in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Hoard Hauler",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:34e51cd8d49f",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0f607084b0f992b383ee229ad0d0ec20ad0a36bac2cb698be50397731f57b7af",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:34e51cd8d49f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:b58de7c8b016003c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Hoard Hauler [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Luxurious Locomotive",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 54,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.94,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-6307; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Luxurious Locomotive in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Luxurious Locomotive",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:3d2c5c502faa",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:41d4dd9690c9fe08a5098b9e77a5c2ed069578393b4384360c98d23f956f1339",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:3d2c5c502faa",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:cf03188341ff5a9f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Luxurious Locomotive [oneshot].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "J. Jonah Jameson",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 55,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.82,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-6894; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Jeska's Will with J. Jonah Jameson in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#J. Jonah Jameson",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:6815882a2559",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9cdb6fae878d1ae0329e8e8358148cc3ab91c37646a2893cda6f04a7daf70ed6",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:6815882a2559",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:40869dec998a340a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → J. Jonah Jameson [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Glint-Horn Buccaneer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Glint-Horn Buccaneer"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 63,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.97,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Psychotic Fury",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1089-4869; roles draw",
+   "expected_cost": "loses Psychotic Fury: strong retain ({1}{R} instant; simulator models draw 1): win piece / enabler. Oracle: “Target multicolored creature gains double strike until end of turn”. Role",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Psychotic Fury with Glint-Horn Buccaneer in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Glint-Horn Buccaneer",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:99164264daea",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f58b8b9993df0d11aa8a31f9bcb4153be44335becfbe3087e0ff021f38277e48",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:99164264daea",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:c457404870339b1e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Psychotic Fury [draw] → Glint-Horn Buccaneer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Glint-Horn Buccaneer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 63,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.97,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1089-4869; roles draw",
+   "expected_cost": "loses Sword of Fire and Ice: functional retain ({3} artifact): role draw, protection, removal. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (6",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Glint-Horn Buccaneer in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Glint-Horn Buccaneer",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:59126787da13",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:77eb96845be473756b0fc3d914cdb145a1bf8f7f5197eddb1caaa27254f40a6b",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:59126787da13",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:dc8a207ceeb61883",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Glint-Horn Buccaneer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw, protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hellkite Charger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 64,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.91,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3398-5039, 900-3398",
+   "expected_cost": "loses Sword of Fire and Ice: functional retain ({3} artifact): role draw, protection, removal. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (6",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Hellkite Charger in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Hellkite Charger",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:3b3039f7b1c9",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:79f771e3ac78d4fc5903aa8cb606dd2e7e2d065946022c6e2ad6a495a750349d",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:3b3039f7b1c9",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:adf762b161811ed2",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Hellkite Charger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Magmakin Artillerist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 66,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.4,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mask of Memory",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 1089-6428",
+   "expected_cost": "loses Mask of Memory: functional retain ({2} artifact): role draw. Oracle: “Whenever equipped creature deals combat damage to a player, you may draw two …”. Role draw (6 in list). Re",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mask of Memory with Magmakin Artillerist in role graveyard as a resource improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Magmakin Artillerist",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:16ad40e04d0e",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:3bcd4fe97861eb09f03b122d75f51443ab7f8d0eeec8580dc1f6748a1c7620ce",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:16ad40e04d0e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:0e895bdbced7c339",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mask of Memory [no effect modelled beyond being a castable card] → Magmakin Artillerist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Neheb, Dreadhorde Champion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Neheb, Dreadhorde Champion"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 69,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.0,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Psychotic Fury",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1697-3750; roles draw",
+   "expected_cost": "loses Psychotic Fury: strong retain ({1}{R} instant; simulator models draw 1): win piece / enabler. Oracle: “Target multicolored creature gains double strike until end of turn”. Role",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Psychotic Fury with Neheb, Dreadhorde Champion in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Neheb, Dreadhorde Champion",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:bcdbd1bbf6df",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f3b186ae9cac3f6d8b66cbe4d735156c650b0f34d81bb10c3f2a29397f0b5821",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:bcdbd1bbf6df",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:c242d1466f289a30",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Psychotic Fury [draw] → Neheb, Dreadhorde Champion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Neheb, Dreadhorde Champion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 69,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.0,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1697-3750; roles draw",
+   "expected_cost": "loses Sword of Fire and Ice: functional retain ({3} artifact): role draw, protection, removal. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (6",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Neheb, Dreadhorde Champion in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Neheb, Dreadhorde Champion",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:49386a23c921",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:be2096fb56cc043de01d80ee056672c20d1eec967a5d33b48be058f0f2b2e0fb",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:49386a23c921",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:a0fb353747052b34",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Neheb, Dreadhorde Champion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw, protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Brallin, Skyshark Rider",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 71,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.77,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mask of Memory",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 1089-4703",
+   "expected_cost": "loses Mask of Memory: functional retain ({2} artifact): role draw. Oracle: “Whenever equipped creature deals combat damage to a player, you may draw two …”. Role draw (6 in list). Re",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mask of Memory with Brallin, Skyshark Rider in role graveyard as a resource improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Brallin, Skyshark Rider",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:f57bb2288492",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:517f9e22cbd3878f1c2b04c1c94ec3f407beb4ed82fc2e9900e491fd3da4dd7d",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:f57bb2288492",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:7f7dd82feb64e3ef",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mask of Memory [no effect modelled beyond being a castable card] → Brallin, Skyshark Rider [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Splinter Twin",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 73,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.57,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 2178-4702",
+   "expected_cost": "loses Sword of Fire and Ice: functional retain ({3} artifact): role draw, protection, removal. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (6",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Splinter Twin in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Splinter Twin",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:2fd821d0cd6e",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:121e33bd9404fb56203d8001ccec374e0150c3286814a4ce9054033d9512dad9",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:2fd821d0cd6e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:80de35342ef068e2",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Splinter Twin [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Warlock Class",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 76,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.13,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mask of Memory",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 1642-5136",
+   "expected_cost": "loses Mask of Memory: functional retain ({2} artifact): role draw. Oracle: “Whenever equipped creature deals combat damage to a player, you may draw two …”. Role draw (6 in list). Re",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mask of Memory with Warlock Class in role graveyard as a resource improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Warlock Class",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:711c8a7234c3",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:97e10dc7566d51f441834fcfdb35f853419d072fa4da4e4a1be2ce3ce2487c1c",
+   "review_order": 29,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:711c8a7234c3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:32ad299ab82f9312",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mask of Memory [no effect modelled beyond being a castable card] → Warlock Class [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 81,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.91,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 5008-5136",
+   "expected_cost": "loses Sword of Fire and Ice: functional retain ({3} artifact): role draw, protection, removal. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (6",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:7836baaf325c",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f374731f71039ca127a1fb60bcb3f0c78f6691c20af01b091ab0de039b189cc6",
+   "review_order": 30,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:7836baaf325c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:ccf9b9d3b99543da",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hell's Caretaker",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 85,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.73,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mask of Memory",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 2178-3358",
+   "expected_cost": "loses Mask of Memory: functional retain ({2} artifact): role draw. Oracle: “Whenever equipped creature deals combat damage to a player, you may draw two …”. Role draw (6 in list). Re",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mask of Memory with Hell's Caretaker in role graveyard as a resource improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Hell's Caretaker",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:f2194066a4f8",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:70731c049947ab1f089ec05f1d1eba122dc42cecce177624f8dbd9079f828593",
+   "review_order": 31,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:f2194066a4f8",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:d673c42dc9eabf70",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mask of Memory [no effect modelled beyond being a castable card] → Hell's Caretaker [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Magda, Brazen Outlaw",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 86,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.71,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "completes Spellbook 1486-3750; roles ramp, tutor",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Magda, Brazen Outlaw in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Magda, Brazen Outlaw",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:353548868e4d",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:fdde5e84689833d7bf764b9b13ea8c76a4d3a8538d12c5aa5136f6fe795cf8e1",
+   "review_order": 32,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:353548868e4d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:afe2a050b14b6f02",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Magda, Brazen Outlaw [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 88,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.34,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Brotherhood Regalia",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-3898",
+   "expected_cost": "loses Brotherhood Regalia: strong retain ({2} artifact): win piece / enabler. Oracle: “Equipped creature has ward {2}, is an Assassin in addition to its other types…”. Packages pkg:evasio",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Brotherhood Regalia with Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:ac963ba4cfe6",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:6359fae1d90ef9ce35878db69ecd5404a8733006d89be582c650b2f43cff2224",
+   "review_order": 33,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:ac963ba4cfe6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:2978ee8aa407bc59",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Brotherhood Regalia [no effect modelled beyond being a castable card] → Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 88,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.34,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-3898",
+   "expected_cost": "loses Sword of Fire and Ice: functional retain ({3} artifact): role draw, protection, removal. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (6",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:7acaab5a71da",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:50283292fc698331ff70cc3cb76c433c34ae80171e907306590d19b9ad92d305",
+   "review_order": 34,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:7acaab5a71da",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:a1284260c0c195cc",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Neheb, the Eternal",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 129,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 24.73,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "completes Spellbook 3750-4945; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Neheb, the Eternal in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Neheb, the Eternal",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:47927134f31d",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7a28d5724d4f81b6da49d0ea366d4d0390b4495c4dca6ffdf12446ee5e04ad3a",
+   "review_order": 35,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:47927134f31d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:d89d7e3801656cf6",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Neheb, the Eternal [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 175,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rapid Hybridization",
+   "expected_benefit": "completes Spellbook 513-2364--47, 513-5034--46; roles removal",
+   "expected_cost": "loses Rapid Hybridization: flexible ({U} instant): 8 other cards sharing a key role. Oracle: “Destroy target creature”. Role removal (9 in list). Redundancy 8 (other cards sharing a key r",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Rapid Hybridization with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:5f643d53f50a",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:412281ef8a3a2963229c9cf02bd99325cc4637bb16593e4c43e4de60bfec1c32",
+   "review_order": 36,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:5f643d53f50a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:ab2107968def133a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rapid Hybridization [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "The Enigma Jewel // Locus of Enlightenment",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 199,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.29,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "completes Spellbook 74-2585; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with The Enigma Jewel // Locus of Enlightenment in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#The Enigma Jewel // Locus of Enlightenment",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:d33934a83863",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:55e0fc9f161f39442fdcf97b3ef30daf8688f164f5120ecdea29f02cd56b67af",
+   "review_order": 37,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:d33934a83863",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:89812a6e5bac4b06",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → The Enigma Jewel // Locus of Enlightenment [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Alena, Kessig Trapper",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 211,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.04,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "completes Spellbook 3750-4747; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Alena, Kessig Trapper in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Alena, Kessig Trapper",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:b5920514148a",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bed5ee5ea3843b1ae51625121aa4b8eb2bc09b92e0d662b84fbc08b1d8bd5c23",
+   "review_order": 38,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:b5920514148a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:a7ed8a3adaf733e4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Alena, Kessig Trapper [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Poetic Ingenuity",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 216,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.97,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "completes Spellbook 3750-5340; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 13 other cards sharing a key role. Oracle: “Choose one”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Poetic Ingenuity in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Poetic Ingenuity",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:e80887532f35",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a0706be7e1c1949659a9be89f61322eeebbcba2d71dd18de0d19cb3766a293d3",
+   "review_order": 39,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:e80887532f35",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:85cb5670ca9e02cf",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Poetic Ingenuity [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Niv-Mizzet, Parun",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Niv-Mizzet, Parun"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 234,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.33,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Psychotic Fury",
+   "expected_benefit": "completes Spellbook 1089-2353; roles draw, removal",
+   "expected_cost": "loses Psychotic Fury: strong retain ({1}{R} instant; simulator models draw 1): win piece / enabler. Oracle: “Target multicolored creature gains double strike until end of turn”. Role",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Psychotic Fury with Niv-Mizzet, Parun in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Niv-Mizzet, Parun",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:ba58072e6a4b",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b1d6a4a739a13ba43812aa5769d5ed1f466cd4199e2db01a3a75ae371724c3ab",
+   "review_order": 40,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:ba58072e6a4b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:928bd3460c697639",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Psychotic Fury [draw] → Niv-Mizzet, Parun [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Niv-Mizzet, Parun",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 234,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.33,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "completes Spellbook 1089-2353; roles draw, removal",
+   "expected_cost": "loses Sword of Fire and Ice: functional retain ({3} artifact): role draw, protection, removal. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (6",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Niv-Mizzet, Parun in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Niv-Mizzet, Parun",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:79e3f4c299f9",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e7894dce1f2bdf4cf3831331210a55adf1bbb1325e422c466a4ce0b940002554",
+   "review_order": 41,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:79e3f4c299f9",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:520a2c1829404e35",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Niv-Mizzet, Parun [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw, protection, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Niv-Mizzet, the Firemind",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 3,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Niv-Mizzet, the Firemind"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 344,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.63,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Psychotic Fury",
+   "expected_benefit": "completes Spellbook 1089-4971, 2178-4971; roles draw, removal",
+   "expected_cost": "loses Psychotic Fury: strong retain ({1}{R} instant; simulator models draw 1): win piece / enabler. Oracle: “Target multicolored creature gains double strike until end of turn”. Role",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Psychotic Fury with Niv-Mizzet, the Firemind in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Niv-Mizzet, the Firemind",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:87dd65a41f65",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b084c56933addbc4616e55998ddc953db96dfb99b465e86f090d8f1824d1bcee",
+   "review_order": 42,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:87dd65a41f65",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:d6ffc8a6f340718b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Psychotic Fury [draw] → Niv-Mizzet, the Firemind [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (draw, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Niv-Mizzet, the Firemind",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 344,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.63,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "completes Spellbook 1089-4971, 2178-4971; roles draw, removal",
+   "expected_cost": "loses Sword of Fire and Ice: functional retain ({3} artifact): role draw, protection, removal. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (6",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Niv-Mizzet, the Firemind in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Niv-Mizzet, the Firemind",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:37381e6830ee",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8857b840fa48f68f6013c3c6135919c9cb05d4d92460f15aa6b677d8b2b221b3",
+   "review_order": 43,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:37381e6830ee",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:46ba3d6635fb7d02",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Niv-Mizzet, the Firemind [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (draw, protection, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Time Sieve",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 3,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Time Sieve"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 355,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.5,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Blackblade Reforged",
+   "expected_benefit": "completes Spellbook 1558-5039",
+   "expected_cost": "loses Blackblade Reforged: strong retain ({2} legendary artifact): win piece / enabler. Oracle: “Equipped creature gets +1/+1 for each land you control”. Redundancy 0 (no shared job). No ",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Blackblade Reforged with Time Sieve in role Artifact improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Time Sieve",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:c2d7fcffa751",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:57c4b4cf23df8567fe6f3eecbe9801d437a25998c8bc6936aa349d1771ac25db",
+   "review_order": 44,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:c2d7fcffa751",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:b50a93c87c395a7a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Blackblade Reforged [no effect modelled beyond being a castable card] → Time Sieve [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Time Sieve",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 355,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.5,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "The Ozolith",
+   "expected_benefit": "completes Spellbook 1558-5039",
+   "expected_cost": "loses The Ozolith: weak retain ({1} legendary artifact): no structure; blueprint mention. Oracle: “Whenever a creature you control leaves the battlefield, if it had counters on…”.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing The Ozolith with Time Sieve in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Time Sieve",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:ae808491abb2",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1d3975ee7be551d1908b261a5a520ff57be8da4940791c84d8c8989af2a9b39b",
+   "review_order": 45,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:ae808491abb2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:013e42b2a69e275f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: The Ozolith [no effect modelled beyond being a castable card] → Time Sieve [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 422,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rapid Hybridization",
+   "expected_benefit": "completes Spellbook 542-2364, 542-2585; roles removal",
+   "expected_cost": "loses Rapid Hybridization: flexible ({U} instant): 8 other cards sharing a key role. Oracle: “Destroy target creature”. Role removal (9 in list). Redundancy 8 (other cards sharing a key r",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Rapid Hybridization with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:af5ece6a0f3b",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:426ad7fe1b04cb4e2ddc9bd2181cc540bcfeef6c81de43fd15ebd3817260b20c",
+   "review_order": 46,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:af5ece6a0f3b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:d883b40890062396",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rapid Hybridization [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (3).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Power Artifact",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 843,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.69,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Curiosity",
+   "expected_benefit": "completes Spellbook 2585-5149",
+   "expected_cost": "loses Curiosity: functional retain ({U} enchantment): role draw. Oracle: “Enchant creature”. Role draw (6 in list). Redundancy 5 (other cards sharing a key role). Best alternati",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Curiosity with Power Artifact in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json#Power Artifact",
+    "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:701d0ebdc3f3",
+    "optimizer": "data/grixis/m6/optimizer/garza-zol-plague-queen.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d5cc0c1fe835fb40a3ead8e35d19570f208cad89869571b356fddc0b7c9ff46c",
+   "review_order": 47,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:garza-zol-plague-queen:m5:701d0ebdc3f3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:garza-zol-plague-queen:goldfish:743779cec560ec4c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Curiosity [no effect modelled beyond being a castable card] → Power Artifact [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "garza-zol-plague-queen",
+ "stage": "M6_strategic_review_packet"
+}

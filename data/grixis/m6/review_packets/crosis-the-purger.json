@@ -1,0 +1,1729 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 1,
+  "deep_review": 17,
+  "flag:combo_review_required": 14,
+  "flag:elevated_burden": 5,
+  "flag:explicit_judgment_prompts": 17,
+  "flag:mana_delta_required": 5,
+  "flag:mechanics_not_modelable": 5,
+  "flag:test_fail": 1,
+  "flag:test_inconclusive": 6,
+  "flag:test_no_detectable_difference": 7,
+  "flag:test_pass": 3,
+  "priority:P1_measured_performance_only": 3,
+  "priority:P3_commander_fit_only": 14,
+  "scrutiny:enhanced_scrutiny": 16,
+  "scrutiny:high_scrutiny": 1,
+  "source:commander_only": 14,
+  "source:performance_only": 3
+ },
+ "deck_id": "Crosis__the_Purger",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Relic of Sauron",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "discard",
+    "rank": 54,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 41.28,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook discard; EDHREC inclusion 21.4% vs cut 0.0%; roles draw, ramp",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 24 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (12 in li",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Relic of Sauron in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Relic of Sauron",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:b636b0dde1cd",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bef8e913b42efa0b547ae8d3452429ea4e65f31955c67231e531af929af3d577",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:crosis-the-purger:m5:b636b0dde1cd",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:e055c597e7e847c9",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Relic of Sauron [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Burning Inquiry",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "discard",
+    "rank": 100,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 27.67,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook discard; EDHREC inclusion 5.8% vs cut 0.0%; roles draw",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 24 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (12 in li",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Burning Inquiry in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Burning Inquiry",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:99623d24c67b",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2eea5d1ffc1ea162d6b31e1fdc9f1aad54d3be2ae37de3dc83ffdc6440919e35",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:crosis-the-purger:m5:99623d24c67b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:0e0dfd570ac88d1a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Burning Inquiry [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Reforge the Soul",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "discard",
+    "rank": 104,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 26.87,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook discard; EDHREC inclusion 6.0% vs cut 0.0%; roles draw",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 24 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (12 in li",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Reforge the Soul in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Reforge the Soul",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:2cbb7827033a",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:279d9c260fdcf722100836d4199d617c55d8ecab34ea380fe4903e2c462c5dca",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:crosis-the-purger:m5:2cbb7827033a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:6b9148d99c37e67d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Reforge the Soul [draw, wheel].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Peer into the Abyss",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 116,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 24.62,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Black Market Connections",
+   "expected_benefit": "completes Spellbook 1561-3862; roles draw",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 24 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (12 in li",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Peer into the Abyss in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Peer into the Abyss",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:d140dfda9ed6",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f2d0ea7b858e15052be69930f19707206413fb2191dde4831e7f195441fc47d5",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:d140dfda9ed6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:df0f871ff3b31405",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Peer into the Abyss [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Aggravated Assault",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Aggravated Assault"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 75,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.52,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kroxa, Titan of Death's Hunger",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 900-3750",
+   "expected_cost": "loses Kroxa, Titan of Death's Hunger: strong retain ({B}{R} legendary creature): win piece / enabler. Oracle: “When Kroxa enters, sacrifice it unless it escaped”. Packages pkg:discard-sources. Redun",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Kroxa, Titan of Death's Hunger with Aggravated Assault in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Aggravated Assault",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:d6efdb7f829a",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:70638f8164c1fb36dd3f0500e34eb46a14573b3a5ff220577539e7506cfaaedf",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:d6efdb7f829a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:23a3805c3f494d0e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kroxa, Titan of Death's Hunger [no effect modelled beyond being a castable card] → Aggravated Assault [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Aggravated Assault",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 75,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.52,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 900-3750",
+   "expected_cost": "loses Tergrid, God of Fright // Tergrid's Lantern: functional retain ({3}{B}{B} legendary creature): required package pkg:discard-payoffs. Oracle: “Menace”. Role removal (6 in list). Packages pkg:discard-payoffs",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Tergrid, God of Fright // Tergrid's Lantern with Aggravated Assault in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Aggravated Assault",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:c9940c5a1dcd",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b4504b68b5c25797c5d505d1da18dc9d1f1351816ebe1735bf838e1c30eb75f9",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:c9940c5a1dcd",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:f84e502257b4f530",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Tergrid, God of Fright // Tergrid's Lantern [no effect modelled beyond being a castable card] → Aggravated Assault [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hellkite Charger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Hellkite Charger"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 78,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.91,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kroxa, Titan of Death's Hunger",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 900-3398",
+   "expected_cost": "loses Kroxa, Titan of Death's Hunger: strong retain ({B}{R} legendary creature): win piece / enabler. Oracle: “When Kroxa enters, sacrifice it unless it escaped”. Packages pkg:discard-sources. Redun",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Kroxa, Titan of Death's Hunger with Hellkite Charger in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Hellkite Charger",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:c8130f0f2d44",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:53e2b431f1b751955c0d17a007dadd39c1c8202f2463c81fc05c506e74d51c66",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:c8130f0f2d44",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:c4f4aa5dc22ad9e7",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kroxa, Titan of Death's Hunger [no effect modelled beyond being a castable card] → Hellkite Charger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hellkite Charger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 78,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.91,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 900-3398",
+   "expected_cost": "loses Tergrid, God of Fright // Tergrid's Lantern: functional retain ({3}{B}{B} legendary creature): required package pkg:discard-payoffs. Oracle: “Menace”. Role removal (6 in list). Packages pkg:discard-payoffs",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Tergrid, God of Fright // Tergrid's Lantern with Hellkite Charger in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Hellkite Charger",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:8951bb972736",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:34b89a2bac0ef6e71db54312b70d2ac018c4ded15d01842baa49cedc46a6ff10",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:8951bb972736",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:aeddbb3674dbe0a6",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Tergrid, God of Fright // Tergrid's Lantern [no effect modelled beyond being a castable card] → Hellkite Charger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 147,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 513--62, 513-2364--47; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 16 other cards sharing a key role. Oracle: “Flash”. Role draw (12 in list), removal (6 in list). Redundancy 16 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:e6f8cf053a32",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b3fddbf7a0ddc15cd03948399b107915670a4fef92873532d3130ae2ac749b9e",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:e6f8cf053a32",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:ed2a8c49caf7e070",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (3).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Requiem Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 178,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.18,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Black Market Connections",
+   "expected_benefit": "completes Spellbook 3862-6804; roles draw",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 24 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (12 in li",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Requiem Monolith in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Requiem Monolith",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:928db9b246f3",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0f850c62909990ccf5e97ec7f24eac1ba2aadef5e2854f37c653ac03c058b370",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:928db9b246f3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:251f9d0f8c65e440",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Requiem Monolith [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 397,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 542-2364, 542-5034; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 16 other cards sharing a key role. Oracle: “Flash”. Role draw (12 in list), removal (6 in list). Redundancy 16 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:240746f79b30",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:dcd4a8e6682f747eccd400df99a582ab3608ac1d2986a30de9bf9d09d0842b37",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:240746f79b30",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:e81ce8c00bb7787c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Crackdown Construct"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1054,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kroxa, Titan of Death's Hunger",
+   "expected_benefit": "completes Spellbook 876-4944",
+   "expected_cost": "loses Kroxa, Titan of Death's Hunger: strong retain ({B}{R} legendary creature): win piece / enabler. Oracle: “When Kroxa enters, sacrifice it unless it escaped”. Packages pkg:discard-sources. Redun",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Kroxa, Titan of Death's Hunger with Crackdown Construct in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:eb014e7ec6d8",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9e28792dd46f2ff28523770e16e5b14d29b3dc4c47e0f8730df0a31d26e4e990",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:eb014e7ec6d8",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:aac381f89fb2e6dc",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kroxa, Titan of Death's Hunger [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1054,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 876-4944",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 16 other cards sharing a key role. Oracle: “Flash”. Role draw (12 in list), removal (6 in list). Redundancy 16 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Crackdown Construct in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:b91299eb7c7e",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:609875c94506637995b3a9158b55de604dae2dfe84a7fed523997b673ce90e77",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:b91299eb7c7e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:b99de71e65b75720",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cephalid Illusionist"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1160,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kroxa, Titan of Death's Hunger",
+   "expected_benefit": "completes Spellbook 876-2904",
+   "expected_cost": "loses Kroxa, Titan of Death's Hunger: strong retain ({B}{R} legendary creature): win piece / enabler. Oracle: “When Kroxa enters, sacrifice it unless it escaped”. Packages pkg:discard-sources. Redun",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Kroxa, Titan of Death's Hunger with Cephalid Illusionist in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:793c5cdcdaa8",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4b9639df828532b88915b42a23219ac7d062ecd2329b6caeb554921458e446f6",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:793c5cdcdaa8",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:e9f85aeba86b019e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kroxa, Titan of Death's Hunger [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1160,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 876-2904",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 16 other cards sharing a key role. Oracle: “Flash”. Role draw (12 in list), removal (6 in list). Redundancy 16 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Cephalid Illusionist in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:b22745ae84e9",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:da54c7cf6d3ff24e525a854d2ad4a16764f78fbbb87c6681f2d0925fa7233402",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:b22745ae84e9",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:c9d2be682489d856",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cephalid Aristocrat"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1454,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kroxa, Titan of Death's Hunger",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "loses Kroxa, Titan of Death's Hunger: strong retain ({B}{R} legendary creature): win piece / enabler. Oracle: “When Kroxa enters, sacrifice it unless it escaped”. Packages pkg:discard-sources. Redun",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Kroxa, Titan of Death's Hunger with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:c03bcbb82307",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b90b1c586a3ced4c495bf01f8de6cdcda24fa76793483e2155a345b90746562f",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:c03bcbb82307",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:77fd47612d46fce3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kroxa, Titan of Death's Hunger [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1454,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 16 other cards sharing a key role. Oracle: “Flash”. Role draw (12 in list), removal (6 in list). Redundancy 16 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/crosis-the-purger.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:7c310fcbd750",
+    "optimizer": "data/grixis/m6/optimizer/crosis-the-purger.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4a25a3c9a358b27fb17baf0b74cab04ddd20344cc59c9931bf4d00ceedd5464b",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:crosis-the-purger:m5:7c310fcbd750",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:crosis-the-purger:goldfish:39b1b3cb55ded448",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "crosis-the-purger",
+ "stage": "M6_strategic_review_packet"
+}

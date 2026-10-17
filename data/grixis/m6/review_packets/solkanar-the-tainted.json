@@ -1,0 +1,2846 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 2,
+  "deep_review": 28,
+  "flag:combo_review_required": 25,
+  "flag:elevated_burden": 11,
+  "flag:explicit_judgment_prompts": 28,
+  "flag:mana_delta_required": 4,
+  "flag:mechanics_not_modelable": 6,
+  "flag:test_fail": 1,
+  "flag:test_inconclusive": 13,
+  "flag:test_no_detectable_difference": 11,
+  "flag:test_pass": 3,
+  "priority:P1_measured_performance_only": 3,
+  "priority:P3_commander_fit_only": 25,
+  "scrutiny:enhanced_scrutiny": 27,
+  "scrutiny:high_scrutiny": 1,
+  "source:commander_only": 25,
+  "source:performance_only": 3
+ },
+ "deck_id": "Sol_kanar_the_Tainted",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Commander's Sphere",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 16,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 47.77,
+    "tier": "A"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Spiteful Banditry",
+   "expected_benefit": "EDHREC inclusion 29.7% vs cut 0.0%; roles draw, ramp",
+   "expected_cost": "loses Spiteful Banditry: flexible ({X}{R}{R} enchantment): 14 other cards sharing a key role. Oracle: “When this enchantment enters, it deals X damage to each creature”. Role ramp (12 i",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Spiteful Banditry with Commander's Sphere in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Commander's Sphere",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:1b51e77a1b9e",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:57b74196cf532b5264336d8afddee0dbd0634ea5fcee1efd437dc519c0874d38",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:1b51e77a1b9e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:64fbe626d94e90c3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Spiteful Banditry [no effect modelled beyond being a castable card] → Commander's Sphere [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (draw, wipe); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Coveted Jewel",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 20,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 43.35,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Spiteful Banditry",
+   "expected_benefit": "EDHREC inclusion 21.1% vs cut 0.0%; roles draw, ramp",
+   "expected_cost": "loses Spiteful Banditry: flexible ({X}{R}{R} enchantment): 14 other cards sharing a key role. Oracle: “When this enchantment enters, it deals X damage to each creature”. Role ramp (12 i",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Spiteful Banditry with Coveted Jewel in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Coveted Jewel",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:beb65fd4b516",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c3e4ae94a83825fe2128d0f3b1ae1fe45a546011bbb7f166086f3b6bf943ea57",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:beb65fd4b516",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:c55e0c51e6e0ae64",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Spiteful Banditry [no effect modelled beyond being a castable card] → Coveted Jewel [draw, mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (wipe); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Fellwar Stone",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 42,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.45,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Spiteful Banditry",
+   "expected_benefit": "EDHREC inclusion 31.1% vs cut 0.0%; roles ramp",
+   "expected_cost": "loses Spiteful Banditry: flexible ({X}{R}{R} enchantment): 14 other cards sharing a key role. Oracle: “When this enchantment enters, it deals X damage to each creature”. Role ramp (12 i",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Spiteful Banditry with Fellwar Stone in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Fellwar Stone",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:df71cb284c52",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:450a8737a1da872074645e3b28c4dee6842a3e84a8e84ff494be805cd232e98e",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:df71cb284c52",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:56c2b67b0a09b574",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Spiteful Banditry [no effect modelled beyond being a castable card] → Fellwar Stone [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (wipe); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Body of Knowledge",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 179,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.93,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ertai Resurrected",
+   "expected_benefit": "completes Spellbook 700-1077-3862, 700-1844-3862; roles draw",
+   "expected_cost": "loses Ertai Resurrected: flexible ({2}{U}{B} legendary creature): 24 other cards sharing a key role. Oracle: “Flash”. Role counter (5 in list), draw (13 in list), removal (12 in list). ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Ertai Resurrected with Body of Knowledge in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Body of Knowledge",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:729d022cb459",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b46b215868b18d48f0f93ac02501856e2e5e1a79e9cfa1e460623e9bc0c732b7",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:729d022cb459",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:1140509f610a921d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ertai Resurrected [no effect modelled beyond being a castable card] → Body of Knowledge [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (7).",
+       "The model cannot see: interaction (counter, draw, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Toralf, God of Fury // Toralf's Hammer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Toralf, God of Fury // Toralf's Hammer"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "opponents losing life",
+    "rank": 37,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.7,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Goblin Bombardment",
+   "expected_benefit": "Oracle hook opponents losing life; completes Spellbook 1775-2484; roles removal",
+   "expected_cost": "loses Goblin Bombardment: strong retain ({1}{R} enchantment): win piece / enabler. Oracle: “Sacrifice a creature: This enchantment deals 1 damage to any target”. Role removal (12 in list",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Goblin Bombardment with Toralf, God of Fury // Toralf's Hammer in role removal improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Toralf, God of Fury // Toralf's Hammer",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:72a8e5ce67d2",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4e70c8a633cff6169f509810f1f414afb003df05fd2d86073fb7a4f5ab9e4d46",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:72a8e5ce67d2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:ec0044630315e0c8",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Goblin Bombardment [no effect modelled beyond being a castable card] → Toralf, God of Fury // Toralf's Hammer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Toralf, God of Fury // Toralf's Hammer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "opponents losing life",
+    "rank": 37,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.7,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "Oracle hook opponents losing life; completes Spellbook 1775-2484; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Toralf, God of Fury // Toralf's Hammer in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Toralf, God of Fury // Toralf's Hammer",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:a7d1ba12114f",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f72f80c94ea6863b055c49b233a824b7906078310d2d27cfb8cce37d47fb397a",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:a7d1ba12114f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:515fa3bde28d8306",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Toralf, God of Fury // Toralf's Hammer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Requiem Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "life gain",
+    "rank": 50,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.18,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ertai Resurrected",
+   "expected_benefit": "Oracle hook life gain; completes Spellbook 3862-6804; roles draw",
+   "expected_cost": "loses Ertai Resurrected: flexible ({2}{U}{B} legendary creature): 24 other cards sharing a key role. Oracle: “Flash”. Role counter (5 in list), draw (13 in list), removal (12 in list). ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Ertai Resurrected with Requiem Monolith in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Requiem Monolith",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:fb1123c624f5",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7942f8ccefc8cb25a5155da65ffd1cafb2243cc9ed0c347ac8fb255c282682d7",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:fb1123c624f5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:0e911003452cb25c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ertai Resurrected [no effect modelled beyond being a castable card] → Requiem Monolith [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (counter, draw, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Hullbreaker Horror"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 64,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 26.85,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Goblin Bombardment",
+   "expected_benefit": "completes Spellbook 513-2364--47, 513-5034--46; roles removal",
+   "expected_cost": "loses Goblin Bombardment: strong retain ({1}{R} enchantment): win piece / enabler. Oracle: “Sacrifice a creature: This enchantment deals 1 damage to any target”. Role removal (12 in list",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Goblin Bombardment with Hullbreaker Horror in role removal improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:39778211694c",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d9e380886f8a2afb8c71dc1bf91d1fa7931f163722ec6179b62c71701330bacc",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:39778211694c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:48294050467492f7",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Goblin Bombardment [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 64,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 26.85,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 513-2364--47, 513-5034--46; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:7d3465b45a8a",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:14b722a9172982da43a12a5c808b00e66f0b21f4e5cf46dd23551e6ad8f9f7e6",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:7d3465b45a8a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:c9fcc5bf373c1b73",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Tidespout Tyrant"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 93,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Goblin Bombardment",
+   "expected_benefit": "completes Spellbook 542-2364, 542-5034; roles removal",
+   "expected_cost": "loses Goblin Bombardment: strong retain ({1}{R} enchantment): win piece / enabler. Oracle: “Sacrifice a creature: This enchantment deals 1 damage to any target”. Role removal (12 in list",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Goblin Bombardment with Tidespout Tyrant in role removal improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:97a07445ccbc",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f38235aa274710657429b71ee29c5bbcf9111197c19fd6519ebf84cc26a1506d",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:97a07445ccbc",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:82d1309f4a630f65",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Goblin Bombardment [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 93,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 542-2364, 542-5034; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:92b90a944e5d",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:65f18bc1d14dfb07b0a0a9a6d44358ac34e34d9d9e33b355d584c49838d6bf98",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:92b90a944e5d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:9a378a927e55c19a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Fall of Cair Andros",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Fall of Cair Andros"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 107,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Goblin Bombardment",
+   "expected_benefit": "completes Spellbook 1823-2484; roles removal",
+   "expected_cost": "loses Goblin Bombardment: strong retain ({1}{R} enchantment): win piece / enabler. Oracle: “Sacrifice a creature: This enchantment deals 1 damage to any target”. Role removal (12 in list",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Goblin Bombardment with Fall of Cair Andros in role removal improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Fall of Cair Andros",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:7d38636e3f5c",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a82692d794acc334b7ca73ac50b06a5ec6df4a213b315e3fcb8da65da869ca2a",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:7d38636e3f5c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:12ee14f8a20427b1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Goblin Bombardment [no effect modelled beyond being a castable card] → Fall of Cair Andros [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Fall of Cair Andros",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 107,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 1823-2484; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Fall of Cair Andros in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Fall of Cair Andros",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:aa47a1accdf6",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a9e6107f7730fbd6e2b9c4877d2f67706ef970a0d70822e70929ca2df120cf4f",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:aa47a1accdf6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:fdde06b7cb339e93",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Fall of Cair Andros [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Dualcaster Mage",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Dualcaster Mage"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 130,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.55,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bazaar Trader",
+   "expected_benefit": "completes Spellbook 147-673",
+   "expected_cost": "loses Bazaar Trader: strong retain ({1}{R} creature): win piece / enabler. Oracle: “{T}: Target player gains control of target artifact, creature, or land you co…”. Packages pkg:tra",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Bazaar Trader with Dualcaster Mage in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Dualcaster Mage",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:540bce12b51c",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5ad94912eb3a32cceecd087cfd1289cb14f29402561f7b33b9e6f0b6b6796ee6",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:540bce12b51c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:4084fe66a1475e9c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bazaar Trader [no effect modelled beyond being a castable card] → Dualcaster Mage [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Dualcaster Mage",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 130,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.55,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 147-673",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Dualcaster Mage in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Dualcaster Mage",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:b15a4410a5a1",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c763f908457436c8ee9ca68ced777f53a91ca508ee2ba2f10ce0cfee20cb6ad1",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:b15a4410a5a1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:206e83bd7b4d65fb",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Dualcaster Mage [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Peer into the Abyss",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 153,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.62,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ertai Resurrected",
+   "expected_benefit": "completes Spellbook 1561-3862; roles draw",
+   "expected_cost": "loses Ertai Resurrected: flexible ({2}{U}{B} legendary creature): 24 other cards sharing a key role. Oracle: “Flash”. Role counter (5 in list), draw (13 in list), removal (12 in list). ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Ertai Resurrected with Peer into the Abyss in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Peer into the Abyss",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:51e5f306fa6f",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:36975542ca603ca4dc4c2eadd6a56dfe323c6043c889b5564867cae181a4b810",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:51e5f306fa6f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:c55c02613e4959b9",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ertai Resurrected [no effect modelled beyond being a castable card] → Peer into the Abyss [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (counter, draw, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Repercussion"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 205,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Goblin Bombardment",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Goblin Bombardment: strong retain ({1}{R} enchantment): win piece / enabler. Oracle: “Sacrifice a creature: This enchantment deals 1 damage to any target”. Role removal (12 in list",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Goblin Bombardment with Repercussion in role Enchantment improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:411035346a90",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:428ccf223c389a35469e33a6ae525f09fa74b6c90fabf82c5ac50a64fd03744e",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:411035346a90",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:3f03e51eb6831674",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Goblin Bombardment [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 205,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Spiteful Banditry",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Spiteful Banditry: flexible ({X}{R}{R} enchantment): 14 other cards sharing a key role. Oracle: “When this enchantment enters, it deals X damage to each creature”. Role ramp (12 i",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Spiteful Banditry with Repercussion in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:934f751c22a1",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4cf2cc4571aa60c1fb43ebd825819b7338503056a509d5b392041b213d696ff6",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:934f751c22a1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:724ac9aa504e3691",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Spiteful Banditry [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (wipe); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Stella Lee, Wild Card",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Stella Lee, Wild Card"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 265,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.62,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bazaar Trader",
+   "expected_benefit": "completes Spellbook 5534--28",
+   "expected_cost": "loses Bazaar Trader: strong retain ({1}{R} creature): win piece / enabler. Oracle: “{T}: Target player gains control of target artifact, creature, or land you co…”. Packages pkg:tra",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bazaar Trader with Stella Lee, Wild Card in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Stella Lee, Wild Card",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:454898cd4556",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e49e27983499523f6609a48f72f79fbe8116851ab8a1c97449e7a7f8c2bd89e0",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:454898cd4556",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:44da44a90fad2ab7",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bazaar Trader [no effect modelled beyond being a castable card] → Stella Lee, Wild Card [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Stella Lee, Wild Card",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 265,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.62,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 5534--28",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Stella Lee, Wild Card in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Stella Lee, Wild Card",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:af462f2d61c7",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a007761bc6bb671a73c3701d1796ac8e7b5cf49632c79672cee213483afd0a4c",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:af462f2d61c7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:ae0bf574b9878d37",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Stella Lee, Wild Card [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Naru Meha, Master Wizard",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Naru Meha, Master Wizard"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 293,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.35,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bazaar Trader",
+   "expected_benefit": "completes Spellbook 141-673",
+   "expected_cost": "loses Bazaar Trader: strong retain ({1}{R} creature): win piece / enabler. Oracle: “{T}: Target player gains control of target artifact, creature, or land you co…”. Packages pkg:tra",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Bazaar Trader with Naru Meha, Master Wizard in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Naru Meha, Master Wizard",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:eb884ddc718a",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:523a7082bdd4c563e1585537b5942d8b1a5b037500cfaf05c4a30ff595db2902",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:eb884ddc718a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:2685667c3eda7770",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bazaar Trader [no effect modelled beyond being a castable card] → Naru Meha, Master Wizard [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Naru Meha, Master Wizard",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 293,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.35,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 141-673",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Naru Meha, Master Wizard in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Naru Meha, Master Wizard",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:2c78aa20a53e",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c3270d6bcc91f948b1f7521ea8f12957bd7e9fae2fe00be3b043af79a5481bb6",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:2c78aa20a53e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:8119e1cf01408f33",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Naru Meha, Master Wizard [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Raptor Hatchling",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Raptor Hatchling"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 514,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bazaar Trader",
+   "expected_benefit": "completes Spellbook 5147-5191",
+   "expected_cost": "loses Bazaar Trader: strong retain ({1}{R} creature): win piece / enabler. Oracle: “{T}: Target player gains control of target artifact, creature, or land you co…”. Packages pkg:tra",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bazaar Trader with Raptor Hatchling in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Raptor Hatchling",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:9544cd1d7ae4",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bda00fb50d9cb69f2ddf200375723bdb0c1505a410e815dcd658e96c687211bb",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:9544cd1d7ae4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:33cfa0f4d4565898",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bazaar Trader [no effect modelled beyond being a castable card] → Raptor Hatchling [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Raptor Hatchling",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 514,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 5147-5191",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Raptor Hatchling in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Raptor Hatchling",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:9c5561bff0b4",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:54935b89ca5e1a4ba894665f211b1fd104b609808f455bba2e191e47a4992c5e",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:9c5561bff0b4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:6d63d96e74f11582",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Raptor Hatchling [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Sigil Tracer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Sigil Tracer"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 523,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.18,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bazaar Trader",
+   "expected_benefit": "completes Spellbook 2787-3236",
+   "expected_cost": "loses Bazaar Trader: strong retain ({1}{R} creature): win piece / enabler. Oracle: “{T}: Target player gains control of target artifact, creature, or land you co…”. Packages pkg:tra",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Bazaar Trader with Sigil Tracer in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Sigil Tracer",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:8d28f7718ca5",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:58fb645881b9dd1d64e7f323c96fd7ff843a90cb7585e80c82339592e3736d0a",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:8d28f7718ca5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:8bed0bd2d85f952c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bazaar Trader [no effect modelled beyond being a castable card] → Sigil Tracer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Sigil Tracer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 523,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.18,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 2787-3236",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Sigil Tracer in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Sigil Tracer",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:74dbe6d03da5",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d7247d01fcea0882008f156c83825044b72d54d401bd4fff4da625f2dcd60c7c",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:74dbe6d03da5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:5dd9ace5783ad6c9",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Sigil Tracer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Echo Mage",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Echo Mage"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 588,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.94,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bazaar Trader",
+   "expected_benefit": "completes Spellbook 1318-2787",
+   "expected_cost": "loses Bazaar Trader: strong retain ({1}{R} creature): win piece / enabler. Oracle: “{T}: Target player gains control of target artifact, creature, or land you co…”. Packages pkg:tra",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Bazaar Trader with Echo Mage in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Echo Mage",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:f6c73210cdef",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1b4a240b2c0ccf643be7cd24fbf56e9f3894557c4b81e9a35ed69e536485136c",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:f6c73210cdef",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:1cf110fadfe9b3fa",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bazaar Trader [no effect modelled beyond being a castable card] → Echo Mage [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Echo Mage",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 588,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.94,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 1318-2787",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 20 other cards sharing a key role. Oracle: “Flash”. Role draw (13 in list), removal (12 in list). Redundancy 20 (other cards sharing",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Echo Mage in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/solkanar-the-tainted.json#Echo Mage",
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:282e28849616",
+    "optimizer": "data/grixis/m6/optimizer/solkanar-the-tainted.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7214f5f1b5257baacf7bb3618ff5f9764939e83ccdd836ac8d1892a2bb5b16bb",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:solkanar-the-tainted:m5:282e28849616",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:solkanar-the-tainted:goldfish:a81a6da5d8a59c54",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Echo Mage [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "solkanar-the-tainted",
+ "stage": "M6_strategic_review_packet"
+}

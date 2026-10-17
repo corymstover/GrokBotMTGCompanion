@@ -1,0 +1,3780 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 2,
+  "deep_review": 38,
+  "flag:combo_review_required": 36,
+  "flag:elevated_burden": 7,
+  "flag:explicit_judgment_prompts": 38,
+  "flag:mana_delta_required": 18,
+  "flag:mechanics_not_modelable": 22,
+  "flag:test_fail": 8,
+  "flag:test_inconclusive": 3,
+  "flag:test_no_detectable_difference": 25,
+  "flag:test_pass": 2,
+  "priority:P1_measured_performance_only": 2,
+  "priority:P3_commander_fit_only": 36,
+  "scrutiny:enhanced_scrutiny": 30,
+  "scrutiny:high_scrutiny": 8,
+  "source:commander_only": 36,
+  "source:performance_only": 2
+ },
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Izzet Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 49,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 43.34,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "EDHREC inclusion 35.4% vs cut 29.4%; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Izzet Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Izzet Signet",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:9b342b0139a1",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:54bdf017015df2e8055d3ca0b324eeea22f470aa03bca102fe8f2ff5add0449b",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:9b342b0139a1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:5b30e7848461ecd0",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Izzet Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Dimir Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 61,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 39.94,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "EDHREC inclusion 34.7% vs cut 29.4%; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Dimir Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Dimir Signet",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:b7e53dca9096",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:cecda3653f789b30e2711ac48124732233ec826423ddd4ffaefd384f94dedcdf",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:b7e53dca9096",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:5e90c9b2da6a764b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Dimir Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Descent into Avernus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 6,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 71.1,
+    "tier": "A"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "completes Spellbook 5228-5471; EDHREC inclusion 28.5% vs cut 29.4%; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Descent into Avernus in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Descent into Avernus",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:c5863883cb78",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f579bdf067b4f6d12f1eeb83279c6b7300433ebc83fc3dc8184f875b175383bd",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:c5863883cb78",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:5d69f919831ff7a6",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Descent into Avernus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "The Reaver Cleaver",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 46,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 44.29,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-5039; EDHREC inclusion 7.1% vs cut 29.4%; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with The Reaver Cleaver in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#The Reaver Cleaver",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:28bd59f0e617",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8a7757a9e4e5f4c4a29814fb212bf8b53a8efaad043b339a32ddba6887d022db",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:28bd59f0e617",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:781bd614fb784444",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → The Reaver Cleaver [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Ant-Man, Elusive Avenger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 79,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.35,
+    "tier": "B"
+   },
+   "challenger_class": "new_card",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-7748, 2047-7748; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Ant-Man, Elusive Avenger in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Ant-Man, Elusive Avenger",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:0f06e04e9b87",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e9da2c684c484783ce9e328c436c1faa41b660a4b9fa362e787911f06d8a13e2",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:0f06e04e9b87",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:3d24eb08b368bbd1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Ant-Man, Elusive Avenger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Thorin, Company's Leader",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 80,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.26,
+    "tier": "B"
+   },
+   "challenger_class": "new_card",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-7903; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Thorin, Company's Leader in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Thorin, Company's Leader",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:182b22bc5998",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:19d8c70467a946d36c695a21321a6a38f33ec09f139f3fd2c29c572ede729971",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:182b22bc5998",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:e58ed944c7ebbe25",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Thorin, Company's Leader [oneshot].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cavern-Hoard Dragon",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 85,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 32.55,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-5988; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Cavern-Hoard Dragon in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Cavern-Hoard Dragon",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:3aeb01d91aa8",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:326df9d8e44228644a0c72b7e5e6953cb7286ee0d438b860e373504129641f2a",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:3aeb01d91aa8",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:25ee79dba97f7433",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Cavern-Hoard Dragon [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Hoard Hauler",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 95,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.61,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 451-1558; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Hoard Hauler in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Hoard Hauler",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:6f1b5c1ff1f5",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:94be3880c63b06d7fa4cef4e639e31e0945e160f5a53285d4815481884ecebd2",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:6f1b5c1ff1f5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:82a4b696419f1dc2",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Hoard Hauler [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Edward Kenway",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 96,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.47,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-5736; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Edward Kenway in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Edward Kenway",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:1b186d9678d6",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9e928781bf3f6df98901cfee5fae04357bbfd6e40c9450d7f3f14da72731cadc",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:1b186d9678d6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:606399ce58a22d8d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Edward Kenway [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Academy Manufactor",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 135,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.93,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "completes Spellbook 1558-1949-2740-4231; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Academy Manufactor in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Academy Manufactor",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:d26d107e8a2a",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:dc4f247929319c8364eb3d43f70641ad9c7763b9d4fddb92b7389ca719eba7f6",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:d26d107e8a2a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:d7e77b2e84fc5cb6",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Academy Manufactor [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Aggravated Assault",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 32,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 51.03,
+    "tier": "A"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ring of Valkas",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-5471-7348, 3750-5471-7651; EDHREC inclusion 10.2% vs cut 71.4%",
+   "expected_cost": "loses Ring of Valkas: weak retain ({2} artifact): no structure; Oracle hook combat damage / attack triggers. Oracle: “Equipped creature has haste”. Redundancy 0 (no shared job). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Ring of Valkas with Aggravated Assault in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Aggravated Assault",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:7ebbb89e80c3",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1765b8404324135243772044f50c3e3278588f6c87fe123d20eaa51e61ee39a1",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:7ebbb89e80c3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:3bcd0ac654b4c502",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ring of Valkas [no effect modelled beyond being a castable card] → Aggravated Assault [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (3).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "The Tenth Doctor",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 72,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 36.12,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bonehoard Dracosaur",
+   "expected_benefit": "completes Spellbook 1397-1618; EDHREC inclusion 9.8% vs cut 33.6%",
+   "expected_cost": "loses Bonehoard Dracosaur: flexible ({3}{R}{R} creature): 10 other cards sharing a key role. Oracle: “Flying, first strike”. Role ramp (11 in list). Redundancy 10 (other cards sharing a k",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bonehoard Dracosaur with The Tenth Doctor in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#The Tenth Doctor",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:9d5bb61e88e3",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:586ac52ffb275bea0c6c940d6246dba83e2bfc3941320dee52d890234a5feafc",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:9d5bb61e88e3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:5414ccf244784f5a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bonehoard Dracosaur [no effect modelled beyond being a castable card] → The Tenth Doctor [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "The Tenth Doctor",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "The Tenth Doctor"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 72,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 36.12,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Roaming Throne",
+   "expected_benefit": "completes Spellbook 1397-1618; EDHREC inclusion 9.8% vs cut 10.7%",
+   "expected_cost": "loses Roaming Throne: strong retain ({4} artifact creature): win piece / enabler. Oracle: “Ward {2}”. Packages pkg:damage-trigger-scaling. Redundancy 7 (other cards in its package(s)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Roaming Throne with The Tenth Doctor in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#The Tenth Doctor",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:47d81d8b4258",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:050a7901d9afb40cff052d97d0e98d3dd8ef16f30e8d6ad3e7e18212cd939f9d",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:47d81d8b4258",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:cdfec3a8690673d8",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Roaming Throne [no effect modelled beyond being a castable card] → The Tenth Doctor [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Myr Battlesphere",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 83,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.11,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ring of Valkas",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-2047-4840, 1558-2061-4840",
+   "expected_cost": "loses Ring of Valkas: weak retain ({2} artifact): no structure; Oracle hook combat damage / attack triggers. Oracle: “Equipped creature has haste”. Redundancy 0 (no shared job). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Ring of Valkas with Myr Battlesphere in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Myr Battlesphere",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:a98897bb7f5b",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7aec515f3c8e13a263c8d0b31dd464cfcf2acf0ba672982a6ff0202c727372b3",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:a98897bb7f5b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:a891819cf01a219b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ring of Valkas [no effect modelled beyond being a castable card] → Myr Battlesphere [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cybermen Squadron",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 88,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.94,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ring of Valkas",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 181-1558",
+   "expected_cost": "loses Ring of Valkas: weak retain ({2} artifact): no structure; Oracle hook combat damage / attack triggers. Oracle: “Equipped creature has haste”. Redundancy 0 (no shared job). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Ring of Valkas with Cybermen Squadron in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Cybermen Squadron",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:df9fbc236335",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7eaec196c85847b85583848713424fbafb01c5d4725f823bd44522bb8050fa64",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:df9fbc236335",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:69163f73ddf4ce3f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ring of Valkas [no effect modelled beyond being a castable card] → Cybermen Squadron [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hellkite Charger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 89,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.91,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ring of Valkas",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 900-3398",
+   "expected_cost": "loses Ring of Valkas: weak retain ({2} artifact): no structure; Oracle hook combat damage / attack triggers. Oracle: “Equipped creature has haste”. Redundancy 0 (no shared job). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Ring of Valkas with Hellkite Charger in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Hellkite Charger",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:e6b3aff4fe13",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c06b09ccb73133147cdb70751502a59d6451bfb2299f012d93893c66f4e7eb17",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:e6b3aff4fe13",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:8722af19f2cf423a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ring of Valkas [no effect modelled beyond being a castable card] → Hellkite Charger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Piper Wright, Publick Reporter",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 97,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.31,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ring of Valkas",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-5395",
+   "expected_cost": "loses Ring of Valkas: weak retain ({2} artifact): no structure; Oracle hook combat damage / attack triggers. Oracle: “Equipped creature has haste”. Redundancy 0 (no shared job). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Ring of Valkas with Piper Wright, Publick Reporter in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Piper Wright, Publick Reporter",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:7b52e6fd3afe",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:217d4d525ee770bcd4f4ef347f4eecaa6239f562d6ee11ef591a81ce9e99ebce",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:7b52e6fd3afe",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:a99340227cf43d7f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ring of Valkas [no effect modelled beyond being a castable card] → Piper Wright, Publick Reporter [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Exsanguinator Cavalry",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 98,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.2,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ring of Valkas",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-5325",
+   "expected_cost": "loses Ring of Valkas: weak retain ({2} artifact): no structure; Oracle hook combat damage / attack triggers. Oracle: “Equipped creature has haste”. Redundancy 0 (no shared job). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Ring of Valkas with Exsanguinator Cavalry in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Exsanguinator Cavalry",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:2819b72e8da4",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:261b3672e380b0cbb9186d344378e9f5b1912fe8b41918fb2b0b266466cfccef",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:2819b72e8da4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:f70f9dd3b4999260",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ring of Valkas [no effect modelled beyond being a castable card] → Exsanguinator Cavalry [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Luxurious Locomotive",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 99,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.94,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-6307; roles ramp",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Luxurious Locomotive in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Luxurious Locomotive",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:d3a787e7aee0",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f4e43c305cbc37d4f853cc7aca58bd188aeadf6c3777a3ca53367a39c9b3fde4",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:d3a787e7aee0",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:1f2bc5a6b8b0bc9c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Luxurious Locomotive [oneshot].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Olivia's Attendants",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 100,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.86,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1558-3888, 2047-3888; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (4 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Olivia's Attendants in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Olivia's Attendants",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:9c97f2f62e65",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:cde7935a41b69d269d9c380204c9e7071fe7a2c94cf8a3224e9fb83f5522bae6",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:9c97f2f62e65",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:03f29821354e5f5c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Olivia's Attendants [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Wanderwine Prophets",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 101,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.73,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ring of Valkas",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 2061-2120",
+   "expected_cost": "loses Ring of Valkas: weak retain ({2} artifact): no structure; Oracle hook combat damage / attack triggers. Oracle: “Equipped creature has haste”. Redundancy 0 (no shared job). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Ring of Valkas with Wanderwine Prophets in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Wanderwine Prophets",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:e8b8603f3f02",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:62fe566789cc4a0436e0b8560cbf45b871519c4fe923c4c1fcc0e1d764c3d01d",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:e8b8603f3f02",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:4c3689f2ae675076",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ring of Valkas [no effect modelled beyond being a castable card] → Wanderwine Prophets [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Inquisitor Eisenhorn",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 106,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.23,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ring of Valkas",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1297-1558",
+   "expected_cost": "loses Ring of Valkas: weak retain ({2} artifact): no structure; Oracle hook combat damage / attack triggers. Oracle: “Equipped creature has haste”. Redundancy 0 (no shared job). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Ring of Valkas with Inquisitor Eisenhorn in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Inquisitor Eisenhorn",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:229db20a565d",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f1d21cba609e47fda147024a54a5e52749c100126c05afd22ec91c8cb41b74ef",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:229db20a565d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:1db1a21c69e55e10",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ring of Valkas [no effect modelled beyond being a castable card] → Inquisitor Eisenhorn [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 137,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 513-5034--46; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (4 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:3c91f1ee4aa6",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4c1d8e2c47c65a627a0a45ace61651b06a2d040e8b1f426cea8ccf8a3c908bdf",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:3c91f1ee4aa6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:65857abf026292d5",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Reiterate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 160,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.64,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Hatred",
+   "expected_benefit": "completes Spellbook 1397-3368",
+   "expected_cost": "loses Hatred: functional retain ({3}{B}{B} instant): required package pkg:damage-trigger-scaling. Oracle: “As an additional cost to cast this spell, pay X life”. Packages pkg",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Hatred with Reiterate in role Instant improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Reiterate",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:5383220fed4a",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:cff255f28ca713cc2228a39f79099ab4621170486e9538fb1c638c365301992a",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:5383220fed4a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:f4b5c355fbc86e8c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Hatred [no effect modelled beyond being a castable card] → Reiterate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 184,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 542-5034; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (4 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:c346c44e9f45",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9830164a2fcdeb4019285c32ad80916025bcbc31a8d464855c482f8ecf7208e6",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:c346c44e9f45",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:8c869dec58c28e0e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Timestream Navigator",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 215,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.59,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bonehoard Dracosaur",
+   "expected_benefit": "completes Spellbook 1061-2061",
+   "expected_cost": "loses Bonehoard Dracosaur: flexible ({3}{R}{R} creature): 10 other cards sharing a key role. Oracle: “Flying, first strike”. Role ramp (11 in list). Redundancy 10 (other cards sharing a k",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bonehoard Dracosaur with Timestream Navigator in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Timestream Navigator",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:da0d4534e384",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2a6780db87fa0ba9008727a3f2c4228f1e4cc4c4f5d976feb93d9749fb803068",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:da0d4534e384",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:67cfe76dfc9453b1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bonehoard Dracosaur [no effect modelled beyond being a castable card] → Timestream Navigator [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Timestream Navigator",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Timestream Navigator"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 215,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.59,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Roaming Throne",
+   "expected_benefit": "completes Spellbook 1061-2061",
+   "expected_cost": "loses Roaming Throne: strong retain ({4} artifact creature): win piece / enabler. Oracle: “Ward {2}”. Packages pkg:damage-trigger-scaling. Redundancy 7 (other cards in its package(s)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Roaming Throne with Timestream Navigator in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Timestream Navigator",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:43b83e67bd13",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:af12bb4e25bef2b095f342607f03e2e427be6f9f518f00d2ef7ff981ad1a8b7a",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:43b83e67bd13",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:8d76fb3135ac2969",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Roaming Throne [no effect modelled beyond being a castable card] → Timestream Navigator [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Thopter Assembly",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 220,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.53,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bonehoard Dracosaur",
+   "expected_benefit": "completes Spellbook 1558-5146",
+   "expected_cost": "loses Bonehoard Dracosaur: flexible ({3}{R}{R} creature): 10 other cards sharing a key role. Oracle: “Flying, first strike”. Role ramp (11 in list). Redundancy 10 (other cards sharing a k",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bonehoard Dracosaur with Thopter Assembly in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Thopter Assembly",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:6cf9af09ca33",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:65c226a73a0f5239c3db6f75ed04636b4a36a908517751d9cf8cf5c01b4abc24",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:6cf9af09ca33",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:cece2c91db78667c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bonehoard Dracosaur [no effect modelled beyond being a castable card] → Thopter Assembly [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Thopter Assembly",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Thopter Assembly"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 220,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.53,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Roaming Throne",
+   "expected_benefit": "completes Spellbook 1558-5146",
+   "expected_cost": "loses Roaming Throne: strong retain ({4} artifact creature): win piece / enabler. Oracle: “Ward {2}”. Packages pkg:damage-trigger-scaling. Redundancy 7 (other cards in its package(s)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Roaming Throne with Thopter Assembly in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Thopter Assembly",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:96a143c2ba2d",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2872df14fe1a2d26a47d5d88c2faefe95e98538fe57ee00246d3ac255e5ab5c3",
+   "review_order": 29,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:96a143c2ba2d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:ad5916cfe71b8221",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Roaming Throne [no effect modelled beyond being a castable card] → Thopter Assembly [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Rift Elemental",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 372,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.42,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bonehoard Dracosaur",
+   "expected_benefit": "completes Spellbook 1397-4015",
+   "expected_cost": "loses Bonehoard Dracosaur: flexible ({3}{R}{R} creature): 10 other cards sharing a key role. Oracle: “Flying, first strike”. Role ramp (11 in list). Redundancy 10 (other cards sharing a k",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bonehoard Dracosaur with Rift Elemental in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Rift Elemental",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:5294cbf5ec27",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8d98c434ec45b67d2cde63cd4a8aaa79c1d5a11ed5b45996a014415f9ca632c1",
+   "review_order": 30,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:5294cbf5ec27",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:ce0058a70d9d5c36",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bonehoard Dracosaur [no effect modelled beyond being a castable card] → Rift Elemental [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Rift Elemental",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Rift Elemental"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 372,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.42,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Roaming Throne",
+   "expected_benefit": "completes Spellbook 1397-4015",
+   "expected_cost": "loses Roaming Throne: strong retain ({4} artifact creature): win piece / enabler. Oracle: “Ward {2}”. Packages pkg:damage-trigger-scaling. Redundancy 7 (other cards in its package(s)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Roaming Throne with Rift Elemental in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Rift Elemental",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:50ee6db120ae",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:45b207ba22c5cb8e411d577ad018e02cca675fdb5fb3166d0fa0c93bb5c8425c",
+   "review_order": 31,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:50ee6db120ae",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:5f96de4db7e9b436",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Roaming Throne [no effect modelled beyond being a castable card] → Rift Elemental [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 414,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bonehoard Dracosaur",
+   "expected_benefit": "completes Spellbook 4944-6978, 876-4944",
+   "expected_cost": "loses Bonehoard Dracosaur: flexible ({3}{R}{R} creature): 10 other cards sharing a key role. Oracle: “Flying, first strike”. Role ramp (11 in list). Redundancy 10 (other cards sharing a k",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bonehoard Dracosaur with Crackdown Construct in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:687d50eaef75",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:3979896201bc6ca0eaf01847c842edd2561963e76ea1f496b97ece8fd3a4253a",
+   "review_order": 32,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:687d50eaef75",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:4ba6ee4d4c678fd4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bonehoard Dracosaur [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Crackdown Construct"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 414,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Roaming Throne",
+   "expected_benefit": "completes Spellbook 4944-6978, 876-4944",
+   "expected_cost": "loses Roaming Throne: strong retain ({4} artifact creature): win piece / enabler. Oracle: “Ward {2}”. Packages pkg:damage-trigger-scaling. Redundancy 7 (other cards in its package(s)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Roaming Throne with Crackdown Construct in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:d69d379dd632",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:43e708bb6f89731f2d917934fefb86beaad39e9041cb27171f5ae5bd50fb5a90",
+   "review_order": 33,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:d69d379dd632",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:57895654d4dfe1df",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Roaming Throne [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 446,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bonehoard Dracosaur",
+   "expected_benefit": "completes Spellbook 876-2904",
+   "expected_cost": "loses Bonehoard Dracosaur: flexible ({3}{R}{R} creature): 10 other cards sharing a key role. Oracle: “Flying, first strike”. Role ramp (11 in list). Redundancy 10 (other cards sharing a k",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bonehoard Dracosaur with Cephalid Illusionist in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:d92089306a81",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c2af0076dfc09758eee6da3254c1f2fddaaaa58a3fc216c29c354fce5b8a17f4",
+   "review_order": 34,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:d92089306a81",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:6bc08fccc6f36eaf",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bonehoard Dracosaur [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cephalid Illusionist"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 446,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Roaming Throne",
+   "expected_benefit": "completes Spellbook 876-2904",
+   "expected_cost": "loses Roaming Throne: strong retain ({4} artifact creature): win piece / enabler. Oracle: “Ward {2}”. Packages pkg:damage-trigger-scaling. Redundancy 7 (other cards in its package(s)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Roaming Throne with Cephalid Illusionist in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:314370e1398a",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c5ef53224052f6e1cd043c2c633b538ba628038ad052ad9f137b05cf1e627057",
+   "review_order": 35,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:314370e1398a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:8dfa70603ec389b8",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Roaming Throne [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Second Chance",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 465,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.61,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Paradox Haze",
+   "expected_benefit": "completes Spellbook 1469-1530, 1530-2061",
+   "expected_cost": "loses Paradox Haze: weak retain ({2}{U} enchantment): no structure; EDHREC support. Oracle: “Enchant player”. Redundancy 0 (no shared job). EDHREC inclusion 40.2%, synergy +0.38.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Paradox Haze with Second Chance in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Second Chance",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:2383c2973a38",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b4b3981387682b6280f8f2160948f8ba2162c960aeeb8860d6caf7b4dfc46990",
+   "review_order": 36,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:2383c2973a38",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:6bce2f8ed1f45152",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Paradox Haze [no effect modelled beyond being a castable card] → Second Chance [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 522,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bonehoard Dracosaur",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "loses Bonehoard Dracosaur: flexible ({3}{R}{R} creature): 10 other cards sharing a key role. Oracle: “Flying, first strike”. Role ramp (11 in list). Redundancy 10 (other cards sharing a k",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bonehoard Dracosaur with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:0e338835ef82",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b700fa7a018b5555ef032551b05c27d57529c1e525462d20fe94d1150d2d9cc2",
+   "review_order": 37,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:0e338835ef82",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:1524af540befa004",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bonehoard Dracosaur [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cephalid Aristocrat"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 522,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Roaming Throne",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "loses Roaming Throne: strong retain ({4} artifact creature): win piece / enabler. Oracle: “Ward {2}”. Packages pkg:damage-trigger-scaling. Redundancy 7 (other cards in its package(s)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Roaming Throne with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/obeka-splitter-of-seconds.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/obeka-splitter-of-seconds.json.gz#id=swap:obeka-splitter-of-seconds:m5:160d0a5e5c41",
+    "optimizer": "data/grixis/m6/optimizer/obeka-splitter-of-seconds.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b7f9e65c8db3b54beacdd7ea1cdc69f00d8455de09c059c1641ab0017f7eb7ee",
+   "review_order": 38,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:obeka-splitter-of-seconds:m5:160d0a5e5c41",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:obeka-splitter-of-seconds:goldfish:34d434a48c7713ce",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Roaming Throne [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "stage": "M6_strategic_review_packet"
+}

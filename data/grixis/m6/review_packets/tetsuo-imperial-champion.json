@@ -1,0 +1,4382 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 3,
+  "deep_review": 44,
+  "flag:combo_review_required": 44,
+  "flag:elevated_burden": 10,
+  "flag:explicit_judgment_prompts": 44,
+  "flag:mana_delta_required": 13,
+  "flag:mechanics_not_modelable": 22,
+  "flag:test_fail": 15,
+  "flag:test_inconclusive": 15,
+  "flag:test_no_detectable_difference": 14,
+  "priority:P3_commander_fit_only": 44,
+  "scrutiny:enhanced_scrutiny": 29,
+  "scrutiny:high_scrutiny": 15,
+  "source:commander_only": 44
+ },
+ "deck_id": "Tetsuo__Imperial_Champion",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Thorin, Company's Leader",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 85,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.26,
+    "tier": "B"
+   },
+   "challenger_class": "new_card",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-7903; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Thorin, Company's Leader in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Thorin, Company's Leader",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:e7de607d2695",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:216bfcc7f08d94584c82994a8960809ba13a843758f746f09f67bbea0415eaf7",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:e7de607d2695",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:802518b6c4c92077",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Thorin, Company's Leader [oneshot].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Ancient Copper Dragon",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 89,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.68,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 778-3750; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Ancient Copper Dragon in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Ancient Copper Dragon",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:cf540afa1f46",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f6a14510f95abaf4abbf6e6c70d31408e0d86147894a253c3cf37453ec182b9d",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:cf540afa1f46",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:f9aba0c0129ba41a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Ancient Copper Dragon [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cavern-Hoard Dragon",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 94,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 32.55,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-5988; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Cavern-Hoard Dragon in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Cavern-Hoard Dragon",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:b16867eba814",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f7a60ce62a1a0d700ed341a24ae08e61cdd43ccc77903b307bb8b523f46b1369",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:b16867eba814",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:450dafc56be91590",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Cavern-Hoard Dragon [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Howlsquad Heavy",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 104,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.4,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-6410; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Howlsquad Heavy in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Howlsquad Heavy",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f2a12c0932ca",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e348cb6621d63ce70823c6dd3c99bae3f115c30391bc6e5ac71038a2bf8ffb0c",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:f2a12c0932ca",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:d452621f4d947595",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Howlsquad Heavy [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Surge to Victory",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 110,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.75,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 771-1760",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Surge to Victory in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Surge to Victory",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:706029979f6e",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9434c86119da82c937d984bc672488e5f7dfa3a3386e70a6b997f2f1a35ef710",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:706029979f6e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:1a2951ddc9814702",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Surge to Victory [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Surge to Victory",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Surge to Victory"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 110,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.75,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "World at War",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 771-1760",
+   "expected_cost": "loses World at War: strong retain ({3}{R}{R} sorcery): win piece / enabler. Oracle: “After the second main phase this turn, there's an additional combat phase fol…”. Packages pkg:f",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing World at War with Surge to Victory in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Surge to Victory",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:39b9e708331e",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7c7b69825fc7d100b3c44aa8375717988806e7bcea493a4aafe9d50af0610e6e",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:39b9e708331e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:c85e9dce22ee3527",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: World at War [no effect modelled beyond being a castable card] → Surge to Victory [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Stella Lee, Wild Card",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "instants and sorceries",
+    "rank": 112,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.62,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Brainstorm",
+   "expected_benefit": "Oracle hook instants and sorceries; completes Spellbook 5534--28",
+   "expected_cost": "loses Brainstorm: flexible ({U} instant; simulator models draw 3): 10 other cards sharing a key role. Oracle: “Draw three cards, then put two cards from your hand on top of your ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Brainstorm with Stella Lee, Wild Card in role instants and sorceries improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Stella Lee, Wild Card",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:6eed754932b1",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:044819e44a84cc871eb2092a549f382e54d9ca740b57139956c295a90e6470de",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:6eed754932b1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:d77cf86ca19a90dc",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Brainstorm [draw] → Stella Lee, Wild Card [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Hoard Hauler",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 113,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.61,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 451-3750; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Hoard Hauler in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Hoard Hauler",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:13f8260869b7",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7eafff278cf2b331126f77499e395b4a79a7658ffa4398247aeb81fc2d62303b",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:13f8260869b7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:3aaf7dd02e0d9598",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Hoard Hauler [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Luxurious Locomotive",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 117,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.94,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-6307; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Luxurious Locomotive in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Luxurious Locomotive",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:5a5ace7bbb5e",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:de09e0ecc981216367f41bd4d213c3889d57790ca9b42adf44b3b39b162c0d13",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:5a5ace7bbb5e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:b2937df43ddb0230",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Luxurious Locomotive [oneshot].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "J. Jonah Jameson",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 119,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.82,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-6894; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with J. Jonah Jameson in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#J. Jonah Jameson",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:ec89f9c28e79",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:edccf6ddacee96fbef73f13f72696ffa5d54b9ddb9f321ebd9fe8135519cc8d9",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:ec89f9c28e79",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:ee0c727770e55929",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → J. Jonah Jameson [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Ashnod's Altar",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 155,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.91,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "completes Spellbook 2034-4640; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Ashnod's Altar in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Ashnod's Altar",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:8358260ad930",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:3b17d5736665e1ff92574e9799b45cfd441d847669049bf3384df7e76a769eb2",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:8358260ad930",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:3d3743ad80eaf979",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Ashnod's Altar [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Neheb, the Eternal",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 259,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.73,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "completes Spellbook 3750-4945; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Neheb, the Eternal in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Neheb, the Eternal",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:fca99dc57cf6",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d2b2a08cb9c22c38a3855a2a6b2f4ab0334a511ffebee35403c3bcc03a450e6b",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:fca99dc57cf6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:ad680d32f905c178",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Neheb, the Eternal [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Magda, Brazen Outlaw",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 261,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.71,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "completes Spellbook 1486-3750; roles ramp, tutor",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Magda, Brazen Outlaw in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Magda, Brazen Outlaw",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:fa1230c5cb71",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:843641ffd3b6e6fcfe9ea8200af9e40f8a626006f478bacb6595b05189dc80b9",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:fa1230c5cb71",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:77add3f1f63b2802",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Magda, Brazen Outlaw [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Alena, Kessig Trapper",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 811,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.04,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "completes Spellbook 3750-4747; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Alena, Kessig Trapper in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Alena, Kessig Trapper",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f9713e71b639",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d4430b2398c1b432da37c4206c163ec60ed8e04493c663d218a1bc65683646e7",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:f9713e71b639",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:3dd68b7889e1ab62",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Alena, Kessig Trapper [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Poetic Ingenuity",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 847,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.97,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "completes Spellbook 3750-5340; roles ramp",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 10 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (11 in list). Redundancy 10 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Poetic Ingenuity in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Poetic Ingenuity",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:1cbb9b523872",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0a88385fd155a78df15be0ac25c751274daf935b4fdafddb7432afac42e3ac90",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:1cbb9b523872",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:c267832aeab52324",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Poetic Ingenuity [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Helm of the Host",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 12,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 67.71,
+    "tier": "A"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1692-4251, 1692-4367; EDHREC inclusion 19.0% vs cut 14.4%",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Helm of the Host in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Helm of the Host",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:b9a989142da9",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2f3e03611d2a943d6cd440b713ca8f807c8a55313ef766b9d576c75261f5230d",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:b9a989142da9",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:f176f3d3201fbb65",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Helm of the Host [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Helm of the Host",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Helm of the Host"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 12,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 67.71,
+    "tier": "A"
+   },
+   "challenger_class": "alt_win",
+   "cut": "World at War",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1692-4251, 1692-4367; EDHREC inclusion 19.0% vs cut 11.5%",
+   "expected_cost": "loses World at War: strong retain ({3}{R}{R} sorcery): win piece / enabler. Oracle: “After the second main phase this turn, there's an additional combat phase fol…”. Packages pkg:f",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing World at War with Helm of the Host in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Helm of the Host",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:82cd600a371f",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:df5b0827b9c4b5d4c90ccd2493f7a207f2895f25e290b7ae10dbfbdd1f2b8bde",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:82cd600a371f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:9a402a7cfb90def9",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: World at War [no effect modelled beyond being a castable card] → Helm of the Host [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Sword of Hearth and Home",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 14,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 66.6,
+    "tier": "A"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1550-4367; EDHREC inclusion 16.2% vs cut 14.4%; roles protection, removal",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Sword of Hearth and Home in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Sword of Hearth and Home",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:0bec97720725",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ab7a16fa295ab885b6a8b4195fe58abc3fcc1a802cc4a8d26317a490a8095ad5",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:0bec97720725",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:e2d042cca69c968b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Sword of Hearth and Home [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Kiki-Jiki, Mirror Breaker",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 92,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 32.63,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 618-4367",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Kiki-Jiki, Mirror Breaker in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Kiki-Jiki, Mirror Breaker",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:5ed96f585523",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0987eccafb5dca956b85435298df82326985ad2973b1794521a2ad374cc63e86",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:5ed96f585523",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:22d95e14008e2f73",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Kiki-Jiki, Mirror Breaker [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Kiki-Jiki, Mirror Breaker",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Kiki-Jiki, Mirror Breaker"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 92,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 32.63,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "World at War",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 618-4367",
+   "expected_cost": "loses World at War: strong retain ({3}{R}{R} sorcery): win piece / enabler. Oracle: “After the second main phase this turn, there's an additional combat phase fol…”. Packages pkg:f",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing World at War with Kiki-Jiki, Mirror Breaker in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Kiki-Jiki, Mirror Breaker",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:46e3cba18665",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:414f44d14f50641780944319e92e4cbfa41d6b7aa152d9063e1eba1597c2f51a",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:46e3cba18665",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:f79a59d4db8aabd8",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: World at War [no effect modelled beyond being a castable card] → Kiki-Jiki, Mirror Breaker [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hellkite Charger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 99,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.91,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3398-5039, 900-3398",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Hellkite Charger in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Hellkite Charger",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:6aff09259205",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:cca663c2a77d92f68199bf84985dea8f2c7a78504e829bdb2e0a5c6910646f11",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:6aff09259205",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:3c585fe7a932669e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Hellkite Charger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hellkite Charger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Hellkite Charger"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 99,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.91,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "World at War",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3398-5039, 900-3398",
+   "expected_cost": "loses World at War: strong retain ({3}{R}{R} sorcery): win piece / enabler. Oracle: “After the second main phase this turn, there's an additional combat phase fol…”. Packages pkg:f",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing World at War with Hellkite Charger in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Hellkite Charger",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:2eaa7958903d",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e28751a6d9e20f947058825a9f06cf114358fc2bc7f2a5c6aa68210587989876",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:2eaa7958903d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:9fd7bae1e7086ed1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: World at War [no effect modelled beyond being a castable card] → Hellkite Charger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Rionya, Fire Dancer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 102,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.51,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1908-4251, 1908-4367",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Rionya, Fire Dancer in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Rionya, Fire Dancer",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:cc7c82b1c6b7",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5b63d7d7d4ec6f174c87186923335732a1eeb25874b2589e93cb9bf06cfbebe6",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:cc7c82b1c6b7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:eef1814b45763567",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Rionya, Fire Dancer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Rionya, Fire Dancer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Rionya, Fire Dancer"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 102,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.51,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "World at War",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1908-4251, 1908-4367",
+   "expected_cost": "loses World at War: strong retain ({3}{R}{R} sorcery): win piece / enabler. Oracle: “After the second main phase this turn, there's an additional combat phase fol…”. Packages pkg:f",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing World at War with Rionya, Fire Dancer in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Rionya, Fire Dancer",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:9c34cb8358bd",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b30a14318b765471cb35ce3293247b18e9fa30e107411b700015a6f43162811b",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:9c34cb8358bd",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:ac46836d72438333",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: World at War [no effect modelled beyond being a castable card] → Rionya, Fire Dancer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Neheb, Dreadhorde Champion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 107,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.0,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Swordsman's Steel",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1697-3750; roles draw",
+   "expected_cost": "loses Swordsman's Steel: flexible ({4} artifact; simulator models draw 1): 10 other cards sharing a key role. Oracle: “When this Equipment enters, draw a card for each Equipment you con",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Swordsman's Steel with Neheb, Dreadhorde Champion in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Neheb, Dreadhorde Champion",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:e341fc7b833c",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0e188b42e9079ee5e6aadc59613a3eac5ed1538e0cc9500e1002ce574a4e4fbf",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:e341fc7b833c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:733d5314e5fe869c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Swordsman's Steel [draw] → Neheb, Dreadhorde Champion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Stella Lee, Wild Card",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Stella Lee, Wild Card"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "instants and sorceries",
+    "rank": 112,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.62,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "World at War",
+   "expected_benefit": "Oracle hook instants and sorceries; completes Spellbook 5534--28",
+   "expected_cost": "loses World at War: strong retain ({3}{R}{R} sorcery): win piece / enabler. Oracle: “After the second main phase this turn, there's an additional combat phase fol…”. Packages pkg:f",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing World at War with Stella Lee, Wild Card in role instants and sorceries improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Stella Lee, Wild Card",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f6eaf534c248",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:315ae3c736a2b1679522a637da08e4da5ece911530434ed0613d5a6b5f0ae421",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:f6eaf534c248",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:0af0c092eaff7f67",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: World at War [no effect modelled beyond being a castable card] → Stella Lee, Wild Card [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Magar of the Magic Strings",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 120,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.47,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 771-3976",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Magar of the Magic Strings in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Magar of the Magic Strings",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:de2862b432de",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5edf33c4358a7b26f5bf0ee90a826c04e7957858880a114f92288f3d29a04032",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:de2862b432de",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:6b1f015d7fbbb1bc",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Magar of the Magic Strings [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Magar of the Magic Strings",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Magar of the Magic Strings"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 120,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.47,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "World at War",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 771-3976",
+   "expected_cost": "loses World at War: strong retain ({3}{R}{R} sorcery): win piece / enabler. Oracle: “After the second main phase this turn, there's an additional combat phase fol…”. Packages pkg:f",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing World at War with Magar of the Magic Strings in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Magar of the Magic Strings",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:a08e85efe7f7",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:99618e4da5d080b8454451cb463d2daf9336d0999fb57ebddb24f92b256ae6da",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:a08e85efe7f7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:d1379c5e2202fc50",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: World at War [no effect modelled beyond being a castable card] → Magar of the Magic Strings [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 122,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.34,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-3898",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:a0c3c1902a17",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:20c56b912727d2c0d56020b7c13938bdc7e956c5fe53c2197567d026442d5cc0",
+   "review_order": 29,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:a0c3c1902a17",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:30d26472595fa35c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 122,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.34,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "World at War",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 3750-3898",
+   "expected_cost": "loses World at War: strong retain ({3}{R}{R} sorcery): win piece / enabler. Oracle: “After the second main phase this turn, there's an additional combat phase fol…”. Packages pkg:f",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing World at War with Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:2b68cfa93df2",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ba242db937495e3bef011373af03968ea47e964c18ab18d74dadd694ebfd9a01",
+   "review_order": 30,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:2b68cfa93df2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:92750c4471a330ea",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: World at War [no effect modelled beyond being a castable card] → Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Spellbinder",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 124,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.04,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 771-1328",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Spellbinder in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Spellbinder",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:c54d0d6a1bf4",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4ccba4371eb229832a4525481a39531358c6b34c4d936ae16eb7b7b1ba48bd61",
+   "review_order": 31,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:c54d0d6a1bf4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:4e0812fd2fb41207",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Spellbinder [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Spellbinder",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Spellbinder"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 124,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.04,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "World at War",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 771-1328",
+   "expected_cost": "loses World at War: strong retain ({3}{R}{R} sorcery): win piece / enabler. Oracle: “After the second main phase this turn, there's an additional combat phase fol…”. Packages pkg:f",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing World at War with Spellbinder in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Spellbinder",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:b90fd1e0fa88",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7f74949606bd8c1bd7e6954594cc2661b4fe73c38f9d0669f2aa27178d9d62b2",
+   "review_order": 32,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:b90fd1e0fa88",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:db9978046b789852",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: World at War [no effect modelled beyond being a castable card] → Spellbinder [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Sensei's Divining Top",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 179,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.12,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Swordsman's Steel",
+   "expected_benefit": "completes Spellbook 1976-5078-5243, 4908-5078-5243; roles draw",
+   "expected_cost": "loses Swordsman's Steel: flexible ({4} artifact; simulator models draw 1): 10 other cards sharing a key role. Oracle: “When this Equipment enters, draw a card for each Equipment you con",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Swordsman's Steel with Sensei's Divining Top in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Sensei's Divining Top",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:ee3503eb7f18",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:482cdceb496b83de07912c0e8f0bc3fdead559aae79d6b9cd1fa64a63aad8b98",
+   "review_order": 33,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:ee3503eb7f18",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:b121784851268e5b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Swordsman's Steel [draw] → Sensei's Divining Top [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 188,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "completes Spellbook 513-5034--46; roles removal",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:6e51015e32f8",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:61c35de25c3c0d80605ecdbe3fc870bd99ce351b9f99527bbad17fcf634801f1",
+   "review_order": 34,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:6e51015e32f8",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:498d9896052b0f26",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Sphinx of the Second Sun",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 328,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.79,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Padeem, Consul of Innovation",
+   "expected_benefit": "completes Spellbook 3153-3750",
+   "expected_cost": "loses Padeem, Consul of Innovation: flexible ({3}{U} legendary creature; simulator models upkeep_draw 1): 15 other cards sharing a key role. Oracle: “Artifacts you control have hexproof”. Role dra",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Padeem, Consul of Innovation with Sphinx of the Second Sun in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Sphinx of the Second Sun",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:96662accc80f",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e9508c66885128e3eb0c676c8b05ad384290883500ebeec2e77ee9aa64bed899",
+   "review_order": 35,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:96662accc80f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:c6255b9550dbfdbb",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Padeem, Consul of Innovation [upkeep_draw] → Sphinx of the Second Sun [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Time Sieve",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Time Sieve"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 354,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.5,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Leyline Axe",
+   "expected_benefit": "completes Spellbook 1558-5039",
+   "expected_cost": "loses Leyline Axe: strong retain ({4} artifact): win piece / enabler. Oracle: “If this card is in your opening hand, you may begin the game with it on the b…”. Packages pkg:high-m",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Leyline Axe with Time Sieve in role Artifact improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Time Sieve",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:4c99a9c690ec",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:899cad048d79bf1228fe7078b0bc56598bfdc117df1255fe4cdec6769a18be44",
+   "review_order": 36,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:4c99a9c690ec",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:c79844903b132dba",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Leyline Axe [no effect modelled beyond being a castable card] → Time Sieve [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Time Sieve",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 354,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.5,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Swordsman's Steel",
+   "expected_benefit": "completes Spellbook 1558-5039",
+   "expected_cost": "loses Swordsman's Steel: flexible ({4} artifact; simulator models draw 1): 10 other cards sharing a key role. Oracle: “When this Equipment enters, draw a card for each Equipment you con",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Swordsman's Steel with Time Sieve in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Time Sieve",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:0332917a1f86",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:10fb76ff8e8053e88adfcc1c5b4242c68473d3ba5e22ed4952585a8794a49308",
+   "review_order": 37,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:0332917a1f86",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:51f62e4d8ae6999d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Swordsman's Steel [draw] → Time Sieve [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 371,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Mystic Remora: functional retain ({U} enchantment): role draw. Oracle: “Cumulative upkeep {1}”. Role draw (11 in list). Redundancy 10 (other cards sharing a key role). Best al",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Repercussion in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f92643d1dd43",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:07810d1617cd5eaddf30a537e97f66a56795e4f8d2aa42978a9188ec4e5d84f2",
+   "review_order": 38,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:f92643d1dd43",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:0db43c2fb9f3c252",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Irma, Part-Time Mutant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 404,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.22,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Padeem, Consul of Innovation",
+   "expected_benefit": "completes Spellbook 4367-7346",
+   "expected_cost": "loses Padeem, Consul of Innovation: flexible ({3}{U} legendary creature; simulator models upkeep_draw 1): 15 other cards sharing a key role. Oracle: “Artifacts you control have hexproof”. Role dra",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Padeem, Consul of Innovation with Irma, Part-Time Mutant in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Irma, Part-Time Mutant",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:fc701ff28962",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:afbba870d73b44737b5bf6f68618a23006af00876a11b3191ff286101bfe01f7",
+   "review_order": 39,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:fc701ff28962",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:969a4747f38ca534",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Padeem, Consul of Innovation [upkeep_draw] → Irma, Part-Time Mutant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Shadow of the Second Sun",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 423,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.11,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 3750-6190",
+   "expected_cost": "loses Mystic Remora: functional retain ({U} enchantment): role draw. Oracle: “Cumulative upkeep {1}”. Role draw (11 in list). Redundancy 10 (other cards sharing a key role). Best al",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Shadow of the Second Sun in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Shadow of the Second Sun",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:24c2585c59c5",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:31e834c44c46fd64aefdf3afbd9130861b95c8e57790e02ade0c34d13e106ff5",
+   "review_order": 40,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:24c2585c59c5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:2d84c13af186913f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Shadow of the Second Sun [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 446,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "completes Spellbook 542-5034; roles removal",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:ed425abe74f4",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4e0cc969976dca07e9212e725c665b86afacb7adc8fbc9c6b9578483e695b2d7",
+   "review_order": 41,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:ed425abe74f4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:a155364a6faac5f8",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Toralf, God of Fury // Toralf's Hammer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 535,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.7,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "completes Spellbook 1775-2484; roles removal",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Toralf, God of Fury // Toralf's Hammer in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Toralf, God of Fury // Toralf's Hammer",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:f30c0f085bac",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7098e249cfee771ddda33b5e29a95a51c4bd602af388e2e2ae3104713d047d72",
+   "review_order": 42,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:f30c0f085bac",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:c09525001e945680",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Toralf, God of Fury // Toralf's Hammer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Fall of Cair Andros",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 727,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sword of Fire and Ice",
+   "expected_benefit": "completes Spellbook 1823-2484; roles removal",
+   "expected_cost": "loses Sword of Fire and Ice: flexible ({3} artifact): 20 other cards sharing a key role. Oracle: “Equipped creature gets +2/+2 and has protection from red and from blue”. Role draw (11 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sword of Fire and Ice with Fall of Cair Andros in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Fall of Cair Andros",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:8debee7486b3",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:026c498e6917ba22ca920bdfd1b78e361bb4ffd88b196211c23025490999425f",
+   "review_order": 43,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:8debee7486b3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:dee3126b8e12d7d0",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sword of Fire and Ice [no effect modelled beyond being a castable card] → Fall of Cair Andros [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (protection, removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Words of Wind",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1404,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.01,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Swordsman's Steel",
+   "expected_benefit": "completes Spellbook 1690-1976-2538-5034, 1690-2538-4908-5034; roles draw",
+   "expected_cost": "loses Swordsman's Steel: flexible ({4} artifact; simulator models draw 1): 10 other cards sharing a key role. Oracle: “When this Equipment enters, draw a card for each Equipment you con",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Swordsman's Steel with Words of Wind in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-imperial-champion.json#Words of Wind",
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-imperial-champion.json.gz#id=swap:tetsuo-imperial-champion:m5:bb4e26b8a8f4",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-imperial-champion.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e187329c63c91c04b52b1e5eb43e5e222f971d37b1e67b21033a1f4a65c8843c",
+   "review_order": 44,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-imperial-champion:m5:bb4e26b8a8f4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-imperial-champion:goldfish:6cca156947520619",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Swordsman's Steel [draw] → Words of Wind [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "tetsuo-imperial-champion",
+ "stage": "M6_strategic_review_packet"
+}

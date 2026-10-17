@@ -1,0 +1,3762 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 2,
+  "deep_review": 38,
+  "flag:anti_goal_risk": 1,
+  "flag:combo_review_required": 28,
+  "flag:elevated_burden": 8,
+  "flag:explicit_judgment_prompts": 38,
+  "flag:mana_delta_required": 15,
+  "flag:mechanics_not_modelable": 19,
+  "flag:project_exception_burden": 2,
+  "flag:structural_route_risk": 7,
+  "flag:test_fail": 5,
+  "flag:test_inconclusive": 9,
+  "flag:test_no_detectable_difference": 5,
+  "flag:test_pass": 19,
+  "priority:P0_independent_agreement": 2,
+  "priority:P1_measured_performance_only": 17,
+  "priority:P3_commander_fit_only": 19,
+  "scrutiny:enhanced_scrutiny": 25,
+  "scrutiny:high_scrutiny": 13,
+  "source:agreement": 2,
+  "source:commander_only": 19,
+  "source:performance_only": 17
+ },
+ "deck_id": "The_Madcap_Jester",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 101,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 27.85,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 513--62, 513-2364--47; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): required package pkg:free-protection. Oracle: “If you control a commander, you may cast this spell without paying its mana c",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:a3d5f1faeaca",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:6b5e66ee5f196465ecd7ba6f6c849946130add7edfed78fa0b4dff0c19df4ca1",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:the-madcap-jester:m5:a3d5f1faeaca",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:6648c4333b779184",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (3).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Grinding Station",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 294,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.88,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mox Opal",
+   "expected_benefit": "completes Spellbook 1368-3698--44",
+   "expected_cost": "loses Mox Opal: flexible ({0} legendary artifact; simulator models condition metalcraft): 17 other cards sharing a key role. Oracle: “Metalcraft — {T}: Add one mana of any colo",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Opal with Grinding Station in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Grinding Station",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:549aebbdd64e",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:840da19e54c26d8aad086b9fa6539cedb57262f4128915320e9d1bcf0f564945",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:the-madcap-jester:m5:549aebbdd64e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:7d663e1449c58112",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Opal [condition, mana source] → Grinding Station [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": [
+     "1368-1414-4856"
+    ]
+   },
+   "add": "Fellwar Stone",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1368-1414-4856"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1368-1414-4856": "interchangeable incumbent(s) Lion's Eye Diamond keep the line"
+    },
+    "compensating_adds": [
+     "Fellwar Stone",
+     "Lion's Eye Diamond"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 17,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 61.63,
+    "tier": "A"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Lotus Petal",
+   "expected_benefit": "EDHREC inclusion 52.0% vs cut 15.9%; roles ramp",
+   "expected_cost": "breaks combo:1368-1414-4856; compensated by Fellwar Stone, Lion's Eye Diamond. loses Lotus Petal: strong retain ({0} artifact; simulator models oneshot): piece of 1 Spellbook combo(s). Oracle: “{T}, Sacrifice this artifact: Add one mana of any color”. Role r",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Lotus Petal with Fellwar Stone in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Fellwar Stone",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:26bb6ea9a9a4",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:6fa06e3dadaace8c479b0c19c2428244b3b41bfd604efda58e02deafd67a2f20",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:26bb6ea9a9a4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:bc3f542d6cdf1a88",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Lotus Petal [oneshot] → Fellwar Stone [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": [
+     "1368-1414-4856"
+    ]
+   },
+   "add": "Talisman of Creativity",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1368-1414-4856"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1368-1414-4856": "interchangeable incumbent(s) Lion's Eye Diamond keep the line"
+    },
+    "compensating_adds": [
+     "Talisman of Creativity",
+     "Lion's Eye Diamond"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 20,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 59.82,
+    "tier": "A"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Lotus Petal",
+   "expected_benefit": "EDHREC inclusion 61.4% vs cut 15.9%; roles ramp",
+   "expected_cost": "breaks combo:1368-1414-4856; compensated by Talisman of Creativity, Lion's Eye Diamond. loses Lotus Petal: strong retain ({0} artifact; simulator models oneshot): piece of 1 Spellbook combo(s). Oracle: “{T}, Sacrifice this artifact: Add one mana of any color”. Role r",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Lotus Petal with Talisman of Creativity in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Talisman of Creativity",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:cd00350f0307",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:3ea33007b9c923dde7dc2e30d90bc8f7efaa133d6377f88022442893f4275151",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:cd00350f0307",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:3bec87504f26b56c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Lotus Petal [oneshot] → Talisman of Creativity [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": [
+     "1295-3093",
+     "742-1295"
+    ]
+   },
+   "add": "Mizzix of the Izmagnus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1295-3093",
+     "combo:742-1295",
+     "win:oracle"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1295-3093": "the add completes 1368-1414-3075-4856",
+     "combo:742-1295": "the add completes 1368-1414-3075-4856",
+     "win:oracle": "new route: the add completes 1368-1414-3075-4856"
+    },
+    "compensating_adds": [
+     "Mizzix of the Izmagnus"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 577,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.31,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Thassa's Oracle",
+   "expected_benefit": "completes Spellbook 1368-1414-3075-4856",
+   "expected_cost": "breaks combo:1295-3093, combo:742-1295, win:oracle; compensated by Mizzix of the Izmagnus. loses Thassa's Oracle: core ({U}{U} creature): necessary: win:oracle. Oracle: “When this creature enters, look at the top X cards of your library, where X i…”. Packages pkg:compact-wi",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Thassa's Oracle with Mizzix of the Izmagnus in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is core; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Mizzix of the Izmagnus",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:e126a4fcd20b",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7d8fddbd9c5ee632ff4a8a3017322d2635625fd9990c2f43423471bd56f3d36d",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:e126a4fcd20b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:7cdcda818e03217c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Thassa's Oracle [no effect modelled beyond being a castable card] → Mizzix of the Izmagnus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": [
+     "1295-3093",
+     "742-1295"
+    ]
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1295-3093",
+     "combo:742-1295",
+     "win:oracle"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1295-3093": "the add completes 876-4944",
+     "combo:742-1295": "the add completes 876-4944",
+     "win:oracle": "new route: the add completes 876-4944"
+    },
+    "compensating_adds": [
+     "Crackdown Construct"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 948,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Thassa's Oracle",
+   "expected_benefit": "completes Spellbook 876-4944",
+   "expected_cost": "breaks combo:1295-3093, combo:742-1295, win:oracle; compensated by Crackdown Construct. loses Thassa's Oracle: core ({U}{U} creature): necessary: win:oracle. Oracle: “When this creature enters, look at the top X cards of your library, where X i…”. Packages pkg:compact-wi",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Thassa's Oracle with Crackdown Construct in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is core; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:086c307b375f",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d3583e2ab8e75e5762658b65c683f8c20fdaf84efd8903c9de670c95d1e5c5f7",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:086c307b375f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:095585a79d51147c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Thassa's Oracle [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": [
+     "1295-3093",
+     "742-1295"
+    ]
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1295-3093",
+     "combo:742-1295",
+     "win:oracle"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1295-3093": "the add completes 876-2904",
+     "combo:742-1295": "the add completes 876-2904",
+     "win:oracle": "new route: the add completes 876-2904"
+    },
+    "compensating_adds": [
+     "Cephalid Illusionist"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 992,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Thassa's Oracle",
+   "expected_benefit": "completes Spellbook 876-2904",
+   "expected_cost": "breaks combo:1295-3093, combo:742-1295, win:oracle; compensated by Cephalid Illusionist. loses Thassa's Oracle: core ({U}{U} creature): necessary: win:oracle. Oracle: “When this creature enters, look at the top X cards of your library, where X i…”. Packages pkg:compact-wi",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Thassa's Oracle with Cephalid Illusionist in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is core; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:e30690351828",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bfd627a6011ace88f15015dbf8b72cae21439d76def39f4e836c75917fc8465e",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:e30690351828",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:3abe1649de1dfad9",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Thassa's Oracle [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": [
+     "1295-3093",
+     "742-1295"
+    ]
+   },
+   "add": "Ambassador Laquatus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1295-3093",
+     "combo:742-1295",
+     "win:oracle"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1295-3093": "the add completes 1368-3518-4530",
+     "combo:742-1295": "the add completes 1368-3518-4530",
+     "win:oracle": "new route: the add completes 1368-3518-4530"
+    },
+    "compensating_adds": [
+     "Ambassador Laquatus"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1005,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.75,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Thassa's Oracle",
+   "expected_benefit": "completes Spellbook 1368-3518-4530, 1368-4530-4923",
+   "expected_cost": "breaks combo:1295-3093, combo:742-1295, win:oracle; compensated by Ambassador Laquatus. loses Thassa's Oracle: core ({U}{U} creature): necessary: win:oracle. Oracle: “When this creature enters, look at the top X cards of your library, where X i…”. Packages pkg:compact-wi",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Thassa's Oracle with Ambassador Laquatus in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is core; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Ambassador Laquatus",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:7b143ecd2863",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:76feb670cf72ceb59548bc59823fe03f7741334a6c434f60319492fc67215048",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:7b143ecd2863",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:cdeb05ba180536e2",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Thassa's Oracle [no effect modelled beyond being a castable card] → Ambassador Laquatus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": [
+     "1295-3093",
+     "742-1295"
+    ]
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1295-3093",
+     "combo:742-1295",
+     "win:oracle"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1295-3093": "the add completes 876-2796",
+     "combo:742-1295": "the add completes 876-2796",
+     "win:oracle": "new route: the add completes 876-2796"
+    },
+    "compensating_adds": [
+     "Cephalid Aristocrat"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1060,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Thassa's Oracle",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "breaks combo:1295-3093, combo:742-1295, win:oracle; compensated by Cephalid Aristocrat. loses Thassa's Oracle: core ({U}{U} creature): necessary: win:oracle. Oracle: “When this creature enters, look at the top X cards of your library, where X i…”. Packages pkg:compact-wi",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Thassa's Oracle with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is core; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:98abc01acc8b",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b0265d9be4c713ddeecbb1a600c3eac63f4b29ed8a2fa3433d2832235c45c34c",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:98abc01acc8b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:e2ad0c8fa7bc5011",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Thassa's Oracle [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Fellwar Stone",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 17,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 61.63,
+    "tier": "A"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Rite of Flame",
+   "expected_benefit": "EDHREC inclusion 52.0% vs cut 9.2%; roles ramp",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Fellwar Stone in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Fellwar Stone",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:04fbbbe4a67f",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5380f50275a0fca69106f67a09575093da4c3f6745a43744786517abd868c779",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:04fbbbe4a67f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:31732f7a4a7220ba",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Fellwar Stone [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Talisman of Creativity",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 20,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 59.82,
+    "tier": "A"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Rite of Flame",
+   "expected_benefit": "EDHREC inclusion 61.4% vs cut 9.2%; roles ramp",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Talisman of Creativity in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Talisman of Creativity",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:1a777e3c1b2c",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9491845d9a5f3f7e49be28c4d96c64604ef134234f5eda44914856642ea501c4",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:1a777e3c1b2c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:1bedbb4e29811b63",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Talisman of Creativity [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Crumbling Sanctuary",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 37,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 47.82,
+    "tier": "A"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Mox Opal",
+   "expected_benefit": "EDHREC inclusion 25.5% vs cut 10.9%",
+   "expected_cost": "loses Mox Opal: flexible ({0} legendary artifact; simulator models condition metalcraft): 17 other cards sharing a key role. Oracle: “Metalcraft — {T}: Add one mana of any colo",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Opal with Crumbling Sanctuary in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Crumbling Sanctuary",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:f0d17b3f90f4",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0c2c6c40e3922cafc83c6b844034565a9bf0afe8792b23f2f0e77907442fcaa0",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:f0d17b3f90f4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:7c9e184aa37cab5c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Opal [condition, mana source] → Crumbling Sanctuary [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Dimir Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 74,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.51,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Rite of Flame",
+   "expected_benefit": "EDHREC inclusion 28.2% vs cut 9.2%; roles ramp",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Dimir Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Dimir Signet",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:156a3a532690",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bd44e45e6a186a84ae2a77ec658e7ec9a5ca5e3f649f34b6eaadb1e8b56c81ca",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:156a3a532690",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:94eaed40c9850126",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Dimir Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Rakdos Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 79,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.74,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Rite of Flame",
+   "expected_benefit": "EDHREC inclusion 26.5% vs cut 9.2%; roles ramp",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Rakdos Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Rakdos Signet",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:78880cb51d0c",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:920ff47a9b09b1be0880c3daceb4dcd166fefbebd0e81930432d6830e6d31594",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:78880cb51d0c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:e5a66a2f6b33ae63",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Rakdos Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Interdimensional Web Watch",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 80,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.71,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Rite of Flame",
+   "expected_benefit": "EDHREC inclusion 15.4% vs cut 9.2%; roles ramp",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Interdimensional Web Watch in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Interdimensional Web Watch",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:36921adf502d",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2309dc13dc57bfa6c016f7cb9cb5ef35942892b44e43a9a4f23249bd0674b894",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:36921adf502d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:c2c3f0066c09cf33",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Interdimensional Web Watch [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Thran Dynamo",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 83,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.06,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Rite of Flame",
+   "expected_benefit": "EDHREC inclusion 14.4% vs cut 9.2%; roles ramp",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Thran Dynamo in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Thran Dynamo",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:4f1dc319b510",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ea70fdbc7c2d330cf6d5ed8219cd930fe1db5c47dc105064bb7638cafca3c745",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:4f1dc319b510",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:7ad6055a247f7919",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Thran Dynamo [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Relic of Sauron",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 88,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.15,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Rite of Flame",
+   "expected_benefit": "EDHREC inclusion 22.0% vs cut 9.2%; roles draw, ramp",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Relic of Sauron in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Relic of Sauron",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:806338fd8648",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:80279b3b6ed57382b5f9e7093a1b996fb1f4ca5527c14f7ee83b26f2102f955b",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:806338fd8648",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:fe65f77a6af974a4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Relic of Sauron [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Memory Vessel",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 92,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.78,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Mox Opal",
+   "expected_benefit": "EDHREC inclusion 31.7% vs cut 10.9%",
+   "expected_cost": "loses Mox Opal: flexible ({0} legendary artifact; simulator models condition metalcraft): 17 other cards sharing a key role. Oracle: “Metalcraft — {T}: Add one mana of any colo",
+   "flags": [
+    "anti_goal_risk",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Opal with Memory Vessel in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Memory Vessel",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:4cf99342b788",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5c03a2d585cf0e8bb01809a9f26376663bf0706f2fbaf8ee3b64b8033601530d",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:4cf99342b788",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:63339cd1536d16d5",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Opal [condition, mana source] → Memory Vessel [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Izzet Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 103,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 27.53,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Rite of Flame",
+   "expected_benefit": "EDHREC inclusion 25.1% vs cut 9.2%; roles ramp",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Izzet Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Izzet Signet",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:be0560dd6358",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5287f7ef593389e4fb8405579dc2d6ebc6db970b9deb14557035dff75112edb6",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-madcap-jester:m5:be0560dd6358",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:0549c3f2e14d339b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Izzet Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Wheel of Fortune",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 62,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 37.65,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 1368-1878-2706, 1368-2706-3518; EDHREC inclusion 10.4% vs cut 22.2%; roles draw",
+   "expected_cost": "loses Mystic Remora: functional retain ({U} enchantment): role draw. Oracle: “Cumulative upkeep {1}”. Role draw (3 in list). Redundancy 2 (other cards sharing a key role). Best alte",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Wheel of Fortune in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Wheel of Fortune",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:eb905a1ecf00",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:108db4368b4d67ac550232f457068fb5e166f0cd928618cc76276b5cf162ec7f",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:eb905a1ecf00",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:8f4ae2d5605db13e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Wheel of Fortune [draw, wheel].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Breaking // Entering",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 94,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.51,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bilbo, Thief in the Night",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1368-3518-5260",
+   "expected_cost": "loses Bilbo, Thief in the Night: weak retain ({1}{U} legendary creature): no structure; Oracle hook combat damage / attack triggers. Oracle: “Spells you cast from anywhere other than your hand ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Bilbo, Thief in the Night with Breaking // Entering in role combat damage / attack triggers improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Breaking // Entering",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:18e64ff59c58",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8cf6d0283b7b303a1f1b79e1fd4187d6b7d8fe420a7f3bd680060cd713981c33",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:18e64ff59c58",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:e9123b34d0dcb9a2",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bilbo, Thief in the Night [no effect modelled beyond being a castable card] → Breaking // Entering [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Breaking // Entering",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Breaking // Entering"
+    ],
+    "level": "project_exception",
+    "note": "Authorized project exception exc:the-madcap-jester:dragon-s-smile: evaluable, not immune; any cut is a project decision only Cory can make (labeled hypothesis).",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 94,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.51,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dragon's Smile",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; completes Spellbook 1368-3518-5260",
+   "expected_cost": "loses Dragon's Smile: project requirement ({5}{R}{R} legendary artifact): registered project exception. Oracle: “Flying”. Packages pkg:exile-payoffs. Redundancy 12 (other cards in it",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "project_exception_burden",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Dragon's Smile with Breaking // Entering in role combat damage / attack triggers improves the deck's fit or efficiency while every graph break of the cut is compensated (project exception burden cleared) (cut is project requirement; add blueprint fit strong). Authorized project exception exc:the-madcap-jester:dragon-s-smile: evaluable, not immune; any cut is a project decision only Cory can make (labeled hypothesis).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Breaking // Entering",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:778bfb31eab0",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a5ea0e9947783f285d05502a3ce230466a4cce23794f93227d26d720b8171ffd",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:778bfb31eab0",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:fe614761d62d8a92",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dragon's Smile [no effect modelled beyond being a castable card] → Breaking // Entering [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Enter the Infinite",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 130,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.84,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 953-1295; roles draw",
+   "expected_cost": "loses Mystic Remora: functional retain ({U} enchantment): role draw. Oracle: “Cumulative upkeep {1}”. Role draw (3 in list). Redundancy 2 (other cards sharing a key role). Best alte",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Enter the Infinite in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Enter the Infinite",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:3b4dcc2f114c",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:64b13b4aae7a7de610feac39b7047114fd280ac176dbe4a4679191ae3bc5eb4d",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:3b4dcc2f114c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:91192326eb9b4475",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Enter the Infinite [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Grinding Station",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Grinding Station"
+    ],
+    "level": "project_exception",
+    "note": "Authorized project exception exc:the-madcap-jester:dragon-s-smile: evaluable, not immune; any cut is a project decision only Cory can make (labeled hypothesis).",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 294,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.88,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dragon's Smile",
+   "expected_benefit": "completes Spellbook 1368-3698--44",
+   "expected_cost": "loses Dragon's Smile: project requirement ({5}{R}{R} legendary artifact): registered project exception. Oracle: “Flying”. Packages pkg:exile-payoffs. Redundancy 12 (other cards in it",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "project_exception_burden",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Dragon's Smile with Grinding Station in role Artifact improves the deck's fit or efficiency while every graph break of the cut is compensated (project exception burden cleared) (cut is project requirement; add blueprint fit strong). Authorized project exception exc:the-madcap-jester:dragon-s-smile: evaluable, not immune; any cut is a project decision only Cory can make (labeled hypothesis).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Grinding Station",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:fcb36a69ff07",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:97540e521f40c0decb9655399ea4c8ebcca3cbb540e0497bec13ab30208f8bd4",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:fcb36a69ff07",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:578b2b94b7bc0e6c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dragon's Smile [no effect modelled beyond being a castable card] → Grinding Station [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Reiterate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 322,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.64,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Pact of Negation",
+   "expected_benefit": "completes Spellbook 1878-3368",
+   "expected_cost": "loses Pact of Negation: functional retain ({0} instant): required package pkg:free-protection. Oracle: “Counter target spell”. Role counter (7 in list). Packages pkg:free-protection. R",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Pact of Negation with Reiterate in role Instant improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Reiterate",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:ebedd1665907",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a00cc38317ba73e3211b210ba606cbeb5fb695e817305e3a86a23156aaa33da6",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:ebedd1665907",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:2bb2e40be6888f20",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Pact of Negation [no effect modelled beyond being a castable card] → Reiterate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (counter); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 126,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 24.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 542-2364, 542-4009; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): required package pkg:free-protection. Oracle: “If you control a commander, you may cast this spell without paying its mana c",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:4062e44375f7",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b0cfc777d0645a762e5b5ceefd12eb76a6cdecf32ed05418a6b4cd0422f392d4",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:4062e44375f7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:8dda925aee426bf9",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (3).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cool but Rude",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 129,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 3591-7792; roles draw, tutor",
+   "expected_cost": "loses Mystic Remora: functional retain ({U} enchantment): role draw. Oracle: “Cumulative upkeep {1}”. Role draw (3 in list). Redundancy 2 (other cards sharing a key role). Best alte",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Cool but Rude in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Cool but Rude",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:df9fb9d26dbe",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:aaa2ad770f1f14b1db8fd510201ce6ff0f394850fdd771b952501346b618eb85",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:df9fb9d26dbe",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:378ff123b5647f85",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Cool but Rude [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Path of the Pyromancer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 146,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rite of Flame",
+   "expected_benefit": "completes Spellbook 693-1368; roles draw, ramp",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Path of the Pyromancer in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Path of the Pyromancer",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:0faf3563949b",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1b9ccb2b427478dc43483a7d6d10a5c021c7c689674aead4c2b8b089b9f0d2ec",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:0faf3563949b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:eddc65e47a519207",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Path of the Pyromancer [ritual].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Glimpse the Unthinkable",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Glimpse the Unthinkable"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 495,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.65,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Imperial Seal",
+   "expected_benefit": "completes Spellbook 1366-1368-1414, 1366-1368-3518",
+   "expected_cost": "loses Imperial Seal: strong retain ({B} sorcery; simulator models tutor): win piece / enabler. Oracle: “Search your library for a card, then shuffle and put that card on top”. Role ",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Imperial Seal with Glimpse the Unthinkable in role Sorcery improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Glimpse the Unthinkable",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:a7f69ca96fe1",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8080e2428f654b8713bf524f876d47c343874c0da6898381f2fcad7a10ea6cf5",
+   "review_order": 29,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:a7f69ca96fe1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:1f2d7c150c9f9ae3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Imperial Seal [tutor] → Glimpse the Unthinkable [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Glimpse the Unthinkable",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 495,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.65,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rite of Flame",
+   "expected_benefit": "completes Spellbook 1366-1368-1414, 1366-1368-3518",
+   "expected_cost": "loses Rite of Flame: flexible ({R} sorcery; simulator models ritual): 17 other cards sharing a key role. Oracle: “Add {R}{R}, then add {R} for each card named Rite of Flame in each ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Rite of Flame with Glimpse the Unthinkable in role Sorcery improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Glimpse the Unthinkable",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:962321e4fe1d",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4950241844c1c862c74278d8bfa2e38582ffd28e4d0481505608dfad2ba0ca1e",
+   "review_order": 30,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:962321e4fe1d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:69b0b167cf35668c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rite of Flame [ritual] → Glimpse the Unthinkable [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Timestream Navigator",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 510,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.59,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bilbo, Thief in the Night",
+   "expected_benefit": "completes Spellbook 742-1061",
+   "expected_cost": "loses Bilbo, Thief in the Night: weak retain ({1}{U} legendary creature): no structure; Oracle hook combat damage / attack triggers. Oracle: “Spells you cast from anywhere other than your hand ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bilbo, Thief in the Night with Timestream Navigator in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Timestream Navigator",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:6fdfa57b32b5",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8f562f4e5af84951f36b675d4a25810d719565ef689fc020d5ef17509d9bd943",
+   "review_order": 31,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:6fdfa57b32b5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:b9847903926844a0",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bilbo, Thief in the Night [no effect modelled beyond being a castable card] → Timestream Navigator [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Mizzix of the Izmagnus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 577,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.31,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bilbo, Thief in the Night",
+   "expected_benefit": "completes Spellbook 1368-1414-3075-4856",
+   "expected_cost": "loses Bilbo, Thief in the Night: weak retain ({1}{U} legendary creature): no structure; Oracle hook combat damage / attack triggers. Oracle: “Spells you cast from anywhere other than your hand ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Bilbo, Thief in the Night with Mizzix of the Izmagnus in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Mizzix of the Izmagnus",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:7989918ee372",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:181f34c1315a530f2952f818a5b4fe40ae0fc952d37fde32cd26dacb3a073360",
+   "review_order": 32,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:7989918ee372",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:d9ec1f50aad2d8b4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bilbo, Thief in the Night [no effect modelled beyond being a castable card] → Mizzix of the Izmagnus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 948,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bilbo, Thief in the Night",
+   "expected_benefit": "completes Spellbook 876-4944",
+   "expected_cost": "loses Bilbo, Thief in the Night: weak retain ({1}{U} legendary creature): no structure; Oracle hook combat damage / attack triggers. Oracle: “Spells you cast from anywhere other than your hand ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Bilbo, Thief in the Night with Crackdown Construct in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:c9ae9c2180c2",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:594b268a02eedc5673c09f45d210f9fd04b00f764365093f00e5bf806929ef45",
+   "review_order": 33,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:c9ae9c2180c2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:6fe350787b6c5142",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bilbo, Thief in the Night [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 992,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bilbo, Thief in the Night",
+   "expected_benefit": "completes Spellbook 876-2904",
+   "expected_cost": "loses Bilbo, Thief in the Night: weak retain ({1}{U} legendary creature): no structure; Oracle hook combat damage / attack triggers. Oracle: “Spells you cast from anywhere other than your hand ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Bilbo, Thief in the Night with Cephalid Illusionist in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:a486a3e7a173",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2b959cf7bad783287c082108262f9730d0650e56f034e5edb022e9c6e254a572",
+   "review_order": 34,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:a486a3e7a173",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:a8fd6ac70326842c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bilbo, Thief in the Night [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Infinite Reflection",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 999,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.83,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Necropotence",
+   "expected_benefit": "completes Spellbook 876-2581-2882",
+   "expected_cost": "loses Necropotence: weak retain ({B}{B}{B} enchantment): no structure; EDHREC support. Oracle: “Skip your draw step”. Redundancy 0 (no shared job). EDHREC inclusion 7.6%, synergy +",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Necropotence with Infinite Reflection in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Infinite Reflection",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:8ce3f5685a4a",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c935a18ba7e3d9dcce7ab98a1b100401c66cb5b160d66c655a3fb6b7ca107ad1",
+   "review_order": 35,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:8ce3f5685a4a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:fd0c233f9a63c9f3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Necropotence [no effect modelled beyond being a castable card] → Infinite Reflection [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Ambassador Laquatus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1005,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.75,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bilbo, Thief in the Night",
+   "expected_benefit": "completes Spellbook 1368-3518-4530, 1368-4530-4923",
+   "expected_cost": "loses Bilbo, Thief in the Night: weak retain ({1}{U} legendary creature): no structure; Oracle hook combat damage / attack triggers. Oracle: “Spells you cast from anywhere other than your hand ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bilbo, Thief in the Night with Ambassador Laquatus in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Ambassador Laquatus",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:b8e6689337fd",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:91c95abfe6fec078e1c4eed89273d5494044ac106239b8b1f1c6bc9e4fd023bc",
+   "review_order": 36,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:b8e6689337fd",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:9f4a5bfcc47273fe",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bilbo, Thief in the Night [no effect modelled beyond being a castable card] → Ambassador Laquatus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "False Memories",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1055,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.22,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Pact of Negation",
+   "expected_benefit": "completes Spellbook 160-1368-3518",
+   "expected_cost": "loses Pact of Negation: functional retain ({0} instant): required package pkg:free-protection. Oracle: “Counter target spell”. Role counter (7 in list). Packages pkg:free-protection. R",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Pact of Negation with False Memories in role Instant improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#False Memories",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:f53c8f90ecfe",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a07a8e161443993f6af288f09840e095a4f03e43e09961d4b9308d3a714604a1",
+   "review_order": 37,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:f53c8f90ecfe",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:b346b2dcf5d92e35",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Pact of Negation [no effect modelled beyond being a castable card] → False Memories [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (counter); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1060,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bilbo, Thief in the Night",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "loses Bilbo, Thief in the Night: weak retain ({1}{U} legendary creature): no structure; Oracle hook combat damage / attack triggers. Oracle: “Spells you cast from anywhere other than your hand ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Bilbo, Thief in the Night with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-madcap-jester.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:ada09289ebeb",
+    "optimizer": "data/grixis/m6/optimizer/the-madcap-jester.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:95e3b74a54c15c81d48fbaa930ce8cff48707576991e8fe51cf9998166339d33",
+   "review_order": 38,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-madcap-jester:m5:ada09289ebeb",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-madcap-jester:goldfish:d2c893edf55ec63e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bilbo, Thief in the Night [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "the-madcap-jester",
+ "stage": "M6_strategic_review_packet"
+}

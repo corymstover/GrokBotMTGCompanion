@@ -1,0 +1,3054 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 2,
+  "deep_review": 30,
+  "flag:combo_review_required": 28,
+  "flag:elevated_burden": 12,
+  "flag:explicit_judgment_prompts": 30,
+  "flag:mana_delta_required": 3,
+  "flag:mechanics_not_modelable": 9,
+  "flag:test_fail": 2,
+  "flag:test_inconclusive": 6,
+  "flag:test_no_detectable_difference": 16,
+  "flag:test_pass": 6,
+  "priority:P0_independent_agreement": 4,
+  "priority:P1_measured_performance_only": 2,
+  "priority:P3_commander_fit_only": 24,
+  "scrutiny:enhanced_scrutiny": 28,
+  "scrutiny:high_scrutiny": 2,
+  "source:agreement": 4,
+  "source:commander_only": 24,
+  "source:performance_only": 2
+ },
+ "deck_id": "The_Valeyard",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 80,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 513-5034--46; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (4 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:bf011ab33c85",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b2ea0be1bbea4d16969a4a7cdb9a02ebf1e9ef8bca9ddc4c61ee16b5670293c9",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:the-valeyard:m5:bf011ab33c85",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:24b5fe8b9b1b6352",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Ioreth of the Healing House",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Ioreth of the Healing House"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 93,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.72,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dr. Eggman",
+   "expected_benefit": "completes Spellbook 1432-2719",
+   "expected_cost": "loses Dr. Eggman: strong retain ({2}{U}{B}{R} legendary creature): win piece / enabler. Oracle: “Flying”. Role draw (19 in list). Packages pkg:villainous. Redundancy 12 (other ca",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Dr. Eggman with Ioreth of the Healing House in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Ioreth of the Healing House",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:f8f227ecdc26",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c7ad462a2261bcf0e416b79398ef0ad5f066eb514d3594327b462c16238d86da",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:the-valeyard:m5:f8f227ecdc26",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:9a6d3426d01e5a31",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dr. Eggman [no effect modelled beyond being a castable card] → Ioreth of the Healing House [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 98,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 542-5034; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (4 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:ea84e14dcbdf",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7c89502a738b5851c761a11395a63964aacc6a80633a5d37941bb1c1346797ca",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:the-valeyard:m5:ea84e14dcbdf",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:c36c036b0dfd724a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cephalid Illusionist"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 119,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dr. Eggman",
+   "expected_benefit": "completes Spellbook 876-2904",
+   "expected_cost": "loses Dr. Eggman: strong retain ({2}{U}{B}{R} legendary creature): win piece / enabler. Oracle: “Flying”. Role draw (19 in list). Packages pkg:villainous. Redundancy 12 (other ca",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Dr. Eggman with Cephalid Illusionist in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:f9ca4cb91063",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:89e2039f57ce96c6682343841561e578ef5d81534e2082b6889f7074d3f17b70",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:the-valeyard:m5:f9ca4cb91063",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:0f282b075cb70588",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dr. Eggman [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Shadowblood Ridge",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 49,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 35.07,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Flooded Strand",
+   "expected_benefit": "EDHREC inclusion 20.4% vs cut 0.0%; roles land, ramp",
+   "expected_cost": "loses Flooded Strand: flexible (land, fetches a Plains or Island card, makes U): 35 other lands sharing a colour. Oracle: “{T}, Pay 1 life, Sacrifice this land: Search your library f",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Flooded Strand with Shadowblood Ridge in role land improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Shadowblood Ridge",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:2527cb9a0cc0",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:baaf9c2abc8ee2c7eda299b8298845346526871f8bcd3215e57534b7930cd498",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-valeyard:m5:2527cb9a0cc0",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:c4ac37fa203f4260",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Flooded Strand [mana source] → Shadowblood Ridge [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Darkwater Catacombs",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 53,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.92,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Flooded Strand",
+   "expected_benefit": "EDHREC inclusion 20.6% vs cut 0.0%; roles land, ramp",
+   "expected_cost": "loses Flooded Strand: flexible (land, fetches a Plains or Island card, makes U): 35 other lands sharing a colour. Oracle: “{T}, Pay 1 life, Sacrifice this land: Search your library f",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Flooded Strand with Darkwater Catacombs in role land improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Darkwater Catacombs",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:095bdbc52900",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1baa47ed8dbaa32ca782ef1549f936776580741c0665e7977f2d4482b8e37198",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:the-valeyard:m5:095bdbc52900",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:14be59dd32731ee1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Flooded Strand [mana source] → Darkwater Catacombs [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Panoptic Mirror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Panoptic Mirror"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 111,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.68,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Auton Soldier",
+   "expected_benefit": "completes Spellbook 2365-2468",
+   "expected_cost": "loses Auton Soldier: strong retain ({4}{U}{U} artifact creature): win piece / enabler. Oracle: “You may have this creature enter as a copy of any creature on the battlefield…”. Pack",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Auton Soldier with Panoptic Mirror in role Artifact improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Panoptic Mirror",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:18b900656cad",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b3e10ac7a85d1949f45f34fa6d7561452090ad278b90201c0a7f0dbd9b0c169e",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:18b900656cad",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:c71aeff7d869aab1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Auton Soldier [no effect modelled beyond being a castable card] → Panoptic Mirror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Panoptic Mirror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 111,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.68,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rakdos Signet",
+   "expected_benefit": "completes Spellbook 2365-2468",
+   "expected_cost": "loses Rakdos Signet: flexible ({2} artifact): 11 other cards sharing a key role. Oracle: “{1}, {T}: Add {B}{R}”. Role ramp (12 in list). Redundancy 11 (other cards sharing a key rol",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Rakdos Signet with Panoptic Mirror in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Panoptic Mirror",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:65af7da21494",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e905c1637698cb26903de128dc12575e814d05d50024822e55f5fe2047a93ca1",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:65af7da21494",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:b21b07785a2d71af",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rakdos Signet [mana source] → Panoptic Mirror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Underworld Breach",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Underworld Breach"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 83,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.37,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Genesis of the Daleks",
+   "expected_benefit": "completes Spellbook 693-1368",
+   "expected_cost": "loses Genesis of the Daleks: strong retain ({4}{B}{B} enchantment): win piece / enabler. Oracle: “I, II, III — Create a 3/3 black Dalek artifact creature token with menace for…”. Role wipe ",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Genesis of the Daleks with Underworld Breach in role Enchantment improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Underworld Breach",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:7fd8006a491b",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:fdddb533b3f4d261392ef5cd153f76c80d7f4181819c43c1211e19cf156e85ff",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:7fd8006a491b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:2fbb7179796f4183",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Genesis of the Daleks [no effect modelled beyond being a castable card] → Underworld Breach [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (wipe); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Underworld Breach",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 83,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.37,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 693-1368",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 18 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (19 in list). Redundancy 18 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Underworld Breach in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Underworld Breach",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:fea3497a9290",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:76f02b9ebe4ca18768080b3eb604d1cecb119cb2885789f09dfb69837a1708dc",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:fea3497a9290",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:359a2c593c4adc7b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Underworld Breach [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Dualcaster Mage",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Dualcaster Mage"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 87,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.55,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dr. Eggman",
+   "expected_benefit": "completes Spellbook 147-5362",
+   "expected_cost": "loses Dr. Eggman: strong retain ({2}{U}{B}{R} legendary creature): win piece / enabler. Oracle: “Flying”. Role draw (19 in list). Packages pkg:villainous. Redundancy 12 (other ca",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Dr. Eggman with Dualcaster Mage in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Dualcaster Mage",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:3f9d3bb75051",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:3d4b4f51ddd2f29eb9f31c5978b25a4a450cc5e616bd2eacb58d8fc6ddd3bb04",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:3f9d3bb75051",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:32e83caf13773e68",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dr. Eggman [no effect modelled beyond being a castable card] → Dualcaster Mage [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Dualcaster Mage",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 87,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.55,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kess, Dissident Mage",
+   "expected_benefit": "completes Spellbook 147-5362",
+   "expected_cost": "loses Kess, Dissident Mage: weak retain ({1}{U}{B}{R} legendary creature): no structure; EDHREC support. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 52.9%, synergy +0.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Kess, Dissident Mage with Dualcaster Mage in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Dualcaster Mage",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:69d762871cd3",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:11e15423f6d4e78e43f94299188822942f613f1a5d64c8bd916dd20392ea5fa6",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:69d762871cd3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:f2d1d0b6b2caf5cd",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kess, Dissident Mage [no effect modelled beyond being a castable card] → Dualcaster Mage [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Kiki-Jiki, Mirror Breaker",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Kiki-Jiki, Mirror Breaker"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 89,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.63,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dr. Eggman",
+   "expected_benefit": "completes Spellbook 618-3908, 618-5361",
+   "expected_cost": "loses Dr. Eggman: strong retain ({2}{U}{B}{R} legendary creature): win piece / enabler. Oracle: “Flying”. Role draw (19 in list). Packages pkg:villainous. Redundancy 12 (other ca",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Dr. Eggman with Kiki-Jiki, Mirror Breaker in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Kiki-Jiki, Mirror Breaker",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:da59bcc1b8c2",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ca1d9ce8ce25c582db45a0709a7ff6d1b88a66112fed845acbce9842c431fe1d",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:da59bcc1b8c2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:6969fcc4c379460b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dr. Eggman [no effect modelled beyond being a castable card] → Kiki-Jiki, Mirror Breaker [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (3).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Kiki-Jiki, Mirror Breaker",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 89,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.63,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kess, Dissident Mage",
+   "expected_benefit": "completes Spellbook 618-3908, 618-5361",
+   "expected_cost": "loses Kess, Dissident Mage: weak retain ({1}{U}{B}{R} legendary creature): no structure; EDHREC support. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 52.9%, synergy +0.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Kess, Dissident Mage with Kiki-Jiki, Mirror Breaker in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Kiki-Jiki, Mirror Breaker",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:06e34a6823ba",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7ed348bb05bb703292f4dd2740ea5ee624ea3b78f0347de5c70d92ce0282bf41",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:06e34a6823ba",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:edca42eb8da45396",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kess, Dissident Mage [no effect modelled beyond being a castable card] → Kiki-Jiki, Mirror Breaker [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (3).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Ioreth of the Healing House",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 93,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.72,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kess, Dissident Mage",
+   "expected_benefit": "completes Spellbook 1432-2719",
+   "expected_cost": "loses Kess, Dissident Mage: weak retain ({1}{U}{B}{R} legendary creature): no structure; EDHREC support. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 52.9%, synergy +0.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Kess, Dissident Mage with Ioreth of the Healing House in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Ioreth of the Healing House",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:63c2c3ec2eef",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0e00968a9cf9a8282e6d7fb588fd81221de428735261a7cd2bc7d07b605ae9ce",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:63c2c3ec2eef",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:1759f48ea9909997",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kess, Dissident Mage [no effect modelled beyond being a castable card] → Ioreth of the Healing House [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Repercussion"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 94,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Genesis of the Daleks",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Genesis of the Daleks: strong retain ({4}{B}{B} enchantment): win piece / enabler. Oracle: “I, II, III — Create a 3/3 black Dalek artifact creature token with menace for…”. Role wipe ",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Genesis of the Daleks with Repercussion in role Enchantment improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:377a32aa802b",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0e650cf23962b851a8a5d85416708216477b3a38e8f527ed89e035c03cb05def",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:377a32aa802b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:542553686f430f6b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Genesis of the Daleks [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (wipe); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 94,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 18 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (19 in list). Redundancy 18 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Repercussion in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:4d40f559328a",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0ad3023295b8286170993dc7ea192c7bbaf8a625ae7dcb7b4e4bf96e872b6722",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:4d40f559328a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:cd8d7278014e19f1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Toralf, God of Fury // Toralf's Hammer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 100,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.7,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 1775-2484; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (4 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Toralf, God of Fury // Toralf's Hammer in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Toralf, God of Fury // Toralf's Hammer",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:376edddb9d30",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e8167c7145d59dcbccfd83c90c3c5e46ab584e6bf99db477e51b3fcd57768efa",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:376edddb9d30",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:b8283c83b7518ed6",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Toralf, God of Fury // Toralf's Hammer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Naru Meha, Master Wizard",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Naru Meha, Master Wizard"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 104,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.35,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dr. Eggman",
+   "expected_benefit": "completes Spellbook 141-5362",
+   "expected_cost": "loses Dr. Eggman: strong retain ({2}{U}{B}{R} legendary creature): win piece / enabler. Oracle: “Flying”. Role draw (19 in list). Packages pkg:villainous. Redundancy 12 (other ca",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Dr. Eggman with Naru Meha, Master Wizard in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Naru Meha, Master Wizard",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:da8bd14dce2b",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:24f97c708ab0b3e687c911b080d35534700bea945f5888cb63fb23174346906f",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:da8bd14dce2b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:8372e52d8cf1af28",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dr. Eggman [no effect modelled beyond being a castable card] → Naru Meha, Master Wizard [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Naru Meha, Master Wizard",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 104,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.35,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kess, Dissident Mage",
+   "expected_benefit": "completes Spellbook 141-5362",
+   "expected_cost": "loses Kess, Dissident Mage: weak retain ({1}{U}{B}{R} legendary creature): no structure; EDHREC support. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 52.9%, synergy +0.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Kess, Dissident Mage with Naru Meha, Master Wizard in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Naru Meha, Master Wizard",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:0057a443df46",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:cc08badc03cf8a0daef45f214c04b8af0255d7251dc9c0182cb4cea796cf0082",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:0057a443df46",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:a468a5d200b57f0f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kess, Dissident Mage [no effect modelled beyond being a castable card] → Naru Meha, Master Wizard [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Fall of Cair Andros",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 105,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 1823-2484; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (4 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Fall of Cair Andros in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Fall of Cair Andros",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:3f7150d572cb",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:01bfceea61d2fe5518950ff69baf89a8a336397d512fdc91f3dcda8360d20c6b",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:3f7150d572cb",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:40061eca78cb57d4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Fall of Cair Andros [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Omarthis, Ghostfire Initiate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Omarthis, Ghostfire Initiate"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 110,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.86,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dr. Eggman",
+   "expected_benefit": "completes Spellbook 1965-3908",
+   "expected_cost": "loses Dr. Eggman: strong retain ({2}{U}{B}{R} legendary creature): win piece / enabler. Oracle: “Flying”. Role draw (19 in list). Packages pkg:villainous. Redundancy 12 (other ca",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Dr. Eggman with Omarthis, Ghostfire Initiate in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Omarthis, Ghostfire Initiate",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:89901eca21b4",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:536830104187d9a92b05b8f00d2ae70fe166695f9a4ea7ae6dbceafdec611635",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:89901eca21b4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:6656c585031b89d1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dr. Eggman [no effect modelled beyond being a castable card] → Omarthis, Ghostfire Initiate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Omarthis, Ghostfire Initiate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 110,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.86,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kess, Dissident Mage",
+   "expected_benefit": "completes Spellbook 1965-3908",
+   "expected_cost": "loses Kess, Dissident Mage: weak retain ({1}{U}{B}{R} legendary creature): no structure; EDHREC support. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 52.9%, synergy +0.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Kess, Dissident Mage with Omarthis, Ghostfire Initiate in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Omarthis, Ghostfire Initiate",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:f809c16a2cba",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c4d0d5ab48194cea922653507accbcdc98b06a6799661b6b3884f71b2f9d0925",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:f809c16a2cba",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:0653cf24e9eb4703",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kess, Dissident Mage [no effect modelled beyond being a castable card] → Omarthis, Ghostfire Initiate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Crackdown Construct"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 114,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dr. Eggman",
+   "expected_benefit": "completes Spellbook 876-4944",
+   "expected_cost": "loses Dr. Eggman: strong retain ({2}{U}{B}{R} legendary creature): win piece / enabler. Oracle: “Flying”. Role draw (19 in list). Packages pkg:villainous. Redundancy 12 (other ca",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Dr. Eggman with Crackdown Construct in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:a6d556679eb6",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:dc04698896843dc8fdb69b3eebd7b4a8f91a3a772b0341872fe67f598689c033",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:a6d556679eb6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:24e55735437132d1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dr. Eggman [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 114,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kess, Dissident Mage",
+   "expected_benefit": "completes Spellbook 876-4944",
+   "expected_cost": "loses Kess, Dissident Mage: weak retain ({1}{U}{B}{R} legendary creature): no structure; EDHREC support. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 52.9%, synergy +0.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Kess, Dissident Mage with Crackdown Construct in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:edea7c6aee7d",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0d69a057dfdeb0b060b5baac351717e0573c499d930ecb0dd6faa04f0eb182b8",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:edea7c6aee7d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:e52c7f49b92fd273",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kess, Dissident Mage [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Mirror-Mad Phantasm",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Mirror-Mad Phantasm"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 115,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.11,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dr. Eggman",
+   "expected_benefit": "completes Spellbook 2084-2719, 2084-3908",
+   "expected_cost": "loses Dr. Eggman: strong retain ({2}{U}{B}{R} legendary creature): win piece / enabler. Oracle: “Flying”. Role draw (19 in list). Packages pkg:villainous. Redundancy 12 (other ca",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Dr. Eggman with Mirror-Mad Phantasm in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Mirror-Mad Phantasm",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:e729ef466626",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:00449759688f6a156353e7b78b4d35fd8360925afe3aa06b083866916584d01c",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:e729ef466626",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:c1871a295ca5ecea",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dr. Eggman [no effect modelled beyond being a castable card] → Mirror-Mad Phantasm [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (4).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Mirror-Mad Phantasm",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 115,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.11,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kess, Dissident Mage",
+   "expected_benefit": "completes Spellbook 2084-2719, 2084-3908",
+   "expected_cost": "loses Kess, Dissident Mage: weak retain ({1}{U}{B}{R} legendary creature): no structure; EDHREC support. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 52.9%, synergy +0.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Kess, Dissident Mage with Mirror-Mad Phantasm in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Mirror-Mad Phantasm",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:be15d53a19aa",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ee7afb776d993c6d7c1fee8e61499f166d1faf022512d6d180cbe844f2bd162f",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:be15d53a19aa",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:fb3413fcd0e65e47",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kess, Dissident Mage [no effect modelled beyond being a castable card] → Mirror-Mad Phantasm [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (4).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 119,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kess, Dissident Mage",
+   "expected_benefit": "completes Spellbook 876-2904",
+   "expected_cost": "loses Kess, Dissident Mage: weak retain ({1}{U}{B}{R} legendary creature): no structure; EDHREC support. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 52.9%, synergy +0.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Kess, Dissident Mage with Cephalid Illusionist in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:6341cfff8f67",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:840098ced4452733bef5291081dd9586832fbe686ab861026fadf06043b76bd2",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:6341cfff8f67",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:acb1163bd24ad387",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kess, Dissident Mage [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cephalid Aristocrat"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 125,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dr. Eggman",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "loses Dr. Eggman: strong retain ({2}{U}{B}{R} legendary creature): win piece / enabler. Oracle: “Flying”. Role draw (19 in list). Packages pkg:villainous. Redundancy 12 (other ca",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Dr. Eggman with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:ceea06bbb4f2",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b4c5a0655f9c6c15b5f1031b078d447224e4e0962b8e4610cfb91b90fa90a34a",
+   "review_order": 29,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:ceea06bbb4f2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:1839a4e33373a0db",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dr. Eggman [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 125,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Kess, Dissident Mage",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "loses Kess, Dissident Mage: weak retain ({1}{U}{B}{R} legendary creature): no structure; EDHREC support. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 52.9%, synergy +0.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Kess, Dissident Mage with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/the-valeyard.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/the-valeyard.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:d035e16ebbeb",
+    "optimizer": "data/grixis/m6/optimizer/the-valeyard.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:024eb2db6a1a1f57b2d1f4e658ada9c6cc7f0f455f24c929a22c77526f7d2f62",
+   "review_order": 30,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:the-valeyard:m5:d035e16ebbeb",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:the-valeyard:goldfish:34140e7ef5d77a1c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Kess, Dissident Mage [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "the-valeyard",
+ "stage": "M6_strategic_review_packet"
+}

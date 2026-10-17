@@ -1,0 +1,4091 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 3,
+  "deep_review": 42,
+  "flag:combo_review_required": 34,
+  "flag:elevated_burden": 10,
+  "flag:explicit_judgment_prompts": 42,
+  "flag:mana_delta_required": 16,
+  "flag:mechanics_not_modelable": 25,
+  "flag:structural_route_risk": 4,
+  "flag:test_fail": 2,
+  "flag:test_inconclusive": 10,
+  "flag:test_no_detectable_difference": 17,
+  "flag:test_pass": 13,
+  "priority:P0_independent_agreement": 1,
+  "priority:P1_measured_performance_only": 12,
+  "priority:P3_commander_fit_only": 29,
+  "scrutiny:enhanced_scrutiny": 36,
+  "scrutiny:high_scrutiny": 6,
+  "source:agreement": 1,
+  "source:commander_only": 29,
+  "source:performance_only": 12
+ },
+ "deck_id": "Grixistax___October_2026",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "The Enigma Jewel // Locus of Enlightenment",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 177,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.29,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mox Amber",
+   "expected_benefit": "completes Spellbook 74-2585; roles ramp",
+   "expected_cost": "loses Mox Amber: functional retain ({0} legendary artifact; simulator models condition legend): required package pkg:artifact-mana. Oracle: “{T}: Add one mana of any color among",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Amber with The Enigma Jewel // Locus of Enlightenment in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#The Enigma Jewel // Locus of Enlightenment",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:f238e858fbb6",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5e7efff525b465959808e635358ee7a45eb02ced7307ac60ad6c743f455b263a",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:grixistax-october-2026:m5:f238e858fbb6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:32c5afcc3c1cd5f4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Amber [condition, mana source] → The Enigma Jewel // Locus of Enlightenment [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": [
+     "1368-1878-2706"
+    ]
+   },
+   "add": "Fellwar Stone",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1368-1878-2706"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1368-1878-2706": "interchangeable incumbent(s) Lion's Eye Diamond keep the line"
+    },
+    "compensating_adds": [
+     "Fellwar Stone",
+     "Lion's Eye Diamond"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 74.9,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jeska's Will",
+   "expected_benefit": "EDHREC inclusion 66.3% vs cut 37.8%; roles ramp",
+   "expected_cost": "breaks combo:1368-1878-2706; compensated by Fellwar Stone, Lion's Eye Diamond. loses Jeska's Will: strong retain ({2}{R} sorcery): piece of 1 Spellbook combo(s). Oracle: “Choose one”. Role ramp (15 in list). Removing it breaks 1: combo:1368-1878-2706. Redunda",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Fellwar Stone in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Fellwar Stone",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a1022056d40f",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9f0794aa1eb963d3875b5547e3209fdb1a71921745b6bcaf634335f3cdc4bb32",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:a1022056d40f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:54a870d43c299aec",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Fellwar Stone [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": [
+     "1368-1878-2706"
+    ]
+   },
+   "add": "Arcane Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1368-1878-2706"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1368-1878-2706": "interchangeable incumbent(s) Lion's Eye Diamond keep the line"
+    },
+    "compensating_adds": [
+     "Arcane Signet",
+     "Lion's Eye Diamond"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 14,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 59.64,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jeska's Will",
+   "expected_benefit": "EDHREC inclusion 95.4% vs cut 37.8%; roles ramp",
+   "expected_cost": "breaks combo:1368-1878-2706; compensated by Arcane Signet, Lion's Eye Diamond. loses Jeska's Will: strong retain ({2}{R} sorcery): piece of 1 Spellbook combo(s). Oracle: “Choose one”. Role ramp (15 in list). Removing it breaks 1: combo:1368-1878-2706. Redunda",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Arcane Signet in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Arcane Signet",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:3275294198a3",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:32e442f5a999e8226b11cb75f9952affe68749c505e6d1157d5b5511dc24d701",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:3275294198a3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:18728b1a99c4ae4f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Arcane Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": [
+     "1368-1878-2706"
+    ]
+   },
+   "add": "Talisman of Indulgence",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1368-1878-2706"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1368-1878-2706": "interchangeable incumbent(s) Lion's Eye Diamond keep the line"
+    },
+    "compensating_adds": [
+     "Talisman of Indulgence",
+     "Lion's Eye Diamond"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 21,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 55.2,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jeska's Will",
+   "expected_benefit": "EDHREC inclusion 53.1% vs cut 37.8%; roles ramp",
+   "expected_cost": "breaks combo:1368-1878-2706; compensated by Talisman of Indulgence, Lion's Eye Diamond. loses Jeska's Will: strong retain ({2}{R} sorcery): piece of 1 Spellbook combo(s). Oracle: “Choose one”. Role ramp (15 in list). Removing it breaks 1: combo:1368-1878-2706. Redunda",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Talisman of Indulgence in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Talisman of Indulgence",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a5da61df82e3",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2a5fcf9894cab026dca813a1591d3d152e2f6f38d3d7730c84917633f2d524b7",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:a5da61df82e3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:d78d19383a92baf7",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Talisman of Indulgence [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": [
+     "1368-1878-2706"
+    ]
+   },
+   "add": "The Enigma Jewel // Locus of Enlightenment",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:1368-1878-2706"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:1368-1878-2706": "interchangeable incumbent(s) Lion's Eye Diamond keep the line"
+    },
+    "compensating_adds": [
+     "The Enigma Jewel // Locus of Enlightenment",
+     "Lion's Eye Diamond"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 177,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.29,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "completes Spellbook 74-2585; roles ramp",
+   "expected_cost": "breaks combo:1368-1878-2706; compensated by The Enigma Jewel // Locus of Enlightenment, Lion's Eye Diamond. loses Jeska's Will: strong retain ({2}{R} sorcery): piece of 1 Spellbook combo(s). Oracle: “Choose one”. Role ramp (15 in list). Removing it breaks 1: combo:1368-1878-2706. Redunda",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with The Enigma Jewel // Locus of Enlightenment in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#The Enigma Jewel // Locus of Enlightenment",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:0a6871701d46",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ed074c5bd6eafaed80bea324cffe831446de637e5c2d480b4acf09b24e015ffc",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:0a6871701d46",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:636689fbab5e5e41",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → The Enigma Jewel // Locus of Enlightenment [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Fellwar Stone",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 74.9,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mox Amber",
+   "expected_benefit": "EDHREC inclusion 66.3% vs cut 12.3%; roles ramp",
+   "expected_cost": "loses Mox Amber: functional retain ({0} legendary artifact; simulator models condition legend): required package pkg:artifact-mana. Oracle: “{T}: Add one mana of any color among",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Amber with Fellwar Stone in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Fellwar Stone",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:08d169da6e9a",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:af8299da67e78ad978752f1e9d2a6b132fe1e953163496f7ac6ef1011739bcc6",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:08d169da6e9a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:cc3fc5335ab6b063",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Amber [condition, mana source] → Fellwar Stone [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Arcane Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 14,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 59.64,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mox Amber",
+   "expected_benefit": "EDHREC inclusion 95.4% vs cut 12.3%; roles ramp",
+   "expected_cost": "loses Mox Amber: functional retain ({0} legendary artifact; simulator models condition legend): required package pkg:artifact-mana. Oracle: “{T}: Add one mana of any color among",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Amber with Arcane Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Arcane Signet",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:80120dee7b2b",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0c6fb7af181994218a402b5c5ceb63d94c1cbd7e8dfedb0e6075e4b91ed91945",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:80120dee7b2b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:9ba00ea8152bd0ba",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Amber [condition, mana source] → Arcane Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Talisman of Indulgence",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 21,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 55.2,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mox Amber",
+   "expected_benefit": "EDHREC inclusion 53.1% vs cut 12.3%; roles ramp",
+   "expected_cost": "loses Mox Amber: functional retain ({0} legendary artifact; simulator models condition legend): required package pkg:artifact-mana. Oracle: “{T}: Add one mana of any color among",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Amber with Talisman of Indulgence in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Talisman of Indulgence",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:c8bde234544b",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:51664aedb1ce239521e0957c8ae8648e6054ca9dd6ba0e132c1fcad48f42f2ac",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:c8bde234544b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:ea40e02b782c6dce",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Amber [condition, mana source] → Talisman of Indulgence [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "City of Traitors",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 23,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 54.31,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Arid Mesa",
+   "expected_benefit": "Oracle hook sacrifice; EDHREC inclusion 19.8% vs cut 40.1%; roles land, ramp",
+   "expected_cost": "loses Arid Mesa: flexible (land, fetches a Mountain or Plains card, makes R): 25 other lands sharing a colour. Oracle: “{T}, Pay 1 life, Sacrifice this land: Search your library",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Arid Mesa with City of Traitors in role land improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#City of Traitors",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:646bdfe8bea2",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f03f6c6ee6e7020a16d84b2257e79c900fc8a23cab11305da8ea918c7d333505",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:646bdfe8bea2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:c610101f53cd2565",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Arid Mesa [mana source] → City of Traitors [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Mind Stone",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 60,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.65,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mox Amber",
+   "expected_benefit": "Oracle hook sacrifice; EDHREC inclusion 9.1% vs cut 12.3%; roles draw, ramp",
+   "expected_cost": "loses Mox Amber: functional retain ({0} legendary artifact; simulator models condition legend): required package pkg:artifact-mana. Oracle: “{T}: Add one mana of any color among",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Amber with Mind Stone in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Mind Stone",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:cdcf06342bec",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ecd3bbf254a825fe19b0640904f289c1cb36ab5719f010b90b2d81d67851cfe2",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:cdcf06342bec",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:a124effaf4a6f26f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Amber [condition, mana source] → Mind Stone [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Dimir Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 67,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.19,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mox Amber",
+   "expected_benefit": "EDHREC inclusion 27.3% vs cut 12.3%; roles ramp",
+   "expected_cost": "loses Mox Amber: functional retain ({0} legendary artifact; simulator models condition legend): required package pkg:artifact-mana. Oracle: “{T}: Add one mana of any color among",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Amber with Dimir Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Dimir Signet",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:ecf08f18a85e",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a334fc4d19fc1789ccf28187fc623ffee3e8ea04119538076d2dc1c90e38c16f",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:ecf08f18a85e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:67dceb9a97090fe9",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Amber [condition, mana source] → Dimir Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Izzet Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 73,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.71,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mox Amber",
+   "expected_benefit": "EDHREC inclusion 25.5% vs cut 12.3%; roles ramp",
+   "expected_cost": "loses Mox Amber: functional retain ({0} legendary artifact; simulator models condition legend): required package pkg:artifact-mana. Oracle: “{T}: Add one mana of any color among",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Amber with Izzet Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Izzet Signet",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:4cb7837789c1",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a5ff49457298696d583cc9d639293985df8a59c044fb6de310c5403af48dd02f",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:4cb7837789c1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:e4c1caf57a3b934b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Amber [condition, mana source] → Izzet Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Thieving Varmint",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "stealing / casting opponents' cards",
+    "rank": 481,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.85,
+    "tier": "C"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mox Amber",
+   "expected_benefit": "Oracle hook stealing / casting opponents' cards; roles ramp",
+   "expected_cost": "loses Mox Amber: functional retain ({0} legendary artifact; simulator models condition legend): required package pkg:artifact-mana. Oracle: “{T}: Add one mana of any color among",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mox Amber with Thieving Varmint in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Thieving Varmint",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:f81f06eac81f",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b3fc9a154760d11cc52b70952be8c4f8b6475bb0dcb6367e525ebba013743b0c",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:grixistax-october-2026:m5:f81f06eac81f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:b6dbf85327643277",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Amber [condition, mana source] → Thieving Varmint [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Path of the Pyromancer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 183,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mox Amber",
+   "expected_benefit": "completes Spellbook 693-1368; roles draw, ramp",
+   "expected_cost": "loses Mox Amber: functional retain ({0} legendary artifact; simulator models condition legend): required package pkg:artifact-mana. Oracle: “{T}: Add one mana of any color among",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Mox Amber with Path of the Pyromancer in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Path of the Pyromancer",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:63242df06131",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f694b4140518aa9e57ff4d452f0ea444a2f58cc24f219d1ba55773c2e5c1ec72",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:63242df06131",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:72aea9f360f6b26a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mox Amber [condition, mana source] → Path of the Pyromancer [ritual].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Guile",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 966,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.42,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Magus of the Moon",
+   "expected_benefit": "completes Spellbook 1540-1623, 1623-2293",
+   "expected_cost": "loses Magus of the Moon: functional retain ({2}{R} creature): required package pkg:prison. Oracle: “Nonbasic lands are Mountains”. Packages pkg:prison. Redundancy 17 (other cards in its",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Magus of the Moon with Guile in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Guile",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:71bbe238733f",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7b6cd2f6b2854ff9a39a528024d9ebe5e65186dd99f16423196690527d2b1c0e",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:71bbe238733f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:dd672abd71831615",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Magus of the Moon [no effect modelled beyond being a castable card] → Guile [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 3,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 70.81,
+    "tier": "A"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 513--62, 513-2364--47; EDHREC inclusion 28.2% vs cut 26.0%; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (6 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:1dc06500ff2f",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a27cf10d8fab4a980beef44d11fb36ca10919943e0a1239f6c6a41bd1b03619b",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:1dc06500ff2f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:d8cca97edb520710",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (4).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Grinding Station",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 30,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 41.6,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Tangle Wire",
+   "expected_benefit": "Oracle hook sacrifice; completes Spellbook 1368-3698--44; EDHREC inclusion 6.4% vs cut 0.0%",
+   "expected_cost": "loses Tangle Wire: functional retain ({3} artifact): required package pkg:prison. Oracle: “Fading 4”. Packages pkg:prison. Redundancy 17 (other cards in its package(s)). Best alte",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Tangle Wire with Grinding Station in role sacrifice improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Grinding Station",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:5c62b54e1650",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bb308f33f59bd3ec3071efdb8f442e6f718fa2a3bea14bce82407c6f93a98a6d",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:5c62b54e1650",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:3c6e07959028d794",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Tangle Wire [no effect modelled beyond being a castable card] → Grinding Station [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Stitcher's Supplier",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 44,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 33.7,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Tangle Wire",
+   "expected_benefit": "Oracle hook sacrifice; completes Spellbook 358-1368-2081",
+   "expected_cost": "loses Tangle Wire: functional retain ({3} artifact): required package pkg:prison. Oracle: “Fading 4”. Packages pkg:prison. Redundancy 17 (other cards in its package(s)). Best alte",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Tangle Wire with Stitcher's Supplier in role sacrifice improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Stitcher's Supplier",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:651406b3381c",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4d2eddcb3c54b93ff65245528faf17972da481135e7d02f6e7f83b67bbc3ce7e",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:651406b3381c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:23f6c9d4662782d2",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Tangle Wire [no effect modelled beyond being a castable card] → Stitcher's Supplier [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Peer into the Abyss",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 74,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.68,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Notion Thief",
+   "expected_benefit": "completes Spellbook 1561-2498, 1561-3862; EDHREC inclusion 7.1% vs cut 24.1%; roles draw",
+   "expected_cost": "loses Notion Thief: functional retain ({2}{U}{B} creature): required package pkg:prison. Oracle: “Flash”. Role draw (8 in list). Packages pkg:prison. Redundancy 17 (other cards in ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Notion Thief with Peer into the Abyss in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Peer into the Abyss",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:c59059916e5e",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:66ce41326b61eea2acc96cdc12fc941f6fd89e71f4ec7835c46c53c3065bf3c7",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:c59059916e5e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:8291c4e7b11fea64",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Notion Thief [no effect modelled beyond being a castable card] → Peer into the Abyss [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Lich",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 76,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.65,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Notion Thief",
+   "expected_benefit": "Oracle hook sacrifice; completes Spellbook 202-2498; roles draw",
+   "expected_cost": "loses Notion Thief: functional retain ({2}{U}{B} creature): required package pkg:prison. Oracle: “Flash”. Role draw (8 in list). Packages pkg:prison. Redundancy 17 (other cards in ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Notion Thief with Lich in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Lich",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a2b1b0003a4b",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bece1015ef2754d5ff851cd3578f15a8efad2ce00d56f8cc1dae35bf16f1c33e",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:a2b1b0003a4b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:842c2bb2f9a5343d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Notion Thief [no effect modelled beyond being a castable card] → Lich [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Aetherflux Reservoir",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 166,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.46,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 4740-5089; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (6 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Aetherflux Reservoir in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Aetherflux Reservoir",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:ef33a761352d",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4a3dc6731088cca2a5d1386e659cc238e9cca101cb8c9f84c4784bc9e3117625",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:ef33a761352d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:d1ae19caa61f8bbd",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Aetherflux Reservoir [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Vilis, Broker of Blood",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 249,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.83,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Notion Thief",
+   "expected_benefit": "completes Spellbook 2498-3591-4691; roles draw",
+   "expected_cost": "loses Notion Thief: functional retain ({2}{U}{B} creature): required package pkg:prison. Oracle: “Flash”. Role draw (8 in list). Packages pkg:prison. Redundancy 17 (other cards in ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Notion Thief with Vilis, Broker of Blood in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Vilis, Broker of Blood",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:aee739d136dd",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5fcfb9044fd09fcb91b36d043199abd1d17562f1501ae66455b99c9b74505553",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:aee739d136dd",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:78628c6faaf3c750",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Notion Thief [no effect modelled beyond being a castable card] → Vilis, Broker of Blood [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Reiterate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 361,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.64,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mana Drain",
+   "expected_benefit": "completes Spellbook 1878-3368",
+   "expected_cost": "loses Mana Drain: flexible ({U}{U} instant): 11 other cards sharing a key role. Oracle: “Counter target spell”. Role counter (12 in list). Redundancy 11 (other cards sharing a ke",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mana Drain with Reiterate in role Instant improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Reiterate",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:bf0d15465256",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1e4ed801ddf64771bcad53964be342ba00faf7e365d2a03e2de386b670b911e6",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:bf0d15465256",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:465927efda1f7deb",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mana Drain [no effect modelled beyond being a castable card] → Reiterate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (counter); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 448,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 542-2364, 542-2585; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (6 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a4e0d954b859",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1e0316e3b750bcd65dfb86e7ebcdfa709577852e08ac8fb22f6b8906c86de548",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:a4e0d954b859",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:bf2300358ecfcded",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (5).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cool but Rude",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 480,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Notion Thief",
+   "expected_benefit": "completes Spellbook 3591-7792; roles draw, tutor",
+   "expected_cost": "loses Notion Thief: functional retain ({2}{U}{B} creature): required package pkg:prison. Oracle: “Flash”. Role draw (8 in list). Packages pkg:prison. Redundancy 17 (other cards in ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Notion Thief with Cool but Rude in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Cool but Rude",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:a5e11aa570b0",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:dcfbbb3f535c9472a352caf0eea6ef5af4c84b51fd16f6503de3930075462e6e",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:a5e11aa570b0",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:ac6b69b59c24102e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Notion Thief [no effect modelled beyond being a castable card] → Cool but Rude [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cool but Rude",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cool but Rude"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 480,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sheoldred, the Apocalypse",
+   "expected_benefit": "completes Spellbook 3591-7792; roles draw, tutor",
+   "expected_cost": "loses Sheoldred, the Apocalypse: strong retain ({2}{B}{B} legendary creature): win piece / enabler. Oracle: “Deathtouch”. Role draw (8 in list). Redundancy 7 (other cards sharing a key role). B",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sheoldred, the Apocalypse with Cool but Rude in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Cool but Rude",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:0a2e8c464009",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9db1af98bfa8451b3c06d84ecd893c97491d554110a2d8242c484421ce1452d7",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:0a2e8c464009",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:5ff923e90ea12904",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sheoldred, the Apocalypse [no effect modelled beyond being a castable card] → Cool but Rude [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Glimpse the Unthinkable",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 528,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.65,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Beseech the Mirror",
+   "expected_benefit": "completes Spellbook 1366-1368-1414, 1366-1368-3518",
+   "expected_cost": "loses Beseech the Mirror: functional retain ({1}{B}{B}{B} sorcery; simulator models tutor): role tutor. Oracle: “Bargain”. Role tutor (8 in list). Redundancy 7 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Beseech the Mirror with Glimpse the Unthinkable in role Sorcery improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Glimpse the Unthinkable",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:f904a13dd4fe",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5fa399c62d44b02984a771db8dd4521b549935fe7f243d58aff3e1ccb3daba82",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:f904a13dd4fe",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:1279cbb73cd054a7",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Beseech the Mirror [tutor] → Glimpse the Unthinkable [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Mizzix of the Izmagnus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 619,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.31,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Magus of the Moon",
+   "expected_benefit": "completes Spellbook 1368-1414-3075-4856",
+   "expected_cost": "loses Magus of the Moon: functional retain ({2}{R} creature): required package pkg:prison. Oracle: “Nonbasic lands are Mountains”. Packages pkg:prison. Redundancy 17 (other cards in its",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Magus of the Moon with Mizzix of the Izmagnus in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Mizzix of the Izmagnus",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:49b1aaf9e694",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5bf9990002c75b656c621ae83bca2855e1f41c9dabf21c675431d83f89b17e51",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:49b1aaf9e694",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:1895e04a87ebb556",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Magus of the Moon [no effect modelled beyond being a castable card] → Mizzix of the Izmagnus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Mizzix of the Izmagnus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Mizzix of the Izmagnus"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 619,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.31,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sheoldred, the Apocalypse",
+   "expected_benefit": "completes Spellbook 1368-1414-3075-4856",
+   "expected_cost": "loses Sheoldred, the Apocalypse: strong retain ({2}{B}{B} legendary creature): win piece / enabler. Oracle: “Deathtouch”. Role draw (8 in list). Redundancy 7 (other cards sharing a key role). B",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sheoldred, the Apocalypse with Mizzix of the Izmagnus in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Mizzix of the Izmagnus",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:fa3064acfcc2",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:af2a80e800aea60e2fae8db78ce17e52be73fd49fb6b25e6dbc78c76b4d8d3a7",
+   "review_order": 29,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:fa3064acfcc2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:e51d5b4b769d43b4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sheoldred, the Apocalypse [no effect modelled beyond being a castable card] → Mizzix of the Izmagnus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Requiem Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 671,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.18,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Notion Thief",
+   "expected_benefit": "completes Spellbook 3862-6804; roles draw",
+   "expected_cost": "loses Notion Thief: functional retain ({2}{U}{B} creature): required package pkg:prison. Oracle: “Flash”. Role draw (8 in list). Packages pkg:prison. Redundancy 17 (other cards in ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Notion Thief with Requiem Monolith in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Requiem Monolith",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:4f989ae47914",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4f76e455fcf17b9af5f7e3229aa0b14c5c86333f199cfda2b56d9bd889fd14bc",
+   "review_order": 30,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:4f989ae47914",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:da6cb6995f649b9e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Notion Thief [no effect modelled beyond being a castable card] → Requiem Monolith [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Requiem Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Requiem Monolith"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 671,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.18,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sheoldred, the Apocalypse",
+   "expected_benefit": "completes Spellbook 3862-6804; roles draw",
+   "expected_cost": "loses Sheoldred, the Apocalypse: strong retain ({2}{B}{B} legendary creature): win piece / enabler. Oracle: “Deathtouch”. Role draw (8 in list). Redundancy 7 (other cards sharing a key role). B",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sheoldred, the Apocalypse with Requiem Monolith in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Requiem Monolith",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:7d3582d40c90",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:15e24e834aa26ebecdbb2182990a9dd93832fe820729c0652dd3223a7ff30c5a",
+   "review_order": 31,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:7d3582d40c90",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:66abd6c99208229b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sheoldred, the Apocalypse [no effect modelled beyond being a castable card] → Requiem Monolith [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Marina Vendrell's Grimoire",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 694,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.11,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Notion Thief",
+   "expected_benefit": "completes Spellbook 2498-6033; roles draw",
+   "expected_cost": "loses Notion Thief: functional retain ({2}{U}{B} creature): required package pkg:prison. Oracle: “Flash”. Role draw (8 in list). Packages pkg:prison. Redundancy 17 (other cards in ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Notion Thief with Marina Vendrell's Grimoire in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Marina Vendrell's Grimoire",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:3cc2ca4b6e36",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5e22069f9c8a1d8573c160fe8b37986d0b8c1e281731a6009757513584f2e94c",
+   "review_order": 32,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:3cc2ca4b6e36",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:335e595f2a3e1a7e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Notion Thief [no effect modelled beyond being a castable card] → Marina Vendrell's Grimoire [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Lich's Mastery",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 730,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.0,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Notion Thief",
+   "expected_benefit": "completes Spellbook 679-2498; roles draw",
+   "expected_cost": "loses Notion Thief: functional retain ({2}{U}{B} creature): required package pkg:prison. Oracle: “Flash”. Role draw (8 in list). Packages pkg:prison. Redundancy 17 (other cards in ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Notion Thief with Lich's Mastery in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Lich's Mastery",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:b69789eb16b8",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:242d9e5c4fa62418a12b14f28beab5dc1a3930b3ff87e1dcbb3c89eb8da4ea6e",
+   "review_order": 33,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:b69789eb16b8",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:e6c41f8e2e2f5b08",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Notion Thief [no effect modelled beyond being a castable card] → Lich's Mastery [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Voltaic Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 762,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Magus of the Moon",
+   "expected_benefit": "completes Spellbook 1978-2364-5089, 1978-2585-5089",
+   "expected_cost": "loses Magus of the Moon: functional retain ({2}{R} creature): required package pkg:prison. Oracle: “Nonbasic lands are Mountains”. Packages pkg:prison. Redundancy 17 (other cards in its",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Magus of the Moon with Voltaic Construct in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Voltaic Construct",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:5e380e9fdd54",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:20ab706268b8e234cf7c5a67acd2453d5d3ff95ba1837886cf1eef1aaf508d94",
+   "review_order": 34,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:5e380e9fdd54",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:3064828b18332142",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Magus of the Moon [no effect modelled beyond being a castable card] → Voltaic Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Voltaic Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Voltaic Construct"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 762,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sheoldred, the Apocalypse",
+   "expected_benefit": "completes Spellbook 1978-2364-5089, 1978-2585-5089",
+   "expected_cost": "loses Sheoldred, the Apocalypse: strong retain ({2}{B}{B} legendary creature): win piece / enabler. Oracle: “Deathtouch”. Role draw (8 in list). Redundancy 7 (other cards sharing a key role). B",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sheoldred, the Apocalypse with Voltaic Construct in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Voltaic Construct",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:d2f4cc983cb0",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5c9f72579e5f52b6812138b10e4514f917edb9b255b4d58d29c67da3b22df927",
+   "review_order": 35,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:d2f4cc983cb0",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:c21979d85311bd49",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sheoldred, the Apocalypse [no effect modelled beyond being a castable card] → Voltaic Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Power Artifact",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 849,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.69,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Necropotence",
+   "expected_benefit": "completes Spellbook 2585-5149",
+   "expected_cost": "loses Necropotence: weak retain ({B}{B}{B} enchantment): no structure; blueprint mention. Oracle: “Skip your draw step”. Redundancy 0 (no shared job). EDHREC inclusion 36.6%, syner",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Necropotence with Power Artifact in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Power Artifact",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:59e7abffbea3",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f9acd845ecbb4b657a0271312eb5e38969987ede6a1ac68f2661e61cc4e4943d",
+   "review_order": 36,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:59e7abffbea3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:f6fb7263a2a68ee5",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Necropotence [no effect modelled beyond being a castable card] → Power Artifact [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Guile",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Guile"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 966,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.42,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sheoldred, the Apocalypse",
+   "expected_benefit": "completes Spellbook 1540-1623, 1623-2293",
+   "expected_cost": "loses Sheoldred, the Apocalypse: strong retain ({2}{B}{B} legendary creature): win piece / enabler. Oracle: “Deathtouch”. Role draw (8 in list). Redundancy 7 (other cards sharing a key role). B",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Sheoldred, the Apocalypse with Guile in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Guile",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:c87aeecd41bb",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9f0c951fac5d378b6355e19b40de9bff991170bbdc49beb68f5db2123ef60d5e",
+   "review_order": 37,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:c87aeecd41bb",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:18cf3bd22234f35d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sheoldred, the Apocalypse [no effect modelled beyond being a castable card] → Guile [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Nefarious Lich",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1096,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.08,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Notion Thief",
+   "expected_benefit": "completes Spellbook 2498-4126; roles draw",
+   "expected_cost": "loses Notion Thief: functional retain ({2}{U}{B} creature): required package pkg:prison. Oracle: “Flash”. Role draw (8 in list). Packages pkg:prison. Redundancy 17 (other cards in ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Notion Thief with Nefarious Lich in role draw improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Nefarious Lich",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:e7bc718c4c12",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:706a0567752971051606062e06c5ed21eae15b2a3c362131d51791f935e1f61c",
+   "review_order": 38,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:e7bc718c4c12",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:f89ecc38c119a072",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Notion Thief [no effect modelled beyond being a castable card] → Nefarious Lich [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Ambassador Laquatus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1179,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.75,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Magus of the Moon",
+   "expected_benefit": "completes Spellbook 1368-3518-4530",
+   "expected_cost": "loses Magus of the Moon: functional retain ({2}{R} creature): required package pkg:prison. Oracle: “Nonbasic lands are Mountains”. Packages pkg:prison. Redundancy 17 (other cards in its",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Magus of the Moon with Ambassador Laquatus in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Ambassador Laquatus",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:4c49c4eb88d8",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:acef833c8f10c9e34f1fa245f697413c8fc81b9504b8fed0e3aeb30c7a73db17",
+   "review_order": 39,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:4c49c4eb88d8",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:2489c25254d7a481",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Magus of the Moon [no effect modelled beyond being a castable card] → Ambassador Laquatus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Ambassador Laquatus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Ambassador Laquatus"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1179,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.75,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sheoldred, the Apocalypse",
+   "expected_benefit": "completes Spellbook 1368-3518-4530",
+   "expected_cost": "loses Sheoldred, the Apocalypse: strong retain ({2}{B}{B} legendary creature): win piece / enabler. Oracle: “Deathtouch”. Role draw (8 in list). Redundancy 7 (other cards sharing a key role). B",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Sheoldred, the Apocalypse with Ambassador Laquatus in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Ambassador Laquatus",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:871833c6f6ee",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7720aa41c5db8677f89cd47babed6464265eece5506a630f5531d25b1dd2b372",
+   "review_order": 40,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:871833c6f6ee",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:6b6c2011ec257527",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sheoldred, the Apocalypse [no effect modelled beyond being a castable card] → Ambassador Laquatus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Breaking // Entering",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1239,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.51,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Beseech the Mirror",
+   "expected_benefit": "completes Spellbook 1368-3518-5260",
+   "expected_cost": "loses Beseech the Mirror: functional retain ({1}{B}{B}{B} sorcery; simulator models tutor): role tutor. Oracle: “Bargain”. Role tutor (8 in list). Redundancy 7 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Beseech the Mirror with Breaking // Entering in role Sorcery improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#Breaking // Entering",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:aa1cc48025bc",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:158583e22f40c1cb5a3dd1611a2dec0e4266d55bbaa5bb1f0b3b6633c8c5cfbf",
+   "review_order": 41,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:aa1cc48025bc",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:ad511f9d25ca6021",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Beseech the Mirror [tutor] → Breaking // Entering [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "protected_win_red_team"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "False Memories",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1303,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.22,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mana Drain",
+   "expected_benefit": "completes Spellbook 160-1368-3518",
+   "expected_cost": "loses Mana Drain: flexible ({U}{U} instant): 11 other cards sharing a key role. Oracle: “Counter target spell”. Role counter (12 in list). Redundancy 11 (other cards sharing a ke",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mana Drain with False Memories in role Instant improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json#False Memories",
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz#id=swap:grixistax-october-2026:m5:3a45f468c2b4",
+    "optimizer": "data/grixis/m6/optimizer/grixistax-october-2026.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0cef54102fc086c42c8ef7f957bebb51249aa062a625a78b0768b4be0516ab83",
+   "review_order": 42,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:grixistax-october-2026:m5:3a45f468c2b4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:grixistax-october-2026:goldfish:7ae076b28ee56e29",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mana Drain [no effect modelled beyond being a castable card] → False Memories [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (counter); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "grixistax-october-2026",
+ "stage": "M6_strategic_review_packet"
+}

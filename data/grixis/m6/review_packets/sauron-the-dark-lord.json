@@ -1,0 +1,3085 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 2,
+  "deep_review": 31,
+  "flag:combo_review_required": 23,
+  "flag:elevated_burden": 8,
+  "flag:explicit_judgment_prompts": 31,
+  "flag:mana_delta_required": 7,
+  "flag:mechanics_not_modelable": 18,
+  "flag:test_fail": 6,
+  "flag:test_inconclusive": 9,
+  "flag:test_no_detectable_difference": 7,
+  "flag:test_pass": 8,
+  "priority:P0_independent_agreement": 2,
+  "priority:P1_measured_performance_only": 6,
+  "priority:P3_commander_fit_only": 23,
+  "scrutiny:enhanced_scrutiny": 25,
+  "scrutiny:high_scrutiny": 6,
+  "source:agreement": 2,
+  "source:commander_only": 23,
+  "source:performance_only": 6
+ },
+ "deck_id": "Sauron__the_Dark_Lord",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Marina Vendrell's Grimoire",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Marina Vendrell's Grimoire"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 127,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.11,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Call of the Ring",
+   "expected_benefit": "Oracle hook artifacts; completes Spellbook 2498-6033; roles draw",
+   "expected_cost": "loses Call of the Ring: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “At the beginning of your upkeep, the Ring tempts you”. Role draw (11 in list). Redundancy 10 (",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Call of the Ring with Marina Vendrell's Grimoire in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Marina Vendrell's Grimoire",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:8608a444c167",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5a6f6f82ecdce34a4c9f3cdeb66e98ebb7fcabbce6ad756e5eb5ef07fc3bbede",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-the-dark-lord:m5:8608a444c167",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:7efe83592e1e3b4c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Call of the Ring [no effect modelled beyond being a castable card] → Marina Vendrell's Grimoire [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 698,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 542-2364, 542-5034; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (5 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:99c9c90172f1",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:18d16c9ea2d7de206064c463c6e19bf1ca263b89308997751336deb064373b79",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-the-dark-lord:m5:99c9c90172f1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:3b218440a466833d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Inherited Envelope",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 15,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 68.94,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook artifacts; EDHREC inclusion 28.5% vs cut 16.5%; roles ramp",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 19 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (11 in li",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Inherited Envelope in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Inherited Envelope",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:59339efe992d",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:96319f09c1912b7eb7b0fc89c4681c3f615dc5ea6e10fc30b8ef3e98a7fffd38",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:59339efe992d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:8590b7327656e433",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Inherited Envelope [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Worn Powerstone",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 36,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 56.45,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook artifacts; EDHREC inclusion 21.0% vs cut 16.5%; roles ramp",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 19 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (11 in li",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Worn Powerstone in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Worn Powerstone",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:d7e891cce6ff",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:da4b7debadf49d9c249bac6d27a0565bfef78f2abf2c49242d478070515626fd",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:d7e891cce6ff",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:40711fca44659267",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Worn Powerstone [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Dimir Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 50,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 49.68,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook artifacts; EDHREC inclusion 31.3% vs cut 16.5%; roles ramp",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 19 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (11 in li",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Dimir Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Dimir Signet",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:8323452e6b52",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:92de3966888a882e76ddd3a9c949c5bf483b945beec6107daf19989a8ea4289f",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:8323452e6b52",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:5216cf6fa5ecdf84",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Dimir Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Rakdos Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 51,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 49.57,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook artifacts; EDHREC inclusion 30.1% vs cut 16.5%; roles ramp",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 19 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (11 in li",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Rakdos Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Rakdos Signet",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:4a01e9cf111f",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:dbc77a508a6cd75c85d5c4829f85fc269c95efe87ad18bde45b626a299891a23",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:4a01e9cf111f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:1c5eb4790b80da84",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Rakdos Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Phial of Galadriel",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 95,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 35.15,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook artifacts; EDHREC inclusion 9.2% vs cut 16.5%; roles draw, ramp",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 19 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (11 in li",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Phial of Galadriel in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Phial of Galadriel",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:b9557d5b3926",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:af6fe7eacbc96d69cdfd392b32aa148098d591a460862780b9e5edeb42a1f4e1",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:b9557d5b3926",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:b5d36b530339f0bd",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Phial of Galadriel [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Izzet Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 99,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.68,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook artifacts; EDHREC inclusion 22.3% vs cut 16.5%; roles ramp",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 19 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (11 in li",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Izzet Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Izzet Signet",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:ba1330f30952",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:3a89a9b85828a1cd3c8aaba1e160a4323c8ef6c21a8fc146c5c5703eea9efac7",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:ba1330f30952",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:77f5eebe8676aa7f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Izzet Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Underworld Breach",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 100,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.51,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "Oracle hook sacrifice; completes Spellbook 1368-1878-2706; EDHREC inclusion 6.0% vs cut 12.0%",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 10 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (11 in list). Redundancy 10 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Underworld Breach in role sacrifice improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Underworld Breach",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:3a61361704cc",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:11dab9b22400901a2a64a9082aa78e8a43ad2a99ad6048bba914a40cd5c32202",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:3a61361704cc",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:7b1c8e5974e51f99",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Underworld Breach [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Underworld Breach",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Underworld Breach"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 100,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.51,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Widespread Brutality",
+   "expected_benefit": "Oracle hook sacrifice; completes Spellbook 1368-1878-2706; EDHREC inclusion 6.0% vs cut 22.4%",
+   "expected_cost": "loses Widespread Brutality: strong retain ({1}{B}{R}{R} sorcery): win piece / enabler. Oracle: “Amass Zombies 2, then the Army you amassed deals damage equal to its power to…”. Redundancy ",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Widespread Brutality with Underworld Breach in role sacrifice improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Underworld Breach",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:556b4ef78f35",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1da59356168c3bdd94d6e736806c2ccc43ec638b660cb7f951bc2b7748c8977f",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:556b4ef78f35",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:b2d757bc1b91a491",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Widespread Brutality [no effect modelled beyond being a castable card] → Underworld Breach [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Lich",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 136,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.65,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Wheel of Fortune",
+   "expected_benefit": "Oracle hook sacrifice; completes Spellbook 202-2498; roles draw",
+   "expected_cost": "loses Wheel of Fortune: flexible ({2}{R} sorcery; simulator models draw 7, wheel): 10 other cards sharing a key role. Oracle: “Each player discards their hand, then draws seven cards”.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Wheel of Fortune with Lich in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Lich",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:1a9a2a396919",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1b57bd0af2725abf6af5c8b74c40f80f128289b8c1c2d9c783e5ba5b38260d0d",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:1a9a2a396919",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:980f544b63d9650b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Wheel of Fortune [draw, wheel] → Lich [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Peer into the Abyss",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 407,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.62,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Wheel of Fortune",
+   "expected_benefit": "completes Spellbook 1561-2498, 1561-3862; roles draw",
+   "expected_cost": "loses Wheel of Fortune: flexible ({2}{R} sorcery; simulator models draw 7, wheel): 10 other cards sharing a key role. Oracle: “Each player discards their hand, then draws seven cards”.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Wheel of Fortune with Peer into the Abyss in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Peer into the Abyss",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:4c594ca9f07d",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:3b693804a0226ffeb731b3a4d89f8a400fe619c9a9e80a736a034a3a6f1c80a2",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:4c594ca9f07d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:88970acdff202d0e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Wheel of Fortune [draw, wheel] → Peer into the Abyss [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Reiterate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 545,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.64,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Sauron's Ransom",
+   "expected_benefit": "completes Spellbook 1878-3368",
+   "expected_cost": "loses Sauron's Ransom: weak retain ({1}{U}{B} instant): no structure; EDHREC support. Oracle: “Choose an opponent”. Redundancy 0 (no shared job). EDHREC inclusion 35.2%, synergy +0.31",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Sauron's Ransom with Reiterate in role Instant improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Reiterate",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:9eae74933221",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f6d4f0d7f4972e7891d4fcc00eeb0ebd149f99436d2c7762da735e435443ca2e",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:9eae74933221",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:ba392f1eac84d948",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Sauron's Ransom [no effect modelled beyond being a castable card] → Reiterate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Nefarious Lich",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1814,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.08,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Wheel of Fortune",
+   "expected_benefit": "completes Spellbook 2498-4126; roles draw",
+   "expected_cost": "loses Wheel of Fortune: flexible ({2}{R} sorcery; simulator models draw 7, wheel): 10 other cards sharing a key role. Oracle: “Each player discards their hand, then draws seven cards”.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Wheel of Fortune with Nefarious Lich in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Nefarious Lich",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:b76873b40778",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0eb782fd819d3081b5a633a46aa404d024fe6628f5a9b6b9f82b4cb7bfa76891",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:b76873b40778",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:3558bda4770d9bae",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Wheel of Fortune [draw, wheel] → Nefarious Lich [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Lord of the Nazgûl",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 1,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 90.16,
+    "tier": "A"
+   },
+   "challenger_class": "resilience",
+   "cut": "Deflecting Swat",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; EDHREC inclusion 49.5% vs cut 13.6%; roles protection",
+   "expected_cost": "loses Deflecting Swat: functional retain ({2}{R} instant): role protection. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role protection (",
+   "flags": [
+    "explicit_judgment_prompts"
+   ],
+   "hypothesis": "Replacing Deflecting Swat with Lord of the Nazgûl in role protection improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Lord of the Nazgûl",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:f5a41c101a06",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8c1dceeaa71c5bc2c09572cff1f6b87f725905b0b2115a2808323297192e3475",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:f5a41c101a06",
+   "test_evidence": {
+    "tests": [],
+    "verdict_counts": {}
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Fall of Cair Andros",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 23,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 65.05,
+    "tier": "A"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "Oracle hook sacrifice; completes Spellbook 1823-2484; EDHREC inclusion 20.0% vs cut 14.8%; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (5 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Fall of Cair Andros in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Fall of Cair Andros",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:4ca4772df63c",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:cd1ae5381c2ea0ce33efefcfb63f62f4d2b3e81b9a1bd6db21d759fe53590467",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:4ca4772df63c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:62b06f5830a053d3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Fall of Cair Andros [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Witch-king, Bringer of Ruin",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "combat damage / attack triggers",
+    "rank": 43,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 53.33,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Witch-king of Angmar",
+   "expected_benefit": "Oracle hook combat damage / attack triggers; EDHREC inclusion 16.5% vs cut 59.4%",
+   "expected_cost": "loses Witch-king of Angmar: functional retain ({3}{B}{B} legendary creature): required package pkg:nazgul. Oracle: “Flying”. Packages pkg:nazgul. Redundancy 8 (other cards in its package(s",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Witch-king of Angmar with Witch-king, Bringer of Ruin in role pkg:nazgul improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Witch-king, Bringer of Ruin",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:e7350b9e48ce",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d01e782d547c4ec71a88d24ddf34da4fb2ed1861b7a647b8bfc29c9fbd29fe6f",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:e7350b9e48ce",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:00a37f243bee0042",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Witch-king of Angmar [no effect modelled beyond being a castable card] → Witch-king, Bringer of Ruin [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Toralf, God of Fury // Toralf's Hammer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 120,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.7,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "Oracle hook artifacts; completes Spellbook 1775-2484; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (5 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Toralf, God of Fury // Toralf's Hammer in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Toralf, God of Fury // Toralf's Hammer",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:d86c48a231fa",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f466f454478ea977b105002b03581fa5304bcddf9a756d3d4b9c4ae1bec50fd1",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:d86c48a231fa",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:55c7a37e4edd4fc0",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Toralf, God of Fury // Toralf's Hammer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Requiem Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Requiem Monolith"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 126,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.18,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Call of the Ring",
+   "expected_benefit": "Oracle hook artifacts; completes Spellbook 3862-6804; roles draw",
+   "expected_cost": "loses Call of the Ring: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “At the beginning of your upkeep, the Ring tempts you”. Role draw (11 in list). Redundancy 10 (",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Call of the Ring with Requiem Monolith in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Requiem Monolith",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:c2e8ba7b7ed6",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4f5e1f4b29072492456bb17ccd9b288cdb634e761ef311c9ad617a89f99159a7",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:c2e8ba7b7ed6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:e155e641d8eeabf6",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Call of the Ring [no effect modelled beyond being a castable card] → Requiem Monolith [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Requiem Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 126,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.18,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Wheel of Fortune",
+   "expected_benefit": "Oracle hook artifacts; completes Spellbook 3862-6804; roles draw",
+   "expected_cost": "loses Wheel of Fortune: flexible ({2}{R} sorcery; simulator models draw 7, wheel): 10 other cards sharing a key role. Oracle: “Each player discards their hand, then draws seven cards”.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Wheel of Fortune with Requiem Monolith in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Requiem Monolith",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:852bde639df0",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4e6105b3df852d7aa63f789bdb31899c1b993d30208be4abd765886d2fcd7664",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:852bde639df0",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:fba6e617418aa9fa",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Wheel of Fortune [draw, wheel] → Requiem Monolith [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Marina Vendrell's Grimoire",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 127,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.11,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Wheel of Fortune",
+   "expected_benefit": "Oracle hook artifacts; completes Spellbook 2498-6033; roles draw",
+   "expected_cost": "loses Wheel of Fortune: flexible ({2}{R} sorcery; simulator models draw 7, wheel): 10 other cards sharing a key role. Oracle: “Each player discards their hand, then draws seven cards”.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Wheel of Fortune with Marina Vendrell's Grimoire in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Marina Vendrell's Grimoire",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:93cd3e9e01b4",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9a361c8b8a56789eeec53db4552f6058e4807a17d390fe46a9d516c2db6cfec4",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:93cd3e9e01b4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:d7171a90cdc6fdc3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Wheel of Fortune [draw, wheel] → Marina Vendrell's Grimoire [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Mind Over Matter",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "artifacts",
+    "rank": 129,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.01,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Black Market Connections",
+   "expected_benefit": "Oracle hook artifacts; completes Spellbook 3363-4067",
+   "expected_cost": "loses Black Market Connections: flexible ({2}{B} enchantment): 19 other cards sharing a key role. Oracle: “At the beginning of your first main phase, choose one or more —”. Role draw (11 in li",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Black Market Connections with Mind Over Matter in role artifacts improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Mind Over Matter",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:ae6d4a79a1d1",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:dca459904589a93989d023c6a66e7e1ea42b68c931bfdb462e8a9a2d3f9cadb6",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:ae6d4a79a1d1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:11d932c2d0755569",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Black Market Connections [no effect modelled beyond being a castable card] → Mind Over Matter [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Lich",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Lich"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "sacrifice",
+    "rank": 136,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.65,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Call of the Ring",
+   "expected_benefit": "Oracle hook sacrifice; completes Spellbook 202-2498; roles draw",
+   "expected_cost": "loses Call of the Ring: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “At the beginning of your upkeep, the Ring tempts you”. Role draw (11 in list). Redundancy 10 (",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Call of the Ring with Lich in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Lich",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:2faf26486697",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0225bb0e4f2c31133e245e2970e5661bf31c555f88769174e57c6b5b55070973",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:2faf26486697",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:9133163a7c38c62b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Call of the Ring [no effect modelled beyond being a castable card] → Lich [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Worldgorger Dragon",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 182,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.4,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Toxic Deluge",
+   "expected_benefit": "completes Spellbook 4812-4846; roles wipe",
+   "expected_cost": "loses Toxic Deluge: functional retain ({2}{B} sorcery): role wipe. Oracle: “As an additional cost to cast this spell, pay X life”. Role wipe (2 in list). Redundancy 1 (other cards ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Toxic Deluge with Worldgorger Dragon in role wipe improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Worldgorger Dragon",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:93f02c8ddd44",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:97527886295a3e885e14673da5a5e4752d6fe38b309037b1abe2dfd6ac6436ff",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:93f02c8ddd44",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:6c7a06bb0cc0255c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Toxic Deluge [no effect modelled beyond being a castable card] → Worldgorger Dragon [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (wipe); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 227,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Deadly Rollick",
+   "expected_benefit": "completes Spellbook 513-2364--47, 513-5034--46; roles removal",
+   "expected_cost": "loses Deadly Rollick: functional retain ({3}{B} instant): role removal. Oracle: “If you control a commander, you may cast this spell without paying its mana c…”. Role removal (5 in l",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Deadly Rollick with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:97054655d00c",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2a1549ada020d296c68d48b6578fcb2041dd6778b688a1b4b28761cd1cd9355b",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:97054655d00c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:b791c8fba8bd00f4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Deadly Rollick [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Peer into the Abyss",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Peer into the Abyss"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 407,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.62,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Call of the Ring",
+   "expected_benefit": "completes Spellbook 1561-2498, 1561-3862; roles draw",
+   "expected_cost": "loses Call of the Ring: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “At the beginning of your upkeep, the Ring tempts you”. Role draw (11 in list). Redundancy 10 (",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Call of the Ring with Peer into the Abyss in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Peer into the Abyss",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:466b828d7447",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d93370dc098c36e7f413f2b6c48d9f9472d2f03e515f81acee69b1833cc61c71",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:466b828d7447",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:1ef8746a4d1c027c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Call of the Ring [no effect modelled beyond being a castable card] → Peer into the Abyss [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Repercussion"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 581,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Call of the Ring",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Call of the Ring: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “At the beginning of your upkeep, the Ring tempts you”. Role draw (11 in list). Redundancy 10 (",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Call of the Ring with Repercussion in role Enchantment improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:9f3c48f6a7cc",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5c09b60aa0411cb9b8f86c870c0222d944b390666d4912318e87eaaa7106da94",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:9f3c48f6a7cc",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:9809a5dcdf61ef8f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Call of the Ring [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 581,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 10 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (11 in list). Redundancy 10 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Repercussion in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:0fdce831238b",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9ff1f3c0d9a62c5fe36fa597c9a524f8cc1138b84d9080af897b1d13b12a12fc",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:0fdce831238b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:560d88722886694d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Lich's Mastery",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Lich's Mastery"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1168,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.0,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Call of the Ring",
+   "expected_benefit": "completes Spellbook 679-2498; roles draw",
+   "expected_cost": "loses Call of the Ring: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “At the beginning of your upkeep, the Ring tempts you”. Role draw (11 in list). Redundancy 10 (",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Call of the Ring with Lich's Mastery in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Lich's Mastery",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:a739f84bee77",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f43376ea9b1fa2e64cd0a42452220edc278341b0dabd8cfada793b7e1633c396",
+   "review_order": 29,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:a739f84bee77",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:c2f0440c339ade5a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Call of the Ring [no effect modelled beyond being a castable card] → Lich's Mastery [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Lich's Mastery",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1168,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.0,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Wheel of Fortune",
+   "expected_benefit": "completes Spellbook 679-2498; roles draw",
+   "expected_cost": "loses Wheel of Fortune: flexible ({2}{R} sorcery; simulator models draw 7, wheel): 10 other cards sharing a key role. Oracle: “Each player discards their hand, then draws seven cards”.",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Wheel of Fortune with Lich's Mastery in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Lich's Mastery",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:51fc1442725d",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d74e341c4df23727a1006ed2691746c6d67208efc82bb2a050a64726bc2449bd",
+   "review_order": 30,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:51fc1442725d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:cbfa5619873f3488",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Wheel of Fortune [draw, wheel] → Lich's Mastery [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Nefarious Lich",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Nefarious Lich"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 1814,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.08,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Call of the Ring",
+   "expected_benefit": "completes Spellbook 2498-4126; roles draw",
+   "expected_cost": "loses Call of the Ring: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “At the beginning of your upkeep, the Ring tempts you”. Role draw (11 in list). Redundancy 10 (",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Call of the Ring with Nefarious Lich in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json#Nefarious Lich",
+    "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:fdea3f69f506",
+    "optimizer": "data/grixis/m6/optimizer/sauron-the-dark-lord.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:6dd872f257a75efea5efb8a087cf357e0d539c55e7c83a889121817a8dd3396c",
+   "review_order": 31,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-the-dark-lord:m5:fdea3f69f506",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-the-dark-lord:goldfish:402d8da2adc38277",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Call of the Ring [no effect modelled beyond being a castable card] → Nefarious Lich [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "sauron-the-dark-lord",
+ "stage": "M6_strategic_review_packet"
+}

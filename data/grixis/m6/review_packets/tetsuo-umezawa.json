@@ -1,0 +1,3439 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 2,
+  "deep_review": 34,
+  "flag:combo_review_required": 33,
+  "flag:elevated_burden": 11,
+  "flag:explicit_judgment_prompts": 34,
+  "flag:mana_delta_required": 11,
+  "flag:mechanics_not_modelable": 6,
+  "flag:structural_route_risk": 1,
+  "flag:test_fail": 1,
+  "flag:test_inconclusive": 13,
+  "flag:test_no_detectable_difference": 16,
+  "flag:test_pass": 4,
+  "priority:P0_independent_agreement": 2,
+  "priority:P1_measured_performance_only": 2,
+  "priority:P3_commander_fit_only": 30,
+  "scrutiny:enhanced_scrutiny": 32,
+  "scrutiny:high_scrutiny": 2,
+  "source:agreement": 2,
+  "source:commander_only": 30,
+  "source:performance_only": 2
+ },
+ "deck_id": "Tetsuo_Umezawa",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Gilded Lotus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Gilded Lotus"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 34,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.35,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Red Death, Shipwrecker",
+   "expected_benefit": "completes Spellbook 4091-4235-5116; EDHREC inclusion 8.0% vs cut 22.2%; roles ramp",
+   "expected_cost": "loses Red Death, Shipwrecker: strong retain ({U}{R} legendary creature): win piece / enabler. Oracle: “Alluring Eyes — {T}: Goad target creature an opponent controls”. Role draw (10 in list)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Red Death, Shipwrecker with Gilded Lotus in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Gilded Lotus",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:dab56b1256ff",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:abbc333f38393d5bed097f9edbf87775e5b78b61cb433e19047f5a310f79f70a",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:tetsuo-umezawa:m5:dab56b1256ff",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:49ef9da3c416932c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Red Death, Shipwrecker [no effect modelled beyond being a castable card] → Gilded Lotus [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Gilded Lotus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 34,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 34.35,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Talisman of Creativity",
+   "expected_benefit": "completes Spellbook 4091-4235-5116; EDHREC inclusion 8.0% vs cut 31.5%; roles ramp",
+   "expected_cost": "loses Talisman of Creativity: flexible ({2} artifact): 13 other cards sharing a key role. Oracle: “{T}: Add {C}”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Talisman of Creativity with Gilded Lotus in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Gilded Lotus",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:54741a0c43f1",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bec39011c1fb98d2b136dbfb7cb0c4ff6ea5149241442a4ab351fb151e12987c",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:tetsuo-umezawa:m5:54741a0c43f1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:021e7518b3000b53",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Talisman of Creativity [mana source] → Gilded Lotus [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": [
+     "283-4091"
+    ]
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "breaks": [
+     "combo:283-4091",
+     "win:bracers-alchemist"
+    ],
+    "cleared": true,
+    "compensated": {
+     "combo:283-4091": "the add completes 876-2796",
+     "win:bracers-alchemist": "new route: the add completes 876-2796"
+    },
+    "compensating_adds": [
+     "Cephalid Aristocrat"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 273,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Aphetto Alchemist",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "breaks combo:283-4091, win:bracers-alchemist; compensated by Cephalid Aristocrat. loses Aphetto Alchemist: core ({1}{U} creature): necessary: win:bracers-alchemist, all-combos. Oracle: “{T}: Untap target artifact or creature”. Packages pkg:untap. Removing it breaks 2",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "structural_route_risk",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Aphetto Alchemist with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is core; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:92bb1efcae52",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1b0b1083609521d0116194da959e237d1dba98c824ba4eecea60dd6fa1df8d8a",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:92bb1efcae52",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:d9da3912259cb4c8",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Aphetto Alchemist [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Wheel of Fortune",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 29,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 36.26,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Hylda's Crown of Winter",
+   "expected_benefit": "EDHREC inclusion 19.1% vs cut 11.7%; roles draw",
+   "expected_cost": "loses Hylda's Crown of Winter: flexible ({3} legendary artifact): 9 other cards sharing a key role. Oracle: “{1}, {T}: Tap target creature”. Role draw (10 in list). Redundancy 9 (other cards ",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Hylda's Crown of Winter with Wheel of Fortune in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Wheel of Fortune",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:cea2789f6762",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:98aeb20c9dc61c2f70ce556b2a62ee8a6621c0f36901f5fdc73f955d1af002c0",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:cea2789f6762",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:54b7440aeb78b49b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Hylda's Crown of Winter [no effect modelled beyond being a castable card] → Wheel of Fortune [draw, wheel].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Spawnsire of Ulamog",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 219,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.44,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Talisman of Creativity",
+   "expected_benefit": "completes Spellbook 283-2143; roles ramp",
+   "expected_cost": "loses Talisman of Creativity: flexible ({2} artifact): 13 other cards sharing a key role. Oracle: “{T}: Add {C}”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Talisman of Creativity with Spawnsire of Ulamog in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Spawnsire of Ulamog",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:049f86fe5ef9",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:dcf4d9b20c82840c3b83d9c7eb25931b83268bc421876560bdb646258f69d3c1",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:049f86fe5ef9",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:973efe4a5e96dd51",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Talisman of Creativity [mana source] → Spawnsire of Ulamog [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Basalt Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Basalt Monolith"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "tapping / blocking creatures",
+    "rank": 5,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 54.68,
+    "tier": "A"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Red Death, Shipwrecker",
+   "expected_benefit": "Oracle hook tapping / blocking creatures; completes Spellbook 4131-4235; EDHREC inclusion 12.3% vs cut 22.2%; roles ramp",
+   "expected_cost": "loses Red Death, Shipwrecker: strong retain ({U}{R} legendary creature): win piece / enabler. Oracle: “Alluring Eyes — {T}: Goad target creature an opponent controls”. Role draw (10 in list)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Red Death, Shipwrecker with Basalt Monolith in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Basalt Monolith",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:79914c8211f7",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1959a06e4e06ee2f8581b016e5d5879885229eb8818a1ef48dfa4ef6fff06ad0",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:79914c8211f7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:8b56ecd575e6c4f3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Red Death, Shipwrecker [no effect modelled beyond being a castable card] → Basalt Monolith [oneshot].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Basalt Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "tapping / blocking creatures",
+    "rank": 5,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 54.68,
+    "tier": "A"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Talisman of Creativity",
+   "expected_benefit": "Oracle hook tapping / blocking creatures; completes Spellbook 4131-4235; EDHREC inclusion 12.3% vs cut 31.5%; roles ramp",
+   "expected_cost": "loses Talisman of Creativity: flexible ({2} artifact): 13 other cards sharing a key role. Oracle: “{T}: Add {C}”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Talisman of Creativity with Basalt Monolith in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Basalt Monolith",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:fdb0fe9cbac3",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e27cc92032185a1f9a17703a84322657a176b19a8cc01ee22f6d689c77b997a2",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:fdb0fe9cbac3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:69c13902cdcc8fd5",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Talisman of Creativity [mana source] → Basalt Monolith [oneshot].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Rimewind Taskmage",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "tapping / blocking creatures",
+    "rank": 50,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.77,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Hylda's Crown of Winter",
+   "expected_benefit": "Oracle hook tapping / blocking creatures; completes Spellbook 283-3930-5034",
+   "expected_cost": "loses Hylda's Crown of Winter: flexible ({3} legendary artifact): 9 other cards sharing a key role. Oracle: “{1}, {T}: Tap target creature”. Role draw (10 in list). Redundancy 9 (other cards ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Hylda's Crown of Winter with Rimewind Taskmage in role tapping / blocking creatures improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Rimewind Taskmage",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:e34b3e1484c3",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e4e1d3666f737d7b2c75928a14252a5cf83c39fa607b3d5ba53f0f24e7428463",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:e34b3e1484c3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:1756c7c411316059",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Hylda's Crown of Winter [no effect modelled beyond being a castable card] → Rimewind Taskmage [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidewater Minion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "tapping / blocking creatures",
+    "rank": 52,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.63,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Hylda's Crown of Winter",
+   "expected_benefit": "Oracle hook tapping / blocking creatures; completes Spellbook 283-4644",
+   "expected_cost": "loses Hylda's Crown of Winter: flexible ({3} legendary artifact): 9 other cards sharing a key role. Oracle: “{1}, {T}: Tap target creature”. Role draw (10 in list). Redundancy 9 (other cards ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Hylda's Crown of Winter with Tidewater Minion in role tapping / blocking creatures improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Tidewater Minion",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:37917626d8b7",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2a2a5cbb7186686ec274435778043a2581f7394c14b5833403281bbdfd361f44",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:37917626d8b7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:11f9b17f128f5349",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Hylda's Crown of Winter [no effect modelled beyond being a castable card] → Tidewater Minion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Chromatic Orrery",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Chromatic Orrery"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 71,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 24.67,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Red Death, Shipwrecker",
+   "expected_benefit": "completes Spellbook 1283-2821-4235; roles draw, ramp",
+   "expected_cost": "loses Red Death, Shipwrecker: strong retain ({U}{R} legendary creature): win piece / enabler. Oracle: “Alluring Eyes — {T}: Goad target creature an opponent controls”. Role draw (10 in list)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Red Death, Shipwrecker with Chromatic Orrery in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Chromatic Orrery",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:328d8b02e89b",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d87e259d129cfe255ab0d868edfa7c592f1ce58fde4b50a069cc16e851c44f19",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:328d8b02e89b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:c4ed24988ad108bf",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Red Death, Shipwrecker [no effect modelled beyond being a castable card] → Chromatic Orrery [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Chromatic Orrery",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 71,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 24.67,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Talisman of Creativity",
+   "expected_benefit": "completes Spellbook 1283-2821-4235; roles draw, ramp",
+   "expected_cost": "loses Talisman of Creativity: flexible ({2} artifact): 13 other cards sharing a key role. Oracle: “{T}: Add {C}”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Talisman of Creativity with Chromatic Orrery in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Chromatic Orrery",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:a8e63c687dfe",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5b85d74bb8ec63ae1e7a41b7699008c59707c2b20e18c2738cedcb323d644e76",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:a8e63c687dfe",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:f4577a65f82ba161",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Talisman of Creativity [mana source] → Chromatic Orrery [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Unctus, Grand Metatect",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Unctus, Grand Metatect"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 89,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.03,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Firkraag, Cunning Instigator",
+   "expected_benefit": "completes Spellbook 4091-4639; roles draw",
+   "expected_cost": "loses Firkraag, Cunning Instigator: strong retain ({3}{U}{R} legendary creature): win piece / enabler. Oracle: “Flying, haste”. Role draw (10 in list). Packages pkg:target-makers, pkg:payoffs. Red",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Firkraag, Cunning Instigator with Unctus, Grand Metatect in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Unctus, Grand Metatect",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:d9f7df301f95",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2854e58f2ed687291151d1a242af21b5d41788c567b631d46c26481eb38f66f3",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:d9f7df301f95",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:5a02856a495a0866",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Firkraag, Cunning Instigator [no effect modelled beyond being a castable card] → Unctus, Grand Metatect [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Unctus, Grand Metatect",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 89,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.03,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Hylda's Crown of Winter",
+   "expected_benefit": "completes Spellbook 4091-4639; roles draw",
+   "expected_cost": "loses Hylda's Crown of Winter: flexible ({3} legendary artifact): 9 other cards sharing a key role. Oracle: “{1}, {T}: Tap target creature”. Role draw (10 in list). Redundancy 9 (other cards ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Hylda's Crown of Winter with Unctus, Grand Metatect in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Unctus, Grand Metatect",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:e19d589552b9",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9d26b93930ddc54b1b8d8f10dec7035cdd86467787734fe069764042777a507e",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:e19d589552b9",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:3898e4579c1d59a5",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Hylda's Crown of Winter [no effect modelled beyond being a castable card] → Unctus, Grand Metatect [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 91,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bedevil",
+   "expected_benefit": "completes Spellbook 513-5034--46; roles removal",
+   "expected_cost": "loses Bedevil: flexible ({B}{B}{R} instant): 8 other cards sharing a key role. Oracle: “Destroy target artifact, creature, or planeswalker”. Role removal (9 in list). Redundan",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Bedevil with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:97ef2c08d491",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0f3d20ba7396209695fdb2ed06e480dedc829ba5c01eeaba75108cc4ec9e8aae",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:97ef2c08d491",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:f122c6ee05164a9f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bedevil [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hawkeye's Bow",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 96,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.57,
+    "tier": "C"
+   },
+   "challenger_class": "new_card",
+   "cut": "Hylda's Crown of Winter",
+   "expected_benefit": "completes Spellbook 4091-7786",
+   "expected_cost": "loses Hylda's Crown of Winter: flexible ({3} legendary artifact): 9 other cards sharing a key role. Oracle: “{1}, {T}: Tap target creature”. Role draw (10 in list). Redundancy 9 (other cards ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Hylda's Crown of Winter with Hawkeye's Bow in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Hawkeye's Bow",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:89b7a1c2d859",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:64e9e230dde013e34f6941eab074b0a904f960d53129fa9061d293927857a6ea",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:89b7a1c2d859",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:340daf53413cfd3d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Hylda's Crown of Winter [no effect modelled beyond being a castable card] → Hawkeye's Bow [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Hangar Scrounger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Hangar Scrounger"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 119,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Firkraag, Cunning Instigator",
+   "expected_benefit": "completes Spellbook 18-4091; roles draw",
+   "expected_cost": "loses Firkraag, Cunning Instigator: strong retain ({3}{U}{R} legendary creature): win piece / enabler. Oracle: “Flying, haste”. Role draw (10 in list). Packages pkg:target-makers, pkg:payoffs. Red",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Firkraag, Cunning Instigator with Hangar Scrounger in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Hangar Scrounger",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:b08fd9a5c51f",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2e86dcd0851ee188bb34d725756e237ec4d615a3538153908be09c324358640f",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:b08fd9a5c51f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:981f53402ad3391f",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Firkraag, Cunning Instigator [no effect modelled beyond being a castable card] → Hangar Scrounger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hangar Scrounger",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 119,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Hylda's Crown of Winter",
+   "expected_benefit": "completes Spellbook 18-4091; roles draw",
+   "expected_cost": "loses Hylda's Crown of Winter: flexible ({3} legendary artifact): 9 other cards sharing a key role. Oracle: “{1}, {T}: Tap target creature”. Role draw (10 in list). Redundancy 9 (other cards ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Hylda's Crown of Winter with Hangar Scrounger in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Hangar Scrounger",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:f7c656ef4ec7",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:990d1a1f4ffbe74985f1985febd7cefd776875e760cbb00b49acea88b54c3e9d",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:f7c656ef4ec7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:e898e2c0e8db29fe",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Hylda's Crown of Winter [no effect modelled beyond being a castable card] → Hangar Scrounger [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Mesmeric Orb",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 120,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.87,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Hylda's Crown of Winter",
+   "expected_benefit": "completes Spellbook 4091-4684",
+   "expected_cost": "loses Hylda's Crown of Winter: flexible ({3} legendary artifact): 9 other cards sharing a key role. Oracle: “{1}, {T}: Tap target creature”. Role draw (10 in list). Redundancy 9 (other cards ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Hylda's Crown of Winter with Mesmeric Orb in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Mesmeric Orb",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:65a03475c965",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f3d990367f0b4f37f88d46801e64e7c0590be2c5e5de82f3fdc2555ea1bbd4ec",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:65a03475c965",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:981ab2dbf6c3a5e9",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Hylda's Crown of Winter [no effect modelled beyond being a castable card] → Mesmeric Orb [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Kiki-Jiki, Mirror Breaker",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Kiki-Jiki, Mirror Breaker"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 125,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.63,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Puppeteer",
+   "expected_benefit": "completes Spellbook 618-4091, 618-950",
+   "expected_cost": "loses Puppeteer: strong retain ({2}{U} creature): win piece / enabler. Oracle: “{U}, {T}: You may tap or untap target creature”. Packages pkg:untap, pkg:target-makers. Redundanc",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Puppeteer with Kiki-Jiki, Mirror Breaker in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Kiki-Jiki, Mirror Breaker",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:d360f677e420",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:66cdf0c8bd1709bf6a8978c4a40de1e84953b9d0bf5f7cc0c06bc1f37cfe040e",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:d360f677e420",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:227542f28f0377d4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Puppeteer [no effect modelled beyond being a castable card] → Kiki-Jiki, Mirror Breaker [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Kiki-Jiki, Mirror Breaker",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 125,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.63,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Xantcha, Sleeper Agent",
+   "expected_benefit": "completes Spellbook 618-4091, 618-950",
+   "expected_cost": "loses Xantcha, Sleeper Agent: flexible ({1}{B}{R} legendary creature): 9 other cards sharing a key role. Oracle: “Xantcha enters under the control of an opponent of your choice”. Role draw (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Xantcha, Sleeper Agent with Kiki-Jiki, Mirror Breaker in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Kiki-Jiki, Mirror Breaker",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:bbc12406a669",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8a5145b76fcc001950fb1bd436b33d254946c444d9a23798df69481e05990e19",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:bbc12406a669",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:82f05e1b071745f1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Xantcha, Sleeper Agent [no effect modelled beyond being a castable card] → Kiki-Jiki, Mirror Breaker [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 140,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 9 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (10 in list). Redundancy 9 (other cards sharing a key r",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Repercussion in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:caa72ac16f7d",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2b4703907f0a8bb64262e2443664496f79a6b4ddd35cbbb42f5e1bea71c3cb5f",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:caa72ac16f7d",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:d0e24b41be1e8d74",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 148,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bedevil",
+   "expected_benefit": "completes Spellbook 542-5034; roles removal",
+   "expected_cost": "loses Bedevil: flexible ({B}{B}{R} instant): 8 other cards sharing a key role. Oracle: “Destroy target artifact, creature, or planeswalker”. Role removal (9 in list). Redundan",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bedevil with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:738d76b7ca71",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0773a1aed142099233f735de938e6c2b3f523c7ea2347ff880bc2c74e28212b8",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:738d76b7ca71",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:c569431aac405081",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bedevil [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Toralf, God of Fury // Toralf's Hammer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 156,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.7,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bedevil",
+   "expected_benefit": "completes Spellbook 1775-2484; roles removal",
+   "expected_cost": "loses Bedevil: flexible ({B}{B}{R} instant): 8 other cards sharing a key role. Oracle: “Destroy target artifact, creature, or planeswalker”. Role removal (9 in list). Redundan",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bedevil with Toralf, God of Fury // Toralf's Hammer in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Toralf, God of Fury // Toralf's Hammer",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:1b6d164dafd9",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1b16f4e039ded078dd1c36ca470b0abb4da298fdf7af0a4d1ebbb066d45a86b7",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:1b6d164dafd9",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:b9e49b2fa0b963a1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bedevil [no effect modelled beyond being a castable card] → Toralf, God of Fury // Toralf's Hammer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "The Enigma Jewel // Locus of Enlightenment",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "The Enigma Jewel // Locus of Enlightenment"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 171,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.29,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Red Death, Shipwrecker",
+   "expected_benefit": "completes Spellbook 74-4091; roles ramp",
+   "expected_cost": "loses Red Death, Shipwrecker: strong retain ({U}{R} legendary creature): win piece / enabler. Oracle: “Alluring Eyes — {T}: Goad target creature an opponent controls”. Role draw (10 in list)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Red Death, Shipwrecker with The Enigma Jewel // Locus of Enlightenment in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#The Enigma Jewel // Locus of Enlightenment",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:2c2eee3e0044",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:99a6b9353db9e660ccd52d7f1f54579b9d43414ca149e866b9ebc817f5c5f863",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:2c2eee3e0044",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:51a2936ec4282ac8",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Red Death, Shipwrecker [no effect modelled beyond being a castable card] → The Enigma Jewel // Locus of Enlightenment [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "The Enigma Jewel // Locus of Enlightenment",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 171,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.29,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Talisman of Creativity",
+   "expected_benefit": "completes Spellbook 74-4091; roles ramp",
+   "expected_cost": "loses Talisman of Creativity: flexible ({2} artifact): 13 other cards sharing a key role. Oracle: “{T}: Add {C}”. Role ramp (14 in list). Redundancy 13 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Talisman of Creativity with The Enigma Jewel // Locus of Enlightenment in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#The Enigma Jewel // Locus of Enlightenment",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:e805c47c259b",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d54c3c0c304e2d1e51c1fb5833c5aa514dce7f757121270d1c28cc4cb9a3a6f8",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:e805c47c259b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:e760c379be4be15a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Talisman of Creativity [mana source] → The Enigma Jewel // Locus of Enlightenment [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Fall of Cair Andros",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 177,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Bedevil",
+   "expected_benefit": "completes Spellbook 1823-2484; roles removal",
+   "expected_cost": "loses Bedevil: flexible ({B}{B}{R} instant): 8 other cards sharing a key role. Oracle: “Destroy target artifact, creature, or planeswalker”. Role removal (9 in list). Redundan",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Bedevil with Fall of Cair Andros in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Fall of Cair Andros",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:332215019f86",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:aa9ef7706d1875ea47c2cc233c4ae229a49342730af7f55acb409f77428793e4",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:332215019f86",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:55f79d615bf19898",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Bedevil [no effect modelled beyond being a castable card] → Fall of Cair Andros [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Spawnsire of Ulamog",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Spawnsire of Ulamog"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 219,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.44,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Red Death, Shipwrecker",
+   "expected_benefit": "completes Spellbook 283-2143; roles ramp",
+   "expected_cost": "loses Red Death, Shipwrecker: strong retain ({U}{R} legendary creature): win piece / enabler. Oracle: “Alluring Eyes — {T}: Goad target creature an opponent controls”. Role draw (10 in list)",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Red Death, Shipwrecker with Spawnsire of Ulamog in role ramp improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Spawnsire of Ulamog",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:a6ee151e2a97",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a9a4c3cf03e0aad293b07d6fa3a03bbdfe9f62fb75c976e3d3163be534ba6239",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:a6ee151e2a97",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:5a711a5f5597ee4a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Red Death, Shipwrecker [no effect modelled beyond being a castable card] → Spawnsire of Ulamog [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Magosi, the Waterveil",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 232,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Flooded Strand",
+   "expected_benefit": "completes Spellbook 757-950-4235; roles land, ramp",
+   "expected_cost": "loses Flooded Strand: flexible (land, fetches a Plains or Island card, makes U): 35 other lands sharing a colour. Oracle: “{T}, Pay 1 life, Sacrifice this land: Search your library f",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Flooded Strand with Magosi, the Waterveil in role land improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Magosi, the Waterveil",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:9840e2c42af7",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ffcf2ba9c977eaf9fda00b419bb8434aa56ed0ff4f1146cce8c1ffc0437c06d2",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:9840e2c42af7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:03d04b3e88f10437",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Flooded Strand [mana source] → Magosi, the Waterveil [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Crackdown Construct"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 236,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Puppeteer",
+   "expected_benefit": "completes Spellbook 4091-4944, 876-4944",
+   "expected_cost": "loses Puppeteer: strong retain ({2}{U} creature): win piece / enabler. Oracle: “{U}, {T}: You may tap or untap target creature”. Packages pkg:untap, pkg:target-makers. Redundanc",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Puppeteer with Crackdown Construct in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:4e4dece74541",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:45ce1bd989ca0a440fbee9c42702e25e969480d94ce5cf97e5af18f08c02f167",
+   "review_order": 29,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:4e4dece74541",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:0d29e46f347e3b69",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Puppeteer [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 236,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Xantcha, Sleeper Agent",
+   "expected_benefit": "completes Spellbook 4091-4944, 876-4944",
+   "expected_cost": "loses Xantcha, Sleeper Agent: flexible ({1}{B}{R} legendary creature): 9 other cards sharing a key role. Oracle: “Xantcha enters under the control of an opponent of your choice”. Role draw (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Xantcha, Sleeper Agent with Crackdown Construct in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:c77f2e176c73",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:91a483f0e5290136278ddcd5260885bbe7cb6ebb4b8c1b5c0702d377f4fa005a",
+   "review_order": 30,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:c77f2e176c73",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:a3586f1b3d19d9b5",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Xantcha, Sleeper Agent [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Wake Thrasher",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Wake Thrasher"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 244,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.93,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Puppeteer",
+   "expected_benefit": "completes Spellbook 712-4091",
+   "expected_cost": "loses Puppeteer: strong retain ({2}{U} creature): win piece / enabler. Oracle: “{U}, {T}: You may tap or untap target creature”. Packages pkg:untap, pkg:target-makers. Redundanc",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Puppeteer with Wake Thrasher in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Wake Thrasher",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:d774d5d563b5",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2cb01fddab9388589aa2860f756d9275e8f34a1f0b102d47bfc337f6a49f14d2",
+   "review_order": 31,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:d774d5d563b5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:9b9aa958a3e0890c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Puppeteer [no effect modelled beyond being a castable card] → Wake Thrasher [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Wake Thrasher",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 244,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.93,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Xantcha, Sleeper Agent",
+   "expected_benefit": "completes Spellbook 712-4091",
+   "expected_cost": "loses Xantcha, Sleeper Agent: flexible ({1}{B}{R} legendary creature): 9 other cards sharing a key role. Oracle: “Xantcha enters under the control of an opponent of your choice”. Role draw (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Xantcha, Sleeper Agent with Wake Thrasher in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Wake Thrasher",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:60da35da331f",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:37621e76cdee70b84e90f4b5093389226838cb89e3da0bef17da383043aa05b0",
+   "review_order": 32,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:60da35da331f",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:b1f716011ad6c372",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Xantcha, Sleeper Agent [no effect modelled beyond being a castable card] → Wake Thrasher [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 245,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.92,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Xantcha, Sleeper Agent",
+   "expected_benefit": "completes Spellbook 876-2904",
+   "expected_cost": "loses Xantcha, Sleeper Agent: flexible ({1}{B}{R} legendary creature): 9 other cards sharing a key role. Oracle: “Xantcha enters under the control of an opponent of your choice”. Role draw (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Xantcha, Sleeper Agent with Cephalid Illusionist in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:5eea532012b6",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7f966e396f010ff28c4cea1f342d475838d58297df22ee6e62dfe2f0c690f113",
+   "review_order": 33,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:5eea532012b6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:04bfd4551ee9a9b1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Xantcha, Sleeper Agent [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 273,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.19,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Xantcha, Sleeper Agent",
+   "expected_benefit": "completes Spellbook 876-2796",
+   "expected_cost": "loses Xantcha, Sleeper Agent: flexible ({1}{B}{R} legendary creature): 9 other cards sharing a key role. Oracle: “Xantcha enters under the control of an opponent of your choice”. Role draw (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Xantcha, Sleeper Agent with Cephalid Aristocrat in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz#id=swap:tetsuo-umezawa:m5:2c6182a982b5",
+    "optimizer": "data/grixis/m6/optimizer/tetsuo-umezawa.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4d456e82980ee4f4641e168d889e58078402acadb9705c90e7d56272fc6b91e7",
+   "review_order": 34,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:tetsuo-umezawa:m5:2c6182a982b5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:tetsuo-umezawa:goldfish:1fdf635b7f226b2d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Xantcha, Sleeper Agent [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "tetsuo-umezawa",
+ "stage": "M6_strategic_review_packet"
+}

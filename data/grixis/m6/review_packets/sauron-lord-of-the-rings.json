@@ -1,0 +1,4397 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 3,
+  "deep_review": 44,
+  "flag:combo_review_required": 29,
+  "flag:elevated_burden": 14,
+  "flag:explicit_judgment_prompts": 44,
+  "flag:mana_delta_required": 6,
+  "flag:mechanics_not_modelable": 21,
+  "flag:test_fail": 2,
+  "flag:test_inconclusive": 9,
+  "flag:test_no_detectable_difference": 5,
+  "flag:test_pass": 28,
+  "priority:P0_independent_agreement": 13,
+  "priority:P1_measured_performance_only": 15,
+  "priority:P3_commander_fit_only": 16,
+  "scrutiny:enhanced_scrutiny": 42,
+  "scrutiny:high_scrutiny": 2,
+  "source:agreement": 13,
+  "source:commander_only": 16,
+  "source:performance_only": 15
+ },
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 99,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.19,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Forbidden Alchemy",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 876-2796",
+   "expected_cost": "loses Forbidden Alchemy: weak retain ({2}{U} instant): no structure; Oracle hook graveyard as a resource. Oracle: “Look at the top four cards of your library”. Redundancy 0 (no shared j",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Forbidden Alchemy with Cephalid Aristocrat in role graveyard as a resource improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:5a83d4a2e6d6",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b5fac3e85705f5d056b218984cd8e0ee28b8d8f92e01f4ec0d03b14bed44f184",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:5a83d4a2e6d6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:899732ae8948ca93",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Forbidden Alchemy [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Aristocrat",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cephalid Aristocrat"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 99,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.19,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Necromancy",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 876-2796",
+   "expected_cost": "loses Necromancy: strong retain ({2}{B} enchantment): win piece / enabler. Oracle: “You may cast this spell as though it had flash”. Packages pkg:reanimation. Redundancy 10 (othe",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Necromancy with Cephalid Aristocrat in role graveyard as a resource improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Cephalid Aristocrat",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:d33aa129b58e",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5de82faad1d9bfd01b406da031441e56625a15980992b57f95a03ad304d8c748",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:d33aa129b58e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:b3534d1a65710512",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Necromancy [no effect modelled beyond being a castable card] → Cephalid Aristocrat [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Worldgorger Dragon",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 128,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 23.4,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Toxic Deluge",
+   "expected_benefit": "completes Spellbook 2896-4846, 3605-4846; roles wipe",
+   "expected_cost": "loses Toxic Deluge: functional retain ({2}{B} sorcery): role wipe. Oracle: “As an additional cost to cast this spell, pay X life”. Role wipe (2 in list). Redundancy 1 (other cards ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Toxic Deluge with Worldgorger Dragon in role wipe improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Worldgorger Dragon",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:340a0b30191e",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e3fe84f709a7f9a2abb6ab3acf8ee8a93db18ecc045d5d84ff83ca77fcb6cea2",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:340a0b30191e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:4fb35db169fc5810",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Toxic Deluge [no effect modelled beyond being a castable card] → Worldgorger Dragon [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (3).",
+       "The model cannot see: interaction (wipe); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "The Enigma Jewel // Locus of Enlightenment",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 154,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.29,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jeska's Will",
+   "expected_benefit": "completes Spellbook 74-2585; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 12 other cards sharing a key role. Oracle: “Choose one”. Role ramp (13 in list). Redundancy 12 (other cards sharing a key role). Best",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with The Enigma Jewel // Locus of Enlightenment in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#The Enigma Jewel // Locus of Enlightenment",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:544eaf94e738",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b3f8088ba8b35ce166c510f97afc6e5d3b33248a5c11201752cc2acbdd44c679",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:544eaf94e738",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:6854e8d2c716f7e9",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → The Enigma Jewel // Locus of Enlightenment [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Aggravated Assault",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Aggravated Assault"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 165,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.52,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dance of the Dead",
+   "expected_benefit": "completes Spellbook 3750-5988",
+   "expected_cost": "loses Dance of the Dead: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “Enchant creature card in a graveyard”. Packages pkg:reanimation. Redundancy 10 (other cards in",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Dance of the Dead with Aggravated Assault in role Enchantment improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Aggravated Assault",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:cdce8539b447",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:594a7f5603b42665377060f9a045480a38e572a42fcd967a7ff9c6e6c891f80a",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:cdce8539b447",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:a92745e610006afe",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dance of the Dead [no effect modelled beyond being a castable card] → Aggravated Assault [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Aggravated Assault",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 165,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.52,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 3750-5988",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Aggravated Assault in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Aggravated Assault",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d61d66d04114bc5d56c0557ede2c4f48842b713a63bd0d26ddf99135c116e0d1",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:9c6ed67572e29ebc",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Aggravated Assault [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 278,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 542-2364, 542-2585; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 17 other cards sharing a key role. Oracle: “Flash”. Role draw (14 in list), removal (5 in list). Redundancy 17 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:35703fbe1be9",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2be475b056751ebeb010a3f4abc6307bc7c98da21f219f946eb0e377e4ee5076",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:35703fbe1be9",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:cada3f5f0bdc4c0b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (3).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Requiem Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Requiem Monolith"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 388,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.18,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jin-Gitaxias, Core Augur",
+   "expected_benefit": "completes Spellbook 3862-6804; roles draw",
+   "expected_cost": "loses Jin-Gitaxias, Core Augur: strong retain ({8}{U}{U} legendary creature): win piece / enabler. Oracle: “Flash”. Role draw (14 in list). Packages pkg:targets. Redundancy 9 (other cards in i",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jin-Gitaxias, Core Augur with Requiem Monolith in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Requiem Monolith",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:f69c2fc50100",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:985f35eade8fc240ff0757c580c86b51297e15a4e6b608d344d590d636ef0697",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:f69c2fc50100",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:1db60de1ecf57de3",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jin-Gitaxias, Core Augur [no effect modelled beyond being a castable card] → Requiem Monolith [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Requiem Monolith",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 388,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.18,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 3862-6804; roles draw",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Requiem Monolith in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Requiem Monolith",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:63daa74b18f5",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1eb73ea0e07b85436f28611163ed41b454c8742dbad32323f94e9a94729b942d",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:63daa74b18f5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:b99b1ab3e81233cb",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Requiem Monolith [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Power Artifact",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Power Artifact"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 505,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.69,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dance of the Dead",
+   "expected_benefit": "completes Spellbook 2585-5149",
+   "expected_cost": "loses Dance of the Dead: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “Enchant creature card in a graveyard”. Packages pkg:reanimation. Redundancy 10 (other cards in",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Dance of the Dead with Power Artifact in role Enchantment improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Power Artifact",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:a37d1c4161bd",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c72fddc11cdc05731790340e2d81d15af6939899410eb31624d612253a654a03",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:a37d1c4161bd",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:a3aad940926e5078",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dance of the Dead [no effect modelled beyond being a castable card] → Power Artifact [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Power Artifact",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 505,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.69,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 2585-5149",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Power Artifact in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Power Artifact",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:810884f01442",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e8345d20ae6329e274fb0e8d92ff8957b41c0a40ca27dc240a639452726d1b7f",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:810884f01442",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:d1a05daebfde4209",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Power Artifact [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 652,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 876-4944",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 17 other cards sharing a key role. Oracle: “Flash”. Role draw (14 in list), removal (5 in list). Redundancy 17 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Crackdown Construct in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:23d4a82b538b",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1558c4321fe3c848306207c197db6efc5eee7b333415465768dd2852fb966730",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:23d4a82b538b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:c25d76e947be3a95",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Crackdown Construct",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Crackdown Construct"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 652,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.13,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Wonder",
+   "expected_benefit": "completes Spellbook 876-4944",
+   "expected_cost": "loses Wonder: strong retain ({3}{U} creature): win piece / enabler. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 8.5%, synergy +0.04. Blueprint names it i",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Wonder with Crackdown Construct in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Crackdown Construct",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:9cd212d623ec",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:edfb0ddb61ebb01c203f2b9c8279725942490a3852973fea6bccbe7992c47aa8",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:9cd212d623ec",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:7d90476f60da3e51",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Wonder [no effect modelled beyond being a castable card] → Crackdown Construct [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Consider",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Consider"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 3,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 78.47,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jin-Gitaxias, Core Augur",
+   "expected_benefit": "Oracle hook graveyard as a resource; EDHREC inclusion 46.1% vs cut 12.1%; roles draw",
+   "expected_cost": "loses Jin-Gitaxias, Core Augur: strong retain ({8}{U}{U} legendary creature): win piece / enabler. Oracle: “Flash”. Role draw (14 in list). Packages pkg:targets. Redundancy 9 (other cards in i",
+   "flags": [
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jin-Gitaxias, Core Augur with Consider in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Consider",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:a3525d84453c",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8a2c20f7eaf2b199bdc728237df4773f37c14d6e50e6fd2a69027ba2c766c8e7",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:a3525d84453c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:45e5872d3f6d2059",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jin-Gitaxias, Core Augur [no effect modelled beyond being a castable card] → Consider [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Consider",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 3,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 78.47,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mystic Remora",
+   "expected_benefit": "Oracle hook graveyard as a resource; EDHREC inclusion 46.1% vs cut 0.0%; roles draw",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Consider in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Consider",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:fe3a343aa6e3",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7d489774089acdea48d691872814ceb889b36b33952ac9028db861f4b576677a",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:fe3a343aa6e3",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:5aeeefc9dba0efdd",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Consider [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Deep Analysis",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Deep Analysis"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 5,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 76.46,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jin-Gitaxias, Core Augur",
+   "expected_benefit": "Oracle hook graveyard as a resource; EDHREC inclusion 41.2% vs cut 12.1%; roles draw",
+   "expected_cost": "loses Jin-Gitaxias, Core Augur: strong retain ({8}{U}{U} legendary creature): win piece / enabler. Oracle: “Flash”. Role draw (14 in list). Packages pkg:targets. Redundancy 9 (other cards in i",
+   "flags": [
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jin-Gitaxias, Core Augur with Deep Analysis in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Deep Analysis",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:9ec2debd7721",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e64049225456fa1f3607539c4e4a0fea29cc0407a8c8f6ccd7356d788338a9a5",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:9ec2debd7721",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:c381caa140cbd091",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jin-Gitaxias, Core Augur [no effect modelled beyond being a castable card] → Deep Analysis [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Deep Analysis",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 5,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 76.46,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mystic Remora",
+   "expected_benefit": "Oracle hook graveyard as a resource; EDHREC inclusion 41.2% vs cut 0.0%; roles draw",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Deep Analysis in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Deep Analysis",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:d34393a4ca8b",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:99fda2a10f5bf97756c096dd8d1907dea710ff8d580e2fef580837df122891d9",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:d34393a4ca8b",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:6c8894ceb5612e42",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Deep Analysis [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Arcane Denial",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Arcane Denial"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 11,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 74.28,
+    "tier": "A"
+   },
+   "challenger_class": "resilience",
+   "cut": "Jin-Gitaxias, Core Augur",
+   "expected_benefit": "EDHREC inclusion 65.2% vs cut 12.1%; roles counter, draw",
+   "expected_cost": "loses Jin-Gitaxias, Core Augur: strong retain ({8}{U}{U} legendary creature): win piece / enabler. Oracle: “Flash”. Role draw (14 in list). Packages pkg:targets. Redundancy 9 (other cards in i",
+   "flags": [
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jin-Gitaxias, Core Augur with Arcane Denial in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Arcane Denial",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:f360c32f562e",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:585e7f9479d55457a5603abc5885640ac365298801bf26ef3b764efd6c6276ec",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:f360c32f562e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:4ea20df3c85e7eef",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jin-Gitaxias, Core Augur [no effect modelled beyond being a castable card] → Arcane Denial [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (counter); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Arcane Denial",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 11,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 74.28,
+    "tier": "A"
+   },
+   "challenger_class": "resilience",
+   "cut": "Mystic Remora",
+   "expected_benefit": "EDHREC inclusion 65.2% vs cut 0.0%; roles counter, draw",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Arcane Denial in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Arcane Denial",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:d889c89e19d1",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:9163c061cdd787a2e7ba3f7c0d04b96cbfbb3a02b431fc32e7e3349d84e28dd6",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:d889c89e19d1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:d54a9052c6e81abd",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Arcane Denial [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: interaction (counter); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Worn Powerstone",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 30,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 69.81,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jeska's Will",
+   "expected_benefit": "EDHREC inclusion 54.4% vs cut 0.0%; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 12 other cards sharing a key role. Oracle: “Choose one”. Role ramp (13 in list). Redundancy 12 (other cards sharing a key role). Best",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Worn Powerstone in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Worn Powerstone",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:7ecbeaa12226",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:6857b5493dc95dc6a76c4d7cb4e947c6b900deeb771106be230eca64341c585e",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:7ecbeaa12226",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:2a9906b3a77c02a0",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Worn Powerstone [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Boon of the Wish-Giver",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Boon of the Wish-Giver"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 49,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 62.44,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jin-Gitaxias, Core Augur",
+   "expected_benefit": "Oracle hook graveyard as a resource; EDHREC inclusion 26.7% vs cut 12.1%; roles draw",
+   "expected_cost": "loses Jin-Gitaxias, Core Augur: strong retain ({8}{U}{U} legendary creature): win piece / enabler. Oracle: “Flash”. Role draw (14 in list). Packages pkg:targets. Redundancy 9 (other cards in i",
+   "flags": [
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jin-Gitaxias, Core Augur with Boon of the Wish-Giver in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Boon of the Wish-Giver",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:2445c531449c",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:160418c500f45cf1e26e0780d3fc7b09be6d6b216effcce23a688f0c6d0746fe",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:2445c531449c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:813cb5741790a325",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jin-Gitaxias, Core Augur [no effect modelled beyond being a castable card] → Boon of the Wish-Giver [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Boon of the Wish-Giver",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 49,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 62.44,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mystic Remora",
+   "expected_benefit": "Oracle hook graveyard as a resource; EDHREC inclusion 26.7% vs cut 0.0%; roles draw",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Boon of the Wish-Giver in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Boon of the Wish-Giver",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:f9151853e2f6",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:886c8723c5751870310fee6f7c6a234b83ccb9285c6450aaca39055875f43a62",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:f9151853e2f6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:1654987de19767a1",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Boon of the Wish-Giver [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Big Score",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 61,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 47.27,
+    "tier": "A"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jeska's Will",
+   "expected_benefit": "Oracle hook graveyard as a resource; EDHREC inclusion 19.8% vs cut 0.0%; roles draw, ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 12 other cards sharing a key role. Oracle: “Choose one”. Role ramp (13 in list). Redundancy 12 (other cards sharing a key role). Best",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Big Score in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Big Score",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:7ea017497d89",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:06c30c60dfe37740a22e1244a1dbd5dd76bd2c4edf53748b15aa04ca3a71493a",
+   "review_order": 23,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:7ea017497d89",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:9388b5230a535213",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Big Score [addl_discard, draw, treasures].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Ringsight",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 75,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 37.63,
+    "tier": "B"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Vampiric Tutor",
+   "expected_benefit": "EDHREC inclusion 22.0% vs cut 5.4%; roles tutor",
+   "expected_cost": "loses Vampiric Tutor: functional retain ({B} instant; simulator models tutor): role tutor. Oracle: “Search your library for a card, then shuffle and put that card on top”. Role tutor",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Vampiric Tutor with Ringsight in role tutor improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Ringsight",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:b67afae11342",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ca2c33cd1560289cca96ebbc670bc96ca9af1bf29ec2a9a5e785c0b40b0f1da9",
+   "review_order": 24,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:b67afae11342",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:48245eaa8358c11d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Vampiric Tutor [tutor] → Ringsight [tutor].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Thran Dynamo",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 101,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.03,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jeska's Will",
+   "expected_benefit": "EDHREC inclusion 11.2% vs cut 0.0%; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 12 other cards sharing a key role. Oracle: “Choose one”. Role ramp (13 in list). Redundancy 12 (other cards sharing a key role). Best",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Thran Dynamo in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Thran Dynamo",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:1d33b682ea2e",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7a32db55146328b0c475211ee1889464d36d3f0c7d5ee56527700389d84e77e7",
+   "review_order": 25,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:1d33b682ea2e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:426bdde4b9e0bd0d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Thran Dynamo [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Rakdos Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 109,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 26.04,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Jeska's Will",
+   "expected_benefit": "EDHREC inclusion 23.9% vs cut 0.0%; roles ramp",
+   "expected_cost": "loses Jeska's Will: flexible ({2}{R} sorcery): 12 other cards sharing a key role. Oracle: “Choose one”. Role ramp (13 in list). Redundancy 12 (other cards sharing a key role). Best",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Jeska's Will with Rakdos Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Rakdos Signet",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:14bf2425f5eb",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4c58ecf48c085f35e7a0ed9f68226e0f79e3135ab0546982ab85ce7ce22114c8",
+   "review_order": 26,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:14bf2425f5eb",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:ec30f02ae07d9f02",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jeska's Will [no effect modelled beyond being a castable card] → Rakdos Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cathartic Reunion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 112,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 25.95,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mystic Remora",
+   "expected_benefit": "Oracle hook graveyard as a resource; EDHREC inclusion 5.8% vs cut 0.0%; roles draw",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Cathartic Reunion in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Cathartic Reunion",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:4cae498ad033",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4e5465283d27136edcc2b0833cd08b1625682fba00ec9559dbff3f8ff514258a",
+   "review_order": 27,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:4cae498ad033",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:b231896acf1dac00",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Cathartic Reunion [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Mordor Muster",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "partial",
+    "blueprint_named_by": [],
+    "oracle_hook": "Orc synergy",
+    "rank": 113,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 25.82,
+    "tier": "B"
+   },
+   "challenger_class": "identity_max",
+   "cut": "Mystic Remora",
+   "expected_benefit": "Oracle hook Orc synergy; EDHREC inclusion 7.4% vs cut 0.0%; roles draw",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Mordor Muster in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit partial).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Mordor Muster",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:1146bf729d2c",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:cb14dd409d52980fa22852eda1a21f1d784189738fdecacfe0f7ee3dda7f6b1d",
+   "review_order": 28,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:1146bf729d2c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:9662c95b8844d8c7",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Mordor Muster [draw].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Reiterate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 231,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.64,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Forbidden Alchemy",
+   "expected_benefit": "completes Spellbook 1878-3368",
+   "expected_cost": "loses Forbidden Alchemy: weak retain ({2}{U} instant): no structure; Oracle hook graveyard as a resource. Oracle: “Look at the top four cards of your library”. Redundancy 0 (no shared j",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Forbidden Alchemy with Reiterate in role Instant improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Reiterate",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:fd125311ad93",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0d8bf62c441403c2029a4ca434aab94cc1675ca1fe0454c71902843ad4482c37",
+   "review_order": 29,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:fd125311ad93",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:98d658de08f3300b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Forbidden Alchemy [no effect modelled beyond being a castable card] → Reiterate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Time Sieve",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 238,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.5,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Fellwar Stone",
+   "expected_benefit": "completes Spellbook 1558-5988",
+   "expected_cost": "loses Fellwar Stone: flexible ({2} artifact): 12 other cards sharing a key role. Oracle: “{T}: Add one mana of any color that a land an opponent controls could produce”. Role ramp (",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Fellwar Stone with Time Sieve in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Time Sieve",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:6d2aee0fe7e0",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:ca86bd3a56ccdf5c57781685167c3a5521027a9207877550a224c0b93a8eec8a",
+   "review_order": 30,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:6d2aee0fe7e0",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:07362ddbb42e30ec",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Fellwar Stone [mana source] → Time Sieve [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Fall of Cair Andros",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "Orc synergy",
+    "rank": 69,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 42.13,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "Oracle hook Orc synergy; completes Spellbook 1823-2484; EDHREC inclusion 7.7% vs cut 24.1%; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 17 other cards sharing a key role. Oracle: “Flash”. Role draw (14 in list), removal (5 in list). Redundancy 17 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Fall of Cair Andros in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Fall of Cair Andros",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:24c6c9a36566",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:3a7a939c655b75eedc38fd0aabe9dd75169976c46bb1e3e870d88bb42c453105",
+   "review_order": 31,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:24c6c9a36566",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:99bfa51b1734b5cc",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Fall of Cair Andros [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Mind Over Matter",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 86,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.01,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Forbidden Alchemy",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 3363-4067",
+   "expected_cost": "loses Forbidden Alchemy: weak retain ({2}{U} instant): no structure; Oracle hook graveyard as a resource. Oracle: “Look at the top four cards of your library”. Redundancy 0 (no shared j",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Forbidden Alchemy with Mind Over Matter in role graveyard as a resource improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Mind Over Matter",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:fa670c3c2992",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:86eaef107d28b4007822c3da08d41a6c51a8141061cf87d4102f78782c3e861d",
+   "review_order": 32,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:fa670c3c2992",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:ead8baba9487a387",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Forbidden Alchemy [no effect modelled beyond being a castable card] → Mind Over Matter [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Mind Over Matter",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Mind Over Matter"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 86,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 30.01,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Necromancy",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 3363-4067",
+   "expected_cost": "loses Necromancy: strong retain ({2}{B} enchantment): win piece / enabler. Oracle: “You may cast this spell as though it had flash”. Packages pkg:reanimation. Redundancy 10 (othe",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Necromancy with Mind Over Matter in role graveyard as a resource improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Mind Over Matter",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:7b1fd69a7097",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a89934e23d354dfb836a50d0cc7593c97040a65460a8f93812a36c4dfb5c32b3",
+   "review_order": 33,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:7b1fd69a7097",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:b5c9a13242eff537",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Necromancy [no effect modelled beyond being a castable card] → Mind Over Matter [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Rootha, Mercurial Artist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "Orc synergy",
+    "rank": 90,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 29.25,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "Oracle hook Orc synergy; completes Spellbook 1878-2634-3593",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 17 other cards sharing a key role. Oracle: “Flash”. Role draw (14 in list), removal (5 in list). Redundancy 17 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Rootha, Mercurial Artist in role Orc synergy improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Rootha, Mercurial Artist",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:0dadff724d4c",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:65b8df115d565eff06ad3b0649cc7a32379ca11fbeed4a855a1dc3512ffca16e",
+   "review_order": 34,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:0dadff724d4c",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:8fa15eac95ee9b60",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Rootha, Mercurial Artist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 93,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.92,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Forbidden Alchemy",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 876-2904",
+   "expected_cost": "loses Forbidden Alchemy: weak retain ({2}{U} instant): no structure; Oracle hook graveyard as a resource. Oracle: “Look at the top four cards of your library”. Redundancy 0 (no shared j",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Forbidden Alchemy with Cephalid Illusionist in role graveyard as a resource improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:1b58f10c9c1e",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:d6d2ecf387c0200e1ca3b6b53defd71eedf35384d046b9305fbe37bb59caa9ee",
+   "review_order": 35,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:1b58f10c9c1e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:7bce8bf7de75fdaa",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Forbidden Alchemy [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Cephalid Illusionist",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Cephalid Illusionist"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 93,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 28.92,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Necromancy",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 876-2904",
+   "expected_cost": "loses Necromancy: strong retain ({2}{B} enchantment): win piece / enabler. Oracle: “You may cast this spell as though it had flash”. Packages pkg:reanimation. Redundancy 10 (othe",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Necromancy with Cephalid Illusionist in role graveyard as a resource improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Cephalid Illusionist",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:1849cc1f4ee6",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e85ab4691dab4a0decc6b8eab20d6b14bb65d4a7cd14270ebb643e6b84065d8b",
+   "review_order": 36,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:1849cc1f4ee6",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:8b82b31b69c19b9a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Necromancy [no effect modelled beyond being a castable card] → Cephalid Illusionist [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 143,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 513-2364--47, 513-5034--46; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 17 other cards sharing a key role. Oracle: “Flash”. Role draw (14 in list), removal (5 in list). Redundancy 17 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:4884830f9e4a",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:91668d6c4a891e49f63983bbfb341528c4894c2d5efff1ac3e4a21880db3d947",
+   "review_order": 37,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:4884830f9e4a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:919bec6442c48a6a",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Peer into the Abyss",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Peer into the Abyss"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 194,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.62,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Jin-Gitaxias, Core Augur",
+   "expected_benefit": "completes Spellbook 1561-3862; roles draw",
+   "expected_cost": "loses Jin-Gitaxias, Core Augur: strong retain ({8}{U}{U} legendary creature): win piece / enabler. Oracle: “Flash”. Role draw (14 in list). Packages pkg:targets. Redundancy 9 (other cards in i",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Jin-Gitaxias, Core Augur with Peer into the Abyss in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Peer into the Abyss",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:baa4f77b92d4",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:99710d7bf49bcf65fe066ec35356b726f3a265f76b5cc7d7f2ca162f68e4c192",
+   "review_order": 38,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:baa4f77b92d4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:8fbbd11067b89977",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Jin-Gitaxias, Core Augur [no effect modelled beyond being a castable card] → Peer into the Abyss [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Peer into the Abyss",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 194,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.62,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 1561-3862; roles draw",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Peer into the Abyss in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Peer into the Abyss",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:43bb41fc76fb",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:88fe25ec8596d39dedc98b7a86ca799a28b81e33a7e6a22fa7ba8bef914e80c1",
+   "review_order": 39,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:43bb41fc76fb",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:62616bfb4a98a6f5",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Peer into the Abyss [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Repercussion"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 246,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Dance of the Dead",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Dance of the Dead: strong retain ({1}{B} enchantment): win piece / enabler. Oracle: “Enchant creature card in a graveyard”. Packages pkg:reanimation. Redundancy 10 (other cards in",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Dance of the Dead with Repercussion in role Enchantment improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:6c8c0211e421",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e70e0edde5295db64a4e443e8cfb364c7891d234740e903b7856d01b95f5849d",
+   "review_order": 40,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:6c8c0211e421",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:825cf07d18144911",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Dance of the Dead [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 246,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Mystic Remora",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Mystic Remora: flexible ({U} enchantment): 13 other cards sharing a key role. Oracle: “Cumulative upkeep {1}”. Role draw (14 in list). Redundancy 13 (other cards sharing a key",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Mystic Remora with Repercussion in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:39c9f5d4c3c4",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:b49f153e1187dbc739dbf5703fc7ac342603f61fc4fbd36c42b9ff9aa6cd978b",
+   "review_order": 41,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:39c9f5d4c3c4",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:e2cd234fa8c63180",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Mystic Remora [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Toralf, God of Fury // Toralf's Hammer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 318,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.7,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 1775-2484; roles removal",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 17 other cards sharing a key role. Oracle: “Flash”. Role draw (14 in list), removal (5 in list). Redundancy 17 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Toralf, God of Fury // Toralf's Hammer in role removal improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Toralf, God of Fury // Toralf's Hammer",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:434d07adce79",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f137898fab076c8bcd3020a5a5689140d5b651347d43abe063943c0042029e67",
+   "review_order": 42,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:434d07adce79",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:f559b1148e982479",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Toralf, God of Fury // Toralf's Hammer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Palinchron",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 3,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 422,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.04,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Orcish Bowmasters",
+   "expected_benefit": "completes Spellbook 3542-3593",
+   "expected_cost": "loses Orcish Bowmasters: flexible ({1}{B} creature): 17 other cards sharing a key role. Oracle: “Flash”. Role draw (14 in list), removal (5 in list). Redundancy 17 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Orcish Bowmasters with Palinchron in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Palinchron",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:6c81c77c78fe",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:55cc09266110e4a46b4e9a4ba40eaa26026a007b660ff4558ba2ef09c7950ac4",
+   "review_order": 43,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:6c81c77c78fe",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:b71a9ff049e15368",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Orcish Bowmasters [no effect modelled beyond being a castable card] → Palinchron [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Palinchron",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "batch": 3,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Palinchron"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 422,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.04,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Wonder",
+   "expected_benefit": "completes Spellbook 3542-3593",
+   "expected_cost": "loses Wonder: strong retain ({3}{U} creature): win piece / enabler. Oracle: “Flying”. Redundancy 0 (no shared job). EDHREC inclusion 8.5%, synergy +0.04. Blueprint names it i",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Wonder with Palinchron in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/sauron-lord-of-the-rings.json#Palinchron",
+    "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/sauron-lord-of-the-rings.json.gz#id=swap:sauron-lord-of-the-rings:m5:e6aa1d4a7032",
+    "optimizer": "data/grixis/m6/optimizer/sauron-lord-of-the-rings.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:6ee93657f5de49279cbed16f9ca5b8e601be084862adbc3dfb8fd3f290b7498b",
+   "review_order": 44,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:sauron-lord-of-the-rings:m5:e6aa1d4a7032",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:sauron-lord-of-the-rings:goldfish:95294781796da00d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Wonder [no effect modelled beyond being a castable card] → Palinchron [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "sauron-lord-of-the-rings",
+ "stage": "M6_strategic_review_packet"
+}

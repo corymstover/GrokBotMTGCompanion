@@ -1,0 +1,2233 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "batches": 2,
+  "deep_review": 22,
+  "flag:combo_review_required": 21,
+  "flag:elevated_burden": 7,
+  "flag:explicit_judgment_prompts": 22,
+  "flag:mana_delta_required": 3,
+  "flag:mechanics_not_modelable": 6,
+  "flag:test_fail": 2,
+  "flag:test_inconclusive": 13,
+  "flag:test_no_detectable_difference": 2,
+  "flag:test_pass": 5,
+  "priority:P0_independent_agreement": 4,
+  "priority:P1_measured_performance_only": 1,
+  "priority:P3_commander_fit_only": 17,
+  "scrutiny:enhanced_scrutiny": 20,
+  "scrutiny:high_scrutiny": 2,
+  "source:agreement": 4,
+  "source:commander_only": 17,
+  "source:performance_only": 1
+ },
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "items": [
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Hullbreaker Horror",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 98,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 22.85,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Withering Torment",
+   "expected_benefit": "completes Spellbook 513-5034--46; roles removal",
+   "expected_cost": "loses Withering Torment: functional retain ({2}{B} instant): role removal. Oracle: “Destroy target creature or enchantment”. Role removal (5 in list). Redundancy 4 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Withering Torment with Hullbreaker Horror in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Hullbreaker Horror",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:bb1cc7a27136",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1ce843bfa38bd27f0cd31923d68b2044f3a519f1d16b5c6b33de0f58ca095a4d",
+   "review_order": 1,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:bb1cc7a27136",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:199a1905953b340c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Withering Torment [no effect modelled beyond being a castable card] → Hullbreaker Horror [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Vilis, Broker of Blood",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Vilis, Broker of Blood"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 127,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.83,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ashiok's Reaper",
+   "expected_benefit": "completes Spellbook 3965-4691; roles draw",
+   "expected_cost": "loses Ashiok's Reaper: strong retain ({3}{B} creature): win piece / enabler. Oracle: “Whenever an enchantment you control is put into a graveyard from the battlefi…”. Role draw (9 in ",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Ashiok's Reaper with Vilis, Broker of Blood in role draw improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Vilis, Broker of Blood",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:628d5d8a9f80",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5527f2eee4b3c55ac89a8161c41514729e3148f30f517ace3c484a1beeaaabb7",
+   "review_order": 2,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:628d5d8a9f80",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:936292f7c53983dd",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ashiok's Reaper [no effect modelled beyond being a castable card] → Vilis, Broker of Blood [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Heartless Hidetsugu",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Heartless Hidetsugu"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 165,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.37,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ashiok's Reaper",
+   "expected_benefit": "completes Spellbook 3011-5206",
+   "expected_cost": "loses Ashiok's Reaper: strong retain ({3}{B} creature): win piece / enabler. Oracle: “Whenever an enchantment you control is put into a graveyard from the battlefi…”. Role draw (9 in ",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Ashiok's Reaper with Heartless Hidetsugu in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Heartless Hidetsugu",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:0cab9190e11f014b09430621eafec2237743ccd48b457cf067558cf83b5fc7b6",
+   "review_order": 3,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:433eb3cb35e2283c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ashiok's Reaper [no effect modelled beyond being a castable card] → Heartless Hidetsugu [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Tidespout Tyrant",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 189,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.02,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Withering Torment",
+   "expected_benefit": "completes Spellbook 542-5034; roles removal",
+   "expected_cost": "loses Withering Torment: functional retain ({2}{B} instant): role removal. Oracle: “Destroy target creature or enchantment”. Role removal (5 in list). Redundancy 4 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Withering Torment with Tidespout Tyrant in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P0_independent_agreement",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Tidespout Tyrant",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:737409132ff9",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4c1c1e604b7a3d8dd3537eb74147966a580c795f03685b73e2dbf593ed62cc2e",
+   "review_order": 4,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "agreement",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:737409132ff9",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:27ef4d0e7cb6c3eb",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Withering Torment [no effect modelled beyond being a castable card] → Tidespout Tyrant [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": false,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Izzet Signet",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "none",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 21,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 54.07,
+    "tier": "A"
+   },
+   "challenger_class": "raw_efficiency",
+   "cut": "Talisman of Indulgence",
+   "expected_benefit": "EDHREC inclusion 42.2% vs cut 30.2%; roles ramp",
+   "expected_cost": "loses Talisman of Indulgence: flexible ({2} artifact): 8 other cards sharing a key role. Oracle: “{T}: Add {C}”. Role ramp (9 in list). Redundancy 8 (other cards sharing a key role). Best al",
+   "flags": [
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_pass"
+   ],
+   "hypothesis": "Replacing Talisman of Indulgence with Izzet Signet in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit none).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P1_measured_performance_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Izzet Signet",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:add8c7970357",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:bf28fb2e204fdb0584281d7797c707660c5b033ea07db279c839f179ce874a18",
+   "review_order": 5,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "performance_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:add8c7970357",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:889204d8f0d4676b",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Talisman of Indulgence [mana source] → Izzet Signet [mana source].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "pass"
+     }
+    ],
+    "verdict_counts": {
+     "pass": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Reiterate",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 154,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.64,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Swan Song",
+   "expected_benefit": "completes Spellbook 1878-3368",
+   "expected_cost": "loses Swan Song: functional retain ({U} instant): role counter. Oracle: “Counter target enchantment, instant, or sorcery spell”. Role counter (3 in list). Redundancy 2 (other ca",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Swan Song with Reiterate in role Instant improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Reiterate",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:28f42a935583",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5ca8e5e06623795b6b44e36359c7ce9ec65d53943e34dd63b855903b863a1ef8",
+   "review_order": 6,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:28f42a935583",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:582e4f0a76acc825",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Swan Song [no effect modelled beyond being a castable card] → Reiterate [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (counter); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Toralf, God of Fury // Toralf's Hammer",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 222,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.7,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Withering Torment",
+   "expected_benefit": "completes Spellbook 1775-2484; roles removal",
+   "expected_cost": "loses Withering Torment: functional retain ({2}{B} instant): role removal. Oracle: “Destroy target creature or enchantment”. Role removal (5 in list). Redundancy 4 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_fail"
+   ],
+   "hypothesis": "Replacing Withering Torment with Toralf, God of Fury // Toralf's Hammer in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Toralf, God of Fury // Toralf's Hammer",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:3fa38d5b9a52",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2fd5da8270976bef4f4bfc27d0503279fd122956a18f4c319548afdc3e7b7c24",
+   "review_order": 7,
+   "rules_interactions": [],
+   "scrutiny": "high_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:3fa38d5b9a52",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:fbcf0bfc7a4bde6d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Withering Torment [no effect modelled beyond being a castable card] → Toralf, God of Fury // Toralf's Hammer [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "fail"
+     }
+    ],
+    "verdict_counts": {
+     "fail": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Rakdos Joins Up",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 72,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.15,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Curse of Fool's Wisdom",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 4753-5466",
+   "expected_cost": "loses Curse of Fool's Wisdom: functional retain ({4}{B}{B} enchantment): required package pkg:curses. Oracle: “Enchant player”. Role draw (9 in list). Packages pkg:curses. Redundancy 19 (oth",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Curse of Fool's Wisdom with Rakdos Joins Up in role graveyard as a resource improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Rakdos Joins Up",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:ee4bc28900e8",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:cbb805c7ce7998d0ee61bcb26e3bcc51ba01aa14292b3cfccc52eafd61cabe4e",
+   "review_order": 8,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:ee4bc28900e8",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:23e0e961e2577f09",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Curse of Fool's Wisdom [no effect modelled beyond being a castable card] → Rakdos Joins Up [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Rakdos Joins Up",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Rakdos Joins Up"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 72,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.15,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Torment of Scarabs",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 4753-5466",
+   "expected_cost": "loses Torment of Scarabs: strong retain ({3}{B} enchantment): win piece / enabler. Oracle: “Enchant player”. Packages pkg:curses. Redundancy 19 (other cards in its package(s)). Best alte",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Torment of Scarabs with Rakdos Joins Up in role graveyard as a resource improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Rakdos Joins Up",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:c0b534c851e1",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:1f32ab3e097e24473006118a3d3b99f5e706afaec217664e11b9c46d862cc338",
+   "review_order": 9,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:c0b534c851e1",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:29e1a601793489ec",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Torment of Scarabs [no effect modelled beyond being a castable card] → Rakdos Joins Up [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Bladewing the Risen",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 73,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.08,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Curse of Fool's Wisdom",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 3362-4753",
+   "expected_cost": "loses Curse of Fool's Wisdom: functional retain ({4}{B}{B} enchantment): required package pkg:curses. Oracle: “Enchant player”. Role draw (9 in list). Packages pkg:curses. Redundancy 19 (oth",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Curse of Fool's Wisdom with Bladewing the Risen in role graveyard as a resource improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Bladewing the Risen",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:a49682106930",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:f075d7d243497ca34bd9d52659bd6fa3eb3487b6a34abf99b016f5e748d0bb83",
+   "review_order": 10,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:a49682106930",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:4af1d12b9f970711",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Curse of Fool's Wisdom [no effect modelled beyond being a castable card] → Bladewing the Risen [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Bladewing the Risen",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Bladewing the Risen"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": "graveyard as a resource",
+    "rank": 73,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 31.08,
+    "tier": "B"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Torment of Scarabs",
+   "expected_benefit": "Oracle hook graveyard as a resource; completes Spellbook 3362-4753",
+   "expected_cost": "loses Torment of Scarabs: strong retain ({3}{B} enchantment): win piece / enabler. Oracle: “Enchant player”. Packages pkg:curses. Redundancy 19 (other cards in its package(s)). Best alte",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Torment of Scarabs with Bladewing the Risen in role graveyard as a resource improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Bladewing the Risen",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:d70b035f00a7",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:4abe7c5ea97ecfc62db4d16fc2c294f9061a442ded3cc525312898a6eb259de0",
+   "review_order": 11,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:d70b035f00a7",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:7e496396542758a8",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Torment of Scarabs [no effect modelled beyond being a castable card] → Bladewing the Risen [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: the Oracle hook / commander synergy; opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Descent into Avernus",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 117,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 21.16,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Talisman of Indulgence",
+   "expected_benefit": "completes Spellbook 5228-5471; roles ramp",
+   "expected_cost": "loses Talisman of Indulgence: flexible ({2} artifact): 8 other cards sharing a key role. Oracle: “{T}: Add {C}”. Role ramp (9 in list). Redundancy 8 (other cards sharing a key role). Best al",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Talisman of Indulgence with Descent into Avernus in role ramp improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Descent into Avernus",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:d6779fb6357a",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2811df8ba81e5716d10d67dd078204cfa1e6588e93a9c34e2f5fb3cfb21a25db",
+   "review_order": 12,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:d6779fb6357a",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:d9a7a1286874806d",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Talisman of Indulgence [mana source] → Descent into Avernus [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Vilis, Broker of Blood",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 127,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 20.83,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rhystic Study",
+   "expected_benefit": "completes Spellbook 3965-4691; roles draw",
+   "expected_cost": "loses Rhystic Study: flexible ({2}{U} enchantment): 8 other cards sharing a key role. Oracle: “Whenever an opponent casts a spell, you may draw a card unless that player pa…”. Role ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Rhystic Study with Vilis, Broker of Blood in role draw improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Vilis, Broker of Blood",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:7b67e8216364",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:e4b7111ec2f4c3f4ede12b4175a686e5f4f3d4341d6cb6acdb917b4a3cdc281b",
+   "review_order": 13,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:7b67e8216364",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:7a50274454257748",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rhystic Study [no effect modelled beyond being a castable card] → Vilis, Broker of Blood [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (draw); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Repercussion"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 162,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Curse of Vengeance",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Curse of Vengeance: strong retain ({B} enchantment): win piece / enabler. Oracle: “Enchant player”. Role draw (9 in list). Packages pkg:curses. Redundancy 19 (other cards in its pa",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Curse of Vengeance with Repercussion in role Enchantment improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:5aef80ce9eb5",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:2292149f5b0091734bb71ce21062c6e265f11765108d970bbfb70934cc006060",
+   "review_order": 14,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:5aef80ce9eb5",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:99c03f10e12dff7c",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Curse of Vengeance [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Repercussion",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 162,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.41,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rhystic Study",
+   "expected_benefit": "completes Spellbook 2484-4083",
+   "expected_cost": "loses Rhystic Study: flexible ({2}{U} enchantment): 8 other cards sharing a key role. Oracle: “Whenever an opponent casts a spell, you may draw a card unless that player pa…”. Role ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Rhystic Study with Repercussion in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Repercussion",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:a0e7dc59e2ca",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:429256096adca1f3493e40bcca3b7e937055b98d309ba0051adb1e400cc21628",
+   "review_order": 15,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:a0e7dc59e2ca",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:7a94d6c286b6d5ec",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rhystic Study [no effect modelled beyond being a castable card] → Repercussion [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Heartless Hidetsugu",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 165,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 19.37,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Accursed Witch // Infectious Curse",
+   "expected_benefit": "completes Spellbook 3011-5206",
+   "expected_cost": "loses Accursed Witch // Infectious Curse: weak retain ({3}{B} creature): no structure; EDHREC support. Oracle: “Spells your opponents cast that target this creature cost {1} less to cast”. Redundancy 0 ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Accursed Witch // Infectious Curse with Heartless Hidetsugu in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Heartless Hidetsugu",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:01488caae8db",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:5c1f1213ee511376816eb12d07f1958f868c717c73206bf86c52c45bc95212e9",
+   "review_order": 16,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:01488caae8db",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:ebc4fdbc1f0b5585",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Accursed Witch // Infectious Curse [no effect modelled beyond being a castable card] → Heartless Hidetsugu [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": true,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Blazing Sunsteel",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 257,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.32,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Talisman of Indulgence",
+   "expected_benefit": "completes Spellbook 2210-2723, 2723-4753",
+   "expected_cost": "loses Talisman of Indulgence: flexible ({2} artifact): 8 other cards sharing a key role. Oracle: “{T}: Add {C}”. Role ramp (9 in list). Redundancy 8 (other cards sharing a key role). Best al",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "mana_delta_required",
+    "mechanics_not_modelable",
+    "test_no_detectable_difference"
+   ],
+   "hypothesis": "Replacing Talisman of Indulgence with Blazing Sunsteel in role Artifact improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Blazing Sunsteel",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:363f901a3f08",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:a90c025e5ed72abab7ef7a82a77099c3dc4fc970f346a56a0d9ed2b066e2ec83",
+   "review_order": 17,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:363f901a3f08",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:0399924b89423c31",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Talisman of Indulgence [mana source] → Blazing Sunsteel [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (2).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "no_detectable_difference"
+     }
+    ],
+    "verdict_counts": {
+     "no_detectable_difference": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Fall of Cair Andros",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 275,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 18.2,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Withering Torment",
+   "expected_benefit": "completes Spellbook 1823-2484; roles removal",
+   "expected_cost": "loses Withering Torment: functional retain ({2}{B} instant): role removal. Oracle: “Destroy target creature or enchantment”. Role removal (5 in list). Redundancy 4 (other cards sharing ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Withering Torment with Fall of Cair Andros in role removal improves the deck's fit or efficiency without breaking a dependency (cut is functional retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Fall of Cair Andros",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:189c3996c9d2",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8e2eff0cc6127a2adc63d23e5a43e104a7fefc9920db014fd21da3a60e6ccf01",
+   "review_order": 18,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:189c3996c9d2",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:056e3ad662029352",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Withering Torment [no effect modelled beyond being a castable card] → Fall of Cair Andros [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: interaction (removal); opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Mirror-Mad Phantasm",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 519,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.11,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Accursed Witch // Infectious Curse",
+   "expected_benefit": "completes Spellbook 2084-4753",
+   "expected_cost": "loses Accursed Witch // Infectious Curse: weak retain ({3}{B} creature): no structure; EDHREC support. Oracle: “Spells your opponents cast that target this creature cost {1} less to cast”. Redundancy 0 ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Accursed Witch // Infectious Curse with Mirror-Mad Phantasm in role Creature improves the deck's fit or efficiency without breaking a dependency (cut is weak retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Mirror-Mad Phantasm",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:5556bafe96fc",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:c025f5a4bedcf7d24f0e13ddd0e44aedddfa80e6a4ce54176f796eeffba43cab",
+   "review_order": 19,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:5556bafe96fc",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:1eeef7a4c7e48e4e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Accursed Witch // Infectious Curse [no effect modelled beyond being a castable card] → Mirror-Mad Phantasm [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Mirror-Mad Phantasm",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 1,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Mirror-Mad Phantasm"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 519,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 17.11,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Ashiok's Reaper",
+   "expected_benefit": "completes Spellbook 2084-4753",
+   "expected_cost": "loses Ashiok's Reaper: strong retain ({3}{B} creature): win piece / enabler. Oracle: “Whenever an enchantment you control is put into a graveyard from the battlefi…”. Role draw (9 in ",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Ashiok's Reaper with Mirror-Mad Phantasm in role Creature improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Mirror-Mad Phantasm",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:64de238a88ad",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:8b398544337ccab493fab5304122c2b463dd308dba3ded86831cc69628ee3bc4",
+   "review_order": 20,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:64de238a88ad",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:e6a657bf57b377a4",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Ashiok's Reaper [no effect modelled beyond being a castable card] → Mirror-Mad Phantasm [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "not_modelable",
+    "mechanics_status": "judgment_or_other_evidence_required",
+    "structural_route_ids": []
+   },
+   "add": "Second Chance",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 2,
+   "burden": {
+    "breaks": [],
+    "cleared": true,
+    "compensated": {},
+    "compensating_adds": [
+     "Second Chance"
+    ],
+    "level": "elevated",
+    "rules": "BURDEN_RULES (this file's swap_rules)",
+    "tests": {
+     "B1_evidence": true,
+     "B2_compensation": true
+    },
+    "uncompensated": []
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 567,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.61,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Curse of Vengeance",
+   "expected_benefit": "completes Spellbook 1530-2210-4948",
+   "expected_cost": "loses Curse of Vengeance: strong retain ({B} enchantment): win piece / enabler. Oracle: “Enchant player”. Role draw (9 in list). Packages pkg:curses. Redundancy 19 (other cards in its pa",
+   "flags": [
+    "combo_review_required",
+    "elevated_burden",
+    "explicit_judgment_prompts",
+    "mechanics_not_modelable",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Curse of Vengeance with Second Chance in role Enchantment improves the deck's fit or efficiency while every graph break of the cut is compensated (elevated burden cleared) (cut is strong retain; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Second Chance",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:50c3f86d9a5e",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:7f3cfc3011b2bb5e4b878a53068069800f24b6bf5075e504025cb1cd624571cf",
+   "review_order": 21,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:50c3f86d9a5e",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:72becf416e351525",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Curse of Vengeance [no effect modelled beyond being a castable card] → Second Chance [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  },
+  {
+   "a_f_obligations": {
+    "bracket_judgment_prompts": [
+     "repeated_removal_attrition",
+     "pillowfort",
+     "token_stall",
+     "artifact_enchantment_interaction"
+    ],
+    "combo_review_required": true,
+    "commander_review_required": true,
+    "hypothesis_found": true,
+    "mana_delta_status": "not_run_in_m5_screening",
+    "mana_review_required": false,
+    "mechanics_route_status": "routed",
+    "mechanics_status": "bounded_module_test_available_if_escalated",
+    "structural_route_ids": []
+   },
+   "add": "Second Chance",
+   "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_write_judgment_review": false,
+    "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+   },
+   "base_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "batch": 2,
+   "burden": {
+    "cleared": true,
+    "level": "standard"
+   },
+   "candidate": {
+    "blueprint_fit": "strong",
+    "blueprint_named_by": [],
+    "oracle_hook": null,
+    "rank": 567,
+    "screening_can_decide": false,
+    "screening_review_kind": "screening_review",
+    "screening_score": 16.61,
+    "tier": "C"
+   },
+   "challenger_class": "alt_win",
+   "cut": "Rhystic Study",
+   "expected_benefit": "completes Spellbook 1530-2210-4948",
+   "expected_cost": "loses Rhystic Study: flexible ({2}{U} enchantment): 8 other cards sharing a key role. Oracle: “Whenever an opponent casts a spell, you may draw a card unless that player pa…”. Role ",
+   "flags": [
+    "combo_review_required",
+    "explicit_judgment_prompts",
+    "test_inconclusive"
+   ],
+   "hypothesis": "Replacing Rhystic Study with Second Chance in role Enchantment improves the deck's fit or efficiency without breaking a dependency (cut is flexible; add blueprint fit strong).",
+   "legality": {
+    "official": "legal",
+    "project_authorization": "NOT_REQUIRED"
+   },
+   "priority_class": "P3_commander_fit_only",
+   "refs": {
+    "birthday_evidence": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json#Second Chance",
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "m5_regen": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz#id=swap:lynde-cheerful-tormentor:m5:969046a1d1ba",
+    "optimizer": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json"
+   },
+   "required_next": [
+    "named_agent_or_human_strategic_judgment",
+    "resolve_relevant_A_F_obligations",
+    "run_or_bind_required_Phase_B_evidence_before_decision"
+   ],
+   "result_hash": "lh1:395196f490c96030ffb47048f3c8e8dfcb4f099e7951c1bd49cac1fd8a1ce14f",
+   "review_order": 22,
+   "rules_interactions": [],
+   "scrutiny": "enhanced_scrutiny",
+   "source": "commander_only",
+   "swap_id": "swap:lynde-cheerful-tormentor:m5:969046a1d1ba",
+   "test_evidence": {
+    "tests": [
+     {
+      "id": "test:lynde-cheerful-tormentor:goldfish:9b356f8b22ce846e",
+      "kind": "goldfish_mc",
+      "limitations": [
+       "Simulator v1.1 limitations: see this file's test_common.limitations (grixis_paired.LIMITATIONS_BY_MODEL).",
+       "Model v1.1 coverage of the swapped cards: Rhystic Study [no effect modelled beyond being a castable card] → Second Chance [no effect modelled beyond being a castable card].",
+       "M5 exploratory paired test (Bot cycle 60): not a registered challenger; the result is model evidence only.",
+       "Spellbook near-miss variant(s) completed by the add counted as combos for the win-turn proxy (1).",
+       "The model cannot see: opponents, combat and multiplayer politics."
+      ],
+      "samples": 300,
+      "scenario": null,
+      "verdict": "inconclusive"
+     }
+    ],
+    "verdict_counts": {
+     "inconclusive": 1
+    }
+   }
+  }
+ ],
+ "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+ "policy": {
+  "batch_size": 20,
+  "note": "Priority is categorical/lexicographic triage, not a fused score and not a deckbuilding verdict. All deep-review items remain in the packet.",
+  "priority_order": [
+   "P0_independent_agreement",
+   "P1_measured_performance_only",
+   "P2_commander_named_blueprint_only",
+   "P3_commander_fit_only"
+  ],
+  "scrutiny_order": [
+   "high_scrutiny",
+   "enhanced_scrutiny",
+   "standard_scrutiny"
+  ]
+ },
+ "schema_version": 1,
+ "slug": "lynde-cheerful-tormentor",
+ "stage": "M6_strategic_review_packet"
+}

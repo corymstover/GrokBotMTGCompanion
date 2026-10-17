@@ -1,0 +1,658 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false,
+  "can_write_judgment_review": false,
+  "note": "Deterministic triage packet only. A named human or agent must perform M6 strategic judgment; scripts cannot author judgment_review."
+ },
+ "counts": {
+  "decks": 62,
+  "deep_review": 8848,
+  "flag:anti_goal_risk": 6,
+  "flag:combo_review_required": 4840,
+  "flag:elevated_burden": 1369,
+  "flag:explicit_judgment_prompts": 8848,
+  "flag:mana_delta_required": 2715,
+  "flag:mechanics_not_modelable": 3318,
+  "flag:project_exception_burden": 7,
+  "flag:structural_route_risk": 430,
+  "flag:test_fail": 487,
+  "flag:test_inconclusive": 2552,
+  "flag:test_no_detectable_difference": 3895,
+  "flag:test_pass": 1042,
+  "priority:P0_independent_agreement": 239,
+  "priority:P1_measured_performance_only": 803,
+  "priority:P2_commander_named_blueprint_only": 15,
+  "priority:P3_commander_fit_only": 7791,
+  "scrutiny:enhanced_scrutiny": 7926,
+  "scrutiny:high_scrutiny": 922,
+  "source:agreement": 239,
+  "source:commander_only": 7806,
+  "source:performance_only": 803
+ },
+ "decks": [
+  {
+   "agreements": 35,
+   "batches": 5,
+   "commander_only": 33,
+   "deck_id": "Abaddon_the_Despoiler",
+   "deep_review": 98,
+   "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+   "performance_only": 30,
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "agreements": 3,
+   "batches": 16,
+   "commander_only": 308,
+   "deck_id": "Admiral_Beckett_Brass",
+   "deep_review": 314,
+   "list_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+   "performance_only": 3,
+   "slug": "admiral-beckett-brass"
+  },
+  {
+   "agreements": 1,
+   "batches": 11,
+   "commander_only": 204,
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "deep_review": 211,
+   "list_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+   "performance_only": 6,
+   "slug": "admiral-brass-unsinkable"
+  },
+  {
+   "agreements": 0,
+   "batches": 15,
+   "commander_only": 266,
+   "deck_id": "Anhelo__the_Painter",
+   "deep_review": 295,
+   "list_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+   "performance_only": 29,
+   "slug": "anhelo-the-painter"
+  },
+  {
+   "agreements": 0,
+   "batches": 21,
+   "commander_only": 406,
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "deep_review": 415,
+   "list_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+   "performance_only": 9,
+   "slug": "ashad-the-lone-cyberman"
+  },
+  {
+   "agreements": 18,
+   "batches": 24,
+   "commander_only": 434,
+   "deck_id": "Ashnod_the_Uncaring",
+   "deep_review": 475,
+   "list_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+   "performance_only": 23,
+   "slug": "ashnod-the-uncaring"
+  },
+  {
+   "agreements": 0,
+   "batches": 14,
+   "commander_only": 267,
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "deep_review": 270,
+   "list_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+   "performance_only": 3,
+   "slug": "belakor-the-dark-master"
+  },
+  {
+   "agreements": 0,
+   "batches": 5,
+   "commander_only": 58,
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "deep_review": 81,
+   "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+   "performance_only": 23,
+   "slug": "bjorna-nightfall-alchemist-cecily"
+  },
+  {
+   "agreements": 32,
+   "batches": 11,
+   "commander_only": 110,
+   "deck_id": "Cormela__Glamour_Thief",
+   "deep_review": 218,
+   "list_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "performance_only": 76,
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "agreements": 0,
+   "batches": 1,
+   "commander_only": 14,
+   "deck_id": "Crosis__the_Purger",
+   "deep_review": 17,
+   "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "performance_only": 3,
+   "slug": "crosis-the-purger"
+  },
+  {
+   "agreements": 0,
+   "batches": 5,
+   "commander_only": 79,
+   "deck_id": "Cult_of_Skaro",
+   "deep_review": 87,
+   "list_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+   "performance_only": 8,
+   "slug": "cult-of-skaro"
+  },
+  {
+   "agreements": 0,
+   "batches": 4,
+   "commander_only": 63,
+   "deck_id": "Davros__Dalek_Creator",
+   "deep_review": 66,
+   "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+   "performance_only": 3,
+   "slug": "davros-dalek-creator"
+  },
+  {
+   "agreements": 1,
+   "batches": 12,
+   "commander_only": 237,
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "deep_review": 238,
+   "list_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+   "performance_only": 0,
+   "slug": "doctor-doom-king-of-latveria"
+  },
+  {
+   "agreements": 1,
+   "batches": 6,
+   "commander_only": 108,
+   "deck_id": "Don_Andres__the_Renegade",
+   "deep_review": 111,
+   "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+   "performance_only": 2,
+   "slug": "don-andres-the-renegade"
+  },
+  {
+   "agreements": 1,
+   "batches": 13,
+   "commander_only": 243,
+   "deck_id": "Dr__Eggman",
+   "deep_review": 249,
+   "list_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+   "performance_only": 5,
+   "slug": "dr-eggman"
+  },
+  {
+   "agreements": 4,
+   "batches": 7,
+   "commander_only": 110,
+   "deck_id": "Edea__Possessed_Sorceress",
+   "deep_review": 122,
+   "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+   "performance_only": 8,
+   "slug": "edea-possessed-sorceress"
+  },
+  {
+   "agreements": 0,
+   "batches": 18,
+   "commander_only": 337,
+   "deck_id": "Edward_Kenway",
+   "deep_review": 342,
+   "list_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "performance_only": 5,
+   "slug": "edward-kenway"
+  },
+  {
+   "agreements": 3,
+   "batches": 4,
+   "commander_only": 47,
+   "deck_id": "Evelyn__the_Covetous",
+   "deep_review": 79,
+   "list_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "performance_only": 29,
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "agreements": 2,
+   "batches": 5,
+   "commander_only": 60,
+   "deck_id": "Fire_Lord_Azula",
+   "deep_review": 86,
+   "list_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "performance_only": 24,
+   "slug": "fire-lord-azula"
+  },
+  {
+   "agreements": 4,
+   "batches": 3,
+   "commander_only": 36,
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "deep_review": 47,
+   "list_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "performance_only": 7,
+   "slug": "garza-zol-plague-queen"
+  },
+  {
+   "agreements": 0,
+   "batches": 15,
+   "commander_only": 294,
+   "deck_id": "Goro_Goro_and_Satoru",
+   "deep_review": 298,
+   "list_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+   "performance_only": 4,
+   "slug": "goro-goro-and-satoru"
+  },
+  {
+   "agreements": 1,
+   "batches": 3,
+   "commander_only": 29,
+   "deck_id": "Grixistax___October_2026",
+   "deep_review": 42,
+   "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "performance_only": 12,
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "agreements": 23,
+   "batches": 4,
+   "commander_only": 28,
+   "deck_id": "Gwendlyn_Di_Corci",
+   "deep_review": 66,
+   "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "performance_only": 15,
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "agreements": 13,
+   "batches": 19,
+   "commander_only": 304,
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "deep_review": 370,
+   "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "performance_only": 53,
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "agreements": 2,
+   "batches": 4,
+   "commander_only": 37,
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "deep_review": 68,
+   "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "performance_only": 29,
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "agreements": 8,
+   "batches": 6,
+   "commander_only": 58,
+   "deck_id": "Kefka__Court_Mage",
+   "deep_review": 111,
+   "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "performance_only": 45,
+   "slug": "kefka-court-mage"
+  },
+  {
+   "agreements": 5,
+   "batches": 4,
+   "commander_only": 38,
+   "deck_id": "Kess__Dissident_Mage",
+   "deep_review": 68,
+   "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "performance_only": 25,
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "agreements": 0,
+   "batches": 20,
+   "commander_only": 386,
+   "deck_id": "Loki__the_Deceiver",
+   "deep_review": 386,
+   "list_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+   "performance_only": 0,
+   "slug": "loki-the-deceiver"
+  },
+  {
+   "agreements": 0,
+   "batches": 7,
+   "commander_only": 120,
+   "deck_id": "Lord_of_Tresserhorn",
+   "deep_review": 121,
+   "list_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+   "performance_only": 1,
+   "slug": "lord-of-tresserhorn"
+  },
+  {
+   "agreements": 2,
+   "batches": 6,
+   "commander_only": 85,
+   "deck_id": "Lord_Xander__the_Collector",
+   "deep_review": 105,
+   "list_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+   "performance_only": 18,
+   "slug": "lord-xander-the-collector"
+  },
+  {
+   "agreements": 4,
+   "batches": 2,
+   "commander_only": 17,
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "deep_review": 22,
+   "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "performance_only": 1,
+   "slug": "lynde-cheerful-tormentor"
+  },
+  {
+   "agreements": 5,
+   "batches": 13,
+   "commander_only": 229,
+   "deck_id": "Mai_and_Zuko",
+   "deep_review": 258,
+   "list_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+   "performance_only": 24,
+   "slug": "mai-and-zuko"
+  },
+  {
+   "agreements": 6,
+   "batches": 4,
+   "commander_only": 64,
+   "deck_id": "Mairsil__the_Pretender",
+   "deep_review": 77,
+   "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+   "performance_only": 7,
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "agreements": 1,
+   "batches": 3,
+   "commander_only": 51,
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "deep_review": 58,
+   "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+   "performance_only": 6,
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "agreements": 0,
+   "batches": 7,
+   "commander_only": 128,
+   "deck_id": "Marchesa__the_Black_Rose",
+   "deep_review": 129,
+   "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+   "performance_only": 1,
+   "slug": "marchesa-the-black-rose"
+  },
+  {
+   "agreements": 1,
+   "batches": 7,
+   "commander_only": 122,
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "deep_review": 127,
+   "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+   "performance_only": 4,
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "agreements": 0,
+   "batches": 9,
+   "commander_only": 150,
+   "deck_id": "Mishra__Eminent_One",
+   "deep_review": 178,
+   "list_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+   "performance_only": 28,
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "agreements": 0,
+   "batches": 14,
+   "commander_only": 273,
+   "deck_id": "Missy",
+   "deep_review": 276,
+   "list_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+   "performance_only": 3,
+   "slug": "missy"
+  },
+  {
+   "agreements": 8,
+   "batches": 13,
+   "commander_only": 240,
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "deep_review": 249,
+   "list_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+   "performance_only": 1,
+   "slug": "nathan-drake-treasure-hunter"
+  },
+  {
+   "agreements": 1,
+   "batches": 4,
+   "commander_only": 44,
+   "deck_id": "Nekusar__the_Mindrazer",
+   "deep_review": 69,
+   "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+   "performance_only": 24,
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "agreements": 3,
+   "batches": 3,
+   "commander_only": 45,
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "deep_review": 54,
+   "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+   "performance_only": 6,
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "agreements": 10,
+   "batches": 4,
+   "commander_only": 43,
+   "deck_id": "Nicol_Bolas",
+   "deep_review": 73,
+   "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+   "performance_only": 20,
+   "slug": "nicol-bolas"
+  },
+  {
+   "agreements": 3,
+   "batches": 4,
+   "commander_only": 33,
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "deep_review": 73,
+   "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "performance_only": 37,
+   "slug": "norman-osborn"
+  },
+  {
+   "agreements": 1,
+   "batches": 10,
+   "commander_only": 156,
+   "deck_id": "Obeka__Brute_Chronologist",
+   "deep_review": 181,
+   "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+   "performance_only": 24,
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "agreements": 0,
+   "batches": 2,
+   "commander_only": 36,
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "deep_review": 38,
+   "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "performance_only": 2,
+   "slug": "obeka-splitter-of-seconds"
+  },
+  {
+   "agreements": 0,
+   "batches": 7,
+   "commander_only": 122,
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "deep_review": 126,
+   "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+   "performance_only": 4,
+   "slug": "parnesse-the-subtle-brush"
+  },
+  {
+   "agreements": 3,
+   "batches": 3,
+   "commander_only": 38,
+   "deck_id": "RogSi",
+   "deep_review": 51,
+   "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+   "performance_only": 10,
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "agreements": 0,
+   "batches": 3,
+   "commander_only": 33,
+   "deck_id": "Saruman__the_White_Hand",
+   "deep_review": 55,
+   "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+   "performance_only": 22,
+   "slug": "saruman-the-white-hand"
+  },
+  {
+   "agreements": 13,
+   "batches": 3,
+   "commander_only": 16,
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "deep_review": 44,
+   "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "performance_only": 15,
+   "slug": "sauron-lord-of-the-rings"
+  },
+  {
+   "agreements": 2,
+   "batches": 2,
+   "commander_only": 23,
+   "deck_id": "Sauron__the_Dark_Lord",
+   "deep_review": 31,
+   "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "performance_only": 6,
+   "slug": "sauron-the-dark-lord"
+  },
+  {
+   "agreements": 1,
+   "batches": 6,
+   "commander_only": 106,
+   "deck_id": "Sedris__the_Traitor_King",
+   "deep_review": 111,
+   "list_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+   "performance_only": 4,
+   "slug": "sedris-the-traitor-king"
+  },
+  {
+   "agreements": 2,
+   "batches": 5,
+   "commander_only": 90,
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "deep_review": 98,
+   "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+   "performance_only": 6,
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "agreements": 0,
+   "batches": 2,
+   "commander_only": 25,
+   "deck_id": "Sol_kanar_the_Tainted",
+   "deep_review": 28,
+   "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "performance_only": 3,
+   "slug": "solkanar-the-tainted"
+  },
+  {
+   "agreements": 0,
+   "batches": 3,
+   "commander_only": 44,
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "deep_review": 44,
+   "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "performance_only": 0,
+   "slug": "tetsuo-imperial-champion"
+  },
+  {
+   "agreements": 2,
+   "batches": 2,
+   "commander_only": 30,
+   "deck_id": "Tetsuo_Umezawa",
+   "deep_review": 34,
+   "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "performance_only": 2,
+   "slug": "tetsuo-umezawa"
+  },
+  {
+   "agreements": 2,
+   "batches": 2,
+   "commander_only": 19,
+   "deck_id": "The_Madcap_Jester",
+   "deep_review": 38,
+   "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "performance_only": 17,
+   "slug": "the-madcap-jester"
+  },
+  {
+   "agreements": 7,
+   "batches": 4,
+   "commander_only": 69,
+   "deck_id": "The_Rani",
+   "deep_review": 80,
+   "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+   "performance_only": 4,
+   "slug": "the-rani"
+  },
+  {
+   "agreements": 4,
+   "batches": 2,
+   "commander_only": 24,
+   "deck_id": "The_Valeyard",
+   "deep_review": 30,
+   "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "performance_only": 2,
+   "slug": "the-valeyard"
+  },
+  {
+   "agreements": 1,
+   "batches": 7,
+   "commander_only": 127,
+   "deck_id": "Thraximundar",
+   "deep_review": 135,
+   "list_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+   "performance_only": 7,
+   "slug": "thraximundar"
+  },
+  {
+   "agreements": 0,
+   "batches": 16,
+   "commander_only": 298,
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "deep_review": 301,
+   "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+   "performance_only": 3,
+   "slug": "tresserhorns-lord-returned"
+  },
+  {
+   "agreements": 0,
+   "batches": 11,
+   "commander_only": 210,
+   "deck_id": "Wick__the_Whorled_Mind",
+   "deep_review": 214,
+   "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+   "performance_only": 4,
+   "slug": "wick-the-whorled-mind"
+  },
+  {
+   "agreements": 0,
+   "batches": 6,
+   "commander_only": 102,
+   "deck_id": "Zevlor__Elturel_Exile",
+   "deep_review": 110,
+   "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+   "performance_only": 8,
+   "slug": "zevlor-elturel-exile"
+  }
+ ],
+ "schema_version": 1,
+ "stage": "M6_strategic_review_packet_summary"
+}
