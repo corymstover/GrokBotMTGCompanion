@@ -1,0 +1,111 @@
+name: ChatGPT cycle 76 - M6 independent optimizers
+
+on:
+  push:
+    branches:
+      - chatgpt-cycle76-m6-refinement
+    paths:
+      - .github/workflows/chatgpt-cycle76-m6-optimizer.yml
+      - scripts/grixis_m6_optimizer.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chatgpt-cycle76-m6-optimizer
+  cancel-in-progress: true
+
+jobs:
+  m6-optimizer:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle76-m6-refinement
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Build independent optimizer passes and reconciliation
+        run: python scripts/grixis_m6_optimizer.py --build --check
+
+      - name: Refresh M6 preflight counts
+        run: python scripts/grixis_m6.py --build --check
+
+      - name: Independent authority and reconciliation invariants
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import sys
+          sys.path.insert(0, 'scripts')
+          import grixis_authority as ga
+
+          root=Path('data/grixis/m6/optimizer')
+          files=sorted(root.glob('*.json'))
+          assert len(files)==62, len(files)
+          summary=json.loads(Path('data/grixis/m6/optimizer_summary.json').read_text())
+          assert summary['counts']['decks']==62
+          assert summary['authority']['can_decide'] is False
+          assert summary['authority']['can_apply_swap'] is False
+          assert summary['authority']['can_approve_or_lock'] is False
+          assert summary['formulae']['commander_first']['sha256'] != summary['formulae']['performance']['sha256']
+          for p in files:
+              d=json.loads(p.read_text())
+              assert d['pass_a']['optimizer']=='commander_first'
+              assert d['pass_b']['optimizer']=='performance'
+              assert not ga.check_reconciliation(d['pass_a'], d['pass_b'])
+              agree=set(d['reconciliation']['agreements'])
+              disagree=set(d['reconciliation']['disagreements'])
+              deep=set(d['reconciliation']['deep_review'])
+              assert not (agree & disagree)
+              assert deep == agree | disagree
+          pre=json.loads(Path('data/grixis/m6/preflight.json').read_text())
+          assert pre['counts']['optimizer_pass_present']==62
+          assert pre['counts']['approval_ready']==0
+          print('independent M6 optimizer invariants: PASS')
+          print(json.dumps(summary['counts'], sort_keys=True))
+          PY
+
+          changed="$(git diff --name-only HEAD --)"
+          echo "$changed"
+          if printf '%s\n' "$changed" | grep -Eq '^(grixis/decks/|exports/grixis-archidekt/|data/grixis/approvals\.json$)'; then
+            echo 'Forbidden canonical/approval path changed' >&2
+            exit 1
+          fi
+
+      - name: Commit optimizer evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/m6
+          if git diff --cached --quiet; then
+            echo "No generated optimizer evidence to commit"
+          else
+            git commit -m "Cycle 76: generate independent M6 optimizer evidence [skip ci]"
+            git pull --rebase origin chatgpt-cycle76-m6-refinement
+            git push origin HEAD:chatgpt-cycle76-m6-refinement
+          fi
+
+      - name: Gate summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/m6/optimizer_summary.json')
+          if not p.exists():
+              print('optimizer summary missing')
+          else:
+              d=json.loads(p.read_text())
+              print('counts:', json.dumps(d['counts'], sort_keys=True))
+              print('authority:', json.dumps(d['authority'], sort_keys=True))
+          pre=Path('data/grixis/m6/preflight.json')
+          if pre.exists():
+              x=json.loads(pre.read_text())
+              print('preflight:', json.dumps(x['counts'], sort_keys=True))
+          PY
