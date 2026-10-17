@@ -480,3 +480,11 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - `high_optimizer_disagreement` and `major_change` remain empty with `awaiting_future_inputs`; their ranking functions are implemented and synthetic-order-independence tested now so M6 results cannot change the formula later.
 - Optimizer-disagreement inputs require committed Pass A/B hashes. Major-change eligibility/ranking follows the exact frozen triggers.
 - The generated manifest records the policy hash and selection inputs for every selected deck. No sampling record can decide a deck change.
+
+
+### Step H batch 71.3: review obligations, gain proof and integration closure
+
+- `human_review_manifest.json` converts the deterministic static sample into a frozen minimum review queue while preserving every overlap membership and the exact selection inputs that caused each deck to be selected. Every generated item is pending; scripts cannot author its judgment or satisfy Cory-only approval.
+- Dynamic optimizer-disagreement and major-change queues remain empty until their pre-registered M6 inputs exist. Their executable selectors were frozen/tested in 71.2; 71.3 only records the future obligation contract.
+- `human_sampling_gain.json` demonstrates process gain rather than deck power: deterministic preregistration now creates a minimum multi-stratum review workload, makes all exception/pending-release decks mandatory, and prevents result-aware selection formulas. Unsampled decks are explicitly not certified.
+- `grixis_human_sampling_step.py --check` is integrated into `validate_all`; it verifies the freeze hash, deterministic sampler replay, review queue, gain proof, non-decision authority and empty pre-M6 dynamic queues. Step H infrastructure is complete.
