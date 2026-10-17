@@ -45,6 +45,11 @@ def test_fetch_fixing_is_not_mislabeled_as_nonmana_utility():
     assert mo.utility_categories(c)==[]
 
 
+def test_self_damage_mana_land_is_cost_not_utility():
+    c=card("City of Brass",oracle="Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.")
+    assert mo.utility_categories(c)==[]
+
+
 def test_utility_categories_detect_real_land_effect():
     c=card("Archive",oracle="{T}: Add {C}.\n{2}, {T}, Sacrifice Archive: Draw two cards.")
     cats=mo.utility_categories(c)
