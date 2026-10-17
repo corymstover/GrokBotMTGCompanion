@@ -1,0 +1,16 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/commander_marginal_gain.schema.json",
+ "title":"Step D commander marginal decision-resolution gain proof",
+ "type":"object",
+ "required":["schema_version","status","evidence_class","authority","before","after","measured","real_deck_examples","limitations","conclusion"],
+ "properties":{
+  "schema_version":{"const":1},"status":{"const":"demonstrated_partial_decision_resolution_gain"},"evidence_class":{"const":"derived_metric"},
+  "authority":{"type":"object","required":["can_decide","note"],"properties":{"can_decide":{"const":false},"note":{"type":"string"}},"additionalProperties":false},
+  "before":{"type":"object","required":["limitations"]},"after":{"type":"object","required":["implemented","pending"]},
+  "measured":{"type":"object","required":["structural_decks","structural_spellbook_lines","commander_direct_or_supported_lines","commander_independent_lines","automatic_deck_decisions"],"properties":{"structural_decks":{"const":62},"structural_spellbook_lines":{"type":"integer","minimum":0},"commander_direct_or_supported_lines":{"type":"integer","minimum":0},"commander_independent_lines":{"type":"integer","minimum":0},"automatic_deck_decisions":{"const":0}},"additionalProperties":false},
+  "real_deck_examples":{"type":"array","minItems":2,"items":{"type":"object","required":["slug","accepted_role","honest_note","structural_counts","resolution_gain"]}},
+  "limitations":{"type":"array","minItems":4,"items":{"type":"string"}},"conclusion":{"type":"string","minLength":1}
+ },
+ "additionalProperties":false
+}
