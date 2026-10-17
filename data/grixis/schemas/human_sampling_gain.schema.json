@@ -1,0 +1,66 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/human_sampling_gain.schema.json",
+ "title": "Human sampling oversight gain proof",
+ "type": "object",
+ "required": ["schema_version", "generated_by", "evidence_class", "authority", "baseline", "after", "real_deck_examples", "gain_claims", "limitations"],
+ "properties": {
+  "schema_version": {"const": 1},
+  "generated_by": {"type": "string"},
+  "evidence_class": {"const": "derived_metric"},
+  "authority": {
+   "type": "object",
+   "required": ["can_decide", "note"],
+   "properties": {
+    "can_decide": {"const": false},
+    "note": {"type": "string"}
+   },
+   "additionalProperties": false
+  },
+  "baseline": {
+   "type": "object",
+   "required": ["stage", "deterministic_policy_frozen", "minimum_static_review_workload", "result_dependent_formulas_preregistered", "all_project_exceptions_mandatory", "all_pending_release_mandatory"],
+   "properties": {
+    "stage": {"const": "before Step H"},
+    "deterministic_policy_frozen": {"const": false},
+    "minimum_static_review_workload": {"const": 0},
+    "result_dependent_formulas_preregistered": {"const": false},
+    "all_project_exceptions_mandatory": {"const": false},
+    "all_pending_release_mandatory": {"const": false}
+   },
+   "additionalProperties": false
+  },
+  "after": {
+   "type": "object",
+   "required": ["policy_frozen_before_m6", "static_strata", "dynamic_strata_preregistered", "unique_static_decks_selected", "per_stratum_selected", "all_exception_eligible_selected", "all_pending_release_eligible_selected", "review_queue_items_pending", "scripts_can_author_judgment"],
+   "properties": {
+    "policy_frozen_before_m6": {"const": true},
+    "static_strata": {"const": 7},
+    "dynamic_strata_preregistered": {"const": 2},
+    "unique_static_decks_selected": {"type": "integer", "minimum": 1},
+    "per_stratum_selected": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+    "all_exception_eligible_selected": {"type": "integer", "minimum": 0},
+    "all_pending_release_eligible_selected": {"type": "integer", "minimum": 0},
+    "review_queue_items_pending": {"type": "integer", "minimum": 1},
+    "scripts_can_author_judgment": {"const": false}
+   },
+   "additionalProperties": false
+  },
+  "real_deck_examples": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": ["slug", "memberships"],
+    "properties": {
+     "slug": {"type": "string"},
+     "memberships": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+    },
+    "additionalProperties": false
+   }
+  },
+  "gain_claims": {"type": "array", "minItems": 4, "items": {"type": "string"}},
+  "limitations": {"type": "array", "minItems": 4, "items": {"type": "string"}}
+ },
+ "additionalProperties": false
+}
