@@ -1,0 +1,288 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/m6_reproducibility_bundle.schema.json",
+  "title": "M6 final Phase-B and strategic judgment reproducibility bundle",
+  "description": "Complete-only contract. Must bind source inputs, original/result deck hashes, sealed optimizer commits, named Pass C and judgment receipts, Phase B evidence, reproducibility parameters and explicit limitations. Never constitutes an approval.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "stage": {
+      "const": "M6_final_reproducibility_bundle"
+    },
+    "deck_id": {
+      "$ref": "common.schema.json#/$defs/deck_id"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "baseline_hash": {
+      "$ref": "common.schema.json#/$defs/list_hash"
+    },
+    "result_hash": {
+      "$ref": "common.schema.json#/$defs/list_hash"
+    },
+    "snapshot": {
+      "type": "object",
+      "properties": {
+        "birthday_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "oracle_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rules_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legality_ref": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "birthday_id",
+        "oracle_ref",
+        "rules_ref",
+        "legality_ref"
+      ],
+      "additionalProperties": false
+    },
+    "inputs": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "$ref": "common.schema.json#/$defs/sha256"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "sealed_passes": {
+      "type": "object",
+      "properties": {
+        "a_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "b_commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "a_output_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "b_output_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reconciliation_manifest_sha256": {
+          "$ref": "common.schema.json#/$defs/sha256"
+        }
+      },
+      "required": [
+        "a_commit",
+        "b_commit",
+        "a_output_ref",
+        "b_output_ref",
+        "reconciliation_manifest_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "pass_c": {
+      "type": "object",
+      "properties": {
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "judgment_receipt_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "judgment_receipt_sha256": {
+          "$ref": "common.schema.json#/$defs/sha256"
+        },
+        "conflicts_resolved": {
+          "const": true
+        }
+      },
+      "required": [
+        "reviewer",
+        "judgment_receipt_path",
+        "judgment_receipt_sha256",
+        "conflicts_resolved"
+      ],
+      "additionalProperties": false
+    },
+    "phase_b": {
+      "type": "object",
+      "properties": {
+        "complete": {
+          "const": true
+        },
+        "tests": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "test_ref": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_sha256": {
+                "$ref": "common.schema.json#/$defs/sha256"
+              },
+              "seed": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "harness_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "verdict": {
+                "enum": [
+                  "pass",
+                  "fail",
+                  "inconclusive",
+                  "no_detectable_difference"
+                ]
+              },
+              "effect_coverage": {
+                "enum": [
+                  "fully_modeled",
+                  "bounded_partial",
+                  "not_modelable"
+                ]
+              },
+              "supports_improvement_claim": {
+                "type": "boolean"
+              },
+              "limitations": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "required": [
+              "test_ref",
+              "source_sha256",
+              "seed",
+              "harness_version",
+              "verdict",
+              "effect_coverage",
+              "supports_improvement_claim",
+              "limitations"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "complete",
+        "tests"
+      ],
+      "additionalProperties": false
+    },
+    "red_team": {
+      "type": "object",
+      "properties": {
+        "report_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "$ref": "common.schema.json#/$defs/sha256"
+        }
+      },
+      "required": [
+        "report_path",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "mana_analysis": {
+      "type": "object",
+      "properties": {
+        "report_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "$ref": "common.schema.json#/$defs/sha256"
+        }
+      },
+      "required": [
+        "report_path",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "unresolved_material_questions": {
+      "type": "array",
+      "maxItems": 0
+    },
+    "bundle_status": {
+      "const": "complete_evidence_not_approval"
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "can_decide": {
+          "const": false
+        },
+        "can_apply_swap": {
+          "const": false
+        },
+        "can_approve_or_lock": {
+          "const": false
+        }
+      },
+      "required": [
+        "can_decide",
+        "can_apply_swap",
+        "can_approve_or_lock"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "stage",
+    "deck_id",
+    "slug",
+    "baseline_hash",
+    "result_hash",
+    "snapshot",
+    "inputs",
+    "sealed_passes",
+    "pass_c",
+    "phase_b",
+    "red_team",
+    "mana_analysis",
+    "unresolved_material_questions",
+    "bundle_status",
+    "authority"
+  ],
+  "additionalProperties": false
+}
