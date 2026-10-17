@@ -1,0 +1,17 @@
+# Abaddon Cycle 87 — Grinding Station / Underworld Breach resource-line critique
+
+**Not a final Pass C judgment. No swap approved.**
+
+The approved canonical Abaddon deck already includes **Underworld Breach, Lotus Petal, Brain Freeze and Lion's Eye Diamond**. It does **not** include Grinding Station. This is verified against the pinned 99-card source-baseline export, which is never modified by the test.
+
+**Added-route hypothesis:** With Underworld Breach and an untapped Grinding Station on the battlefield and Lotus Petal on the battlefield, activate Station by tapping it and sacrificing Petal to mill yourself three. Underworld Breach lets you escape the Petal for its original mana cost **{0}**, exiling three *other* graveyard cards. Petal enters, Station's triggered ability untaps it, and the same action can repeat. An initial graveyard-Petal variant needs three other cards already in the graveyard. This exact line is recognized in the [Commander Spellbook listings](https://commanderspellbook.com/search/?q=Underworld+Breach) and reflected by the current [Grinding Station Oracle](https://mtg.wtf/card/5dn/127/Grinding-Station) and [Underworld Breach Oracle](https://mtg.wtf/card/spg/9/Underworld-Breach).
+
+**Resource truth:** Each self-mill step produces at most three newly milled cards, and the next Petal escape consumes three other cards. The one-Petal loop therefore provides **self-mill and storm count**, not net mana. Petal cannot both be sacrificed to Station *and* sacrificed for mana in the same step. With a 90-card library and no graveyard replacement, the bounded trace completes 30 self-mill/escape cycles, increases spell casts by 30, and ends with a zero-card library—but it **does not win the game**.
+
+**Finish requirement:** A subsequent Brain Freeze needs {1}{U} and valid targets; the spell's storm copies need to be allocated across actual opponent library sizes. If casting Brain Freeze with escape, three additional other graveyard cards must remain. Exhausting your library first can remove those resources. The existing Underworld Breach + Lotus Petal + Brain Freeze route is already documented separately by [Commander Spellbook](https://commanderspellbook.com/combo/1368-1414-4856/); Grinding Station provides a different route for building storm and self-mill but has not yet been shown to improve the actual 99. A complete line must account for initial mana, priority, graveyard hate, artifact removal, countermagic, escape resources, and a real win endpoint.
+
+**Commander identity:** Lotus Petal escaped from the graveyard is not a hand-cast spell, so **Abaddon does not grant it cascade**. Station itself also adds no opponent life loss. Its strategic value here is as a supplemental Breach/storm card, whereas Chrome Mox directly accelerates the five-mana commander.
+
+**Evidence status:** The deterministic [resource trace](../phase_b_bounded/abaddon_station_breach_line.json) establishes the narrow repeatability and cost claims only. It is not deckwide Phase-B evidence, a win-rate estimate, a local-optimum certificate, or permission to cut Chrome Mox. Cycle 84 already measured a **−4.2 percentage point** modeled turn-four commander-casting difference when replacing Chrome Mox with Grinding Station. A non-core alternate cut and explicit finisher trace are required before recommending any addition.
+
+**Authority:** All 62 approvals/locks, accepted M5 hashes and project exceptions remain unchanged.
