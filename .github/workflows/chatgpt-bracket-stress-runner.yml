@@ -1,0 +1,61 @@
+name: Temporary ChatGPT bracket stress runner
+
+on:
+  push:
+    branches: [chatgpt-cycle70-2-bracket-runner]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle70-2-bracket-runner
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Focused routing tests
+        run: python -m pytest -q tests/test_bracket_stress.py tests/test_bracket_stress_runner.py
+      - name: Build and validate routed packets
+        run: |
+          python scripts/grixis_bracket_stress_runner.py --build
+          python scripts/grixis_bracket_stress_runner.py --check
+      - name: Update Step F plan and tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          s=next(x for x in d['steps'] if x['id']=='F'); s['status']='in_progress'; s['batches']=[
+            '70.1 preregister B5 competitive vs B4 resilience stress priorities for all 62 decks; weights are review priority only, never outcome scores',
+            '70.2 route all 62 suites to committed M3 paired stress evidence, audit goldfish readiness, exact Step-E module specs, or judgment-required status; no aggregate score',
+            '70.3 bracket-specific red-team/judgment packet and review schema (planned)',
+            '70.4 integration + gain proof + validate_all gate (planned; deck-level Step-E/local reruns may remain frozen-local-cache closure items)'
+          ]
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 70.2 (2026-10-16)'
+          x=next(x for x in tr['stages'] if x['id']=='F'); x['batches_done']=2; x['status']='in_progress'; x['note']='2/4.5 batch-equivalents complete: all 62 preregistered suites routed to existing evidence, exact Step-E module availability/pending state, or mandatory judgment. No weighted outcome score.'
+          tr['batches_done']=37; tr['percent_complete']=59.2
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+'\n')
+          md=Path('grixis/Grixis Birthday Upgrade Plan.md'); t=md.read_text(); marker='### Step F batch 70.2: executable evidence routing'
+          if marker not in t:
+              t += '''\n\n### Step F batch 70.2: executable evidence routing\n\n- `scripts/grixis_bracket_stress_runner.py` turns each frozen 70.1 suite into an evidence packet without rerunning or reinterpreting older tests.\n- Legacy simulator stresses reuse the original M3 paired record, original preregistered metric/threshold and verdict. B5 turbo-clock reads the canonical audit goldfish readiness only and remains explicitly non-multiplayer.\n- Step-E items resolve to exact module ids/specifications. The 70.1 conceptual `counterspell_stack_protection` executor resolves transparently to the existing `counterspell_density` + `stack_protection` modules; `stax_tax` resolves directly. No canonical-deck module result is fabricated from swap-level/readiness machinery.\n- Judgment prompts remain `judgment_required` with no automated verdict.\n- Every packet keeps `aggregate_score: null`; priority weights still allocate review effort only.\n'''
+              md.write_text(t)
+          PY
+      - name: Assert snapshot metadata unchanged
+        run: git diff --exit-code HEAD -- data/grixis/dev_snapshot_lock.json
+      - name: Commit packets and cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/chatgpt-bracket-stress-runner.yml
+          git add data/grixis/bracket_stress_packets data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md'
+          git commit -m "ChatGPT cycle 70.2: finalize bracket stress evidence routing [skip ci]"
+          git push
