@@ -1,0 +1,158 @@
+name: ChatGPT Birthday M5 Lift correction
+
+on:
+  push:
+    branches: [chatgpt-cycle74b-lift-correction]
+    paths:
+      - .github/workflows/chatgpt-birthday-m5-lift.yml
+      - scripts/grixis_birthday_m5_lift.py
+  workflow_dispatch:
+
+concurrency:
+  group: chatgpt-cycle74b-birthday-m5-lift
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+env:
+  SCRYFALL_BIRTHDAY_SNAPSHOT: "1"
+  SCRYFALL_CACHE: .cache/birthday-m5
+
+jobs:
+  birthday-m5-lift:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle74b-lift-correction
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Restore exact fresh Scryfall authority artifacts
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib, urllib.request
+          manifest=json.load(open('data/grixis/birthday_authority/manifest.json',encoding='utf-8'))
+          if manifest.get('status')!='ready' or manifest.get('hard_blockers'):
+              raise SystemExit(f"Birthday authority is not ready: {manifest.get('hard_blockers')}")
+          if manifest.get('frozen_baseline',{}).get('snapshot_id')!='snap-20261016':
+              raise SystemExit('Birthday authority is not bound to snap-20261016')
+          out=pathlib.Path('.cache/birthday-m5'); out.mkdir(parents=True,exist_ok=True)
+          for kind in ('oracle-cards','default-cards','rulings'):
+              rec=manifest['sources']['scryfall'][kind]
+              p=out/rec['file']
+              urllib.request.urlretrieve(rec['url'],p)
+              got='sha256:'+hashlib.sha256(p.read_bytes()).hexdigest()
+              if got!=rec['sha256']:
+                  raise SystemExit(f"{kind} hash mismatch: {got} != {rec['sha256']}")
+              print('verified',kind,p.name,got)
+          PY
+
+      - name: Restore exact Comprehensive Rules compatibility cache
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib, urllib.request
+          manifest=json.load(open('data/grixis/birthday_authority/manifest.json',encoding='utf-8'))
+          rec=manifest['sources']['comprehensive_rules']
+          if rec.get('changed_vs_frozen') is not False:
+              raise SystemExit('current Comprehensive Rules differ from frozen baseline; structural refresh required')
+          out=pathlib.Path('.cache'); out.mkdir(parents=True,exist_ok=True)
+          p=out/'MagicCompRules-20260925.txt'
+          urllib.request.urlretrieve(rec['url'],p)
+          got='sha256:'+hashlib.sha256(p.read_bytes()).hexdigest()
+          if got!=rec['sha256'] or got!=rec['frozen_sha256']:
+              raise SystemExit(f'Comprehensive Rules hash mismatch: {got}')
+          print('rules compatibility cache verified',got)
+          PY
+
+      - name: Verify frozen M5 baseline
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib
+          p=pathlib.Path('data/grixis/m5_regen/summary.json')
+          got='sha256:'+hashlib.sha256(p.read_bytes()).hexdigest()
+          expected='sha256:2370bf1f67b3e452220d64ef4bb98a97b811a667e3b5f0187b0fdd3bf18dae3c'
+          if got!=expected:
+              raise SystemExit(f'frozen M5 summary drift: {got} != {expected}')
+          if len(json.load(p.open(encoding='utf-8')).get('decks',[]))!=62:
+              raise SystemExit('frozen M5 summary no longer covers 62 decks')
+          print('frozen M5 baseline verified',got)
+          PY
+
+      - name: Build and validate Lift-corrected Birthday M5 corpus
+        run: |
+          python scripts/grixis_birthday_m5_lift.py --build --check --jobs 6
+
+      - name: Independent output invariants
+        run: |
+          python - <<'PY'
+          import gzip, json, pathlib
+          root=pathlib.Path('data/grixis/birthday_m5')
+          s=json.load((root/'summary.json').open(encoding='utf-8'))
+          d=json.load((root/'delta_vs_frozen_m5.json').open(encoding='utf-8'))
+          p=json.load((root/'provenance.json').open(encoding='utf-8'))
+          if s.get('status')!='complete_current_corpus_generated':
+              raise SystemExit(f"fresh M5 not complete: {s.get('status')}")
+          if len(s.get('decks',[]))!=62 or len(d.get('decks',[]))!=62:
+              raise SystemExit('fresh M5/delta coverage is not 62/62')
+          if s.get('authority',{}).get('accepted_by_cory') is not False:
+              raise SystemExit('fresh M5 was auto-accepted')
+          if d.get('authority',{}).get('can_decide') is not False:
+              raise SystemExit('fresh M5 delta became decision-capable')
+          if not p.get('fresh_A_frozen_BF'):
+              raise SystemExit('provenance lost fresh-A/frozen-BF boundary')
+          if s.get('structural_baseline')!='snap-20261016' or d.get('frozen_baseline')!='snap-20261016':
+              raise SystemExit('fresh M5 lost snap-20261016 structural baseline')
+          for x,label in ((s,'summary'),(d,'delta'),(p,'provenance')):
+              pol=x.get('edhrec_metric_policy') or x.get('screening_metric_policy')
+              if not pol or pol.get('current_metric')!='lift' or pol.get('retired_metric_used') is not False:
+                  raise SystemExit(f'{label}: Lift policy invariant failed: {pol}')
+          evid=list((root/'evidence').glob('*.json'))
+          if len(evid)!=62: raise SystemExit(f'fresh evidence coverage {len(evid)}/62')
+          for f in evid:
+              e=json.load(f.open(encoding='utf-8'))
+              cols=e['edhrec']['columns']; si=cols.index('synergy')
+              if e['edhrec'].get('current_metric')!='lift': raise SystemExit(f'{f}: not Lift')
+              if any(v.get('edhrec') and v['edhrec'][si] is not None for v in e.get('vectors',[])):
+                  raise SystemExit(f'{f}: retired Synergy has a numeric fresh derivative')
+          print('Lift-corrected fresh M5 invariants OK')
+          print('totals',s['totals'])
+          print('delta',d['totals'])
+          print('tournament convergence passes',s['tournament_convergence_passes'])
+          PY
+
+      - name: Commit corrected Birthday M5 evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/birthday_m5
+          if git diff --cached --quiet; then
+            echo "no corrected M5 changes to commit"
+          else
+            git commit -m "ChatGPT cycle 74b: generate Lift-corrected Birthday M5 corpus [skip ci]"
+            git pull --rebase origin chatgpt-cycle74b-lift-correction
+            git push origin HEAD:chatgpt-cycle74b-lift-correction
+          fi
+
+      - name: Gate summary
+        if: always()
+        run: |
+          if test -f data/grixis/birthday_m5/summary.json; then
+            python - <<'PY'
+          import json
+          s=json.load(open('data/grixis/birthday_m5/summary.json'))
+          d=json.load(open('data/grixis/birthday_m5/delta_vs_frozen_m5.json'))
+          print('snapshot',s['birthday_authority_snapshot'])
+          print('status',s['status'])
+          print('decks',len(s['decks']))
+          print('totals',s['totals'])
+          print('delta totals',d['totals'])
+          print('edhrec metric',s.get('edhrec_metric_policy'))
+          print('accepted_by_cory',s['authority']['accepted_by_cory'])
+          PY
+          fi
