@@ -35,6 +35,16 @@ def test_utility_categories_ignore_quoted_treasure_reminder_text():
     assert "cost_reduction_or_ramp" not in cats
 
 
+def test_pure_mana_land_is_not_nonmana_utility():
+    c=card("Island",typ="Basic Land — Island",oracle="({T}: Add {U}.)")
+    assert mo.utility_categories(c)==[]
+
+
+def test_fetch_fixing_is_not_mislabeled_as_nonmana_utility():
+    c=card("Polluted Delta",oracle="{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.")
+    assert mo.utility_categories(c)==[]
+
+
 def test_utility_categories_detect_real_land_effect():
     c=card("Archive",oracle="{T}: Add {C}.\n{2}, {T}, Sacrifice Archive: Draw two cards.")
     cats=mo.utility_categories(c)
