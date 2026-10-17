@@ -1,0 +1,60 @@
+name: tmp Step C mana opportunity adversarial fix
+on:
+  push:
+    branches: [chatgpt-cycle68-4-mana-opportunity]
+permissions:
+  contents: write
+jobs:
+  opportunity-fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle68-4-mana-opportunity
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install jsonschema pytest
+      - name: Restrict damage utility to opponent/target-facing text
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/grixis_mana_opportunity.py'); s=p.read_text()
+          old='''    "removal_or_damage":r"\\bdestroy target\\b|\\bexile target\\b|\\bdeals? \\d+ damage\\b|\\bdamage to\\b",'''
+          new='''    "removal_or_damage":r"\\bdestroy target\\b|\\bexile target\\b|\\bdeals? (?:\\d+|X|that much) damage to (?:any target|target|each opponent|an opponent|target opponent)\\b|\\bdamage to (?:any target|target|each opponent|an opponent|target opponent)\\b",'''
+          if old in s: s=s.replace(old,new)
+          elif new not in s: raise SystemExit('damage utility pattern changed unexpectedly')
+          p.write_text(s)
+          PY
+      - name: Semantic and adversarial tests
+        run: pytest -q tests/test_mana_opportunity.py
+      - name: Rebuild and validate all 62 records
+        run: |
+          python scripts/grixis_mana_opportunity.py --build
+          python scripts/grixis_mana_opportunity.py --check
+      - name: Real-output regression: City of Brass must not be utility-only evidence
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/grixis/mana_opportunity/abaddon-the-despoiler.json').read_text())
+          names={x['card'] for x in d['utility_lands']}
+          assert 'City of Brass' not in names, names
+          summary=json.loads(Path('data/grixis/mana_opportunity/summary.json').read_text())
+          n=summary['totals']['utility_lands']
+          assert 0 < n < 500, n
+          print('corrected utility review population',n)
+          PY
+      - name: Commit corrected source and evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/grixis_mana_opportunity.py data/grixis/mana_opportunity
+          if ! git diff --cached --quiet; then
+            git commit -m "ChatGPT cycle 68.4: exclude self-damage mana costs from utility signals [skip ci]"
+            git push
+          fi
