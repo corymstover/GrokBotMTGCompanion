@@ -217,6 +217,7 @@ def main(argv):
              ("combo-quality-gain", ["scripts/grixis_combo_quality_gain.py", "--check"]),  # Step B acceptance criterion 9
              ("mana-step", ["scripts/grixis_mana_step.py", "--check"]),  # Step C: cache-independent layers + explicit 68.3 pending/validated closure
              ("commander-step", ["scripts/grixis_commander_step.py", "--check"]),  # Step D: structural/integration layers + explicit local dynamic closure
+             ("bracket-stress-step", ["scripts/grixis_stress_step.py", "--check"]),  # Step F: bracket-specific suites/routing/red-team/gain + local module closure
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []

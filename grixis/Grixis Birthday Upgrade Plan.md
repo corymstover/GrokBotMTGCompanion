@@ -453,3 +453,12 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - The generator assembles accepted Blueprint failure modes/anti-goals/requirements/win routes, focused audit slots, commander-structure context and supporting test references. It does not answer the prompts.
 - Every review starts `pending` with null reviewer/analysis/verdict, `can_decide: false`, and a contract requiring human or agent judgment grounded in fact/test/strategic evidence while addressing Commander identity and bracket context.
 - Script-authored packets are not `judgment_review`s and cannot support M6 decisions until a real reviewer completes the later judgment process.
+
+
+### Step F batch 70.4: integration and decision-resolution gain proof
+
+- `scripts/grixis_stress_step.py --check` requires all 62 preregistered suites, 62 routed evidence packets, 62 pending red-team packets, and the gain proof to validate.
+- `bracket_stress_gain.json` demonstrates the change from one generic nine-scenario M3 suite to distinct B5/B4 workloads with exact evidence/module routing and mandatory adversarial prompts on real project decks.
+- The gain proof counts zero aggregate outcome scores. Existing M3 outcomes retain their original preregistration and are not re-thresholded.
+- Step-E module items that need canonical-deck/local execution remain explicit `pending_deck_level_module_execution` closure items. Pending red-team judgments are intentional future reviews, not failed tests.
+- `validate_all` now includes `bracket-stress-step`. Step F is code-complete pending the declared local module/full-validation closure work.

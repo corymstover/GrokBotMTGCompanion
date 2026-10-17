@@ -1,0 +1,118 @@
+{
+ "after": {
+  "aggregate_outcome_scores": 0,
+  "decks": 62,
+  "goldfish_readiness_items_reused": 13,
+  "judgment_items_pending_real_review": 209,
+  "legacy_test_items_reused": 395,
+  "model": "Step F bracket-specific stress architecture",
+  "module_items_pending_local_execution": 26,
+  "red_team_packets": 62,
+  "routed_packets": 62,
+  "suite_family_counts": {
+   "B4_resilience": 49,
+   "B5_competitive": 13
+  }
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "This proof compares stress evidence/review resolution only; it cannot rank decks or decide swaps."
+ },
+ "before": {
+  "decks": 62,
+  "limitation": "Every deck received the same generic scenario set; opponent-facing stack/stax and bracket-specific adversarial questions were not assigned as distinct workloads.",
+  "model": "M3 generic stress suite",
+  "scenario_count": 9,
+  "scenario_families": [
+   "artifacts_wiped",
+   "board_wipe",
+   "color_screw",
+   "commander_removed_once",
+   "commander_removed_twice",
+   "first_key_spell_countered",
+   "graveyard_exiled",
+   "key_engine_exiled",
+   "mana_screw"
+  ]
+ },
+ "conclusion": "Step F resolves the prior one-size-fits-all stress layer into distinct B5/B4 workloads, exact evidence/module routing and mandatory adversarial review prompts without producing a composite stress score.",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "This is a before/after evidence-resolution comparison, not benchmark accuracy or deck power measurement.",
+  "Existing M3 outcomes are reused under their original preregistration; Step F does not retroactively change thresholds.",
+  "Step-E deck-level module execution remains a declared local closure item.",
+  "Red-team prompts remain pending judgment and are not counted as passed/failed stresses.",
+  "Priority weights are workload allocation only and never outcome weights."
+ ],
+ "real_deck_examples": [
+  {
+   "bracket": 5,
+   "judgment_prompts": [
+    "protected_win_red_team"
+   ],
+   "resolution_gain": "Generic M3 scenarios are now placed in a bracket-specific workload together with explicit Step-E module routes and mandatory adversarial prompts; no outcome is aggregated.",
+   "routed_statuses": {
+    "commander_disruption": "reused_existing_test_result",
+    "first_key_spell_countered": "reused_existing_test_result",
+    "graveyard_exiled": "reused_existing_test_result",
+    "key_engine_exiled": "reused_existing_test_result",
+    "protected_win_red_team": "judgment_required",
+    "stack_protection": "pending_deck_level_module_execution",
+    "stax_tax": "pending_deck_level_module_execution",
+    "turbo_clock": "reused_goldfish_readiness"
+   },
+   "slug": "cormela-glamour-thief",
+   "stress_ids": [
+    "turbo_clock",
+    "first_key_spell_countered",
+    "graveyard_exiled",
+    "commander_disruption",
+    "key_engine_exiled",
+    "stack_protection",
+    "stax_tax",
+    "protected_win_red_team"
+   ],
+   "suite_family": "B5_competitive"
+  },
+  {
+   "bracket": 4,
+   "judgment_prompts": [
+    "repeated_removal_attrition",
+    "pillowfort",
+    "token_stall",
+    "artifact_enchantment_interaction"
+   ],
+   "resolution_gain": "Generic M3 scenarios are now placed in a bracket-specific workload together with explicit Step-E module routes and mandatory adversarial prompts; no outcome is aggregated.",
+   "routed_statuses": {
+    "artifact_enchantment_interaction": "judgment_required",
+    "artifact_wipe": "reused_existing_test_result",
+    "board_wipe": "reused_existing_test_result",
+    "color_screw": "reused_existing_test_result",
+    "commander_disruption": "reused_existing_test_result",
+    "graveyard_exiled": "reused_existing_test_result",
+    "key_engine_exiled": "reused_existing_test_result",
+    "mana_screw": "reused_existing_test_result",
+    "pillowfort": "judgment_required",
+    "repeated_removal_attrition": "judgment_required",
+    "token_stall": "judgment_required"
+   },
+   "slug": "abaddon-the-despoiler",
+   "stress_ids": [
+    "board_wipe",
+    "artifact_wipe",
+    "commander_disruption",
+    "key_engine_exiled",
+    "mana_screw",
+    "color_screw",
+    "graveyard_exiled",
+    "repeated_removal_attrition",
+    "pillowfort",
+    "token_stall",
+    "artifact_enchantment_interaction"
+   ],
+   "suite_family": "B4_resilience"
+  }
+ ],
+ "schema_version": 1,
+ "status": "demonstrated_decision_resolution_gain"
+}
