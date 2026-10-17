@@ -407,8 +407,8 @@
    "name": "human-sampling infra",
    "batches": [
     "71.1 freeze pre-M6 human-sampling policy, seed, quotas, nine strata and future-result formulas with immutable hash record",
-    "71.2 deterministic sampler + static selections + synthetic future-strata execution tests (planned)",
-    "71.3 integration/freeze gate + review-manifest schema (planned)"
+    "71.2 deterministic sampler + seven static strata selections + deduped review workload; future optimizer-disagreement/major-change functions regression-tested but remain empty before M6",
+    "71.3 integration/freeze gate + review-execution manifest schema + gain proof (planned)"
    ],
    "status": "in_progress",
    "must_precede": [
@@ -567,7 +567,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 71.1 (2026-10-16)",
+  "updated": "ChatGPT cycle 71.2 (2026-10-16)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -623,9 +623,9 @@
    {
     "id": "H",
     "estimated_batches": 2.5,
-    "batches_done": 1,
+    "batches_done": 2,
     "status": "in_progress",
-    "note": "1/2.5 batch-equivalents complete: policy/seed/quotas and all nine required strata frozen before M6 outputs, including future optimizer-disagreement and major-change formulas."
+    "note": "2/2.5 batch-equivalents complete: frozen policy now has a deterministic replayable sampler, static selections and deduped workload; dynamic strata formulas are tested but intentionally unpopulated pre-M6."
    },
    {
     "id": "rebuild_m5",
@@ -664,7 +664,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 40,
-  "percent_complete": 64.0
+  "batches_done": 41,
+  "percent_complete": 65.6
  }
 }

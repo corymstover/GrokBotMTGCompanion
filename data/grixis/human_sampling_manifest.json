@@ -1,0 +1,854 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Sampling selects a minimum review workload only; membership is not a negative deck judgment and scripts may not author the resulting review."
+ },
+ "deduped_static_workload": [
+  {
+   "memberships": [
+    "rules_sensitive"
+   ],
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "memberships": [
+    "rules_sensitive"
+   ],
+   "slug": "admiral-brass-unsinkable"
+  },
+  {
+   "memberships": [
+    "low_commander_dependence",
+    "random"
+   ],
+   "slug": "anhelo-the-painter"
+  },
+  {
+   "memberships": [
+    "low_commander_dependence"
+   ],
+   "slug": "ashad-the-lone-cyberman"
+  },
+  {
+   "memberships": [
+    "random",
+    "rules_sensitive"
+   ],
+   "slug": "ashnod-the-uncaring"
+  },
+  {
+   "memberships": [
+    "exception",
+    "low_commander_dependence",
+    "rules_sensitive"
+   ],
+   "slug": "bjorna-nightfall-alchemist-cecily"
+  },
+  {
+   "memberships": [
+    "cedh"
+   ],
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "memberships": [
+    "random"
+   ],
+   "slug": "doctor-doom-king-of-latveria"
+  },
+  {
+   "memberships": [
+    "anomaly"
+   ],
+   "slug": "dr-eggman"
+  },
+  {
+   "memberships": [
+    "anomaly"
+   ],
+   "slug": "edea-possessed-sorceress"
+  },
+  {
+   "memberships": [
+    "random"
+   ],
+   "slug": "edward-kenway"
+  },
+  {
+   "memberships": [
+    "cedh",
+    "rules_sensitive"
+   ],
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "memberships": [
+    "anomaly"
+   ],
+   "slug": "fire-lord-azula"
+  },
+  {
+   "memberships": [
+    "random"
+   ],
+   "slug": "garza-zol-plague-queen"
+  },
+  {
+   "memberships": [
+    "cedh"
+   ],
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "memberships": [
+    "rules_sensitive"
+   ],
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "memberships": [
+    "cedh"
+   ],
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "memberships": [
+    "cedh"
+   ],
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "memberships": [
+    "random"
+   ],
+   "slug": "lord-xander-the-collector"
+  },
+  {
+   "memberships": [
+    "anomaly"
+   ],
+   "slug": "lynde-cheerful-tormentor"
+  },
+  {
+   "memberships": [
+    "low_commander_dependence"
+   ],
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "memberships": [
+    "low_commander_dependence"
+   ],
+   "slug": "marchesa-the-black-rose"
+  },
+  {
+   "memberships": [
+    "cedh"
+   ],
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "memberships": [
+    "anomaly"
+   ],
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "memberships": [
+    "anomaly"
+   ],
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "memberships": [
+    "anomaly"
+   ],
+   "slug": "obeka-splitter-of-seconds"
+  },
+  {
+   "memberships": [
+    "low_commander_dependence"
+   ],
+   "slug": "parnesse-the-subtle-brush"
+  },
+  {
+   "memberships": [
+    "cedh",
+    "low_commander_dependence"
+   ],
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "memberships": [
+    "exception"
+   ],
+   "slug": "sauron-lord-of-the-rings"
+  },
+  {
+   "memberships": [
+    "exception"
+   ],
+   "slug": "sauron-the-dark-lord"
+  },
+  {
+   "memberships": [
+    "low_commander_dependence"
+   ],
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "memberships": [
+    "rules_sensitive"
+   ],
+   "slug": "solkanar-the-tainted"
+  },
+  {
+   "memberships": [
+    "random"
+   ],
+   "slug": "tetsuo-umezawa"
+  },
+  {
+   "memberships": [
+    "cedh",
+    "exception",
+    "pending_release"
+   ],
+   "slug": "the-madcap-jester"
+  },
+  {
+   "memberships": [
+    "random"
+   ],
+   "slug": "the-rani"
+  },
+  {
+   "memberships": [
+    "anomaly"
+   ],
+   "slug": "the-valeyard"
+  },
+  {
+   "memberships": [
+    "exception",
+    "pending_release",
+    "rules_sensitive"
+   ],
+   "slug": "tresserhorns-lord-returned"
+  }
+ ],
+ "dynamic_hooks": {
+  "high_optimizer_disagreement": {
+   "function": "optimizer_disagreement_selection",
+   "required_fields": [
+    "slug",
+    "pass_a_hash",
+    "pass_b_hash",
+    "pass_a_challenger_hash",
+    "pass_b_challenger_hash",
+    "pass_a_swaps",
+    "pass_b_swaps"
+   ]
+  },
+  "major_change": {
+   "function": "major_change_selection",
+   "required_fields": [
+    "slug",
+    "total_swaps",
+    "win_route_changed",
+    "required_package_change_count",
+    "mana_base_change_count"
+   ]
+  }
+ },
+ "freeze_path": "data/grixis/human_sampling_freeze.json",
+ "generated_by": "scripts/grixis_human_sampling.py v1",
+ "limitations": [
+  "Static selections reflect only the frozen pre-M6 evidence currently committed.",
+  "Dynamic strata intentionally contain no selections before their M6-stage inputs exist.",
+  "Overlap between strata is preserved even though the total review workload is deduplicated.",
+  "Cory may review additional decks beyond this minimum obligation.",
+  "Selection does not confer decision authority or certify unselected decks."
+ ],
+ "policy_path": "data/grixis/human_sampling_policy.json",
+ "policy_sha256": "sha256:e230c9826f9501672db8d0fcc0288d93998db4b42921e38a966a77cd6b848895",
+ "schema_version": 1,
+ "seed": "grixis-birthday-human-sampling-v1-2026-10-16",
+ "status": "static_strata_frozen_dynamic_strata_awaiting_inputs",
+ "strata": [
+  {
+   "eligible_count": 62,
+   "id": "random",
+   "quota": 8,
+   "selected": [
+    {
+     "deck_id": "Lord_Xander__the_Collector",
+     "rank": 1,
+     "selection_inputs": {
+      "tie_hash": "06e9f14a84196ebfeb4fcae051c04dae42ef93b5b6d65369a63a0045845d08bc"
+     },
+     "slug": "lord-xander-the-collector"
+    },
+    {
+     "deck_id": "Ashnod_the_Uncaring",
+     "rank": 2,
+     "selection_inputs": {
+      "tie_hash": "1131df11b74536a0a5b569c9b7bcd92ad999986592d24dc440111c225a7a1c70"
+     },
+     "slug": "ashnod-the-uncaring"
+    },
+    {
+     "deck_id": "Edward_Kenway",
+     "rank": 3,
+     "selection_inputs": {
+      "tie_hash": "129222720b47c9526fc447c0801cdc8f2eb24b4bdb158387126dec4111b62081"
+     },
+     "slug": "edward-kenway"
+    },
+    {
+     "deck_id": "Doctor_Doom__King_of_Latveria",
+     "rank": 4,
+     "selection_inputs": {
+      "tie_hash": "140e1f65506d34341c26959fa410d46278d2d30fec209aa703b78803d30c4d84"
+     },
+     "slug": "doctor-doom-king-of-latveria"
+    },
+    {
+     "deck_id": "Anhelo__the_Painter",
+     "rank": 5,
+     "selection_inputs": {
+      "tie_hash": "1a3530c86aa8adae09e447f2080de802315e4df398dbc5aebe6178c91b0cbcbb"
+     },
+     "slug": "anhelo-the-painter"
+    },
+    {
+     "deck_id": "Garza_Zol__Plague_Queen",
+     "rank": 6,
+     "selection_inputs": {
+      "tie_hash": "1eceb790e6231d8599740752d88ac2a84772ec263cdb111dbf95ded3f7dac870"
+     },
+     "slug": "garza-zol-plague-queen"
+    },
+    {
+     "deck_id": "Tetsuo_Umezawa",
+     "rank": 7,
+     "selection_inputs": {
+      "tie_hash": "22576202950196aa87723b59b1d96225be6751f385de9d36c5e5a294c11d0524"
+     },
+     "slug": "tetsuo-umezawa"
+    },
+    {
+     "deck_id": "The_Rani",
+     "rank": 8,
+     "selection_inputs": {
+      "tie_hash": "29019327f95db0d77ab9eae38c3eea8f71faf674760c8bee0034256db934fbd7"
+     },
+     "slug": "the-rani"
+    }
+   ],
+   "selected_count": 8,
+   "status": "selected",
+   "timing": "pre_m6_static"
+  },
+  {
+   "eligible_count": 59,
+   "id": "anomaly",
+   "quota": 8,
+   "selected": [
+    {
+     "deck_id": "The_Valeyard",
+     "rank": 1,
+     "selection_inputs": {
+      "anomaly_count": 34,
+      "tie_hash": "f63a0ae23a0db2d9f43e1b2425f3808ad7fce95ed23543447a43420cde2e39be"
+     },
+     "slug": "the-valeyard"
+    },
+    {
+     "deck_id": "Fire_Lord_Azula",
+     "rank": 2,
+     "selection_inputs": {
+      "anomaly_count": 27,
+      "tie_hash": "69432270581b9b0e56db96dcd50476331e757930cb33d599016df04b933d4db0"
+     },
+     "slug": "fire-lord-azula"
+    },
+    {
+     "deck_id": "Lynde__Cheerful_Tormentor",
+     "rank": 3,
+     "selection_inputs": {
+      "anomaly_count": 26,
+      "tie_hash": "2a7b169d768cc2a1ab2b08ea54f6633d770be067d0b92fdc25252136469d4be8"
+     },
+     "slug": "lynde-cheerful-tormentor"
+    },
+    {
+     "deck_id": "Obeka__Brute_Chronologist",
+     "rank": 4,
+     "selection_inputs": {
+      "anomaly_count": 21,
+      "tie_hash": "2cec6396bdb6c3427073d320c74e4ad5b8e0dba7623bab41b34358f88d690ac3"
+     },
+     "slug": "obeka-brute-chronologist"
+    },
+    {
+     "deck_id": "Obeka__Splitter_of_Seconds",
+     "rank": 5,
+     "selection_inputs": {
+      "anomaly_count": 20,
+      "tie_hash": "4d7ececf98205c2615469996dafbcefccccbc770663332d9aa5cc230fccb9e90"
+     },
+     "slug": "obeka-splitter-of-seconds"
+    },
+    {
+     "deck_id": "Nicol_Bolas__the_Ravager",
+     "rank": 6,
+     "selection_inputs": {
+      "anomaly_count": 18,
+      "tie_hash": "53a6cc512e5301a736ffef5b6d0e50a0cd3a39e46bd95856e479e9f4e44fa312"
+     },
+     "slug": "nicol-bolas-the-ravager"
+    },
+    {
+     "deck_id": "Edea__Possessed_Sorceress",
+     "rank": 7,
+     "selection_inputs": {
+      "anomaly_count": 17,
+      "tie_hash": "57bdb025f67dfdf078babc976c5cec6942b5f6b050b71fbbe52605a19b098ccf"
+     },
+     "slug": "edea-possessed-sorceress"
+    },
+    {
+     "deck_id": "Dr__Eggman",
+     "rank": 8,
+     "selection_inputs": {
+      "anomaly_count": 16,
+      "tie_hash": "18aa4ec8e9308a2f5a91a10578b9272b0d34afd8492087f1b9e489099b8cc9d6"
+     },
+     "slug": "dr-eggman"
+    }
+   ],
+   "selected_count": 8,
+   "status": "selected",
+   "timing": "pre_m6_static"
+  },
+  {
+   "eligible_count": 5,
+   "id": "exception",
+   "quota": "all",
+   "selected": [
+    {
+     "deck_id": "Cecily__Bjorna__Lutri",
+     "rank": 1,
+     "selection_inputs": {
+      "exception_count": 3,
+      "project_authorization_status": "authorized_exceptions",
+      "tie_hash": "e3a19200ef8506b5c40bac8f089c3f1938758eeb46f73505e5fdbb1d74f85e19"
+     },
+     "slug": "bjorna-nightfall-alchemist-cecily"
+    },
+    {
+     "deck_id": "Sauron__Lord_of_the_Rings",
+     "rank": 2,
+     "selection_inputs": {
+      "exception_count": 1,
+      "project_authorization_status": "none",
+      "tie_hash": "401d8a5c1f23d82050b5da10910de589285287ec9dd698118c8dac3810c6c24a"
+     },
+     "slug": "sauron-lord-of-the-rings"
+    },
+    {
+     "deck_id": "Sauron__the_Dark_Lord",
+     "rank": 3,
+     "selection_inputs": {
+      "exception_count": 1,
+      "project_authorization_status": "none",
+      "tie_hash": "928bd199325cef26f8e6667b47a2717f8fcebf0ea33eb635584d24753b2b33d4"
+     },
+     "slug": "sauron-the-dark-lord"
+    },
+    {
+     "deck_id": "The_Madcap_Jester",
+     "rank": 4,
+     "selection_inputs": {
+      "exception_count": 2,
+      "project_authorization_status": "authorized_future_release",
+      "tie_hash": "4c848ef0b16c22cbd4597f6e0fa2e83ca7d8db0e10f4971ea729e1c4b615f583"
+     },
+     "slug": "the-madcap-jester"
+    },
+    {
+     "deck_id": "Tresserhorn_s_Lord__Returned",
+     "rank": 5,
+     "selection_inputs": {
+      "exception_count": 1,
+      "project_authorization_status": "authorized_future_release",
+      "tie_hash": "1a14c928a856761ec9d28bd8a10a9f22b0042fb1d6010eb3c1709e3c453208db"
+     },
+     "slug": "tresserhorns-lord-returned"
+    }
+   ],
+   "selected_count": 5,
+   "status": "selected",
+   "timing": "pre_m6_static"
+  },
+  {
+   "eligible_count": 2,
+   "id": "pending_release",
+   "quota": "all",
+   "selected": [
+    {
+     "deck_id": "The_Madcap_Jester",
+     "rank": 1,
+     "selection_inputs": {
+      "official_compliance": "pending_release",
+      "registry_state": "PENDING_RELEASE",
+      "tie_hash": "29994462ce36a810d3c1341061ac5d38faf0d42d0a8cb29ac0df68c43cf13c3f"
+     },
+     "slug": "the-madcap-jester"
+    },
+    {
+     "deck_id": "Tresserhorn_s_Lord__Returned",
+     "rank": 2,
+     "selection_inputs": {
+      "official_compliance": "pending_release",
+      "registry_state": "PENDING_RELEASE",
+      "tie_hash": "1112fdfc988b6cd633500ca8b1d6068de527640dfb455f877752b59e7166cac0"
+     },
+     "slug": "tresserhorns-lord-returned"
+    }
+   ],
+   "selected_count": 2,
+   "status": "selected",
+   "timing": "pre_m6_static"
+  },
+  {
+   "eligible_count": 13,
+   "id": "cedh",
+   "quota": 8,
+   "selected": [
+    {
+     "deck_id": "RogSi",
+     "rank": 1,
+     "selection_inputs": {
+      "ceiling": 5,
+      "ceiling_source": "grok_estimated_ceiling",
+      "tie_hash": "0045c38534d4d47a625b58177cb84b2d618e3f1a967d75f197d0bf658a04a2f9"
+     },
+     "slug": "rograkh-son-of-rohgahh-silas-renn"
+    },
+    {
+     "deck_id": "The_Madcap_Jester",
+     "rank": 2,
+     "selection_inputs": {
+      "ceiling": 5,
+      "ceiling_source": "grok_estimated_ceiling",
+      "tie_hash": "20625f7eac69a419eaa97aa8b3751084e1874629da2154718fc64e6ea5717c4d"
+     },
+     "slug": "the-madcap-jester"
+    },
+    {
+     "deck_id": "Kess__Dissident_Mage",
+     "rank": 3,
+     "selection_inputs": {
+      "ceiling": 5,
+      "ceiling_source": "grok_estimated_ceiling",
+      "tie_hash": "4c020c9fe698b85e4c7fa83907a672d6b2f0250976ddc458291a787566c0e6fb"
+     },
+     "slug": "kess-dissident-mage"
+    },
+    {
+     "deck_id": "Cormela__Glamour_Thief",
+     "rank": 4,
+     "selection_inputs": {
+      "ceiling": 5,
+      "ceiling_source": "grok_estimated_ceiling",
+      "tie_hash": "58ff2193d3b8695bc69858209b8fa56ee1a5f95271b9907646d1af6ac62a6391"
+     },
+     "slug": "cormela-glamour-thief"
+    },
+    {
+     "deck_id": "Evelyn__the_Covetous",
+     "rank": 5,
+     "selection_inputs": {
+      "ceiling": 5,
+      "ceiling_source": "grok_estimated_ceiling",
+      "tie_hash": "5c2d23d44b80c3eb7ba36406db5c789e67574881ae086f80d508d36fabd4188d"
+     },
+     "slug": "evelyn-the-covetous"
+    },
+    {
+     "deck_id": "Grixistax___October_2026",
+     "rank": 6,
+     "selection_inputs": {
+      "ceiling": 5,
+      "ceiling_source": "grok_estimated_ceiling",
+      "tie_hash": "605193dc519f5a61eed46d80dd8d58e00abfa5a4602afa543ead3169281bdd6c"
+     },
+     "slug": "grixistax-october-2026"
+    },
+    {
+     "deck_id": "Inalla__Archmage_Ritualist",
+     "rank": 7,
+     "selection_inputs": {
+      "ceiling": 5,
+      "ceiling_source": "grok_estimated_ceiling",
+      "tie_hash": "779c7adae2af042cd8c1330270c5f4e2b529f2121c2c3ac88954cb50b5e0d02b"
+     },
+     "slug": "inalla-archmage-ritualist"
+    },
+    {
+     "deck_id": "Mishra__Artificer_Prodigy",
+     "rank": 8,
+     "selection_inputs": {
+      "ceiling": 5,
+      "ceiling_source": "grok_estimated_ceiling",
+      "tie_hash": "874a8b85aa6bdb7484eeda7028f2e74dc401e367cf56e88971abb55f611b96c2"
+     },
+     "slug": "mishra-artificer-prodigy"
+    }
+   ],
+   "selected_count": 8,
+   "status": "selected",
+   "timing": "pre_m6_static"
+  },
+  {
+   "eligible_count": 62,
+   "id": "low_commander_dependence",
+   "quota": 8,
+   "selected": [
+    {
+     "deck_id": "Parnesse__the_Subtle_Brush",
+     "rank": 1,
+     "selection_inputs": {
+      "commander_linked_combo_fraction": 0.0,
+      "explicit_commander_win_fraction": 0.0,
+      "role": "supporting",
+      "role_rank": 0,
+      "tie_hash": "3ee672d26f10475788a30bca265f4ac23bbd1048093f59c4ef1769699668091d"
+     },
+     "slug": "parnesse-the-subtle-brush"
+    },
+    {
+     "deck_id": "Cecily__Bjorna__Lutri",
+     "rank": 2,
+     "selection_inputs": {
+      "commander_linked_combo_fraction": 0.333333,
+      "explicit_commander_win_fraction": 0.25,
+      "role": "supporting",
+      "role_rank": 0,
+      "tie_hash": "785d890b278f461edfb0cb19195f4cdbdc35aac4bd3083e1ed2294ef20cd1d49"
+     },
+     "slug": "bjorna-nightfall-alchemist-cecily"
+    },
+    {
+     "deck_id": "Sol_kanar_the_Swamp_King",
+     "rank": 3,
+     "selection_inputs": {
+      "commander_linked_combo_fraction": 0.769231,
+      "explicit_commander_win_fraction": 0.4,
+      "role": "supporting",
+      "role_rank": 0,
+      "tie_hash": "1f895af1bc5b51c8a2fbc03f494c69edf9c459f74fcea1897043e8ba3f480e87"
+     },
+     "slug": "solkanar-the-swamp-king"
+    },
+    {
+     "deck_id": "Marchesa__Dealer_of_Death",
+     "rank": 4,
+     "selection_inputs": {
+      "commander_linked_combo_fraction": 0.0,
+      "explicit_commander_win_fraction": 0.0,
+      "role": "significant",
+      "role_rank": 1,
+      "tie_hash": "0ce1c40baab7bfc7fd269ed6066b5d4c64fa06dc614e9530ac61c89164288123"
+     },
+     "slug": "marchesa-dealer-of-death"
+    },
+    {
+     "deck_id": "Marchesa__the_Black_Rose",
+     "rank": 5,
+     "selection_inputs": {
+      "commander_linked_combo_fraction": 0.0,
+      "explicit_commander_win_fraction": 0.0,
+      "role": "significant",
+      "role_rank": 1,
+      "tie_hash": "11f945d6aa258d54586964128cafa2347a5f97e7d838d40f0bb4736178ee37e5"
+     },
+     "slug": "marchesa-the-black-rose"
+    },
+    {
+     "deck_id": "RogSi",
+     "rank": 6,
+     "selection_inputs": {
+      "commander_linked_combo_fraction": 0.0,
+      "explicit_commander_win_fraction": 0.0,
+      "role": "significant",
+      "role_rank": 1,
+      "tie_hash": "b4c0e5125cde518058efeee6414f709487afb82b6e290b00924ffc4d3c6a2ee7"
+     },
+     "slug": "rograkh-son-of-rohgahh-silas-renn"
+    },
+    {
+     "deck_id": "Anhelo__the_Painter",
+     "rank": 7,
+     "selection_inputs": {
+      "commander_linked_combo_fraction": 0.0,
+      "explicit_commander_win_fraction": 0.25,
+      "role": "significant",
+      "role_rank": 1,
+      "tie_hash": "e17aeba8777fd7b5d5a5657308805d6459a25b12c4f24a5200d256ff79bbd321"
+     },
+     "slug": "anhelo-the-painter"
+    },
+    {
+     "deck_id": "Ashad__the_Lone_Cyberman",
+     "rank": 8,
+     "selection_inputs": {
+      "commander_linked_combo_fraction": 0.0,
+      "explicit_commander_win_fraction": 0.333333,
+      "role": "significant",
+      "role_rank": 1,
+      "tie_hash": "076bdf0f7856c568f37720d39858ddf9378320ae93fa83e7bb65dbd353392cda"
+     },
+     "slug": "ashad-the-lone-cyberman"
+    }
+   ],
+   "selected_count": 8,
+   "status": "selected",
+   "timing": "pre_m6_static"
+  },
+  {
+   "eligible_count": 62,
+   "id": "rules_sensitive",
+   "quota": 8,
+   "selected": [
+    {
+     "deck_id": "Abaddon_the_Despoiler",
+     "rank": 1,
+     "selection_inputs": {
+      "construction_rule_count": 2,
+      "exception_pending_bonus": 0,
+      "key_interactions": 10,
+      "non_verified_interactions": 3,
+      "rules_risk_score": 21,
+      "tie_hash": "3202da92ab0fe679b48124a0753d951f3f441895b97ec8491c5069b4605464fd"
+     },
+     "slug": "abaddon-the-despoiler"
+    },
+    {
+     "deck_id": "Cecily__Bjorna__Lutri",
+     "rank": 2,
+     "selection_inputs": {
+      "construction_rule_count": 2,
+      "exception_pending_bonus": 2,
+      "key_interactions": 5,
+      "non_verified_interactions": 3,
+      "rules_risk_score": 18,
+      "tie_hash": "10a55827beaca883c87ed0c2fc5eb04f381dd22e1b7b9d0904d28be8b3eeaf2a"
+     },
+     "slug": "bjorna-nightfall-alchemist-cecily"
+    },
+    {
+     "deck_id": "Evelyn__the_Covetous",
+     "rank": 3,
+     "selection_inputs": {
+      "construction_rule_count": 2,
+      "exception_pending_bonus": 0,
+      "key_interactions": 6,
+      "non_verified_interactions": 3,
+      "rules_risk_score": 17,
+      "tie_hash": "45ba2c91dd442e316d0275d7173287057204763a1af2815d80d984da3655c187"
+     },
+     "slug": "evelyn-the-covetous"
+    },
+    {
+     "deck_id": "Sol_kanar_the_Tainted",
+     "rank": 4,
+     "selection_inputs": {
+      "construction_rule_count": 3,
+      "exception_pending_bonus": 0,
+      "key_interactions": 5,
+      "non_verified_interactions": 2,
+      "rules_risk_score": 14,
+      "tie_hash": "12eec535b01550ab71f94b1e965cedbe8acf78bddbc9006f7ef22dcadfbf903a"
+     },
+     "slug": "solkanar-the-tainted"
+    },
+    {
+     "deck_id": "Tresserhorn_s_Lord__Returned",
+     "rank": 5,
+     "selection_inputs": {
+      "construction_rule_count": 3,
+      "exception_pending_bonus": 2,
+      "key_interactions": 3,
+      "non_verified_interactions": 2,
+      "rules_risk_score": 14,
+      "tie_hash": "66ef25bfe12969c0d8521c913b6478b83ca63718fdc74117c617088bfc020ec0"
+     },
+     "slug": "tresserhorns-lord-returned"
+    },
+    {
+     "deck_id": "Gwendlyn_Di_Corci",
+     "rank": 6,
+     "selection_inputs": {
+      "construction_rule_count": 2,
+      "exception_pending_bonus": 0,
+      "key_interactions": 4,
+      "non_verified_interactions": 2,
+      "rules_risk_score": 12,
+      "tie_hash": "a90b8f0ade9d8d3bedc42d4f75d6c0774b0d05d6922154ef4b652b9c1025276c"
+     },
+     "slug": "gwendlyn-di-corci"
+    },
+    {
+     "deck_id": "Ashnod_the_Uncaring",
+     "rank": 7,
+     "selection_inputs": {
+      "construction_rule_count": 2,
+      "exception_pending_bonus": 0,
+      "key_interactions": 4,
+      "non_verified_interactions": 2,
+      "rules_risk_score": 12,
+      "tie_hash": "cd60df21f8646f82dd06659358a20f3e7649d59f3ec546baf900a98dfd3ad93b"
+     },
+     "slug": "ashnod-the-uncaring"
+    },
+    {
+     "deck_id": "Admiral_Brass__Unsinkable",
+     "rank": 8,
+     "selection_inputs": {
+      "construction_rule_count": 2,
+      "exception_pending_bonus": 0,
+      "key_interactions": 3,
+      "non_verified_interactions": 2,
+      "rules_risk_score": 11,
+      "tie_hash": "47152647826c8f0e258f99765b9eb2faaf1c28f207d2e9d6ba068086ebe34d14"
+     },
+     "slug": "admiral-brass-unsinkable"
+    }
+   ],
+   "selected_count": 8,
+   "status": "selected",
+   "timing": "pre_m6_static"
+  },
+  {
+   "eligible_count": null,
+   "id": "high_optimizer_disagreement",
+   "quota": 8,
+   "selected": [],
+   "selected_count": 0,
+   "status": "awaiting_future_inputs",
+   "timing": "after_pass_a_b_commit_before_reveal_reconciliation"
+  },
+  {
+   "eligible_count": null,
+   "id": "major_change",
+   "quota": 8,
+   "selected": [],
+   "selected_count": 0,
+   "status": "awaiting_future_inputs",
+   "timing": "after_reconciliation_before_approval_ready"
+  }
+ ]
+}

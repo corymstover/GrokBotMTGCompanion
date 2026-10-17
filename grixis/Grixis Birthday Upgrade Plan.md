@@ -471,3 +471,12 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - Future-result strata are frozen now rather than chosen after results: optimizer disagreement is ranked by committed challenger-hash disagreement and swap symmetric difference; major change is triggered/ranked by predeclared win/package/swap/mana-change fields.
 - A deterministic SHA-256 tie-break seed is fixed. Strata may overlap; sampling is a minimum review obligation, never negative evidence about selected decks or a correctness certificate for unselected decks.
 - `human_sampling_freeze.json` records the byte-level policy hash and confirms M6 was not started when frozen. Later mutation requires an explicit superseding version approved by Cory.
+
+
+### Step H batch 71.2: deterministic sampler and static selections
+
+- `scripts/grixis_human_sampling.py` deterministically replays the frozen v1 policy. Static strata are selected now from committed pre-M6 evidence and written to `human_sampling_manifest.json`; overlap memberships are preserved while the total static workload is deduplicated.
+- Exception and pending-release strata select all eligible decks. Random/anomaly/cEDH/low-commander-dependence/rules-sensitive strata use the frozen quotas and ranking formulas with the frozen SHA-256 tie-break seed.
+- `high_optimizer_disagreement` and `major_change` remain empty with `awaiting_future_inputs`; their ranking functions are implemented and synthetic-order-independence tested now so M6 results cannot change the formula later.
+- Optimizer-disagreement inputs require committed Pass A/B hashes. Major-change eligibility/ranking follows the exact frozen triggers.
+- The generated manifest records the policy hash and selection inputs for every selected deck. No sampling record can decide a deck change.
