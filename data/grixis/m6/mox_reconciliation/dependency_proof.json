@@ -1,0 +1,573 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "conclusion": "25 affected decks: mana_timing, mana_opportunity, mana_resilience remain bit-for-bit equivalent after the classifier correction",
+ "corrected_nofast_manifest_sha256": "sha256:93c0e4d0a32fda7c81e8431bada896cd17b1d99ff87e629a90b9d9cc674f1f4a",
+ "decks": 25,
+ "does_not_refresh": "mana_quality_gain and other historical summaries; no canonical or historic artifacts rewritten",
+ "modules": [
+  "mana_opportunity",
+  "mana_resilience",
+  "mana_timing"
+ ],
+ "rows": [
+  {
+   "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:a0220e832cc11060da1b1a6ff4f5babcf0ba0e22f6f69c527ef048e1c723597f",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:f15cb366edc8522baf44d8e3b8573c5ec22e704ecc35a1d2035509a5e01bad3b",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:4f33c30c4a0600c4aff4b705dc8498c3d744d3fb6bb582f15ad14c273c65eaed",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Abaddon_the_Despoiler",
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:e485b380b1dc9a0186984bdc6d8007fd591f4de3e64194836cf12e5af7b14a40",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:00efb5a88232109cbee262ea55baf4653cb9c834ae7cb32b5792430b3bf4c7e0",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:ebf7343a08f7cc66739956c9ab0ce4d8fa67a550579e0b9633bf6e4c20313a32",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Cormela__Glamour_Thief",
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "canonical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:895ca387c36d0c47cc1aeec0ffa4d1cd5ef88224a4ebe2b8cd72c12f2853c813",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:9fbfed162061bf3e0d186c7c540ec6297750bd21ecec1acf3d7150d2e1c8e1a6",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:6bfb372ceb756a290c0bc06e06eddaa7f1c2719851026e34e30d49a3d1213df8",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Crosis__the_Purger",
+   "slug": "crosis-the-purger"
+  },
+  {
+   "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:3e33e984268098d6c26992b48ffa6421567c9113c46f5012e9107394697d00da",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:177eaedb314a623f55085cd8810ccf697f22d58d4b65ce2f2253d4eec0200a7a",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:03516b6a6a5272016c6a80c3a9372df244fb4179df35a1015cd539983281fd59",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Edward_Kenway",
+   "slug": "edward-kenway"
+  },
+  {
+   "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:4fb150e130f03b5e10aa7c62a705435de3b15b991ec49bc87058ba769fc42721",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:86d2b645ed1382a514ed80dc5f900c21dc0ea11a9dd1022127bec5197db77b64",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:579c64999311872ff439ed3457d458f75065aba080d12b89df5a2e534c41891a",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Evelyn__the_Covetous",
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:eeab936aee5a6da5c503bd65aac1da87585857eff71fb022f4bf8835e71ccf72",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:613a829a1c10f2f620e06ca561135d7dc1adaa99c6ad82e848ec6831d2b72d63",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:b2c479864b62493b37e66009ae8665545e9d22605ca5fe770040c626ccca6dbb",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Fire_Lord_Azula",
+   "slug": "fire-lord-azula"
+  },
+  {
+   "canonical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:c84fe3619c33081521b475b7a8ab789dc39eba8569c64822bbc0c9fec875d49c",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:c2d929f97337f5e080ce09968b3a6130c7eaf9fc5c610b0ca74cf1a4733d9ec6",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:2048876fb969149778949697077b4ece57dceb33fa0c61ab68009846a733d06f",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Grixistax___October_2026",
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "canonical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:472b557460f01156ab57608f021cd24f4d41226b9a99a1dfe1cd30a76ce8d4a7",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:263546be2140ac5bb1922625ce071fd8403644bfdbc4c93dbc0af6a3334f817f",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:dba86dead5fe8cca495141382b796d7dac5a9b12cc42119b50f957125025b1d5",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Gwendlyn_Di_Corci",
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:d698129ee4b4a9fa55a2a08517e786cf7a3e42b669366ae99b4270778fb69369",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:ad74b78b39440dc143e0647579344b9a4322ed9b023c43d6d02aa86b46788b5a",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:4952cd2bd0a2e1b5edf83a4f4bb314d6904939d6407b1e2d876b9b1829b69063",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "canonical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:64ab48b83a37f689edb0b5bb1a95774115acce4d191a179b72fb30e052b7b607",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:6baa5104524885914dd6a734177b1e7406f2ecd01b4ff767ddc81cefa23235a3",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:aca14d15823c6b0a9090b692337b6336dd215aa6e35ae849290fd2da29b39fcf",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:811d9e3f7e16f273671e30b493f0e5e5f878e3ba484eb70f2370f75048812eba",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:09644f3aafe53f41814e85dddb32bb94f8440053332823406e49819b27414071",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:f3edd97e0941fab3dcf48cfef2a63d60e9827eef365372f0f5917acc9823bd75",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Kefka__Court_Mage",
+   "slug": "kefka-court-mage"
+  },
+  {
+   "canonical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:37e0cc032898894fff20b456d7cbd9214ad92a5939120e164d92d9f06056ddd9",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:0b63d5cb967c3599eaf0291de00cd28203716684887777562fa97c4258720275",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:61e3f0888e550e27392b6a6f38007a61aa597db288cef15407db564b6d260f5a",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Kess__Dissident_Mage",
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:cc007902ca8130a8d1c85ecb7a616bcef417aeab7023e82caf45a0f1831abffc",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:05568c6f006cbef0b579f1e9e4debfbf2a08d56a86f2dc362fea8212e40a7c69",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:ef7f1c0aab9b06ce499d8a4979a00a857d5c6ff9cd636db8a848865cd6c7379c",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Mai_and_Zuko",
+   "slug": "mai-and-zuko"
+  },
+  {
+   "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:905e86be44515902d239bbc8fd00dd00a9be91aaee186e3bebd43c1a1144fd95",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:12d6ad5c2a9d1d0a2c1af59c4ffb751086afc6bc71f85556d343a0a448412290",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:2ded95bb30101c8bebff5def4fd5ca25996cfbb60f4545daec06b0a042083132",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Mairsil__the_Pretender",
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:9af8d49738cc2180f9eba7528784a3d2543985a35957d3919786f280b474b41f",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:d870de03adf14cb4fb410129057535ada622882ce90c45e46524a93b202b0288",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:bc9753fef71607d8ce9863bedab425f88fdbdfb41504eb46fdc1ee500d596ccf",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:5ff93adb5d66c546f5b63311d71e276b47586f21987a47f062db0f1caf420d0b",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:a8beaf7328ace3f17af898650d975a72fe0d1b2985b983092918d3c0ce808c69",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:f774068db31af6ab3e62cb8f020bb46000dab865c523ee04c28a32a59afe57de",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "canonical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:92182d5a65588abc56e3c7c41772ed48b137dbdf9ffd8f1d7b4c1176efccf6b9",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:0da44c357f237b4f3cc8ba851738ec25ba8043d2a864d9ff5877ea2d5ab00acd",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:255e6b29085b7686a0de2ca40336c7679d8b6713e6172e321f451b7836cfa51f",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Mishra__Eminent_One",
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:ed06e2f39b42196fedf7c3598906b404d9940ce6f00fd891986a909c996cd0fc",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:9f29a4b9e62c880065406897ef30e70dfdd55c6c634be3f4b3028725baef6eb2",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:7c0f8accc685f8b27c496618686ad652521f8bfa9d1b4a513fe333a1aea33cdf",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Nekusar__the_Mindrazer",
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:88e23d5fe430ddc0abc312013c9e212b90feebffd44e9ea519ef0776f1330d4f",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:b727c60dad61d7561f009822cc265580ee5b35fd144a59118b388cfadb409e3b",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:6d70b22c293f2783a6a9e45e71b69a118ba36ff7d629a85748912f133c413778",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Nicol_Bolas",
+   "slug": "nicol-bolas"
+  },
+  {
+   "canonical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:317a134e1edf773da7a96d629e227c14d0f3875597af7407484e2e90904040c5",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:b2cd6f77bc3bb3b680583596aab46cca95db5b0ec40c870d0bfc12a21d411102",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:744279ddba7c300c8eab4e29a9e177dcdf8fcbbc37961b6c1a0e46851a82dbff",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:bbccdbd161b84582c8a3c9b82bc998a467a423956916f5beedf39b619c919f2d",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:68b897d779c9819769266bd5fe509cff483997355b5be3435b4de2cad3fda27c",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:9037a2a0aa078ed539193964884ddb1feb1edfd09854358fa397f8777295a4e0",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "slug": "norman-osborn"
+  },
+  {
+   "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:00fa46b64d8645050f133ec1101e22c2b2f6c815387c76e84b0389db615f02d5",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:1d5a499df85a2c95f8c207b80882cecfbd4f09997caad6e8ba8726353040ec39",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:c827f31a412bba1f8ef0349ae2becb3d9f26f13d486617a4b65cb47632cecab8",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Obeka__Brute_Chronologist",
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "canonical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:b3d1e0d643a84bd11b661f4101dce04d558bba397369da0737877787d691e973",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:53fdde0293a9556fa742ba27dea0492d4622f68b6e8b14004871b91530f46da2",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:19c53cd8a27ba031d9bda32c6ee79db4ee0f78ce2e4af3f328ec1dc2398f19f6",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "RogSi",
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:88fd270140ac64298547becdf339b05218a109a0143c13e18f529632de9cd9af",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:fce89c645accb9f8c84f893e17c99e6814dd11bec09ddbe438d769a63feb4814",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:7b97a939a8b207fff9cb5f1f9b47351eb3436838f3ba8ce29c5824241fd3dbba",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "checks": {
+    "mana_opportunity": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:8e0d22d0723dc8c297bf984949e815e2e2d64971f3f2c8a8daaa5750857dfcab",
+     "recomputed_equal": true
+    },
+    "mana_resilience": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:4684881bfe3a79f71b931aa89eef437b61ae600e293a88aefb69b2ebfa67f8a6",
+     "recomputed_equal": true
+    },
+    "mana_timing": {
+     "changed_fields": 0,
+     "historical_sha256": "sha256:98364c974c91b38d8718fb7f36742038d3c38fa5511daf19d5f10b92eab78884",
+     "recomputed_equal": true
+    }
+   },
+   "deck_id": "The_Madcap_Jester",
+   "slug": "the-madcap-jester"
+  }
+ ],
+ "schema_version": 1,
+ "scope": "Structural dependency equivalence, not improved card win rate or deck approval",
+ "stage": "M6_Chrome_Mox_secondary_Step_C_dependency_proof",
+ "static_manifest_sha256": "sha256:d59050802cda5ca5c1cfcabf9604b3c56b098ec3f57c767ec52776b4f946178e",
+ "verified_existing_outputs": 75
+}
