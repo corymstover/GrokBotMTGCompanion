@@ -243,6 +243,8 @@ def classify(d, deck_ci):
         colors |= ci
     basic_types = [t for t in BASIC_TYPE_COLOR if t in tl]
     colors |= {BASIC_TYPE_COLOR[t] for t in basic_types}
+    # A deck-context source record should never advertise off-identity colored mana as usable mana.
+    colors = {c for c in colors if c == "C" or c in ci}
     low = text.lower()
     tapped_match = bool(re.search(r"enters(?: the battlefield)? tapped", low))
     tapped_uncond = tapped_match and not any(x in low for x in ("unless", "if you don't", "you may pay", "if you control", "as long as"))
@@ -252,7 +254,8 @@ def classify(d, deck_ci):
     utility_land = land and bool(nonmana_activated or beneficial_static)
     repeatable_nonland = not land and not flex_land and bool(colors) and ("{T}" in text or "tap an untapped" in low)
     ritual = not land and ("Instant" in tl or "Sorcery" in tl) and bool(re.search(r"\bAdd (?:\{[^}]+\}){2,}", text))
-    one_shot = not land and bool(re.search(r"Sacrifice [^:]*: Add|Sacrifice ~: Add|Sacrifice this artifact: Add", text, re.I))
+    # Do not mistake cards that merely create/grant Treasure abilities for themselves being one-shot mana.
+    one_shot = not land and bool(re.search(rf"Sacrifice {re.escape(d['name'])}[^:]*: Add", text, re.I))
     fast = (repeatable_nonland and d["mv"] <= 2) or (ritual and d["mv"] <= 2) or (one_shot and d["mv"] <= 2)
     return {
         **d, "cost": cost, "land": land, "flex_land": flex_land,
