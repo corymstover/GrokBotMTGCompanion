@@ -1,0 +1,1294 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "counts": {
+  "claim_eligible_from_M5": 0,
+  "hypotheses": 98,
+  "positive_other_or_unknown_coverage": 5,
+  "positive_proxy_verdicts": 65,
+  "positive_unmodeled_swap_effects": 60
+ },
+ "deck_id": "Abaddon_the_Despoiler",
+ "items": [
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 1,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:40f7e9b89e9e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 2,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:ef288a12ddb8",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 3,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:fb5e4ee80c19",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 4,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:0ce51b9d077c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 5,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:8101687e402e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 6,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:6432e5a5e524",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 7,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:233e4c4842b1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 8,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:f2e3f08ecb7d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 9,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:ba42cedcaa2f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 10,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:a94c44712fd6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 11,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:1eb1c0ea9334",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 12,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:655b84003664",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 13,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:d17609747acc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 14,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:5ac285a18b7a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 15,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:4c730bb08aec",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 16,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:2ddc10abdf77",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 17,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:f042c87e6e25",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 18,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:e03993a91dd5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 19,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:c968f6d13e33",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 20,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:3a47843171a1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 21,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:bf73beb77b03",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 22,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:473ff77bd648",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 23,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:6649f3828177",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 24,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:9d3d5ee0e25e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 25,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:aba40f15116f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 26,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:d33a57451017",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 27,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:c19d306c0a89",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 28,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:c877ad57943d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 29,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:3735a01329b1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 30,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:4947451a8b38",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 31,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:45f7597f51d6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 32,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:4bb72a3b1e56",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 33,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:1ebc923c1da7",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 34,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:9db35ecfd4d1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 35,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:8c2692798997",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 36,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:ad35c239c30a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 37,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:e4166fdc2d89",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 38,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:0413b89b013c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 39,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:24d3fc1b5a24",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 40,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:d7f615398a83",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 41,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:511921b450ed",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 42,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:5e5204ba4044",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 43,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:ae5626b8a462",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 44,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:661f7b9b8a54",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 45,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:4b6f1578aaaf",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 46,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:15b7ad0f2f10",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 47,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:4433178b13db",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 48,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:b8c5af2bd237",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 49,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:171a976b0f1f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 50,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:3ff7c14b5782",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 51,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:d096604c09fa",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 52,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:dbd469562eea",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 53,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:f0fa67084d10",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 54,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:e41dede3c37e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 55,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:268a7ecc79b6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 56,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:e7899508f4aa",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 57,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:3960d66cebdb",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 58,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:98ee0bbd44e5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 59,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:31aa2924e1ce",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 60,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:8be8462cd1c6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 61,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:23f4a51d478d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 62,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:f99decb19881",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 63,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:1b2946245eed",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 64,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:3e2773dfdbec",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 65,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:a422bb219722",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 66,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:05fa5a31bbd9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 67,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:19cc391585d8",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 68,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:87417c24c794",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 69,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:adbc9b094818",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 70,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:b26d1878618d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 71,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:2110ba388ede",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 72,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:17d8cf801fd4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 73,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:fe788bef5437",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 74,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:a82883be62cc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 75,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:8e16fddcce96",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 76,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:7c2d9d2dff36",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 77,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:ca979421a99d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 78,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:febcccc050c5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 79,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:443bf25a28c4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 80,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:a19fab6c3afb",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 81,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:b15e4da7e6c9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 82,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:51fc1ffef16a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 83,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:75060c1a0c28",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 84,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:c2f078af7254",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 85,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:ed0467229ea8",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 86,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:c9182dd51ba0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 87,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:6d8de02bac23",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 88,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:b196e37ba53d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 89,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:314a40ad52ff",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 90,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:ab3edf4b8367",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 91,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:49ad2763f0f9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 92,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:1c6ff27547f0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 93,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:3105f00742f1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 94,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:26d15fbf38bd",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 95,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:46c4cbff4b02",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 96,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:b41aaea409a1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 97,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:c88a77424a79",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 98,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:abaddon-the-despoiler:m5:27968b4c963a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  }
+ ],
+ "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "packet_sha256": "sha256:9806693fca1b50ef5415ab65f48e27766e1a5c9feb0f3f47de5099ea9a50cc84",
+ "schema_version": 1,
+ "slug": "abaddon-the-despoiler",
+ "stage": "M6_M5_proxy_coverage_guard"
+}

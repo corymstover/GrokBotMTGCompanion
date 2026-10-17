@@ -1,0 +1,4516 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "counts": {
+  "claim_eligible_from_M5": 0,
+  "hypotheses": 370,
+  "positive_other_or_unknown_coverage": 14,
+  "positive_proxy_verdicts": 66,
+  "positive_unmodeled_swap_effects": 52
+ },
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "items": [
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 1,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c518952f1985",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 2,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:dfc0996dbc6f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 3,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:64aa863aa89a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 4,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4d91c5519014",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 5,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:217e55a1ecd0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 6,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:57b0045c7738",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 7,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d6c8e50e2e91",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 8,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1b6965bd6b26",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 9,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6e339b02b1a3",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 10,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:92f69cc16ca8",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 11,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1f8ae6bf69d6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 12,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:58e3361bab03",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 13,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d274b39899ff",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 14,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:52b0d832b761",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 15,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c850a038a68e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 16,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:de530fb69fc4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 17,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:96576b27f49c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 18,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4ec637507390",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 19,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:40916ce5f7d4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 20,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9adee6df4114",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 21,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9da970ad6f69",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 22,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:2bd00963ed38",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 23,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6cdea1945735",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 24,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:781701b5f7ac",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 25,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9f1fae8214a3",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 26,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d2028985c019",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 27,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8ed16b1412b9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 28,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9e54b1e38ac7",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 29,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:50d9e4c06167",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 30,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:970064dd8421",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 31,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b9e520aa547e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 32,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d90ece26297f",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 33,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9a8556c9a90d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 34,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b0cedc4c0dac",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 35,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1c3086bcb1b6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 36,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5d83cfccb6ca",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 37,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:12f11206e882",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 38,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:264fab977d60",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 39,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4c892a9b36d3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 40,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:12055f3a8474",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 41,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:271bc783aae5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 42,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a31e584e5306",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 43,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f9fc95d07999",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 44,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7081487bea08",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 45,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:294fcc6f1f9c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 46,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:69aebac158f2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 47,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7c53af905da3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 48,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c623700dd06c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 49,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1b0145396508",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 50,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5267f77722ca",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 51,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6c1c94bdc2f4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 52,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c503efb85cb5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 53,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:854d49534882",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 54,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:22df067c6817",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 55,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:417f3f634c1c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 56,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:99c3a5a00dff",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 57,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:61f0dacf53de",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 58,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ad7f175c020c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 59,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:907832c45f93",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 60,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:46151826503d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 61,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:475661c242f0",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 62,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:94d772650a0b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 63,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:0c8a2fa58f31",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 64,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f2f4560466d8",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 65,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d14ce9050e2b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 66,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4613c4bb1938",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 67,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1d5472f68221",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 68,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:fedd5204ee0c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 69,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7eefd3ec862d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 70,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:70560806b91c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 71,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8a302ef7b63a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 72,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:489d4d0886b9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 73,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a71870b17cca",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 74,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ac94ade27263",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 75,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b25813b8eeb9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 76,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:601c2027e0b1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 77,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:015d8c19954e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 78,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4aebb60a1e09",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 79,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4e0b738357fc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 80,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a2469e90ef1d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 81,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4e65bd3bbd08",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 82,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8049a9f78c14",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 83,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:94ef2477348a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 84,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:35924b8ef5ce",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 85,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c78080b3a624",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 86,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b9c477098445",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 87,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:260b8aef874f",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 88,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:89b6c8bafde3",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 89,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7640ea0af3fa",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 90,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ffda70b1a7b2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 91,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5ae70d9a5be9",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 92,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:3a6d99ea2747",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 93,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6048e5f0e9e5",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 94,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ee6c95d530b8",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 95,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:43e3289bf0a9",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 96,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4e14199720aa",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 97,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:01cd2fc57485",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 98,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a21748994999",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 99,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:58790af1fd20",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 100,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9e47fb9d5c47",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 101,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4000477d9b07",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 102,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d281391885b5",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 103,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7cf3e4342476",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 104,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:851ae3c6e94b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 105,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:655b12b5f13f",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 106,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:dbf1d5afdc57",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 107,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ed6d05ef6db0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 108,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d889374b8e21",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 109,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c4fe96a30e34",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 110,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:0ed930f59164",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 111,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8b6711cd2329",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 112,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:de7cefedef3f",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 113,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b7ea33cc5422",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 114,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1fedafb0fcd9",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 115,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:3af6b2cb5579",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 116,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:38177516ec7a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 117,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6ecb115ed616",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 118,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:0cbadf4b38ab",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 119,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d211a40241af",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 120,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a9ac05f3a17d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 121,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:13880453c8fc",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 122,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:63a08dd13de9",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 123,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:edb25a47407a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 124,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ebe592d825e6",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 125,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9cde806522a3",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 126,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9042e134a6e0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 127,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:61145d7a80d1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 128,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6353eb23365c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 129,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a0ad0b959136",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 130,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:367c5dde8e29",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 131,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:99b91db2d95f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 132,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:22abfd613d48",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 133,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a5f0c101ffd9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 134,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:dea07285e84e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 135,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:dca41bc9982d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 136,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:79608ff70731",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 137,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:22c36629e412",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 138,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:07699f583b3b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 139,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7867508c58fd",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 140,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1475bc196b1f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 141,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:955d7c69fd24",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 142,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:19e4345cd65e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 143,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4ffddac2d215",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 144,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:395759e707a8",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 145,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8d0c06bc54c0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 146,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:97eb3f7e1609",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 147,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4e08e0685b55",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 148,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:663435d1c99e",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 149,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a2539bb3c84b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 150,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:963fa81d994c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 151,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b400d4fc458e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 152,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f333defb65c2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 153,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7ffb82af0d8b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 154,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:51175b79ca8b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 155,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:832d7d945329",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 156,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:507892c04279",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 157,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:db0e9dc22675",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 158,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f6ed384abc22",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 159,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:eebf298bf58b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 160,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d657bcb485df",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 161,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:44b8bea55c49",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 162,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:bf180f8420fa",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 163,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d03e84d3273b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 164,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9ad1c9b49f42",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 165,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c140394477fb",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 166,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:43675effdf13",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 167,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:593792684a8c",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 168,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:cb768cb7999d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 169,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a2b6293223fb",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 170,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a728c9387186",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 171,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5f8417c38ae4",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 172,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:95fc44f44d35",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 173,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a32af16883a1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 174,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5355e9fce184",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 175,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d194633a7f32",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 176,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6cfec59861f3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 177,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9bf6193a181a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 178,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:2b9a656bf9bd",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 179,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:96a2e023b7c4",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 180,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:634eacb35fa6",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 181,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:55c68c1d8196",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 182,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1a472dc91e11",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 183,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:15de14ee6929",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 184,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:48d4ef8beb29",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 185,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7077cd4f4331",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 186,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7aa40c4958d2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 187,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:2cb37783c070",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 188,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:60f8f1b4969a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 189,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:190ccb7d0d3f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 190,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:abb3deb3b091",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 191,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:633456820a69",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 192,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:71dc3b6b4eb8",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 193,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:224ae308d3b0",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 194,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:83e2a248e4ac",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 195,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a45b6f17f883",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 196,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:e8b704b9d404",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 197,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:156903277fb8",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 198,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:14b5feef59aa",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 199,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:cd45b49532c1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 200,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1108de8f8252",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 201,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a3b72af0ca55",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 202,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4db04bbdc6de",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 203,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:248c51548f33",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 204,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1152cfd71b7b",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 205,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:193f9a329be3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 206,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:42877d898937",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 207,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c2cea114f210",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 208,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:18a68037d1ac",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 209,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:fe44d05db7aa",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 210,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6c9845fc8428",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 211,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c0373211b189",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 212,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:71581a340a47",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 213,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:06d94d5c1c3e",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 214,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c88411f62a38",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 215,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:43d5c58dbb1e",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 216,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:e9a0986a6fe7",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 217,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c941cd2508fa",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 218,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:081647cf1024",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 219,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:e64f71265728",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 220,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:0d083ce6faf7",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 221,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:63da5099eb17",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 222,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:46e3696e4166",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 223,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9595b39536c9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 224,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:fdfc56ef1ee5",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 225,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8b03a00ab4ed",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 226,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:99ecc49cda1f",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 227,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ed0da383991e",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 228,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:22ab7a216c54",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 229,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:501093ed5c91",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 230,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:35c4b5fd3fa3",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 231,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:97681e4b9de6",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 232,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8741bb34628e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 233,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f784326e340e",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 234,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c9b180ea10fa",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 235,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:79e29d8ad3c9",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 236,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:60f452eee763",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 237,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5b092f67c4dc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 238,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:3d0314f470cb",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 239,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:69d023bcbea9",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 240,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:658bcb6676c0",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 241,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8cf95cc01823",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 242,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:3e0635e9d074",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 243,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:bc3abff4f3f9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 244,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:58b7e57fea37",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 245,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:3667a2502301",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 246,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7245b5901365",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 247,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ac1a1bf7e44c",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 248,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a2accae39f5c",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 249,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b5ce1ff6f920",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 250,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d237057f68f3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 251,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:20227a2a83e2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 252,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5f8583110476",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 253,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ee91ee234162",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 254,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:35c2c0cab7e2",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 255,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f1c72756ae10",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 256,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b491e8604626",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 257,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5de314f8bdae",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 258,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b6f82b89ee9f",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 259,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:3b079136f8e1",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 260,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:0b7d1ab9d11a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 261,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d7050c73246a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 262,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:997f8e00dac7",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 263,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:487c24ef41b5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 264,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:0f3c9dfd877e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 265,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9c71451fc395",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 266,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ca1c0fb05a89",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 267,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b8b0230d7f7d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 268,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d8e1f1e25437",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 269,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c8ffe5845d4d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 270,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7a1444f62d3f",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 271,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ae09fd5e0c1d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 272,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1691a9333b35",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 273,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:29953b36f17c",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 274,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:45a31f696c77",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 275,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d014ee46461e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 276,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:18726c958541",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 277,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:660eb553c5c6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 278,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:3313e894d8f3",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 279,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:aa183da5bc31",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 280,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1bb11522fcca",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 281,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8aac9fe6d52d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 282,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d40afd547460",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 283,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a7ab3578adbd",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 284,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:912d15a4478a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 285,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:38ff8750e539",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 286,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:af599c9ef316",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 287,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:df9128a852d8",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 288,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1d19d3706a62",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 289,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:e62bc754f79c",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 290,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b793ca17b9b9",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 291,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:13a203e7a2b1",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 292,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:428bef3bf135",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 293,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:47d9036ba000",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 294,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9ba1a79813ab",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 295,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d5cab4d9a83b",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 296,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:9bfafdd9b36c",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 297,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d38a610c87b6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 298,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:98bac7c8b8af",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 299,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1900534a1a80",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 300,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:1c6fbd564915",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 301,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b312ee467131",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 302,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:4df2f15375ee",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 303,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:3135a24e66ae",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 304,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:531d627fe121",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 305,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f1118d0935ba",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 306,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5ccef5e60161",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 307,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:54df2ecd1f00",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 308,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c1d50f6fe978",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 309,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:dae923fc9800",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 310,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:998c29919fa7",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 311,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c71dbecccdf0",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 312,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:04fb45ffadd2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 313,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:2b0c5296e8e5",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 314,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7f6ec9f43268",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 315,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d18c99a44870",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 316,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8b13a6510f0e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 317,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:2964593d1828",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 318,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8b5d41e35408",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 319,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5a6a3e7f8c0a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 320,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5c181a6cb247",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 321,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:2a4b2c5c4bde",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 322,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:b474642fae9a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 323,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f0a56b8f8a23",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 324,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:2c4eb6f7831a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 325,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:fb18e0b5c504",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 326,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:7371d697b579",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 327,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a26e64960a4d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 328,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d0daf9133ef2",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 329,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:2b44c8b41c54",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 330,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:cdab782a1aad",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 331,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:25e6127af8f0",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 332,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f545171ff2b3",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 333,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c4626ed2f310",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 334,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:ae979fba1d2a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 335,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:c440ed3e7c30",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 336,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:68f51c7ca800",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 337,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5962f66c8648",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 338,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:bc0d8a47c907",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 339,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d2731dc037c6",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 340,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:d95842590127",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 341,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:cd953bea914d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 342,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:e4e0d9e6d64a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 343,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:5571c3f8a90d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 344,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:e834c6400419",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 345,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:e62eee863867",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 346,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:86d1d5618dbb",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 347,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:552b8639e8eb",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 348,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:dc8725ba8497",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 349,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a522b04eeeb9",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 350,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f96f394dd881",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 351,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:47d88ce95451",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 352,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:eaabc045d0e0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 353,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a39f15e41a0b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 354,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8304b51d4e87",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 355,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:3685e1a75baf",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 356,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:665911f8e3c9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 357,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:183aa13e267c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 358,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:e3235db47f66",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 359,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:495295fc2c1e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 360,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:a232ce6ebd55",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 361,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6019d8966c06",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 362,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:02e424c287b8",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 363,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:8659ab88eeea",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 364,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:2efa0dbbfe2f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 365,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:6514572007dc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 366,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:97b53e9ebcd3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 367,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:0f6057ef150d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 368,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:f7f008a9a6f1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 369,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:26fe9f77d47a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 370,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:inalla-archmage-ritualist:m5:20f3aad23155",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  }
+ ],
+ "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "packet_sha256": "sha256:b05f86f7a9b5f44545d353b6b122779418e728b3a3dcabc80c9f666eeb9dc436",
+ "schema_version": 1,
+ "slug": "inalla-archmage-ritualist",
+ "stage": "M6_M5_proxy_coverage_guard"
+}

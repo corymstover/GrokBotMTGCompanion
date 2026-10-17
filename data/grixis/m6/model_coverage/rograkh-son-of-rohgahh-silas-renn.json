@@ -1,0 +1,685 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "counts": {
+  "claim_eligible_from_M5": 0,
+  "hypotheses": 51,
+  "positive_other_or_unknown_coverage": 0,
+  "positive_proxy_verdicts": 13,
+  "positive_unmodeled_swap_effects": 13
+ },
+ "deck_id": "RogSi",
+ "items": [
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 1,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 2,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e8041498872e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 3,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8b466305dfd4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 4,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:57683af729ec",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 5,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:84d56b21de69",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 6,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a98b57785b03",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 7,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:04a87b6a7317",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 8,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:bc27e6463f98",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 9,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e7114d84c4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 10,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2c433fab434a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 11,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:af93d55cb4c6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 12,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:687b5159bab7",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 13,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:44ffcd0417aa",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 14,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:be8b6350c7a6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 15,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:dd2fa23531ae",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 16,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:116e4cbfbace",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 17,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:52ccfb269061",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 18,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c211d450a50c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 19,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8e29237dd462",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 20,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:3495f5883952",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 21,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b30832b7103a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 22,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:9c0ba7b4db04",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 23,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c553a6261f25",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 24,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7a7900f43d19",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 25,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a9fc59022ffd",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 26,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:f27f480030f7",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 27,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:45a260d3b1f6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 28,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:13cfeea48f47",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 29,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:510ebebff89a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 30,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:9ef4f3fe6ca1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 31,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c39acfe3081b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 32,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:1e938a71e3cf",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 33,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:de4f2f714086",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 34,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:4018891099e6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 35,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fee1707d0313",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 36,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b68b3fbd025e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 37,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:03df05863df1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 38,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:659ce8811a95",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 39,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a884ce56dbef",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 40,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a19a6a6d7c10",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 41,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:ce240d6f6bc2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 42,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fb559ce374d0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 43,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:34b0e8d72c0f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 44,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:efc1677c5890",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 45,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:1aa0b6f9ff68",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 46,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e336fae7debd",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 47,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5df5d40b0129",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 48,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fbe8e16a6efe",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 49,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:30b98cc74a1e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 50,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:39570eedaad1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 51,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:16d20ef7c667",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  }
+ ],
+ "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "packet_sha256": "sha256:aea6a7550b56e5240e97e533bc88c6933ff1aaa2c81656219f7f9d95c0e135f1",
+ "schema_version": 1,
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "stage": "M6_M5_proxy_coverage_guard"
+}

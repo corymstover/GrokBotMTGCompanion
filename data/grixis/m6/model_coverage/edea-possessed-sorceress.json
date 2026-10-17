@@ -1,0 +1,1608 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "counts": {
+  "claim_eligible_from_M5": 0,
+  "hypotheses": 122,
+  "positive_other_or_unknown_coverage": 7,
+  "positive_proxy_verdicts": 12,
+  "positive_unmodeled_swap_effects": 5
+ },
+ "deck_id": "Edea__Possessed_Sorceress",
+ "items": [
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 1,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:8a58f9be6ffc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 2,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:5f2787335006",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 3,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:bbb754e36f5e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 4,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:5cd74a4f8a64",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 5,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:4c2a5a2f1c00",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 6,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:e368b27e8c84",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 7,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:f37a5d51e914",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 8,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:4c96b310f47e",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 9,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:458b5d6939db",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 10,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:216bd5076c42",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 11,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:8d5eb69ab9c1",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 12,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:8bea507e8363",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 13,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:98219c8d9230",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 14,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:5ec6297d47bf",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 15,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:169d541155b4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 16,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:ed4ae4f28f81",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 17,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:ebdef0d5f4a0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 18,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:2f80b37dbe1e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 19,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:b840d42849b5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 20,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:61a6e96f110c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 21,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:a4fcc687d826",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 22,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:493cbdbbf472",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 23,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:94fe5fc8c8dc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 24,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:8a386d9139be",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 25,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:6f772b1ade26",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 26,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:8230b82e5cb5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 27,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:a98a8b340d4a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 28,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:7205bf059c0d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 29,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:02f693e71ea9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 30,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:b825561d35cb",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 31,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:1a2795367a39",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 32,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:f7ced47b3f0d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 33,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:67d462b690df",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 34,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:fc589c1300b3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 35,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:0206d6121131",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 36,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:42d60062d194",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 37,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:900801524bae",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 38,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:b5ba7c0fa01d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 39,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:b0d56686d344",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 40,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:e1f9ab8dafed",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 41,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:29740953398f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 42,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:07cbfcdc11d6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 43,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:4d5f56a4dc66",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 44,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:3407109baa14",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 45,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:c85dffd5ef32",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 46,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:9f638aa96c28",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 47,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:22564fd85a42",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 48,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:ff466050daf4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 49,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:e107fba355c7",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 50,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:cd168e5d1518",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 51,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:7fbe4b4d04d5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 52,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:df8b24b16e7f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 53,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:d08537cf87cf",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 54,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:270a09211a11",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 55,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:03db2fce1741",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 56,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:2fd35bff4571",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 57,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:0e90684a24c5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 58,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:b6bf029885f4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 59,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:eeb3793eff91",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 60,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:56e45707a5d0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 61,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:32275fc177b1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 62,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:d7700e2c6249",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 63,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:a7cc5a3d1db0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 64,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:2b54ea9fd54d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 65,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:9ae97a8116f6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 66,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:2f9dacdc09c9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 67,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:28fb6fcded8e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 68,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:c3813a7667c1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 69,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:20a239982ec9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 70,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:73bf7155866f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 71,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:02cfa97147ed",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 72,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:1d7ac45a5302",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 73,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:1b3a4cdedcf3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 74,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:4c9e8467c86b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 75,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:ecc358c11e3e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 76,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:66513b440edf",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 77,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:ae84ec70ff40",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 78,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:5ee5109ada37",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 79,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:226df82876e6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 80,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:2dc22b49a0e9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 81,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:9b0c64e143ee",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 82,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:af6b634df06e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 83,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:8a0ee8c44133",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 84,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:4011b27ab1c2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 85,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:cb3c58947734",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 86,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:9fb1607e55eb",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 87,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:775ab018bd8c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 88,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:54ffc4fd1c1a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 89,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:732c2730464c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 90,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:369c0a26981e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 91,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:a518aff3a99c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 92,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:12bc75b67650",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 93,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:d79418ff69c1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 94,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:a8d37265ebcc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 95,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:6741b164523a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 96,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:f942908cedfa",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 97,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:ec64942fe027",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 98,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:49a238de18b0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 99,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:e4d5f1b4547f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 100,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:53db2cfd534c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 101,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:7af9784fefbe",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 102,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:bf5bd8719c3a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 103,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:ae59d0e20ea5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 104,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:597ed7fc52cb",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 105,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:fda9a16434c3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 106,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:acffb5d8656c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 107,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:c005afdb673e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 108,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:e7558d448c70",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 109,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:80636b719e64",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 110,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:7bb94aa0c1cf",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 111,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:b06f6e26e02a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 112,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:ff7e7789b0ad",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 113,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:90b6cbcee27d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 114,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:1224e6bfbbce",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 115,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:4202e58f1d67",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 116,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:a0155632c171",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 117,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:e75d989c31b0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 118,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:e2e8323b34b5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 119,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:52d95a382f9b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 120,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:eff1838ce44c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 121,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:1c0b1fa06915",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 122,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:edea-possessed-sorceress:m5:84810d40481a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  }
+ ],
+ "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+ "packet_sha256": "sha256:d6ef907f318685defd35380ff2497c89d376d52452398f19bd1b0a027356c859",
+ "schema_version": 1,
+ "slug": "edea-possessed-sorceress",
+ "stage": "M6_M5_proxy_coverage_guard"
+}

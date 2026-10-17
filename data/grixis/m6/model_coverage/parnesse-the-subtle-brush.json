@@ -1,0 +1,1642 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "counts": {
+  "claim_eligible_from_M5": 0,
+  "hypotheses": 126,
+  "positive_other_or_unknown_coverage": 2,
+  "positive_proxy_verdicts": 4,
+  "positive_unmodeled_swap_effects": 2
+ },
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "items": [
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 1,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:4ca6fa285bfb",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_unmodeled_effects",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 2,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:c84c4aa33fe2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 3,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:eadaab4561c4",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": true,
+   "multiplayer_model_limit": true,
+   "reason": "M5_goldfish_incomplete_or_unknown_coverage",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 4,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:c003c00d2d9d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "pass"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 5,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:495afa65b52e",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 6,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:e1b434103290",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 7,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:9f23232493bd",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 8,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:bcafd46851a3",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 9,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:6693538730a6",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 10,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:ece3a1b94ea4",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 11,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:36150b73fc89",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 12,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:5c36d7029d22",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "fail"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 13,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:82997f24312e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 14,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:d0e77962d773",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 15,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:b9a95ae603fe",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 16,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:c102cf67cb66",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 17,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:a04cbd217fbe",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 18,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:f76a9e462028",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 19,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:1adfe5ea6637",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 20,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:9bfb179765e7",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 21,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:fac864edca76",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 22,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:e25a2f162638",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 23,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:86b007d4e8aa",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 24,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:d542e18daaa0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 25,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:1afeb03f0efc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 26,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:d14354cd6428",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 27,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:beb0cdaa1a65",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 28,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:09ea0c853888",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 29,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:1f02a5bc4ebd",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 30,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:7a6187e650de",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 31,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:b7fea2a66e24",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 32,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:f2dc26174ea6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 33,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:ad47daed586b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 34,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:84bcdccd3e0a",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 35,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:f8cd783d6d84",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 36,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:d912db383939",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 37,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:798e896c3f10",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 38,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:278c3238cca4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 39,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:138d86527826",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 40,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:5e27c41d19a2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 41,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:d4c95a05adc9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 42,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:371a9d8104ff",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 43,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:eebd98b68b80",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 44,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:f62b411bc4db",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 45,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:1d33595021de",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 46,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:61b58e9b1b6c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 47,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:9d81689974c1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 48,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:a13cc3b70f25",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 49,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:134b391c877d",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 50,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:60265f75adaa",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 51,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:8707fd1d2f12",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 52,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:b0a2d9720f3f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 53,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:3d0b6af49bd0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 54,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:51ae11f5c30a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 55,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:b53be0953be0",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 56,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:cb8c0469e553",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 57,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:6de7c0651e6a",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 58,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:de08f6cda8bc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 59,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:1f710dee8903",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 60,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:81c90faecf23",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 61,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:4f252b24aed1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 62,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:ee530497bf68",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 63,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:6c854aa77442",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 64,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:1120fb96f7ef",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 65,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:25691a532e26",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 66,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:663ccc7940b2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 67,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:9b396447cc91",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 68,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:265676f681e6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 69,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:084d52bcf1ed",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 70,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:729995e0b235",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 71,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:726c24bc8ed6",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 72,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:d4ece3115927",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 73,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:dc07a946630b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 74,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:fecee18cc112",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 75,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:1eed3264739f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 76,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:25f78701bc9f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 77,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:87d63bff7c10",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 78,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:866155b9486c",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 79,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:c52081d557c4",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 80,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:229152702ea7",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 81,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:30d8dbf7337d",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 82,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:ab7301f90aa3",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": false,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 83,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:71f5a40e3958",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": []
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 84,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:79c0bae87ef5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 85,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:6ecb67ac6022",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 86,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:847fbcaee0fe",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 87,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:4d708a6ca81f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 88,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:73384b71797b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 89,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:d23de9c32958",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 90,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:0bb880769eca",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 91,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:b54ecfb1f45e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 92,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:7362ea3a0cbe",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 93,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:900af5f25fa1",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 94,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:2dc66a9fad86",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 95,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:88e56cf52d84",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 96,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:534ea99c7543",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 97,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:5d7498802bfe",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 98,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:e820279a258e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 99,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:62f64c63c1ac",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 100,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:cbe0a7303082",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 101,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:0dfef0354688",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 102,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:48416e9dafc2",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 103,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:f6d73c48e4c6",
+   "swapped_effects_unmodeled": false,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 104,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:ae0ab73cbb27",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 105,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:216045032d46",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 106,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:87b31261b056",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 107,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:5cb03d27d65c",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 108,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:82460c9d3488",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 109,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:3569dd99f23e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 110,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:0c2b96aa6d81",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 111,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:76e1974269b5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 112,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:a36ff58dd553",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 113,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:d4b4126d0a8e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 114,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:4e50347dfbc9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 115,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:9b96e3b0599e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 116,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:63543c8fc6f9",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 117,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:7c5f7fa878f4",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 118,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:040a605bf19f",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 119,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:b722e1ef12a8",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 120,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:f4ef75db3d1e",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 121,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:77ea2bd7ac72",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 122,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:d15e9f37f0cc",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 123,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:a1beaf1ecb8b",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 124,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:b9d79b4055f5",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "no_detectable_difference"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 125,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:91f9c7be58ea",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  },
+  {
+   "has_positive_proxy_verdict": false,
+   "multiplayer_model_limit": true,
+   "reason": "M5_exploratory_no_positive_verdict",
+   "required_next": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim",
+   "review_order": 126,
+   "supports_improvement_claim": false,
+   "swap_id": "swap:parnesse-the-subtle-brush:m5:3aeb284622f7",
+   "swapped_effects_unmodeled": true,
+   "test_verdicts": [
+    "inconclusive"
+   ]
+  }
+ ],
+ "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "packet_sha256": "sha256:e611ff8b0986e16d9a06307508d86e62387d238573813c2a4ce21c7cb1a80fda",
+ "schema_version": 1,
+ "slug": "parnesse-the-subtle-brush",
+ "stage": "M6_M5_proxy_coverage_guard"
+}
