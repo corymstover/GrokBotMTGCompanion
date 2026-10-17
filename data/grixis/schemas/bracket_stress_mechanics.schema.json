@@ -1,0 +1,105 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/bracket_stress_mechanics.schema.json",
+ "title": "Step F frozen-snapshot deck-level mechanic execution",
+ "type": "object",
+ "required": [
+  "schema_version", "deck_id", "slug", "canonical_hash", "suite_family", "status",
+  "evidence_class", "authority", "aggregate_score", "required_module_ids",
+  "module_results", "provenance", "limitations"
+ ],
+ "properties": {
+  "schema_version": {"const": 1},
+  "deck_id": {"type": "string", "minLength": 1},
+  "slug": {"type": "string", "minLength": 1},
+  "canonical_hash": {"type": "string", "pattern": "^lh1:"},
+  "suite_family": {"const": "B5_competitive"},
+  "status": {"const": "executed"},
+  "evidence_class": {"const": "test_result"},
+  "authority": {
+   "type": "object",
+   "required": ["can_decide", "note"],
+   "properties": {
+    "can_decide": {"const": false},
+    "note": {"type": "string", "minLength": 1}
+   },
+   "additionalProperties": false
+  },
+  "aggregate_score": {"const": null},
+  "required_module_ids": {
+   "type": "array",
+   "minItems": 1,
+   "uniqueItems": true,
+   "items": {"enum": ["counterspell_density", "stack_protection", "stax_tax"]}
+  },
+  "module_results": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "module_id", "module_version", "status", "evidence_class",
+     "supported_card_count", "supported_cards", "metric_semantics", "spec"
+    ],
+    "properties": {
+     "module_id": {"enum": ["counterspell_density", "stack_protection", "stax_tax"]},
+     "module_version": {"type": ["string", "integer"]},
+     "status": {"const": "executed_deck_level_test_result"},
+     "evidence_class": {"const": "test_result"},
+     "supported_card_count": {"type": "integer", "minimum": 0},
+     "supported_cards": {"type": "array"},
+     "metric_semantics": {"type": "string", "minLength": 1},
+     "spec": {"type": "object"}
+    },
+    "additionalProperties": false
+   }
+  },
+  "provenance": {
+   "type": "object",
+   "required": [
+    "development_snapshot", "locked_files", "locked_sha256", "simulator",
+    "trace", "module_code_sha256", "runner_sha256"
+   ],
+   "properties": {
+    "development_snapshot": {"const": "snap-20261016"},
+    "locked_files": {"type": "object"},
+    "locked_sha256": {"type": "object"},
+    "simulator": {
+     "type": "object",
+     "required": ["name", "version", "model", "sha256"],
+     "properties": {
+      "name": {"const": "grixis_sim"},
+      "version": {"type": "string"},
+      "model": {"const": "1.1"},
+      "sha256": {"type": "string", "pattern": "^sha256:"}
+     },
+     "additionalProperties": false
+    },
+    "trace": {
+     "type": "object",
+     "required": ["samples", "seed", "turns", "observer_sha256"],
+     "properties": {
+      "samples": {"const": 300},
+      "seed": {"const": 66},
+      "turns": {"const": [4, 6, 8, 10]},
+      "observer_sha256": {"type": "string", "pattern": "^sha256:"}
+     },
+     "additionalProperties": false
+    },
+    "module_code_sha256": {
+     "type": "object",
+     "required": ["stack", "stax"],
+     "properties": {
+      "stack": {"type": "string", "pattern": "^sha256:"},
+      "stax": {"type": "string", "pattern": "^sha256:"}
+     },
+     "additionalProperties": false
+    },
+    "runner_sha256": {"type": "string", "pattern": "^sha256:"}
+   },
+   "additionalProperties": false
+  },
+  "limitations": {"type": "array", "minItems": 4, "items": {"type": "string"}}
+ },
+ "additionalProperties": false
+}
