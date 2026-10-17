@@ -38,6 +38,16 @@ def test_fetchland_type_words_become_potential_colors():
     assert set(x["source_colors"]) == {"U", "B"}
 
 
+def test_off_identity_fetch_type_does_not_become_usable_color():
+    strand = card(
+        "Flooded Strand",
+        oracle="{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
+    )
+    x = mb.classify(strand, set("UBR"))
+    assert set(x["fetch_types"]) == {"Plains", "Island"}
+    assert x["source_colors"] == "U"
+
+
 def test_basic_fetch_uses_deck_identity_as_potential_colors():
     vista = card(
         "Prismatic Vista",
@@ -62,6 +72,26 @@ def test_restricted_source_is_labeled_conditional():
     x = mb.classify(d, set("UBR"))
     assert x["repeatable_nonland_source"]
     assert x["conditional_source"]
+
+
+def test_treasure_grant_is_not_mistaken_for_card_self_sacrifice():
+    maker = card(
+        "Treasure Maker",
+        mana="{3}{R}",
+        mv=4,
+        ci="R",
+        typ="Creature — Dwarf",
+        oracle="Whenever you cast an instant or sorcery spell, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+    )
+    x = mb.classify(maker, set("UBR"))
+    assert x["one_shot_mana"] is False
+
+
+def test_named_self_sacrifice_is_one_shot_mana():
+    petal = card("Lotus Petal", mv=0, typ="Artifact", oracle="{T}, Sacrifice Lotus Petal: Add one mana of any color.")
+    x = mb.classify(petal, set("UBR"))
+    assert x["one_shot_mana"] is True
+    assert x["fast_mana"] is True
 
 
 def test_hypergeometric_and_color_presence_sanity():
