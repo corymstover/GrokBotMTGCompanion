@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Abaddon_the_Despoiler",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1161347,
+   "path": "data/grixis/birthday_m5/candidates/abaddon-the-despoiler.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:ad508f286096371040ae9f076eee7f7996bdf708ca6cbb625740487a7e000e6e"
+  },
+  {
+   "bytes": 1197643,
+   "path": "data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:43c465356ce4b488f9975e5dc33cc0d8977d79592fac1bba07193f068b4378b3"
+  },
+  {
+   "bytes": 47143,
+   "path": "data/grixis/birthday_m5/evidence/abaddon-the-despoiler.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:7433c3beb70450bb722a1feeecc1d375359fdf46b91f407d39129dd492047c91"
+  },
+  {
+   "bytes": 61968,
+   "path": "data/grixis/m6/optimizer/abaddon-the-despoiler.json",
+   "role": "optimizer",
+   "sha256": "sha256:a7b522843d7af0bf431013fd4f686f461ad7bbf3c484d50868ac5f93fdd04c48"
+  },
+  {
+   "bytes": 402321,
+   "path": "data/grixis/m6/review_packets/abaddon-the-despoiler.json",
+   "role": "review_packet",
+   "sha256": "sha256:9806693fca1b50ef5415ab65f48e27766e1a5c9feb0f3f47de5099ea9a50cc84"
+  }
+ ],
+ "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "abaddon-the-despoiler",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

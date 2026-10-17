@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Anhelo__the_Painter",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1256021,
+   "path": "data/grixis/birthday_m5/candidates/anhelo-the-painter.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:1f264f0af51e1511e96c0bb3af9b0eea2146dcc9bd398005b838d1dcc397c06d"
+  },
+  {
+   "bytes": 1325556,
+   "path": "data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:350a5e494df02f1a3274f877579188573d68ae9bab164df68000b9d1d1812274"
+  },
+  {
+   "bytes": 47358,
+   "path": "data/grixis/birthday_m5/evidence/anhelo-the-painter.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:2c4c107c549a532c29dc1898f682c73f1ae35944ecbf04d2a883d327fa3563cb"
+  },
+  {
+   "bytes": 143523,
+   "path": "data/grixis/m6/optimizer/anhelo-the-painter.json",
+   "role": "optimizer",
+   "sha256": "sha256:d7a70752a1e9aa86004901860d2d6726c399c4903a56a733339167517f910879"
+  },
+  {
+   "bytes": 1140426,
+   "path": "data/grixis/m6/review_packets/anhelo-the-painter.json",
+   "role": "review_packet",
+   "sha256": "sha256:491a7feeeba1fd960381c69c6f1de5ad098fd6199ddb868460981db53ece30e4"
+  }
+ ],
+ "list_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "anhelo-the-painter",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Mairsil__the_Pretender",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1151094,
+   "path": "data/grixis/birthday_m5/candidates/mairsil-the-pretender.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:9ce68223fa14b08969f8755ea07cf583d7fb5208d18d6425c6e91caabccf5d3a"
+  },
+  {
+   "bytes": 1187703,
+   "path": "data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:7d22c8d94591bdea0084da4c3708da8b112819cfb37df3ab8d83aef18f51d1b3"
+  },
+  {
+   "bytes": 48927,
+   "path": "data/grixis/birthday_m5/evidence/mairsil-the-pretender.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:21dde6801547f00aa4f02144bf1fdbd6682c8125e67f6c6c307c8ff066c4cf2d"
+  },
+  {
+   "bytes": 41367,
+   "path": "data/grixis/m6/optimizer/mairsil-the-pretender.json",
+   "role": "optimizer",
+   "sha256": "sha256:1924712880e220b8b7ef36f46951b5e5319ef8f93281f682db7f75f20f88dff6"
+  },
+  {
+   "bytes": 302260,
+   "path": "data/grixis/m6/review_packets/mairsil-the-pretender.json",
+   "role": "review_packet",
+   "sha256": "sha256:08490ecc56e12e31e4c3c88e9cf6b509cefb6022d36bb29ef8027d7f4b4152fe"
+  }
+ ],
+ "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

@@ -1,0 +1,48 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:a3ede9f4606e446f5968d57be81578f60fbc10425b98988c3ec771e94ad596a3",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Doctor_Doom__King_of_Latveria",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/doctor-doom-king-of-latveria.json.gz"
+  ],
+  "list_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:doctor-doom-king-of-latveria:performance:v1",
+  "recommendations": [
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Feed the Swarm",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/doctor-doom-king-of-latveria.json.gz#id=swap:doctor-doom-king-of-latveria:m5:ce1c7c333d45",
+     "m5_test:data/grixis/birthday_m5/regen/doctor-doom-king-of-latveria.json.gz#id=test:doctor-doom-king-of-latveria:goldfish:b81d5244e50656d8"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

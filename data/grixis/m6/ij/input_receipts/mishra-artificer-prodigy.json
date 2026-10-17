@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1203628,
+   "path": "data/grixis/birthday_m5/candidates/mishra-artificer-prodigy.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:8884e53378c25b024feabb23bc68f347b5011714b391e9736a3ad3579e42be43"
+  },
+  {
+   "bytes": 1260245,
+   "path": "data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:4692c9a4e6130b770a18d60910b05f33e54c1eb94931360e989993d8ccd88d94"
+  },
+  {
+   "bytes": 53643,
+   "path": "data/grixis/birthday_m5/evidence/mishra-artificer-prodigy.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:525af4de05da6486a3fb3df57cb3bb448343e420bb356b5660cdb079b79fe42e"
+  },
+  {
+   "bytes": 66930,
+   "path": "data/grixis/m6/optimizer/mishra-artificer-prodigy.json",
+   "role": "optimizer",
+   "sha256": "sha256:e82df41ea2686dfa667f4fc584a444e2c39272a2d3e9eea1a10a07090c915b99"
+  },
+  {
+   "bytes": 495083,
+   "path": "data/grixis/m6/review_packets/mishra-artificer-prodigy.json",
+   "role": "review_packet",
+   "sha256": "sha256:cacc540b2fdbdaf9ad242150f01262b76824e5b6a1994fd6b76b4c666fa3e854"
+  }
+ ],
+ "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "mishra-artificer-prodigy",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

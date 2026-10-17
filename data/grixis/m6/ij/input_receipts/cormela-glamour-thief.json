@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Cormela__Glamour_Thief",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1258638,
+   "path": "data/grixis/birthday_m5/candidates/cormela-glamour-thief.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:0b4c929236a5c6adcc2ee04db90596f02d93c99797fa4d809d0ad30c55ae8162"
+  },
+  {
+   "bytes": 1331976,
+   "path": "data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:1d36589cf5b4e6accc27d9e31ff4ccacc1198cd43dc365c44402c791bfec1edf"
+  },
+  {
+   "bytes": 47456,
+   "path": "data/grixis/birthday_m5/evidence/cormela-glamour-thief.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:a35864592cf4d2a9586d8dcc1359f5bf9ccb35500b473ce6ab922b8ccf896375"
+  },
+  {
+   "bytes": 116466,
+   "path": "data/grixis/m6/optimizer/cormela-glamour-thief.json",
+   "role": "optimizer",
+   "sha256": "sha256:5bcf3a4bdac36e3d2e4c010e8075087851424660e2fa22a75347120636900fbd"
+  },
+  {
+   "bytes": 860000,
+   "path": "data/grixis/m6/review_packets/cormela-glamour-thief.json",
+   "role": "review_packet",
+   "sha256": "sha256:fcf6d0914f9e22a3055e48f93729d98583a157ed7ac02db5a97ce71e1b81e11f"
+  }
+ ],
+ "list_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "cormela-glamour-thief",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

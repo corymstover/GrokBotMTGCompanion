@@ -1,0 +1,644 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "counts": {
+  "agreements": 239,
+  "decks": 62,
+  "deep_review": 8848,
+  "disagreements": 8609
+ },
+ "pass_a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+ "pass_b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+ "pass_c": {
+  "complete": false,
+  "model_limited_positive_tests_decisive": false,
+  "status": "awaiting_named_critic"
+ },
+ "passes": [
+  {
+   "a_sha256": "sha256:a7bb869721b120e7663954518029f1e62823c4cddc693145cadf1003e9b5752a",
+   "agreements": 35,
+   "b_sha256": "sha256:6feba9ad060b026c4f79f9afd149957d16c06a758849b9b069559a5a46b9a49d",
+   "deck_id": "Abaddon_the_Despoiler",
+   "deep_review": 98,
+   "disagreements": 63,
+   "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+   "slug": "abaddon-the-despoiler"
+  },
+  {
+   "a_sha256": "sha256:2a8435de83df1a54282aec2de3f0e0c9e69e7c06b2ae0b84d395c158cc996f9a",
+   "agreements": 3,
+   "b_sha256": "sha256:5b72aab2c4a90cb138fb13904783ec5bceab39ca9faf89b6e287caf08e593c7c",
+   "deck_id": "Admiral_Beckett_Brass",
+   "deep_review": 314,
+   "disagreements": 311,
+   "list_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+   "slug": "admiral-beckett-brass"
+  },
+  {
+   "a_sha256": "sha256:dc4080a1424332526001173d33755c8f82cfa819dc225000ba0e11bf3f927b8c",
+   "agreements": 1,
+   "b_sha256": "sha256:15db02e924252dfb7f3ecc499a48de44933e8c1ed5e04d88367ef079759ef68e",
+   "deck_id": "Admiral_Brass__Unsinkable",
+   "deep_review": 211,
+   "disagreements": 210,
+   "list_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+   "slug": "admiral-brass-unsinkable"
+  },
+  {
+   "a_sha256": "sha256:2ef4287157419b6d0ce51a1298ac8240f005030b406fad4acf84885c8dd6ab9f",
+   "agreements": 0,
+   "b_sha256": "sha256:1d80cfcbe104a044288b6cce892d5df0c1c9d4e1740504921396eaacf7ea951b",
+   "deck_id": "Anhelo__the_Painter",
+   "deep_review": 295,
+   "disagreements": 295,
+   "list_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+   "slug": "anhelo-the-painter"
+  },
+  {
+   "a_sha256": "sha256:2ef2dad19e84cc40dee61ffb6df35bf85d2ae73ef7a4ccf08a08eae9ac40b3a1",
+   "agreements": 0,
+   "b_sha256": "sha256:54fb780139648bb6816e44c860355a4b496ea2c3d71444d17f1c43ecc7e6afa8",
+   "deck_id": "Ashad__the_Lone_Cyberman",
+   "deep_review": 415,
+   "disagreements": 415,
+   "list_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+   "slug": "ashad-the-lone-cyberman"
+  },
+  {
+   "a_sha256": "sha256:a0142604b055935ec998b4a38b1c959f4f482c8abf14f8493f555cfa7213e97d",
+   "agreements": 18,
+   "b_sha256": "sha256:2f9d20c6a2c8ab399138e87a27e7c906da5f605d5b42deb566b6fea7ccaa7905",
+   "deck_id": "Ashnod_the_Uncaring",
+   "deep_review": 475,
+   "disagreements": 457,
+   "list_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+   "slug": "ashnod-the-uncaring"
+  },
+  {
+   "a_sha256": "sha256:9504ec0b23797b9718630c906b8299c4cdaff58449abfb3898910ce4f68b6467",
+   "agreements": 0,
+   "b_sha256": "sha256:7f743d2990f467841fe62e3ff25ec830f4ca18975eeaca519a28ea31c296bb49",
+   "deck_id": "Be_lakor__the_Dark_Master",
+   "deep_review": 270,
+   "disagreements": 270,
+   "list_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+   "slug": "belakor-the-dark-master"
+  },
+  {
+   "a_sha256": "sha256:3617907c39b429ae45ce6426875af99bbcceaeee7fa49475483474292296bb6f",
+   "agreements": 0,
+   "b_sha256": "sha256:67146c0536ee9b94fe6eb7428e258222fe9919968c03655b9609f4bf12341d06",
+   "deck_id": "Cecily__Bjorna__Lutri",
+   "deep_review": 81,
+   "disagreements": 81,
+   "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+   "slug": "bjorna-nightfall-alchemist-cecily"
+  },
+  {
+   "a_sha256": "sha256:82f30ad16a8976e5bdd30a778cf438c626569a94e372645f695ccecd1725ac91",
+   "agreements": 32,
+   "b_sha256": "sha256:fc2857e7e9c72f2561f92a898531541a6154216ff9af9a013936ee42d9a67ee7",
+   "deck_id": "Cormela__Glamour_Thief",
+   "deep_review": 218,
+   "disagreements": 186,
+   "list_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "slug": "cormela-glamour-thief"
+  },
+  {
+   "a_sha256": "sha256:4f95ba87c300d1b94fd8b0a3c95dee76e62f183e94281aaefd37f4a52c7ed735",
+   "agreements": 0,
+   "b_sha256": "sha256:8bd494669b5c218e444dccdb3f0d1abb4e75b471ff2ac226d9195efb89c38210",
+   "deck_id": "Crosis__the_Purger",
+   "deep_review": 17,
+   "disagreements": 17,
+   "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "slug": "crosis-the-purger"
+  },
+  {
+   "a_sha256": "sha256:d2238e793621a34275beafef0cb32a121e395d303943dfdec05180cdaa7dc3af",
+   "agreements": 0,
+   "b_sha256": "sha256:ee2b4a4c81f1f3d80ce426d8e2a530b652f190ae8e20bf97b2ed33ca9fd53a9c",
+   "deck_id": "Cult_of_Skaro",
+   "deep_review": 87,
+   "disagreements": 87,
+   "list_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+   "slug": "cult-of-skaro"
+  },
+  {
+   "a_sha256": "sha256:6131ab249ada167e2d6804d6c3f6036aa1a4ff2ac9e7e2fd8b570310d58f4b17",
+   "agreements": 0,
+   "b_sha256": "sha256:cb756d0d81852db761846358ef9507a64c765ed3de96d546eeac1903c00bd395",
+   "deck_id": "Davros__Dalek_Creator",
+   "deep_review": 66,
+   "disagreements": 66,
+   "list_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+   "slug": "davros-dalek-creator"
+  },
+  {
+   "a_sha256": "sha256:e699a8216fb672271f3a0976e1df34d7c77b40536fcf998b15e834f021418e07",
+   "agreements": 1,
+   "b_sha256": "sha256:a895a01755f383c37f9265a2a6661cd456b973238607213da6928912986e89dc",
+   "deck_id": "Doctor_Doom__King_of_Latveria",
+   "deep_review": 238,
+   "disagreements": 237,
+   "list_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+   "slug": "doctor-doom-king-of-latveria"
+  },
+  {
+   "a_sha256": "sha256:d2354e076d5a39ad35a174a8a0ad63726002d2ca106fccb507ab72c36b9123cd",
+   "agreements": 1,
+   "b_sha256": "sha256:5f899b877c1042a85e15b878488030b067285cf7c028dbb56523349294044f5c",
+   "deck_id": "Don_Andres__the_Renegade",
+   "deep_review": 111,
+   "disagreements": 110,
+   "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+   "slug": "don-andres-the-renegade"
+  },
+  {
+   "a_sha256": "sha256:4bce2f46e511e8ead2a193bce2335675e68bb0a1145ad09f3735480afda2df56",
+   "agreements": 1,
+   "b_sha256": "sha256:ef63855e6ce0440e417c509eb5da412ff2b536aa6afd63c600607f8a9e73faf4",
+   "deck_id": "Dr__Eggman",
+   "deep_review": 249,
+   "disagreements": 248,
+   "list_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+   "slug": "dr-eggman"
+  },
+  {
+   "a_sha256": "sha256:90060342d481b6c562cbf34bd16e4cfdfe0bff23de4e6cc01396bd9c9baf6607",
+   "agreements": 4,
+   "b_sha256": "sha256:46314aa3e4f70f8487d952e418320f44b6283e3ab2d78726b93dfc085f7ac115",
+   "deck_id": "Edea__Possessed_Sorceress",
+   "deep_review": 122,
+   "disagreements": 118,
+   "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+   "slug": "edea-possessed-sorceress"
+  },
+  {
+   "a_sha256": "sha256:abbb746eb8f75c28b6499e154e366609cd0c9db62261a82ccf123452b07615ad",
+   "agreements": 0,
+   "b_sha256": "sha256:682ed78c5cf14ecf2af0256ef87e427d4710e03eec275000a439037fc3fe1e0a",
+   "deck_id": "Edward_Kenway",
+   "deep_review": 342,
+   "disagreements": 342,
+   "list_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+   "slug": "edward-kenway"
+  },
+  {
+   "a_sha256": "sha256:96ab63611a30d5890412acb337de57a9fd08fdeef2cd5b7d815e0b6458b564cc",
+   "agreements": 3,
+   "b_sha256": "sha256:b8d03038f38bf407390fd87d2bf753386ae66d8ef256339c97a62e7bdc913513",
+   "deck_id": "Evelyn__the_Covetous",
+   "deep_review": 79,
+   "disagreements": 76,
+   "list_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "a_sha256": "sha256:bddca41c9dafd2a4cc5ed40d88b448c5a0f33050552a6c288e8384f4cbd1c042",
+   "agreements": 2,
+   "b_sha256": "sha256:3dadb9c815538f3e40abe9b84103eeb21f8eb990e4cca85693dff7958e6fdf25",
+   "deck_id": "Fire_Lord_Azula",
+   "deep_review": 86,
+   "disagreements": 84,
+   "list_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+   "slug": "fire-lord-azula"
+  },
+  {
+   "a_sha256": "sha256:0f139f94f6f6f23a51ef2cb9d82caf58f965d52eb7404f7f7365839577023a27",
+   "agreements": 4,
+   "b_sha256": "sha256:ead61615fd1513a7a6380bcb4caf1819d0ca3b814c603ba67df5b03304396425",
+   "deck_id": "Garza_Zol__Plague_Queen",
+   "deep_review": 47,
+   "disagreements": 43,
+   "list_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "slug": "garza-zol-plague-queen"
+  },
+  {
+   "a_sha256": "sha256:23f9eebf050ea254c9bcb2d162994aae691e5bb9de09e94101dc28e2f71ec20f",
+   "agreements": 0,
+   "b_sha256": "sha256:00838af9945cc28cc055817a42996b7e0d53b77d6e07bb3092b133605146c8c4",
+   "deck_id": "Goro_Goro_and_Satoru",
+   "deep_review": 298,
+   "disagreements": 298,
+   "list_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+   "slug": "goro-goro-and-satoru"
+  },
+  {
+   "a_sha256": "sha256:13555e845b1f7fbf8b5c6762c60d32971fc4b024e7ee541719bde3b5db58a03c",
+   "agreements": 1,
+   "b_sha256": "sha256:432e50945e97c9755c639b8d9bf7f1e1e1527b1a8504ae08bb338517763a869d",
+   "deck_id": "Grixistax___October_2026",
+   "deep_review": 42,
+   "disagreements": 41,
+   "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+   "slug": "grixistax-october-2026"
+  },
+  {
+   "a_sha256": "sha256:8c2bf50175bc3bfa76a2c21766cc26eeb1807d7cd28bb9f817cca90f2569f491",
+   "agreements": 23,
+   "b_sha256": "sha256:119a5fc1b95c06ddbf7b56d3a4b8cd31db1a7c624c06c882e4f9fb3e1b85baf2",
+   "deck_id": "Gwendlyn_Di_Corci",
+   "deep_review": 66,
+   "disagreements": 43,
+   "list_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+   "slug": "gwendlyn-di-corci"
+  },
+  {
+   "a_sha256": "sha256:4bd5173f9dc197fc182f2bdccd94b4a36288da9b90e0dda940317df39fc24615",
+   "agreements": 13,
+   "b_sha256": "sha256:f9258a7ccd36019f43072bc4ea97804f3b3fbe53cbd44c16645349522f64e948",
+   "deck_id": "Inalla__Archmage_Ritualist",
+   "deep_review": 370,
+   "disagreements": 357,
+   "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+   "slug": "inalla-archmage-ritualist"
+  },
+  {
+   "a_sha256": "sha256:770b630f638e9f09b8b8d358a893ec52a4dfa96a077c1ec91c2302f9ebe8e863",
+   "agreements": 2,
+   "b_sha256": "sha256:d5fe2f658e8ddddbc2fcbfce56f52e784dfc3e5981687f04ded107aed7df542a",
+   "deck_id": "Jeleva__Nephalia_s_Scourge",
+   "deep_review": 68,
+   "disagreements": 66,
+   "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+   "slug": "jeleva-nephalias-scourge"
+  },
+  {
+   "a_sha256": "sha256:bfda3c9636453c14d7bb4f3a5a15d5fba721c06b6a9320b44e4930a8ba94242e",
+   "agreements": 8,
+   "b_sha256": "sha256:e9be67adc328643b4bc92284039824274ca7fc331865588d60a83213f63db0b7",
+   "deck_id": "Kefka__Court_Mage",
+   "deep_review": 111,
+   "disagreements": 103,
+   "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+   "slug": "kefka-court-mage"
+  },
+  {
+   "a_sha256": "sha256:11b01f9cf6ad74793ca6bf796482ef99ce904f05d20a3b80d438661b50d55f1f",
+   "agreements": 5,
+   "b_sha256": "sha256:394b23e9c053d1bcd1ad4790ace1936404e0ca255bbd2e0570abe4ab15776526",
+   "deck_id": "Kess__Dissident_Mage",
+   "deep_review": 68,
+   "disagreements": 63,
+   "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+   "slug": "kess-dissident-mage"
+  },
+  {
+   "a_sha256": "sha256:c086f5643e70b722e304db7aed8f34d48214ff00f22a9f4d9dcaa05910617d6c",
+   "agreements": 0,
+   "b_sha256": "sha256:85b70ac735cd3c2aab023cd9f4757fb8273d2fc8f03973192e37175aacbc3165",
+   "deck_id": "Loki__the_Deceiver",
+   "deep_review": 386,
+   "disagreements": 386,
+   "list_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+   "slug": "loki-the-deceiver"
+  },
+  {
+   "a_sha256": "sha256:680ad2bf4df624924866b59cb07dc4789c8647649348f060ace6d26b47704ce8",
+   "agreements": 0,
+   "b_sha256": "sha256:cd20035019f0c4e09384e6792d4e389984a2ae549bba5aa60f39a6565ae868ce",
+   "deck_id": "Lord_of_Tresserhorn",
+   "deep_review": 121,
+   "disagreements": 121,
+   "list_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+   "slug": "lord-of-tresserhorn"
+  },
+  {
+   "a_sha256": "sha256:c7cb973627a916bc5f85d2b387100cdfeb0cd669baecfec3d46049a0d13bc348",
+   "agreements": 2,
+   "b_sha256": "sha256:cafea4a09f6146d78e6b84253ba86a4e964bcb45c09ad831e1c458f954ac13c6",
+   "deck_id": "Lord_Xander__the_Collector",
+   "deep_review": 105,
+   "disagreements": 103,
+   "list_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+   "slug": "lord-xander-the-collector"
+  },
+  {
+   "a_sha256": "sha256:54f4d39f2d576b50ffe74186a45221816e3a271dfb07b50047601ff77637b7a6",
+   "agreements": 4,
+   "b_sha256": "sha256:e123af4db9aa9dc700510acdc144bf6e02704cf2ef62f225e18ecd3b6430590a",
+   "deck_id": "Lynde__Cheerful_Tormentor",
+   "deep_review": 22,
+   "disagreements": 18,
+   "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "slug": "lynde-cheerful-tormentor"
+  },
+  {
+   "a_sha256": "sha256:d729536ed0628baddbb51d033ef642a53c32ef11ffd4a79af4bb8c2ddc85f3a8",
+   "agreements": 5,
+   "b_sha256": "sha256:d0da4a4a988063dab994d276adfe24b20921cfb0a0ac18b1e547cc132d0cfd4e",
+   "deck_id": "Mai_and_Zuko",
+   "deep_review": 258,
+   "disagreements": 253,
+   "list_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+   "slug": "mai-and-zuko"
+  },
+  {
+   "a_sha256": "sha256:a3a42143f2a373d9a8566ab5bb27a965cd301bfb1766d9c1775f0c5eacbb02b9",
+   "agreements": 6,
+   "b_sha256": "sha256:27850e306d8a5808e50df73474cf42bed828a2ce003501a5e17eef9b880b0dd0",
+   "deck_id": "Mairsil__the_Pretender",
+   "deep_review": 77,
+   "disagreements": 71,
+   "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+   "slug": "mairsil-the-pretender"
+  },
+  {
+   "a_sha256": "sha256:df5dcd5f3677ee6473b0e0a898b7bed8d72a8d3e073ee347c3e1846260600eb7",
+   "agreements": 1,
+   "b_sha256": "sha256:66c432f7055f0a6a07da13e985b3c63635a5694a683dbd9eaf2519057b29b504",
+   "deck_id": "Marchesa__Dealer_of_Death",
+   "deep_review": 58,
+   "disagreements": 57,
+   "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+   "slug": "marchesa-dealer-of-death"
+  },
+  {
+   "a_sha256": "sha256:b7044ff0dd57954a65d65a26c2a8cc4751779357b58ddec52ca1500049a40ddc",
+   "agreements": 0,
+   "b_sha256": "sha256:0ab0837c8558576906262355df88164dd3bc233155ed4983ab643d94a76765f6",
+   "deck_id": "Marchesa__the_Black_Rose",
+   "deep_review": 129,
+   "disagreements": 129,
+   "list_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+   "slug": "marchesa-the-black-rose"
+  },
+  {
+   "a_sha256": "sha256:51519c437ba7650b5ed59ccc31ba80d332a8432c2111c157e6de5f23121e0698",
+   "agreements": 1,
+   "b_sha256": "sha256:029b8596be75799bff7fdd93a0fc6635134259b2de69bad03e394d1a8b5cd565",
+   "deck_id": "Mishra__Artificer_Prodigy",
+   "deep_review": 127,
+   "disagreements": 126,
+   "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+   "slug": "mishra-artificer-prodigy"
+  },
+  {
+   "a_sha256": "sha256:4694a906715839dbb17b99fb15d0203313a6cb383947ca547a0a683a8af84bd3",
+   "agreements": 0,
+   "b_sha256": "sha256:2e47c48dfc5724d3c94b57ea44c2bed49e39ffd225fa50d5c3ab0bf1ed74f08e",
+   "deck_id": "Mishra__Eminent_One",
+   "deep_review": 178,
+   "disagreements": 178,
+   "list_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+   "slug": "mishra-eminent-one"
+  },
+  {
+   "a_sha256": "sha256:a804a00d902d369601f0fc7b5556a35cb3e7d68cfd36e6a5e403f6363a1152f1",
+   "agreements": 0,
+   "b_sha256": "sha256:128aa36ad4ed6e2a5f87ac53af36934540a1bc03d345763e0d31b1234c29fc95",
+   "deck_id": "Missy",
+   "deep_review": 276,
+   "disagreements": 276,
+   "list_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+   "slug": "missy"
+  },
+  {
+   "a_sha256": "sha256:1a1311100c9f838731b052616f2a56a2a48db9a115e9328bc195359345a7f6f4",
+   "agreements": 8,
+   "b_sha256": "sha256:7ba01f717ad99b75dd3c5671bfb283736eca92ce9992b7739155b12bf65e6f68",
+   "deck_id": "Nathan_Drake__Treasure_Hunter",
+   "deep_review": 249,
+   "disagreements": 241,
+   "list_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+   "slug": "nathan-drake-treasure-hunter"
+  },
+  {
+   "a_sha256": "sha256:7b4437d4db187884dd8197c3efa929024511f3cb129ce8a366d05f796b10a6be",
+   "agreements": 1,
+   "b_sha256": "sha256:46aad59ee6c6d2accab7f8a064890805f6413b9771acbe2b67eb3096a23b0e50",
+   "deck_id": "Nekusar__the_Mindrazer",
+   "deep_review": 69,
+   "disagreements": 68,
+   "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+   "slug": "nekusar-the-mindrazer"
+  },
+  {
+   "a_sha256": "sha256:04f912d2d86f101296bdf2fe9f2721650012323909c7f2d4f5c498d959d7b235",
+   "agreements": 3,
+   "b_sha256": "sha256:fe732ba9795353af1811fdd4927668fb407976aefde91d1db2a071d47e7bf7ee",
+   "deck_id": "Nicol_Bolas__the_Ravager",
+   "deep_review": 54,
+   "disagreements": 51,
+   "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+   "slug": "nicol-bolas-the-ravager"
+  },
+  {
+   "a_sha256": "sha256:4b752a87420eafd6a0d2f958ebcc7fece9ee8238279656361e184533c6e847ca",
+   "agreements": 10,
+   "b_sha256": "sha256:96e551e0d95521ca8e3b35cac0a502ede258f9b6f61fac5d1c86889adc7f4594",
+   "deck_id": "Nicol_Bolas",
+   "deep_review": 73,
+   "disagreements": 63,
+   "list_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+   "slug": "nicol-bolas"
+  },
+  {
+   "a_sha256": "sha256:6958e2f9e02ad823254b6c3f019725b11b0aefacde4e0977d72b590716bd17e1",
+   "agreements": 3,
+   "b_sha256": "sha256:6d51d58c9a849bdc7ce7b032e2afec62d72206e568b3aaf495a3f2dade8a8036",
+   "deck_id": "Norman_Osborn_Green_Goblin",
+   "deep_review": 73,
+   "disagreements": 70,
+   "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+   "slug": "norman-osborn"
+  },
+  {
+   "a_sha256": "sha256:aa9788e81f72ace7dce1f8473a4b17e52a9aa0e3cbb26e3dc53493a64cd29d74",
+   "agreements": 1,
+   "b_sha256": "sha256:5335a820a2f154fbf36d7c73b9f9b0114d31e3af4600cc2c251c6737722ce4e6",
+   "deck_id": "Obeka__Brute_Chronologist",
+   "deep_review": 181,
+   "disagreements": 180,
+   "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+   "slug": "obeka-brute-chronologist"
+  },
+  {
+   "a_sha256": "sha256:74e5af6730fbd79a5b375dc48b2a7c8aad74714aaa65867c32f3eb04657f8daa",
+   "agreements": 0,
+   "b_sha256": "sha256:dfdcb074c7831ffa9c153a7887f879c8e1b04224546dd37de2d00aac2e9f20ac",
+   "deck_id": "Obeka__Splitter_of_Seconds",
+   "deep_review": 38,
+   "disagreements": 38,
+   "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+   "slug": "obeka-splitter-of-seconds"
+  },
+  {
+   "a_sha256": "sha256:641b69c6ee345cf6335aa53aecfc623e40da2a1733408ee17bb7036c2b0d984e",
+   "agreements": 0,
+   "b_sha256": "sha256:c4cd25a5147eecef54b72dc48bc101c3f1c5e95ea0306e10901f0f0e569bce81",
+   "deck_id": "Parnesse__the_Subtle_Brush",
+   "deep_review": 126,
+   "disagreements": 126,
+   "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+   "slug": "parnesse-the-subtle-brush"
+  },
+  {
+   "a_sha256": "sha256:9acc21514c7add5b69fd0666768d83a581d8963bdf6d5916da35a10d9b6c3ab9",
+   "agreements": 3,
+   "b_sha256": "sha256:cef15b59b6e4fac9b8ea7775fb6aa3e6ba2a4569ca0b0baa9a72c7439c70843b",
+   "deck_id": "RogSi",
+   "deep_review": 51,
+   "disagreements": 48,
+   "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "a_sha256": "sha256:37762f6f093b5027cb77216dcef926446206d093767129ee2c29617d9b73a45f",
+   "agreements": 0,
+   "b_sha256": "sha256:5f4b8c504994900ffdb253103eb8bf0cbf9e6283128bc85c478a19b41d713aa7",
+   "deck_id": "Saruman__the_White_Hand",
+   "deep_review": 55,
+   "disagreements": 55,
+   "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+   "slug": "saruman-the-white-hand"
+  },
+  {
+   "a_sha256": "sha256:927c79cf1ecde458c38536c62aae09f0a67d0591ad07072ea90d67327e3f5b6d",
+   "agreements": 13,
+   "b_sha256": "sha256:e3e33ce25f2685bedf74036500db58fcfc49de9152f3548e1ec3f538bbbd576a",
+   "deck_id": "Sauron__Lord_of_the_Rings",
+   "deep_review": 44,
+   "disagreements": 31,
+   "list_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+   "slug": "sauron-lord-of-the-rings"
+  },
+  {
+   "a_sha256": "sha256:975847e918f076b8b7198fc8d0301fb03a58fa45c81ec92666087756302db003",
+   "agreements": 2,
+   "b_sha256": "sha256:5d6570929a0fec1c92c854e3a56ae97ac39a27ce4bfe2e1ddf23d29deae9d8a0",
+   "deck_id": "Sauron__the_Dark_Lord",
+   "deep_review": 31,
+   "disagreements": 29,
+   "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+   "slug": "sauron-the-dark-lord"
+  },
+  {
+   "a_sha256": "sha256:34e91aff73d2d04f7c85b53ff0bca643b6bf36a93edfec5fb7f40485cbe2b6db",
+   "agreements": 1,
+   "b_sha256": "sha256:3dab884d2c16e78d8dda11d7335766feb634c530730502365ca9e8fd9d61e4b2",
+   "deck_id": "Sedris__the_Traitor_King",
+   "deep_review": 111,
+   "disagreements": 110,
+   "list_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+   "slug": "sedris-the-traitor-king"
+  },
+  {
+   "a_sha256": "sha256:245d9b15d68e1efdd8bd7909f57c2f4dacc1dc985b878a026c0e940e0392757a",
+   "agreements": 2,
+   "b_sha256": "sha256:a96035c2eace955243784beab86a36469f7cba9a13bbada969b1ae3c2c41e033",
+   "deck_id": "Sol_kanar_the_Swamp_King",
+   "deep_review": 98,
+   "disagreements": 96,
+   "list_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+   "slug": "solkanar-the-swamp-king"
+  },
+  {
+   "a_sha256": "sha256:82ab90e78124ab80ede8763aee4d9960741b5317792603151bdc7e6a8eb92f5f",
+   "agreements": 0,
+   "b_sha256": "sha256:11fa48b0d59ba3a8039944695443de55707beecc7609e985cc4bbee8a243c386",
+   "deck_id": "Sol_kanar_the_Tainted",
+   "deep_review": 28,
+   "disagreements": 28,
+   "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+   "slug": "solkanar-the-tainted"
+  },
+  {
+   "a_sha256": "sha256:9b2fe390e41c878d8ca16bf442cfb8fd1a2d0b4eae4e476cc245f2817b65cc08",
+   "agreements": 0,
+   "b_sha256": "sha256:70c4d84df9e0646b7b4b87acfd533046b8050345e34cdc75b7560fdb04ee0e4f",
+   "deck_id": "Tetsuo__Imperial_Champion",
+   "deep_review": 44,
+   "disagreements": 44,
+   "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+   "slug": "tetsuo-imperial-champion"
+  },
+  {
+   "a_sha256": "sha256:90941a92b5dbb74e4fe938e0d390d539d17266549ef89c84829ba4f701853cb0",
+   "agreements": 2,
+   "b_sha256": "sha256:95372a33f1a0bee619c16bd3c072434db6f217b13140a3a3c358fa76d013ae5b",
+   "deck_id": "Tetsuo_Umezawa",
+   "deep_review": 34,
+   "disagreements": 32,
+   "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+   "slug": "tetsuo-umezawa"
+  },
+  {
+   "a_sha256": "sha256:c1f094301be180ddf5c5268e2b2272c3dbbf4fac469449c35f09db81194039c6",
+   "agreements": 2,
+   "b_sha256": "sha256:7aff02e422d1483af20447ec5bbecbe0c4e07f73c7258edd528baaf19dd561c8",
+   "deck_id": "The_Madcap_Jester",
+   "deep_review": 38,
+   "disagreements": 36,
+   "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+   "slug": "the-madcap-jester"
+  },
+  {
+   "a_sha256": "sha256:c44f3942fcc5d2f72cf98d14d05ee77ada0dbed1990dcd5dd183f7dfd4ac61ca",
+   "agreements": 7,
+   "b_sha256": "sha256:40b4921862be91b4eb5241ade63898bef8075c56c9a38f8717a5ac30c9e46704",
+   "deck_id": "The_Rani",
+   "deep_review": 80,
+   "disagreements": 73,
+   "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+   "slug": "the-rani"
+  },
+  {
+   "a_sha256": "sha256:1f5599daec3539a19dbe01eecc206cb326da20aafa75860bef14ad58874a8b15",
+   "agreements": 4,
+   "b_sha256": "sha256:d8fb1d48554b169c66affa9c70c96a08baacc2a113f1d6352dcaada2c4ebca33",
+   "deck_id": "The_Valeyard",
+   "deep_review": 30,
+   "disagreements": 26,
+   "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+   "slug": "the-valeyard"
+  },
+  {
+   "a_sha256": "sha256:76a5fca9bc5b8d0b4a4e00f05baf6de8723fe3b039ed8dba4c9817e785dac33f",
+   "agreements": 1,
+   "b_sha256": "sha256:b6812eb18dfa0690381a5b0cd3c055abefb13a71ba87617d88548a1899aad79d",
+   "deck_id": "Thraximundar",
+   "deep_review": 135,
+   "disagreements": 134,
+   "list_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+   "slug": "thraximundar"
+  },
+  {
+   "a_sha256": "sha256:77577bfce21106e5d6c9a84ea4c76b2744957c2918de7a33eec2e9c5593737e8",
+   "agreements": 0,
+   "b_sha256": "sha256:4b6548dbf4e86391da35ac658d5a32f9db72ef34b9669a8938ffbc04539bf6d7",
+   "deck_id": "Tresserhorn_s_Lord__Returned",
+   "deep_review": 301,
+   "disagreements": 301,
+   "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+   "slug": "tresserhorns-lord-returned"
+  },
+  {
+   "a_sha256": "sha256:554fdc93407d1958689ba1dbbaddeb54bb4c329ba65a3944165828fb6f4a5e48",
+   "agreements": 0,
+   "b_sha256": "sha256:4cfbed28a9ff3b5fb4aaf2ecafe431ffbdea10d846fbe7eb89cfcc95d18a2946",
+   "deck_id": "Wick__the_Whorled_Mind",
+   "deep_review": 214,
+   "disagreements": 214,
+   "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+   "slug": "wick-the-whorled-mind"
+  },
+  {
+   "a_sha256": "sha256:89d6aefa041130ae6827ac98527055b6a12d8fdcb9962e62b3df8f6a3e0901bf",
+   "agreements": 0,
+   "b_sha256": "sha256:842c8520304f31595faa9255dc66b53ca6663b984b844ce1584012a2dba67da1",
+   "deck_id": "Zevlor__Elturel_Exile",
+   "deep_review": 110,
+   "disagreements": 110,
+   "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+   "slug": "zevlor-elturel-exile"
+  }
+ ],
+ "schema_version": 1,
+ "stage": "M6_A_B_commit_then_reveal"
+}

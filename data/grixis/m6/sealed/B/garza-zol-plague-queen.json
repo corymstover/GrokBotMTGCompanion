@@ -1,0 +1,128 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:e75f1c6d54d79bd239bf72d4819a090fc4cb76b52a214fa2c34af77d4d9d915b",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Garza_Zol__Plague_Queen",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz"
+  ],
+  "list_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:garza-zol-plague-queen:performance:v1",
+  "recommendations": [
+   {
+    "add": "Bloodlord of Vaasgoth",
+    "cut": "Slip Out the Back",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:55a4e1d9705a",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:5689cb46bfe7abaa"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:b44f6f4066c6",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:f540ce50b3a54967"
+    ]
+   },
+   {
+    "add": "Burning Anger",
+    "cut": "Curiosity",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:0f93fad150a2",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:f97901e47c63c3cf"
+    ]
+   },
+   {
+    "add": "Cormela, Glamour Thief",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:a2ea39c07d7d",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:f42f7cb83b73dee2"
+    ]
+   },
+   {
+    "add": "Kamahl, Pit Fighter",
+    "cut": "Rapid Hybridization",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:c03c643ca61a",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:5e1643633a59b0c3"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:c2ac692c8f49",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:161775dcc7658eb3"
+    ]
+   },
+   {
+    "add": "Sengir, the Dark Baron",
+    "cut": "Slip Out the Back",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:b6ed27a91d6b",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:863a8944c79c087c"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Curiosity",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:9d6bc76c5953",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:4f52173e80797c03"
+    ]
+   },
+   {
+    "add": "Triskelion",
+    "cut": "Rapid Hybridization",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:d821948834fe",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:1ab68659bf840581"
+    ]
+   },
+   {
+    "add": "Vein Drinker",
+    "cut": "Slip Out the Back",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:99420a752774",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:708130cfcd74d0d4"
+    ]
+   },
+   {
+    "add": "Wound Reflection",
+    "cut": "Curiosity",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:0560b6b63e21",
+     "m5_test:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=test:garza-zol-plague-queen:goldfish:bdad1a80791db600"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

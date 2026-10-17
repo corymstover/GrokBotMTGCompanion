@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Cult_of_Skaro",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1157583,
+   "path": "data/grixis/birthday_m5/candidates/cult-of-skaro.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:4ed163b71119bc5ed3f0f6d41c0d6700f13f05fbd54c31d308dade7671319f33"
+  },
+  {
+   "bytes": 1197044,
+   "path": "data/grixis/birthday_m5/regen/cult-of-skaro.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:139faad86e12289d855cfb0b29e9982181f400ee46e554f0d0445e3edc1ec95f"
+  },
+  {
+   "bytes": 48202,
+   "path": "data/grixis/birthday_m5/evidence/cult-of-skaro.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:56cf2a6687d13619db4a08fc96f62ae9ced1eecd4ad635151fa09d6a235e7e37"
+  },
+  {
+   "bytes": 39847,
+   "path": "data/grixis/m6/optimizer/cult-of-skaro.json",
+   "role": "optimizer",
+   "sha256": "sha256:1b19ca93a602206c65440cc16811a77fa9d39bb7738776da4b2ba490b76d5cdc"
+  },
+  {
+   "bytes": 345838,
+   "path": "data/grixis/m6/review_packets/cult-of-skaro.json",
+   "role": "review_packet",
+   "sha256": "sha256:5b0472628b853f7521133d37f2a48d79cfa548512ddd24c2c2beb2bb520fdb1b"
+  }
+ ],
+ "list_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "cult-of-skaro",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Grixistax___October_2026",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1156993,
+   "path": "data/grixis/birthday_m5/candidates/grixistax-october-2026.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:a2dad8a4025f778ade4c78fc8b18a85e3b1bddc84b4b51eab8f9940bbd1d3939"
+  },
+  {
+   "bytes": 1195296,
+   "path": "data/grixis/birthday_m5/regen/grixistax-october-2026.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:23a73cae9ad5f6b273d4fda53a0931ffad9a8fc18de68bf33c383b7a6195f9d8"
+  },
+  {
+   "bytes": 48461,
+   "path": "data/grixis/birthday_m5/evidence/grixistax-october-2026.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:c1b0b386be90b784c1e995467509b2ebfdbdfa278fa11fa30dbf3ab368f1fa49"
+  },
+  {
+   "bytes": 22367,
+   "path": "data/grixis/m6/optimizer/grixistax-october-2026.json",
+   "role": "optimizer",
+   "sha256": "sha256:2fb62e9967631bcb6ec58137abbcb335480c93bb6974b3af4b1e1ed1d09efe04"
+  },
+  {
+   "bytes": 164026,
+   "path": "data/grixis/m6/review_packets/grixistax-october-2026.json",
+   "role": "review_packet",
+   "sha256": "sha256:99d3cd984a3aff4510f28c384303e5ccde418b7f749bc1bf13a5af18fd2435a7"
+  }
+ ],
+ "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "grixistax-october-2026",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

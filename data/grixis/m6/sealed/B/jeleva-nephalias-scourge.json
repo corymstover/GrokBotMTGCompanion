@@ -1,0 +1,288 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:f7fcc23a8c48ffb2729cee25bf8f9fd0d51d87dda83d9f391309abccb3034a2c",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Jeleva__Nephalia_s_Scourge",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz"
+  ],
+  "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:jeleva-nephalias-scourge:performance:v1",
+  "recommendations": [
+   {
+    "add": "Alhammarret's Archive",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:b9bab2222aa8",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:c434c2c465330e35"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:ce49c2fc20d2",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:531587339675f917"
+    ]
+   },
+   {
+    "add": "Archmage Emeritus",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:8447b5bee534",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:9677d9137d613e79"
+    ]
+   },
+   {
+    "add": "Bloodletter of Aclazotz",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:1a1d11c3c2c1",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:6dbb93844f62f371"
+    ]
+   },
+   {
+    "add": "Brainsurge",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:32dfb364c684",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:bd431494ddd5ebb5"
+    ]
+   },
+   {
+    "add": "Brainsurge",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:46e324c883dc",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:a1fb9802087b56c2"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:7258dfafe825",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:04a2530c3e3a938b"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:7c17ecf3ffb0",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:9ccd81b2f0eaa276"
+    ]
+   },
+   {
+    "add": "Chromatic Lantern",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:951e949aa93b",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:8d1db1e10faef5ef"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:63b45f96cf11",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:e3ed1ee6ce35c5d6"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:57875e9ac20d",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:d63d3ac9b10bbca9"
+    ]
+   },
+   {
+    "add": "Cruel Ultimatum",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:2770deba8848",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:d145c9005f8c4ae8"
+    ]
+   },
+   {
+    "add": "Decree of Pain",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:37687770889f",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:3a9070615e63a5f1"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:51df3468f27b",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:b75dd32002e2ed28"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:4c5d04c16374",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:43b93cf181cf3dfb"
+    ]
+   },
+   {
+    "add": "Fortune Teller's Talent",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:71504c32e01e",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:4ae245af8ab56d3d"
+    ]
+   },
+   {
+    "add": "Frantic Search",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:f94f4488a41e",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:d9cfd562867c33ed"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:165ba56892d5",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:3e4645044bb87c89"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:41df877f1859",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:3205f34dbf5c9f83"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:802eb49700cc",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:92980396d1309b0d"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Demonic Consultation",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:3038a9128709",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:d2534de5b0acf11f"
+    ]
+   },
+   {
+    "add": "Mizzix's Mastery",
+    "cut": "Brain Freeze",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:f86fbd6a439e",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:0536f98b6b00808e"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:fc42d99f1532",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:bbe06c031f51d714"
+    ]
+   },
+   {
+    "add": "Psychosis Crawler",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:07ba9372c816",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:9ff8a0976df04593"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:8e7508aab983",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:31d5cec0ea2235cf"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:05d2ebe8a167",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:d4a3d55c0b620580"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:5a3dd5750750",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:65ef055644d2ee0b"
+    ]
+   },
+   {
+    "add": "Talisman of Indulgence",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:e5df55a02b19",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:d1ee0189ea80988c"
+    ]
+   },
+   {
+    "add": "Tasha, the Witch Queen",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:7c82871b2592",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:48eaf65b6e8bc005"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:4a39644ab068",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:ce6eb5b3ccd53390"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=swap:jeleva-nephalias-scourge:m5:58e54dc307bb",
+     "m5_test:data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz#id=test:jeleva-nephalias-scourge:goldfish:62a41a0f61b125ca"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

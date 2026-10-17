@@ -1,0 +1,272 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:6ac78029c5422201bc0b553d3f65ab6ad26b9ece851f083b862ec37d1814b7e0",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Mai_and_Zuko",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz"
+  ],
+  "list_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:mai-and-zuko:performance:v1",
+  "recommendations": [
+   {
+    "add": "Advanced Reconstruction",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:72a58108a30f",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:f0afa9ac8d632cc1"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:3d5af0254d41",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:383ed124669ce9e1"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:75053bea0b9a",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:aec64ad78c5d6d88"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:7c5676d6a820",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:05d30aa1548910ad"
+    ]
+   },
+   {
+    "add": "Experimental Frenzy",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:814cde9d0892",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:e9aa64e7e06e914f"
+    ]
+   },
+   {
+    "add": "Exquisite Blood",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:aba2471c64b0",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:9cdf9637a7236253"
+    ]
+   },
+   {
+    "add": "Fabricate",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8489872c11b5",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:b48a7eeb4fe06de8"
+    ]
+   },
+   {
+    "add": "Future Sight",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c6b24618ee3b",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:7554c29fa9dca052"
+    ]
+   },
+   {
+    "add": "Gilded Lotus",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:b79ab648e091",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:3592f90786f0cebb"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:1284cb1ca7e0",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:e9612222147ea8ba"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:6514c392e181",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:4d8b7f969efbebb4"
+    ]
+   },
+   {
+    "add": "Mind Stone",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:d6b06f9ec56a",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:c87554009545121a"
+    ]
+   },
+   {
+    "add": "Mortuary",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8cc5f62a6890",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:2fc28264479a8709"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ef9eb1246cd6",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:06d02f703b004df6"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:b86d45ebedeb",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:62ecae68852d0d31"
+    ]
+   },
+   {
+    "add": "Scour for Scrap",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:0c63666fd27f",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:5dfa4808842497d7"
+    ]
+   },
+   {
+    "add": "Spirit Water Revival",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:ec2a3ce7f86d",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:3aef1f3cb19d642e"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:efea4143158c",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:bc73c8e133937095"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:84552ddd1f35",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:48ab56f20f61507c"
+    ]
+   },
+   {
+    "add": "The Immortal Sun",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:6febd2587ac3",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:b052ba1111545bfb"
+    ]
+   },
+   {
+    "add": "The Soul Stone",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:fd7abf8456c7",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:7f796bd226f488ca"
+    ]
+   },
+   {
+    "add": "Thought Vessel",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:91624f50ef6e",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:4f6a2aa20aa7a9a2"
+    ]
+   },
+   {
+    "add": "Thought Vessel",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:c44fd2d5936f",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:a3cfd71dd99874bc"
+    ]
+   },
+   {
+    "add": "Thoughtcast",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8f124d8e4f76",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:79dcc11a65992890"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f2d0be83f437",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:3b91a3c457864e75"
+    ]
+   },
+   {
+    "add": "Tribute Mage",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8d4b8bc31a64",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:44029569e7f0fa0c"
+    ]
+   },
+   {
+    "add": "Trinket Mage",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:8da58747b51c",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:399aa22ea35a8af6"
+    ]
+   },
+   {
+    "add": "Trophy Mage",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:f7c9054fd1e4",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:ae90085400bca792"
+    ]
+   },
+   {
+    "add": "Ugin, the Ineffable",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=swap:mai-and-zuko:m5:0d4fedace6ae",
+     "m5_test:data/grixis/birthday_m5/regen/mai-and-zuko.json.gz#id=test:mai-and-zuko:goldfish:6277f8d1aa4dcff2"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

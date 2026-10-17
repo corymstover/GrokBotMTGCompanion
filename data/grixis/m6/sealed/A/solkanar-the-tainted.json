@@ -1,0 +1,269 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:8ca19c299ce4031232fb67a00f8814459e690e463a58e02c1c138b9cbbfdf77f",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Sol_kanar_the_Tainted",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz"
+  ],
+  "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:solkanar-the-tainted:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Body of Knowledge",
+    "cut": "Ertai Resurrected",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Body of Knowledge",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:729d022cb459",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Bazaar Trader",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:540bce12b51c",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:b15a4410a5a1",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Echo Mage",
+    "cut": "Bazaar Trader",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Echo Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:f6c73210cdef",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Echo Mage",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Echo Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:282e28849616",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:7d38636e3f5c",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:aa47a1accdf6",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:39778211694c",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:7d3465b45a8a",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Bazaar Trader",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:eb884ddc718a",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:2c78aa20a53e",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Ertai Resurrected",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:51e5f306fa6f",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Bazaar Trader",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:9544cd1d7ae4",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:9c5561bff0b4",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:411035346a90",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Spiteful Banditry",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:934f751c22a1",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Ertai Resurrected",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:fb1123c624f5",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Sigil Tracer",
+    "cut": "Bazaar Trader",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Sigil Tracer",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:8d28f7718ca5",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Sigil Tracer",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Sigil Tracer",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:74dbe6d03da5",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Bazaar Trader",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:454898cd4556",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:af462f2d61c7",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:97a07445ccbc",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:92b90a944e5d",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Goblin Bombardment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:72a8e5ce67d2",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:a7d1ba12114f",
+     "blueprint:data/grixis/blueprints/solkanar-the-tainted.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

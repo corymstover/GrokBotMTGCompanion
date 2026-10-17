@@ -1,0 +1,1025 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:db0641be94e1efc56c0951dcb7dbb278db849d776293029a54a6273d575c905e",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Don_Andres__the_Renegade",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz"
+  ],
+  "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:don-andres-the-renegade:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Amphin Mutineer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Amphin Mutineer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f09e316da0fa",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Angrath's Marauders",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Angrath's Marauders",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:9552cfad6726",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Bigfin Bouncer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Bigfin Bouncer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:7c802bfbdb3f",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Brineborn Cutthroat",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Brineborn Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:978a29da6f2f",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Broadside Bombardiers",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Broadside Bombardiers",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:0635f1f663f7",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Captain Howler, Sea Scourge",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Captain Howler, Sea Scourge",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:01af21c4db96",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Captain Lannery Storm",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Captain Lannery Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:3f94b06e137a",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Captain of Umbar",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Captain of Umbar",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:c66d72f309bd",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Captain Storm, Cosmium Raider",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Captain Storm, Cosmium Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:2d05ebc69e6c",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Captain Storm, Cosmium Raider",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Captain Storm, Cosmium Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:8fb57b7aac18",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Captain Vargus Wrath",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Captain Vargus Wrath",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:0b7e666e84ca",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Captivating Crew",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Captivating Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f568522f6ea6",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Captivating Crew",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Captivating Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:5df7326087b6",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:1e4f09e653b4",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:9bafabe53578",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:98912ea16e04",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:cbb12908319e",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Cloud Pirates",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Cloud Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d60d899315e9",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Corsair Captain",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Corsair Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:bc26583383cf",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:b8bd97b79d94",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:b5ec3629c519",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Cryptcaller Chariot",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Cryptcaller Chariot",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:15bce87204de",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Daring Buccaneer",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Daring Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d62020f3acde",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Daring Saboteur",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Daring Saboteur",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:5d50cb95c419",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Deadeye Brawler",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Deadeye Brawler",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:90158d268db7",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Deadeye Quartermaster",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Deadeye Quartermaster",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d4698f561416",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Deadeye Rig-Hauler",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Deadeye Rig-Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:c4d5d59c99e9",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Deadeye Tracker",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Deadeye Tracker",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:333d3aed08c7",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Departed Deckhand",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Departed Deckhand",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:84cfb4c00079",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Desperate Castaways",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Desperate Castaways",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:3fc556b30b43",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Dinosaur Hunter",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Dinosaur Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d1b25bd6bd87",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Captain",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Dire Fleet Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:bcd973374dfa",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Poisoner",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Dire Fleet Poisoner",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d9205559db17",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Admiral Beckett Brass",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:c0d602854b92",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:72030b65fd25",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Fanatical Firebrand",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Fanatical Firebrand",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:7af3685ab879",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Cutthroat",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Fathom Fleet Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:9176e44608d5",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Fathom Fleet Firebrand",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Fathom Fleet Firebrand",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:e9a616ac1d13",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Fearless Swashbuckler",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Fearless Swashbuckler",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:c5c356f5b5ba",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Forerunner of the Coalition",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Forerunner of the Coalition",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f3136b8629cd",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Francisco, Fowl Marauder",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Francisco, Fowl Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:db6fb6e892c8",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Francisco, Fowl Marauder",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Francisco, Fowl Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f87160a4b0c3",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Gemcutter Buccaneer",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Gemcutter Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:c51839a30dd5",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d66a0c306c03",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:68163a271483",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Goblin Tomb Raider",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Goblin Tomb Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d402c52f0312",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Goblin Trailblazer",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Goblin Trailblazer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:7990ac57575e",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Gorehorn Raider",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Gorehorn Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:32972e184b0a",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Grasping Scoundrel",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Grasping Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:139bfaac8759",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:5ff0053fc626",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Admiral Beckett Brass",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:3e0f84bb3516",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:4b39f057e5ab",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Impulsive Pilferer",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Impulsive Pilferer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d785705d57b1",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Infinite Reflection",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Infinite Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:c1f3fa66b80e",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Keen Buccaneer",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Keen Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:9f59d2e0c003",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:409113ebf91b",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Kitesail Corsair",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Kitesail Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:a0741d41fa4e",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Kitesail Freebooter",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Kitesail Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:74e28fe9a4ad",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Kitesail Larcenist",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Kitesail Larcenist",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:cf2eb48dba80",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Kitsa, Otterball Elite",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Kitsa, Otterball Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:a21cf116b087",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Kitsa, Otterball Elite",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Kitsa, Otterball Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:2db315ce7a54",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Kukemssa Pirates",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Kukemssa Pirates",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:bd9f82ac11f5",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Magmakin Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:dbeafc049f33",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Malcolm, Alluring Scoundrel",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Malcolm, Alluring Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:b960b8182cf8",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Marauding Looter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Marauding Looter",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:5bec94e08a39",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Marauding Mako",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Marauding Mako",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f0b0e6ee8be9",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Merchant Raiders",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Merchant Raiders",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:b3c6802e4b0a",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Oaken Siren",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Oaken Siren",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:3b2e0318ebb5",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Pirate Ship",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Pirate Ship",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:6175bedcf3a1",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Pirated Copy",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Pirated Copy",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:8d99d0d5fced",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Pitiless Plunderer",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Pitiless Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:7f420a3a557b",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Port Razer",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Port Razer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d80fec3a910c",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Port Razer",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Port Razer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:e6143c523c83",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:a68dfa299a48",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:6491d5327c24",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Rigging Runner",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Rigging Runner",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:6085be11e320",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Rowdy Crew",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Rowdy Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:816eea680c84",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Scrounging Skyray",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Scrounging Skyray",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:e9899baa31a9",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Looter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Shipwreck Looter",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:545a1ded1c9c",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Sentry",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Shipwreck Sentry",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:03180e24f294",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Siren Stormtamer",
+    "cut": "Fierce Guardianship",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Siren Stormtamer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:da71590fbc30",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Skyship Buccaneer",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Skyship Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:308d5cb9d7b8",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Skyship Plunderer",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Skyship Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:c088bb36eda5",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Smuggler Captain",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Smuggler Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:b849093bafc4",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Spectral Sailor",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Spectral Sailor",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:64ae691e4456",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f2f54d4b8e1b",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Staunch Crewmate",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Staunch Crewmate",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:8b8e483ebe65",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:1f5d006aef16",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Aerialist",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Storm Fleet Aerialist",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f658109c3dc7",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Pyromancer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Storm Fleet Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:05c30068386f",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Spy",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Storm Fleet Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:2def2633645e",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Storm Fleet Swashbuckler",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Storm Fleet Swashbuckler",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:e0e9f2edf074",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Swab Goblin",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Swab Goblin",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:95b01b650ae6",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Talas Explorer",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Talas Explorer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:3fbc917e6ec8",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Talas Merchant",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Talas Merchant",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:5da62a2a521d",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Talas Researcher",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Talas Researcher",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f637ed51c7d6",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Talas Scout",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Talas Scout",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d612aba7bc2f",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:5c3b99c30c90",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "The Watcher in the Water",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=The Watcher in the Water",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d5ca13ea0fb6",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Thunderhead Gunner",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Thunderhead Gunner",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:635fe2747ee9",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Admiral Beckett Brass",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:a29c272dda12",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d9bdad1f9bbf",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:7f0d2f68c542",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Admiral Beckett Brass",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:249e2dff4438",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f22338cf2bc7",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Warkite Marauder",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Warkite Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f4e762aada60",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Worldgorger Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:f185bd8d6857",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Zara, Renegade Recruiter",
+    "cut": "Breeches, Eager Pillager",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Zara, Renegade Recruiter",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:e7bd62e24ab2",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   },
+   {
+    "add": "Zara, Renegade Recruiter",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#card=Zara, Renegade Recruiter",
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:1a49ed917614",
+     "blueprint:data/grixis/blueprints/don-andres-the-renegade.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

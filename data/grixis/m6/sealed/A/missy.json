@@ -1,0 +1,2501 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:a04e461558ea41418cb7868e9228cf026a0fc6d7bdcb3412bfc26ad6a8b3a1a2",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Missy",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/missy.json.gz"
+  ],
+  "list_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:missy:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "A.I.M. Scientists",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=A.I.M. Scientists",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:3f1a5b8d1d9a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Alesha, Who Laughs at Fate",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Alesha, Who Laughs at Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6925ecf9f94d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Alex Wilder, Runaway",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Alex Wilder, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:39a5e5101d0e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Alicia Masters, Skilled Sculptor",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Alicia Masters, Skilled Sculptor",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:3c80bde3ae0a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:d5aeb5e7601d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Aphetto Alchemist",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Aphetto Alchemist",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:988aba9f3468",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f74890bd3f37",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Archpriest of Shadows",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Archpriest of Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4f56a054030f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Ardyn, the Usurper",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Ardyn, the Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:39366bb6071e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Arni, Humble Scribe",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Arni, Humble Scribe",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:bf18ff7773ed",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Astonishing Spider-Man",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Astonishing Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:1c02f633817f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Baral, Chief of Compliance",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Baral, Chief of Compliance",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6a6fcb8d07f7",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Baron Helmut Zemo",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Baron Helmut Zemo",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:a907f94acb4a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Baron Strucker, HYDRA Overlord",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Baron Strucker, HYDRA Overlord",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ee223c2c7ba4",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Basim Ibn Ishaq",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Basim Ibn Ishaq",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7cd940e259c5",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Daring Operative",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Black Widow, Daring Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:10c31ebbbaeb",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Blasting Station",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Blasting Station",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:cc447f148040",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Blasting Station",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Blasting Station",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:161699609ffe",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Bloodsoaked Champion",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Bloodsoaked Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0a0ad11af605",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Bloodsoaked Champion",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Bloodsoaked Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:499755112c02",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Bone Miser",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Bone Miser",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:851e928b9e00",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Bruvac the Grandiloquent",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Bruvac the Grandiloquent",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0b4267759846",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Bullseye, Death Dealer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Bullseye, Death Dealer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:b638a927338e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Captain Lannery Storm",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Captain Lannery Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7f17f3daf3f8",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Carrion Feeder",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Carrion Feeder",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ac4abc7b9c05",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Carrion Feeder",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Carrion Feeder",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:2bec83af9a3c",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7d428818e000",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:66af78c7be11",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Chainer, Dementia Master",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Chainer, Dementia Master",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c2041b222299",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Chainer, Nightmare Adept",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Chainer, Nightmare Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:dce32390e694",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Chameleon, Master of Disguise",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Chameleon, Master of Disguise",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:83842fc32203",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:8e615d84e55a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Chase Stein, Runaway",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Chase Stein, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:57269840428b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:09c28b25fbc2",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c30d2a47b4f2",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Coral Trickster",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Coral Trickster",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:5b90dde8844a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Coral Trickster",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Coral Trickster",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ddf17d484ae7",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Corpse Connoisseur",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Corpse Connoisseur",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6a382cabd423",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:814c39a1d738",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Crimson Operative",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Crimson Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7a5dfb6e8c5f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Cryotheory Adept",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Cryotheory Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0e01228b8258",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Cult Conscript",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Cult Conscript",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ee12a4e6858d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Cynical Loner",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Cynical Loner",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:bd8284271921",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Dark Matter Manipulator",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Dark Matter Manipulator",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:094bdf4685ec",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Diplomatic Escort",
+    "cut": "Swan Song",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Diplomatic Escort",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:18d8ff80e6d9",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Disciple of Deceit",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Disciple of Deceit",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c168d25762ec",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Disciple of the Vault",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Disciple of the Vault",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:529c54c8eaf8",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Disciples of Gix",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Disciples of Gix",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:582370af5873",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Disruptive Pitmage",
+    "cut": "Swan Song",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Disruptive Pitmage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6b2ab25b699d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Diviner of Victory // Unwind History",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Diviner of Victory // Unwind History",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:321f588be97e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Divining Duelist",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Divining Duelist",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ce3e09255ff5",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Divining Witch",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Divining Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c3915595bbb1",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Dockside Chef",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Dockside Chef",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:b7df03b0aa95",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Doctor Doom",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7611cd9755fd",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom, King of Latveria",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Doctor Doom, King of Latveria",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:8edf59260d00",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Dr. Eggman",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Dr. Eggman",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:781dcd6d3935",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Ashad, the Lone Cyberman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:dab77b48de44",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:5d5e46a77b6f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Drafna, Founder of Lat-Nam",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Drafna, Founder of Lat-Nam",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:16d436a2bad0",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Dragon's Rage Channeler",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Dragon's Rage Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e3ff441beae0",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Dulcet Sirens",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Dulcet Sirens",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e20db3060e17",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Dulcet Sirens",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Dulcet Sirens",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e83104cca90b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Dwarven Blastminer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Dwarven Blastminer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:fd51a87eff37",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Dwarven Blastminer",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Dwarven Blastminer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f934597b336b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Ideation // Ancestral Recall",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Emeritus of Ideation // Ancestral Recall",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:621378776bfa",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Emet-Selch of the Third Seat",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Emet-Selch of the Third Seat",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e1a2e1b1347e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Emry, Lurker of the Loch",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Emry, Lurker of the Loch",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:5da616797858",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Experimental Confectioner",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Experimental Confectioner",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:778f97c0bb7a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Fain, the Broker",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Fain, the Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c5cba0a4196d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Falcon, Winged Wonder",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Falcon, Winged Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:99454bb344de",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Fandaniel, Telophoroi Ascian",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Fandaniel, Telophoroi Ascian",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:65ddbb97d3ee",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f791768b7bcc",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Fixer, Techno Terror",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Fixer, Techno Terror",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7d70421f660e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Forsaken Miner",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Forsaken Miner",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ae3b3d0f02b0",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Generous Plunderer",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Generous Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c740d294f032",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Gideon the Oathless",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Gideon the Oathless",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e9dcee1464c1",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:a026bdd8ccf7",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Goblin Taskmaster",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Goblin Taskmaster",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:2fabec1b2a23",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Goblin Taskmaster",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Goblin Taskmaster",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:eecaa7f7a0bd",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Golgari Thug",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Golgari Thug",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:a86e15c25ee5",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Golgari Thug",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Golgari Thug",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4bb03b7ae076",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Gravecrawler",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Gravecrawler",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:30a891e1b96f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Graveyard Trespasser // Graveyard Glutton",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Graveyard Trespasser // Graveyard Glutton",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c9c5c9e62af2",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e3cb0897e128",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Green Goblin, Back for More",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Green Goblin, Back for More",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7b00b91b9a02",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Grim Reaper, Lethal Legionnaire",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Grim Reaper, Lethal Legionnaire",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:59d3e373493c",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Grudge Keeper",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Grudge Keeper",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:54223f26a474",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Gudul Lurker",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Gudul Lurker",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:347432d0e72f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Gudul Lurker",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Gudul Lurker",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:5ef70e348813",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Hakim, Loreweaver",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Hakim, Loreweaver",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:46af2fb66e91",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Hammer Mage",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Hammer Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:8923df22ea04",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Hammerhead, Maggia Boss",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Hammerhead, Maggia Boss",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:139a933f524f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Harsh Mentor",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Harsh Mentor",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0f41c1548ff4",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Haunt of the Dead Marshes",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Haunt of the Dead Marshes",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4142dd289cea",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Hawkeye, Master Marksman",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Hawkeye, Master Marksman",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:a9db603835fd",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Headhunter",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Headhunter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:67573cd45227",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Headhunter",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Headhunter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:3a47101fc0cc",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Hell-Bent Raider",
+    "cut": "Lightning Greaves",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Hell-Bent Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:400e7751e141",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Helmut Zemo, Mastermind",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Helmut Zemo, Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4ac04e7a0579",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Hostage Taker",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Hostage Taker",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:aec8003a7fe0",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:065847684860",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:06dbcbe18fd7",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "HYDRA Troopers",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=HYDRA Troopers",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:157d826f1a35",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Ingenious Artillerist",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Ingenious Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f2cc89c7781a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Inti, Seneschal of the Sun",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Inti, Seneschal of the Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ed91ff5dc104",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Intruder Alarm",
+    "cut": "Grave Pact",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Intruder Alarm",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:d7327fa97761",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Ire Shaman",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Ire Shaman",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:861b48026aa8",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Ire Shaman",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Ire Shaman",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:685606eb3fb6",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Diverging Destiny",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Lad, Diverging Destiny",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4c484db5d1ed",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:755fcd0ac39e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Armored Avenger",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Man, Armored Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4d4f2c4d712b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Bleeding Edge",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Man, Bleeding Edge",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:82d2a073bc7d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Futurist Paragon",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Man, Futurist Paragon",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:177bfb4bd78b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Master of Machines",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Man, Master of Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:47c46e684a9b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Modern Marvel",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Man, Modern Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:fc76bb3f0208",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Titan of Innovation",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Man, Titan of Innovation",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e641b1a8e515",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Tony Stark",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Man, Tony Stark",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:1c07fc75db09",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Iron Monger, Sadistic Tycoon",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Iron Monger, Sadistic Tycoon",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:bb3ebdce9617",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Ironheart, Clever Champion",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Ironheart, Clever Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6bff3b08ad2c",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Jack of Hearts, Volatile Hero",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Jack of Hearts, Volatile Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c2291afd7945",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Jadzi, Steward of Fate // Oracle's Gift",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Jadzi, Steward of Fate // Oracle's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:aae8e442cfd3",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4e2af89c0aee",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Jaya Ballard, Task Mage",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Jaya Ballard, Task Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0e7e3348421a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Jhoira, Weatherlight Captain",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Jhoira, Weatherlight Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:cf9d6e559677",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Jhoira, Weatherlight Corsair",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Jhoira, Weatherlight Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:abb32aa4d542",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Jiang Yanggu, Alone",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Jiang Yanggu, Alone",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:31d0d00416c8",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:8a23883309d7",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7aafcd638fd8",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "K'un-Lun Warrior",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=K'un-Lun Warrior",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f0aa9111ae4d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Kang, Temporal Tyrant",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Kang, Temporal Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7e150180eef7",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Kellogg, Dangerous Mind",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Kellogg, Dangerous Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:a2c4926f2a9e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Kess, Dissident Mage",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Kess, Dissident Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4ed26bf3cb79",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Killmonger, Ruthless Usurper",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Killmonger, Ruthless Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f3b17e0aaf92",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Kingpin's Enforcers",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Kingpin's Enforcers",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f33bea30fb9d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Kingpin, Wilson Fisk",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:86c0e37a9204",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Kitsa, Otterball Elite",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Kitsa, Otterball Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:841ea3d88490",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Kolaghan Stormsinger",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Kolaghan Stormsinger",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:40875d9ecf43",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Kolaghan Stormsinger",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Kolaghan Stormsinger",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:fa20a658e2f8",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Ashad, the Lone Cyberman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:60b6dd4e61a7",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:995fcf6e5e6a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Lady Spider, Maybelle Reilly",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Lady Spider, Maybelle Reilly",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6db38f9424a5",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Liliana the Repentant",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Liliana the Repentant",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:9ae4906e5ce5",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Liliana, Untouched by Death",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Liliana, Untouched by Death",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:bbe144ed26af",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Loyal Apprentice",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Loyal Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:5aeadc1f3cd5",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Loyal Inventor",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Loyal Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:41df97cdbad4",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Luke Cage, Hero for Hire",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Luke Cage, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:afede8e0c42f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "MACH-1, Swooping Scoundrel",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=MACH-1, Swooping Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0818c0c3020c",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra, Reanimated",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Madame Hydra, Reanimated",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:15c705a56452",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Madame Masque",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Madame Masque",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4b1f11a4011e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Magmatic Galleon",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Magmatic Galleon",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e7a36a00fe96",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Marang River Prowler",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Marang River Prowler",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:64d083eb265b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Marang River Prowler",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Marang River Prowler",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0b4936b0760b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:49505b7ebe4d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Marionette Apprentice",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Marionette Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ba15598026cb",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Marionette Master",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Marionette Master",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:1f500575508b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Master of Etherium",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Master of Etherium",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:a1a46a26744c",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Master Transmuter",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Master Transmuter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e911707988bd",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Maximus, Knight Apparent",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Maximus, Knight Apparent",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:43e66d3d596a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Memnarch, the Warden",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Memnarch, the Warden",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:665a1a7e3ddc",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Metamorphosis Fanatic",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Metamorphosis Fanatic",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:259cc330236d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Mica, Reader of Ruins",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Mica, Reader of Ruins",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:1dd9236f7e22",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c506474c1bba",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Misty Knight, Hero for Hire",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Misty Knight, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:cf0dcf58d1cc",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Monastery Flock",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Monastery Flock",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4bcd41044a3e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Monastery Flock",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Monastery Flock",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:caebd88aa906",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Moon-Circuit Hacker",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Moon-Circuit Hacker",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:9c6cb8f9968b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Moonstone, Harsh Mistress",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Moonstone, Harsh Mistress",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:58dcf69dc2d3",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Muse Seeker",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Muse Seeker",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:1d0edccdd27c",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Nico Minoru, Runaway",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Nico Minoru, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:a0d7c796c02c",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ba7c5a3874a3",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:89b2740da800",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Oathsworn Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f343795190b1",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Oriq Loremage",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Oriq Loremage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0452ef6d8f3a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Ozox, the Clattering King",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:bba2ea8a7d1b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Paradox Shaper // Omit Variables",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Paradox Shaper // Omit Variables",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:3f44f0d62fc3",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Party Thrasher",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Party Thrasher",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:45d65913826c",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Pashalik Mons",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Pashalik Mons",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:5bf0537588ee",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Pashalik Mons",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Pashalik Mons",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:90ea1c85e78a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Pharaoh Rama-Tut",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Pharaoh Rama-Tut",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e9e8691635ee",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Pia, Determined Rebuilder",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Pia, Determined Rebuilder",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c9e292aedef5",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Plasmancer",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Plasmancer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:cc5196fbfb1f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Professional Face-Breaker",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Professional Face-Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:fc0f8c204e00",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Proft, Consulting Detective",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Proft, Consulting Detective",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:21f646582c74",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Proft, Sinister Mastermind",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Proft, Sinister Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:8d54e40fa210",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Prosperous Thief",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Prosperous Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6737762326a9",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Puppet Master, String Puller",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Puppet Master, String Puller",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:34aad6ab9b54",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e6b79349ebe1",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:3881ea1f58a2",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Razorlash Transmogrant",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Razorlash Transmogrant",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:624f97456834",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Reassembling Skeleton",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Reassembling Skeleton",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7f1bea53d881",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Red Room Recruit",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Red Room Recruit",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:be055cc9f541",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Renowned Weaponsmith",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Renowned Weaponsmith",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:388e97e51602",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Rescue, Pepper Potts",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Rescue, Pepper Potts",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:cf563480cecb",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Rev, Tithe Extractor",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Rev, Tithe Extractor",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:2afddca57ebf",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Riptide Pilferer",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Riptide Pilferer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:a4cff0e798ef",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Riptide Pilferer",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Riptide Pilferer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:76f8875bb0da",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0d44f912f5e0",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Roxxon Brutes",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Roxxon Brutes",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:10c27b120d90",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Ruthless Technomancer",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Ruthless Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:88d4ba2b4e78",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:2218a1300c71",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Sai, Master Thopterist",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Sai, Master Thopterist",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:1e403dca7bc3",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Scientist Supreme of A.I.M.",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Scientist Supreme of A.I.M.",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:19e601cdb52b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Scornful Egotist",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Scornful Egotist",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c14577c24259",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Seasoned Cryomancer",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Seasoned Cryomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:fb3fac908065",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Shaun, Father of Synths",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Shaun, Father of Synths",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:91b3d60c6892",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Shuri, Wakandan Inventor",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Shuri, Wakandan Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:cff13aa6d75a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Silverclad Ferocidons",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Silverclad Ferocidons",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:fcaa23341563",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Silverclad Ferocidons",
+    "cut": "Zulaport Cutthroat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Silverclad Ferocidons",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:89036c79d3fd",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Smaug the Impenetrable",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Smaug the Impenetrable",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6cc35ada4012",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Snapcaster Mage",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Snapcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:73a789115c0b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Songbird, Sonic Screamer",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Songbird, Sonic Screamer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:8f9824517ba1",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:9216c9697fcf",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Spellbook Seeker // Careful Study",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Spellbook Seeker // Careful Study",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:5943f85a811f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Sphinx's Herald",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Sphinx's Herald",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0b2fbe12ab97",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, New Champion",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Spider-Man, New Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:137633d1a6ea",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Stark Industries Executive",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Stark Industries Executive",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:34c2209c99aa",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Stingcaster Mage",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Stingcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:db508f780ad1",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Ashad, the Lone Cyberman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:d22c7acc8245",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e25445c30926",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "Ashad, the Lone Cyberman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:517d6b1d5faa",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:62e8d35819e8",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Swordsman, Sharp Scoundrel",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Swordsman, Sharp Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7c82310a146d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:5dd1c54806c5",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:aaa1a53cc579",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Textbook Tabulator",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Textbook Tabulator",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7ce8af40b8e9",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "The Immortal Weapons",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=The Immortal Weapons",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ff3bc7cd25cd",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "The Masters of Evil",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=The Masters of Evil",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6fc9b2128339",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "The Ruinous Wrecking Crew",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=The Ruinous Wrecking Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e85ea3d84e77",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "The Squadron Sinister",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=The Squadron Sinister",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f9d0dbf7f5cb",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Theorix Metamage // Omit Variables",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Theorix Metamage // Omit Variables",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:9934fdfe7570",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Thermopod",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c8865c6a3158",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Third Path Iconoclast",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Third Path Iconoclast",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:727ff843a3db",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Thornbite Staff",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Thornbite Staff",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:1666eb699156",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Thornbite Staff",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Thornbite Staff",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:49725fce5ade",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:514e0d25788e",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:d5be7896faa8",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tiger Shark, Abyssal Hunter",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tiger Shark, Abyssal Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:55aefbb38f3a",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:89f37cb26f8f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Timebender",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Timebender",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:a50a2110a8f8",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tishana's Tidebinder",
+    "cut": "Boltbender",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tishana's Tidebinder",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6aeafb44c40b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Titanium Man",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Titanium Man",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:6852009616b9",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tolarian Sentinel",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tolarian Sentinel",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:69b33e02365b",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tombstone Stairwell",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tombstone Stairwell",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:70643931d207",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tony Stark // The Invincible Iron Man",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tony Stark // The Invincible Iron Man",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:91fafc00bc76",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Transit Mage",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Transit Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:d998d599caa1",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Treasure Mage",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Treasure Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:8697c44f3c22",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Tribute Mage",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Tribute Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:825609947729",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Trinket Mage",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Trinket Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:798da4a090fd",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Trophy Mage",
+    "cut": "Vampiric Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Trophy Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:34e2b2af80db",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:765c55885b38",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "They Came from the Pipes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Undead Sprinter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:b35ca599e420",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Urza, Lord High Artificer",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Urza, Lord High Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:2af59c70fb71",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Valentina Allegra de Fontaine",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Valentina Allegra de Fontaine",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:69743674ee60",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Variable Chaser // Arc of Fortune",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Variable Chaser // Arc of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:d69990673a1f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Vedalken Archmage",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Vedalken Archmage",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:dc3a584cd3c0",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Victor Mancha, Runaway",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Victor Mancha, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:941a38a7675d",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Victor Timely, Wily Tycoon",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Victor Timely, Wily Tycoon",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:03ccf8270833",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Vizier of the Anointed",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Vizier of the Anointed",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:e5238e34dd03",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Vizier of Tumbling Sands",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Vizier of Tumbling Sands",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:21e33407374f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Vohar, Vodalian Desecrator",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Vohar, Vodalian Desecrator",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:4843456f6150",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Voidmage Prodigy",
+    "cut": "Swan Song",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Voidmage Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:1d08926293ad",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Wall of Deceit",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Wall of Deceit",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:82f6b0fe8494",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Wall of Deceit",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Wall of Deceit",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:8309d15b1b23",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "War Machine, Avenging Arsenal",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=War Machine, Avenging Arsenal",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:f51846fdf3db",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Warbreak Trumpeter",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Warbreak Trumpeter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:b63c0aee3b01",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Warbreak Trumpeter",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Warbreak Trumpeter",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:87126172610f",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Warren Soultrader",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Warren Soultrader",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:ec1b0660a76c",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Whirler Rogue",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Whirler Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:471ecd28e0fb",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Witch of the Moors",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Witch of the Moors",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:29df44a79265",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Yawgmoth, Thran Physician",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Yawgmoth, Thran Physician",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:7c180e586198",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Young Necromancer",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Young Necromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:0302d08d3c33",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Young Necromancer",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Young Necromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:c0500cf5e989",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   },
+   {
+    "add": "Yuriko, Hope from the Shadows",
+    "cut": "Reckless Fireweaver",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/missy.json.gz#card=Yuriko, Hope from the Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/missy.json.gz#id=swap:missy:m5:1ae1c0569dd5",
+     "blueprint:data/grixis/blueprints/missy.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

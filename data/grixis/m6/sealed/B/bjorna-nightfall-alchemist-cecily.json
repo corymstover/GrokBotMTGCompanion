@@ -1,0 +1,224 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:10a2b926c1eb362df625ec2b526611700db7431c3e069d88210b2d89d479a9d4",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Cecily__Bjorna__Lutri",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz"
+  ],
+  "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:bjorna-nightfall-alchemist-cecily:performance:v1",
+  "recommendations": [
+   {
+    "add": "Aether Syphon",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:0db670a0d3b5",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:ea0a0e1b5ea18abc"
+    ]
+   },
+   {
+    "add": "Alhammarret's Archive",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:02e9504f92ba",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:c1a4a2330d5c5cfb"
+    ]
+   },
+   {
+    "add": "Body of Knowledge",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:6740631d70a9",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:29faf528b6ab4df7"
+    ]
+   },
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Takenuma, Abandoned Mire",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:c48b4b5b88a3",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:1ebcff1c732d1e8c"
+    ]
+   },
+   {
+    "add": "Heat Shimmer",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:de57c096deb1",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:4c6b4f425965f6ae"
+    ]
+   },
+   {
+    "add": "Helm of the Ghastlord",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:d22e6e264a75",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:94d3bae6b13562fb"
+    ]
+   },
+   {
+    "add": "Izzet Boilerworks",
+    "cut": "Takenuma, Abandoned Mire",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:5d5d340874df",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:2b3d8e08e4a1aabb"
+    ]
+   },
+   {
+    "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:6a5b8e5d06fa",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:c142d6884fb3aef7"
+    ]
+   },
+   {
+    "add": "Nekusar, the Mindrazer",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:56d84bc7c847",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:43606e0439ea86d7"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Visionary",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:2253294c2558",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:472438b70a36e3e5"
+    ]
+   },
+   {
+    "add": "Ophidian Eye",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:25031fc45b6c",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:7ef8d791773f2cd1"
+    ]
+   },
+   {
+    "add": "Orcish Bowmasters",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:2d1d9932aa49",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:8c9e365eb404f650"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:b33b58710677",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:7785b5c53cc94c21"
+    ]
+   },
+   {
+    "add": "Psychic Corrosion",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:199dfa3ddcb3",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:11b553409005474a"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:83261769b5db",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:54f2b9e8fe9abed7"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:1d8efd1d9fdf",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:d689a0ef2421595f"
+    ]
+   },
+   {
+    "add": "Sheoldred, the Apocalypse",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:409403067aa6",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:25a598e9f54a1d34"
+    ]
+   },
+   {
+    "add": "Tandem Lookout",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:b58f69ca35bc",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:12774bfa10bdeb16"
+    ]
+   },
+   {
+    "add": "Thought Reflection",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:b4e9eed2fa90",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:a4dfdc9db1b292ca"
+    ]
+   },
+   {
+    "add": "Thousand-Year Storm",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:08a337078fe0",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:e069543c1b881d4d"
+    ]
+   },
+   {
+    "add": "Twenty-Toed Toad",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:d5b083402805",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:e64565c15479039b"
+    ]
+   },
+   {
+    "add": "Twinflame",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:5e4a4da3507d",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:6e90d6f9787e361d"
+    ]
+   },
+   {
+    "add": "Vnwxt, Verbose Host",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=swap:bjorna-nightfall-alchemist-cecily:m5:08af75b26de6",
+     "m5_test:data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz#id=test:bjorna-nightfall-alchemist-cecily:goldfish:ed053c941299cc42"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

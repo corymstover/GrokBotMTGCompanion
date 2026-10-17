@@ -1,0 +1,72 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:6bb997df9eabad7fd16b17f6fc3f9becec67543ad848d5ad879f807e4d23d1d3",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Wick__the_Whorled_Mind",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz"
+  ],
+  "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:wick-the-whorled-mind:performance:v1",
+  "recommendations": [
+   {
+    "add": "Deadly Dispute",
+    "cut": "Ashnod's Altar",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:70a00388181d",
+     "m5_test:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=test:wick-the-whorled-mind:goldfish:698aee80c8dca5d6"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Ashnod's Altar",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:2a543a123511",
+     "m5_test:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=test:wick-the-whorled-mind:goldfish:7750fd4b9f9564bd"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:f218066db204",
+     "m5_test:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=test:wick-the-whorled-mind:goldfish:4f7cee8b84bf5140"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Pitiless Plunderer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=swap:wick-the-whorled-mind:m5:bc4257552657",
+     "m5_test:data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz#id=test:wick-the-whorled-mind:goldfish:859762c3d8f8fb3a"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

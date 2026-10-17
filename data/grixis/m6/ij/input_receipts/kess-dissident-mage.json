@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Kess__Dissident_Mage",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1180904,
+   "path": "data/grixis/birthday_m5/candidates/kess-dissident-mage.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:142a0524ed42708f44a2c63e2a06b270e1c9ef1dd5bcbc2bbc1dc4d2328c5f48"
+  },
+  {
+   "bytes": 1227610,
+   "path": "data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:0ef6b45d6099938030c7e0415fe873b16cbc0985b29731c9505c1ea55548c865"
+  },
+  {
+   "bytes": 51685,
+   "path": "data/grixis/birthday_m5/evidence/kess-dissident-mage.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:c1b8a50025bb8dde805c8411e5dc0295ef5e70ef6e0bcbe50c34a7b1c246d5d5"
+  },
+  {
+   "bytes": 35328,
+   "path": "data/grixis/m6/optimizer/kess-dissident-mage.json",
+   "role": "optimizer",
+   "sha256": "sha256:4370d7cb7d43239f8c23f6977bb7881895deb7ebcd37a463650e07856ab94e04"
+  },
+  {
+   "bytes": 271964,
+   "path": "data/grixis/m6/review_packets/kess-dissident-mage.json",
+   "role": "review_packet",
+   "sha256": "sha256:3791a8754dadd9907c065e785ea1c3e4a8f3be063ee167686bae3515a4f5c448"
+  }
+ ],
+ "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "kess-dissident-mage",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

@@ -1,0 +1,96 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:7cae653f86f329bae83544b15b7b3c19b0cc8d0751623802b5f327d347b18e06",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Marchesa__Dealer_of_Death",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz"
+  ],
+  "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:marchesa-dealer-of-death:performance:v1",
+  "recommendations": [
+   {
+    "add": "Bandit's Haul",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:6b0a8f1746b5",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:1102233dbcd0749d"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:9ef207eeaca2",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:93dd8f2e4a6d0e10"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:c1553f4a0e41",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:1af5cee04ab3299c"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:73d1da4b4d00",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:bf6d40054c4becfe"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:511f96aff932",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:e8eec8639f2842fd"
+    ]
+   },
+   {
+    "add": "Tezzeret, Master of the Bridge",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:083405838af6",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:d607047fd68d2353"
+    ]
+   },
+   {
+    "add": "Wake Thrasher",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=swap:marchesa-dealer-of-death:m5:aadd1941bd6d",
+     "m5_test:data/grixis/birthday_m5/regen/marchesa-dealer-of-death.json.gz#id=test:marchesa-dealer-of-death:goldfish:0eb2c230bb4f6743"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1221962,
+   "path": "data/grixis/birthday_m5/candidates/wick-the-whorled-mind.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:bb640f97864fa20e9ddca8b74678ffeb688819cfc99f0c624d508503f8ad1157"
+  },
+  {
+   "bytes": 1277379,
+   "path": "data/grixis/birthday_m5/regen/wick-the-whorled-mind.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:319bbe752e2e89ca2ee00d5255120c6bece319b3be2320b45719499c99977eec"
+  },
+  {
+   "bytes": 47198,
+   "path": "data/grixis/birthday_m5/evidence/wick-the-whorled-mind.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:eed96cd2e83c257d260fbe2cc7197b3ecc1fb23e2641420a7f56c31024813f85"
+  },
+  {
+   "bytes": 106366,
+   "path": "data/grixis/m6/optimizer/wick-the-whorled-mind.json",
+   "role": "optimizer",
+   "sha256": "sha256:06317d844d0fef62d9a9dd411f920eb22ddf964b3ead75a095383255468d3254"
+  },
+  {
+   "bytes": 831473,
+   "path": "data/grixis/m6/review_packets/wick-the-whorled-mind.json",
+   "role": "review_packet",
+   "sha256": "sha256:75be688e8f05dfa101f8859042559befa4c87ae66e532cf03183694dc32506fd"
+  }
+ ],
+ "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

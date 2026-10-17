@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Sauron__the_Dark_Lord",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1143745,
+   "path": "data/grixis/birthday_m5/candidates/sauron-the-dark-lord.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:3782c9a2cc059d40ac4bdb3820ee81c2b721a01fa40f04435185bb9c9b4cc12e"
+  },
+  {
+   "bytes": 1176031,
+   "path": "data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:2303de235436e1766e7f0b8ad0323334dc4406edc55b1226e1e79b09f8ed6118"
+  },
+  {
+   "bytes": 52271,
+   "path": "data/grixis/birthday_m5/evidence/sauron-the-dark-lord.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:2143277216b445e3bcc134a6c6e17ed96e866dcec1ac9ec819264315156bbac2"
+  },
+  {
+   "bytes": 17207,
+   "path": "data/grixis/m6/optimizer/sauron-the-dark-lord.json",
+   "role": "optimizer",
+   "sha256": "sha256:302e5f2b76518f6b04bbd4377b423c918c0a7b26dd2e9b3164ee61e595ec7357"
+  },
+  {
+   "bytes": 123163,
+   "path": "data/grixis/m6/review_packets/sauron-the-dark-lord.json",
+   "role": "review_packet",
+   "sha256": "sha256:578d794b424b2e2a844963e6af4ce52af67d7e99097e49ae30d7df87e2445a98"
+  }
+ ],
+ "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "sauron-the-dark-lord",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

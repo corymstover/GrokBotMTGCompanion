@@ -1,0 +1,2240 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:41a2e776495d2973c7097b11375a8b68a78827208c08542519046b1bdcc91577",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Dr__Eggman",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/dr-eggman.json.gz"
+  ],
+  "list_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:dr-eggman:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Accomplished Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Accomplished Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b9550edc821d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Adaptive Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Adaptive Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:01d0099736a7",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Aesthir Glider",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Aesthir Glider",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:bf07639baa2b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Aether Searcher",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Aether Searcher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:8ea781abf4c4",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Aetherflux Reservoir",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Aetherflux Reservoir",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:08a7a980e17c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Aetherflux Reservoir",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Aetherflux Reservoir",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:085ddaf278d3",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Agent of Acquisitions",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Agent of Acquisitions",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3caa12e61c13",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Alpharael, Stonechosen",
+    "cut": "Entropic Battlecruiser",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Alpharael, Stonechosen",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:5b1dd5132c77",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Alpharael, Stonechosen",
+    "cut": "Tinybones, Bauble Burglar",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Alpharael, Stonechosen",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ca0f557e7570",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Ambulatory Edifice",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Ambulatory Edifice",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:c785c08a78cb",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d6ab84f3a895",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:0379f54eccb9",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Anodet Lurker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Anodet Lurker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:0521a0e12b33",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Arcbound Worker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Arcbound Worker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:8438a74629fb",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Armored Transport",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Armored Transport",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:4da88e469469",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Armory Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Armory Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:c0a8f5fb8f91",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Ashnod's Harvester",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Ashnod's Harvester",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:79c9be50de92",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Augmenting Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Augmenting Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:0e7e204e3029",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Automatic Librarian",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Automatic Librarian",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:83de686e5330",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Barbed Servitor",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Barbed Servitor",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:12fbf5f4d25f",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Battering Ram",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Battering Ram",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a950ccc522c6",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Biblioplex Tomekeeper",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Biblioplex Tomekeeper",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:746fa38773c9",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Blitz Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Blitz Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:54d931f356d4",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Bonded Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Bonded Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3385db2a6761",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Brass Man",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Brass Man",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:c6919f47ef05",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Brass Secretary",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Brass Secretary",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e050732fe852",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Bronze Bombshell",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Bronze Bombshell",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:7ec306087cdb",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Camera Launcher",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Camera Launcher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:68163696a44e",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Canal Dredger",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Canal Dredger",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:83e14d89d4fa",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cathodion",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cathodion",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a4b06b59613d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:0070d01d24d2",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:cc47f3b7030c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:57fc4378d74a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b2074ce98347",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Chief of the Foundry",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Chief of the Foundry",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b4ad265aef08",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Chief of the Foundry",
+    "cut": "Thunderhawk Gunship",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Chief of the Foundry",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:92f235b50f86",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Chrome Replicator",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Chrome Replicator",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:524af00ffbff",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Clock of Omens",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Clock of Omens",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:fa238e760459",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Clock of Omens",
+    "cut": "Thopter Fabricator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Clock of Omens",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9eae83374a81",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cogwork Archivist",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cogwork Archivist",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e87e46d11ced",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cogwork Grinder",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cogwork Grinder",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e0e86d6384f8",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cogwork Librarian",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cogwork Librarian",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:42629f5e31d4",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cogwork Spy",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cogwork Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e25466921dcc",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Cogwork Tracker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Cogwork Tracker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:fea33655903b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Combat Courier",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Combat Courier",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3015d57104aa",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Containment Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Containment Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b7d4fc58e8f8",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Corridor Monitor",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Corridor Monitor",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b5840f9fb5f4",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:167215a58166",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Thunderhawk Gunship",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:0b36a4649456",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Craterclaw Colossus",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Craterclaw Colossus",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:32c39dacd777",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Creepy Doll",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Creepy Doll",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e2745c4fe4c9",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Crystalline Crawler",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Crystalline Crawler",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:50da202f32b5",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Diabolic Machine",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Diabolic Machine",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:09fe5daae086",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Dragon Engine",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Dragon Engine",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:7dbdc74e2383",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Dramatist's Puppet",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Dramatist's Puppet",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:412381719d5b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Duskworker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Duskworker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:096aaddb365b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Eager Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Eager Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:8b3e4a5dd058",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Electrostatic Pummeler",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Electrostatic Pummeler",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:15205184d072",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Epochrasite",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Epochrasite",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:8571404c5c92",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Exterminator Magmarch",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Exterminator Magmarch",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:991a047f423c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:86079ca07f44",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:650d4460e65a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Foreboding Statue // Forsaken Thresher",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Foreboding Statue // Forsaken Thresher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:012503d3ec55",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Fraying Omnipotence",
+    "cut": "Entropic Battlecruiser",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Fraying Omnipotence",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:98d5aa2f2533",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Fraying Omnipotence",
+    "cut": "Tinybones, Bauble Burglar",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Fraying Omnipotence",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:f9bdbdafd1cb",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Gate Colossus",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Gate Colossus",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:fff97a72d00b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Gearsmith Guardian",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Gearsmith Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:25c688478c8d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Geistcatcher's Rig",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Geistcatcher's Rig",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:20f05011ef5c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Gemini Engine",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Gemini Engine",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a6f24c9d6c1a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Goblin Dirigible",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Goblin Dirigible",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ea12d9d53ce1",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Goring Warplow",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Goring Warplow",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:6c63e5a8e9ea",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Grapeshot Catapult",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Grapeshot Catapult",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ee5c14e7fc8a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Grid Monitor",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Grid Monitor",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3e2447e41fa4",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Guardian Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Guardian Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d315be06085d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Guardians of Koilos",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Guardians of Koilos",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:8fe4150ed9f2",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Hangarback Walker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Hangarback Walker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a4562693716d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Haunted Guardian",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Haunted Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:10b714191427",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Heavyweight Demolisher",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Heavyweight Demolisher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b7739569cff2",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Hedron Crawler",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Hedron Crawler",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:bc9dd4705626",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Hedron Rover",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Hedron Rover",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b294be04a9cc",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Hedron Scrabbler",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Hedron Scrabbler",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:1650c041efb3",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Hexavus",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Hexavus",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:11ec1733de2c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Hopping Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Hopping Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:70a7ba237084",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:56013a492427",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:da691ba052f3",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Inquisitive Puppet",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Inquisitive Puppet",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:becad794435a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Iron Apprentice",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Iron Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:c677cd62d4a9",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Iron League Steed",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Iron League Steed",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:21769225dae5",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Jangling Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Jangling Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:1d20414182c0",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:7232957c6f34",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d331cd4a0a4f",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Kiln Walker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Kiln Walker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e0e9196cd649",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Living Lectern",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Living Lectern",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9540b636e886",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Lore Seeker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Lore Seeker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:69890b28d35b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Lupine Prototype",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Lupine Prototype",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:633ab4fa8794",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Lurking Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Lurking Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:bfd7f2a295d1",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Mage Tower Referee",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Mage Tower Referee",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:1b725be62b39",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Magic Pot",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Magic Pot",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:7a2b03c54253",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Magnetic Snuffler",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Magnetic Snuffler",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3416b4f75e9c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Malevolent Chandelier",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Malevolent Chandelier",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a8ef32137141",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Manakin",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Manakin",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:5d8701f02357",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Marching Duodrone",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Marching Duodrone",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:4fecad2cd471",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Marketback Walker",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Marketback Walker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e1107e2f1371",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Marut",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Marut",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:fffd18ffafd9",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Memnite",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Memnite",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:44104a6dbbc7",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Merchant's Dockhand",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Merchant's Dockhand",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:8133059d1432",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Metalworker",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Metalworker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:86d3fa02a1ba",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Millikin",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Millikin",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:81247cfae40c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:95672a616d60",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:749bbf2b68a0",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Monoskelion",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Monoskelion",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e01caaa3145d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Multiform Wonder",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Multiform Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:45f1dd45d91d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Myriad Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Myriad Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b5ea873cadc0",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Narstad Scrapper",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Narstad Scrapper",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:c96eed40a627",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "News Helicopter",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=News Helicopter",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:82e3711c5b09",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Night Market Guard",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Night Market Guard",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ceb3a93b7ae8",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:2f62aa2de259",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:6c876971a572",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Onulet",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Onulet",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:90a95cf55a83",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Page, Loose Leaf",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Page, Loose Leaf",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:2a82eb7354da",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Patchwork Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Patchwork Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:2e8d587b11ca",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Peace Strider",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Peace Strider",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:626d3b49bbb2",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Geth's Grimoire",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:056afcfa56f8",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:992dd74f9810",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Pentavus",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Pentavus",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3dd069e90d55",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Archivist",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Phyrexian Archivist",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a6c55d87655d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Devourer",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Phyrexian Devourer",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:443a310e8bca",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Digester",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Phyrexian Digester",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:eadfb71707f7",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Ironfoot",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Phyrexian Ironfoot",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b37b85a0c3b7",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Marauder",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Phyrexian Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:4e25fbed6884",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Soulgorger",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Phyrexian Soulgorger",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e81a81632d29",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Walker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Phyrexian Walker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a6eedb266d30",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Pierce Strider",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Pierce Strider",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:bad5174586f6",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Pit Automaton",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Pit Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ef7a74b6d217",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Pox Plague",
+    "cut": "Entropic Battlecruiser",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Pox Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9d5a58428b63",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Pox Plague",
+    "cut": "Tinybones, Bauble Burglar",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Pox Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:09a5629953aa",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Prizefighter Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Prizefighter Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:16bb6eb4d813",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "PuPu UFO",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=PuPu UFO",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:599e01ec83b2",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Quietus Spike",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:729d2fec000a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Quietus Spike",
+    "cut": "Thopter Fabricator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Quietus Spike",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3a8e2ac747a4",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Rackling",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Rackling",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:25feafc4bda3",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Raving Dead",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Raving Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:7e4c40831556",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Raving Dead",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Raving Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:24c24405e975",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Razorfield Thresher",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Razorfield Thresher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:107eb526fe82",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Reito Sentinel",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Reito Sentinel",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ea56b7389b45",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Waste Not",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:4e6be74a7a31",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d1f307902076",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Reservoir Walker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Reservoir Walker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d1c975548ee6",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Retreat to Coralhelm",
+    "cut": "Waste Not",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Retreat to Coralhelm",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9d22f4123fab",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Retreat to Coralhelm",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Retreat to Coralhelm",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:72adca56a6a7",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Rug of Smothering",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Rug of Smothering",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:8be30e0ee4d3",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Ruin Grinder",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Ruin Grinder",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:899f3a5afa4b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Runaway Carriage",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Runaway Carriage",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:4752d2a063be",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Runaway Trash-Bot",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Runaway Trash-Bot",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:2f75bd562221",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Runed Servitor",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Runed Servitor",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:f35986a44522",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Salvaged Manaworker",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Salvaged Manaworker",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d3140e3d8322",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Salvager of Ruin",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Salvager of Ruin",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:96c2cdbf981c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Sands of Time",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Sands of Time",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:58b620ef51eb",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Sands of Time",
+    "cut": "Thopter Fabricator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Sands of Time",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a658a19c5cb7",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Sanitation Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Sanitation Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3b1c272ca06e",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Sawtooth Thresher",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Sawtooth Thresher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:97c33abd35f4",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Scavenged Brawler",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Scavenged Brawler",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:8d401980051a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Skyclaves",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Scourge of the Skyclaves",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ee374fd010a6",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Skyclaves",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Scourge of the Skyclaves",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:f4ca5b1fff80",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Scrapheap Scrounger",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Scrapheap Scrounger",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:2474080333e1",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Scrawling Crawler",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Scrawling Crawler",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:85e2fea22a7d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Scuttling Butler",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Scuttling Butler",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:61997d5caacc",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Scuttling Doom Engine",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Scuttling Doom Engine",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:2e056997777b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Scytheclaw",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:6f9047174ec2",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Scytheclaw",
+    "cut": "Thopter Fabricator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Scytheclaw",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:1c0477ef451b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Serrated Biskelion",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Serrated Biskelion",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:db6b9f2f4dcf",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Shambling Suit",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Shambling Suit",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9945077cca88",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Shrine Steward",
+    "cut": "Kuldotha Forgemaster",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Shrine Steward",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:c8c33b1ea431",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Silent Arbiter",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Silent Arbiter",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:2952431e0a67",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Skitterbeam Battalion",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Skitterbeam Battalion",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:7a6acb89ab8d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Skittering Surveyor",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Skittering Surveyor",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:37c19cc207ad",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Slag Fiend",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Slag Fiend",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:dcab4083516c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Sliver Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Sliver Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9fe9af60c845",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Snapsail Glider",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Snapsail Glider",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:4d338633ec8b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Solarion",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Solarion",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:462e941a0779",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Soliton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Soliton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:c81f650a8036",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Sparring Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Sparring Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a3c18475ec20",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Spin Engine",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Spin Engine",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e0f8e2af3327",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Spincrusher",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Spincrusher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:6280ac19c508",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Staunch Throneguard",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Staunch Throneguard",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:fb2dc4b22657",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Steel Overseer",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Steel Overseer",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:bfdb537db801",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Steel Overseer",
+    "cut": "Thunderhawk Gunship",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Steel Overseer",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d4ca8ce55c6f",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Stone Retrieval Unit",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Stone Retrieval Unit",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3d75fd1bab35",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Street Sweeper",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Street Sweeper",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:05f4fe49c6e8",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b0dcb1b3f87e",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Stuffy Doll",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Stuffy Doll",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d40a6ec8051c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Su-Chi",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Su-Chi",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9a94f5069d4d",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Su-Chi Cave Guard",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Su-Chi Cave Guard",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:dd2cfef1b336",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Suncrusher",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Suncrusher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:4a4989220e15",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Surge Engine",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Surge Engine",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b2ae691a2682",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Synod Centurion",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Synod Centurion",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9aff312d4622",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Technodrome",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Technodrome",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:fb3f5300a65a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Terror Ballista",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Terror Ballista",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:779e792c7c3a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Tetravus",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Tetravus",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e194a818e896",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "The Legend of Kuruk // Avatar Kuruk",
+    "cut": "Geth's Grimoire",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=The Legend of Kuruk // Avatar Kuruk",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ecd64f48f61e",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "The Legend of Kuruk // Avatar Kuruk",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=The Legend of Kuruk // Avatar Kuruk",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:452dc4ef4e15",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "The Peregrine Dynamo",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=The Peregrine Dynamo",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:2c6a87a4af3e",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Thermal Navigator",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Thermal Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:5fabf4da626f",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Thran War Machine",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Thran War Machine",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:2fc552fadc7e",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ed3342a558ae",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:976c2b17f23c",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Tiller Engine",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Tiller Engine",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:70a4c6d98b34",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:276a3de166b0",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Thopter Fabricator",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:40fec0bc7696",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:13fac1fcea66",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Withering Torment",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:7314a65162d3",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Torrential Gearhulk",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Torrential Gearhulk",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:aaf734ffbf9b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Torrential Gearhulk",
+    "cut": "Thunderhawk Gunship",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Torrential Gearhulk",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:47c6e8d7ab8f",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Towashi Guide-Bot",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Towashi Guide-Bot",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:e8ba702703d5",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Traxos, Academy Guardian",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Traxos, Academy Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:f158022568f7",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Traxos, Scourge Eternal",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Traxos, Scourge Eternal",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:124798bdb32e",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Traxos, Scourge of Kroog",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Traxos, Scourge of Kroog",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:69d016d7e0e6",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Treasure Keeper",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Treasure Keeper",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:bef76eb892bd",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Tree of Perdition",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Tree of Perdition",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:64a338f6d22b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Tree of Perdition",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Tree of Perdition",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:5d28783bb198",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Trespassing Souleater",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Trespassing Souleater",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:316cd44d5aa9",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Triskelavus",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Triskelavus",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:c0d1c4e30171",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Triskelion",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Triskelion",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:da7e0e92a85a",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Ugin's Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Ugin's Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b170c95a25ec",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Unruly Catapult",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Unruly Catapult",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d0468312e50f",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Waste Not",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:0fcbdca3bd5b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:0293e556654f",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Slasher",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Unstoppable Slasher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:a2d0f9f149d5",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Slasher",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Unstoppable Slasher",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:af973510de01",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Valkyrie Aerial Unit",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Valkyrie Aerial Unit",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:60deabe03ca6",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Virtus the Veiled",
+    "cut": "Master Transmuter",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Virtus the Veiled",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:7e688e0c1b84",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Virtus the Veiled",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Virtus the Veiled",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d0665f41a65e",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Viseling",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Viseling",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:7085ac333a3b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Volatile Rig",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Volatile Rig",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b9a249ecceb3",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Voltaic Construct",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Voltaic Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:992ece71f784",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Voltaic Servant",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Voltaic Servant",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:c3aa66c771eb",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Walking Atlas",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Walking Atlas",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9353bcabaac0",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Walking Ballista",
+    "cut": "Weapons Manufacturing",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Walking Ballista",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3a8fae6ac9ec",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Walking Skyscraper",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Walking Skyscraper",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:6ac6772950f1",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Watchful Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Watchful Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:440bd49300c8",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Welder Automaton",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Welder Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:978abbedc097",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Whispergear Sneak",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Whispergear Sneak",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:027f7bb82d92",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Workshop Assistant",
+    "cut": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Workshop Assistant",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:9518e8c91dfc",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   },
+   {
+    "add": "Zenith Chronicler",
+    "cut": "Thoughtcast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/dr-eggman.json.gz#card=Zenith Chronicler",
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:38528507ff5b",
+     "blueprint:data/grixis/blueprints/dr-eggman.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

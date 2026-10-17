@@ -1,0 +1,96 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:695393d1b63e3917bef8807d3758fd7711ebd7c67a988c05e664945b78a1a2a3",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Admiral_Brass__Unsinkable",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz"
+  ],
+  "list_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:admiral-brass-unsinkable:performance:v1",
+  "recommendations": [
+   {
+    "add": "Big Score",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d3779eed92c0",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=test:admiral-brass-unsinkable:goldfish:19b4e13b139dde2e"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:ec6c67b02acb",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=test:admiral-brass-unsinkable:goldfish:cc23f15712c0b5b2"
+    ]
+   },
+   {
+    "add": "Discreet Retreat",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:874218396989",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=test:admiral-brass-unsinkable:goldfish:bfb562ed1989fec0"
+    ]
+   },
+   {
+    "add": "Patchwork Banner",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:d037674915a2",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=test:admiral-brass-unsinkable:goldfish:21593f3fc50e96fc"
+    ]
+   },
+   {
+    "add": "Pirate's Pillage",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:6567e499af53",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=test:admiral-brass-unsinkable:goldfish:972e8c08afa6fd56"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:4ba9948e4ec2",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=test:admiral-brass-unsinkable:goldfish:80b4663a052ccbec"
+    ]
+   },
+   {
+    "add": "Unexpected Windfall",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=swap:admiral-brass-unsinkable:m5:70af88a842e0",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz#id=test:admiral-brass-unsinkable:goldfish:dfeba612a6ae0739"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

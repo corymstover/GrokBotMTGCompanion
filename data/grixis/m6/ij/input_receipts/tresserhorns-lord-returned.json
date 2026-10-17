@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Tresserhorn_s_Lord__Returned",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1243236,
+   "path": "data/grixis/birthday_m5/candidates/tresserhorns-lord-returned.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:cdc866fc2da76cf82c7edcf195c243a0f882410519cbb27050dd5d2521ed46aa"
+  },
+  {
+   "bytes": 1316864,
+   "path": "data/grixis/birthday_m5/regen/tresserhorns-lord-returned.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:933e6b93e1d3b3e82498b5ad54a05edd8b3218e7d97636fb298e29ac73e29e0a"
+  },
+  {
+   "bytes": 47491,
+   "path": "data/grixis/birthday_m5/evidence/tresserhorns-lord-returned.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:c04a8731b8fe235f40e4b7f04120eab9d7c38987373a0865cfce3477cbe277e4"
+  },
+  {
+   "bytes": 160926,
+   "path": "data/grixis/m6/optimizer/tresserhorns-lord-returned.json",
+   "role": "optimizer",
+   "sha256": "sha256:54e4cfda7ec34172cac601bb71dcc5a1d267a452fba021dee99132d6bee0ab78"
+  },
+  {
+   "bytes": 1178443,
+   "path": "data/grixis/m6/review_packets/tresserhorns-lord-returned.json",
+   "role": "review_packet",
+   "sha256": "sha256:5c089016549de531bbdf9de823f63bb3c21c9d0a5c2dead914a4acceeea89d71"
+  }
+ ],
+ "list_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "tresserhorns-lord-returned",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

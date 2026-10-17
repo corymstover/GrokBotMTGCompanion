@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1199143,
+   "path": "data/grixis/birthday_m5/candidates/admiral-brass-unsinkable.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:8d39df81c5a006c52b47ae3bdee047095c6d0604c0b12bf0c556d79d56c1a9e5"
+  },
+  {
+   "bytes": 1246699,
+   "path": "data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:f9e43158969f8f2cbdfffe872a94a1bd1fd5c92398fa576ac32bad91151d580c"
+  },
+  {
+   "bytes": 40617,
+   "path": "data/grixis/birthday_m5/evidence/admiral-brass-unsinkable.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:4d996bf6b92c385201ea0d1017de32aa14ce5d84285a091fcf9fe7bbca55e135"
+  },
+  {
+   "bytes": 110581,
+   "path": "data/grixis/m6/optimizer/admiral-brass-unsinkable.json",
+   "role": "optimizer",
+   "sha256": "sha256:f3b0d29b9fe3c3e731ef99eef8e0714115ed63f3be2aaaf83f8096071446e625"
+  },
+  {
+   "bytes": 798815,
+   "path": "data/grixis/m6/review_packets/admiral-brass-unsinkable.json",
+   "role": "review_packet",
+   "sha256": "sha256:5abd9aa56d32706cef8187599eea4b117f1f1bc5e79e3eed84453b438cd0c4e0"
+  }
+ ],
+ "list_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "admiral-brass-unsinkable",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Saruman__the_White_Hand",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1151973,
+   "path": "data/grixis/birthday_m5/candidates/saruman-the-white-hand.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:2c394caccb7cd228230a53bac13e21981ef2ea29bfbe66822fe6b13b979ef4c1"
+  },
+  {
+   "bytes": 1192783,
+   "path": "data/grixis/birthday_m5/regen/saruman-the-white-hand.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:773455434e0208d15c5840551f9b701804a853dde5c50ad5bda4cd2f38286bc4"
+  },
+  {
+   "bytes": 53600,
+   "path": "data/grixis/birthday_m5/evidence/saruman-the-white-hand.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:2d737f01acb41a0cc172ef0ab9b21613cef4fc3a86910d5faf6766746f39274b"
+  },
+  {
+   "bytes": 27925,
+   "path": "data/grixis/m6/optimizer/saruman-the-white-hand.json",
+   "role": "optimizer",
+   "sha256": "sha256:d31a241d5d3fc625a72a3c8d06bc22f8d1a2b2266f2170a815b2a6b34026907c"
+  },
+  {
+   "bytes": 220739,
+   "path": "data/grixis/m6/review_packets/saruman-the-white-hand.json",
+   "role": "review_packet",
+   "sha256": "sha256:05993b55d35ea5a474fe8e7d6293850f1629ac5ba3bf9d73f5dceb46a6e7aac9"
+  }
+ ],
+ "list_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "saruman-the-white-hand",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

@@ -1,0 +1,674 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:2268c685b98080faa17686048ef0f7ac563f114839c7d02c42b4aa3e7e293ea6",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Mairsil__the_Pretender",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz"
+  ],
+  "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:mairsil-the-pretender:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aether Channeler",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:c9e39036fca3",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Alena, Kessig Trapper",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Alena, Kessig Trapper",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:f95b205aebf7",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Ancestral Statue",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Ancestral Statue",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:42e0006ba580",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Archfiend of Despair",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Archfiend of Despair",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:6a37e095767d",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Basalt Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:a415e0204c9c",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Blazing Firesinger // Seething Song",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:ebbe593c37bf",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:2c5ce758b7ff",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Blood Vassal",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Blood Vassal",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:22bff62209e4",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Bloodletter of Aclazotz",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Bloodletter of Aclazotz",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:d9f4948d2803",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Brinelin, the Moon Kraken",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Brinelin, the Moon Kraken",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:37d59a4373cc",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Brinelin, the Moon Kraken",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Brinelin, the Moon Kraken",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:b17e3cb3be57",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:90597a241a8a",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:869210253234",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Chancellor of the Spires",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Chancellor of the Spires",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:b536fb1e9b53",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Chromatic Orrery",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Chromatic Orrery",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:6df56073eca4",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:d896c448e5ec",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:8edcabe4d16d",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Emry, Lurker of the Loch",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Emry, Lurker of the Loch",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:96ee5b33b1e8",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Filigree Sages",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Filigree Sages",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:77c2814029ae",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Freed from the Real",
+    "cut": "Training Grounds",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Freed from the Real",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:291147f734ba",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Goblin Glasswright // Craft with Pride",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Goblin Glasswright // Craft with Pride",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:510d38ed1efd",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Grinning Ignus",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:c5c330626c5a",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Hangar Scrounger",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Hangar Scrounger",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:9667380994af",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Hawkeye's Bow",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Hawkeye's Bow",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:97270e443168",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Howlsquad Heavy",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Howlsquad Heavy",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:f58d5ea1fa17",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:cfba712b0517",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:94949a1a8682",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Illusionist's Bracers",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Illusionist's Bracers",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:2e7895546deb",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:b205a9649c8e",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Jaws of Defeat",
+    "cut": "Training Grounds",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Jaws of Defeat",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:0b2f88b78364",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:ceab3d8059da",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:ed2b061e2628",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Magus of the Coffers",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Magus of the Coffers",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:967a1aeaea0c",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Mephidross Vampire",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Mephidross Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:6cc24dbe1a17",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Mesmeric Orb",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Mesmeric Orb",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:cb7fbec1c2cb",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Metalworker",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Metalworker",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:f26d93f818e6",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Mikaeus, the Unhallowed",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Mikaeus, the Unhallowed",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:aba849f1ce98",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:dd5deb3b6f36",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:599268319863",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Myr Welder",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Myr Welder",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:c16eda0b4092",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Mystic Speculation",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Mystic Speculation",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:0cb58e107865",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:77980c830e1e",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Neera, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:4610175eb268",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Nyx Lotus",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Nyx Lotus",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:8451b919e575",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:ec33c86a69ff",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Overeager Apprentice",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Overeager Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:18cc48637a86",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Paradise Mantle",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Paradise Mantle",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:ed1400ab3629",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Pemmin's Aura",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Pemmin's Aura",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:651239aa8416",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Phenax, God of Deception",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Phenax, God of Deception",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:1f3d02096087",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Devourer",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Phyrexian Devourer",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:2a8f2b1845c4",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Skirge Familiar",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Skirge Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:546bd0296f7b",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Soul Immolation",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Soul Immolation",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:a9acd14631ff",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:597ddf237fdd",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Training Grounds",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:3b38d91d2fe5",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Tezzeret, Master of the Bridge",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Tezzeret, Master of the Bridge",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:8dbd43e05a70",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:aca568a39919",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "The Legend of Kuruk // Avatar Kuruk",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=The Legend of Kuruk // Avatar Kuruk",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:416edc5a727c",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:e9145b4d0c1b",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:3413b95052ff",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Trazyn the Infinite",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Trazyn the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:c6352507b1c2",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Unctus, Grand Metatect",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Unctus, Grand Metatect",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:41c26a76df58",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:74361dae57b2",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:fcc9dca9384d",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Vhal, Candlekeep Researcher",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Vhal, Candlekeep Researcher",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:bfb6ea22b610",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Vivi Ornitier",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Vivi Ornitier",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:3282dad547b4",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Wake Thrasher",
+    "cut": "Omen Hawker",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Wake Thrasher",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:fa68cbcd4f95",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Wake Thrasher",
+    "cut": "Walking Ballista",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Wake Thrasher",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:3f03485f3b4c",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Warlock Class",
+    "cut": "Training Grounds",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Warlock Class",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:0d72b7d143e3",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Whim of Volrath",
+    "cut": "Mystical Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Whim of Volrath",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:9fac1fb6738f",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   },
+   {
+    "add": "Wound Reflection",
+    "cut": "Training Grounds",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#card=Wound Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/mairsil-the-pretender.json.gz#id=swap:mairsil-the-pretender:m5:cf9d6f7e0cbd",
+     "blueprint:data/grixis/blueprints/mairsil-the-pretender.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

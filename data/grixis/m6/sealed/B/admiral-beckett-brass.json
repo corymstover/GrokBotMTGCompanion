@@ -1,0 +1,88 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:9e12df1ee0b3d8e30a483ecb4c3dd214d425fe75465cc24c9ab378f0cf7fd7d1",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Admiral_Beckett_Brass",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz"
+  ],
+  "list_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:admiral-beckett-brass:performance:v1",
+  "recommendations": [
+   {
+    "add": "Commander's Sphere",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:624dc92d6b52",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=test:admiral-beckett-brass:goldfish:e0673509a9f21089"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3ae603c75f3d",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=test:admiral-beckett-brass:goldfish:dcf7c24761688601"
+    ]
+   },
+   {
+    "add": "Koh, the Face Stealer",
+    "cut": "Dire Fleet Captain",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:3432995c1600",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=test:admiral-beckett-brass:goldfish:6f7994c190bb0eb8"
+    ]
+   },
+   {
+    "add": "Patchwork Banner",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:f1da6e3f9a25",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=test:admiral-beckett-brass:goldfish:995c6e02ec990fa9"
+    ]
+   },
+   {
+    "add": "Prosperous Pirates",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:9aea60bde02e",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=test:admiral-beckett-brass:goldfish:52460760b502461e"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=swap:admiral-beckett-brass:m5:821e59f8da4c",
+     "m5_test:data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz#id=test:admiral-beckett-brass:goldfish:d2e03fe94c01c120"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

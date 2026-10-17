@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1309934,
+   "path": "data/grixis/birthday_m5/candidates/ashad-the-lone-cyberman.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:ecdff3e620b2e9d6d0e8e8ab45df106c3e4aaa33b758a2cd22f033c0da6b50e5"
+  },
+  {
+   "bytes": 1398626,
+   "path": "data/grixis/birthday_m5/regen/ashad-the-lone-cyberman.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:1b8fa70f030f293aa5a9d031efbea1969e45eba31aad726c2965bb5128bf1ada"
+  },
+  {
+   "bytes": 50886,
+   "path": "data/grixis/birthday_m5/evidence/ashad-the-lone-cyberman.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:125ae609b998765778b67b1990c70b32a8b5c919713b17641ade23fbc1e663c6"
+  },
+  {
+   "bytes": 211894,
+   "path": "data/grixis/m6/optimizer/ashad-the-lone-cyberman.json",
+   "role": "optimizer",
+   "sha256": "sha256:4c3491ecb69b2ed53f948c5c6ec09551f34648f5c7e9d082c8c3de021236cbb6"
+  },
+  {
+   "bytes": 1604243,
+   "path": "data/grixis/m6/review_packets/ashad-the-lone-cyberman.json",
+   "role": "review_packet",
+   "sha256": "sha256:0216b639445481eeb06875f9614449e43e1dfe37c2c761bcb79eaa75013a1346"
+  }
+ ],
+ "list_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "ashad-the-lone-cyberman",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

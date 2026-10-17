@@ -1,0 +1,827 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:c3e921cd47c11844f500e603a46fea362e74b2e80237bf3dfb2c081ca32bcadb",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Lord_Xander__the_Collector",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz"
+  ],
+  "list_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:lord-xander-the-collector:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Akki Battle Squad",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Akki Battle Squad",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:b44cef5717e1",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Alena, Kessig Trapper",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Alena, Kessig Trapper",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:b75d835829dd",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:73c7bb521f2b",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:e924337d2126",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Ancient Copper Dragon",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Ancient Copper Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:c24a7633f9a1",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:325d8ed3351a",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Bloodchief Ascension",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Bloodchief Ascension",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:9b9123fc68da",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:31b194d34953",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Breath of Fury",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:3e93d0dd886b",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Carnage, Crimson Chaos",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Carnage, Crimson Chaos",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:72c4a3021220",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Cathodion",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Cathodion",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:c2410ed93896",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Cavalier of Night",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Cavalier of Night",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:a95009acc1a9",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:e1909ca00d24",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:9098cbabcaba",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:354296e4fe9b",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:3d07858231dd",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Cormela, Glamour Thief",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Cormela, Glamour Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:4f9932f27b1e",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:ed73f8977108",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:d793cd15640b",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Crypt Champion",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Crypt Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:f51562a6c481",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Cut Your Losses",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Cut Your Losses",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:40dd9fe35c06",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:aa1294cbca9a",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Doomsday Excruciator",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Doomsday Excruciator",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:261b5c34dd42",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Driver of the Dead",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Driver of the Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:af54cee732ec",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:8826f5eb300d",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:4239a7304a30",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:39e468c3d228",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Fear of Missing Out",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Fear of Missing Out",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:2740c0ccdb46",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Fleet Swallower",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Fleet Swallower",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:8d44f5abbfd1",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Ganax, Astral Hunter",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Ganax, Astral Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:be01e36bb74e",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Molten Duplication",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:0a5013371cbe",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Godo, Bandit Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:d88f5942c575",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:42203d81e29b",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:ccbcc59e06f5",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:a29235547f89",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Howlsquad Heavy",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Howlsquad Heavy",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:753fa8cd79ff",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:dbb253f40c71",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:54f07e2a8fe3",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:a56d2c333e09",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "J. Jonah Jameson",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=J. Jonah Jameson",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:ce26979e2f23",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Jidoor, Aristocratic Capital // Overture",
+    "cut": "Flooded Strand",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Jidoor, Aristocratic Capital // Overture",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:398d19f32784",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Jidoor, Aristocratic Capital // Overture",
+    "cut": "Hall of Echoes",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Jidoor, Aristocratic Capital // Overture",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:21d773ae83a0",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Keening Stone",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Keening Stone",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:bbac8dda3dbb",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:aaffceebff4e",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Kitsune's Technique",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Kitsune's Technique",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:9d8677d12b08",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:f9c665512834",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Magda, Brazen Outlaw",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Magda, Brazen Outlaw",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:aa717e17c60c",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:18f7c2f5bcf1",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:8d63ac289924",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:6e9f0d116a7c",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:310b752f61fb",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:be4c09f8e6fd",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:32cd675f6e9a",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:9a7d05f68028",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Neheb, Dreadhorde Champion",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Neheb, Dreadhorde Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:aaedcfca7d03",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Neheb, the Eternal",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Neheb, the Eternal",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:e91dffed6fe7",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:298d88dbc4d5",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:5ae0efd12448",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Palinchron",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:eac208ec5188",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:a5f0c7a6a909",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:7adf080bf025",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Poetic Ingenuity",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Poetic Ingenuity",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:bc4d6deecd93",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Port Razer",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Port Razer",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:7d3282201a75",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:7b745370b412",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Puppeteer Clique",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Puppeteer Clique",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:d7df8558deb1",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:fafc2fbf311f",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:1f7b11eb5037",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Sands of Time",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Sands of Time",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:46fe88e71875",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Scourge of the Throne",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Scourge of the Throne",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:75fd4f2840a0",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Shadow of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:440b0a9dd336",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Singularity Rupture",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Singularity Rupture",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:109a0aeae9e3",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Sphinx of the Second Sun",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Sphinx of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:4e0285a51c86",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Sphinx of the Second Sun",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Sphinx of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:f120718d0b77",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Technomancer",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:d1b0491efeb3",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Terisian Mindbreaker",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Terisian Mindbreaker",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:7ae41cec14f1",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:2b7f20186791",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "The Master of Lake-town",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=The Master of Lake-town",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:cb253d7fed5f",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "The Reaver Cleaver",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=The Reaver Cleaver",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:71a013bd861a",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Talisman of Indulgence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:79451d5acea7",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:f81b7392f684",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:6a945e343e9a",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Roaming Throne",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:6095b5d06d70",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Traumatize",
+    "cut": "Molten Duplication",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Traumatize",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:0cd53fcfebf6",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Unstoppable Plan",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:9a3e2249da01",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Worldgorger Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:bbb5cb7c190d",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Young Necromancer",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Young Necromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:fbe5afab7ecc",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   },
+   {
+    "add": "Éomer, Marshal of Rohan",
+    "cut": "Karlach, Fury of Avernus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#card=Éomer, Marshal of Rohan",
+     "m5_swap:data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz#id=swap:lord-xander-the-collector:m5:ff63f547bb7b",
+     "blueprint:data/grixis/blueprints/lord-xander-the-collector.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

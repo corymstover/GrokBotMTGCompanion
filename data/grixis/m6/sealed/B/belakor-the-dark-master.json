@@ -1,0 +1,64 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:494c90af23dffb94e559267fc928ccb9c4b532cdd7e4a9b6636f8edadcec0793",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Be_lakor__the_Dark_Master",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz"
+  ],
+  "list_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:belakor-the-dark-master:performance:v1",
+  "recommendations": [
+   {
+    "add": "Brainstorm",
+    "cut": "Unholy Annex // Ritual Chamber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:dcf452fb5457",
+     "m5_test:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=test:belakor-the-dark-master:goldfish:b41cc2bc98c83348"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:3ac22b945ee2",
+     "m5_test:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=test:belakor-the-dark-master:goldfish:b8a0e4b0dc4802d5"
+    ]
+   },
+   {
+    "add": "Temple of the False God",
+    "cut": "Otawara, Soaring City",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=swap:belakor-the-dark-master:m5:e9da94ba6ca1",
+     "m5_test:data/grixis/birthday_m5/regen/belakor-the-dark-master.json.gz#id=test:belakor-the-dark-master:goldfish:c02550bebba1d583"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

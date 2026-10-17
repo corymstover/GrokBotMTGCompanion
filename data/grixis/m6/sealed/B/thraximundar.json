@@ -1,0 +1,104 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:bd36b3cdc86030af0c50d1d59dd9e3edc87b8b110573f7f2ffaffeb21640eb56",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Thraximundar",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/thraximundar.json.gz"
+  ],
+  "list_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:thraximundar:performance:v1",
+  "recommendations": [
+   {
+    "add": "Chromatic Lantern",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:e9042ced2169",
+     "m5_test:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=test:thraximundar:goldfish:4b76891064c1c89b"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:45a7d70de4ff",
+     "m5_test:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=test:thraximundar:goldfish:61a43f93dc6dad28"
+    ]
+   },
+   {
+    "add": "Crowded Crypt",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:b8a1d3c3b96e",
+     "m5_test:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=test:thraximundar:goldfish:a36b1cd2f9fdf541"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ba007060844a",
+     "m5_test:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=test:thraximundar:goldfish:cbc1653432177121"
+    ]
+   },
+   {
+    "add": "Diabolic Tutor",
+    "cut": "Reanimate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:72ef1d80273f",
+     "m5_test:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=test:thraximundar:goldfish:691fadd47ed1b5d5"
+    ]
+   },
+   {
+    "add": "Relic of Legends",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:24ac3181fdda",
+     "m5_test:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=test:thraximundar:goldfish:38355b6d49dcce04"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:c58f9a9e95db",
+     "m5_test:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=test:thraximundar:goldfish:f063fa68da780d7a"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:b684bfbb9d82",
+     "m5_test:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=test:thraximundar:goldfish:e5026ec5b5b34775"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

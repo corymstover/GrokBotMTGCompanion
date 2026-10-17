@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Nathan_Drake__Treasure_Hunter",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1193376,
+   "path": "data/grixis/birthday_m5/candidates/nathan-drake-treasure-hunter.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:6c844994e6f7d0258c5c3c0f816d2ea527476422ced64f55980d29e9b6d9dc66"
+  },
+  {
+   "bytes": 1243874,
+   "path": "data/grixis/birthday_m5/regen/nathan-drake-treasure-hunter.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:ea911504293c4be4da0fff7b6f33fcfca00f332d3862993120a3930eb1107a33"
+  },
+  {
+   "bytes": 47367,
+   "path": "data/grixis/birthday_m5/evidence/nathan-drake-treasure-hunter.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:e65fd9b4c749281f1577409f88599bd6cead537cc0f02ec9ad41e71e43e06939"
+  },
+  {
+   "bytes": 138855,
+   "path": "data/grixis/m6/optimizer/nathan-drake-treasure-hunter.json",
+   "role": "optimizer",
+   "sha256": "sha256:881058add566fe3d98079e7ebffdab89d32e8a62979cc7232440cddeae61a1d8"
+  },
+  {
+   "bytes": 920893,
+   "path": "data/grixis/m6/review_packets/nathan-drake-treasure-hunter.json",
+   "role": "review_packet",
+   "sha256": "sha256:df563183b4e366c2cd820a86aff557ef22bb8b4866dd57abf09d5297b54689d8"
+  }
+ ],
+ "list_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "nathan-drake-treasure-hunter",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

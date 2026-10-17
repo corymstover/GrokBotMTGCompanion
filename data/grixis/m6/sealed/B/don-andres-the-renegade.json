@@ -1,0 +1,64 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:79070f7c46dbade3a40f422c9a5153834194f9eb6d786f284480bc2efd568d21",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Don_Andres__the_Renegade",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz"
+  ],
+  "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:don-andres-the-renegade:performance:v1",
+  "recommendations": [
+   {
+    "add": "Deadly Dispute",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:c4d96ae7fca2",
+     "m5_test:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=test:don-andres-the-renegade:goldfish:5932be1ea3560132"
+    ]
+   },
+   {
+    "add": "Discreet Retreat",
+    "cut": "Decadent Dragon // Expensive Taste",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:0e2957888245",
+     "m5_test:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=test:don-andres-the-renegade:goldfish:a30e4c007d1859a8"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=swap:don-andres-the-renegade:m5:d9bdad1f9bbf",
+     "m5_test:data/grixis/birthday_m5/regen/don-andres-the-renegade.json.gz#id=test:don-andres-the-renegade:goldfish:9ab49b59affaf229"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

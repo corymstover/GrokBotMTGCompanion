@@ -1,0 +1,296 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:f5443b1bff08d68937694b1439e48667e7ed2d8b30948380854789e88002f9d7",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "The_Valeyard",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/the-valeyard.json.gz"
+  ],
+  "list_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:the-valeyard:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:ceea06bbb4f2",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Kess, Dissident Mage",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:d035e16ebbeb",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:f9ca4cb91063",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Kess, Dissident Mage",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:6341cfff8f67",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:a6d556679eb6",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Kess, Dissident Mage",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:edea7c6aee7d",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:3f9d3bb75051",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Kess, Dissident Mage",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:69d762871cd3",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:3f7150d572cb",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:bf011ab33c85",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:f8f227ecdc26",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Ioreth of the Healing House",
+    "cut": "Kess, Dissident Mage",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Ioreth of the Healing House",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:63c2c3ec2eef",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:da59bcc1b8c2",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Kess, Dissident Mage",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:06e34a6823ba",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:e729ef466626",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Kess, Dissident Mage",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:be15d53a19aa",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:da8bd14dce2b",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Kess, Dissident Mage",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:0057a443df46",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Dr. Eggman",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:89901eca21b4",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Kess, Dissident Mage",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:f809c16a2cba",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Panoptic Mirror",
+    "cut": "Auton Soldier",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Panoptic Mirror",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:18b900656cad",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Panoptic Mirror",
+    "cut": "Rakdos Signet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Panoptic Mirror",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:65af7da21494",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:377a32aa802b",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:4d40f559328a",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:ea84e14dcbdf",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:376edddb9d30",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Underworld Breach",
+    "cut": "Genesis of the Daleks",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Underworld Breach",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:7fd8006a491b",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   },
+   {
+    "add": "Underworld Breach",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-valeyard.json.gz#card=Underworld Breach",
+     "m5_swap:data/grixis/birthday_m5/regen/the-valeyard.json.gz#id=swap:the-valeyard:m5:fea3497a9290",
+     "blueprint:data/grixis/blueprints/the-valeyard.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

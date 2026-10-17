@@ -1,0 +1,494 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:243df6116a4085fc1e863fb320cfa448d3cdc5c9dca08b73bf21de809ce9bd20",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Evelyn__the_Covetous",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz"
+  ],
+  "list_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:evelyn-the-covetous:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:4bcb2b5df8a4",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:8b3bd15f3433",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Ardent Elementalist",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Ardent Elementalist",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:eef2e360f2ba",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Banishing Knack",
+    "cut": "Redirect Lightning",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Banishing Knack",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:f0bfd21535dd",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:e0e957db2ba7",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:5655324400a5",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:c5eb3f58b683",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:6415f6d4e09c",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Cormela, Glamour Thief",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Cormela, Glamour Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:2bce155bde25",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:1e560a73998d",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:0e01a8859761",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:fd145a02887c",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Redirect Lightning",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:e7b2845c9826",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Flameshadow Conjuring",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Flameshadow Conjuring",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:4073f9901436",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:743d5ccb45a7",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Unmarked Grave",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:39d311387087",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:bc731584813f",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:b1f1b98af9d4",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:1a9adc07779d",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Izzet Chronarch",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Izzet Chronarch",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:a69a0f5e52a3",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:fa0f10fbf206",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:c184cbb6b03c",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:2e906be5bc43",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Minion Reflector",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Minion Reflector",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:739fbf91671a",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:c7ed12d9072a",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Mnemonic Wall",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:cffb22816a84",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Molten Echoes",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Molten Echoes",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:da46625c6fa5",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:b7eb894202a0",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:de87bef6bb15",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Faerie Mastermind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:91a384486326",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:b0956075df15",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Pinnacle Monk // Mystic Peak",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Pinnacle Monk // Mystic Peak",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:2f620622505f",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:53633259d425",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Platinum Emperion",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:7de0f41efbd5",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Possessed Skaab",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Possessed Skaab",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:ccd9d6628df3",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Faerie Mastermind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:ce095960e906",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:594e9a68b657",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Retraction Helix",
+    "cut": "Redirect Lightning",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Retraction Helix",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:9959487b4d75",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Revolutionist",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Revolutionist",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:047adb9ce708",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Salvager of Secrets",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Salvager of Secrets",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:c888c382e29f",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Scholar of the Ages",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Scholar of the Ages",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:dc92d1702e15",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Scrivener",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Scrivener",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:989f58991cac",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Shipwreck Dowser",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:37a8de6df214",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Stitcher's Supplier",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:4af73f581aa8",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:be85feef950d",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:ff6884d94e38",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Vampire Charmseeker",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Vampire Charmseeker",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:4365e5d3e170",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Wheel of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:8cc7a1a0bc1a",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Wheel of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:1ee7fd8ac761",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   },
+   {
+    "add": "Zealous Lorecaster",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#card=Zealous Lorecaster",
+     "m5_swap:data/grixis/birthday_m5/regen/evelyn-the-covetous.json.gz#id=swap:evelyn-the-covetous:m5:e52b496d1c92",
+     "blueprint:data/grixis/blueprints/evelyn-the-covetous.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

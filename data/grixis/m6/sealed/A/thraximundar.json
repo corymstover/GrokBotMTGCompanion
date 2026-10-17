@@ -1,0 +1,1196 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:6a76a56dba9a354f218398be3f00336ee4f658f06c315f2b0f02e8bce451c622",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Thraximundar",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/thraximundar.json.gz"
+  ],
+  "list_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:thraximundar:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Acererak the Archlich",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Acererak the Archlich",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:135495f5881c",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Aetherflux Reservoir",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Aetherflux Reservoir",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:e68269f4b27f",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Al Bhed Salvagers",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Al Bhed Salvagers",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:a86a1b108d35",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Anax, Hardened in the Forge",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Anax, Hardened in the Forge",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:a4da3354560b",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Animation Module",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Animation Module",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:1aec7c1a7b7d",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Arnyn, Deathbloom Botanist",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Arnyn, Deathbloom Botanist",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:0a7e6a8d79f6",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Ayara, First of Locthwain",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Ayara, First of Locthwain",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:10ab09640db2",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Bastion of Remembrance",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Bastion of Remembrance",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:0665b12e0da3",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Blasting Station",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Blasting Station",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:505dcd68abfe",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Blight Mound",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Blight Mound",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:cc8f72588493",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Bloodflow Connoisseur",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Bloodflow Connoisseur",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:e5e8d014c37f",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Bloodsoaked Champion",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Bloodsoaked Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:f2ddbb78c41f",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Bloodthrone Vampire",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Bloodthrone Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:1a0019b07110",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Bog Initiate",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Bog Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:d821e2b79429",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Bontu's Monument",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Bontu's Monument",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:fe4576cf72f9",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Bridge from Below",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Bridge from Below",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:5fecaaa788ff",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Carnival of Souls",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Carnival of Souls",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:dcdfb85d768d",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:7a8741c7509e",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:8bf7b89ed7d4",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Chromatic Orrery",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Chromatic Orrery",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:df41841eb5b9",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Corpse Blockade",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Corpse Blockade",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:32a812a6c79c",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:25d2b52d03ff",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Crossroads Candleguide",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Crossroads Candleguide",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:a92fb0cf6de6",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Cult Conscript",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Cult Conscript",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:07bfac505983",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Deathgreeter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Deathgreeter",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:841b3361109d",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Desecrated Tomb",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Desecrated Tomb",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:b867b1f34e74",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Draconic Visitor",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Draconic Visitor",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:50df50fa3822",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Drivnod, Carnage Dominus",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Drivnod, Carnage Dominus",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:00897e67aeff",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Dross Harvester",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Dross Harvester",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:e235b238d062",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:c62ce4d5ee63",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Ebondeath, Dracolich",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Ebondeath, Dracolich",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:74649fcb3ceb",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Elemental Mastery",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Elemental Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:07a0a18ac689",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Embalmer's Tools",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Embalmer's Tools",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:f28faee69b2c",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Engineered Plague",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Engineered Plague",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:0582787e4be4",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Evereth, Viceroy of Plunder",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Evereth, Viceroy of Plunder",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:8f3ffa6d0753",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Falkenrath Noble",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Falkenrath Noble",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:848d411315ef",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Forsaken Miner",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Forsaken Miner",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:868841c25813",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Fumulus, the Infestation",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Fumulus, the Infestation",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:01a722471f40",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Funeral Room // Awakening Hall",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Funeral Room // Awakening Hall",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:be3163dcadce",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Garrison Excavator",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Garrison Excavator",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:4bd2aab9b88f",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Gemstone Array",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Gemstone Array",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ffda94ff1a2b",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Geth, Thane of Contracts",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Geth, Thane of Contracts",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:35b984b040c2",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Glitch Interpreter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Glitch Interpreter",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:6ac9e74cf300",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Golgari Thug",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Golgari Thug",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:37b6a38fa0ec",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Grave Venerations",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Grave Venerations",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:7c9e5b7fd936",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Hammerhead, Maggia Boss",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Hammerhead, Maggia Boss",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:a365928ec901",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Haunt of the Dead Marshes",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Haunt of the Dead Marshes",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:d4752d4c0366",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Havengul Lich",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Havengul Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:75ebb45bdd2e",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Heartless Summoning",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Heartless Summoning",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:d2b5b161ffff",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:583538144944",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Initiates of the Ebon Hand",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Initiates of the Ebon Hand",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:514b7e730583",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Joo Dee, One of Many",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Joo Dee, One of Many",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:214745936f8a",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Kaervek, the Spiteful",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Kaervek, the Spiteful",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:f8190811bd02",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Krenko, Baron of Tin Street",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Krenko, Baron of Tin Street",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:398749081bf6",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Lava Zombie",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Lava Zombie",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:3079243c3b21",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Liliana, Untouched by Death",
+    "cut": "Liliana, Dreadhorde General",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Liliana, Untouched by Death",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:05be02f66e87",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Magmatic Galleon",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Magmatic Galleon",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ad42c7ade947",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Magus of the Bridge",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Magus of the Bridge",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:c6b7e0d2d083",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Marang River Prowler",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Marang River Prowler",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:8c8728cab5a5",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "March of the Machines",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=March of the Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:aca3ecdee6f1",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ef73f9dfbcc4",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Mirror Room // Fractured Realm",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Mirror Room // Fractured Realm",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:2c51bf6dac26",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Moonstone Eulogist",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Moonstone Eulogist",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:d834f142a1cd",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Mycosynth Lattice",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Mycosynth Lattice",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:c8c1d4102e1a",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Nadir Kraken",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Nadir Kraken",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:3e762d87fa6f",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Nantuko Husk",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Nantuko Husk",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:b7fc1e72e6fd",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:4b1fd1020ef8",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Nest of Scarabs",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Nest of Scarabs",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:623be513c749",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Night of Souls' Betrayal",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Night of Souls' Betrayal",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:e6c36cdc5ec0",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Nim Shambler",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Nim Shambler",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:60ddbfa811a5",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:0d6f1f7edded",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Oathsworn Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ab62b376c85f",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Ogre Slumlord",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Ogre Slumlord",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:884353f9f0a9",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Open the Graves",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Open the Graves",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:08ac679ccd5c",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Ozox, the Clattering King",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:d2abb9e9025d",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Paradise Mantle",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Paradise Mantle",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:c2839b864f38",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Pashalik Mons",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Pashalik Mons",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:5331b8524793",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Pawn of Ulamog",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Pawn of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ba1c913ec186",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Phantom Train",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Phantom Train",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:8c11f2e78668",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Phenomenon Investigators",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Phenomenon Investigators",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ab4c58786e43",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Ghoul",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Phyrexian Ghoul",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:0b6a30d52e01",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Poppet Stitcher // Poppet Factory",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Poppet Stitcher // Poppet Factory",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:f6f9a9f733a2",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Popular Egotist",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Popular Egotist",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:1f5c739160e4",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Prismite",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Prismite",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:e37eaa4b86b0",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Raptor Hatchling",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:3ad08fb39dca",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Rat King, Pale Piper",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Rat King, Pale Piper",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:64db8f6d0b39",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Razorlash Transmogrant",
+    "cut": "Yawgmoth, Thran Physician",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Razorlash Transmogrant",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:5dba751f8fc4",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Relentless Dead",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Relentless Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:f84774e49ced",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Relic of Legends",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Relic of Legends",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:24ac3181fdda",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Relic Vial",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Relic Vial",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ac82746ba976",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Roaming Throne",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Roaming Throne",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:9e9829493634",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Scuttletide",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Scuttletide",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:7a1494cc54e5",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Sedraxis Alchemist",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Sedraxis Alchemist",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:bcc3b1b3031a",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:c5b64d21504b",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Sifter of Skulls",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Sifter of Skulls",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:0164c0dca867",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Signpost Scarecrow",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Signpost Scarecrow",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:6990009819f2",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Silverclad Ferocidons",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Silverclad Ferocidons",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:bab622725314",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Skeleton Crew",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Skeleton Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:b767f51dd74e",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Skirge Familiar",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Skirge Familiar",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:e8a297db5a4b",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Slick Imitator",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Slick Imitator",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:d2a88891cd42",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Smaug the Impenetrable",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Smaug the Impenetrable",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:7072aca115ff",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "South Wind Avatar",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=South Wind Avatar",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:d1a8a08a6f17",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Spawning Pit",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Spawning Pit",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:bb50548c76fe",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:8790aa3e6c1e",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Stonework Packbeast",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Stonework Packbeast",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:7a6297d56ad7",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Stridehangar Automaton",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Stridehangar Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:d13cb1465edf",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Summoning Station",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Summoning Station",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:bac0d517c206",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Susurian Voidborn",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Susurian Voidborn",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:7e5cad1a0fea",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Tenacious Dead",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Tenacious Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:754557f0f9b2",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "The Ghoul, Gunslinger",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=The Ghoul, Gunslinger",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:47ddf72e64df",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ab9bf08cd4ab",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "The Masamune",
+    "cut": "Talisman of Creativity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=The Masamune",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:2cbe7136b78e",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "The Sibsig Ceremony",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=The Sibsig Ceremony",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:164c39414bc1",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Thermopod",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:a84d31ce96f2",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:7e0071eeafcf",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Tombstone Stairwell",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Tombstone Stairwell",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:8e849cf17472",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Tormod, the Desecrator",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Tormod, the Desecrator",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:90ab4e13d69c",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Totentanz, Swarm Piper",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Totentanz, Swarm Piper",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:f4ba0068975e",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:9331dc04d7f5",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Undead Sprinter",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:815d126ed321",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Vein Ripper",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Vein Ripper",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:1302039a220d",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Venerated Stormsinger",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Venerated Stormsinger",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:78054548d0c7",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Vengeful Bloodwitch",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Vengeful Bloodwitch",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:43e4551317e7",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Vindictive Vampire",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Vindictive Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:0ee84a5fbec4",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Viscera Seer",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Viscera Seer",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:141d995594e9",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Woe Strider",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Woe Strider",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:7f5fa09d22b0",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Yahenni, Undying Partisan",
+    "cut": "Sheoldred, Whispering One",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Yahenni, Undying Partisan",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:405a89c6546a",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   },
+   {
+    "add": "Young Necromancer",
+    "cut": "Mahadi, Emporium Master",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/thraximundar.json.gz#card=Young Necromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/thraximundar.json.gz#id=swap:thraximundar:m5:ceb25fd5a4e7",
+     "blueprint:data/grixis/blueprints/thraximundar.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

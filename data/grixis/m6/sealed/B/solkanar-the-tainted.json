@@ -1,0 +1,64 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:7fa75e0209d0cb4820d3177bf3be1c76835c457f698f95bcc6986936261c6a7a",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Sol_kanar_the_Tainted",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz"
+  ],
+  "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:solkanar-the-tainted:performance:v1",
+  "recommendations": [
+   {
+    "add": "Commander's Sphere",
+    "cut": "Spiteful Banditry",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:1b51e77a1b9e",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=test:solkanar-the-tainted:goldfish:64fbe626d94e90c3"
+    ]
+   },
+   {
+    "add": "Coveted Jewel",
+    "cut": "Spiteful Banditry",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:beb65fd4b516",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=test:solkanar-the-tainted:goldfish:c55e0c51e6e0ae64"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Spiteful Banditry",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=swap:solkanar-the-tainted:m5:df71cb284c52",
+     "m5_test:data/grixis/birthday_m5/regen/solkanar-the-tainted.json.gz#id=test:solkanar-the-tainted:goldfish:56c2b67b0a09b574"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

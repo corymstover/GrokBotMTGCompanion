@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Doctor_Doom__King_of_Latveria",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1220044,
+   "path": "data/grixis/birthday_m5/candidates/doctor-doom-king-of-latveria.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:678291f940c42c074102f3498c950735bdb6b86513da13d8dc74b4d4508589cd"
+  },
+  {
+   "bytes": 1274223,
+   "path": "data/grixis/birthday_m5/regen/doctor-doom-king-of-latveria.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:3083af00b77e4f8445bb08f202b233e35f038374910d3446cd8247303620794a"
+  },
+  {
+   "bytes": 42284,
+   "path": "data/grixis/birthday_m5/evidence/doctor-doom-king-of-latveria.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:dc405e2b0083a71fdf025967bd241d2448775353e0ca82757540c2eb8e77d602"
+  },
+  {
+   "bytes": 132405,
+   "path": "data/grixis/m6/optimizer/doctor-doom-king-of-latveria.json",
+   "role": "optimizer",
+   "sha256": "sha256:7e5ae26f4bb6c10fcf6585d58c8fc32cfad23917b09a16dca95437107dba4feb"
+  },
+  {
+   "bytes": 902476,
+   "path": "data/grixis/m6/review_packets/doctor-doom-king-of-latveria.json",
+   "role": "review_packet",
+   "sha256": "sha256:a6d77592292a61db8f69aad94e9b426db91f579a2b9a7f8b551fc54939d6fd32"
+  }
+ ],
+ "list_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "doctor-doom-king-of-latveria",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

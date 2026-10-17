@@ -1,0 +1,404 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:3f2e595371ac65d90607e73aab91e45b1a044e06418603ef6ff1ff88b15a47c7",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Garza_Zol__Plague_Queen",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz"
+  ],
+  "list_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:garza-zol-plague-queen:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Alena, Kessig Trapper",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Alena, Kessig Trapper",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:b5920514148a",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Ancient Copper Dragon",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Ancient Copper Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:54594a1fa6b1",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:7836baaf325c",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Brallin, Skyshark Rider",
+    "cut": "Mask of Memory",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Brallin, Skyshark Rider",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:f57bb2288492",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:cf6f8df13e9a",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "Brotherhood Regalia",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:ac963ba4cfe6",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:7acaab5a71da",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Psychotic Fury",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:99164264daea",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:59126787da13",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Hell's Caretaker",
+    "cut": "Mask of Memory",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Hell's Caretaker",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:f2194066a4f8",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:3b3039f7b1c9",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:34e51cd8d49f",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Howlsquad Heavy",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Howlsquad Heavy",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:b11d1db465a1",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Rapid Hybridization",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:5f643d53f50a",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "J. Jonah Jameson",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=J. Jonah Jameson",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:6815882a2559",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Kamahl, Pit Fighter",
+    "cut": "Rapid Hybridization",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Kamahl, Pit Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:c03c643ca61a",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:3d2c5c502faa",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Magda, Brazen Outlaw",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Magda, Brazen Outlaw",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:353548868e4d",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Mask of Memory",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Magmakin Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:16ad40e04d0e",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Neheb, Dreadhorde Champion",
+    "cut": "Psychotic Fury",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Neheb, Dreadhorde Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:bcdbd1bbf6df",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Neheb, Dreadhorde Champion",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Neheb, Dreadhorde Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:49386a23c921",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Neheb, the Eternal",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Neheb, the Eternal",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:47927134f31d",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Parun",
+    "cut": "Psychotic Fury",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Niv-Mizzet, Parun",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:ba58072e6a4b",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Parun",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Niv-Mizzet, Parun",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:79e3f4c299f9",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, the Firemind",
+    "cut": "Psychotic Fury",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Niv-Mizzet, the Firemind",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:87dd65a41f65",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, the Firemind",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Niv-Mizzet, the Firemind",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:37381e6830ee",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Poetic Ingenuity",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Poetic Ingenuity",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:e80887532f35",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Curiosity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:701d0ebdc3f3",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Hatred",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:5d6413242cb5",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Rapid Hybridization",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:4368c9b6a8ea",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Shadow of the Second Sun",
+    "cut": "Curiosity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Shadow of the Second Sun",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:9d6bc76c5953",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Splinter Twin",
+    "cut": "Sword of Fire and Ice",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Splinter Twin",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:2fd821d0cd6e",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:d33934a83863",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:f2e86943ec52",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Rapid Hybridization",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:af5ece6a0f3b",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "Blackblade Reforged",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:c2d7fcffa751",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Time Sieve",
+    "cut": "The Ozolith",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Time Sieve",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:ae808491abb2",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Triskelion",
+    "cut": "Rapid Hybridization",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Triskelion",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:d821948834fe",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Warlock Class",
+    "cut": "Mask of Memory",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Warlock Class",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:711c8a7234c3",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   },
+   {
+    "add": "Wound Reflection",
+    "cut": "Curiosity",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#card=Wound Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz#id=swap:garza-zol-plague-queen:m5:0560b6b63e21",
+     "blueprint:data/grixis/blueprints/garza-zol-plague-queen.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

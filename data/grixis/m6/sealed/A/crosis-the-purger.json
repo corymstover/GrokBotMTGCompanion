@@ -1,0 +1,170 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:2681a6d3aac4b0f0293fff986dbd688f140583ff872025fa05441dbd04952491",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Crosis__the_Purger",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz"
+  ],
+  "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:crosis-the-purger:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Aggravated Assault",
+    "cut": "Kroxa, Titan of Death's Hunger",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Aggravated Assault",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:d6efdb7f829a",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Aggravated Assault",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Aggravated Assault",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:c9940c5a1dcd",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Kroxa, Titan of Death's Hunger",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:c03bcbb82307",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:7c310fcbd750",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Kroxa, Titan of Death's Hunger",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:793c5cdcdaa8",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:b22745ae84e9",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Kroxa, Titan of Death's Hunger",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:eb014e7ec6d8",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:b91299eb7c7e",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Kroxa, Titan of Death's Hunger",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:c8130f0f2d44",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Hellkite Charger",
+    "cut": "Tergrid, God of Fright // Tergrid's Lantern",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Hellkite Charger",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:8951bb972736",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:e6f8cf053a32",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:d140dfda9ed6",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:928db9b246f3",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/crosis-the-purger.json.gz#id=swap:crosis-the-purger:m5:240746f79b30",
+     "blueprint:data/grixis/blueprints/crosis-the-purger.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

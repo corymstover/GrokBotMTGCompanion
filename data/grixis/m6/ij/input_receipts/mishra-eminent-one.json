@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Mishra__Eminent_One",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1288564,
+   "path": "data/grixis/birthday_m5/candidates/mishra-eminent-one.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:612fa60c7f287cb6e3c1b4e801157f0160cfd7b3a08b7be2b036533736451f3c"
+  },
+  {
+   "bytes": 1375680,
+   "path": "data/grixis/birthday_m5/regen/mishra-eminent-one.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:28ba0bd1f5fa0dba4869acf0031a56c97fd29b06d981cf0f2347d5ff2bd8f961"
+  },
+  {
+   "bytes": 49012,
+   "path": "data/grixis/birthday_m5/evidence/mishra-eminent-one.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:b919774201090b1b239136c51af3c4823c6eb9142344f921fdd262f95cd4bc51"
+  },
+  {
+   "bytes": 83880,
+   "path": "data/grixis/m6/optimizer/mishra-eminent-one.json",
+   "role": "optimizer",
+   "sha256": "sha256:11f26f31055f47190574569816fb465ec30c494179ba67e5438158b550d29b27"
+  },
+  {
+   "bytes": 703591,
+   "path": "data/grixis/m6/review_packets/mishra-eminent-one.json",
+   "role": "review_packet",
+   "sha256": "sha256:e9789a5d0dafc4db305121a9c6086cea65caa11d7958e3c714f0df3074222921"
+  }
+ ],
+ "list_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "mishra-eminent-one",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

@@ -1,0 +1,2897 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:387fa681d19fa1d6438a854c2f1ac2934b7b9a7524f5ded2ee11337fcb4a573c",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Inalla__Archmage_Ritualist",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz"
+  ],
+  "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:inalla-archmage-ritualist:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Adventurous Eater // Have a Bite",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Adventurous Eater // Have a Bite",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:e64f71265728",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Aether Adept",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Aether Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b7ea33cc5422",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Aether Channeler",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:35924b8ef5ce",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Agents of HYDRA",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Agents of HYDRA",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:63da5099eb17",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Alandra, Sky Dreamer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Alandra, Sky Dreamer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b312ee467131",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Alesha, Who Laughs at Fate",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Alesha, Who Laughs at Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:18726c958541",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Alicia Masters, Skilled Sculptor",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Alicia Masters, Skilled Sculptor",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a45b6f17f883",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:dea07285e84e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Anathemancer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Anathemancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d281391885b5",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:48d4ef8beb29",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Arcane Artisan",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Arcane Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9595b39536c9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Arcanis the Omnipotent",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Arcanis the Omnipotent",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:38177516ec7a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1d5472f68221",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Archetype of Imagination",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Archetype of Imagination",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a7ab3578adbd",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Archmage Emeritus",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Archmage Emeritus",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:0ed930f59164",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Archmage of Echoes",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Archmage of Echoes",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:260b8aef874f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Archmage of Runes",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Archmage of Runes",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b491e8604626",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Archpriest of Shadows",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Archpriest of Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f0a56b8f8a23",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Arco-Flagellant",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Arco-Flagellant",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:14b5feef59aa",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ardent Elementalist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ardent Elementalist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:248c51548f33",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ardyn, the Usurper",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ardyn, the Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a26e64960a4d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Arni, Humble Scribe",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Arni, Humble Scribe",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5b092f67c4dc",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ashnod the Uncaring",
+    "cut": "Hoarding Broodlord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ashnod the Uncaring",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:99b91db2d95f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ashnod's Altar",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ashnod's Altar",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4000477d9b07",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Avenger of the Fallen",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Avenger of the Fallen",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:552b8639e8eb",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Azami, Lady of Scrolls",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Azami, Lady of Scrolls",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b9c477098445",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Balmor, Battlemage Captain",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Balmor, Battlemage Captain",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:e62bc754f79c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Baral, Chief of Compliance",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Baral, Chief of Compliance",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c8ffe5845d4d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Baron Helmut Zemo",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Baron Helmut Zemo",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1a472dc91e11",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Basalt Ravager",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Basalt Ravager",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:58790af1fd20",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Black Waltz No. 3",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Black Waltz No. 3",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4e14199720aa",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8d0c06bc54c0",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Bond of Revival",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Bond of Revival",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d03e84d3273b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Bone Miser",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Bone Miser",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b793ca17b9b9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4aebb60a1e09",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Captain Lannery Storm",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Captain Lannery Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:487c24ef41b5",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Capture of Jingzhou",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Capture of Jingzhou",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:2efa0dbbfe2f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Chainer, Nightmare Adept",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Chainer, Nightmare Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:45a31f696c77",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Chameleon, Master of Disguise",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Chameleon, Master of Disguise",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:aa183da5bc31",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ae979fba1d2a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Chittering Witch",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Chittering Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:2b44c8b41c54",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:2c4eb6f7831a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Cloudkin Seer",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Cloudkin Seer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9e47fb9d5c47",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d6c8e50e2e91",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6019d8966c06",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Cormela, Glamour Thief",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Cormela, Glamour Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:58e3361bab03",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Corpse Dance",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Corpse Dance",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:507892c04279",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Coruscation Mage",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Coruscation Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:63a08dd13de9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Council of Reeds",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Council of Reeds",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:15de14ee6929",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Crimson Cowl, Master of Evil",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Crimson Cowl, Master of Evil",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a3b72af0ca55",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Cryotheory Adept",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Cryotheory Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b6f82b89ee9f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Curiosity Crafter",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Curiosity Crafter",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:660eb553c5c6",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Dark Confidant",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Dark Confidant",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9c71451fc395",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Death Baron",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Death Baron",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:3313e894d8f3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Deluge Virtuoso",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Deluge Virtuoso",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:35c4b5fd3fa3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Dire Fleet Ravager",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Dire Fleet Ravager",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:0cbadf4b38ab",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Disciple of Bolas",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Disciple of Bolas",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c4fe96a30e34",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Diviner of Victory // Unwind History",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Diviner of Victory // Unwind History",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6c9845fc8428",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Divining Duelist",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Divining Duelist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:20227a2a83e2",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Doctor Doom",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6cfec59861f3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Dose of Dawnglow",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Dose of Dawnglow",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a2b6293223fb",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Dour Port-Mage",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Dour Port-Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:3a6d99ea2747",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Dragon Mage",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Dragon Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:04fb45ffadd2",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Dragonmaster Outcast",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Dragonmaster Outcast",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ae09fd5e0c1d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Dragonologist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Dragonologist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:db0e9dc22675",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Dread Return",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Dread Return",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1475bc196b1f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a2469e90ef1d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Echo, Perceptive Prodigy",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Echo, Perceptive Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:634eacb35fa6",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Conflict // Lightning Bolt",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Emeritus of Conflict // Lightning Bolt",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:44b8bea55c49",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Ideation // Ancestral Recall",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Emeritus of Ideation // Ancestral Recall",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:963fa81d994c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Emet-Selch of the Third Seat",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Emet-Selch of the Third Seat",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c71dbecccdf0",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Emry, Lurker of the Loch",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Emry, Lurker of the Loch",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:46e3696e4166",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Encouraging Aviator // Jump",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Encouraging Aviator // Jump",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1108de8f8252",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Endrek Sahr, Master Breeder",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Endrek Sahr, Master Breeder",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5c181a6cb247",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:601c2027e0b1",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ertai Resurrected",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ertai Resurrected",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ee6c95d530b8",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Exhibition Tidecaller",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Exhibition Tidecaller",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:43675effdf13",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Exhume",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Exhume",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:495295fc2c1e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Experimental Confectioner",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Experimental Confectioner",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:e62eee863867",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Faerie Seer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Faerie Seer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1c6fbd564915",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Fain, the Broker",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Fain, the Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:cdab782a1aad",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Falcon, Winged Wonder",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Falcon, Winged Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:3667a2502301",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Cabal Ritual",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4e0b738357fc",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Fandaniel, Telophoroi Ascian",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Fandaniel, Telophoroi Ascian",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:2964593d1828",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Fearsome Awakening",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Fearsome Awakening",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:bf180f8420fa",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Feast of Sanity",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Feast of Sanity",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d274b39899ff",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1691a9333b35",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Fire Lord Azula",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Fire Lord Azula",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d2731dc037c6",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Flux Channeler",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Flux Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b8b0230d7f7d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Footsteps of the Goryo",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Footsteps of the Goryo",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:eebf298bf58b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Galecaster Colossus",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Galecaster Colossus",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:01cd2fc57485",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gandalf, Goblins' Bane // Flameshape",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gandalf, Goblins' Bane // Flameshape",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:cb768cb7999d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gandalf, Shadow's Foe",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gandalf, Shadow's Foe",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:83e2a248e4ac",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gandalf, Spark Starter",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gandalf, Spark Starter",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:501093ed5c91",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gandalf, Wandering Wizard",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gandalf, Wandering Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8741bb34628e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Generous Plunderer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Generous Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:af599c9ef316",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ghoulcaller Gisa",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ghoulcaller Gisa",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1900534a1a80",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gisa, Glorious Resurrector",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gisa, Glorious Resurrector",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:dae923fc9800",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gisa, the Hellraiser",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gisa, the Hellraiser",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:fb18e0b5c504",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gleaming Overseer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gleaming Overseer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:663435d1c99e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gleeful Arsonist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gleeful Arsonist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:54df2ecd1f00",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Glen Elendra Archmage",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Glen Elendra Archmage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1b6965bd6b26",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8659ab88eeea",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Glint-Horn Buccaneer",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Glint-Horn Buccaneer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:665911f8e3c9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Goblin Electromancer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Goblin Electromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:97681e4b9de6",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Goblin Pyromancer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Goblin Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ac1a1bf7e44c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Goblin Wizard",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Goblin Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:71581a340a47",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gogo, Master of Mimicry",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gogo, Master of Mimicry",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d0daf9133ef2",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Gogo, Mysterious Mime",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Gogo, Mysterious Mime",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4df2f15375ee",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d38a610c87b6",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Grim Haruspex",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Grim Haruspex",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d7050c73246a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Grim Reaper, Lethal Legionnaire",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Grim Reaper, Lethal Legionnaire",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:fdfc56ef1ee5",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:183aa13e267c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:26fe9f77d47a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Hakim, Loreweaver",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Hakim, Loreweaver",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f1c72756ae10",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Hapatra, the Desert Frost",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Hapatra, the Desert Frost",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:3d0314f470cb",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Harbinger of the Seas",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Harbinger of the Seas",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:dc8725ba8497",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Harmonic Prodigy",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Harmonic Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:94ef2477348a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Harmonized Trio // Brainstorm",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Harmonized Trio // Brainstorm",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a2539bb3c84b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Havengul Lich",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Havengul Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9cde806522a3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Hermes, Overseer of Elpis",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Hermes, Overseer of Elpis",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:2a4b2c5c4bde",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "High Fae Trickster",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=High Fae Trickster",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5f8583110476",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1f8ae6bf69d6",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "HYDRA Troopers",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=HYDRA Troopers",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f784326e340e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Hydro-Channeler",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Hydro-Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7aa40c4958d2",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Illusion Spinners",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Illusion Spinners",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8b03a00ab4ed",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Incarnation Technique",
+    "cut": "Finale of Promise",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Incarnation Technique",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:395759e707a8",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ingenious Prodigy",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ingenious Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b474642fae9a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Inspired Skypainter // Maestro's Gift",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Inspired Skypainter // Maestro's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:96a2e023b7c4",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Invasion of Segovia // Caetus, Sea Tyrant of Segovia",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Invasion of Segovia // Caetus, Sea Tyrant of Segovia",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4e08e0685b55",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Irma, Part-Time Mutant",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Irma, Part-Time Mutant",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:25e6127af8f0",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Bleeding Edge",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Iron Man, Bleeding Edge",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5355e9fce184",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Tony Stark",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Iron Man, Tony Stark",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:06d94d5c1c3e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Izzet Chronarch",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Izzet Chronarch",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a5f0c101ffd9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Jace's Archivist",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Jace's Archivist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:912d15a4478a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Jadar, Ghoulcaller of Nephalia",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Jadar, Ghoulcaller of Nephalia",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d8e1f1e25437",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Jadzi, Steward of Fate // Oracle's Gift",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Jadzi, Steward of Fate // Oracle's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:60f8f1b4969a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1bb11522fcca",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Jeska's Will",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Jeska's Will",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8304b51d4e87",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Keen Duelist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Keen Duelist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8b5d41e35408",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Kefka, Dancing Mad",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Kefka, Dancing Mad",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a522b04eeeb9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Kellogg, Dangerous Mind",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Kellogg, Dangerous Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:3135a24e66ae",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Kess, Dissident Mage",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Kess, Dissident Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a21748994999",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Killmonger, Ruthless Usurper",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Killmonger, Ruthless Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:156903277fb8",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Kingpin, Wilson Fisk",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:57b0045c7738",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Kitsa, Otterball Elite",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Kitsa, Otterball Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:47d9036ba000",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Krark, the Thumbless",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Krark, the Thumbless",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:68f51c7ca800",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:2b0c5296e8e5",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Laboratory Maniac",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Laboratory Maniac",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:22c36629e412",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Lagomos, Hand of Hatred",
+    "cut": "Hoarding Broodlord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Lagomos, Hand of Hatred",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7f6ec9f43268",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Lake-town Mariners // Gone Fishing",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Lake-town Mariners // Gone Fishing",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:69d023bcbea9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Landscape Painter // Vibrant Idea",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Landscape Painter // Vibrant Idea",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:081647cf1024",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Leech Collector // Bloodletting",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Leech Collector // Bloodletting",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:71dc3b6b4eb8",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Leitmotif Composer",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Leitmotif Composer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:633456820a69",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:489d4d0886b9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Lier, Disciple of the Drowned",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Lier, Disciple of the Drowned",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9ba1a79813ab",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Liliana the Repentant",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Liliana the Repentant",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:2cb37783c070",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Lord of the Unreal",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Lord of the Unreal",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5f8417c38ae4",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Loyal Apprentice",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Loyal Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:658bcb6676c0",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Luke Cage, Hero for Hire",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Luke Cage, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4db04bbdc6de",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Lulu, Stern Guardian",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Lulu, Stern Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f545171ff2b3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Lyra, Tolarian Archangel",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Lyra, Tolarian Archangel",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c88411f62a38",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Madame Hydra",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:55c68c1d8196",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Madame Masque",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Madame Masque",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:cd45b49532c1",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Magmakin Artillerist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Magmakin Artillerist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:e3235db47f66",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Magus of the Moon",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Magus of the Moon",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c4626ed2f310",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Magus of the Wheel",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Magus of the Wheel",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:997f8e00dac7",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Makeshift Mannequin",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Makeshift Mannequin",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d194633a7f32",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Marchesa, the Black Rose",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Marchesa, the Black Rose",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:de7cefedef3f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Marionette Apprentice",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Marionette Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:43d5c58dbb1e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Marionette Master",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Marionette Master",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:29953b36f17c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Master of Etherium",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Master of Etherium",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:13a203e7a2b1",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Matterbending Mage",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Matterbending Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7245b5901365",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Memnarch, the Warden",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Memnarch, the Warden",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8a302ef7b63a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Merchant of Secrets",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Merchant of Secrets",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:13880453c8fc",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Metamorphosis Fanatic",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Metamorphosis Fanatic",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:998c29919fa7",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Mica, Reader of Ruins",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Mica, Reader of Ruins",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:224ae308d3b0",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Minotaur Illusionist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Minotaur Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:3b079136f8e1",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Mischievous Mystic",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Mischievous Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f1118d0935ba",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Mister Fantastic, Reed Richards",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Mister Fantastic, Reed Richards",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7ffb82af0d8b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6353eb23365c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Mnemonic Wall",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6514572007dc",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Murmuring Mystic",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Murmuring Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d40afd547460",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Muse Seeker",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Muse Seeker",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:abb3deb3b091",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Mysidian Elder",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Mysidian Elder",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7640ea0af3fa",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Naban, Dean of Iteration",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Naban, Dean of Iteration",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:89b6c8bafde3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Naktamun Lorespinner // Wheel of Fortune",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Naktamun Lorespinner // Wheel of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c140394477fb",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4e65bd3bbd08",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Nekusar, the Mindrazer",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Nekusar, the Mindrazer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5571c3f8a90d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Parun",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Niv-Mizzet, Parun",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:edb25a47407a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, the Firemind",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Niv-Mizzet, the Firemind",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:61145d7a80d1",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Niv-Mizzet, Visionary",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Niv-Mizzet, Visionary",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:428bef3bf135",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Notorious Throng",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Notorious Throng",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:97eb3f7e1609",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Obeka, Brute Chronologist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Obeka, Brute Chronologist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7cf3e4342476",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ophiomancer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ophiomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:99ecc49cda1f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9bfafdd9b36c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Owlin Spiralmancer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Owlin Spiralmancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9ad1c9b49f42",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Paradox Shaper // Omit Variables",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Paradox Shaper // Omit Variables",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:79e29d8ad3c9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Party Thrasher",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Party Thrasher",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1d19d3706a62",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:97b53e9ebcd3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Patron Wizard",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Patron Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:dbf1d5afdc57",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Pensive Professor",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Pensive Professor",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b400d4fc458e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Altar",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Phyrexian Altar",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:19e4345cd65e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Pia, Determined Rebuilder",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Pia, Determined Rebuilder",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8cf95cc01823",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Pinnacle Monk // Mystic Peak",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Pinnacle Monk // Mystic Peak",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:47d88ce95451",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Piper of the Swarm",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Piper of the Swarm",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8b13a6510f0e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Pitiless Plunderer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Pitiless Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:217e55a1ecd0",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:3685e1a75baf",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Platinum Emperion",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:02e424c287b8",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Pollywog Prodigy",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Pollywog Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ca1c0fb05a89",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Portal Mage",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Portal Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1fedafb0fcd9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Possessed Skaab",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Possessed Skaab",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:20f3aad23155",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Necropotence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Power Artifact",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f7f008a9a6f1",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Prison Break",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Prison Break",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f333defb65c2",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Professional Face-Breaker",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Professional Face-Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f6ed384abc22",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Prosperous Thief",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Prosperous Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:531d627fe121",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Psychosis Crawler",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Psychosis Crawler",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:f96f394dd881",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Puppet Master, String Puller",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Puppet Master, String Puller",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9bf6193a181a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Puppeteer Clique",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Puppeteer Clique",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5ae70d9a5be9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Queen Brahne",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Queen Brahne",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ebe592d825e6",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ral, Monsoon Mage // Ral, Leyline Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5962f66c8648",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Red Ghost, Intangible Genius",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Red Ghost, Intangible Genius",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7077cd4f4331",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Redoubled Stormsinger",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Redoubled Stormsinger",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5a6a3e7f8c0a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Finale of Promise",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:fedd5204ee0c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Return Upon the Tide",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Return Upon the Tide",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:51175b79ca8b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Rev, Tithe Extractor",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Rev, Tithe Extractor",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:92f69cc16ca8",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Revolutionist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Revolutionist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:367c5dde8e29",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c1d50f6fe978",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Rise Again",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Rise Again",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a32af16883a1",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c440ed3e7c30",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Ruric Thar, Biomagus",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Ruric Thar, Biomagus",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:bc3abff4f3f9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sage of Fables",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sage of Fables",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6ecb115ed616",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c2cea114f210",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sai, Master Thopterist",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sai, Master Thopterist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d237057f68f3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sakashima of a Thousand Faces",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sakashima of a Thousand Faces",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:0b7d1ab9d11a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sakashima the Impostor",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sakashima the Impostor",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:38ff8750e539",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sakashima's Student",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sakashima's Student",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:e4e0d9e6d64a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Salvager of Secrets",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Salvager of Secrets",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:22abfd613d48",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Samut, Tyrant of Naktamun",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Samut, Tyrant of Naktamun",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:95fc44f44d35",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sarkhan, Soul Aflame",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sarkhan, Soul Aflame",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:df9128a852d8",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Saruman, the White Hand",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Saruman, the White Hand",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d95842590127",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Satoru, the Infiltrator",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Satoru, the Infiltrator",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7371d697b579",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Scientist Supreme of A.I.M.",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Scientist Supreme of A.I.M.",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:18a68037d1ac",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Scrivener",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Scrivener",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:dca41bc9982d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sea Gate Oracle",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sea Gate Oracle",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6048e5f0e9e5",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Seasoned Cryomancer",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Seasoned Cryomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c9b180ea10fa",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sedgemoor Witch",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sedgemoor Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:98bac7c8b8af",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sengir Autocrat",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sengir Autocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:2b9a656bf9bd",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Serum Visionary",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Serum Visionary",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d889374b8e21",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Shadowmage Infiltrator",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Shadowmage Infiltrator",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ed6d05ef6db0",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Shaun, Father of Synths",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Shaun, Father of Synths",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d657bcb485df",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Shipwreck Dowser",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a0ad0b959136",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Shuri, Wakandan Inventor",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Shuri, Wakandan Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:832d7d945329",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Siren Stormtamer",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Siren Stormtamer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:0f3c9dfd877e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Snapcaster Mage",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Snapcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8b6711cd2329",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Soratami Rainshaper",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Soratami Rainshaper",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:1152cfd71b7b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Sower of Temptation",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Sower of Temptation",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:9042e134a6e0",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Spellbook Seeker // Careful Study",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Spellbook Seeker // Careful Study",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:193f9a329be3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Spellstutter Sprite",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Spellstutter Sprite",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:bc0d8a47c907",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Stark Industries Executive",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Stark Industries Executive",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:fe44d05db7aa",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Starving Revenant",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Starving Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:0f6057ef150d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Stingcaster Mage",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Stingcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:0d083ce6faf7",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Stitch Together",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Stitch Together",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:955d7c69fd24",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Stitcher's Supplier",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:eaabc045d0e0",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Stonybrook Banneret",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Stonybrook Banneret",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c78080b3a624",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Storm-Kiln Artist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Storm-Kiln Artist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:07699f583b3b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Stormcatch Mentor",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Stormcatch Mentor",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5de314f8bdae",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Talrand, Sky Summoner",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Talrand, Sky Summoner",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b5ce1ff6f920",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Taskmaster, Mercenary Mimic",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Taskmaster, Mercenary Mimic",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a728c9387186",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Temporal Manipulation",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Temporal Manipulation",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:b25813b8eeb9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Tester of the Tangential",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Tester of the Tangential",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ed0da383991e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Textbook Tabulator",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Textbook Tabulator",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:e9a0986a6fe7",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=The Enigma Jewel // Locus of Enlightenment",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4d91c5519014",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "The Ruinous Wrecking Crew",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=The Ruinous Wrecking Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:22ab7a216c54",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Theorix Metamage // Omit Variables",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Theorix Metamage // Omit Variables",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ee91ee234162",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Third Path Iconoclast",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Third Path Iconoclast",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7a1444f62d3f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Thousand-Faced Shadow",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Thousand-Faced Shadow",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:5ccef5e60161",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Tibor and Lumia",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Tibor and Lumia",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:60f452eee763",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a232ce6ebd55",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Time Stretch",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Time Stretch",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ac94ade27263",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Time Warp",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Time Warp",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a71870b17cca",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8049a9f78c14",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Tishana's Tidebinder",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Tishana's Tidebinder",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a9ac05f3a17d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Tomik, Izzet Sparkmage",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Tomik, Izzet Sparkmage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:e8b704b9d404",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Tormod, the Desecrator",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Tormod, the Desecrator",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:cd953bea914d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Torrent of Souls",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Torrent of Souls",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:70560806b91c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Tribute Mage",
+    "cut": "Hoarding Broodlord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Tribute Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c518952f1985",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Trinket Mage",
+    "cut": "Hoarding Broodlord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Trinket Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:6e339b02b1a3",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Triskaidekaphile",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Triskaidekaphile",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7867508c58fd",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Trophy Mage",
+    "cut": "Hoarding Broodlord",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Trophy Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:64aa863aa89a",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Twenty-Toed Toad",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Twenty-Toed Toad",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d014ee46461e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Unbreakable Bond",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Unbreakable Bond",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:7eefd3ec862d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Undead Augur",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Undead Augur",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:8aac9fe6d52d",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Urza, Lord High Artificer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Urza, Lord High Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a2accae39f5c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Valley Floodcaller",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Valley Floodcaller",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:58b7e57fea37",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Vampire Charmseeker",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Vampire Charmseeker",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:79608ff70731",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Variable Chaser // Arc of Fortune",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Variable Chaser // Arc of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:42877d898937",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Vedalken Archmage",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Vedalken Archmage",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d18c99a44870",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Vela the Night-Clad",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Vela the Night-Clad",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:3af6b2cb5579",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Venser, Fervent Forger",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Venser, Fervent Forger",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c0373211b189",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Venser, Shaper Savant",
+    "cut": "Red Elemental Blast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Venser, Shaper Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:ffda70b1a7b2",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Veyran, Voice of Duality",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Veyran, Voice of Duality",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:3e0635e9d074",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Victimize",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Victimize",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:851ae3c6e94b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Vindictive Lich",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Vindictive Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d211a40241af",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Viscera Seer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Viscera Seer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:593792684a8c",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Vivi Ornitier",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Vivi Ornitier",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:655b12b5f13f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Vodalian Illusionist",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Vodalian Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:c941cd2508fa",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Vohar, Vodalian Desecrator",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Vohar, Vodalian Desecrator",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:86d1d5618dbb",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Walk the Aeons",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Walk the Aeons",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:015d8c19954e",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Wanderwine Prophets",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Wanderwine Prophets",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:dfc0996dbc6f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Warden of Evos Isle",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Warden of Evos Isle",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:e834c6400419",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Warren Soultrader",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Warren Soultrader",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:190ccb7d0d3f",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Watcher for Tomorrow",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Watcher for Tomorrow",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:43e3289bf0a9",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Whirler Rogue",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Whirler Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:d5cab4d9a83b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Young Pyromancer",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Young Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:35c2c0cab7e2",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Zealous Lorecaster",
+    "cut": "Blood Pet",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Zealous Lorecaster",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:a39f15e41a0b",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   },
+   {
+    "add": "Zombify",
+    "cut": "Essence Flux",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#card=Zombify",
+     "m5_swap:data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz#id=swap:inalla-archmage-ritualist:m5:4ffddac2d215",
+     "blueprint:data/grixis/blueprints/inalla-archmage-ritualist.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

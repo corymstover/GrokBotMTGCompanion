@@ -1,0 +1,192 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:a35ec2f87090c24eaf6e9c81378cf16b32d286b697b200c1a0483ca23134c4af",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "The_Madcap_Jester",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz"
+  ],
+  "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:the-madcap-jester:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:7b143ecd2863",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:cdeb05ba180536e2"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:98abc01acc8b",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:e2ad0c8fa7bc5011"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:e30690351828",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:3abe1649de1dfad9"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:086c307b375f",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:095585a79d51147c"
+    ]
+   },
+   {
+    "add": "Crumbling Sanctuary",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:f0d17b3f90f4",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:7c9e184aa37cab5c"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:156a3a532690",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:94eaed40c9850126"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:26bb6ea9a9a4",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:bc3f542d6cdf1a88"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:04fbbbe4a67f",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:31732f7a4a7220ba"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:549aebbdd64e",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:7d663e1449c58112"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:a3d5f1faeaca",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:6648c4333b779184"
+    ]
+   },
+   {
+    "add": "Interdimensional Web Watch",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:36921adf502d",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:c2c3f0066c09cf33"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:be0560dd6358",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:0549c3f2e14d339b"
+    ]
+   },
+   {
+    "add": "Memory Vessel",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:4cf99342b788",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:63339cd1536d16d5"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:e126a4fcd20b",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:7cdcda818e03217c"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:78880cb51d0c",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:e5a66a2f6b33ae63"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:806338fd8648",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:fe65f77a6af974a4"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Lotus Petal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:cd00350f0307",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:3bec87504f26b56c"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:1a777e3c1b2c",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:1bedbb4e29811b63"
+    ]
+   },
+   {
+    "add": "Thran Dynamo",
+    "cut": "Rite of Flame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=swap:the-madcap-jester:m5:4f1dc319b510",
+     "m5_test:data/grixis/birthday_m5/regen/the-madcap-jester.json.gz#id=test:the-madcap-jester:goldfish:7ad6055a247f7919"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

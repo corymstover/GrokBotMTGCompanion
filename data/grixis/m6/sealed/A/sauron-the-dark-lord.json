@@ -1,0 +1,269 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:48a0542ec932b89076173f570769abc765a221f19fa5fbadeae45a5746d9aa12",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Sauron__the_Dark_Lord",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz"
+  ],
+  "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:sauron-the-dark-lord:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:4ca4772df63c",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:97054655d00c",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Call of the Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:2faf26486697",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:1a9a2a396919",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "Call of the Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Lich's Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:a739f84bee77",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Lich's Mastery",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Lich's Mastery",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:51fc1442725d",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Lord of the Nazgûl",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Lord of the Nazgûl",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:f5a41c101a06",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Call of the Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Marina Vendrell's Grimoire",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:8608a444c167",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Marina Vendrell's Grimoire",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Marina Vendrell's Grimoire",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:93cd3e9e01b4",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:ae6d4a79a1d1",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Nefarious Lich",
+    "cut": "Call of the Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Nefarious Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:fdea3f69f506",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Nefarious Lich",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Nefarious Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:b76873b40778",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Call of the Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:466b828d7447",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:4c594ca9f07d",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Sauron's Ransom",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:9eae74933221",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Call of the Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:9f3c48f6a7cc",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:0fdce831238b",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Call of the Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:c2e8ba7b7ed6",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:852bde639df0",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:99c9c90172f1",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:d86c48a231fa",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Underworld Breach",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Underworld Breach",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:3a61361704cc",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Underworld Breach",
+    "cut": "Widespread Brutality",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Underworld Breach",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:556b4ef78f35",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Witch-king, Bringer of Ruin",
+    "cut": "Witch-king of Angmar",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Witch-king, Bringer of Ruin",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:e7350b9e48ce",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   },
+   {
+    "add": "Worldgorger Dragon",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#card=Worldgorger Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/sauron-the-dark-lord.json.gz#id=swap:sauron-the-dark-lord:m5:93f02c8ddd44",
+     "blueprint:data/grixis/blueprints/sauron-the-dark-lord.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

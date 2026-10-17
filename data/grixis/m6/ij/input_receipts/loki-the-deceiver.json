@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Loki__the_Deceiver",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1260890,
+   "path": "data/grixis/birthday_m5/candidates/loki-the-deceiver.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:ec706d46849ae79ad172976e19763266a1979361e32db6778aff5f23b098f21d"
+  },
+  {
+   "bytes": 1332747,
+   "path": "data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:392833ce19cbad5dbdda3ed21eb841ba338799dd1eb573d24ceb5038e8dfecd7"
+  },
+  {
+   "bytes": 44596,
+   "path": "data/grixis/birthday_m5/evidence/loki-the-deceiver.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:defc2817b9a7d307d12e5128d762195ce09d03a9ff009cbe8c01349d8f4e364b"
+  },
+  {
+   "bytes": 185186,
+   "path": "data/grixis/m6/optimizer/loki-the-deceiver.json",
+   "role": "optimizer",
+   "sha256": "sha256:491e5ddae1e211a26611bd8ad3f9a517945f7ca0b655608bf08bc810987e1ae4"
+  },
+  {
+   "bytes": 1447075,
+   "path": "data/grixis/m6/review_packets/loki-the-deceiver.json",
+   "role": "review_packet",
+   "sha256": "sha256:23dc9ce5fd248c5073994b7890cd041902c1d4249d46dd6550d12971e7b08205"
+  }
+ ],
+ "list_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "loki-the-deceiver",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

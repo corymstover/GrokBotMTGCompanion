@@ -1,0 +1,144 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:72b5ea93aa99c7a62ea2f66780425fef92f3a918de36f5c65936c4ca63fceadf",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "RogSi",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz"
+  ],
+  "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:rograkh-son-of-rohgahh-silas-renn:performance:v1",
+  "recommendations": [
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e7114d84c4",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:821e7743798e6b95"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Vexing Bauble",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:44ffcd0417aa",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:81fdeac5ee6f2a54"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:2c433fab434a",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:41cf4e6292efb80d"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:84d56b21de69",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:f0391f916f70ea24"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:e8041498872e",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:d6c1587a5f9aa03a"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:bc27e6463f98",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:745122d80e96e215"
+    ]
+   },
+   {
+    "add": "Prismari, the Inspiration",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:57683af729ec",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:062d0e57f7164d16"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:a98b57785b03",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:c337cc979b86a23e"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:af93d55cb4c6",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:13620b5cb0ae34aa"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:6fa337d80eb6356a"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Into the Flood Maw",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:8b466305dfd4",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:cd48089e366eee76"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Thassa's Oracle",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:04a87b6a7317",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:8603a0b4fd59e2af"
+    ]
+   },
+   {
+    "add": "Wheel of Misfortune",
+    "cut": "Vexing Bauble",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=swap:rograkh-son-of-rohgahh-silas-renn:m5:687b5159bab7",
+     "m5_test:data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz#id=test:rograkh-son-of-rohgahh-silas-renn:goldfish:0c68d03b7b06e4bf"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

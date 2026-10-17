@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1229424,
+   "path": "data/grixis/birthday_m5/candidates/bjorna-nightfall-alchemist-cecily.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:9cf57b90a9c4418ff1b4011c3c6ec134e9505851a9d3ae678ced1841fc419bd4"
+  },
+  {
+   "bytes": 1297629,
+   "path": "data/grixis/birthday_m5/regen/bjorna-nightfall-alchemist-cecily.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:695c40cc1d90e69fb33591e6918cbdf3d028dd304ab262a9d3cd03ce325418db"
+  },
+  {
+   "bytes": 57434,
+   "path": "data/grixis/birthday_m5/evidence/bjorna-nightfall-alchemist-cecily.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:6e70aa53578be853b8f280ebb8775d360a1453bb2181059a13e224e37916c9a1"
+  },
+  {
+   "bytes": 46268,
+   "path": "data/grixis/m6/optimizer/bjorna-nightfall-alchemist-cecily.json",
+   "role": "optimizer",
+   "sha256": "sha256:a406f0fb1619ac874c0c943cf7a43e0fcf9d04144d1bf0ddd6c4e86b5c755e70"
+  },
+  {
+   "bytes": 343352,
+   "path": "data/grixis/m6/review_packets/bjorna-nightfall-alchemist-cecily.json",
+   "role": "review_packet",
+   "sha256": "sha256:db11f1d54d65a8f8deb33074d2a2cc04d444010d4d8a4fe1f754d94542d5e435"
+  }
+ ],
+ "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

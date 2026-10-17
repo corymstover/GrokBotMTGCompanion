@@ -1,0 +1,136 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:f8cee8712ce333109065a6e439b7f995d87eaf98f291f3af70074eaa2579bee1",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Edea__Possessed_Sorceress",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz"
+  ],
+  "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:edea-possessed-sorceress:performance:v1",
+  "recommendations": [
+   {
+    "add": "Dimir Signet",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:458b5d6939db",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:8990a02951f57099"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:8bea507e8363",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:68f330c8a16d3af0"
+    ]
+   },
+   {
+    "add": "Loki's Scepter",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:e368b27e8c84",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:5c1e84378c416a2d"
+    ]
+   },
+   {
+    "add": "Nasty End",
+    "cut": "Skullclamp",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:4c2a5a2f1c00",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:9baf00a07c27839a"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:4c96b310f47e",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:8b86b3d8569cdc9c"
+    ]
+   },
+   {
+    "add": "Raptor Hatchling",
+    "cut": "Grim Haruspex",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:5cd74a4f8a64",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:b67713c9b2c4fcf7"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:8d5eb69ab9c1",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:75e3c142194bb8cd"
+    ]
+   },
+   {
+    "add": "The Soul Stone",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:216bd5076c42",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:845c78f957eec333"
+    ]
+   },
+   {
+    "add": "Thought Vessel",
+    "cut": "Illuminor Szeras",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:f37a5d51e914",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:240411c865c3432e"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Deadly Rollick",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:5f2787335006",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:29e070cad7ca877e"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Mayhem Devil",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:bbb754e36f5e",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:8d7f8cbf7e76d1ee"
+    ]
+   },
+   {
+    "add": "Unstoppable Plan",
+    "cut": "Grave Pact",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=swap:edea-possessed-sorceress:m5:8a58f9be6ffc",
+     "m5_test:data/grixis/birthday_m5/regen/edea-possessed-sorceress.json.gz#id=test:edea-possessed-sorceress:goldfish:b77f28df7a976ca6"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

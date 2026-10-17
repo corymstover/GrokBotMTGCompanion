@@ -1,0 +1,240 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:a493de97dc464c4af3bb70f1457f46d8fdac5d0a561ac8a87d83dc562e456d13",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Obeka__Brute_Chronologist",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz"
+  ],
+  "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:obeka-brute-chronologist:performance:v1",
+  "recommendations": [
+   {
+    "add": "Akki Battle Squad",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:5712e367a7b8",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:c5be6e7a86fa4ece"
+    ]
+   },
+   {
+    "add": "Archipelagore",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:13de2c0f6ca4",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:b5870c5bd329814a"
+    ]
+   },
+   {
+    "add": "Auton Soldier",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:ae291e46ba36",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:682dd4bc9588f1a2"
+    ]
+   },
+   {
+    "add": "Bloodthirster",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:60727f90786c",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:fd32e1ff8bf3808c"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:a3b205bbf59e",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:4f90e4158e18bc4f"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:b397c40a3efc",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:0884cae6309bbb86"
+    ]
+   },
+   {
+    "add": "Chittering Harvester",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:db05c6001316",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:0183d64b39e67465"
+    ]
+   },
+   {
+    "add": "Coercive Recruiter",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:bd431ed3950a",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:855a794bf38ae185"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:9ea8a1bd8830",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:2d3e078f7ebee219"
+    ]
+   },
+   {
+    "add": "Flame of Anor",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:57ed93e20ce3",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:fb995103a0fcf658"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Gamble",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:77d3c260fd16",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:6041ef445f5c5ed6"
+    ]
+   },
+   {
+    "add": "Great Whale",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:c97ba01352a7",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:9d1c33bb019bf273"
+    ]
+   },
+   {
+    "add": "Lightning Runner",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:d95d356b616c",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:a2c752eaf9a0720c"
+    ]
+   },
+   {
+    "add": "Lotus Field",
+    "cut": "Arid Mesa",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:168b4169bd24",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:1187a520ca4cf0c9"
+    ]
+   },
+   {
+    "add": "Mindleecher",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:8f5385917022",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:057a656b013d05c9"
+    ]
+   },
+   {
+    "add": "Mulldrifter",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:f4f6ff2853f4",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:efc7d12555ad2521"
+    ]
+   },
+   {
+    "add": "Palinchron",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:52a6407cdc67",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:6e64f2030f32ebed"
+    ]
+   },
+   {
+    "add": "Peregrine Drake",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:3cdf3844b8fb",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:6122c2cab7c586cb"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:af9e06e20112",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:08e674c5aeb1a67f"
+    ]
+   },
+   {
+    "add": "Port Razer",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:9a88723c29b4",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:a83ab3a9471dd696"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:16b44a9618c8",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:82a7be97476a77e1"
+    ]
+   },
+   {
+    "add": "Scourge of the Throne",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:5bfec0c3096a",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:83a8ac606759b5f2"
+    ]
+   },
+   {
+    "add": "Terror of the Peaks",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:7c3c52f2c01b",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:7605d1e9de40a378"
+    ]
+   },
+   {
+    "add": "Tidewater Minion",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:a6f8916bf10b",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:587c108cc64092da"
+    ]
+   },
+   {
+    "add": "Zealous Conscripts",
+    "cut": "Dualcaster Mage",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=swap:obeka-brute-chronologist:m5:109bdcf72312",
+     "m5_test:data/grixis/birthday_m5/regen/obeka-brute-chronologist.json.gz#id=test:obeka-brute-chronologist:goldfish:df32395850f860d8"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Ashnod_the_Uncaring",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1398269,
+   "path": "data/grixis/birthday_m5/candidates/ashnod-the-uncaring.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:36f3ea54719c57ac47616841ccb5f63bf0307610d0958f6a4eaed335ca01e632"
+  },
+  {
+   "bytes": 1523558,
+   "path": "data/grixis/birthday_m5/regen/ashnod-the-uncaring.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:a487396ffa9421d2fc0cce5551e6a60db3d7552be0ea85b681e58fd88f4b4096"
+  },
+  {
+   "bytes": 48259,
+   "path": "data/grixis/birthday_m5/evidence/ashnod-the-uncaring.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:10cc95b7f0f30bd3bf87fb7d467965ed3334d43836aed5503d69c1dacab7de48"
+  },
+  {
+   "bytes": 235804,
+   "path": "data/grixis/m6/optimizer/ashnod-the-uncaring.json",
+   "role": "optimizer",
+   "sha256": "sha256:62c0799d81a2d9fcc9f5a5ee757d7d01069030612318f5982d8a209343ca71d5"
+  },
+  {
+   "bytes": 1782035,
+   "path": "data/grixis/m6/review_packets/ashnod-the-uncaring.json",
+   "role": "review_packet",
+   "sha256": "sha256:4a42805b23934a314baa0267b7814f9b3e8f8a6bf3b91145e2ec75e1ee220ded"
+  }
+ ],
+ "list_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "ashnod-the-uncaring",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

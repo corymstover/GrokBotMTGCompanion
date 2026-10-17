@@ -1,0 +1,728 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:9f942959249cacf62529663b02a4801a1344e0edd3e4353db4cde5f17e931340",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "The_Rani",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/the-rani.json.gz"
+  ],
+  "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:the-rani:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:b5c7cc4b5378",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:03ee09d31d76",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Basalt Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:fd1cdb42c594",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Basalt Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:d043721eed33",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Blazing Firesinger // Seething Song",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:3f2c93ea48c0",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Blazing Firesinger // Seething Song",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:db35dd95bbf5",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Burakos, Party Leader",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Burakos, Party Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:30f0249d077d",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Burakos, Party Leader",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Burakos, Party Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:1ae66a7955ef",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:1da77f41fe30",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Cavern-Hoard Dragon",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Cavern-Hoard Dragon",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:97f59e8c4df2",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:adf772788dd0",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:8c688543ef45",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:a4ffe5c245fa",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:3b5965cb68bc",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Chancellor of the Spires",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Chancellor of the Spires",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:22b66edd87d9",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Chancellor of the Spires",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Chancellor of the Spires",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:481f71d1f039",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:299b732b3bb1",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:8531de9c8d1d",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Cybermen Squadron",
+    "cut": "Incriminating Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Cybermen Squadron",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:1973525178fd",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Cybermen Squadron",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Cybermen Squadron",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:a9441fdd5976",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Drafna, Founder of Lat-Nam",
+    "cut": "Curse of Opulence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Drafna, Founder of Lat-Nam",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:225ed1a7c9c4",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Drafna, Founder of Lat-Nam",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Drafna, Founder of Lat-Nam",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:8a831cd906c6",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Edward Kenway",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Edward Kenway",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:02d8c25351e7",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Edward Kenway",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Edward Kenway",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:67feb6cd09c4",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Exsanguinator Cavalry",
+    "cut": "Incriminating Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Exsanguinator Cavalry",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:adcb5dc8b2d0",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Exsanguinator Cavalry",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Exsanguinator Cavalry",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:447337e08eb7",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:42ea7385895b",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:f2e3ffe4de15",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Farmstead Gleaner",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Farmstead Gleaner",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:6616987f59c9",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Farmstead Gleaner",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Farmstead Gleaner",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:83e913e8a613",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Filigree Sages",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Filigree Sages",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:6d186e630e0e",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Filigree Sages",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Filigree Sages",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:788409de6b76",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Goblin Glasswright // Craft with Pride",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Goblin Glasswright // Craft with Pride",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:af33e288f324",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Goblin Glasswright // Craft with Pride",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Goblin Glasswright // Craft with Pride",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:7299ba93c7d8",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Grim Hireling",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Grim Hireling",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:39dbcfd5bb1d",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Grim Hireling",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Grim Hireling",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:e7eaac3c1df7",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Guild Artisan",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Guild Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:c43d7e7b7a13",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Guild Artisan",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Guild Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:4fca63c1ceb4",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:79dc022ac0cd",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Hoard Hauler",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Hoard Hauler",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:66b3814d4bc5",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:52c102072d5e",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:21db33a4f490",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Inquisitor Eisenhorn",
+    "cut": "Incriminating Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Inquisitor Eisenhorn",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:6ab30dcce361",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Inquisitor Eisenhorn",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Inquisitor Eisenhorn",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:2722fe897c45",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:c8f5da4cdb87",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Luxurious Locomotive",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Luxurious Locomotive",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:eea2f32e0a0a",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Malcolm, Keen-Eyed Navigator",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Malcolm, Keen-Eyed Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:43e7697b3f83",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Malcolm, Keen-Eyed Navigator",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Malcolm, Keen-Eyed Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:90bd69511240",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Incriminating Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:319557950b20",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Mind Over Matter",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Mind Over Matter",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:d025802f3c59",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Neera, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:e52d4e45a094",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Neera, Wild Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:7eaaf67d598c",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Olivia's Attendants",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Olivia's Attendants",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:e8d70cf395ab",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Olivia's Attendants",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Olivia's Attendants",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:3a07d05a03b4",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Pili-Pala",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Pili-Pala",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:3acecb1cbdaf",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Pili-Pala",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Pili-Pala",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:13a04382bbfb",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Piper Wright, Publick Reporter",
+    "cut": "Incriminating Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Piper Wright, Publick Reporter",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:91c72128f4f2",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Piper Wright, Publick Reporter",
+    "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Piper Wright, Publick Reporter",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:a9ddd29c93a7",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Incriminating Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:71c43560149f",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:87a4f7220175",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Safana, Calimport Cutthroat",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Safana, Calimport Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:68b90358139e",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Safana, Calimport Cutthroat",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Safana, Calimport Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:95e74d9d62d8",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Sensei's Divining Top",
+    "cut": "Coercive Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Sensei's Divining Top",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:029f2fc1f85d",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Sensei's Divining Top",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Sensei's Divining Top",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:6315bd34771e",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "The Reaver Cleaver",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=The Reaver Cleaver",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:a53723b9254c",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "The Reaver Cleaver",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=The Reaver Cleaver",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:503451cd14b5",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Thopter Assembly",
+    "cut": "Curse of Opulence",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Thopter Assembly",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:b1d0a8f8aef3",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Thopter Assembly",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Thopter Assembly",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:73e7c7e6e6c6",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Fellwar Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:837f81617c78",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Thorin, Company's Leader",
+    "cut": "Shiny Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Thorin, Company's Leader",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:1ff520db4128",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:4494642d83ca",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:6ef4d433eb28",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Bjorna, Nightfall Alchemist",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:1b4e56315a92",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Rakdos Charm",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:2a99dbcb9aa4",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Words of Wind",
+    "cut": "Coercive Impetus",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Words of Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:cd28ef6ec138",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   },
+   {
+    "add": "Words of Wind",
+    "cut": "The One Ring",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/the-rani.json.gz#card=Words of Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/the-rani.json.gz#id=swap:the-rani:m5:6012298af5fe",
+     "blueprint:data/grixis/blueprints/the-rani.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

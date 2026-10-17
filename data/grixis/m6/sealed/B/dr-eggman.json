@@ -1,0 +1,88 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:ff95f11b5fb946849c2f35f89616c927f4e346f9f8894dd3a6fc7a7484c5e890",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Dr__Eggman",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/dr-eggman.json.gz"
+  ],
+  "list_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:dr-eggman:performance:v1",
+  "recommendations": [
+   {
+    "add": "Cultivator's Caravan",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:28c530233a4f",
+     "m5_test:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=test:dr-eggman:goldfish:0cd0de4a02bb4401"
+    ]
+   },
+   {
+    "add": "Deadly Dispute",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d20b71171282",
+     "m5_test:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=test:dr-eggman:goldfish:a382b254d48fa50f"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:b4e875abb9be",
+     "m5_test:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=test:dr-eggman:goldfish:df8a8406049a1d60"
+    ]
+   },
+   {
+    "add": "Pit Automaton",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:ef7a74b6d217",
+     "m5_test:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=test:dr-eggman:goldfish:db87594c175e9dbd"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:d537a3228fa1",
+     "m5_test:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=test:dr-eggman:goldfish:f37ff1bad20cd2b9"
+    ]
+   },
+   {
+    "add": "Thought Vessel",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=swap:dr-eggman:m5:3575af3157f6",
+     "m5_test:data/grixis/birthday_m5/regen/dr-eggman.json.gz#id=test:dr-eggman:goldfish:3d1df23fac21d66c"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

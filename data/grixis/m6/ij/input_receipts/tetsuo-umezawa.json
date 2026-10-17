@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Tetsuo_Umezawa",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1090960,
+   "path": "data/grixis/birthday_m5/candidates/tetsuo-umezawa.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:9d8c3bf5ace018f203aa1db3145d566cad170409af07b49a88243289cbd92c9d"
+  },
+  {
+   "bytes": 1106445,
+   "path": "data/grixis/birthday_m5/regen/tetsuo-umezawa.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:bf129abbcd4c1ac0c9bb37ef948b60cb28850ea65202a4d5c28610c38826b8f4"
+  },
+  {
+   "bytes": 51640,
+   "path": "data/grixis/birthday_m5/evidence/tetsuo-umezawa.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:b396ed8f36aa70c337de5aaf663f19e87d5a2de2d50e6caf106609f7584db39a"
+  },
+  {
+   "bytes": 17727,
+   "path": "data/grixis/m6/optimizer/tetsuo-umezawa.json",
+   "role": "optimizer",
+   "sha256": "sha256:efe3246075a3d62a1ec35096a326ed98614070060f6bd04b05d8e6c132bae036"
+  },
+  {
+   "bytes": 135899,
+   "path": "data/grixis/m6/review_packets/tetsuo-umezawa.json",
+   "role": "review_packet",
+   "sha256": "sha256:ca5719cc94d708dd11a63de07751fec3638a9e6170113751fabcf9290fb2bdeb"
+  }
+ ],
+ "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "tetsuo-umezawa",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

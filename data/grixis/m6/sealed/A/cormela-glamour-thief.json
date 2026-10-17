@@ -1,0 +1,1322 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:6cfb95ac3b7755c8a07853cbe7523d314398d7dbf4e84074269ad7daaed2de9c",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Cormela__Glamour_Thief",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz"
+  ],
+  "list_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:cormela-glamour-thief:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "Abnormal Endurance",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Abnormal Endurance",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b63eff09ef3a",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Afterlife from the Loam",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Afterlife from the Loam",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:166c5c582f81",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Altar of Dementia",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Altar of Dementia",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a7c68399ac47",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Ambassador Laquatus",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Ambassador Laquatus",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:c80e5088c870",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Archaeomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b170df1f8164",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Ardent Elementalist",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Ardent Elementalist",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0af121881000",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Baral's Expertise",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Baral's Expertise",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:17d9f8e0cff2",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Behold the Sinister Six!",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Behold the Sinister Six!",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:03f04a50b74c",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Black Sun's Twilight",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Black Sun's Twilight",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f500d2137606",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Bladewing the Risen",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Bladewing the Risen",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d903684c26f9",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Blasting Station",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Blasting Station",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:dd736d8a6aa3",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Bloodflow Connoisseur",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Bloodflow Connoisseur",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d4f4d17e4aa4",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Bloodthrone Vampire",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Bloodthrone Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5447e87b4d57",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Blue Sun's Twilight",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Blue Sun's Twilight",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:e26a6b9b303c",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Blur",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Blur",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:cc531d43757d",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Bond of Revival",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Bond of Revival",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9d8f93e59656",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Breach the Multiverse",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Breach the Multiverse",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:41cbe4ef5c78",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Breaking // Entering",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Breaking // Entering",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:3e019ad298b6",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Burning Inquiry",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Burning Inquiry",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:36b1725a56e4",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Cackling Counterpart",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Cackling Counterpart",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a20e0cf4b49e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Capture of Jingzhou",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Capture of Jingzhou",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:7df71134d162",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Carrion Feeder",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Carrion Feeder",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5f6e3a057682",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Cool but Rude",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Cool but Rude",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:bef231cdb477",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Corpse Dance",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Corpse Dance",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:54b4680f3a1d",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Devastating Onslaught",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Devastating Onslaught",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5dd2f7528dc1",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Displace",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Displace",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:bae6525d209b",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Dose of Dawnglow",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Dose of Dawnglow",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a6d570f701f8",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Dread Return",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Dread Return",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:7c414098424b",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Electroduplicate",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Electroduplicate",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:15602c8f6c51",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Ember Island Production",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Ember Island Production",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1b3f9f6c9adc",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Enter the Infinite",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Enter the Infinite",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:312127f1bf95",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Essence Flux",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Essence Flux",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1d7b29d65f9f",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Exhume",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Exhume",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:ea33b0e91878",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Extract from Darkness",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Extract from Darkness",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:bfa5f996bca6",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Fake Your Own Death",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Fake Your Own Death",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0566ecd10535",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "False Memories",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=False Memories",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0ed9aea867b7",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Fated Infatuation",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Fated Infatuation",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:3393cb8ef80c",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Fearsome Awakening",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Fearsome Awakening",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:7eaeeb5374cc",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Feign Death",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Feign Death",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:ca7614ca047f",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Footsteps of the Goryo",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Footsteps of the Goryo",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a945160cd052",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Ghostly Flicker",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Ghostly Flicker",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:dc8a53e86ffa",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Glimpse the Unthinkable",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Glimpse the Unthinkable",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:333fc76209d8",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Goblin Bombardment",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Goblin Bombardment",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:178d9106508e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Gravecrawler",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Gravecrawler",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d79f162f6dfc",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Grimgrin, Corpse-Born",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Grimgrin, Corpse-Born",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5e22f70caed3",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Grinding Station",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Grinding Station",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a64d9406067b",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Grinning Ignus",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Grinning Ignus",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:7a15b1e936fc",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Guile",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Guile",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:497c799b89fd",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Hammerhead, Maggia Boss",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Hammerhead, Maggia Boss",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:df8532b8f951",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Heat Shimmer",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Heat Shimmer",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:c255733a13ac",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1da7f513cefe",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Illusionist's Stratagem",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Illusionist's Stratagem",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:83c86c58aacc",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Incarnation Technique",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Incarnation Technique",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:29630e16dcf6",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Irenicus's Vile Duplication",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Irenicus's Vile Duplication",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:80f7458019bd",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Izzet Chronarch",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Izzet Chronarch",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:3bad691d0db2",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Kindle the Inner Flame",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Kindle the Inner Flame",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:c7948d75f22b",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Lich",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Lich",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:805d58a09f46",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Liliana, Untouched by Death",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Liliana, Untouched by Death",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5b91ee4347c4",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Lively Dirge",
+    "cut": "Entomb",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Lively Dirge",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:bb11892d7b87",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Lively Dirge",
+    "cut": "Imperial Seal",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Lively Dirge",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b5b17b5267d1",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Living Death",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Living Death",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:c23de191f881",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Makeshift Mannequin",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Makeshift Mannequin",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:c57c1dcf4cc8",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Mirage Mockery",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Mirage Mockery",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1274ca4addb3",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:853142208b0e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Mizzix of the Izmagnus",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:29377f2ab7d4",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Mnemonic Wall",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f4d81b29c6fe",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Multiversal Incursion",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Multiversal Incursion",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1e5e10a4af16",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:7ed9d9f0b526",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Nim Deathmantle",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Nim Deathmantle",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9d13ff91f591",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Not Dead After All",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Not Dead After All",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:67187a633953",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Notorious Throng",
+    "cut": "Gitaxian Probe",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Notorious Throng",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b54415fafe3e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Notorious Throng",
+    "cut": "Tendrils of Agony",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Notorious Throng",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1687220e02af",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Oathkeeper, Takeno's Daisho",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Oathkeeper, Takeno's Daisho",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:3a979db80ea4",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Oathsworn Vampire",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Oathsworn Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0821ebf0071b",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Ozox, the Clattering King",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Ozox, the Clattering King",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:571b1ed50899",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Pain 101",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Pain 101",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:3b51523d045a",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Path of the Pyromancer",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Path of the Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:6c8f490d1781",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Peer into the Abyss",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Peer into the Abyss",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9e90209f9438",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Persist",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Persist",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:686d71c4efc4",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Phantom Train",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Phantom Train",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:5380eaffc90a",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Pinnacle Monk // Mystic Peak",
+    "cut": "An Offer You Can't Refuse",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Pinnacle Monk // Mystic Peak",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:af6ab8b5a96e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Planar Incision",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Planar Incision",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:84cfb4142c17",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Platinum Angel",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Platinum Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b774684739c7",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Platinum Emperion",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Platinum Emperion",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b34f689e971c",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Possessed Skaab",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Possessed Skaab",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f8ea6a9434f2",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Presumed Dead",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Presumed Dead",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:15c499194224",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Prison Break",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Prison Break",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:79333c34355e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Quantum Misalignment",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Quantum Misalignment",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:dd5be393bda6",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Quasiduplicate",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Quasiduplicate",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:4c177c16a58c",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d76bef9f91a0",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Release to the Wind",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Release to the Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:e89d91b7b43c",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Relm's Sketching",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Relm's Sketching",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a03546e00e52",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Replication Technique",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Replication Technique",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:c42dfa02c9d1",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Requiem Monolith",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:016b0f501982",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Return to Action",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Return to Action",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b254b4097bb2",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Return Upon the Tide",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Return Upon the Tide",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0fe925a512eb",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Revolutionist",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Revolutionist",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:456b749c341c",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Rise Again",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Rise Again",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b39155acf0ba",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Rite of Replication",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Rite of Replication",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:acbd338f8967",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Runaway Steam-Kin",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Runaway Steam-Kin",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:12295dac8167",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Saheeli's Artistry",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Saheeli's Artistry",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:2d72ffec034e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Salvager of Secrets",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Salvager of Secrets",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:905949561e11",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Scholar of the Ages",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Scholar of the Ages",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:6371ef310c12",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Scrivener",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Scrivener",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:6ada449d4675",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Self-Reflection",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Self-Reflection",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d7f316ff41ee",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Shipwreck Dowser",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:a9f219b634d3",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Siren's Ruse",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Siren's Ruse",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:ee5f50b265ff",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Skycoach Conductor // All Aboard",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Skycoach Conductor // All Aboard",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:fa381a91fc2f",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Snap",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Snap",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9a6592a62c57",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Spawning Pit",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Spawning Pit",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:dd47c3b64c39",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Spawnsire of Ulamog",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Spawnsire of Ulamog",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:678d0084ffd7",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Splash Portal",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Splash Portal",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:e68e074103ca",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Stir the Grave",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Stir the Grave",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1cf4913cf82b",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Stitch Together",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Stitch Together",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:574f5d077ce6",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Stitcher's Supplier",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Stitcher's Supplier",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:d78c5b206aaa",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Stolen Identity",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Stolen Identity",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1956fa15129e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Sublime Epiphany",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Sublime Epiphany",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:86b06b2dcade",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Supernatural Stamina",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Supernatural Stamina",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:4eb508f2253c",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Temporal Manipulation",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Temporal Manipulation",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:93f05bdd4784",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Thermopod",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:e3e206812b70",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Three Steps Ahead",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Three Steps Ahead",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:11a9bfda9161",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Pyroblast",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:ec5845b0b62a",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Time Stretch",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Time Stretch",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:4941ac83ead2",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Time Warp",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Time Warp",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:ac6cfe27923e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Timestream Navigator",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Timestream Navigator",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:2ec2cdc65bcf",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Twinflame",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Twinflame",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:4c6b4196b6e5",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:61bda60807af",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Unbreakable Bond",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Unbreakable Bond",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:6b50a7f9496e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Undead Sprinter",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Undead Sprinter",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:cd2a902a3b32",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Undying Malice",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Undying Malice",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:07e65dbfa5d9",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Unearth",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Unearth",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:82a093e37db3",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Urabrask // The Great Work",
+    "cut": "Culling the Weak",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Urabrask // The Great Work",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:b5594104a6fc",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Vampire Charmseeker",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Vampire Charmseeker",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:59ea46f07b31",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Victimize",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Victimize",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f411ba6001d5",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Vincent's Limit Break",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Vincent's Limit Break",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:483ccd45334c",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Viscera Seer",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Viscera Seer",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:2c22ae6e6d7e",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Walk the Aeons",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Walk the Aeons",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:2371853a40fb",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Will of the Temur",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Will of the Temur",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9d6629173989",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Woe Strider",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Woe Strider",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:1a92eedb6949",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Yahenni, Undying Partisan",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Yahenni, Undying Partisan",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:0952402a96bd",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Zealous Lorecaster",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Zealous Lorecaster",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:9ea3271c289d",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   },
+   {
+    "add": "Zombify",
+    "cut": "Faithless Looting",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#card=Zombify",
+     "m5_swap:data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz#id=swap:cormela-glamour-thief:m5:f3c24bf5d003",
+     "blueprint:data/grixis/blueprints/cormela-glamour-thief.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}

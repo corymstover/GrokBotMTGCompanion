@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1185060,
+   "path": "data/grixis/birthday_m5/candidates/jeleva-nephalias-scourge.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:d531217ccce5e918eb04ecfa88974fdb524befbc4d090219f4426652eaabaad9"
+  },
+  {
+   "bytes": 1229725,
+   "path": "data/grixis/birthday_m5/regen/jeleva-nephalias-scourge.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:50435343580ce230d9b249052779b848e679ff134bad8876f61f62c21c456cfc"
+  },
+  {
+   "bytes": 48924,
+   "path": "data/grixis/birthday_m5/evidence/jeleva-nephalias-scourge.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:5e30caf105ab73c0c210c82d21151d9a89eb6a5ea4d2eea8176a52ad12311503"
+  },
+  {
+   "bytes": 35931,
+   "path": "data/grixis/m6/optimizer/jeleva-nephalias-scourge.json",
+   "role": "optimizer",
+   "sha256": "sha256:cd614856aabb77df593492a116c6d937ebf018978823d01fc6d919882f55e6d3"
+  },
+  {
+   "bytes": 275691,
+   "path": "data/grixis/m6/review_packets/jeleva-nephalias-scourge.json",
+   "role": "review_packet",
+   "sha256": "sha256:2567a6c591aba3ac83afa07e95a658c9d31be04653d16a667338468890b1d062"
+  }
+ ],
+ "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "jeleva-nephalias-scourge",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

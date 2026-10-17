@@ -1,0 +1,280 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:7ec9073f7b6a5aed75bdba28631d7bc2bdbae5f369940fa283d0d8f4658aa23a",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Kess__Dissident_Mage",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz"
+  ],
+  "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:kess-dissident-mage:performance:v1",
+  "recommendations": [
+   {
+    "add": "Aether Channeler",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:7f80156a4e29",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:ba694e59bd2430c8"
+    ]
+   },
+   {
+    "add": "Arcane Denial",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:0605aedf3ca5",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:cf38041f4f7eac17"
+    ]
+   },
+   {
+    "add": "Archaeomancer",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:ee2d14f6137e",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:6d31d7f6a0f9435f"
+    ]
+   },
+   {
+    "add": "Archmage Emeritus",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:96c5dd1661ca",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:0f980f07be5bdab4"
+    ]
+   },
+   {
+    "add": "Big Score",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:d6108d34127a",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:df43210e8246d735"
+    ]
+   },
+   {
+    "add": "Blazing Firesinger // Seething Song",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:2bed71738c73",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:62deecdde53b1755"
+    ]
+   },
+   {
+    "add": "Cormela, Glamour Thief",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:368be48008e4",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:f34511c3c371c996"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:701e19c0026b",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:1047657d6bcd71f1"
+    ]
+   },
+   {
+    "add": "Dimir Signet",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:00917927fb68",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:8e0518dbb2a608d9"
+    ]
+   },
+   {
+    "add": "Fact or Fiction",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:e3cb6f4d1358",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:7cbb7a35977cf86c"
+    ]
+   },
+   {
+    "add": "Goblin Glasswright // Craft with Pride",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:11430cc7f3d2",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:cca7c511b6613635"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Orcish Bowmasters",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:49904d9f8805",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:e5e084546b32e398"
+    ]
+   },
+   {
+    "add": "Increasing Vengeance",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:f456b9e1e3e2",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:86172abe149744dd"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:e38f2fb41cc6",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:83fcf116f0399f9a"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:da75e016153f",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:84b3b4d840ab1393"
+    ]
+   },
+   {
+    "add": "Mizzix of the Izmagnus",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:6ffbea94dc96",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:766a2a288c9614de"
+    ]
+   },
+   {
+    "add": "Mizzix's Mastery",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:bc608d628106",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:221ea65dbc9b1335"
+    ]
+   },
+   {
+    "add": "Mnemonic Wall",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:01ce54f80e56",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:2121cc8a01578524"
+    ]
+   },
+   {
+    "add": "Neera, Wild Mage",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:66a94402ea1f",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:f812b8013aa545fb"
+    ]
+   },
+   {
+    "add": "Power Artifact",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:d19fd759c5ed",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:91af705e80c1a0d5"
+    ]
+   },
+   {
+    "add": "Prismari Command",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:3f2be5e2470d",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:07d83a3391893440"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:38f4e8f6893b",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:180e3179f52d3ef6"
+    ]
+   },
+   {
+    "add": "Reforge the Soul",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:907592d8772f",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:aee3fdb4639c1c27"
+    ]
+   },
+   {
+    "add": "Requiem Monolith",
+    "cut": "Wheel of Fortune",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:0cf6a0de1178",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:76077a16d73c2e78"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Ragavan, Nimble Pilferer",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:deff5f11e02f",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:22a782c03a9ecd65"
+    ]
+   },
+   {
+    "add": "Shipwreck Dowser",
+    "cut": "Lion's Eye Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:e9e1119a38b9",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:9bd21b4aeddb9250"
+    ]
+   },
+   {
+    "add": "Storm-Kiln Artist",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:540f2bda9e10",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:a092b0fda4cb7db2"
+    ]
+   },
+   {
+    "add": "Tezzeret, Master of the Bridge",
+    "cut": "Underworld Breach",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:a1da685b203b",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:0820c3562c9a5a7f"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Opal",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:469b541a7c0a",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:e51f9f7c912fcc6e"
+    ]
+   },
+   {
+    "add": "Wheel of Misfortune",
+    "cut": "Borne Upon a Wind",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=swap:kess-dissident-mage:m5:d78a8939a691",
+     "m5_test:data/grixis/birthday_m5/regen/kess-dissident-mage.json.gz#id=test:kess-dissident-mage:goldfish:7fe51dae09662bb3"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

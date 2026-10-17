@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1140395,
+   "path": "data/grixis/birthday_m5/candidates/garza-zol-plague-queen.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:cde9237fb9c7ae9759b1eba315787852655d674732cb03256731587d43a945c6"
+  },
+  {
+   "bytes": 1168593,
+   "path": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:7b8386e598603c390441e37364f4d5638295c222a28de36398f6478641efc72c"
+  },
+  {
+   "bytes": 51311,
+   "path": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:40c1f7b78694b93220bc116299999fee34387949b3464e89f7328fdc58672381"
+  },
+  {
+   "bytes": 26436,
+   "path": "data/grixis/m6/optimizer/garza-zol-plague-queen.json",
+   "role": "optimizer",
+   "sha256": "sha256:8db96163110a74080f4478f8f4081585df78256a1d0f00fbe67e3165d8fd518e"
+  },
+  {
+   "bytes": 188652,
+   "path": "data/grixis/m6/review_packets/garza-zol-plague-queen.json",
+   "role": "review_packet",
+   "sha256": "sha256:d25c5d39ba2dc2d570cab3ffcb6b059047495fa1ebe57be376b30ba52fe831a7"
+  }
+ ],
+ "list_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "garza-zol-plague-queen",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

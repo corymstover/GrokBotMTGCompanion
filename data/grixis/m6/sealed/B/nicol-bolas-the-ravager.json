@@ -1,0 +1,112 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:8e20daa340240e699ce7e6e5fbe5b5e6816611e5b8a267e171a7f578c04a2345",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Nicol_Bolas__the_Ravager",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz"
+  ],
+  "list_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:nicol-bolas-the-ravager:performance:v1",
+  "recommendations": [
+   {
+    "add": "Aetheric Amplifier",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:650378a2b9d6f13c"
+    ]
+   },
+   {
+    "add": "Basalt Monolith",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:174e95ec534c",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:8688130bda30b5cd"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:7e30a5d77316",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:5e621d0d8998b9f3"
+    ]
+   },
+   {
+    "add": "Chromatic Lantern",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:96e1d19a96c3",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:c73eaa44f955122e"
+    ]
+   },
+   {
+    "add": "Chromatic Orrery",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:394e029ee348",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:c369258fbdd848d7"
+    ]
+   },
+   {
+    "add": "Commander's Sphere",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:b91f44fb6aa3",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:5a53b2a186a5085f"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:2add0cb73882",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:7bf544823cb3e1ad"
+    ]
+   },
+   {
+    "add": "Visage of Bolas",
+    "cut": "Mox Diamond",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:58e09a3f0687",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:94a6bbfcc566ef19"
+    ]
+   },
+   {
+    "add": "Wheel of Fortune",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=swap:nicol-bolas-the-ravager:m5:2ee8cd73490c",
+     "m5_test:data/grixis/birthday_m5/regen/nicol-bolas-the-ravager.json.gz#id=test:nicol-bolas-the-ravager:goldfish:170c0d7e70c330de"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

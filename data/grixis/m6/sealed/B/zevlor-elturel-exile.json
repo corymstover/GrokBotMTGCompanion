@@ -1,0 +1,104 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:5b39d605996712e28afd26e872b0c884a7697edbc40703353f97b87fd22b2dd7",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Zevlor__Elturel_Exile",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz"
+  ],
+  "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:zevlor-elturel-exile:performance:v1",
+  "recommendations": [
+   {
+    "add": "Dimir Signet",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:e9f7a0438d52",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:e8c57da05c34f34a"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:f31a0528217a",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:597d92ace53c5a4d"
+    ]
+   },
+   {
+    "add": "Izzet Signet",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:aceddf086b97",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:e018c017e0ee5334"
+    ]
+   },
+   {
+    "add": "Mystic Confluence",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:0fb5c4cfecfd",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:680f99d07c7f8afc"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:19bcd93443a9",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:3ed9c43c513acb62"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:8c01bb21be5c",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:d2d61b5ab20828d2"
+    ]
+   },
+   {
+    "add": "Talisman of Creativity",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:8a1e3bf78930",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:30995345b357259c"
+    ]
+   },
+   {
+    "add": "Talisman of Dominance",
+    "cut": "Dark Ritual",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=swap:zevlor-elturel-exile:m5:20d78ee990a0",
+     "m5_test:data/grixis/birthday_m5/regen/zevlor-elturel-exile.json.gz#id=test:zevlor-elturel-exile:goldfish:47f68bdf1b392de9"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

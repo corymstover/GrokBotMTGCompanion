@@ -1,0 +1,272 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:a69497643def5a1a6fbb637f896b940246676d76123e405735580d606877dc45",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Anhelo__the_Painter",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz"
+  ],
+  "list_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:anhelo-the-painter:performance:v1",
+  "recommendations": [
+   {
+    "add": "Alania, Divergent Storm",
+    "cut": "Frantic Search",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:6fe37c261696",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:1bfe35b40f41dc11"
+    ]
+   },
+   {
+    "add": "Baral's Expertise",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:a52b9fa16181",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:1931ad9843656058"
+    ]
+   },
+   {
+    "add": "Bonus Round",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:ae36d9c72e5b",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:dc5d90a473facd43"
+    ]
+   },
+   {
+    "add": "Brainstorm",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:213959607397",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:0054f68a326212b7"
+    ]
+   },
+   {
+    "add": "Breath of Fury",
+    "cut": "Twinflame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:434a120c4cf2",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:f806e6007c33618a"
+    ]
+   },
+   {
+    "add": "Charmbreaker Devils",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:63d97781d9d9",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:9632cc9501650bd1"
+    ]
+   },
+   {
+    "add": "Darkwater Catacombs",
+    "cut": "Urborg, Tomb of Yawgmoth",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:6a30dc300eec",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:cfbaf93d6f404cec"
+    ]
+   },
+   {
+    "add": "Displace",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:3e6a4842f76d",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:9b8945eef1d454cd"
+    ]
+   },
+   {
+    "add": "Djinn Illuminatus",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:ec58a0782193",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:0494157f29ba35c6"
+    ]
+   },
+   {
+    "add": "Dramatic Reversal",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:9aad234b6422",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:177f8eefa50a1f0b"
+    ]
+   },
+   {
+    "add": "Essence Flux",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:e12fa9f2397a",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:b3265675ca867b93"
+    ]
+   },
+   {
+    "add": "Exalted Flamer of Tzeentch",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:ed18d1f0f4ad",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:0c642fde41ba9c93"
+    ]
+   },
+   {
+    "add": "Fury Storm",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:e1017bfab2a1",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:37582ce4d3c09158"
+    ]
+   },
+   {
+    "add": "Ghostly Flicker",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:0b854e14632f",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:c61fd0ac2a950805"
+    ]
+   },
+   {
+    "add": "Haze of Rage",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:bf730a2b6e8e",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:c97302a9af275711"
+    ]
+   },
+   {
+    "add": "Hidden Strings",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:ba0e902e1592",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:99902d4bdd9c7892"
+    ]
+   },
+   {
+    "add": "Isochron Scepter",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:6e721c02394c",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:81530b07c5f95dac"
+    ]
+   },
+   {
+    "add": "Magar of the Magic Strings",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:f15835331af3",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:50c1604635dc1bf7"
+    ]
+   },
+   {
+    "add": "Panoptic Mirror",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:d712e9365e77",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:8ebf72bf955f3da2"
+    ]
+   },
+   {
+    "add": "Pirate's Pillage",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:0b27d032b9c8",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:3fad87551d774534"
+    ]
+   },
+   {
+    "add": "Pitiless Plunderer",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:1984bbfa4755",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:286d141aeab8af25"
+    ]
+   },
+   {
+    "add": "Prismari, the Inspiration",
+    "cut": "Twinflame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:639d47f1bdfe",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:b3f794eb322eb57e"
+    ]
+   },
+   {
+    "add": "Pyromancer's Goggles",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:92300cfb5a3c",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:cdf918034e1ddf12"
+    ]
+   },
+   {
+    "add": "Resonating Lute",
+    "cut": "Black Market Connections",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:b41b80e7b2fd",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:91e4dd851b9f723f"
+    ]
+   },
+   {
+    "add": "Skycoach Conductor // All Aboard",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:c2555a9fdf19",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:f24e0e03314d5eae"
+    ]
+   },
+   {
+    "add": "Swarm Intelligence",
+    "cut": "Twinflame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:a8abceedf834",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:6a44989160002be2"
+    ]
+   },
+   {
+    "add": "Thousand-Year Storm",
+    "cut": "Twinflame",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:6be61bc67596",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:931a13887a8650d2"
+    ]
+   },
+   {
+    "add": "Unexpected Windfall",
+    "cut": "Mana Geyser",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:b67d7101aaa8",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:1804d8f85f5d73e1"
+    ]
+   },
+   {
+    "add": "View from Above",
+    "cut": "Reiterate",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=swap:anhelo-the-painter:m5:b41c28802877",
+     "m5_test:data/grixis/birthday_m5/regen/anhelo-the-painter.json.gz#id=test:anhelo-the-painter:goldfish:3dc9ddf14d8faa79"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

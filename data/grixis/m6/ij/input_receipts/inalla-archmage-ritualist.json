@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1262164,
+   "path": "data/grixis/birthday_m5/candidates/inalla-archmage-ritualist.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:1be91fd91e0a8e3570362c2509effeabecea95d7c19b49f8b290389a868eb074"
+  },
+  {
+   "bytes": 1333200,
+   "path": "data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:3b8f53cb541083b30d919c79e635e7005ec520a931f7a1766af779a5e1f0537e"
+  },
+  {
+   "bytes": 49640,
+   "path": "data/grixis/birthday_m5/evidence/inalla-archmage-ritualist.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:eccfbc02ab9bca1a1dbfb5b9c13a546fa19219ecab78118d82abe082c9b2cc69"
+  },
+  {
+   "bytes": 194572,
+   "path": "data/grixis/m6/optimizer/inalla-archmage-ritualist.json",
+   "role": "optimizer",
+   "sha256": "sha256:822e56198a51cf7fc880c87889d2402ff9eb344f4b22d6bb23172e14a696479a"
+  },
+  {
+   "bytes": 1291591,
+   "path": "data/grixis/m6/review_packets/inalla-archmage-ritualist.json",
+   "role": "review_packet",
+   "sha256": "sha256:b05f86f7a9b5f44545d353b6b122779418e728b3a3dcabc80c9f666eeb9dc436"
+  }
+ ],
+ "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "inalla-archmage-ritualist",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

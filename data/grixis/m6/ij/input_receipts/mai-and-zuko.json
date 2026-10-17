@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "Mai_and_Zuko",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1257077,
+   "path": "data/grixis/birthday_m5/candidates/mai-and-zuko.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:85287956300ea31f070c1ec5d0ba503f55aa397f5eea60004a1d398c7d19afc0"
+  },
+  {
+   "bytes": 1329601,
+   "path": "data/grixis/birthday_m5/regen/mai-and-zuko.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:ff5de3584b93a6c03184488dbb3a49af9ea9e47455f524436fe8730989ac8977"
+  },
+  {
+   "bytes": 54357,
+   "path": "data/grixis/birthday_m5/evidence/mai-and-zuko.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:d00172cba486ce0042791b3682acebcdacf3cb44ccd802666260a17245275194"
+  },
+  {
+   "bytes": 116097,
+   "path": "data/grixis/m6/optimizer/mai-and-zuko.json",
+   "role": "optimizer",
+   "sha256": "sha256:4fa8f33c9862f9016b1310ca6464486a7491a37eb7860e55ae0d7d3a0a1504e7"
+  },
+  {
+   "bytes": 960304,
+   "path": "data/grixis/m6/review_packets/mai-and-zuko.json",
+   "role": "review_packet",
+   "sha256": "sha256:e23b78ab156949b38686a102e4e02e1430515a2003a34df0b97cd9855069832e"
+  }
+ ],
+ "list_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "mai-and-zuko",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

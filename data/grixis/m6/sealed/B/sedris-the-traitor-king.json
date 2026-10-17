@@ -1,0 +1,80 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:d619b0524b96f7b15c474ea6847fc7d1df1b2f281ef0d3817ccf2f1c4ab0ac32",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Sedris__the_Traitor_King",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz"
+  ],
+  "list_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:sedris-the-traitor-king:performance:v1",
+  "recommendations": [
+   {
+    "add": "Big Score",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:f418a345809e",
+     "m5_test:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=test:sedris-the-traitor-king:goldfish:7a5e7423d65ffaf0"
+    ]
+   },
+   {
+    "add": "Cathartic Reunion",
+    "cut": "Mystic Remora",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:afdce793337a",
+     "m5_test:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=test:sedris-the-traitor-king:goldfish:1ddc3342b1e20177"
+    ]
+   },
+   {
+    "add": "Fellwar Stone",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:1bb6dbde972c",
+     "m5_test:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=test:sedris-the-traitor-king:goldfish:c5217830b7321bd1"
+    ]
+   },
+   {
+    "add": "Relic of Sauron",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:9e06db147487",
+     "m5_test:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=test:sedris-the-traitor-king:goldfish:a47a1136cb3dad23"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Jeska's Will",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=swap:sedris-the-traitor-king:m5:49fac154bb10",
+     "m5_test:data/grixis/birthday_m5/regen/sedris-the-traitor-king.json.gz#id=test:sedris-the-traitor-king:goldfish:96bd199b1c659ae9"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

@@ -1,0 +1,64 @@
+{
+ "accepted_at": "2026-10-17T14:34:41Z",
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "birthday_snapshot": "birthday-20261017-6e5c604e1459",
+ "deck_id": "RogSi",
+ "generator_sha256": "sha256:8ce6b30a9151ef927be35681f9ff10220c012d0c4439358f0f1e72d6d286a812",
+ "inputs": [
+  {
+   "bytes": 1121638,
+   "path": "data/grixis/birthday_m5/candidates/rograkh-son-of-rohgahh-silas-renn.json.gz",
+   "role": "candidate_pool",
+   "sha256": "sha256:87f426ef32aa571bbb0b99668bc8f716399e96d0daade0d6884b17118c0e946b"
+  },
+  {
+   "bytes": 1147030,
+   "path": "data/grixis/birthday_m5/regen/rograkh-son-of-rohgahh-silas-renn.json.gz",
+   "role": "regeneration",
+   "sha256": "sha256:90ebfffde717e843859afc4e106bcaa6211630918e643c3f25b921b51dd68efd"
+  },
+  {
+   "bytes": 30321,
+   "path": "data/grixis/birthday_m5/evidence/rograkh-son-of-rohgahh-silas-renn.json",
+   "role": "birthday_evidence",
+   "sha256": "sha256:a938b0f451726cd51bef1d740798cc925653fc623b7e85f0a74702859f54a4ef"
+  },
+  {
+   "bytes": 31812,
+   "path": "data/grixis/m6/optimizer/rograkh-son-of-rohgahh-silas-renn.json",
+   "role": "optimizer",
+   "sha256": "sha256:91d08ff87b14a905655289ffbcaafc3ca1dffad0d5138f5070bcec634af00fb1"
+  },
+  {
+   "bytes": 209214,
+   "path": "data/grixis/m6/review_packets/rograkh-son-of-rohgahh-silas-renn.json",
+   "role": "review_packet",
+   "sha256": "sha256:aea6a7550b56e5240e97e533bc88c6933ff1aaa2c81656219f7f9d95c0e135f1"
+  }
+ ],
+ "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "reproduction": {
+  "check_command": "python scripts/grixis_m6_ij.py --check",
+  "phase_b_replayed": false,
+  "positive_simulator_verdicts_decisive": false,
+  "scope": "Bytes, SHA-256, acceptance identity, deck hashes, schemas and authority invariants; not gameplay reproduction."
+ },
+ "required_next": [
+  "sealed_independent_A_B_commits",
+  "pass_C_critique",
+  "phase_B_validated_evidence",
+  "judgment_review",
+  "final_receipt_bundle",
+  "tested_pool_local_optimum_certificate"
+ ],
+ "schema_sha256": "sha256:5a2822b40cba1697bb746b99f76bc3b39e1df65d534f1147fd20e15d45a1d49f",
+ "schema_version": 1,
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "source_corpus_commit": "fcd28daff7d3f7b091de04299699645ba7e47aa2",
+ "stage": "M6_IJ_input_receipt",
+ "status": "inputs_attested_downstream_incomplete"
+}

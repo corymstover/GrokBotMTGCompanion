@@ -1,0 +1,80 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:c7812dbe6aeaa0cf704b3daee4ecd6b4561926d5fa6d7ea95268bcd5e07d38cd",
+ "pass": {
+  "blind_to": [
+   "blueprint",
+   "oracle_hooks",
+   "packages",
+   "dependency_graph",
+   "identity_core",
+   "anti_goals",
+   "interaction_review"
+  ],
+  "deck_id": "Mishra__Artificer_Prodigy",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz"
+  ],
+  "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+  "objective_function": {
+   "family": "measured_performance",
+   "formula_sha256": "sha256:a5d429df397ad0b756f47ac83fcdc2772624a0408e64ad432b27c41795f2ba70",
+   "id": "measured_paired_test_improvement_v1",
+   "inputs": [
+    "goldfish",
+    "simulator"
+   ]
+  },
+  "optimizer": "performance",
+  "pass_id": "m6:mishra-artificer-prodigy:performance:v1",
+  "recommendations": [
+   {
+    "add": "Brainstorm",
+    "cut": "Uthros Research Craft",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:c606ab78440e",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:eba57e1370022e88"
+    ]
+   },
+   {
+    "add": "Rakdos Signet",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:1233b16b4417",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:a23aa066b4ed0daf"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Krark-Clan Ironworks",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:7518d48426eb",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:f302999c92da031c"
+    ]
+   },
+   {
+    "add": "The Enigma Jewel // Locus of Enlightenment",
+    "cut": "Mox Amber",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:652838df40b1",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:f3f0b931986b14ac"
+    ]
+   },
+   {
+    "add": "Ugin, the Ineffable",
+    "cut": "Vandalblast",
+    "evidence": [
+     "m5_swap:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=swap:mishra-artificer-prodigy:m5:943618f4a434",
+     "m5_test:data/grixis/birthday_m5/regen/mishra-artificer-prodigy.json.gz#id=test:mishra-artificer-prodigy:goldfish:f5c8c32923a05903"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "B"
+}

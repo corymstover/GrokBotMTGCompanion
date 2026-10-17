@@ -1,0 +1,3518 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "input_projection_sha256": "sha256:aed5865fdb74a774b9860a116a7999c755fe2ea6c79d7e176b67397dc0edcd7c",
+ "pass": {
+  "blind_to": [
+   "simulator",
+   "goldfish",
+   "stress",
+   "edhrec_inclusion",
+   "edhrec_lift",
+   "edhrec_rank",
+   "tournament",
+   "mana_efficiency",
+   "hypergeometric"
+  ],
+  "deck_id": "Loki__the_Deceiver",
+  "informed_by": [
+   "m5:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz"
+  ],
+  "list_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+  "objective_function": {
+   "family": "blueprint_fidelity",
+   "formula_sha256": "sha256:d0e358a075957937e98fd11d4a17c39339a121cb2a92407404dfd66a92aaf8f6",
+   "id": "commander_first_blueprint_fidelity_v1",
+   "inputs": [
+    "blueprint",
+    "oracle_hooks",
+    "packages",
+    "identity_core"
+   ]
+  },
+  "optimizer": "commander_first",
+  "pass_id": "m6:loki-the-deceiver:commander_first:v1",
+  "recommendations": [
+   {
+    "add": "A.I.M. Bot",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=A.I.M. Bot",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:993dc4f1ad32",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "A.I.M. Scientists",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=A.I.M. Scientists",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f89fb34cf909",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "A.I.M. Synthoids",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=A.I.M. Synthoids",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:04f7e91f65f2",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Abomination, World Ravager",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Abomination, World Ravager",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:cc3893bb770c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Adric, Mathematical Genius",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Adric, Mathematical Genius",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5cd506304879",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Adventurous Eater // Have a Bite",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Adventurous Eater // Have a Bite",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d6d1db0a392c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Aerial Doombot",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Aerial Doombot",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:81d24e02aeb4",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Aether Channeler",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Aether Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:cf7a8d67a330",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Agents of HYDRA",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Agents of HYDRA",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d7c59147cdfb",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Alchemax Slayer-Bots",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Alchemax Slayer-Bots",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:214fc41effba",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Alesha, Who Laughs at Fate",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Alesha, Who Laughs at Fate",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:731674ab9673",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Alex Wilder, Runaway",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Alex Wilder, Runaway",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:aefecbc105d3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Alexios, Deimos of Kosmos",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Alexios, Deimos of Kosmos",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:44968ed4b183",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Alicia Masters, Skilled Sculptor",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Alicia Masters, Skilled Sculptor",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d71ab6bb866c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Alpine Guide",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Alpine Guide",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:dbece06fb3bd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ant-Man, Elusive Avenger",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ant-Man, Elusive Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d7daa6434a89",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Arcane Artisan",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Arcane Artisan",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:80546d464441",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Arcane Savant",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Arcane Savant",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7f0c0f49dd6f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Archmage Emeritus",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Archmage Emeritus",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3f9ed5b66b66",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Archpriest of Shadows",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Archpriest of Shadows",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9d13edbe036e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Arco-Flagellant",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Arco-Flagellant",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:964218497b16",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ardyn, the Usurper",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ardyn, the Usurper",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:1e3fe36be80e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ares, God of War",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ares, God of War",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e19b5a84c3cc",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Armed Assailant",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Armed Assailant",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:17793c1a0dc0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Arni, Humble Scribe",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Arni, Humble Scribe",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:140c8e6765fb",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Arnim Zola, Bio-Fanatic",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Arnim Zola, Bio-Fanatic",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e426325cd535",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Artisan of Forms",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Artisan of Forms",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:1ea634915887",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ashnod's Altar",
+    "cut": "Avengers: Under Siege",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ashnod's Altar",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a3d6ecd53e40",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ashnod's Altar",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ashnod's Altar",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0d02d79bbf25",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Asmoranomardicadaistinaculdacar",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Asmoranomardicadaistinaculdacar",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3add93acc4cf",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Astonishing Spider-Man",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Astonishing Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:099c27e5ca6b",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Attuma, Atlantean Warlord",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Attuma, Atlantean Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:860cd159ae8f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Avenger of the Fallen",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Avenger of the Fallen",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:214099fa80bc",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ayara's Oathsworn",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ayara's Oathsworn",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7a34ae4fc0c9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Baneblade Scoundrel // Baneclaw Marauder",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Baneblade Scoundrel // Baneclaw Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b984acf0febc",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Baron Helmut Zemo",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Baron Helmut Zemo",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:1d67e8757e4a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Basim Ibn Ishaq",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Basim Ibn Ishaq",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:90dd848f8f69",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Batroc the Leaper",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Batroc the Leaper",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:44fab94c1e84",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Beetle, Legacy Criminal",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Beetle, Legacy Criminal",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ea0e5cad9ac4",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Bill Potts",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Bill Potts",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9a0da6a0054f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Bitterheart Witch",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Bitterheart Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d2dd2a7f6bff",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Daring Operative",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Black Widow, Daring Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:abad61df3bce",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Deadly Hunter",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Black Widow, Deadly Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:36322f1b8e7e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Black Widow, Super Spy",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Black Widow, Super Spy",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0caff4f8b890",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Blighted Agent",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Blighted Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5962071cbc83",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Blue Marvel, Adam Brashear",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Blue Marvel, Adam Brashear",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5dd72f62dc9f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Bob, Reluctant HYDRA Agent",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Bob, Reluctant HYDRA Agent",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c5cfff47f38d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Bog Glider",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Bog Glider",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6aea139c1b6a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Boomerang, Blade Flinger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Boomerang, Blade Flinger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:803739835a59",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Brine Shaman",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Brine Shaman",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:75f78e121aa6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Bullseye, Death Dealer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Bullseye, Death Dealer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e2b15b7f72e9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Callidus Assassin",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Callidus Assassin",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:fa38777ae8b1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Captain Lannery Storm",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Captain Lannery Storm",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0b9a5cd76107",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Captivating Crew",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Captivating Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0db41470b112",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "The Squadron Sinister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c78d10edce90",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Cephalid Aristocrat",
+    "cut": "Titan of Littjara",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Cephalid Aristocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ad7254a5051d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "The Squadron Sinister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8b0c8a432d87",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Cephalid Illusionist",
+    "cut": "Titan of Littjara",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Cephalid Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:1945db13534f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Chainer, Nightmare Adept",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Chainer, Nightmare Adept",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:76f4abc8cae6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Charming Scoundrel",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Charming Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:00670ab60a20",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Chittering Witch",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Chittering Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:00527a61591f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Citizen V, Helmut Zemo",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Citizen V, Helmut Zemo",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:29bc5a14d609",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Combat Celebrant",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Combat Celebrant",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:95254dd4c772",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Common Crook",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Common Crook",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b3907e3b69bf",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Contract Hero",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Contract Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f12a5f81072e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Council of Reeds",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Council of Reeds",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:1b865bd966c1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Count Nefaria",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Count Nefaria",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d5aad6e18d0a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "The Squadron Sinister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:233ecdbb0a75",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Crackdown Construct",
+    "cut": "Titan of Littjara",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Crackdown Construct",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6af65d88c9fc",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Crackling Spellslinger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Crackling Spellslinger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:cb3fc4494341",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Crafty Cutpurse",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Crafty Cutpurse",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3e3dbf64b838",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Crimson Operative",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Crimson Operative",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a0f47d16deb4",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Cryptcaller Chariot",
+    "cut": "Avengers: Under Siege",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Cryptcaller Chariot",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:4ec3a0c83895",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Cryptcaller Chariot",
+    "cut": "Cover of Darkness",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Cryptcaller Chariot",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e877dace79d8",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Cynical Loner",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Cynical Loner",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:864ad634b02b",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Danny Pink",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Danny Pink",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c5b25249122c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Daredevil, Fearless Fighter",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Daredevil, Fearless Fighter",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:483701ed57dd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Daring Apprentice",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Daring Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:33163b723dd8",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Deceptive Frostkite",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Deceptive Frostkite",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b11ac057461a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Demon's Disciple",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Demon's Disciple",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:fe3905f28d24",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Demon's Herald",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Demon's Herald",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:53d1a433adf6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Disciple of Bolas",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Disciple of Bolas",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a6e9b04a15ce",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Doc Ock, Evil Inventor",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Doc Ock, Evil Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:71c3991763bb",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Doc Ock, Sinister Scientist",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Doc Ock, Sinister Scientist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f10659ce1c55",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Dockside Chef",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Dockside Chef",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:2a570145c4be",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Doctor Doom, Unrivaled",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Doctor Doom, Unrivaled",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:13e090e252ab",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Donal, Herald of Wings",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Donal, Herald of Wings",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:686fe94a70d0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Doom's Servo-Guards",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Doom's Servo-Guards",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:aaf82b1b6824",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Doombot Harbinger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Doombot Harbinger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:38884ccefc2d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Drafna, Founder of Lat-Nam",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Drafna, Founder of Lat-Nam",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:cc9aa74f3dd0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Dragonmaster Outcast",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Dragonmaster Outcast",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ad3828443cfb",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Dualcaster Mage",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Dualcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f2cc5322e83a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Eardrum Rattler",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Eardrum Rattler",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:80788867c59a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Echo Mage",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Echo Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a903e9da46a9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Echo, Perceptive Prodigy",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Echo, Perceptive Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c0ca05219900",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Electro, Assaulting Battery",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Electro, Assaulting Battery",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:1ea41bef6858",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Elektra, Daughter of the Hand",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Elektra, Daughter of the Hand",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:85b2818368ee",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Elite Arcanist",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Elite Arcanist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:261303d4401b",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Conflict // Lightning Bolt",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Emeritus of Conflict // Lightning Bolt",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:acd372374a93",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Emeritus of Ideation // Ancestral Recall",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Emeritus of Ideation // Ancestral Recall",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d771076b8370",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Endrek Sahr, Master Breeder",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Endrek Sahr, Master Breeder",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:72327105755e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Experimental Confectioner",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Experimental Confectioner",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:2239af1ddf0e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Expressive Firedancer",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Expressive Firedancer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:43b391525cc4",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Extremis Elite",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Extremis Elite",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:36224c9c5f3e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Fain, the Broker",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Fain, the Broker",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:645187c64ed3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Falcon, Winged Wonder",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Falcon, Winged Wonder",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:361d5486c560",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Fall of Cair Andros",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Fall of Cair Andros",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:15e48acc3e69",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Feldon of the Third Path",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Feldon of the Third Path",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6f946f9f8953",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Fin Fang Foom",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Fin Fang Foom",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:fc3675e16fb2",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Fire Lord Azula",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Fire Lord Azula",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:12b410e1b08a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Firebending Student",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Firebending Student",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e44b76d8819d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Firebird, Blazing Ranger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Firebird, Blazing Ranger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6b74966141b1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Fixer, Techno Terror",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Fixer, Techno Terror",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e8c05a35903e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Flesh Duplicate",
+    "cut": "Avengers: Under Siege",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Flesh Duplicate",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c7272b2290b5",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Flesh Duplicate",
+    "cut": "Thunderbolts Conspiracy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Flesh Duplicate",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b9d8dbd9c40f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Flying Octobot",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Flying Octobot",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:fb0ad7d82144",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Frontier Warmonger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Frontier Warmonger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6630acbd52c7",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Garna, Bloodfist of Keld",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Garna, Bloodfist of Keld",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a5aa1cfe6ea5",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Generous Plunderer",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Generous Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b1c58ac6e3fe",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ghost, Spectral Saboteur",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ghost, Spectral Saboteur",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a45b5a5c4e73",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ghoulcaller Gisa",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ghoulcaller Gisa",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8b9d92808212",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Gisa, Glorious Resurrector",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Gisa, Glorious Resurrector",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7ea3ca39f152",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Gisa, the Hellraiser",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Gisa, the Hellraiser",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7438bf6d4d84",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Glamorous Grapplers",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Glamorous Grapplers",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:27a53ffa1d45",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Glasspool Mimic // Glasspool Shore",
+    "cut": "Avengers: Under Siege",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Glasspool Mimic // Glasspool Shore",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0f6bc1101809",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Glasspool Mimic // Glasspool Shore",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Glasspool Mimic // Glasspool Shore",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0e6031f744fe",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Gleeful Arsonist",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Gleeful Arsonist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:83bf14284b4e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Godo, Bandit Warlord",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Godo, Bandit Warlord",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:886f9c17b98a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Golgari Thug",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Golgari Thug",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d8f65863eccd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Graveyard Trespasser // Graveyard Glutton",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Graveyard Trespasser // Graveyard Glutton",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:95239e67b6d3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Graviton, Fundamental Force",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Graviton, Fundamental Force",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:95ec386c88b2",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Greedy Freebooter",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Greedy Freebooter",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:bda1486badba",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Green Goblin, Back for More",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Green Goblin, Back for More",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:05f8571a6f5a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Green Goblin, Revenant",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Green Goblin, Revenant",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:df3c9383d721",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Grim Haruspex",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Grim Haruspex",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:2b9657cb3b7c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Grim Reaper, Lethal Legionnaire",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Grim Reaper, Lethal Legionnaire",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f41934292304",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Gríma, Saruman's Footman",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Gríma, Saruman's Footman",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:de37c214e790",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Hammerhead, Maggia Boss",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Hammerhead, Maggia Boss",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8d92003fb3cb",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Hawkeye, Avenging Archer",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Hawkeye, Avenging Archer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:64e7c12f97c9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Hell-Bent Raider",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Hell-Bent Raider",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:56739e62d401",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Helmut Zemo, Mastermind",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Helmut Zemo, Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:bcd7b8433746",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Higure, the Still Wind",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Higure, the Still Wind",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:716b44d90cfd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Hullbreaker Horror",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Hullbreaker Horror",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b5b13c42bfaf",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "HYDRA Assault Robot",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=HYDRA Assault Robot",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d1011ce5cfdd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "HYDRA Troopers",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=HYDRA Troopers",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f46c1d003e53",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Hydro-Man, Fluid Felon",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Hydro-Man, Fluid Felon",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5591e71f373b",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Immortus, Master of Eternity",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Immortus, Master of Eternity",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3668b1a1a86f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ingenious Prodigy",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ingenious Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:266ceb825421",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Invisible Stalker",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Invisible Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ffeae50fc042",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Irma, Part-Time Mutant",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Irma, Part-Time Mutant",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d3cefb8570cd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Iron Lad, Young Avenger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Iron Lad, Young Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5ce47062ad8c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Armored Avenger",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Iron Man, Armored Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c1cb6fa29108",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Bleeding Edge",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Iron Man, Bleeding Edge",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:050d3e7a1135",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Master of Machines",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Iron Man, Master of Machines",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:2268e71caafa",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Modern Marvel",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Iron Man, Modern Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a3457ee565b3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Titan of Innovation",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Iron Man, Titan of Innovation",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:1200b8eca982",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Iron Man, Tony Stark",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Iron Man, Tony Stark",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d2bbeb4fdd6f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Izzet Guildmage",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Izzet Guildmage",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e1d20ae81669",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Jack of Hearts, Volatile Hero",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Jack of Hearts, Volatile Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:59490d0071e1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Jacob Frye",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Jacob Frye",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:832799121059",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Jadar, Ghoulcaller of Nephalia",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Jadar, Ghoulcaller of Nephalia",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:2bbe778bb5f9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Jadzi, Steward of Fate // Oracle's Gift",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Jadzi, Steward of Fate // Oracle's Gift",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ec2f6f8caada",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Jaxis, the Troublemaker",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Jaxis, the Troublemaker",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f757cf8370f2",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Jhoira, Weatherlight Corsair",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Jhoira, Weatherlight Corsair",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6900b987cf25",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Jiang Yanggu, Alone",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Jiang Yanggu, Alone",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:bd0769c951a5",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Juri, Master of the Revue",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Juri, Master of the Revue",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:59d0e4af4237",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "K'un-Lun Warrior",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=K'un-Lun Warrior",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ceb09bf57093",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kaervek, the Punisher",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kaervek, the Punisher",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0a7ffe18c8c9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kang the Conqueror",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kang the Conqueror",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8ededadee370",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kefka, Court Mage // Kefka, Ruler of Ruin",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d0fde1eb5da1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kellogg, Dangerous Mind",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kellogg, Dangerous Mind",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:998d08f2fc0e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kid Loki",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kid Loki",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c84e200d5fe8",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Cover of Darkness",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:577384b038b7",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kiki-Jiki, Mirror Breaker",
+    "cut": "Kindred Discovery",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kiki-Jiki, Mirror Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7b7ec052326d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kingpin's Enforcers",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kingpin's Enforcers",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c09e97de14fa",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kingpin, Wilson Fisk",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kingpin, Wilson Fisk",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:93e4d34a18a3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Klaw, Master of Sound",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Klaw, Master of Sound",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e8e9fa0cb826",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Klaw, Sonic Subjugator",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Klaw, Sonic Subjugator",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:606f5500e970",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Krark-Clan Ironworks",
+    "cut": "Avengers: Under Siege",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Krark-Clan Ironworks",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:795996705121",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Krark-Clan Ironworks",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Krark-Clan Ironworks",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f17acd56df14",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kree Sentinel",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kree Sentinel",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7fed9fd2d696",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:95b2a55cd9bf",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Lady Loki, Agent of Chaos",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Lady Loki, Agent of Chaos",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:dcd54edcaeaa",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Lady Octopus, Inspired Inventor",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Lady Octopus, Inspired Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f25a534d3451",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Lagomos, Hand of Hatred",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Lagomos, Hand of Hatred",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6c61663d2ab1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "League Guildmage",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=League Guildmage",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d922fb4c3b4a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Leech Collector // Bloodletting",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Leech Collector // Bloodletting",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:035e2561c6d4",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Leitmotif Composer",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Leitmotif Composer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8cc461e649d9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Living Brain, Mechanical Marvel",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Living Brain, Mechanical Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9de0c8253ae9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Living Laser",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Living Laser",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:4520ced05166",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Living Lies of Loki",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Living Lies of Loki",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:324840949946",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Living Lies of Loki",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Living Lies of Loki",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a4b44e32db3b",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Loki Laufeyson",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Loki Laufeyson",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:644390926974",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Loki, God of Lies",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Loki, God of Lies",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:da3b7dcdebf0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Lord of the Unreal",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Lord of the Unreal",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5fd02e18c36b",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Loyal Apprentice",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Loyal Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a879687564dc",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Luke Cage, Hero for Hire",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Luke Cage, Hero for Hire",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5bc643c2a402",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Lulu, Stern Guardian",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Lulu, Stern Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3764435d2b98",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "M.O.D.O.K., Evil Intellect",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=M.O.D.O.K., Evil Intellect",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:26729f11bc6d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "MACH-1, Swooping Scoundrel",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=MACH-1, Swooping Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:37ec9166d6a2",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Machinesmith Automaton",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Machinesmith Automaton",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:959070dbf9be",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Madame Hydra, Reanimated",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Madame Hydra, Reanimated",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e70b14f740b6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Madame Masque",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Madame Masque",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d724f284a9f0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Magus of the Wheel",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Magus of the Wheel",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d39219b0b91a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Malevolent Hermit // Benevolent Geist",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Malevolent Hermit // Benevolent Geist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9c1fdb268f77",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Marionette Apprentice",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Marionette Apprentice",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5145b9489c9a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Marionette Master",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Marionette Master",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:fd823b811746",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Martyr of Ashes",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Martyr of Ashes",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6f903ffa5f4a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Martyr of Frost",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Martyr of Frost",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:121242dc0d68",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Massacre Girl",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:441da056b02e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl, Known Killer",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Massacre Girl, Known Killer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7173923c19be",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Massacre Girl, Most Wanted",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Massacre Girl, Most Wanted",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5689e9617499",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mathise, Surge Channeler",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mathise, Surge Channeler",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:957a2ad854f9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Matterbending Mage",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Matterbending Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a835da515ad7",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Maximus, Knight Apparent",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Maximus, Knight Apparent",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d2a089975a49",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mechanical Mobster",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mechanical Mobster",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5e9424b14a73",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Meletis Charlatan",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Meletis Charlatan",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ad9758c2a7bf",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Merciless Enforcers",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Merciless Enforcers",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d53c50ff1b63",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mica, Reader of Ruins",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mica, Reader of Ruins",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9c16ca215645",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mindreaver",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mindreaver",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:4644879eff62",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Minotaur, Roxxon CEO",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Minotaur, Roxxon CEO",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:eb35182d4654",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "The Squadron Sinister",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7c3788401c20",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mirror-Mad Phantasm",
+    "cut": "Titan of Littjara",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mirror-Mad Phantasm",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:975f82048368",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mischievous Mystic",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mischievous Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3d0ec73a3d3a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mistblade Shinobi",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mistblade Shinobi",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:935035c87a59",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mister Fantastic, Reed Richards",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mister Fantastic, Reed Richards",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:2b80a5cae1e2",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mob Lookout",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mob Lookout",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e72e371fed67",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Molecule Man",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Molecule Man",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:edb7f160d0dd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Molten Lavamancer",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Molten Lavamancer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:86ad80e61cde",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Molten Man, Inferno Incarnate",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Molten Man, Inferno Incarnate",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:63db09535d65",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Moon-Circuit Hacker",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Moon-Circuit Hacker",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8f274490911a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Moonstone, Harsh Mistress",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Moonstone, Harsh Mistress",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e7134f4ab3fa",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Morbius the Living Vampire",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Morbius the Living Vampire",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8e1e68c17256",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Morlun, Devourer of Spiders",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Morlun, Devourer of Spiders",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f85406136491",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Murmuring Mystic",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Murmuring Mystic",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:749eb7305d5e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Myra the Magnificent",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Myra the Magnificent",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:dfa4d376a743",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Mysterious Stranger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Mysterious Stranger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:80452bef0af2",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Namor the Sub-Mariner",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Namor the Sub-Mariner",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e5e39b4b86aa",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Namor, Scourge of the Seas",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Namor, Scourge of the Seas",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3033fe80a7e1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Naru Meha, Master Wizard",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Naru Meha, Master Wizard",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:48fcc699bee0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ninja of the Deep Hours",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ninja of the Deep Hours",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:602ae904a3b6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ninja of the Hand",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ninja of the Hand",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:be5fe7729177",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Nivix Guildmage",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Nivix Guildmage",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:28fda7a373df",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Avengers: Under Siege",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b3685b04618c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Omarthis, Ghostfire Initiate",
+    "cut": "Thunderbolts Conspiracy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Omarthis, Ghostfire Initiate",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f1627defee68",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ophiomancer",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ophiomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c4e216388815",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Orthion, Hero of Lavabrink",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Orthion, Hero of Lavabrink",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:aa11b0d4afe2",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Otepec Huntmaster",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Otepec Huntmaster",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:96aba0814170",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ozai, the Phoenix King",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ozai, the Phoenix King",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f08b4022e6a0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Phantasmal Image",
+    "cut": "Avengers: Under Siege",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Phantasmal Image",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:37a90fe4d91e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Phantasmal Image",
+    "cut": "Thunderbolts Conspiracy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Phantasmal Image",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8cf2c8af0173",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Pharaoh Rama-Tut",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Pharaoh Rama-Tut",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:2bce587667af",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Photon, Mighty Marvel",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Photon, Mighty Marvel",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:504c270a3409",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Altar",
+    "cut": "Avengers: Under Siege",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Phyrexian Altar",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:04976136beb9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Phyrexian Altar",
+    "cut": "Thunderbolts Conspiracy",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Phyrexian Altar",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c8ca129bee81",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Pia, Determined Rebuilder",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Pia, Determined Rebuilder",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:13fc44e2bb22",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Piper of the Swarm",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Piper of the Swarm",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ea52c9b04123",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Pitiless Plunderer",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Pitiless Plunderer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8b9999a0dfb6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Plaguecrafter",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Plaguecrafter",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3a247b3dbff6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Pol Jamaar, Illusionist",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Pol Jamaar, Illusionist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f51d44b99c22",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Popular Egotist",
+    "cut": "Deflecting Swat",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Popular Egotist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:74abacdcf8f4",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Priest of Forgotten Gods",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Priest of Forgotten Gods",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:cb5967bec660",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Professional Face-Breaker",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Professional Face-Breaker",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c687dd610c96",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Proft, Sinister Mastermind",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Proft, Sinister Mastermind",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9551f21285ab",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Prosperous Thief",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Prosperous Thief",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:2ffa7c07f164",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Protean Thaumaturge",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Protean Thaumaturge",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:adc913d21922",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Puppet Master, String Puller",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Puppet Master, String Puller",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:fbf65fc5f209",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Radiant Performer",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Radiant Performer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6a7fbcc1c0d4",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Radioactive Man",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Radioactive Man",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5cefcc7cc527",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Rebel Informer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Rebel Informer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8b5c225f41d8",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Red Hulk",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Red Hulk",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8a5f5274ef24",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Red Room Recruit",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Red Room Recruit",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5627f82712c8",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Reiterate",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Reiterate",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:792068e97c26",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Cover of Darkness",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:4e633cc529dd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Repercussion",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Repercussion",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8a8a6880b2f1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Rev, Tithe Extractor",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Rev, Tithe Extractor",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:56522d5a8fd0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Rikku, Resourceful Guardian",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Rikku, Resourceful Guardian",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:bc7b3ab4170c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Rionya, Fire Dancer",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Rionya, Fire Dancer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:880a403070be",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ronin Cliffrider",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ronin Cliffrider",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d331cc24d23c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ronin, Shadow Stalker",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ronin, Shadow Stalker",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3fb616a1d94b",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Roxxon Brutes",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Roxxon Brutes",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0b8f9c01e8f5",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ruthless Technomancer",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ruthless Technomancer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e951ed63a74a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Saheeli, Jewel of Avishkar",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Saheeli, Jewel of Avishkar",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:24bcda4a6aad",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Sai, Master Thopterist",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Sai, Master Thopterist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:449bc20599c9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Sakashima of a Thousand Faces",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Sakashima of a Thousand Faces",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:efbbaacd74f3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Sakashima the Impostor",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Sakashima the Impostor",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:bbb90b5b2140",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Sakashima's Student",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Sakashima's Student",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9138c36bfb71",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Samut, Hazoret's Champion",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Samut, Hazoret's Champion",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:985a2df05e35",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Sarkhan, Soul Aflame",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Sarkhan, Soul Aflame",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7fd920e0723e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Satoru, the Infiltrator",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Satoru, the Infiltrator",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3261e8d6f421",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Scientist Supreme of A.I.M.",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Scientist Supreme of A.I.M.",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a719e679d6c9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Scorpion, Seething Striker",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Scorpion, Seething Striker",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:73f72860460c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Sea Gate Stormcaller",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Sea Gate Stormcaller",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:fc74b45eaba4",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Sedgemoor Witch",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Sedgemoor Witch",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7ba04793a84e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Sengir Autocrat",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Sengir Autocrat",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:79fc7af60959",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:114118b0a701",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Servant of the Stinger",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Servant of the Stinger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:cb48fe6a3498",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Shadow-Rite Priest",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Shadow-Rite Priest",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9e299344548f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Shadowborn Apostle",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Shadowborn Apostle",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9293cb1baade",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Shadowheart, Dark Justiciar",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Shadowheart, Dark Justiciar",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7529b410305d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Shaun, Father of Synths",
+    "cut": "Toxic Deluge",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Shaun, Father of Synths",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a55a0517dc0b",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Shocker, Unshakable",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Shocker, Unshakable",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0c84519aa8af",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Shuri, Wakandan Inventor",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Shuri, Wakandan Inventor",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:216db37ffcc9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Silumgar Sorcerer",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Silumgar Sorcerer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9122278f324a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Songbird, Sonic Screamer",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Songbird, Sonic Screamer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8465505a170d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Species Specialist",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Species Specialist",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d84735a94822",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Hometown Hero",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Spider-Man, Hometown Hero",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d01095a77e45",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Spider-Man, Web-Spinner",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Spider-Man, Web-Spinner",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:02ee019aa1a9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Spider-Punk",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Spider-Punk",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8deac3d30987",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Stark Industries Executive",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Stark Industries Executive",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:59efbdece35f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Stature, Size Shifter",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Stature, Size Shifter",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:059e9391581f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Stella Lee, Wild Card",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Stella Lee, Wild Card",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e5098515d400",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Stingcaster Mage",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Stingcaster Mage",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:cf81ce3a7264",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Stormfist Crusader",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Stormfist Crusader",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:686230448085",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Super-Adaptoid",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Super-Adaptoid",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e6f12e17e2ad",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Superior Foes of Spider-Man",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Superior Foes of Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:be2f836b24be",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Superior Spider-Man",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Superior Spider-Man",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f502c81914a1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Swarm, Being of Bees",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Swarm, Being of Bees",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:938f5f688422",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Swordsman, Sharp Scoundrel",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Swordsman, Sharp Scoundrel",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ffc2cbfbc810",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Symbiote Spawn",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Symbiote Spawn",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:42773b9eb321",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Symmetry Sage",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Symmetry Sage",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:795ecbbf3526",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Syr Konrad, the Grim",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Syr Konrad, the Grim",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:562811c41a98",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Fugitive",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Tetsuko Umezawa, Fugitive",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b1f2942b3a19",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Tetsuko Umezawa, Pursuer",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Tetsuko Umezawa, Pursuer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f64aecac3614",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Thanos, Death's Consort",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Thanos, Death's Consort",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0db84f38b8b0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Blue Spirit",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Blue Spirit",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c964ae544812",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Frightful Four",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Frightful Four",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5753580ab4de",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Immortal Weapons",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Immortal Weapons",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:4320ec5f9dfe",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:592a60383bdd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Locust God",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Locust God",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5f4e949ca2d0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Lord of Pain",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Lord of Pain",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:334775410174",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Master of Lake-town",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Master of Lake-town",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:96349875fe56",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Masters of Evil",
+    "cut": "Demonic Tutor",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Masters of Evil",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:cbf1d7216221",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Ruinous Wrecking Crew",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Ruinous Wrecking Crew",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:160d936481da",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Wasp, Winsome Avenger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Wasp, Winsome Avenger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:13912d3d92e0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Watcher in the Water",
+    "cut": "Rhystic Study",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Watcher in the Water",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7ebf2f802902",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Watcher in the Water",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Watcher in the Water",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:052c2dab25e9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "The Whizzer, Classic Speedster",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=The Whizzer, Classic Speedster",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5d7c5109f5c6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "Avengers: Under Siege",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Thermopod",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:94afcd05860a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Thermopod",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Thermopod",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b55f250292fa",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Third Path Iconoclast",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Third Path Iconoclast",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9d241bb74d8d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Thousand-Faced Shadow",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Thousand-Faced Shadow",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:4cbe9d776a5e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Tidespout Tyrant",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Tidespout Tyrant",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8169990e4989",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Tiger Shark, Abyssal Hunter",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Tiger Shark, Abyssal Hunter",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:5c8dedf0474f",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Titania, Proud Pummeler",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Titania, Proud Pummeler",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:efb2ef767dbe",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Titanium Man",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Titanium Man",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:387f9096cd1a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Tony Stark // The Invincible Iron Man",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Tony Stark // The Invincible Iron Man",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c010ab5365cd",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Toralf, God of Fury // Toralf's Hammer",
+    "cut": "Cyclonic Rift",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Toralf, God of Fury // Toralf's Hammer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e2bf440903b5",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Tri-Sentinel, Act of Vengeance",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Tri-Sentinel, Act of Vengeance",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8586ea6a5819",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "TVA Bureaucrat",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=TVA Bureaucrat",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a58ff66c04b6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Typhoid Mary, Fractured",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Typhoid Mary, Fractured",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d4ae5c2eaba3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ultimo, Civilization's End",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ultimo, Civilization's End",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b9c479fdbeba",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ultron Drone",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ultron Drone",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:9b92df012de3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ultron the Annihilator",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ultron the Annihilator",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:db20b18f06c3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ultron's Auxiliary",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ultron's Auxiliary",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0188b8bbe32b",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ultron, Artificial Malevolence",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ultron, Artificial Malevolence",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d4b61516f374",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Ultron, Machine Overlord",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Ultron, Machine Overlord",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:04f8001f5181",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Umbral Collar Zealot",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Umbral Collar Zealot",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:fa695ba7de34",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Undead Hand Ninja",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Undead Hand Ninja",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ca1f4ae7c6c1",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Unliving Legionnaire",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Unliving Legionnaire",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e09b6e93c8f6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Urza, Lord High Artificer",
+    "cut": "The Soul Stone",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Urza, Lord High Artificer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:b663d9c99839",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Valentina Allegra de Fontaine",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Valentina Allegra de Fontaine",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:012465791b87",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Variable Chaser // Arc of Fortune",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Variable Chaser // Arc of Fortune",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:11901bfdd458",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Venom, Evil Unleashed",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Venom, Evil Unleashed",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:bbdda2631c9e",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Venomized Cat",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Venomized Cat",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:ec9eb6b99358",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Venser, Fervent Forger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Venser, Fervent Forger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:883a140e7f7d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Victor Timely, Wily Tycoon",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Victor Timely, Wily Tycoon",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:27409533e839",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Viper, Cruel Conspirator",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Viper, Cruel Conspirator",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:2121abf994cc",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Voidmage Prodigy",
+    "cut": "Mana Drain",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Voidmage Prodigy",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:0c9704473ee0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Volcanic Villain",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Volcanic Villain",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:a17773b44f18",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Vulture, Feathered Fiend",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Vulture, Feathered Fiend",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:31a91e6cb18d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Vulture, Scheming Scavenger",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Vulture, Scheming Scavenger",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:265b2e67d9d0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "War Machine, Avenging Arsenal",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=War Machine, Avenging Arsenal",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:6949849053a9",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Wasp, Shrinking Savior",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Wasp, Shrinking Savior",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:1cbe9e096032",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Whiplash, Vengeful Engineer",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Whiplash, Vengeful Engineer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:d62787be539d",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Whirler Rogue",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Whirler Rogue",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:29ec5340b1f8",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Whirlwind, Killer Cyclone",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Whirlwind, Killer Cyclone",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:c08d0609c76a",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "White Widow, Yelena Belova",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=White Widow, Yelena Belova",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:1765cf2c02e8",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Winter, Tormented Loner",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Winter, Tormented Loner",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:e409143fcef6",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Witch of the Moors",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Witch of the Moors",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:8123dd71f284",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Yawgmoth, Thran Physician",
+    "cut": "Venom, Eddie Brock",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Yawgmoth, Thran Physician",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:85d34f1f46b3",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Yellowjacket, Heartless Marauder",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Yellowjacket, Heartless Marauder",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:f55a68326d29",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Young Pyromancer",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Young Pyromancer",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:45cce8171deb",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Yuriko, the Tiger's Shadow",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Yuriko, the Tiger's Shadow",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:3b20b5e2b0b0",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Zealous Conscripts",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Zealous Conscripts",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:7d6e29545cea",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   },
+   {
+    "add": "Zulaport Cutthroat",
+    "cut": "Loki, Lord of Misrule",
+    "evidence": [
+     "m5_candidate:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#card=Zulaport Cutthroat",
+     "m5_swap:data/grixis/birthday_m5/regen/loki-the-deceiver.json.gz#id=swap:loki-the-deceiver:m5:bb78f535d31c",
+     "blueprint:data/grixis/blueprints/loki-the-deceiver.json"
+    ]
+   }
+  ]
+ },
+ "schema_version": 1,
+ "scope": "Unreconciled first-pass evidence; not a deck decision.",
+ "side": "A"
+}
